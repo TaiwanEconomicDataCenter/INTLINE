@@ -1,0 +1,220 @@
+﻿2021-12-30 01:22:28 PM Checking Identities: 2854 s
+
+2021-12-30 01:22:28 PM Index A112ONSK222.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK222.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK224.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK224.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK22A.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK22A.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK22B.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK22B.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK23G.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK23G.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24Q.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24Q.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24R.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24R.A unit: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24S.A desc_e: base updated
+2021-12-30 01:22:28 PM Index A112ONSK24S.A unit: base updated
+2021-12-30 01:22:28 PM Index A132IRLTLT01FR.A desc_e updated
+2021-12-30 01:22:29 PM Index D111DJCA.D desc_e updated
+2021-12-30 01:22:29 PM Index D111DJIA.D desc_e updated
+2021-12-30 01:22:29 PM Index D111DJTA.D desc_e updated
+2021-12-30 01:22:29 PM Index D111DJUA.D desc_e updated
+2021-12-30 01:22:29 PM Index D111NASDAQ100.D desc_e updated
+2021-12-30 01:22:29 PM Index D111NASDAQCOM.D desc_e updated
+2021-12-30 01:22:29 PM Index D111SP500.D desc_e updated
+2021-12-30 01:22:29 PM Index M111CPF1M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111CPF2M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 60-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111CPF3M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 90-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111CPN1M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111CPN2M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 60-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111CPN3M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 90-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111FEDFUNDS.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Effective Federal Funds Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of daily figures. nan For additional historical federal funds rate data, please see Daily Federal Funds Rate from 1928-1954 (https://fred.stlouisfed.org/categories/33951). (2)The federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. When a depository institution has surplus balances in its reserve account, it lends to other banks in need of larger balances. In simpler terms, a bank with excess cash, which is often referred to as liquidity, will lend to another bank that needs to quickly raise liquidity. (1) The rate that the borrowing institution pays to the lending institution is determined between the two banks; the weighted average rate for all of these types of negotiations is called the effective federal funds rate.(2) The effective federal funds rate is essentially determined by the market but is influenced by the Federal Reserve through open market operations to reach the federal funds rate target.(2) The Federal Open Market Committee (FOMC) meets eight times a year to determine the federal funds target rate. As previously stated, this rate influences the effective federal funds rate through open market operations or by buying and selling of government bonds (government debt).(2) More specifically, the Federal Reserve decreases liquidity by selling government bonds, thereby raising the federal funds rate because banks have less liquidity to trade with other banks. (3)Similarly, the Federal Reserve can increase liquidity by buying government bonds, decreasing the federal funds rate because banks have excess liquidity for trade. Whether the Federal Reserve wants to buy or sell bonds depends on the state of the economy. If the FOMC believes the economy is growing too fast and inflation pressures are inconsistent with the dual mandate of the Federal Reserve, the Committee may set a higher federal funds rate target to temper economic activity. In the opposing scenario, the FOMC may set a lower federal funds rate target to spur greater economic activity. (4)Therefore, the FOMC must observe the current state of the economy to determine the best course of monetary policy that will maximize economic growth while adhering to the dual mandate set forth by Congress. In making its monetary policy decisions, the FOMC considers a wealth of economic data, such as: trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets. (5)The federal funds rate is the central interest rate in the U.S. (6)financial market. It influences other interest rates such as the prime rate, which is the rate banks charge their customers with higher credit ratings. Additionally, the federal funds rate indirectly influences longer- term interest rates such as mortgages, loans, and savings, all of which are very important to consumer wealth and confidence.(2) References (1) Federal Reserve Bank of New York. Federal funds. Fedpoints, August 2007. (7)(2) Board of Governors of the Federal Reserve System. Monetary Policy (http://www.federalreserve.gov/monetarypolicy/default.htm).
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Federal Funds Effective Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of daily figures. For additional historical federal funds rate data, please see Daily Federal Funds Rate from 1928-1954 (https://fred.stlouisfed.org/categories/33951). (2)The federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. When a depository institution has surplus balances in its reserve account, it lends to other banks in need of larger balances. In simpler terms, a bank with excess cash, which is often referred to as liquidity, will lend to another bank that needs to quickly raise liquidity. (1) The rate that the borrowing institution pays to the lending institution is determined between the two banks; the weighted average rate for all of these types of negotiations is called the effective federal funds rate.(2) The effective federal funds rate is essentially determined by the market but is influenced by the Federal Reserve through open market operations to reach the federal funds rate target.(2) The Federal Open Market Committee (FOMC) meets eight times a year to determine the federal funds target rate. As previously stated, this rate influences the effective federal funds rate through open market operations or by buying and selling of government bonds (government debt).(2) More specifically, the Federal Reserve decreases liquidity by selling government bonds, thereby raising the federal funds rate because banks have less liquidity to trade with other banks. (3)Similarly, the Federal Reserve can increase liquidity by buying government bonds, decreasing the federal funds rate because banks have excess liquidity for trade. Whether the Federal Reserve wants to buy or sell bonds depends on the state of the economy. If the FOMC believes the economy is growing too fast and inflation pressures are inconsistent with the dual mandate of the Federal Reserve, the Committee may set a higher federal funds rate target to temper economic activity. In the opposing scenario, the FOMC may set a lower federal funds rate target to spur greater economic activity. (4)Therefore, the FOMC must observe the current state of the economy to determine the best course of monetary policy that will maximize economic growth while adhering to the dual mandate set forth by Congress. In making its monetary policy decisions, the FOMC considers a wealth of economic data, such as: trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets. (5)The federal funds rate is the central interest rate in the U.S. (6)financial market. It influences other interest rates such as the prime rate, which is the rate banks charge their customers with higher credit ratings. Additionally, the federal funds rate indirectly influences longer- term interest rates such as mortgages, loans, and savings, all of which are very important to consumer wealth and confidence.(2) References (1) Federal Reserve Bank of New York. Federal funds. Fedpoints, August 2007. (7)(2) Board of Governors of the Federal Reserve System. Monetary Policy (http://www.federalreserve.gov/monetarypolicy/default.htm).
+2021-12-30 01:22:29 PM Index M111FII10.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 10-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111FII20.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 20-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111FII30.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111FII5.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 5-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111FII7.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 7-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS1.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 1-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS10.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 10-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to the Board of Governors (http://www.federalreserve.gov/releases/h15/current/h15.pdf) and the Treasury (http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx).
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to the Board of Governors (http://www.federalreserve.gov/releases/h15/current/h15.pdf) and the Treasury (http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx).
+2021-12-30 01:22:29 PM Index M111GS1M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS2.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS20.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 20-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For information on the break in this series from January 1987 through September 1993, please refer to information available at http://www.federalreserve.gov/releases/h15/data.htm. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For information on the break in this series from January 1987 through September 1993, please refer to information available at http://www.federalreserve.gov/releases/h15/data.htm. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS3.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 3-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS30.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Yields on actively traded non-inflation-indexed issues adjusted to constant maturities. The 30-year Treasury constant maturity series was discontinued on February 18, 2002, and reintroduced on February 9, 2006. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Yields on actively traded non-inflation-indexed issues adjusted to constant maturities. The 30-year Treasury constant maturity series was discontinued on February 18, 2002, and reintroduced on February 9, 2006. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS3M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS5.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 5-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS6M.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 6-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111GS7.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 7-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2021-12-30 01:22:29 PM Index M111LTIIT.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Treasury Inflation-Indexed Long-Term Average Yield, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Treasury Long-Term Average (Over 10 Years),Inflation-Indexed, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.
+2021-12-30 01:22:29 PM Index M111MED1.M desc_e updated
+2021-12-30 01:22:29 PM Index M111MED3.M desc_e updated
+2021-12-30 01:22:29 PM Index M111MED6.M desc_e updated
+2021-12-30 01:22:29 PM Index M111MPCREDIT.M desc_e updated
+2021-12-30 01:22:29 PM Index M111TB1YR.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111TB3MS.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M111TB4WK.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 4-Week Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Discount basis.
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 4-Week Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Discount basis.
+2021-12-30 01:22:29 PM Index M111TB6MS.M desc_e inconsistent
+2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
+2021-12-30 01:22:29 PM Index M112ONSEAPT.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPT.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPU.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPU.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPV.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPV.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPW.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPW.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPX.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPX.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPY.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSEAPY.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5C4.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5C4.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5DZ.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5DZ.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5EK.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSJ5EK.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK222.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK222.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK224.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK224.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK22A.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK22A.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK22B.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK22B.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK23G.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK23G.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK23T.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK23T.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24Q.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24Q.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24R.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24R.M unit: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24S.M desc_e: base updated
+2021-12-30 01:22:29 PM Index M112ONSK24S.M unit: base updated
+2021-12-30 01:22:29 PM Index M112SACRMISMEI.M desc_e updated
+2021-12-30 01:22:29 PM Index M132IRLTLT01FR.M desc_e updated
+2021-12-30 01:22:30 PM Index M134EUR3MTD156.M desc_e updated
+2021-12-30 01:22:31 PM Index M144SWESACRMIS.M desc_e updated
+2021-12-30 01:22:31 PM Index M158XTEXVA01JP.M desc_e updated
+2021-12-30 01:22:31 PM Index M158XTIMVA01JP.M desc_e updated
+2021-12-30 01:22:31 PM Index M158XTNTVA01JP.M desc_e updated
+2021-12-30 01:22:31 PM Index M193CSCICP03AU.M desc_e updated
+2021-12-30 01:22:32 PM Index M532HKCQS0001.M desc_e: base updated
+2021-12-30 01:22:32 PM Index M532HKCQS0001.M unit: base updated
+2021-12-30 01:22:32 PM Index M532HKCVS0001.M desc_e: base updated
+2021-12-30 01:22:32 PM Index M532HKCVS0001.M unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0002.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0002.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0009.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0009.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0013.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSCO0013.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK222.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK222.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK224.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK224.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK22A.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK22A.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK22B.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK22B.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK23G.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK23G.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24Q.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24Q.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24R.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24R.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24S.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSK24S.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC001.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC001.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC002.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC002.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC003.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC003.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC004.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC004.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC005.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC005.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC006.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC006.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC007.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC007.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC008.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC008.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC009.Q desc_e: base updated
+2021-12-30 01:22:32 PM Index Q112ONSOC009.Q unit: base updated
+2021-12-30 01:22:32 PM Index Q112QGBN628BIS.Q desc_e updated
+2021-12-30 01:22:33 PM unknown: 0
+2021-12-30 01:22:33 PM name too long: 0
+2021-12-30 01:22:33 PM inconsistent: 28
+2021-12-30 01:22:33 PM Total desc_e inconsistent: 28
+2021-12-30 01:22:33 PM Total country inconsistent: 0
+2021-12-30 01:22:33 PM Total freq inconsistent: 0
+2021-12-30 01:22:33 PM Total unit inconsistent: 0
+2021-12-30 01:22:33 PM Total type inconsistent: 0
+2021-12-30 01:22:33 PM Total source inconsistent: 0
+2021-12-30 01:22:33 PM Total form_e inconsistent: 0
+2021-12-30 01:22:33 PM Total form_c inconsistent: 0
+2021-12-30 01:22:33 PM inconsistent earliest: 1934
+2021-12-30 01:22:33 PM base updated: 48
+2021-12-30 01:22:33 PM data updated: 7426
+2021-12-30 01:22:33 PM including weekly: True
+2021-12-30 01:22:33 PM including daily: True
+2021-12-30 01:22:33 PM too many months: True

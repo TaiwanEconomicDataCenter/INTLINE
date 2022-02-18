@@ -1,0 +1,37 @@
+﻿2021-12-29 11:06:09 PM excel_suffix: TOT202201
+
+2021-12-29 11:06:09 PM data_processing: False
+
+2021-12-29 11:06:09 PM find_unknown: False
+
+2021-12-29 11:06:09 PM dealing_start_year: 1901
+
+2021-12-29 11:06:44 PM Process: File Updating
+
+2021-12-29 11:06:44 PM Reading main key: ASIA_keyUP.xlsx, Time: 35 s
+
+2021-12-29 11:06:45 PM Reading main database: ASIA_databaseUP.xlsx, Time: 36 s
+
+2021-12-29 11:07:33 PM Reading original key: ASIA_keyTOT202110.xlsx, Time: 84 s
+
+2021-12-29 11:07:35 PM Reading original database: ASIA_databaseTOT202110, Time: 86 s
+
+2021-12-29 11:08:34 PM Updating file: 0 s
+
+2021-12-29 11:34:16 PM updated: 2127
+
+2021-12-29 11:55:33 PM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
+0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  Japan National Statistics, National Accounts, ...  ...                              Currency and Deposits     1            Bank of Japan                   National Accounts  Not Seasonally Adjusted
+1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  Japan National Statistics, National Accounts, ...  ...         Equity and Investment Fund Shares or Units     2            Bank of Japan                   National Accounts  Not Seasonally Adjusted
+2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  Japan National Statistics, National Accounts, ...  ...  Insurance, Pension and Standardised Guarantee ...     3            Bank of Japan                   National Accounts  Not Seasonally Adjusted
+3        ASIA  A158BOJFOF29.A  DB_A_0001  data004  Japan National Statistics, National Accounts, ...  ...                  Other Accounts Receivable/Payable     4            Bank of Japan                   National Accounts  Not Seasonally Adjusted
+4        ASIA   A158BOJFOF9.A  DB_A_0001  data005  Japan National Statistics, National Accounts, ...  ...                                    Debt Securities     5            Bank of Japan                   National Accounts  Not Seasonally Adjusted
+...       ...             ...        ...      ...                                                ...  ...                                                ...   ...                      ...                                 ...                      ...
+3209     ASIA       W576STI.W  DB_W_0001  data010  Singapore Share Prices and Stock Indexes, Stra...  ...                   Straits Times Index, Close Price  3210       Singapore Exchange            Singapore Stock Exchange  Not Seasonally Adjusted
+3210     ASIA      W924SSEA.W  DB_W_0001  data011  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, A Share In...  3211  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3211     ASIA      W924SSEB.W  DB_W_0001  data012  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, B Share In...  3212  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3212     ASIA     W924SZSEA.W  DB_W_0001  data013  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, A Share In...  3213   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+3213     ASIA     W924SZSEB.W  DB_W_0001  data014  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, B Share In...  3214   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+
+[3214 rows x 15 columns]
+2021-12-29 11:55:33 PM Total Items: 3214

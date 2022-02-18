@@ -1,0 +1,37 @@
+﻿2021-12-30 01:32:28 PM excel_suffix: TOT202201
+
+2021-12-30 01:32:28 PM data_processing: False
+
+2021-12-30 01:32:28 PM find_unknown: False
+
+2021-12-30 01:32:28 PM dealing_start_year: 1901
+
+2021-12-30 01:32:49 PM Process: File Updating
+
+2021-12-30 01:32:49 PM Reading main key: INTLINE_keyUP.xlsx, Time: 21 s
+
+2021-12-30 01:32:51 PM Reading main database: INTLINE_databaseUP.xlsx, Time: 22 s
+
+2021-12-30 01:33:58 PM Reading original key: INTLINE_keyTOT202112.xlsx, Time: 90 s
+
+2021-12-30 01:34:00 PM Reading original database: INTLINE_databaseTOT202112, Time: 92 s
+
+2021-12-30 01:34:35 PM Updating file: 0 s
+
+2021-12-30 02:06:13 PM updated: 7477
+
+2021-12-30 02:13:27 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
+0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
+1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
+2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
+4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
+13659  INTLINE     W576STI.W  DB_W_0001  data025  ...  13660           Singapore Exchange                           Singapore Stock Exchange  Not Seasonally Adjusted
+13660  INTLINE    W924SSEA.W  DB_W_0001  data026  ...  13661      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+13661  INTLINE    W924SSEB.W  DB_W_0001  data027  ...  13662      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+13662  INTLINE   W924SZSEA.W  DB_W_0001  data028  ...  13663       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+13663  INTLINE   W924SZSEB.W  DB_W_0001  data029  ...  13664       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+
+[13664 rows x 15 columns]
+2021-12-30 02:13:28 PM Total Items: 13664
