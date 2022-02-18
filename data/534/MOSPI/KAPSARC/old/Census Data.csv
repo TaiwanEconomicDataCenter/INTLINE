@@ -1,0 +1,402 @@
+FREQUENCY;DATE;REGION_ID;REGION_NAME;REGION_NOTES;VARIABLE_NAME;VALUE;VARIABLE_ID
+Annual;2001;IN-KA;Karnataka;;Decennial Population by Census;52850562.0;KN.DN.PP.CC
+Annual;1991;IN-KL;Kerala;;Decennial Population by Census;29098518.0;KN.DN.PP.CC
+Annual;2001;IN-KL;Kerala;;Decennial Population by Census;31841374.0;KN.DN.PP.CC
+Annual;1911;IN-MP;Madhya Pradesh;;Decennial Population by Census;19440965.0;KN.DN.PP.CC
+Annual;1971;IN-MP;Madhya Pradesh;;Decennial Population by Census;41654119.0;KN.DN.PP.CC
+Annual;2001;IN-MP;Madhya Pradesh;;Decennial Population by Census;60348023.0;KN.DN.PP.CC
+Annual;1971;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;1072753.0;KN.DN.PP.CC
+Annual;1941;IN-ML;Meghalaya;;Decennial Population by Census;555820.0;KN.DN.PP.CC
+Annual;1911;IN-PB;Punjab;;Decennial Population by Census;6731510.0;KN.DN.PP.CC
+Annual;1921;IN-PB;Punjab;;Decennial Population by Census;7152811.0;KN.DN.PP.CC
+Annual;1921;IN-RJ;Rajasthan;;Decennial Population by Census;10292648.0;KN.DN.PP.CC
+Annual;1941;IN-TN;Tamil Nadu;;Decennial Population by Census;26267507.0;KN.DN.PP.CC
+Annual;1971;IN-TN;Tamil Nadu;;Decennial Population by Census;41199168.0;KN.DN.PP.CC
+Annual;1981;IN-TN;Tamil Nadu;;Decennial Population by Census;48408077.0;KN.DN.PP.CC
+Annual;1911;IN-WB;West Bengal;;Decennial Population by Census;17998769.0;KN.DN.PP.CC
+Annual;1951;IN-WB;West Bengal;;Decennial Population by Census;26299980.0;KN.DN.PP.CC
+Annual;1931;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;29463.0;KN.DN.PP.CC
+Annual;1971;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;115133.0;KN.DN.PP.CC
+Annual;1991;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;280661.0;KN.DN.PP.CC
+Annual;1921;IN-CH;Chandigarh;;Decennial Population by Census;18133.0;KN.DN.PP.CC
+Annual;1921;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;31048.0;KN.DN.PP.CC
+Annual;1931;IN-DD;Daman & Diu;;Decennial Population by Census;36429.0;KN.DN.PP.CC
+Annual;1951;IN-DD;Daman & Diu;;Decennial Population by Census;48611.0;KN.DN.PP.CC
+Annual;1911;IN-LD;Lakshadweep;;Decennial Population by Census;14555.0;KN.DN.PP.CC
+Annual;1981;IN-LD;Lakshadweep;;Decennial Population by Census;40249.0;KN.DN.PP.CC
+Annual;1901;IN-PB;Punjab;;Decennial Population by Census;7544790.0;KN.DN.PP.CC
+Annual;1961;IN-RJ;Rajasthan;;Decennial Population by Census;20155602.0;KN.DN.PP.CC
+Annual;1911;IN-KA;Karnataka;;Decennial Population by Census;13525251.0;KN.DN.PP.CC
+Annual;1921;IN-KL;Kerala;;Decennial Population by Census;7802127.0;KN.DN.PP.CC
+Annual;1971;IN-KL;Kerala;;Decennial Population by Census;21347375.0;KN.DN.PP.CC
+Annual;1921;IN-MH;Maharashtra;;Decennial Population by Census;20849666.0;KN.DN.PP.CC
+Annual;1901;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;284465.0;KN.DN.PP.CC
+Annual;1921;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;384016.0;KN.DN.PP.CC
+Annual;1941;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;512069.0;KN.DN.PP.CC
+Annual;1901;IN-MZ;Mizoram;;Decennial Population by Census;82434.0;KN.DN.PP.CC
+Annual;1961;IN-MZ;Mizoram;;Decennial Population by Census;266063.0;KN.DN.PP.CC
+Annual;1921;IN-NL;Nagaland;;Decennial Population by Census;158801.0;KN.DN.PP.CC
+Annual;1901;IN-OR;Orissa;;Decennial Population by Census;10302917.0;KN.DN.PP.CC
+Annual;1961;IN-OR;Orissa;;Decennial Population by Census;17548846.0;KN.DN.PP.CC
+Annual;2001;IN-OR;Orissa;;Decennial Population by Census;36804660.0;KN.DN.PP.CC
+Annual;1911;IN-SK;Sikkim;;Decennial Population by Census;87920.0;KN.DN.PP.CC
+Annual;1951;IN-SK;Sikkim;;Decennial Population by Census;137725.0;KN.DN.PP.CC
+Annual;1971;IN-SK;Sikkim;;Decennial Population by Census;209843.0;KN.DN.PP.CC
+Annual;1981;IN-TR;Tripura;;Decennial Population by Census;2053058.0;KN.DN.PP.CC
+Annual;1941;KN.IN;India;;Decennial Population by Census;318660580.0;KN.DN.PP.CC
+Annual;1981;KN.IN;India;;Decennial Population by Census;683329097.0;KN.DN.PP.CC
+Annual;1961;IN-AP;Andhra Pradesh;;Decennial Population by Census;35983447.0;KN.DN.PP.CC
+Annual;1961;IN-AR;Arunachal Pradesh;;Decennial Population by Census;336558.0;KN.DN.PP.CC
+Annual;1991;IN-AR;Arunachal Pradesh;;Decennial Population by Census;864558.0;KN.DN.PP.CC
+Annual;1931;IN-AS;Assam;;Decennial Population by Census;5560371.0;KN.DN.PP.CC
+Annual;1951;IN-AS;Assam;;Decennial Population by Census;8028856.0;KN.DN.PP.CC
+Annual;2001;IN-AS;Assam;;Decennial Population by Census;26655528.0;KN.DN.PP.CC
+Annual;2001;IN-BR;Bihar;;Decennial Population by Census;82998509.0;KN.DN.PP.CC
+Annual;1951;IN-GA;Goa;;Decennial Population by Census;547448.0;KN.DN.PP.CC
+Annual;1901;IN-GJ;Gujarat;;Decennial Population by Census;9094748.0;KN.DN.PP.CC
+Annual;1941;IN-GJ;Gujarat;;Decennial Population by Census;13701551.0;KN.DN.PP.CC
+Annual;1981;IN-GJ;Gujarat;;Decennial Population by Census;34085799.0;KN.DN.PP.CC
+Annual;2001;IN-GJ;Gujarat;;Decennial Population by Census;50671017.0;KN.DN.PP.CC
+Annual;1921;IN-HR;Haryana;;Decennial Population by Census;4255892.0;KN.DN.PP.CC
+Annual;1971;IN-HR;Haryana;;Decennial Population by Census;10036431.0;KN.DN.PP.CC
+Annual;1911;IN-HP;Himachal Pradesh;;Decennial Population by Census;1896944.0;KN.DN.PP.CC
+Annual;1931;IN-HP;Himachal Pradesh;;Decennial Population by Census;2029113.0;KN.DN.PP.CC
+Annual;1951;IN-HP;Himachal Pradesh;;Decennial Population by Census;2385981.0;KN.DN.PP.CC
+Annual;1931;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;2670208.0;KN.DN.PP.CC
+Annual;1941;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;2946728.0;KN.DN.PP.CC
+Annual;2001;IN-JH;Jharkhand;;Decennial Population by Census;26945829.0;KN.DN.PP.CC
+Annual;1961;KN.IN;India;;Decennial Population by Census;439234771.0;KN.DN.PP.CC
+Annual;1971;IN-BR;Bihar;;Decennial Population by Census;56353369.0;KN.DN.PP.CC
+Annual;2001;IN-GA;Goa;;Decennial Population by Census;1347668.0;KN.DN.PP.CC
+Annual;1901;IN-HR;Haryana;;Decennial Population by Census;4623064.0;KN.DN.PP.CC
+Annual;1921;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;2424359.0;KN.DN.PP.CC
+Annual;2001;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;10143700.0;KN.DN.PP.CC
+Annual;1961;IN-KL;Kerala;;Decennial Population by Census;16903715.0;KN.DN.PP.CC
+Annual;1901;IN-MP;Madhya Pradesh;;Decennial Population by Census;16860768.0;KN.DN.PP.CC
+Annual;1961;IN-MP;Madhya Pradesh;;Decennial Population by Census;32372408.0;KN.DN.PP.CC
+Annual;1961;IN-ML;Meghalaya;;Decennial Population by Census;769380.0;KN.DN.PP.CC
+Annual;1971;IN-ML;Meghalaya;;Decennial Population by Census;1011699.0;KN.DN.PP.CC
+Annual;2001;IN-NL;Nagaland;;Decennial Population by Census;1990036.0;KN.DN.PP.CC
+Annual;1951;IN-PB;Punjab;;Decennial Population by Census;9160500.0;KN.DN.PP.CC
+Annual;1941;IN-RJ;Rajasthan;;Decennial Population by Census;13863859.0;KN.DN.PP.CC
+Annual;1951;IN-KA;Karnataka;;Decennial Population by Census;19401956.0;KN.DN.PP.CC
+Annual;1981;IN-KA;Karnataka;;Decennial Population by Census;37135714.0;KN.DN.PP.CC
+Annual;1901;IN-MH;Maharashtra;;Decennial Population by Census;19391643.0;KN.DN.PP.CC
+Annual;1911;IN-MH;Maharashtra;;Decennial Population by Census;21474523.0;KN.DN.PP.CC
+Annual;1991;IN-MH;Maharashtra;;Decennial Population by Census;78937187.0;KN.DN.PP.CC
+Annual;1921;KN.IN;India;;Decennial Population by Census;251321213.0;KN.DN.PP.CC
+Annual;1991;IN-GA;Goa;;Decennial Population by Census;1169793.0;KN.DN.PP.CC
+Annual;1961;IN-GJ;Gujarat;;Decennial Population by Census;20633350.0;KN.DN.PP.CC
+Annual;1981;IN-HP;Himachal Pradesh;;Decennial Population by Census;4280818.0;KN.DN.PP.CC
+Annual;1981;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;5987389.0;KN.DN.PP.CC
+Annual;1931;IN-MH;Maharashtra;;Decennial Population by Census;23959300.0;KN.DN.PP.CC
+Annual;1911;IN-ML;Meghalaya;;Decennial Population by Census;394005.0;KN.DN.PP.CC
+Annual;1911;IN-NL;Nagaland;;Decennial Population by Census;149038.0;KN.DN.PP.CC
+Annual;1931;IN-OR;Orissa;;Decennial Population by Census;12491056.0;KN.DN.PP.CC
+Annual;1991;IN-NL;Nagaland;;Decennial Population by Census;1209546.0;KN.DN.PP.CC
+Annual;1991;KN.IN;India;;Decennial Population by Census;846421039.0;KN.DN.PP.CC
+Annual;2001;IN-AP;Andhra Pradesh;;Decennial Population by Census;76210007.0;KN.DN.PP.CC
+Annual;1941;IN-AS;Assam;;Decennial Population by Census;6694790.0;KN.DN.PP.CC
+Annual;1901;IN-BR;Bihar;;Decennial Population by Census;27311865.0;KN.DN.PP.CC
+Annual;1951;IN-BR;Bihar;;Decennial Population by Census;29085017.0;KN.DN.PP.CC
+Annual;1931;IN-NL;Nagaland;;Decennial Population by Census;178844.0;KN.DN.PP.CC
+Annual;1911;IN-OR;Orissa;;Decennial Population by Census;11378875.0;KN.DN.PP.CC
+Annual;1981;IN-PB;Punjab;;Decennial Population by Census;16788915.0;KN.DN.PP.CC
+Annual;1931;IN-RJ;Rajasthan;;Decennial Population by Census;11747974.0;KN.DN.PP.CC
+Annual;1991;IN-RJ;Rajasthan;;Decennial Population by Census;44005990.0;KN.DN.PP.CC
+Annual;1901;IN-TN;Tamil Nadu;;Decennial Population by Census;19252630.0;KN.DN.PP.CC
+Annual;1911;IN-TN;Tamil Nadu;;Decennial Population by Census;20902616.0;KN.DN.PP.CC
+Annual;1921;IN-TN;Tamil Nadu;;Decennial Population by Census;21628518.0;KN.DN.PP.CC
+Annual;1951;IN-TN;Tamil Nadu;;Decennial Population by Census;30119047.0;KN.DN.PP.CC
+Annual;1961;IN-TN;Tamil Nadu;;Decennial Population by Census;33686953.0;KN.DN.PP.CC
+Annual;1991;IN-TN;Tamil Nadu;;Decennial Population by Census;55858946.0;KN.DN.PP.CC
+Annual;1911;IN-TR;Tripura;;Decennial Population by Census;229613.0;KN.DN.PP.CC
+Annual;1901;IN-WB;West Bengal;;Decennial Population by Census;16940088.0;KN.DN.PP.CC
+Annual;1941;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;33768.0;KN.DN.PP.CC
+Annual;1951;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;30971.0;KN.DN.PP.CC
+Annual;1981;IN-CH;Chandigarh;;Decennial Population by Census;451610.0;KN.DN.PP.CC
+Annual;1901;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;24280.0;KN.DN.PP.CC
+Annual;1911;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;29020.0;KN.DN.PP.CC
+Annual;1931;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;38260.0;KN.DN.PP.CC
+Annual;1911;IN-DL;Delhi;;Decennial Population by Census;413851.0;KN.DN.PP.CC
+Annual;1951;IN-DL;Delhi;;Decennial Population by Census;1744072.0;KN.DN.PP.CC
+Annual;1901;IN-LD;Lakshadweep;;Decennial Population by Census;13882.0;KN.DN.PP.CC
+Annual;1921;IN-LD;Lakshadweep;;Decennial Population by Census;13637.0;KN.DN.PP.CC
+Annual;1941;IN-LD;Lakshadweep;;Decennial Population by Census;18355.0;KN.DN.PP.CC
+Annual;1961;IN-LD;Lakshadweep;;Decennial Population by Census;24108.0;KN.DN.PP.CC
+Annual;1911;IN-PY;Pondicherry;;Decennial Population by Census;257179.0;KN.DN.PP.CC
+Annual;1931;IN-PY;Pondicherry;;Decennial Population by Census;258628.0;KN.DN.PP.CC
+Annual;1991;IN-PY;Pondicherry;;Decennial Population by Census;807785.0;KN.DN.PP.CC
+Annual;2011;IN-GA;Goa;;Decennial Population by Census;1458545.0;KN.DN.PP.CC
+Annual;2001;IN-UP;Uttar Pradesh;;Decennial Population by Census;8489349.0;KN.DN.PP.CC
+Annual;1931;IN-UT;Uttarakhand;;Decennial Population by Census;49779552.0;KN.DN.PP.CC
+Annual;1961;IN-UT;Uttarakhand;;Decennial Population by Census;73754573.0;KN.DN.PP.CC
+Annual;1921;IN-PY;Pondicherry;;Decennial Population by Census;244156.0;KN.DN.PP.CC
+Annual;2011;IN-HP;Himachal Pradesh;;Decennial Population by Census;6864602.0;KN.DN.PP.CC
+Annual;1971;IN-UT;Uttarakhand;;Decennial Population by Census;88341521.0;KN.DN.PP.CC
+Annual;2011;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;380581.0;KN.DN.PP.CC
+Annual;1901;IN-PY;Pondicherry;;Decennial Population by Census;246354.0;KN.DN.PP.CC
+Annual;1921;IN-UT;Uttarakhand;;Decennial Population by Census;46672411.0;KN.DN.PP.CC
+Annual;1911;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;346222.0;KN.DN.PP.CC
+Annual;1991;IN-ML;Meghalaya;;Decennial Population by Census;1774778.0;KN.DN.PP.CC
+Annual;1951;IN-MZ;Mizoram;;Decennial Population by Census;196202.0;KN.DN.PP.CC
+Annual;1961;IN-NL;Nagaland;;Decennial Population by Census;369200.0;KN.DN.PP.CC
+Annual;1971;IN-NL;Nagaland;;Decennial Population by Census;516449.0;KN.DN.PP.CC
+Annual;1981;IN-NL;Nagaland;;Decennial Population by Census;774930.0;KN.DN.PP.CC
+Annual;1941;IN-PY;Pondicherry;;Decennial Population by Census;285011.0;KN.DN.PP.CC
+Annual;1981;IN-PY;Pondicherry;;Decennial Population by Census;604471.0;KN.DN.PP.CC
+Annual;2011;IN-AP;Andhra Pradesh;;Decennial Population by Census;84580777.0;KN.DN.PP.CC
+Annual;2011;IN-AR;Arunachal Pradesh;;Decennial Population by Census;1383727.0;KN.DN.PP.CC
+Annual;2011;IN-BR;Bihar;;Decennial Population by Census;104099452.0;KN.DN.PP.CC
+Annual;2011;IN-HR;Haryana;;Decennial Population by Census;25351462.0;KN.DN.PP.CC
+Annual;2011;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;12541302.0;KN.DN.PP.CC
+Annual;2001;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;2166788.0;KN.DN.PP.CC
+Annual;2011;IN-ML;Meghalaya;;Decennial Population by Census;2966889.0;KN.DN.PP.CC
+Annual;2011;IN-OR;Orissa;;Decennial Population by Census;41974218.0;KN.DN.PP.CC
+Annual;2011;IN-UT;Uttarakhand;;Decennial Population by Census;199812341.0;KN.DN.PP.CC
+Annual;2011;IN-CH;Chandigarh;;Decennial Population by Census;1055450.0;KN.DN.PP.CC
+Annual;2011;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;343709.0;KN.DN.PP.CC
+Annual;2011;IN-DL;Delhi;;Decennial Population by Census;16787941.0;KN.DN.PP.CC
+Annual;2011;IN-PY;Pondicherry;;Decennial Population by Census;1247953.0;KN.DN.PP.CC
+Annual;1941;IN-HR;Haryana;;Decennial Population by Census;5272829.0;KN.DN.PP.CC
+Annual;1961;IN-HR;Haryana;;Decennial Population by Census;7590524.0;KN.DN.PP.CC
+Annual;2001;IN-HR;Haryana;;Decennial Population by Census;21144564.0;KN.DN.PP.CC
+Annual;1991;IN-DD;Daman & Diu;;Decennial Population by Census;101586.0;KN.DN.PP.CC
+Annual;2001;IN-DD;Daman & Diu;;Decennial Population by Census;158204.0;KN.DN.PP.CC
+Annual;1971;IN-LD;Lakshadweep;;Decennial Population by Census;31810.0;KN.DN.PP.CC
+Annual;1951;IN-PY;Pondicherry;;Decennial Population by Census;317253.0;KN.DN.PP.CC
+Annual;1971;IN-PY;Pondicherry;;Decennial Population by Census;471707.0;KN.DN.PP.CC
+Annual;1951;KN.IN;India;;Decennial Population by Census;358142161.0;KN.DN.PP.CC
+Annual;2011;IN-KA;Karnataka;;Decennial Population by Census;61095297.0;KN.DN.PP.CC
+Annual;2011;IN-MP;Madhya Pradesh;;Decennial Population by Census;72626809.0;KN.DN.PP.CC
+Annual;2011;IN-NL;Nagaland;;Decennial Population by Census;1978502.0;KN.DN.PP.CC
+Annual;2011;IN-RJ;Rajasthan;;Decennial Population by Census;68548437.0;KN.DN.PP.CC
+Annual;2011;IN-UP;Uttar Pradesh;;Decennial Population by Census;10086292.0;KN.DN.PP.CC
+Annual;2001;IN-UT;Uttarakhand;;Decennial Population by Census;166197921.0;KN.DN.PP.CC
+Annual;1951;IN-OR;Orissa;;Decennial Population by Census;14645946.0;KN.DN.PP.CC
+Annual;1971;IN-OR;Orissa;;Decennial Population by Census;21944615.0;KN.DN.PP.CC
+Annual;1941;IN-PB;Punjab;;Decennial Population by Census;9600236.0;KN.DN.PP.CC
+Annual;1961;IN-PB;Punjab;;Decennial Population by Census;11135069.0;KN.DN.PP.CC
+Annual;1901;IN-RJ;Rajasthan;;Decennial Population by Census;10294090.0;KN.DN.PP.CC
+Annual;1981;IN-RJ;Rajasthan;;Decennial Population by Census;34261862.0;KN.DN.PP.CC
+Annual;1941;IN-KA;Karnataka;;Decennial Population by Census;16255368.0;KN.DN.PP.CC
+Annual;1951;IN-KL;Kerala;;Decennial Population by Census;13549118.0;KN.DN.PP.CC
+Annual;1941;IN-MP;Madhya Pradesh;;Decennial Population by Census;23990608.0;KN.DN.PP.CC
+Annual;1951;IN-MH;Maharashtra;;Decennial Population by Census;32002564.0;KN.DN.PP.CC
+Annual;1961;IN-MH;Maharashtra;;Decennial Population by Census;39553718.0;KN.DN.PP.CC
+Annual;1971;IN-MH;Maharashtra;;Decennial Population by Census;50412235.0;KN.DN.PP.CC
+Annual;1961;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;780037.0;KN.DN.PP.CC
+Annual;1981;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;1420953.0;KN.DN.PP.CC
+Annual;1991;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;1837149.0;KN.DN.PP.CC
+Annual;1921;IN-ML;Meghalaya;;Decennial Population by Census;422403.0;KN.DN.PP.CC
+Annual;1941;IN-WB;West Bengal;;Decennial Population by Census;23229552.0;KN.DN.PP.CC
+Annual;1941;IN-CH;Chandigarh;;Decennial Population by Census;22574.0;KN.DN.PP.CC
+Annual;1991;IN-CH;Chandigarh;;Decennial Population by Census;642015.0;KN.DN.PP.CC
+Annual;1961;IN-DD;Daman & Diu;;Decennial Population by Census;36670.0;KN.DN.PP.CC
+Annual;1991;IN-DL;Delhi;;Decennial Population by Census;9420644.0;KN.DN.PP.CC
+Annual;1981;IN-SK;Sikkim;;Decennial Population by Census;316385.0;KN.DN.PP.CC
+Annual;1991;IN-SK;Sikkim;;Decennial Population by Census;406457.0;KN.DN.PP.CC
+Annual;2001;IN-TN;Tamil Nadu;;Decennial Population by Census;62405679.0;KN.DN.PP.CC
+Annual;1931;IN-TR;Tripura;;Decennial Population by Census;382450.0;KN.DN.PP.CC
+Annual;1941;IN-TR;Tripura;;Decennial Population by Census;513010.0;KN.DN.PP.CC
+Annual;1981;IN-WB;West Bengal;;Decennial Population by Census;54580647.0;KN.DN.PP.CC
+Annual;1991;IN-WB;West Bengal;;Decennial Population by Census;68077965.0;KN.DN.PP.CC
+Annual;1901;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;24649.0;KN.DN.PP.CC
+Annual;1911;IN-CH;Chandigarh;;Decennial Population by Census;18437.0;KN.DN.PP.CC
+Annual;1931;IN-CH;Chandigarh;;Decennial Population by Census;19783.0;KN.DN.PP.CC
+Annual;1971;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;74170.0;KN.DN.PP.CC
+Annual;1961;IN-DL;Delhi;;Decennial Population by Census;2658612.0;KN.DN.PP.CC
+Annual;2001;IN-DL;Delhi;;Decennial Population by Census;13850507.0;KN.DN.PP.CC
+Annual;1911;KN.IN;India;;Decennial Population by Census;252093390.0;KN.DN.PP.CC
+Annual;1921;IN-AP;Andhra Pradesh;;Decennial Population by Census;21420448.0;KN.DN.PP.CC
+Annual;1931;IN-AP;Andhra Pradesh;;Decennial Population by Census;24203573.0;KN.DN.PP.CC
+Annual;1951;IN-AP;Andhra Pradesh;;Decennial Population by Census;31115259.0;KN.DN.PP.CC
+Annual;1991;IN-AP;Andhra Pradesh;;Decennial Population by Census;66508008.0;KN.DN.PP.CC
+Annual;1921;IN-AS;Assam;;Decennial Population by Census;4636980.0;KN.DN.PP.CC
+Annual;1971;IN-AS;Assam;;Decennial Population by Census;14625152.0;KN.DN.PP.CC
+Annual;1981;IN-AS;Assam;;Decennial Population by Census;18041248.0;KN.DN.PP.CC
+Annual;1941;IN-BR;Bihar;;Decennial Population by Census;35170840.0;KN.DN.PP.CC
+Annual;1981;IN-BR;Bihar;;Decennial Population by Census;69914734.0;KN.DN.PP.CC
+Annual;1991;IN-BR;Bihar;;Decennial Population by Census;64530554.0;KN.DN.PP.CC
+Annual;1991;IN-CG;Chhattisgarh;;Decennial Population by Census;17614928.0;KN.DN.PP.CC
+Annual;1911;IN-GA;Goa;;Decennial Population by Census;486752.0;KN.DN.PP.CC
+Annual;1971;IN-GA;Goa;;Decennial Population by Census;795120.0;KN.DN.PP.CC
+Annual;1981;IN-GA;Goa;;Decennial Population by Census;1007749.0;KN.DN.PP.CC
+Annual;1921;IN-GJ;Gujarat;;Decennial Population by Census;10174989.0;KN.DN.PP.CC
+Annual;1931;IN-HR;Haryana;;Decennial Population by Census;4559917.0;KN.DN.PP.CC
+Annual;1991;IN-HR;Haryana;;Decennial Population by Census;16463648.0;KN.DN.PP.CC
+Annual;1921;IN-HP;Himachal Pradesh;;Decennial Population by Census;1928206.0;KN.DN.PP.CC
+Annual;1941;IN-HP;Himachal Pradesh;;Decennial Population by Census;2263245.0;KN.DN.PP.CC
+Annual;1941;IN-MH;Maharashtra;;Decennial Population by Census;26832758.0;KN.DN.PP.CC
+Annual;2001;IN-MH;Maharashtra;;Decennial Population by Census;96878627.0;KN.DN.PP.CC
+Annual;1981;IN-ML;Meghalaya;;Decennial Population by Census;1335819.0;KN.DN.PP.CC
+Annual;1921;IN-MZ;Mizoram;;Decennial Population by Census;98406.0;KN.DN.PP.CC
+Annual;1941;IN-OR;Orissa;;Decennial Population by Census;13767988.0;KN.DN.PP.CC
+Annual;1991;IN-OR;Orissa;;Decennial Population by Census;31659736.0;KN.DN.PP.CC
+Annual;1951;IN-RJ;Rajasthan;;Decennial Population by Census;15970774.0;KN.DN.PP.CC
+Annual;1921;IN-SK;Sikkim;;Decennial Population by Census;81721.0;KN.DN.PP.CC
+Annual;1941;IN-SK;Sikkim;;Decennial Population by Census;121520.0;KN.DN.PP.CC
+Annual;1961;IN-SK;Sikkim;;Decennial Population by Census;162189.0;KN.DN.PP.CC
+Annual;2001;IN-SK;Sikkim;;Decennial Population by Census;540851.0;KN.DN.PP.CC
+Annual;1931;IN-TN;Tamil Nadu;;Decennial Population by Census;23472099.0;KN.DN.PP.CC
+Annual;1901;IN-TR;Tripura;;Decennial Population by Census;173325.0;KN.DN.PP.CC
+Annual;1961;IN-TR;Tripura;;Decennial Population by Census;1142005.0;KN.DN.PP.CC
+Annual;1991;IN-TR;Tripura;;Decennial Population by Census;2757205.0;KN.DN.PP.CC
+Annual;2001;IN-TR;Tripura;;Decennial Population by Census;3199203.0;KN.DN.PP.CC
+Annual;1961;IN-WB;West Bengal;;Decennial Population by Census;34926279.0;KN.DN.PP.CC
+Annual;1971;IN-WB;West Bengal;;Decennial Population by Census;44312011.0;KN.DN.PP.CC
+Annual;2001;IN-WB;West Bengal;;Decennial Population by Census;80176197.0;KN.DN.PP.CC
+Annual;1911;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;26459.0;KN.DN.PP.CC
+Annual;1981;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;188741.0;KN.DN.PP.CC
+Annual;2001;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;356152.0;KN.DN.PP.CC
+Annual;1901;IN-CH;Chandigarh;;Decennial Population by Census;21967.0;KN.DN.PP.CC
+Annual;1961;IN-CH;Chandigarh;;Decennial Population by Census;119881.0;KN.DN.PP.CC
+Annual;1941;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;40441.0;KN.DN.PP.CC
+Annual;1961;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;57963.0;KN.DN.PP.CC
+Annual;1981;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;103676.0;KN.DN.PP.CC
+Annual;1991;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;138477.0;KN.DN.PP.CC
+Annual;1901;IN-DD;Daman & Diu;;Decennial Population by Census;32005.0;KN.DN.PP.CC
+Annual;1971;IN-DD;Daman & Diu;;Decennial Population by Census;62651.0;KN.DN.PP.CC
+Annual;1901;IN-DL;Delhi;;Decennial Population by Census;405819.0;KN.DN.PP.CC
+Annual;1931;IN-DL;Delhi;;Decennial Population by Census;636246.0;KN.DN.PP.CC
+Annual;1981;IN-DL;Delhi;;Decennial Population by Census;6220406.0;KN.DN.PP.CC
+Annual;1931;IN-LD;Lakshadweep;;Decennial Population by Census;16040.0;KN.DN.PP.CC
+Annual;1951;IN-LD;Lakshadweep;;Decennial Population by Census;21035.0;KN.DN.PP.CC
+Annual;1991;IN-LD;Lakshadweep;;Decennial Population by Census;51707.0;KN.DN.PP.CC
+Annual;2001;IN-LD;Lakshadweep;;Decennial Population by Census;60650.0;KN.DN.PP.CC
+Annual;1931;IN-KA;Karnataka;;Decennial Population by Census;14632992.0;KN.DN.PP.CC
+Annual;1971;IN-KA;Karnataka;;Decennial Population by Census;29299014.0;KN.DN.PP.CC
+Annual;1991;IN-KA;Karnataka;;Decennial Population by Census;44977201.0;KN.DN.PP.CC
+Annual;1901;IN-KL;Kerala;;Decennial Population by Census;6396262.0;KN.DN.PP.CC
+Annual;1931;IN-KL;Kerala;;Decennial Population by Census;9507050.0;KN.DN.PP.CC
+Annual;1941;IN-KL;Kerala;;Decennial Population by Census;11031541.0;KN.DN.PP.CC
+Annual;1921;IN-MP;Madhya Pradesh;;Decennial Population by Census;19171750.0;KN.DN.PP.CC
+Annual;1991;IN-MP;Madhya Pradesh;;Decennial Population by Census;48566242.0;KN.DN.PP.CC
+Annual;1931;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;445606.0;KN.DN.PP.CC
+Annual;1901;IN-ML;Meghalaya;;Decennial Population by Census;340524.0;KN.DN.PP.CC
+Annual;1931;IN-ML;Meghalaya;;Decennial Population by Census;480837.0;KN.DN.PP.CC
+Annual;1981;IN-OR;Orissa;;Decennial Population by Census;26370271.0;KN.DN.PP.CC
+Annual;1931;IN-PB;Punjab;;Decennial Population by Census;8012325.0;KN.DN.PP.CC
+Annual;1971;IN-RJ;Rajasthan;;Decennial Population by Census;25765806.0;KN.DN.PP.CC
+Annual;2001;IN-PY;Pondicherry;;Decennial Population by Census;974345.0;KN.DN.PP.CC
+Annual;1991;IN-UP;Uttar Pradesh;;Decennial Population by Census;7050634.0;KN.DN.PP.CC
+Annual;1991;IN-UT;Uttarakhand;;Decennial Population by Census;132061653.0;KN.DN.PP.CC
+Annual;2001;KN.IN;India;;Decennial Population by Census;1028610328.0;KN.DN.PP.CC
+Annual;2011;KN.IN;India;;Decennial Population by Census;1210854977.0;KN.DN.PP.CC
+Annual;2011;IN-GJ;Gujarat;;Decennial Population by Census;60439692.0;KN.DN.PP.CC
+Annual;2011;IN-JH;Jharkhand;;Decennial Population by Census;32988134.0;KN.DN.PP.CC
+Annual;2011;IN-KL;Kerala;;Decennial Population by Census;33406061.0;KN.DN.PP.CC
+Annual;2011;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;2855794.0;KN.DN.PP.CC
+Annual;2011;IN-PB;Punjab;;Decennial Population by Census;27743338.0;KN.DN.PP.CC
+Annual;2011;IN-TN;Tamil Nadu;;Decennial Population by Census;72147030.0;KN.DN.PP.CC
+Annual;1901;IN-UT;Uttarakhand;;Decennial Population by Census;48627670.0;KN.DN.PP.CC
+Annual;1981;IN-UT;Uttarakhand;;Decennial Population by Census;110862512.0;KN.DN.PP.CC
+Annual;2011;IN-DD;Daman & Diu;;Decennial Population by Census;243247.0;KN.DN.PP.CC
+Annual;1901;IN-AP;Andhra Pradesh;;Decennial Population by Census;19065921.0;KN.DN.PP.CC
+Annual;1911;IN-AP;Andhra Pradesh;;Decennial Population by Census;21447412.0;KN.DN.PP.CC
+Annual;1971;IN-AP;Andhra Pradesh;;Decennial Population by Census;43502708.0;KN.DN.PP.CC
+Annual;1971;IN-AR;Arunachal Pradesh;;Decennial Population by Census;467511.0;KN.DN.PP.CC
+Annual;2001;IN-AR;Arunachal Pradesh;;Decennial Population by Census;1097968.0;KN.DN.PP.CC
+Annual;1911;IN-AS;Assam;;Decennial Population by Census;3848617.0;KN.DN.PP.CC
+Annual;1961;IN-AS;Assam;;Decennial Population by Census;10837329.0;KN.DN.PP.CC
+Annual;1991;IN-AS;Assam;;Decennial Population by Census;22414322.0;KN.DN.PP.CC
+Annual;1931;IN-BR;Bihar;;Decennial Population by Census;31347108.0;KN.DN.PP.CC
+Annual;1961;IN-BR;Bihar;;Decennial Population by Census;46447457.0;KN.DN.PP.CC
+Annual;1951;IN-CG;Chhattisgarh;;Decennial Population by Census;7456706.0;KN.DN.PP.CC
+Annual;2001;IN-CG;Chhattisgarh;;Decennial Population by Census;20833803.0;KN.DN.PP.CC
+Annual;1901;IN-GA;Goa;;Decennial Population by Census;475513.0;KN.DN.PP.CC
+Annual;1921;IN-GA;Goa;;Decennial Population by Census;469494.0;KN.DN.PP.CC
+Annual;1931;IN-GA;Goa;;Decennial Population by Census;505281.0;KN.DN.PP.CC
+Annual;1941;IN-GA;Goa;;Decennial Population by Census;540925.0;KN.DN.PP.CC
+Annual;1961;IN-GA;Goa;;Decennial Population by Census;589997.0;KN.DN.PP.CC
+Annual;1951;IN-GJ;Gujarat;;Decennial Population by Census;16262657.0;KN.DN.PP.CC
+Annual;1971;IN-GJ;Gujarat;;Decennial Population by Census;26697475.0;KN.DN.PP.CC
+Annual;1991;IN-GJ;Gujarat;;Decennial Population by Census;41309582.0;KN.DN.PP.CC
+Annual;1911;IN-HR;Haryana;;Decennial Population by Census;4174677.0;KN.DN.PP.CC
+Annual;1951;IN-HR;Haryana;;Decennial Population by Census;5673597.0;KN.DN.PP.CC
+Annual;1901;IN-HP;Himachal Pradesh;;Decennial Population by Census;1920294.0;KN.DN.PP.CC
+Annual;1961;IN-HP;Himachal Pradesh;;Decennial Population by Census;2812463.0;KN.DN.PP.CC
+Annual;1971;IN-HP;Himachal Pradesh;;Decennial Population by Census;3460434.0;KN.DN.PP.CC
+Annual;1911;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;2292535.0;KN.DN.PP.CC
+Annual;1951;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;3253852.0;KN.DN.PP.CC
+Annual;1961;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;3560976.0;KN.DN.PP.CC
+Annual;1951;IN-JH;Jharkhand;;Decennial Population by Census;9697254.0;KN.DN.PP.CC
+Annual;1901;IN-KA;Karnataka;;Decennial Population by Census;13054754.0;KN.DN.PP.CC
+Annual;1921;IN-KA;Karnataka;;Decennial Population by Census;13377599.0;KN.DN.PP.CC
+Annual;1961;IN-KA;Karnataka;;Decennial Population by Census;23586772.0;KN.DN.PP.CC
+Annual;1981;IN-KL;Kerala;;Decennial Population by Census;25453680.0;KN.DN.PP.CC
+Annual;1931;IN-MP;Madhya Pradesh;;Decennial Population by Census;21355657.0;KN.DN.PP.CC
+Annual;1951;IN-MP;Madhya Pradesh;;Decennial Population by Census;18614931.0;KN.DN.PP.CC
+Annual;1951;IN-MN;Manipur;The population of India, Manipur State and Senapati District by sex includes estimated population and excludes the households of Mao Maram, Paomata and Purul sub divisions, as the census results for 2001 Census for these;Decennial Population by Census;577635.0;KN.DN.PP.CC
+Annual;1911;IN-MZ;Mizoram;;Decennial Population by Census;91204.0;KN.DN.PP.CC
+Annual;1931;IN-MZ;Mizoram;;Decennial Population by Census;124404.0;KN.DN.PP.CC
+Annual;1941;IN-MZ;Mizoram;;Decennial Population by Census;152786.0;KN.DN.PP.CC
+Annual;1981;IN-MZ;Mizoram;;Decennial Population by Census;493757.0;KN.DN.PP.CC
+Annual;2001;IN-MZ;Mizoram;;Decennial Population by Census;888573.0;KN.DN.PP.CC
+Annual;1951;IN-NL;Nagaland;;Decennial Population by Census;212975.0;KN.DN.PP.CC
+Annual;1991;IN-PB;Punjab;;Decennial Population by Census;20281969.0;KN.DN.PP.CC
+Annual;1911;IN-KL;Kerala;;Decennial Population by Census;7147673.0;KN.DN.PP.CC
+Annual;1981;IN-MP;Madhya Pradesh;;Decennial Population by Census;52178844.0;KN.DN.PP.CC
+Annual;1981;IN-MH;Maharashtra;;Decennial Population by Census;62782818.0;KN.DN.PP.CC
+Annual;1951;IN-ML;Meghalaya;;Decennial Population by Census;605674.0;KN.DN.PP.CC
+Annual;2001;IN-ML;Meghalaya;;Decennial Population by Census;2318822.0;KN.DN.PP.CC
+Annual;1971;IN-MZ;Mizoram;;Decennial Population by Census;332390.0;KN.DN.PP.CC
+Annual;1991;IN-MZ;Mizoram;;Decennial Population by Census;689756.0;KN.DN.PP.CC
+Annual;1901;IN-NL;Nagaland;;Decennial Population by Census;101550.0;KN.DN.PP.CC
+Annual;1941;IN-NL;Nagaland;;Decennial Population by Census;189641.0;KN.DN.PP.CC
+Annual;1921;IN-OR;Orissa;;Decennial Population by Census;11158586.0;KN.DN.PP.CC
+Annual;1971;IN-PB;Punjab;;Decennial Population by Census;13551060.0;KN.DN.PP.CC
+Annual;2001;IN-PB;Punjab;;Decennial Population by Census;24358999.0;KN.DN.PP.CC
+Annual;1911;IN-RJ;Rajasthan;;Decennial Population by Census;10983509.0;KN.DN.PP.CC
+Annual;2001;IN-RJ;Rajasthan;;Decennial Population by Census;56507188.0;KN.DN.PP.CC
+Annual;1901;IN-SK;Sikkim;;Decennial Population by Census;59014.0;KN.DN.PP.CC
+Annual;1931;IN-SK;Sikkim;;Decennial Population by Census;109808.0;KN.DN.PP.CC
+Annual;1921;IN-TR;Tripura;;Decennial Population by Census;304437.0;KN.DN.PP.CC
+Annual;1951;IN-TR;Tripura;;Decennial Population by Census;639029.0;KN.DN.PP.CC
+Annual;1971;IN-TR;Tripura;;Decennial Population by Census;1556342.0;KN.DN.PP.CC
+Annual;1921;IN-WB;West Bengal;;Decennial Population by Census;17474348.0;KN.DN.PP.CC
+Annual;1931;IN-WB;West Bengal;;Decennial Population by Census;18897036.0;KN.DN.PP.CC
+Annual;1921;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;27086.0;KN.DN.PP.CC
+Annual;1961;IN-AN;Andaman and Nicobar Islands;;Decennial Population by Census;63548.0;KN.DN.PP.CC
+Annual;1951;IN-CH;Chandigarh;;Decennial Population by Census;24261.0;KN.DN.PP.CC
+Annual;1971;IN-CH;Chandigarh;;Decennial Population by Census;257251.0;KN.DN.PP.CC
+Annual;2001;IN-CH;Chandigarh;;Decennial Population by Census;900635.0;KN.DN.PP.CC
+Annual;1951;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;41532.0;KN.DN.PP.CC
+Annual;2001;IN-DN;Dadra and Nagar Haveli;;Decennial Population by Census;220490.0;KN.DN.PP.CC
+Annual;1911;IN-DD;Daman & Diu;;Decennial Population by Census;32470.0;KN.DN.PP.CC
+Annual;1921;IN-DD;Daman & Diu;;Decennial Population by Census;31410.0;KN.DN.PP.CC
+Annual;1941;IN-DD;Daman & Diu;;Decennial Population by Census;42811.0;KN.DN.PP.CC
+Annual;1981;IN-DD;Daman & Diu;;Decennial Population by Census;78981.0;KN.DN.PP.CC
+Annual;1921;IN-DL;Delhi;;Decennial Population by Census;488452.0;KN.DN.PP.CC
+Annual;1941;IN-DL;Delhi;;Decennial Population by Census;917939.0;KN.DN.PP.CC
+Annual;1971;IN-DL;Delhi;;Decennial Population by Census;4065698.0;KN.DN.PP.CC
+Annual;1901;KN.IN;India;;Decennial Population by Census;238396327.0;KN.DN.PP.CC
+Annual;1931;KN.IN;India;;Decennial Population by Census;278977238.0;KN.DN.PP.CC
+Annual;1971;KN.IN;India;;Decennial Population by Census;548159652.0;KN.DN.PP.CC
+Annual;1941;IN-AP;Andhra Pradesh;;Decennial Population by Census;27289340.0;KN.DN.PP.CC
+Annual;1981;IN-AP;Andhra Pradesh;;Decennial Population by Census;53551026.0;KN.DN.PP.CC
+Annual;1981;IN-AR;Arunachal Pradesh;;Decennial Population by Census;631839.0;KN.DN.PP.CC
+Annual;1901;IN-AS;Assam;;Decennial Population by Census;3289680.0;KN.DN.PP.CC
+Annual;1911;IN-BR;Bihar;;Decennial Population by Census;28314281.0;KN.DN.PP.CC
+Annual;1921;IN-BR;Bihar;;Decennial Population by Census;28126675.0;KN.DN.PP.CC
+Annual;1911;IN-GJ;Gujarat;;Decennial Population by Census;9803587.0;KN.DN.PP.CC
+Annual;1931;IN-GJ;Gujarat;;Decennial Population by Census;11489828.0;KN.DN.PP.CC
+Annual;1981;IN-HR;Haryana;;Decennial Population by Census;12922119.0;KN.DN.PP.CC
+Annual;1991;IN-HP;Himachal Pradesh;;Decennial Population by Census;5170877.0;KN.DN.PP.CC
+Annual;2001;IN-HP;Himachal Pradesh;;Decennial Population by Census;6077900.0;KN.DN.PP.CC
+Annual;1901;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;2139362.0;KN.DN.PP.CC
+Annual;1971;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;4616632.0;KN.DN.PP.CC
+Annual;1991;IN-JK;Jammu & Kashmir;Area figures includes the area under unlawaful occupation of Pakistan and China.  The area includes 78,114 sq.km.     under illegal occupation of Pakistan,   5,180 sq. km.illegally  handed over by Pakistan to China and 37,555 sq.km.   under illegal  occup;Decennial Population by Census;7837051.0;KN.DN.PP.CC
+Annual;1991;IN-JH;Jharkhand;;Decennial Population by Census;21843911.0;KN.DN.PP.CC
+Annual;1961;IN-PY;Pondicherry;;Decennial Population by Census;369079.0;KN.DN.PP.CC
+Annual;2011;IN-AS;Assam;;Decennial Population by Census;31205576.0;KN.DN.PP.CC
+Annual;2011;IN-CG;Chhattisgarh;;Decennial Population by Census;25545198.0;KN.DN.PP.CC
+Annual;2011;IN-MH;Maharashtra;;Decennial Population by Census;112374333.0;KN.DN.PP.CC
+Annual;2011;IN-MZ;Mizoram;;Decennial Population by Census;1097206.0;KN.DN.PP.CC
+Annual;2011;IN-SK;Sikkim;;Decennial Population by Census;610577.0;KN.DN.PP.CC
+Annual;2011;IN-TR;Tripura;;Decennial Population by Census;3673917.0;KN.DN.PP.CC
+Annual;1911;IN-UT;Uttarakhand;;Decennial Population by Census;48154921.0;KN.DN.PP.CC
+Annual;1941;IN-UT;Uttarakhand;;Decennial Population by Census;56535170.0;KN.DN.PP.CC
+Annual;1951;IN-UT;Uttarakhand;;Decennial Population by Census;60273743.0;KN.DN.PP.CC
+Annual;2011;IN-WB;West Bengal;;Decennial Population by Census;91276115.0;KN.DN.PP.CC
+Annual;2011;IN-LD;Lakshadweep;;Decennial Population by Census;64473.0;KN.DN.PP.CC
