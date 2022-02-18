@@ -1,0 +1,3773 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Bank of England Statistical Interactive Database
+ 
+</TITLE>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" media="screen,projection" href="default.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="https://www.google.com/uds/api/search/1.0/374942b9f66402975ad19789cb8ab24c/default+en.css" />
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="shortcut icon" href="http://www.bankofengland.co.uk/boeapps/iadb/favicon.ico" type="image/vnd.microsoft.icon" />
+<script language="JavaScript" type="text/javascript" src="js/swfobject.js"></script>
+<script language="JavaScript" type="text/JavaScript" src="js/jsfunctions.js"></script>
+</head>
+
+<body class="popup">
+<div id="hmaincontent">
+	<table border="0" width="50%">
+		<tr><td width="50%" colspan="4">
+		<img src="images/logo-popup.jpg" alt="Bank of England" title="Bank of England" />
+		</td>	
+
+<!-- bgcolor="#F0F8FF" -->
+<TD align=center style="font-size: 100%"><B>Series 1 to 2</B></TD></tr>
+
+    <table width="1%" border=0 class="showdata"><!-- force as narrow as possible -->
+    <tr></tr>
+<tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>Monthly average </td><td style="padding-left: 10px" align=right nowrap></td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>amount outstanding </td><td style="padding-left: 10px" align=right nowrap>Monthly average </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>of total sterling </td><td style="padding-left: 10px" align=right nowrap>amount outstanding </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>notes and coin in </td><td style="padding-left: 10px" align=right nowrap>of total sterling </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>circulation, </td><td style="padding-left: 10px" align=right nowrap>notes and coin in </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>excluding backing </td><td style="padding-left: 10px" align=right nowrap>circulation, </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>assets for </td><td style="padding-left: 10px" align=right nowrap>excluding backing </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>commercial banknote </td><td style="padding-left: 10px" align=right nowrap>assets for </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>issue in Scotland </td><td style="padding-left: 10px" align=right nowrap>commercial banknote </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>and Northern </td><td style="padding-left: 10px" align=right nowrap>issue in Scotland </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>Ireland total (in </td><td style="padding-left: 10px" align=right nowrap>and Northern </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td><td style="padding-left: 10px" align=right nowrap>Ireland (in </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>not seasonally </td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>adjusted</td><td style="padding-left: 10px" align=right nowrap>seasonally adjusted</td></tr><tr><td align=right nowrap><b></b> 
+		</td><td align=right nowrap><b>LPMAVAA</b> 
+		</td><td align=right nowrap><b>LPMAVAB</b> 
+		</td></tr>
+		<TR>
+		<TD align=right></TD><TD align=right>[a] [b]</TD><TD align=right>[a] [b] [c] [d]</TD>
+		</TR>
+	
+	
+	<tr height="12">&nbsp;<!-- blank row --></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 69</td><td align="right">
+					3536
+				</td><td align="right">
+					3534
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 69</td><td align="right">
+					3603
+				</td><td align="right">
+					3530
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 69</td><td align="right">
+					3608
+				</td><td align="right">
+					3546
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 69</td><td align="right">
+					3565
+				</td><td align="right">
+					3584
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 69</td><td align="right">
+					3585
+				</td><td align="right">
+					3622
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 69</td><td align="right">
+					3594
+				</td><td align="right">
+					3626
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 69</td><td align="right">
+					3780
+				</td><td align="right">
+					3645
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 70</td><td align="right">
+					3646
+				</td><td align="right">
+					3685
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 70</td><td align="right">
+					3594
+				</td><td align="right">
+					3684
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 70</td><td align="right">
+					3653
+				</td><td align="right">
+					3711
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 70</td><td align="right">
+					3714
+				</td><td align="right">
+					3721
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 70</td><td align="right">
+					3724
+				</td><td align="right">
+					3733
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 70</td><td align="right">
+					3774
+				</td><td align="right">
+					3776
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 70</td><td align="right">
+					3891
+				</td><td align="right">
+					3812
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 70</td><td align="right">
+					3917
+				</td><td align="right">
+					3863
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 70</td><td align="right">
+					3880
+				</td><td align="right">
+					3888
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 70</td><td align="right">
+					3866
+				</td><td align="right">
+					3906
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 70</td><td align="right">
+					3882
+				</td><td align="right">
+					3925
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 70</td><td align="right">
+					4027
+				</td><td align="right">
+					3905
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 71</td><td align="right">
+					3921
+				</td><td align="right">
+					3964
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 71</td><td align="right">
+					4059
+				</td><td align="right">
+					4161
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 71</td><td align="right">
+					4083
+				</td><td align="right">
+					4180
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 71</td><td align="right">
+					4089
+				</td><td align="right">
+					4066
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 71</td><td align="right">
+					4038
+				</td><td align="right">
+					4075
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 71</td><td align="right">
+					4103
+				</td><td align="right">
+					4081
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 71</td><td align="right">
+					4173
+				</td><td align="right">
+					4090
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 71</td><td align="right">
+					4162
+				</td><td align="right">
+					4102
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 71</td><td align="right">
+					4097
+				</td><td align="right">
+					4107
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 71</td><td align="right">
+					4078
+				</td><td align="right">
+					4123
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 71</td><td align="right">
+					4109
+				</td><td align="right">
+					4141
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 71</td><td align="right">
+					4258
+				</td><td align="right">
+					4117
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 72</td><td align="right">
+					4124
+				</td><td align="right">
+					4143
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 72</td><td align="right">
+					4075
+				</td><td align="right">
+					4177
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 72</td><td align="right">
+					4142
+				</td><td align="right">
+					4206
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 72</td><td align="right">
+					4243
+				</td><td align="right">
+					4255
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 72</td><td align="right">
+					4297
+				</td><td align="right">
+					4315
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 72</td><td align="right">
+					4369
+				</td><td align="right">
+					4372
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 72</td><td align="right">
+					4475
+				</td><td align="right">
+					4388
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 72</td><td align="right">
+					4458
+				</td><td align="right">
+					4387
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 72</td><td align="right">
+					4437
+				</td><td align="right">
+					4452
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 72</td><td align="right">
+					4454
+				</td><td align="right">
+					4505
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 72</td><td align="right">
+					4519
+				</td><td align="right">
+					4558
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 72</td><td align="right">
+					4823
+				</td><td align="right">
+					4625
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 73</td><td align="right">
+					4647
+				</td><td align="right">
+					4676
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 73</td><td align="right">
+					4604
+				</td><td align="right">
+					4719
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 73</td><td align="right">
+					4654
+				</td><td align="right">
+					4761
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 73</td><td align="right">
+					4756
+				</td><td align="right">
+					4737
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 73</td><td align="right">
+					4819
+				</td><td align="right">
+					4839
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 73</td><td align="right">
+					4864
+				</td><td align="right">
+					4874
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 73</td><td align="right">
+					5001
+				</td><td align="right">
+					4907
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 73</td><td align="right">
+					5014
+				</td><td align="right">
+					4926
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 73</td><td align="right">
+					4925
+				</td><td align="right">
+					4945
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 73</td><td align="right">
+					4901
+				</td><td align="right">
+					4959
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 73</td><td align="right">
+					4999
+				</td><td align="right">
+					5023
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 73</td><td align="right">
+					5313
+				</td><td align="right">
+					5074
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 74</td><td align="right">
+					5153
+				</td><td align="right">
+					5140
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 74</td><td align="right">
+					5026
+				</td><td align="right">
+					5151
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 74</td><td align="right">
+					5091
+				</td><td align="right">
+					5205
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 74</td><td align="right">
+					5257
+				</td><td align="right">
+					5243
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 74</td><td align="right">
+					5245
+				</td><td align="right">
+					5277
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 74</td><td align="right">
+					5330
+				</td><td align="right">
+					5341
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 74</td><td align="right">
+					5508
+				</td><td align="right">
+					5406
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 74</td><td align="right">
+					5599
+				</td><td align="right">
+					5502
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 74</td><td align="right">
+					5602
+				</td><td align="right">
+					5618
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 74</td><td align="right">
+					5620
+				</td><td align="right">
+					5686
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 74</td><td align="right">
+					5748
+				</td><td align="right">
+					5792
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 74</td><td align="right">
+					6134
+				</td><td align="right">
+					5863
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 75</td><td align="right">
+					5832
+				</td><td align="right">
+					5917
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 75</td><td align="right">
+					5815
+				</td><td align="right">
+					5958
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 75</td><td align="right">
+					5931
+				</td><td align="right">
+					6010
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 75</td><td align="right">
+					6040
+				</td><td align="right">
+					6077
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 75</td><td align="right">
+					6126
+				</td><td align="right">
+					6157
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 75</td><td align="right">
+					6205
+				</td><td align="right">
+					6235
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 75</td><td align="right">
+					6392
+				</td><td align="right">
+					6274
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 75</td><td align="right">
+					6441
+				</td><td align="right">
+					6331
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 75</td><td align="right">
+					6377
+				</td><td align="right">
+					6387
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 75</td><td align="right">
+					6359
+				</td><td align="right">
+					6433
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 75</td><td align="right">
+					6419
+				</td><td align="right">
+					6479
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 75</td><td align="right">
+					6838
+				</td><td align="right">
+					6541
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 76</td><td align="right">
+					6523
+				</td><td align="right">
+					6595
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 76</td><td align="right">
+					6533
+				</td><td align="right">
+					6689
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 76</td><td align="right">
+					6639
+				</td><td align="right">
+					6777
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 76</td><td align="right">
+					6837
+				</td><td align="right">
+					6827
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 76</td><td align="right">
+					6830
+				</td><td align="right">
+					6902
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 76</td><td align="right">
+					6968
+				</td><td align="right">
+					6972
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 76</td><td align="right">
+					7199
+				</td><td align="right">
+					7068
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 76</td><td align="right">
+					7273
+				</td><td align="right">
+					7169
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 76</td><td align="right">
+					7228
+				</td><td align="right">
+					7219
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 76</td><td align="right">
+					7190
+				</td><td align="right">
+					7273
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 76</td><td align="right">
+					7228
+				</td><td align="right">
+					7292
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 76</td><td align="right">
+					7635
+				</td><td align="right">
+					7333
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 77</td><td align="right">
+					7365
+				</td><td align="right">
+					7407
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 77</td><td align="right">
+					7283
+				</td><td align="right">
+					7451
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 77</td><td align="right">
+					7355
+				</td><td align="right">
+					7502
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 77</td><td align="right">
+					7556
+				</td><td align="right">
+					7544
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 77</td><td align="right">
+					7527
+				</td><td align="right">
+					7597
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 77</td><td align="right">
+					7794
+				</td><td align="right">
+					7810
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 77</td><td align="right">
+					7930
+				</td><td align="right">
+					7789
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 77</td><td align="right">
+					7961
+				</td><td align="right">
+					7844
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 77</td><td align="right">
+					7905
+				</td><td align="right">
+					7909
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 77</td><td align="right">
+					7884
+				</td><td align="right">
+					7973
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 77</td><td align="right">
+					8029
+				</td><td align="right">
+					8077
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 77</td><td align="right">
+					8738
+				</td><td align="right">
+					8310
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 78</td><td align="right">
+					8324
+				</td><td align="right">
+					8366
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 78</td><td align="right">
+					8274
+				</td><td align="right">
+					8458
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 78</td><td align="right">
+					8496
+				</td><td align="right">
+					8546
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 78</td><td align="right">
+					8581
+				</td><td align="right">
+					8680
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 78</td><td align="right">
+					8746
+				</td><td align="right">
+					8773
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 78</td><td align="right">
+					8812
+				</td><td align="right">
+					8881
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 78</td><td align="right">
+					9200
+				</td><td align="right">
+					9044
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 78</td><td align="right">
+					9243
+				</td><td align="right">
+					9117
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 78</td><td align="right">
+					9152
+				</td><td align="right">
+					9167
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 78</td><td align="right">
+					9170
+				</td><td align="right">
+					9275
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 78</td><td align="right">
+					9291
+				</td><td align="right">
+					9389
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 78</td><td align="right">
+					9967
+				</td><td align="right">
+					9487
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 79</td><td align="right">
+					9555
+				</td><td align="right">
+					9630
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 79</td><td align="right">
+					9536
+				</td><td align="right">
+					9741
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 79</td><td align="right">
+					9637
+				</td><td align="right">
+					9819
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 79</td><td align="right">
+					9901
+				</td><td align="right">
+					9878
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 79</td><td align="right">
+					9962
+				</td><td align="right">
+					9977
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 79</td><td align="right">
+					9932
+				</td><td align="right">
+					10018
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 79</td><td align="right">
+					10246
+				</td><td align="right">
+					10085
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 79</td><td align="right">
+					10306
+				</td><td align="right">
+					10165
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 79</td><td align="right">
+					10194
+				</td><td align="right">
+					10235
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 79</td><td align="right">
+					10340
+				</td><td align="right">
+					10460
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 79</td><td align="right">
+					10430
+				</td><td align="right">
+					10505
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 79</td><td align="right">
+					11145
+				</td><td align="right">
+					10565
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 80</td><td align="right">
+					10624
+				</td><td align="right">
+					10614
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 80</td><td align="right">
+					10443
+				</td><td align="right">
+					10661
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 80</td><td align="right">
+					10551
+				</td><td align="right">
+					10748
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 80</td><td align="right">
+					10838
+				</td><td align="right">
+					10811
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 80</td><td align="right">
+					10874
+				</td><td align="right">
+					10874
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 80</td><td align="right">
+					10819
+				</td><td align="right">
+					10917
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 80</td><td align="right">
+					11102
+				</td><td align="right">
+					10944
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 80</td><td align="right">
+					11088
+				</td><td align="right">
+					10962
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 80</td><td align="right">
+					10956
+				</td><td align="right">
+					10996
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 80</td><td align="right">
+					10923
+				</td><td align="right">
+					11049
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 80</td><td align="right">
+					10944
+				</td><td align="right">
+					11065
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 80</td><td align="right">
+					11721
+				</td><td align="right">
+					11132
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 81</td><td align="right">
+					11041
+				</td><td align="right">
+					11172
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 81</td><td align="right">
+					11015
+				</td><td align="right">
+					11241
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 81</td><td align="right">
+					11121
+				</td><td align="right">
+					11327
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 81</td><td align="right">
+					11543
+				</td><td align="right">
+					11515
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 81</td><td align="right">
+					11518
+				</td><td align="right">
+					11503
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 81</td><td align="right">
+					11375
+				</td><td align="right">
+					11487
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 81</td><td align="right">
+					11666
+				</td><td align="right">
+					11516
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 81</td><td align="right">
+					11637
+				</td><td align="right">
+					11557
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 81</td><td align="right">
+					11605
+				</td><td align="right">
+					11610
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 81</td><td align="right">
+					11507
+				</td><td align="right">
+					11634
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 81</td><td align="right">
+					11504
+				</td><td align="right">
+					11659
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 81</td><td align="right">
+					12320
+				</td><td align="right">
+					11756
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 82</td><td align="right">
+					11710
+				</td><td align="right">
+					11852
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 82</td><td align="right">
+					11545
+				</td><td align="right">
+					11781
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 82</td><td align="right">
+					11495
+				</td><td align="right">
+					11710
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 82</td><td align="right">
+					11714
+				</td><td align="right">
+					11687
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 82</td><td align="right">
+					11637
+				</td><td align="right">
+					11697
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 82</td><td align="right">
+					11739
+				</td><td align="right">
+					11778
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 82</td><td align="right">
+					11985
+				</td><td align="right">
+					11844
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 82</td><td align="right">
+					11972
+				</td><td align="right">
+					11891
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 82</td><td align="right">
+					11950
+				</td><td align="right">
+					11958
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 82</td><td align="right">
+					11872
+				</td><td align="right">
+					11997
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 82</td><td align="right">
+					11915
+				</td><td align="right">
+					12038
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 82</td><td align="right">
+					12763
+				</td><td align="right">
+					12146
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 83</td><td align="right">
+					12134
+				</td><td align="right">
+					12200
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 83</td><td align="right">
+					12031
+				</td><td align="right">
+					12279
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 83</td><td align="right">
+					12250
+				</td><td align="right">
+					12384
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 83</td><td align="right">
+					12454
+				</td><td align="right">
+					12528
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 83</td><td align="right">
+					12464
+				</td><td align="right">
+					12532
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 83</td><td align="right">
+					12535
+				</td><td align="right">
+					12579
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 83</td><td align="right">
+					12780
+				</td><td align="right">
+					12642
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 83</td><td align="right">
+					12795
+				</td><td align="right">
+					12696
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 83</td><td align="right">
+					12707
+				</td><td align="right">
+					12726
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 83</td><td align="right">
+					12682
+				</td><td align="right">
+					12808
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 83</td><td align="right">
+					12766
+				</td><td align="right">
+					12849
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 83</td><td align="right">
+					13672
+				</td><td align="right">
+					12886
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 84</td><td align="right">
+					12853
+				</td><td align="right">
+					12905
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 84</td><td align="right">
+					12714
+				</td><td align="right">
+					12982
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 84</td><td align="right">
+					12830
+				</td><td align="right">
+					13081
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 84</td><td align="right">
+					13129
+				</td><td align="right">
+					13108
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 84</td><td align="right">
+					13172
+				</td><td align="right">
+					13187
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 84</td><td align="right">
+					13169
+				</td><td align="right">
+					13283
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 84</td><td align="right">
+					13449
+				</td><td align="right">
+					13316
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 84</td><td align="right">
+					13489
+				</td><td align="right">
+					13355
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 84</td><td align="right">
+					13409
+				</td><td align="right">
+					13452
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 84</td><td align="right">
+					13376
+				</td><td align="right">
+					13499
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 84</td><td align="right">
+					13451
+				</td><td align="right">
+					13530
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 84</td><td align="right">
+					14411
+				</td><td align="right">
+					13576
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 85</td><td align="right">
+					13623
+				</td><td align="right">
+					13592
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 85</td><td align="right">
+					13439
+				</td><td align="right">
+					13731
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 85</td><td align="right">
+					13590
+				</td><td align="right">
+					13864
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 85</td><td align="right">
+					13910
+				</td><td align="right">
+					13896
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 85</td><td align="right">
+					13867
+				</td><td align="right">
+					13914
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 85</td><td align="right">
+					13833
+				</td><td align="right">
+					13934
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 85</td><td align="right">
+					14090
+				</td><td align="right">
+					13962
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 85</td><td align="right">
+					14109
+				</td><td align="right">
+					13966
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 85</td><td align="right">
+					13957
+				</td><td align="right">
+					13992
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 85</td><td align="right">
+					13887
+				</td><td align="right">
+					14001
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 85</td><td align="right">
+					13940
+				</td><td align="right">
+					14040
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 85</td><td align="right">
+					14941
+				</td><td align="right">
+					14094
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 86</td><td align="right">
+					13982
+				</td><td align="right">
+					14183
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 86</td><td align="right">
+					13932
+				</td><td align="right">
+					14250
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 86</td><td align="right">
+					14124
+				</td><td align="right">
+					14306
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 86</td><td align="right">
+					14210
+				</td><td align="right">
+					14318
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 86</td><td align="right">
+					14329
+				</td><td align="right">
+					14369
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 86</td><td align="right">
+					14291
+				</td><td align="right">
+					14418
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 86</td><td align="right">
+					14590
+				</td><td align="right">
+					14468
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 86</td><td align="right">
+					14701
+				</td><td align="right">
+					14551
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 86</td><td align="right">
+					14578
+				</td><td align="right">
+					14599
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 86</td><td align="right">
+					14561
+				</td><td align="right">
+					14669
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 86</td><td align="right">
+					14659
+				</td><td align="right">
+					14765
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 86</td><td align="right">
+					15695
+				</td><td align="right">
+					14820
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 87</td><td align="right">
+					14765
+				</td><td align="right">
+					14915
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 87</td><td align="right">
+					14529
+				</td><td align="right">
+					14878
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 87</td><td align="right">
+					14577
+				</td><td align="right">
+					14897
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 87</td><td align="right">
+					14930
+				</td><td align="right">
+					14934
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 87</td><td align="right">
+					14972
+				</td><td align="right">
+					15012
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 87</td><td align="right">
+					14946
+				</td><td align="right">
+					15089
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 87</td><td align="right">
+					15271
+				</td><td align="right">
+					15152
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 87</td><td align="right">
+					15337
+				</td><td align="right">
+					15219
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 87</td><td align="right">
+					15349
+				</td><td align="right">
+					15313
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 87</td><td align="right">
+					15299
+				</td><td align="right">
+					15402
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 87</td><td align="right">
+					15365
+				</td><td align="right">
+					15495
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 87</td><td align="right">
+					16447
+				</td><td align="right">
+					15616
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 88</td><td align="right">
+					15458
+				</td><td align="right">
+					15620
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 88</td><td align="right">
+					15353
+				</td><td align="right">
+					15742
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 88</td><td align="right">
+					15588
+				</td><td align="right">
+					15820
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 88</td><td align="right">
+					15796
+				</td><td align="right">
+					15936
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 88</td><td align="right">
+					15870
+				</td><td align="right">
+					16013
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 88</td><td align="right">
+					16073
+				</td><td align="right">
+					16121
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 88</td><td align="right">
+					16411
+				</td><td align="right">
+					16294
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 88</td><td align="right">
+					16577
+				</td><td align="right">
+					16410
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 88</td><td align="right">
+					16629
+				</td><td align="right">
+					16614
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 88</td><td align="right">
+					16506
+				</td><td align="right">
+					16609
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 88</td><td align="right">
+					16607
+				</td><td align="right">
+					16635
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 88</td><td align="right">
+					17867
+				</td><td align="right">
+					16782
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 89</td><td align="right">
+					16721
+				</td><td align="right">
+					16772
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 89</td><td align="right">
+					16352
+				</td><td align="right">
+					16784
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 89</td><td align="right">
+					16695
+				</td><td align="right">
+					16870
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 89</td><td align="right">
+					16631
+				</td><td align="right">
+					16872
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 89</td><td align="right">
+					16922
+				</td><td align="right">
+					16988
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 89</td><td align="right">
+					16953
+				</td><td align="right">
+					17074
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 89</td><td align="right">
+					17288
+				</td><td align="right">
+					17178
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 89</td><td align="right">
+					17507
+				</td><td align="right">
+					17317
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 89</td><td align="right">
+					17365
+				</td><td align="right">
+					17353
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 89</td><td align="right">
+					17361
+				</td><td align="right">
+					17466
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 89</td><td align="right">
+					17499
+				</td><td align="right">
+					17599
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 89</td><td align="right">
+					18820
+				</td><td align="right">
+					17718
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 90</td><td align="right">
+					17688
+				</td><td align="right">
+					17782
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 90</td><td align="right">
+					17377
+				</td><td align="right">
+					17850
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 90</td><td align="right">
+					17475
+				</td><td align="right">
+					17906
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 90</td><td align="right">
+					18040
+				</td><td align="right">
+					18058
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 90</td><td align="right">
+					18082
+				</td><td align="right">
+					18136
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 90</td><td align="right">
+					18053
+				</td><td align="right">
+					18177
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 90</td><td align="right">
+					18285
+				</td><td align="right">
+					18183
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 90</td><td align="right">
+					18435
+				</td><td align="right">
+					18199
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 90</td><td align="right">
+					18203
+				</td><td align="right">
+					18222
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 90</td><td align="right">
+					18078
+				</td><td align="right">
+					18193
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 90</td><td align="right">
+					18143
+				</td><td align="right">
+					18178
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 90</td><td align="right">
+					19367
+				</td><td align="right">
+					18194
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 91</td><td align="right">
+					18295
+				</td><td align="right">
+					18223
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 91</td><td align="right">
+					17833
+				</td><td align="right">
+					18327
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 91</td><td align="right">
+					18038
+				</td><td align="right">
+					18339
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 91</td><td align="right">
+					18147
+				</td><td align="right">
+					18304
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 91</td><td align="right">
+					18436
+				</td><td align="right">
+					18502
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 91</td><td align="right">
+					18478
+				</td><td align="right">
+					18576
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 91</td><td align="right">
+					18665
+				</td><td align="right">
+					18578
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 91</td><td align="right">
+					18843
+				</td><td align="right">
+					18602
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 91</td><td align="right">
+					18633
+				</td><td align="right">
+					18652
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 91</td><td align="right">
+					18583
+				</td><td align="right">
+					18708
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 91</td><td align="right">
+					18646
+				</td><td align="right">
+					18731
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 91</td><td align="right">
+					19880
+				</td><td align="right">
+					18722
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 92</td><td align="right">
+					18491
+				</td><td align="right">
+					18717
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 92</td><td align="right">
+					18204
+				</td><td align="right">
+					18710
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 92</td><td align="right">
+					18254
+				</td><td align="right">
+					18705
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 92</td><td align="right">
+					18763
+				</td><td align="right">
+					18766
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 92</td><td align="right">
+					18866
+				</td><td align="right">
+					18877
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 92</td><td align="right">
+					18747
+				</td><td align="right">
+					18893
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 92</td><td align="right">
+					18994
+				</td><td align="right">
+					18920
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 92</td><td align="right">
+					19213
+				</td><td align="right">
+					19037
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 92</td><td align="right">
+					19120
+				</td><td align="right">
+					19074
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 92</td><td align="right">
+					19006
+				</td><td align="right">
+					19139
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 92</td><td align="right">
+					19151
+				</td><td align="right">
+					19300
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 92</td><td align="right">
+					20445
+				</td><td align="right">
+					19422
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 93</td><td align="right">
+					19375
+				</td><td align="right">
+					19534
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 93</td><td align="right">
+					19038
+				</td><td align="right">
+					19562
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 93</td><td align="right">
+					19181
+				</td><td align="right">
+					19647
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 93</td><td align="right">
+					19683
+				</td><td align="right">
+					19677
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 93</td><td align="right">
+					19560
+				</td><td align="right">
+					19689
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 93</td><td align="right">
+					19762
+				</td><td align="right">
+					19797
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 93</td><td align="right">
+					19991
+				</td><td align="right">
+					19926
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 93</td><td align="right">
+					20155
+				</td><td align="right">
+					19956
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 93</td><td align="right">
+					20131
+				</td><td align="right">
+					20099
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 93</td><td align="right">
+					20014
+				</td><td align="right">
+					20154
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 93</td><td align="right">
+					20198
+				</td><td align="right">
+					20292
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 93</td><td align="right">
+					21559
+				</td><td align="right">
+					20469
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 94</td><td align="right">
+					20547
+				</td><td align="right">
+					20578
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 94</td><td align="right">
+					20128
+				</td><td align="right">
+					20676
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 94</td><td align="right">
+					20482
+				</td><td align="right">
+					20797
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 94</td><td align="right">
+					20787
+				</td><td align="right">
+					20942
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 94</td><td align="right">
+					20887
+				</td><td align="right">
+					21017
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 94</td><td align="right">
+					21047
+				</td><td align="right">
+					21103
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 94</td><td align="right">
+					21242
+				</td><td align="right">
+					21180
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 94</td><td align="right">
+					21565
+				</td><td align="right">
+					21329
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 94</td><td align="right">
+					21421
+				</td><td align="right">
+					21413
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 94</td><td align="right">
+					21420
+				</td><td align="right">
+					21570
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 94</td><td align="right">
+					21598
+				</td><td align="right">
+					21615
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 94</td><td align="right">
+					23078
+				</td><td align="right">
+					21737
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 95</td><td align="right">
+					21855
+				</td><td align="right">
+					21867
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 95</td><td align="right">
+					21374
+				</td><td align="right">
+					21943
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 95</td><td align="right">
+					21576
+				</td><td align="right">
+					22068
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 95</td><td align="right">
+					22210
+				</td><td align="right">
+					22196
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 95</td><td align="right">
+					22288
+				</td><td align="right">
+					22325
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 95</td><td align="right">
+					22200
+				</td><td align="right">
+					22372
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 95</td><td align="right">
+					22539
+				</td><td align="right">
+					22484
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 95</td><td align="right">
+					22837
+				</td><td align="right">
+					22588
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 95</td><td align="right">
+					22647
+				</td><td align="right">
+					22643
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 95</td><td align="right">
+					22619
+				</td><td align="right">
+					22774
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 95</td><td align="right">
+					22794
+				</td><td align="right">
+					22890
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 95</td><td align="right">
+					24299
+				</td><td align="right">
+					22956
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 96</td><td align="right">
+					23048
+				</td><td align="right">
+					23123
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 96</td><td align="right">
+					22746
+				</td><td align="right">
+					23332
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 96</td><td align="right">
+					22976
+				</td><td align="right">
+					23488
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 96</td><td align="right">
+					23614
+				</td><td align="right">
+					23601
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 96</td><td align="right">
+					23712
+				</td><td align="right">
+					23783
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 96</td><td align="right">
+					23791
+				</td><td align="right">
+					23956
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 96</td><td align="right">
+					24199
+				</td><td align="right">
+					24154
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 96</td><td align="right">
+					24617
+				</td><td align="right">
+					24331
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 96</td><td align="right">
+					24376
+				</td><td align="right">
+					24412
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 96</td><td align="right">
+					24302
+				</td><td align="right">
+					24472
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 96</td><td align="right">
+					24461
+				</td><td align="right">
+					24507
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 96</td><td align="right">
+					25959
+				</td><td align="right">
+					24521
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 97</td><td align="right">
+					24380
+				</td><td align="right">
+					24652
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 97</td><td align="right">
+					24156
+				</td><td align="right">
+					24751
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 97</td><td align="right">
+					24606
+				</td><td align="right">
+					24944
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 97</td><td align="right">
+					24891
+				</td><td align="right">
+					25083
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 97</td><td align="right">
+					25164
+				</td><td align="right">
+					25208
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 97</td><td align="right">
+					25253
+				</td><td align="right">
+					25468
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 97</td><td align="right">
+					25535
+				</td><td align="right">
+					25517
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 97</td><td align="right">
+					25885
+				</td><td align="right">
+					25629
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 97</td><td align="right">
+					25790
+				</td><td align="right">
+					25819
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 97</td><td align="right">
+					25879
+				</td><td align="right">
+					26071
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 97</td><td align="right">
+					26075
+				</td><td align="right">
+					26135
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 97</td><td align="right">
+					27647
+				</td><td align="right">
+					26146
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 98</td><td align="right">
+					26111
+				</td><td align="right">
+					26269
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 98</td><td align="right">
+					25880
+				</td><td align="right">
+					26492
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 98</td><td align="right">
+					25966
+				</td><td align="right">
+					26518
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 98</td><td align="right">
+					26613
+				</td><td align="right">
+					26611
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 98</td><td align="right">
+					26665
+				</td><td align="right">
+					26699
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 98</td><td align="right">
+					26602
+				</td><td align="right">
+					26858
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 98</td><td align="right">
+					26961
+				</td><td align="right">
+					26978
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 98</td><td align="right">
+					27251
+				</td><td align="right">
+					27111
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 98</td><td align="right">
+					27373
+				</td><td align="right">
+					27328
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 98</td><td align="right">
+					27193
+				</td><td align="right">
+					27415
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 98</td><td align="right">
+					27372
+				</td><td align="right">
+					27466
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 98</td><td align="right">
+					29094
+				</td><td align="right">
+					27658
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 99</td><td align="right">
+					27524
+				</td><td align="right">
+					27656
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 99</td><td align="right">
+					27233
+				</td><td align="right">
+					27850
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 99</td><td align="right">
+					27643
+				</td><td align="right">
+					27993
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 99</td><td align="right">
+					28037
+				</td><td align="right">
+					28264
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 99</td><td align="right">
+					28305
+				</td><td align="right">
+					28533
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 99</td><td align="right">
+					28681
+				</td><td align="right">
+					28776
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 99</td><td align="right">
+					28977
+				</td><td align="right">
+					29044
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 99</td><td align="right">
+					29354
+				</td><td align="right">
+					29238
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 99</td><td align="right">
+					29237
+				</td><td align="right">
+					29226
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 99</td><td align="right">
+					29220
+				</td><td align="right">
+					29470
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 99</td><td align="right">
+					29838
+				</td><td align="right">
+					29835
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 99</td><td align="right">
+					32602
+				</td><td align="right">
+					30911
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 00</td><td align="right">
+					31227
+				</td><td align="right">
+					31123
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 00</td><td align="right">
+					29596
+				</td><td align="right">
+					30244
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 00</td><td align="right">
+					29817
+				</td><td align="right">
+					30429
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 00</td><td align="right">
+					30571
+				</td><td align="right">
+					30567
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 00</td><td align="right">
+					30666
+				</td><td align="right">
+					30755
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 00</td><td align="right">
+					30671
+				</td><td align="right">
+					30941
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 00</td><td align="right">
+					30962
+				</td><td align="right">
+					31083
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 00</td><td align="right">
+					31440
+				</td><td align="right">
+					31309
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 00</td><td align="right">
+					31615
+				</td><td align="right">
+					31684
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 00</td><td align="right">
+					31550
+				</td><td align="right">
+					31828
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 00</td><td align="right">
+					32050
+				</td><td align="right">
+					32047
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 00</td><td align="right">
+					34376
+				</td><td align="right">
+					32366
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 01</td><td align="right">
+					32738
+				</td><td align="right">
+					32634
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 01</td><td align="right">
+					32096
+				</td><td align="right">
+					32783
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 01</td><td align="right">
+					32301
+				</td><td align="right">
+					32958
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 01</td><td align="right">
+					32879
+				</td><td align="right">
+					32866
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 01</td><td align="right">
+					32769
+				</td><td align="right">
+					32848
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 01</td><td align="right">
+					32773
+				</td><td align="right">
+					33072
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 01</td><td align="right">
+					33168
+				</td><td align="right">
+					33341
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 01</td><td align="right">
+					33763
+				</td><td align="right">
+					33602
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 01</td><td align="right">
+					33689
+				</td><td align="right">
+					33840
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 01</td><td align="right">
+					33878
+				</td><td align="right">
+					34168
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 01</td><td align="right">
+					34788
+				</td><td align="right">
+					34632
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 01</td><td align="right">
+					37237
+				</td><td align="right">
+					34993
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 02</td><td align="right">
+					35707
+				</td><td align="right">
+					35257
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 02</td><td align="right">
+					34649
+				</td><td align="right">
+					35382
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 02</td><td align="right">
+					35061
+				</td><td align="right">
+					35482
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 02</td><td align="right">
+					35261
+				</td><td align="right">
+					35512
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 02</td><td align="right">
+					35567
+				</td><td align="right">
+					36007
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 02</td><td align="right">
+					36121
+				</td><td align="right">
+					36249
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 02</td><td align="right">
+					35950
+				</td><td align="right">
+					36152
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 02</td><td align="right">
+					36578
+				</td><td align="right">
+					36433
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 02</td><td align="right">
+					36407
+				</td><td align="right">
+					36577
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 02</td><td align="right">
+					36656
+				</td><td align="right">
+					36957
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 02</td><td align="right">
+					37080
+				</td><td align="right">
+					36980
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 02</td><td align="right">
+					39439
+				</td><td align="right">
+					37190
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 03</td><td align="right">
+					37157
+				</td><td align="right">
+					37307
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 03</td><td align="right">
+					36855
+				</td><td align="right">
+					37625
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 03</td><td align="right">
+					37122
+				</td><td align="right">
+					37859
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 03</td><td align="right">
+					38521
+				</td><td align="right">
+					38466
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 03</td><td align="right">
+					38741
+				</td><td align="right">
+					38822
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 03</td><td align="right">
+					38333
+				</td><td align="right">
+					38688
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 03</td><td align="right">
+					38736
+				</td><td align="right">
+					38941
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 03</td><td align="right">
+					39418
+				</td><td align="right">
+					39296
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 03</td><td align="right">
+					39269
+				</td><td align="right">
+					39440
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 03</td><td align="right">
+					39314
+				</td><td align="right">
+					39607
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 03</td><td align="right">
+					39983
+				</td><td align="right">
+					39911
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 03</td><td align="right">
+					42238
+				</td><td align="right">
+					39983
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 04</td><td align="right">
+					40083
+				</td><td align="right">
+					40103
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 04</td><td align="right">
+					39391
+				</td><td align="right">
+					40199
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 04</td><td align="right">
+					39694
+				</td><td align="right">
+					40463
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 04</td><td align="right">
+					40705
+				</td><td align="right">
+					40625
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 04</td><td align="right">
+					40595
+				</td><td align="right">
+					40909
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 04</td><td align="right">
+					41011
+				</td><td align="right">
+					41157
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 04</td><td align="right">
+					41045
+				</td><td align="right">
+					41231
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 04</td><td align="right">
+					41402
+				</td><td align="right">
+					41382
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 04</td><td align="right">
+					41682
+				</td><td align="right">
+					41763
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 04</td><td align="right">
+					41654
+				</td><td align="right">
+					41941
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 04</td><td align="right">
+					42156
+				</td><td align="right">
+					42034
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 04</td><td align="right">
+					44347
+				</td><td align="right">
+					42289
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 05</td><td align="right">
+					42619
+				</td><td align="right">
+					42409
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 05</td><td align="right">
+					41686
+				</td><td align="right">
+					42520
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 05</td><td align="right">
+					42300
+				</td><td align="right">
+					42508
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 05</td><td align="right">
+					42124
+				</td><td align="right">
+					42591
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 05</td><td align="right">
+					42324
+				</td><td align="right">
+					42640
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 05</td><td align="right">
+					42590
+				</td><td align="right">
+					42739
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 05</td><td align="right">
+					42965
+				</td><td align="right">
+					43129
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 05</td><td align="right">
+					43487
+				</td><td align="right">
+					43432
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 05</td><td align="right">
+					43238
+				</td><td align="right">
+					43385
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 05</td><td align="right">
+					43168
+				</td><td align="right">
+					43441
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 05</td><td align="right">
+					43881
+				</td><td align="right">
+					43611
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 05</td><td align="right">
+					46028
+				</td><td align="right">
+					43609
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 06</td><td align="right">
+					44380
+				</td><td align="right">
+					44129
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 06</td><td align="right">
+					43554
+				</td><td align="right">
+					44395
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 06</td><td align="right">
+					43894
+				</td><td align="right">
+					44640
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 06</td><td align="right">
+					45004
+				</td><td align="right">
+					44897
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 06</td><td align="right">
+					44821
+				</td><td align="right">
+					44949
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 06</td><td align="right">
+					44804
+				</td><td align="right">
+					45160
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 06</td><td align="right">
+					45306
+				</td><td align="right">
+					45450
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 06</td><td align="right">
+					45694
+				</td><td align="right">
+					45643
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 06</td><td align="right">
+					45419
+				</td><td align="right">
+					45612
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 06</td><td align="right">
+					45514
+				</td><td align="right">
+					45788
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 06</td><td align="right">
+					45993
+				</td><td align="right">
+					45896
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 06</td><td align="right">
+					48172
+				</td><td align="right">
+					45838
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 07</td><td align="right">
+					46145
+				</td><td align="right">
+					46008
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 07</td><td align="right">
+					45350
+				</td><td align="right">
+					46192
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 07</td><td align="right">
+					45718
+				</td><td align="right">
+					46436
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 07</td><td align="right">
+					46676
+				</td><td align="right">
+					46561
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 07</td><td align="right">
+					46890
+				</td><td align="right">
+					47016
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 07</td><td align="right">
+					46956
+				</td><td align="right">
+					47323
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 07</td><td align="right">
+					47292
+				</td><td align="right">
+					47432
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 07</td><td align="right">
+					47867
+				</td><td align="right">
+					47766
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 07</td><td align="right">
+					47803
+				</td><td align="right">
+					48129
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 07</td><td align="right">
+					47985
+				</td><td align="right">
+					48260
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 07</td><td align="right">
+					48634
+				</td><td align="right">
+					48335
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 07</td><td align="right">
+					51016
+				</td><td align="right">
+					48491
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 08</td><td align="right">
+					49461
+				</td><td align="right">
+					48888
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 08</td><td align="right">
+					48355
+				</td><td align="right">
+					49223
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 08</td><td align="right">
+					49491
+				</td><td align="right">
+					49556
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 08</td><td align="right">
+					49124
+				</td><td align="right">
+					49657
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 08</td><td align="right">
+					49697
+				</td><td align="right">
+					49815
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 08</td><td align="right">
+					49649
+				</td><td align="right">
+					50029
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 08</td><td align="right">
+					50030
+				</td><td align="right">
+					50188
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 08</td><td align="right">
+					50229
+				</td><td align="right">
+					50195
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 08</td><td align="right">
+					50275
+				</td><td align="right">
+					50611
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 08</td><td align="right">
+					50847
+				</td><td align="right">
+					51131
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 08</td><td align="right">
+					51749
+				</td><td align="right">
+					51607
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 08</td><td align="right">
+					54399
+				</td><td align="right">
+					51936
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 09</td><td align="right">
+					52605
+				</td><td align="right">
+					52868
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 09</td><td align="right">
+					52420
+				</td><td align="right">
+					53245
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 09</td><td align="right">
+					53008
+				</td><td align="right">
+					53598
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 09</td><td align="right">
+					54113
+				</td><td align="right">
+					53926
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 09</td><td align="right">
+					54054
+				</td><td align="right">
+					53966
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 09</td><td align="right">
+					53941
+				</td><td align="right">
+					53978
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 09</td><td align="right">
+					54387
+				</td><td align="right">
+					54295
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 09</td><td align="right">
+					54437
+				</td><td align="right">
+					54523
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 09</td><td align="right">
+					54789
+				</td><td align="right">
+					54861
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 09</td><td align="right">
+					54711
+				</td><td align="right">
+					55079
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 09</td><td align="right">
+					55047
+				</td><td align="right">
+					55222
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 09</td><td align="right">
+					57516
+				</td><td align="right">
+					55872
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 10</td><td align="right">
+					56000
+				</td><td align="right">
+					56146
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 10</td><td align="right">
+					55360
+				</td><td align="right">
+					56236
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 10</td><td align="right">
+					56111
+				</td><td align="right">
+					56533
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 10</td><td align="right">
+					56748
+				</td><td align="right">
+					56807
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 10</td><td align="right">
+					56947
+				</td><td align="right">
+					57104
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 10</td><td align="right">
+					57247
+				</td><td align="right">
+					57059
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 10</td><td align="right">
+					56969
+				</td><td align="right">
+					56854
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 10</td><td align="right">
+					57070
+				</td><td align="right">
+					57145
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 10</td><td align="right">
+					57280
+				</td><td align="right">
+					57311
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 10</td><td align="right">
+					57055
+				</td><td align="right">
+					57381
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 10</td><td align="right">
+					57323
+				</td><td align="right">
+					57579
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 10</td><td align="right">
+					59641
+				</td><td align="right">
+					57942
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 11</td><td align="right">
+					58133
+				</td><td align="right">
+					58181
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 11</td><td align="right">
+					57427
+				</td><td align="right">
+					58346
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 11</td><td align="right">
+					57825
+				</td><td align="right">
+					58513
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 11</td><td align="right">
+					59013
+				</td><td align="right">
+					58900
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 11</td><td align="right">
+					59264
+				</td><td align="right">
+					59250
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 11</td><td align="right">
+					59486
+				</td><td align="right">
+					59516
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 11</td><td align="right">
+					60003
+				</td><td align="right">
+					59857
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 11</td><td align="right">
+					60241
+				</td><td align="right">
+					60174
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 11</td><td align="right">
+					60324
+				</td><td align="right">
+					60391
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 11</td><td align="right">
+					60584
+				</td><td align="right">
+					60843
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 11</td><td align="right">
+					61167
+				</td><td align="right">
+					61036
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 11</td><td align="right">
+					63066
+				</td><td align="right">
+					61204
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 12</td><td align="right">
+					61186
+				</td><td align="right">
+					61294
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 12</td><td align="right">
+					60574
+				</td><td align="right">
+					61551
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 12</td><td align="right">
+					61043
+				</td><td align="right">
+					61780
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 12</td><td align="right">
+					61918
+				</td><td align="right">
+					61856
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 12</td><td align="right">
+					61669
+				</td><td align="right">
+					62199
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 12</td><td align="right">
+					62643
+				</td><td align="right">
+					62490
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 12</td><td align="right">
+					62950
+				</td><td align="right">
+					62783
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 12</td><td align="right">
+					63444
+				</td><td align="right">
+					63219
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 12</td><td align="right">
+					63178
+				</td><td align="right">
+					63263
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 12</td><td align="right">
+					63225
+				</td><td align="right">
+					63416
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 12</td><td align="right">
+					63653
+				</td><td align="right">
+					63566
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 12</td><td align="right">
+					65616
+				</td><td align="right">
+					63749
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 13</td><td align="right">
+					63969
+				</td><td align="right">
+					64015
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 13</td><td align="right">
+					63326
+				</td><td align="right">
+					64337
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 13</td><td align="right">
+					64229
+				</td><td align="right">
+					64761
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 13</td><td align="right">
+					64809
+				</td><td align="right">
+					65023
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 13</td><td align="right">
+					65282
+				</td><td align="right">
+					65254
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 13</td><td align="right">
+					65390
+				</td><td align="right">
+					65579
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 13</td><td align="right">
+					65935
+				</td><td align="right">
+					65767
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 13</td><td align="right">
+					66308
+				</td><td align="right">
+					66015
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 13</td><td align="right">
+					66102
+				</td><td align="right">
+					66138
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 13</td><td align="right">
+					66099
+				</td><td align="right">
+					66243
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 13</td><td align="right">
+					66591
+				</td><td align="right">
+					66427
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 13</td><td align="right">
+					68574
+				</td><td align="right">
+					66551
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 14</td><td align="right">
+					66706
+				</td><td align="right">
+					66757
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 14</td><td align="right">
+					65937
+				</td><td align="right">
+					66962
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 14</td><td align="right">
+					66323
+				</td><td align="right">
+					67163
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 14</td><td align="right">
+					67537
+				</td><td align="right">
+					67506
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 14</td><td align="right">
+					67667
+				</td><td align="right">
+					67782
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 14</td><td align="right">
+					67753
+				</td><td align="right">
+					67886
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 14</td><td align="right">
+					68312
+				</td><td align="right">
+					68142
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 14</td><td align="right">
+					68764
+				</td><td align="right">
+					68510
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 14</td><td align="right">
+					69003
+				</td><td align="right">
+					68905
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 14</td><td align="right">
+					69315
+				</td><td align="right">
+					69416
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 14</td><td align="right">
+					69976
+				</td><td align="right">
+					69863
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 14</td><td align="right">
+					72362
+				</td><td align="right">
+					70325
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 15</td><td align="right">
+					70165
+				</td><td align="right">
+					70657
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 15</td><td align="right">
+					70000
+				</td><td align="right">
+					71063
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 15</td><td align="right">
+					70568
+				</td><td align="right">
+					71509
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 15</td><td align="right">
+					71601
+				</td><td align="right">
+					71607
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 15</td><td align="right">
+					71799
+				</td><td align="right">
+					71967
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 15</td><td align="right">
+					71990
+				</td><td align="right">
+					72182
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 15</td><td align="right">
+					72678
+				</td><td align="right">
+					72480
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 15</td><td align="right">
+					73093
+				</td><td align="right">
+					72805
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 15</td><td align="right">
+					73198
+				</td><td align="right">
+					73006
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 15</td><td align="right">
+					73394
+				</td><td align="right">
+					73423
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 15</td><td align="right">
+					73906
+				</td><td align="right">
+					73852
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 15</td><td align="right">
+					75838
+				</td><td align="right">
+					74193
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 16</td><td align="right">
+					74163
+				</td><td align="right">
+					74464
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 16</td><td align="right">
+					74130
+				</td><td align="right">
+					75263
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 16</td><td align="right">
+					75439
+				</td><td align="right">
+					76071
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 16</td><td align="right">
+					76020
+				</td><td align="right">
+					76565
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 16</td><td align="right">
+					76798
+				</td><td align="right">
+					77115
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 16</td><td align="right">
+					77444
+				</td><td align="right">
+					77614
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 16</td><td align="right">
+					78687
+				</td><td align="right">
+					78414
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 16</td><td align="right">
+					79346
+				</td><td align="right">
+					78944
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 16</td><td align="right">
+					79724
+				</td><td align="right">
+					79414
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 16</td><td align="right">
+					79964
+				</td><td align="right">
+					79881
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 16</td><td align="right">
+					80728
+				</td><td align="right">
+					80312
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 16</td><td align="right">
+					82756
+				</td><td align="right">
+					80811
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 17</td><td align="right">
+					81122
+				</td><td align="right">
+					81243
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 17</td><td align="right">
+					80289
+				</td><td align="right">
+					81559
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 17</td><td align="right">
+					80602
+				</td><td align="right">
+					81853
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 17</td><td align="right">
+					81814
+				</td><td align="right">
+					82083
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 17</td><td align="right">
+					81782
+				</td><td align="right">
+					82179
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 17</td><td align="right">
+					81901
+				</td><td align="right">
+					82112
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 17</td><td align="right">
+					82449
+				</td><td align="right">
+					82083
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 17</td><td align="right">
+					82462
+				</td><td align="right">
+					82017
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 17</td><td align="right">
+					82649
+				</td><td align="right">
+					82053
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 17</td><td align="right">
+					82306
+				</td><td align="right">
+					82065
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 17</td><td align="right">
+					82430
+				</td><td align="right">
+					81985
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 17</td><td align="right">
+					83736
+				</td><td align="right">
+					81901
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 18</td><td align="right">
+					81614
+				</td><td align="right">
+					81801
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 18</td><td align="right">
+					80340
+				</td><td align="right">
+					81699
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 18</td><td align="right">
+					80593
+				</td><td align="right">
+					81670
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 18</td><td align="right">
+					80825
+				</td><td align="right">
+					81627
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 18</td><td align="right">
+					81117
+				</td><td align="right">
+					81592
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 18</td><td align="right">
+					81400
+				</td><td align="right">
+					81574
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 18</td><td align="right">
+					82054
+				</td><td align="right">
+					81565
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 18</td><td align="right">
+					82345
+				</td><td align="right">
+					81530
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 18</td><td align="right">
+					82299
+				</td><td align="right">
+					81674
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 18</td><td align="right">
+					82073
+				</td><td align="right">
+					81693
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 18</td><td align="right">
+					82229
+				</td><td align="right">
+					81895
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 18</td><td align="right">
+					83865
+				</td><td align="right">
+					82161
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 19</td><td align="right">
+					82310
+				</td><td align="right">
+					82317
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 19</td><td align="right">
+					81167
+				</td><td align="right">
+					82621
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 19</td><td align="right">
+					81374
+				</td><td align="right">
+					82963
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 19</td><td align="right">
+					82114
+				</td><td align="right">
+					82835
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 19</td><td align="right">
+					82172
+				</td><td align="right">
+					82791
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 19</td><td align="right">
+					82538
+				</td><td align="right">
+					82588
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 19</td><td align="right">
+					83189
+				</td><td align="right">
+					82540
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 19</td><td align="right">
+					83651
+				</td><td align="right">
+					82565
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 19</td><td align="right">
+					83533
+				</td><td align="right">
+					82711
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 19</td><td align="right">
+					83324
+				</td><td align="right">
+					82819
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 19</td><td align="right">
+					83047
+				</td><td align="right">
+					82711
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 19</td><td align="right">
+					84266
+				</td><td align="right">
+					82562
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 20</td><td align="right">
+					82672
+				</td><td align="right">
+					82692
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 20</td><td align="right">
+					81275
+				</td><td align="right">
+					82802
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 20</td><td align="right">
+					81549
+				</td><td align="right">
+					83326
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 20</td><td align="right">
+					82139
+				</td><td align="right">
+					83057
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 20</td><td align="right">
+					83645
+				</td><td align="right">
+					84517
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 20</td><td align="right">
+					85923
+				</td><td align="right">
+					85704
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 20</td><td align="right">
+					87916
+				</td><td align="right">
+					87047
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 20</td><td align="right">
+					88855
+				</td><td align="right">
+					87525
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 20</td><td align="right">
+					89337
+				</td><td align="right">
+					88214
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 20</td><td align="right">
+					89619
+				</td><td align="right">
+					89033
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 20</td><td align="right">
+					90005
+				</td><td align="right">
+					89967
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 20</td><td align="right">
+					91895
+				</td><td align="right">
+					90799
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 21</td><td align="right">
+					91912
+				</td><td align="right">
+					92338
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 21</td><td align="right">
+					91851
+				</td><td align="right">
+					93587
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 21</td><td align="right">
+					92843
+				</td><td align="right">
+					94642
+				</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Notes:</b></td></tr><TR><TD colspan=20>[a] Average of amounts outstanding at close of business on Wednesdays within the calendar month.</TD></TR><TR><TD colspan=20>[b] From November 2009 notes and coin in circulation represents all holdings outside the Bank of England (including those in banks' and building societies' tills), but excluding backing assets for commercial banknote issue in Scotland and Northern Ireland. The effects of the change in definition have been removed from the flows (changes) data. For details, see the October 2009 article in Monetary & Financial Statistics at http://www.bankofengland.co.uk/statistics/documents/ms/articles/art1oct09.pdf.</TD></TR><TR><TD colspan=20>[c] The seasonal adjustment of this series is under review due to changes in patterns of trading day and holiday effects, particularly from 2013 onwards.</TD></TR><TR><TD colspan=20>[d] Changes to the method of seasonal adjustment took effect from the publication of July 2019 data. For further details, see: https://www.bankofengland.co.uk/statistics/details/further-details-about-notes-and-coin-and-reserves-balances-data. (31 Jan 2009 onward)</TD></TR>
+</TABLE>
+</div>
+</BODY>
+</HTML>

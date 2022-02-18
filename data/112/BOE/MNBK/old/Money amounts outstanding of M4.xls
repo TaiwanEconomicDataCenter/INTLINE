@@ -1,0 +1,4695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Bank of England Statistical Interactive Database
+ 
+</TITLE>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1"/>
+<link rel="stylesheet" type="text/css" media="screen,projection" href="default.css">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="https://www.google.com/uds/api/search/1.0/374942b9f66402975ad19789cb8ab24c/default+en.css" />
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="shortcut icon" href="http://www.bankofengland.co.uk/boeapps/iadb/favicon.ico" type="image/vnd.microsoft.icon" />
+<script language="JavaScript" type="text/javascript" src="js/swfobject.js"></script>
+<script language="JavaScript" type="text/JavaScript" src="js/jsfunctions.js"></script>
+</head>
+
+<body class="popup">
+<div id="hmaincontent">
+	<table border="0" width="50%">
+		<tr><td width="50%" colspan="4">
+		<img src="images/logo-popup.jpg" alt="Bank of England" title="Bank of England" />
+		</td>	
+
+<!-- bgcolor="#F0F8FF" -->
+<TD align=center style="font-size: 100%"><B>Series 1 to 4</B></TD></tr>
+
+    <table width="1%" border=0 class="showdata"><!-- force as narrow as possible -->
+    <tr></tr>
+<tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>Monthly amounts </td><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>Monthly amounts </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>outstanding of M4 </td><td style="padding-left: 10px" align=right nowrap>Monthly amounts </td><td style="padding-left: 10px" align=right nowrap>Monthly amounts </td><td style="padding-left: 10px" align=right nowrap>outstanding of </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>(monetary financial </td><td style="padding-left: 10px" align=right nowrap>outstanding of M4 </td><td style="padding-left: 10px" align=right nowrap>outstanding of </td><td style="padding-left: 10px" align=right nowrap>monetary financial </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>institutions' </td><td style="padding-left: 10px" align=right nowrap>(monetary financial </td><td style="padding-left: 10px" align=right nowrap>monetary financial </td><td style="padding-left: 10px" align=right nowrap>institutions' </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>sterling M4 </td><td style="padding-left: 10px" align=right nowrap>institutions' </td><td style="padding-left: 10px" align=right nowrap>institutions' </td><td style="padding-left: 10px" align=right nowrap>sterling retail M4 </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>liabilities to </td><td style="padding-left: 10px" align=right nowrap>sterling M4 </td><td style="padding-left: 10px" align=right nowrap>sterling retail M4 </td><td style="padding-left: 10px" align=right nowrap>liabilities to </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>private sector) (in </td><td style="padding-left: 10px" align=right nowrap>liabilities to </td><td style="padding-left: 10px" align=right nowrap>liabilities to </td><td style="padding-left: 10px" align=right nowrap>private sector (in </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td><td style="padding-left: 10px" align=right nowrap>private sector) (in </td><td style="padding-left: 10px" align=right nowrap>private sector (in </td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>not seasonally </td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td><td style="padding-left: 10px" align=right nowrap>sterling millions) </td><td style="padding-left: 10px" align=right nowrap>not seasonally </td></tr><tr><td style="padding-left: 10px" align=right nowrap></td><td style="padding-left: 10px" align=right nowrap>adjusted</td><td style="padding-left: 10px" align=right nowrap>seasonally adjusted</td><td style="padding-left: 10px" align=right nowrap>seasonally adjusted</td><td style="padding-left: 10px" align=right nowrap>adjusted</td></tr><tr><td align=right nowrap><b></b> 
+		</td><td align=right nowrap><b>LPMAUYM</b> 
+		</td><td align=right nowrap><b>LPMAUYN</b> 
+		</td><td align=right nowrap><b>LPMVQWK</b> 
+		</td><td align=right nowrap><b>LPMVQXV</b> 
+		</td></tr>
+		<TR>
+		<TD align=right></TD><TD align=right>[a] [b] [c] [d] [e] [f] [g] [h] [i] [j] [k] [l] [m] [n] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [12] [13] [14] [15] [16] [17]</TD><TD align=right>[18] [19] [e] [f] [g] [i] [o] [p] [q] [r] [s] [t] [u] [v] [w] [x] [y] [z] [1] [2] [3] [4] [5] [6] [7] [20] [9] [10] [11] [12] [12] [13] [14] [15] [16] [17]</TD><TD align=right>[21] [19] [e] [f] [g] [i] [o] [22] [23] [24] [y] [25] [26] [27] [7] [28] [29] [12] [30] [31] [32]</TD><TD align=right>[21] [b] [e] [f] [g] [h] [i] [o] [22] [23] [24] [y] [25] [26] [27] [7] [28] [29] [12] [30] [31]</TD>
+		</TR>
+	
+	
+	<tr height="12">&nbsp;<!-- blank row --></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 82</td><td align="right">
+					145674
+				</td><td align="right">
+					145345
+				</td><td align="right">
+					n/a
+				</td><td align="right">
+					113345
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 82</td><td align="right">
+					147704
+				</td><td align="right">
+					146840
+				</td><td align="right">
+					114629
+				</td><td align="right">
+					115249
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 82</td><td align="right">
+					148425
+				</td><td align="right">
+					148269
+				</td><td align="right">
+					115829
+				</td><td align="right">
+					115996
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 82</td><td align="right">
+					149518
+				</td><td align="right">
+					149702
+				</td><td align="right">
+					117163
+				</td><td align="right">
+					116852
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 82</td><td align="right">
+					150750
+				</td><td align="right">
+					150545
+				</td><td align="right">
+					122659
+				</td><td align="right">
+					122450
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 82</td><td align="right">
+					152366
+				</td><td align="right">
+					151971
+				</td><td align="right">
+					123402
+				</td><td align="right">
+					123531
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 82</td><td align="right">
+					154909
+				</td><td align="right">
+					153888
+				</td><td align="right">
+					125088
+				</td><td align="right">
+					125736
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 83</td><td align="right">
+					155494
+				</td><td align="right">
+					156183
+				</td><td align="right">
+					126176
+				</td><td align="right">
+					125689
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 83</td><td align="right">
+					158553
+				</td><td align="right">
+					160434
+				</td><td align="right">
+					128160
+				</td><td align="right">
+					127523
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 83</td><td align="right">
+					161331
+				</td><td align="right">
+					161316
+				</td><td align="right">
+					129229
+				</td><td align="right">
+					129098
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 83</td><td align="right">
+					162445
+				</td><td align="right">
+					162904
+				</td><td align="right">
+					130036
+				</td><td align="right">
+					129899
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 83</td><td align="right">
+					163893
+				</td><td align="right">
+					164150
+				</td><td align="right">
+					131049
+				</td><td align="right">
+					131005
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 83</td><td align="right">
+					166474
+				</td><td align="right">
+					165962
+				</td><td align="right">
+					132567
+				</td><td align="right">
+					132903
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 83</td><td align="right">
+					168451
+				</td><td align="right">
+					167474
+				</td><td align="right">
+					133406
+				</td><td align="right">
+					134195
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 83</td><td align="right">
+					168536
+				</td><td align="right">
+					168357
+				</td><td align="right">
+					134353
+				</td><td align="right">
+					134543
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 83</td><td align="right">
+					169598
+				</td><td align="right">
+					169490
+				</td><td align="right">
+					135543
+				</td><td align="right">
+					135333
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 83</td><td align="right">
+					171167
+				</td><td align="right">
+					171036
+				</td><td align="right">
+					137345
+				</td><td align="right">
+					137040
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 83</td><td align="right">
+					173192
+				</td><td align="right">
+					172779
+				</td><td align="right">
+					138630
+				</td><td align="right">
+					138740
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 83</td><td align="right">
+					175299
+				</td><td align="right">
+					174297
+				</td><td align="right">
+					140305
+				</td><td align="right">
+					141044
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 84</td><td align="right">
+					176117
+				</td><td align="right">
+					177093
+				</td><td align="right">
+					141536
+				</td><td align="right">
+					140894
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 84</td><td align="right">
+					177924
+				</td><td align="right">
+					180210
+				</td><td align="right">
+					142972
+				</td><td align="right">
+					142118
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 84</td><td align="right">
+					180061
+				</td><td align="right">
+					179915
+				</td><td align="right">
+					144577
+				</td><td align="right">
+					144193
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 84</td><td align="right">
+					181931
+				</td><td align="right">
+					182607
+				</td><td align="right">
+					145833
+				</td><td align="right">
+					145625
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 84</td><td align="right">
+					184919
+				</td><td align="right">
+					185045
+				</td><td align="right">
+					147455
+				</td><td align="right">
+					147369
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 84</td><td align="right">
+					187332
+				</td><td align="right">
+					186635
+				</td><td align="right">
+					148536
+				</td><td align="right">
+					149102
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 84</td><td align="right">
+					189340
+				</td><td align="right">
+					188551
+				</td><td align="right">
+					149483
+				</td><td align="right">
+					150177
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 84</td><td align="right">
+					190027
+				</td><td align="right">
+					189336
+				</td><td align="right">
+					149712
+				</td><td align="right">
+					150066
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 84</td><td align="right">
+					191870
+				</td><td align="right">
+					191698
+				</td><td align="right">
+					151693
+				</td><td align="right">
+					151619
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 84</td><td align="right">
+					193783
+				</td><td align="right">
+					193666
+				</td><td align="right">
+					153290
+				</td><td align="right">
+					152903
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 84</td><td align="right">
+					198154
+				</td><td align="right">
+					197286
+				</td><td align="right">
+					156042
+				</td><td align="right">
+					156257
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 84</td><td align="right">
+					198930
+				</td><td align="right">
+					198087
+				</td><td align="right">
+					157019
+				</td><td align="right">
+					157774
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 85</td><td align="right">
+					200999
+				</td><td align="right">
+					202094
+				</td><td align="right">
+					158252
+				</td><td align="right">
+					157514
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 85</td><td align="right">
+					200457
+				</td><td align="right">
+					202911
+				</td><td align="right">
+					159782
+				</td><td align="right">
+					158776
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 85</td><td align="right">
+					205282
+				</td><td align="right">
+					205114
+				</td><td align="right">
+					160974
+				</td><td align="right">
+					160779
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 85</td><td align="right">
+					206092
+				</td><td align="right">
+					206989
+				</td><td align="right">
+					162648
+				</td><td align="right">
+					162279
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 85</td><td align="right">
+					208860
+				</td><td align="right">
+					208693
+				</td><td align="right">
+					163784
+				</td><td align="right">
+					163742
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 85</td><td align="right">
+					211825
+				</td><td align="right">
+					211074
+				</td><td align="right">
+					165008
+				</td><td align="right">
+					165786
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 85</td><td align="right">
+					214203
+				</td><td align="right">
+					213308
+				</td><td align="right">
+					166871
+				</td><td align="right">
+					167672
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 85</td><td align="right">
+					216501
+				</td><td align="right">
+					215776
+				</td><td align="right">
+					169167
+				</td><td align="right">
+					169570
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 85</td><td align="right">
+					217942
+				</td><td align="right">
+					217669
+				</td><td align="right">
+					170836
+				</td><td align="right">
+					170793
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 85</td><td align="right">
+					220282
+				</td><td align="right">
+					219815
+				</td><td align="right">
+					172532
+				</td><td align="right">
+					172239
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 85</td><td align="right">
+					222609
+				</td><td align="right">
+					221848
+				</td><td align="right">
+					175107
+				</td><td align="right">
+					175266
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 85</td><td align="right">
+					224768
+				</td><td align="right">
+					224168
+				</td><td align="right">
+					176457
+				</td><td align="right">
+					177164
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 86</td><td align="right">
+					227400
+				</td><td align="right">
+					228514
+				</td><td align="right">
+					179228
+				</td><td align="right">
+					178433
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 86</td><td align="right">
+					229668
+				</td><td align="right">
+					232232
+				</td><td align="right">
+					180870
+				</td><td align="right">
+					179762
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 86</td><td align="right">
+					235356
+				</td><td align="right">
+					235352
+				</td><td align="right">
+					182382
+				</td><td align="right">
+					182382
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 86</td><td align="right">
+					236982
+				</td><td align="right">
+					238012
+				</td><td align="right">
+					184689
+				</td><td align="right">
+					184243
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 86</td><td align="right">
+					241814
+				</td><td align="right">
+					241810
+				</td><td align="right">
+					186086
+				</td><td align="right">
+					185995
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 86</td><td align="right">
+					245140
+				</td><td align="right">
+					244481
+				</td><td align="right">
+					188973
+				</td><td align="right">
+					189848
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 86</td><td align="right">
+					247767
+				</td><td align="right">
+					246506
+				</td><td align="right">
+					192054
+				</td><td align="right">
+					193022
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 86</td><td align="right">
+					248521
+				</td><td align="right">
+					247588
+				</td><td align="right">
+					191845
+				</td><td align="right">
+					192316
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 86</td><td align="right">
+					250071
+				</td><td align="right">
+					249525
+				</td><td align="right">
+					195070
+				</td><td align="right">
+					195176
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 86</td><td align="right">
+					253029
+				</td><td align="right">
+					252028
+				</td><td align="right">
+					195746
+				</td><td align="right">
+					195652
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 86</td><td align="right">
+					255913
+				</td><td align="right">
+					255301
+				</td><td align="right">
+					197070
+				</td><td align="right">
+					197197
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 86</td><td align="right">
+					258304
+				</td><td align="right">
+					257860
+				</td><td align="right">
+					199236
+				</td><td align="right">
+					199956
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 87</td><td align="right">
+					259877
+				</td><td align="right">
+					261465
+				</td><td align="right">
+					200555
+				</td><td align="right">
+					199577
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 87</td><td align="right">
+					264180
+				</td><td align="right">
+					267294
+				</td><td align="right">
+					200906
+				</td><td align="right">
+					199589
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 87</td><td align="right">
+					271028
+				</td><td align="right">
+					271128
+				</td><td align="right">
+					202699
+				</td><td align="right">
+					202067
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 87</td><td align="right">
+					274578
+				</td><td align="right">
+					275513
+				</td><td align="right">
+					204792
+				</td><td align="right">
+					204295
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 87</td><td align="right">
+					278411
+				</td><td align="right">
+					278426
+				</td><td align="right">
+					206676
+				</td><td align="right">
+					206629
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 87</td><td align="right">
+					282056
+				</td><td align="right">
+					281368
+				</td><td align="right">
+					209484
+				</td><td align="right">
+					210444
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 87</td><td align="right">
+					287189
+				</td><td align="right">
+					285388
+				</td><td align="right">
+					210735
+				</td><td align="right">
+					211915
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 87</td><td align="right">
+					290389
+				</td><td align="right">
+					289317
+				</td><td align="right">
+					212321
+				</td><td align="right">
+					212720
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 87</td><td align="right">
+					293264
+				</td><td align="right">
+					292191
+				</td><td align="right">
+					213584
+				</td><td align="right">
+					213988
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 87</td><td align="right">
+					298909
+				</td><td align="right">
+					297903
+				</td><td align="right">
+					215808
+				</td><td align="right">
+					215802
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 87</td><td align="right">
+					300086
+				</td><td align="right">
+					299952
+				</td><td align="right">
+					218324
+				</td><td align="right">
+					218147
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 87</td><td align="right">
+					304948
+				</td><td align="right">
+					304422
+				</td><td align="right">
+					219733
+				</td><td align="right">
+					220542
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 88</td><td align="right">
+					304916
+				</td><td align="right">
+					306874
+				</td><td align="right">
+					222683
+				</td><td align="right">
+					221528
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 88</td><td align="right">
+					305936
+				</td><td align="right">
+					309706
+				</td><td align="right">
+					225112
+				</td><td align="right">
+					223470
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 88</td><td align="right">
+					317466
+				</td><td align="right">
+					317219
+				</td><td align="right">
+					228538
+				</td><td align="right">
+					228474
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 88</td><td align="right">
+					319160
+				</td><td align="right">
+					319881
+				</td><td align="right">
+					231094
+				</td><td align="right">
+					230751
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 88</td><td align="right">
+					323310
+				</td><td align="right">
+					323923
+				</td><td align="right">
+					234048
+				</td><td align="right">
+					233814
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 88</td><td align="right">
+					330201
+				</td><td align="right">
+					328842
+				</td><td align="right">
+					237884
+				</td><td align="right">
+					239068
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 88</td><td align="right">
+					337768
+				</td><td align="right">
+					335968
+				</td><td align="right">
+					240923
+				</td><td align="right">
+					242301
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 88</td><td align="right">
+					341063
+				</td><td align="right">
+					340515
+				</td><td align="right">
+					244161
+				</td><td align="right">
+					244149
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 88</td><td align="right">
+					348408
+				</td><td align="right">
+					345966
+				</td><td align="right">
+					247850
+				</td><td align="right">
+					248740
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 88</td><td align="right">
+					350634
+				</td><td align="right">
+					349960
+				</td><td align="right">
+					250768
+				</td><td align="right">
+					250718
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 88</td><td align="right">
+					353182
+				</td><td align="right">
+					353732
+				</td><td align="right">
+					252518
+				</td><td align="right">
+					251993
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 88</td><td align="right">
+					358233
+				</td><td align="right">
+					357545
+				</td><td align="right">
+					255248
+				</td><td align="right">
+					256317
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 89</td><td align="right">
+					360121
+				</td><td align="right">
+					363035
+				</td><td align="right">
+					257474
+				</td><td align="right">
+					255810
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 89</td><td align="right">
+					362272
+				</td><td align="right">
+					366704
+				</td><td align="right">
+					260666
+				</td><td align="right">
+					258558
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 89</td><td align="right">
+					372978
+				</td><td align="right">
+					372046
+				</td><td align="right">
+					262292
+				</td><td align="right">
+					262733
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 89</td><td align="right">
+					375367
+				</td><td align="right">
+					375962
+				</td><td align="right">
+					264972
+				</td><td align="right">
+					264805
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 89</td><td align="right">
+					382164
+				</td><td align="right">
+					382884
+				</td><td align="right">
+					267581
+				</td><td align="right">
+					267455
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 89</td><td align="right">
+					392145
+				</td><td align="right">
+					389649
+				</td><td align="right">
+					262154
+				</td><td align="right">
+					263645
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 89</td><td align="right">
+					396248
+				</td><td align="right">
+					394683
+				</td><td align="right">
+					264888
+				</td><td align="right">
+					266103
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 89</td><td align="right">
+					402168
+				</td><td align="right">
+					401497
+				</td><td align="right">
+					267610
+				</td><td align="right">
+					267427
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 89</td><td align="right">
+					410154
+				</td><td align="right">
+					407327
+				</td><td align="right">
+					270992
+				</td><td align="right">
+					272077
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 89</td><td align="right">
+					412602
+				</td><td align="right">
+					412485
+				</td><td align="right">
+					273350
+				</td><td align="right">
+					273131
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 89</td><td align="right">
+					416558
+				</td><td align="right">
+					417163
+				</td><td align="right">
+					276602
+				</td><td align="right">
+					275845
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 89</td><td align="right">
+					426322
+				</td><td align="right">
+					425778
+				</td><td align="right">
+					278679
+				</td><td align="right">
+					279953
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 90</td><td align="right">
+					429443
+				</td><td align="right">
+					432890
+				</td><td align="right">
+					280298
+				</td><td align="right">
+					278393
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 90</td><td align="right">
+					432445
+				</td><td align="right">
+					437387
+				</td><td align="right">
+					283900
+				</td><td align="right">
+					281594
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 90</td><td align="right">
+					442516
+				</td><td align="right">
+					441430
+				</td><td align="right">
+					287092
+				</td><td align="right">
+					287073
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 90</td><td align="right">
+					444652
+				</td><td align="right">
+					445346
+				</td><td align="right">
+					290440
+				</td><td align="right">
+					290404
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 90</td><td align="right">
+					449986
+				</td><td align="right">
+					450177
+				</td><td align="right">
+					291578
+				</td><td align="right">
+					291704
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 90</td><td align="right">
+					460339
+				</td><td align="right">
+					457318
+				</td><td align="right">
+					296209
+				</td><td align="right">
+					297846
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 90</td><td align="right">
+					460134
+				</td><td align="right">
+					458934
+				</td><td align="right">
+					298571
+				</td><td align="right">
+					299577
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 90</td><td align="right">
+					463612
+				</td><td align="right">
+					462588
+				</td><td align="right">
+					299144
+				</td><td align="right">
+					298902
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 90</td><td align="right">
+					469845
+				</td><td align="right">
+					466729
+				</td><td align="right">
+					303414
+				</td><td align="right">
+					304635
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 90</td><td align="right">
+					469964
+				</td><td align="right">
+					470351
+				</td><td align="right">
+					305143
+				</td><td align="right">
+					304757
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 90</td><td align="right">
+					474792
+				</td><td align="right">
+					475233
+				</td><td align="right">
+					304742
+				</td><td align="right">
+					303968
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 90</td><td align="right">
+					477138
+				</td><td align="right">
+					477181
+				</td><td align="right">
+					308572
+				</td><td align="right">
+					309763
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 91</td><td align="right">
+					477025
+				</td><td align="right">
+					480384
+				</td><td align="right">
+					312303
+				</td><td align="right">
+					310165
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 91</td><td align="right">
+					478170
+				</td><td align="right">
+					482738
+				</td><td align="right">
+					314210
+				</td><td align="right">
+					311809
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 91</td><td align="right">
+					485691
+				</td><td align="right">
+					484127
+				</td><td align="right">
+					316928
+				</td><td align="right">
+					318175
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 91</td><td align="right">
+					487882
+				</td><td align="right">
+					488421
+				</td><td align="right">
+					320461
+				</td><td align="right">
+					320648
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 91</td><td align="right">
+					491436
+				</td><td align="right">
+					490506
+				</td><td align="right">
+					322445
+				</td><td align="right">
+					322930
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 91</td><td align="right">
+					496311
+				</td><td align="right">
+					492850
+				</td><td align="right">
+					324261
+				</td><td align="right">
+					326000
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 91</td><td align="right">
+					494629
+				</td><td align="right">
+					493692
+				</td><td align="right">
+					326075
+				</td><td align="right">
+					326920
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 91</td><td align="right">
+					495502
+				</td><td align="right">
+					495080
+				</td><td align="right">
+					327165
+				</td><td align="right">
+					326787
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 91</td><td align="right">
+					500736
+				</td><td align="right">
+					498392
+				</td><td align="right">
+					330529
+				</td><td align="right">
+					331486
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 91</td><td align="right">
+					498203
+				</td><td align="right">
+					498654
+				</td><td align="right">
+					331972
+				</td><td align="right">
+					331442
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 91</td><td align="right">
+					500291
+				</td><td align="right">
+					501099
+				</td><td align="right">
+					333912
+				</td><td align="right">
+					332994
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 91</td><td align="right">
+					504133
+				</td><td align="right">
+					504718
+				</td><td align="right">
+					334718
+				</td><td align="right">
+					335883
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 92</td><td align="right">
+					502697
+				</td><td align="right">
+					505719
+				</td><td align="right">
+					337132
+				</td><td align="right">
+					334915
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 92</td><td align="right">
+					504362
+				</td><td align="right">
+					508373
+				</td><td align="right">
+					337697
+				</td><td align="right">
+					335486
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 92</td><td align="right">
+					510186
+				</td><td align="right">
+					508859
+				</td><td align="right">
+					339732
+				</td><td align="right">
+					340184
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 92</td><td align="right">
+					512339
+				</td><td align="right">
+					511936
+				</td><td align="right">
+					339347
+				</td><td align="right">
+					339939
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 92</td><td align="right">
+					513941
+				</td><td align="right">
+					512703
+				</td><td align="right">
+					340561
+				</td><td align="right">
+					341351
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 92</td><td align="right">
+					517411
+				</td><td align="right">
+					514667
+				</td><td align="right">
+					342123
+				</td><td align="right">
+					343497
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 92</td><td align="right">
+					518600
+				</td><td align="right">
+					516641
+				</td><td align="right">
+					343439
+				</td><td align="right">
+					344215
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 92</td><td align="right">
+					518043
+				</td><td align="right">
+					517756
+				</td><td align="right">
+					346047
+				</td><td align="right">
+					345664
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 92</td><td align="right">
+					521215
+				</td><td align="right">
+					519993
+				</td><td align="right">
+					345461
+				</td><td align="right">
+					346048
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 92</td><td align="right">
+					522497
+				</td><td align="right">
+					523061
+				</td><td align="right">
+					348157
+				</td><td align="right">
+					347668
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 92</td><td align="right">
+					519196
+				</td><td align="right">
+					520470
+				</td><td align="right">
+					348345
+				</td><td align="right">
+					347415
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 92</td><td align="right">
+					517883
+				</td><td align="right">
+					518019
+				</td><td align="right">
+					371965
+				</td><td align="right">
+					373179
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 93</td><td align="right">
+					514110
+				</td><td align="right">
+					517769
+				</td><td align="right">
+					373222
+				</td><td align="right">
+					370807
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 93</td><td align="right">
+					515943
+				</td><td align="right">
+					519696
+				</td><td align="right">
+					375371
+				</td><td align="right">
+					373242
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 93</td><td align="right">
+					523757
+				</td><td align="right">
+					521831
+				</td><td align="right">
+					376875
+				</td><td align="right">
+					377770
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 93</td><td align="right">
+					524906
+				</td><td align="right">
+					523364
+				</td><td align="right">
+					378674
+				</td><td align="right">
+					379815
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 93</td><td align="right">
+					527697
+				</td><td align="right">
+					526065
+				</td><td align="right">
+					382242
+				</td><td align="right">
+					383133
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 93</td><td align="right">
+					529014
+				</td><td align="right">
+					526405
+				</td><td align="right">
+					382151
+				</td><td align="right">
+					383537
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 93</td><td align="right">
+					530719
+				</td><td align="right">
+					529049
+				</td><td align="right">
+					383349
+				</td><td align="right">
+					383924
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 93</td><td align="right">
+					530962
+				</td><td align="right">
+					531606
+				</td><td align="right">
+					384644
+				</td><td align="right">
+					383938
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 93</td><td align="right">
+					533672
+				</td><td align="right">
+					532813
+				</td><td align="right">
+					386477
+				</td><td align="right">
+					386898
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 93</td><td align="right">
+					536703
+				</td><td align="right">
+					537653
+				</td><td align="right">
+					388694
+				</td><td align="right">
+					388225
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 93</td><td align="right">
+					538138
+				</td><td align="right">
+					539619
+				</td><td align="right">
+					390933
+				</td><td align="right">
+					389864
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 93</td><td align="right">
+					544055
+				</td><td align="right">
+					543380
+				</td><td align="right">
+					393082
+				</td><td align="right">
+					394438
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 94</td><td align="right">
+					542640
+				</td><td align="right">
+					547384
+				</td><td align="right">
+					395019
+				</td><td align="right">
+					392222
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 94</td><td align="right">
+					545126
+				</td><td align="right">
+					549310
+				</td><td align="right">
+					397623
+				</td><td align="right">
+					395454
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 94</td><td align="right">
+					554948
+				</td><td align="right">
+					551702
+				</td><td align="right">
+					398938
+				</td><td align="right">
+					400862
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 94</td><td align="right">
+					555553
+				</td><td align="right">
+					554137
+				</td><td align="right">
+					399281
+				</td><td align="right">
+					400681
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 94</td><td align="right">
+					556209
+				</td><td align="right">
+					555188
+				</td><td align="right">
+					400641
+				</td><td align="right">
+					401217
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 94</td><td align="right">
+					558024
+				</td><td align="right">
+					554828
+				</td><td align="right">
+					399839
+				</td><td align="right">
+					401203
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 94</td><td align="right">
+					557068
+				</td><td align="right">
+					555273
+				</td><td align="right">
+					402017
+				</td><td align="right">
+					402463
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 94</td><td align="right">
+					557482
+				</td><td align="right">
+					558191
+				</td><td align="right">
+					402537
+				</td><td align="right">
+					401793
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 94</td><td align="right">
+					560906
+				</td><td align="right">
+					560011
+				</td><td align="right">
+					404165
+				</td><td align="right">
+					404598
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 94</td><td align="right">
+					559477
+				</td><td align="right">
+					561384
+				</td><td align="right">
+					404939
+				</td><td align="right">
+					404333
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 94</td><td align="right">
+					563747
+				</td><td align="right">
+					565189
+				</td><td align="right">
+					406751
+				</td><td align="right">
+					405989
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 94</td><td align="right">
+					567157
+				</td><td align="right">
+					566572
+				</td><td align="right">
+					409094
+				</td><td align="right">
+					410396
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 95</td><td align="right">
+					564864
+				</td><td align="right">
+					570480
+				</td><td align="right">
+					410679
+				</td><td align="right">
+					407495
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 95</td><td align="right">
+					569619
+				</td><td align="right">
+					574005
+				</td><td align="right">
+					413341
+				</td><td align="right">
+					411094
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 95</td><td align="right">
+					583647
+				</td><td align="right">
+					578951
+				</td><td align="right">
+					415598
+				</td><td align="right">
+					417077
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 95</td><td align="right">
+					583593
+				</td><td align="right">
+					582190
+				</td><td align="right">
+					418852
+				</td><td align="right">
+					420381
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 95</td><td align="right">
+					589225
+				</td><td align="right">
+					588177
+				</td><td align="right">
+					420932
+				</td><td align="right">
+					421342
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 95</td><td align="right">
+					595309
+				</td><td align="right">
+					591008
+				</td><td align="right">
+					422554
+				</td><td align="right">
+					424159
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 95</td><td align="right">
+					601851
+				</td><td align="right">
+					600547
+				</td><td align="right">
+					425529
+				</td><td align="right">
+					425725
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 95</td><td align="right">
+					603945
+				</td><td align="right">
+					604146
+				</td><td align="right">
+					427435
+				</td><td align="right">
+					426683
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 95</td><td align="right">
+					606183
+				</td><td align="right">
+					606045
+				</td><td align="right">
+					430228
+				</td><td align="right">
+					430597
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 95</td><td align="right">
+					608574
+				</td><td align="right">
+					611398
+				</td><td align="right">
+					431500
+				</td><td align="right">
+					430810
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 95</td><td align="right">
+					616189
+				</td><td align="right">
+					616957
+				</td><td align="right">
+					433954
+				</td><td align="right">
+					433539
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 95</td><td align="right">
+					623385
+				</td><td align="right">
+					622465
+				</td><td align="right">
+					435515
+				</td><td align="right">
+					436957
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 96</td><td align="right">
+					625273
+				</td><td align="right">
+					631920
+				</td><td align="right">
+					437236
+				</td><td align="right">
+					433825
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 96</td><td align="right">
+					627175
+				</td><td align="right">
+					631083
+				</td><td align="right">
+					439318
+				</td><td align="right">
+					436892
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 96</td><td align="right">
+					640047
+				</td><td align="right">
+					634994
+				</td><td align="right">
+					442362
+				</td><td align="right">
+					444453
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 96</td><td align="right">
+					640485
+				</td><td align="right">
+					640206
+				</td><td align="right">
+					442570
+				</td><td align="right">
+					443691
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 96</td><td align="right">
+					646691
+				</td><td align="right">
+					643969
+				</td><td align="right">
+					444543
+				</td><td align="right">
+					445056
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 96</td><td align="right">
+					654010
+				</td><td align="right">
+					649565
+				</td><td align="right">
+					447706
+				</td><td align="right">
+					449585
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 96</td><td align="right">
+					655463
+				</td><td align="right">
+					654512
+				</td><td align="right">
+					446318
+				</td><td align="right">
+					446333
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 96</td><td align="right">
+					660549
+				</td><td align="right">
+					668885
+				</td><td align="right">
+					451283
+				</td><td align="right">
+					450656
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 96</td><td align="right">
+					666483
+				</td><td align="right">
+					667869
+				</td><td align="right">
+					452947
+				</td><td align="right">
+					453194
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 96</td><td align="right">
+					672162
+				</td><td align="right">
+					674065
+				</td><td align="right">
+					454403
+				</td><td align="right">
+					453853
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 96</td><td align="right">
+					683166
+				</td><td align="right">
+					682017
+				</td><td align="right">
+					456758
+				</td><td align="right">
+					457001
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 96</td><td align="right">
+					682786
+				</td><td align="right">
+					681535
+				</td><td align="right">
+					458936
+				</td><td align="right">
+					460108
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 97</td><td align="right">
+					686547
+				</td><td align="right">
+					693807
+				</td><td align="right">
+					463552
+				</td><td align="right">
+					460168
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 97</td><td align="right">
+					696890
+				</td><td align="right">
+					699877
+				</td><td align="right">
+					466286
+				</td><td align="right">
+					463653
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 97</td><td align="right">
+					711327
+				</td><td align="right">
+					708705
+				</td><td align="right">
+					468482
+				</td><td align="right">
+					471286
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 97</td><td align="right">
+					705241
+				</td><td align="right">
+					705845
+				</td><td align="right">
+					469528
+				</td><td align="right">
+					470503
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 97</td><td align="right">
+					719259
+				</td><td align="right">
+					715349
+				</td><td align="right">
+					474294
+				</td><td align="right">
+					474731
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 97</td><td align="right">
+					728240
+				</td><td align="right">
+					724595
+				</td><td align="right">
+					480960
+				</td><td align="right">
+					482913
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 97</td><td align="right">
+					733359
+				</td><td align="right">
+					731849
+				</td><td align="right">
+					480412
+				</td><td align="right">
+					480503
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 97</td><td align="right">
+					737700
+				</td><td align="right">
+					736196
+				</td><td align="right">
+					482607
+				</td><td align="right">
+					481976
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 97</td><td align="right">
+					705833
+				</td><td align="right">
+					707473
+				</td><td align="right">
+					476150
+				</td><td align="right">
+					476172
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 97</td><td align="right">
+					708252
+				</td><td align="right">
+					709632
+				</td><td align="right">
+					480640
+				</td><td align="right">
+					480486
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 97</td><td align="right">
+					717673
+				</td><td align="right">
+					716686
+				</td><td align="right">
+					481776
+				</td><td align="right">
+					482507
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 97</td><td align="right">
+					722127
+				</td><td align="right">
+					719847
+				</td><td align="right">
+					482909
+				</td><td align="right">
+					484300
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 98</td><td align="right">
+					720862
+				</td><td align="right">
+					728602
+				</td><td align="right">
+					484599
+				</td><td align="right">
+					481122
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 98</td><td align="right">
+					730520
+				</td><td align="right">
+					734278
+				</td><td align="right">
+					487855
+				</td><td align="right">
+					484684
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 98</td><td align="right">
+					742599
+				</td><td align="right">
+					739624
+				</td><td align="right">
+					488430
+				</td><td align="right">
+					489834
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 98</td><td align="right">
+					741862
+				</td><td align="right">
+					741886
+				</td><td align="right">
+					490551
+				</td><td align="right">
+					491448
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 98</td><td align="right">
+					748980
+				</td><td align="right">
+					744774
+				</td><td align="right">
+					493120
+				</td><td align="right">
+					493554
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 98</td><td align="right">
+					757046
+				</td><td align="right">
+					752468
+				</td><td align="right">
+					495187
+				</td><td align="right">
+					497268
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 98</td><td align="right">
+					766833
+				</td><td align="right">
+					765229
+				</td><td align="right">
+					498486
+				</td><td align="right">
+					498785
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 98</td><td align="right">
+					761417
+				</td><td align="right">
+					759858
+				</td><td align="right">
+					500297
+				</td><td align="right">
+					499510
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 98</td><td align="right">
+					768779
+				</td><td align="right">
+					771995
+				</td><td align="right">
+					503069
+				</td><td align="right">
+					503092
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 98</td><td align="right">
+					771386
+				</td><td align="right">
+					772270
+				</td><td align="right">
+					505956
+				</td><td align="right">
+					506004
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 98</td><td align="right">
+					779849
+				</td><td align="right">
+					780110
+				</td><td align="right">
+					508426
+				</td><td align="right">
+					509417
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 98</td><td align="right">
+					783353
+				</td><td align="right">
+					781066
+				</td><td align="right">
+					512758
+				</td><td align="right">
+					514508
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 99</td><td align="right">
+					777257
+				</td><td align="right">
+					785757
+				</td><td align="right">
+					515481
+				</td><td align="right">
+					511756
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 99</td><td align="right">
+					785741
+				</td><td align="right">
+					790238
+				</td><td align="right">
+					517774
+				</td><td align="right">
+					513975
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 99</td><td align="right">
+					793023
+				</td><td align="right">
+					789385
+				</td><td align="right">
+					517489
+				</td><td align="right">
+					519730
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 99</td><td align="right">
+					798943
+				</td><td align="right">
+					797831
+				</td><td align="right">
+					523773
+				</td><td align="right">
+					524916
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 99</td><td align="right">
+					803972
+				</td><td align="right">
+					799695
+				</td><td align="right">
+					527917
+				</td><td align="right">
+					528194
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 99</td><td align="right">
+					800943
+				</td><td align="right">
+					796168
+				</td><td align="right">
+					529531
+				</td><td align="right">
+					532126
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 99</td><td align="right">
+					796996
+				</td><td align="right">
+					796090
+				</td><td align="right">
+					534521
+				</td><td align="right">
+					534780
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 99</td><td align="right">
+					797266
+				</td><td align="right">
+					796630
+				</td><td align="right">
+					536459
+				</td><td align="right">
+					535025
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 99</td><td align="right">
+					793825
+				</td><td align="right">
+					795984
+				</td><td align="right">
+					538149
+				</td><td align="right">
+					538389
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 99</td><td align="right">
+					799557
+				</td><td align="right">
+					799743
+				</td><td align="right">
+					541733
+				</td><td align="right">
+					542000
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 99</td><td align="right">
+					805837
+				</td><td align="right">
+					806261
+				</td><td align="right">
+					544830
+				</td><td align="right">
+					546047
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 99</td><td align="right">
+					816599
+				</td><td align="right">
+					813158
+				</td><td align="right">
+					555933
+				</td><td align="right">
+					558334
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 00</td><td align="right">
+					802218
+				</td><td align="right">
+					812320
+				</td><td align="right">
+					551144
+				</td><td align="right">
+					546765
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 00</td><td align="right">
+					810154
+				</td><td align="right">
+					816910
+				</td><td align="right">
+					553133
+				</td><td align="right">
+					548087
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 00</td><td align="right">
+					836297
+				</td><td align="right">
+					831096
+				</td><td align="right">
+					557455
+				</td><td align="right">
+					558982
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 00</td><td align="right">
+					840891
+				</td><td align="right">
+					839145
+				</td><td align="right">
+					561058
+				</td><td align="right">
+					562529
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 00</td><td align="right">
+					847578
+				</td><td align="right">
+					844587
+				</td><td align="right">
+					563339
+				</td><td align="right">
+					563089
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 00</td><td align="right">
+					856281
+				</td><td align="right">
+					850121
+				</td><td align="right">
+					565943
+				</td><td align="right">
+					569408
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 00</td><td align="right">
+					852283
+				</td><td align="right">
+					853623
+				</td><td align="right">
+					568910
+				</td><td align="right">
+					568813
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 00</td><td align="right">
+					867233
+				</td><td align="right">
+					865728
+				</td><td align="right">
+					572377
+				</td><td align="right">
+					570826
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 00</td><td align="right">
+					866433
+				</td><td align="right">
+					867500
+				</td><td align="right">
+					578854
+				</td><td align="right">
+					579628
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 00</td><td align="right">
+					874644
+				</td><td align="right">
+					875722
+				</td><td align="right">
+					585005
+				</td><td align="right">
+					584875
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 00</td><td align="right">
+					875080
+				</td><td align="right">
+					874453
+				</td><td align="right">
+					583509
+				</td><td align="right">
+					585142
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 00</td><td align="right">
+					884873
+				</td><td align="right">
+					881493
+				</td><td align="right">
+					594542
+				</td><td align="right">
+					597523
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 01</td><td align="right">
+					881010
+				</td><td align="right">
+					892348
+				</td><td align="right">
+					594958
+				</td><td align="right">
+					589718
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 01</td><td align="right">
+					885596
+				</td><td align="right">
+					893019
+				</td><td align="right">
+					599461
+				</td><td align="right">
+					593434
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 01</td><td align="right">
+					905747
+				</td><td align="right">
+					900230
+				</td><td align="right">
+					604961
+				</td><td align="right">
+					606511
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 01</td><td align="right">
+					905664
+				</td><td align="right">
+					904694
+				</td><td align="right">
+					610702
+				</td><td align="right">
+					612208
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 01</td><td align="right">
+					909348
+				</td><td align="right">
+					906134
+				</td><td align="right">
+					615070
+				</td><td align="right">
+					614858
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 01</td><td align="right">
+					921501
+				</td><td align="right">
+					915213
+				</td><td align="right">
+					622811
+				</td><td align="right">
+					627056
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 01</td><td align="right">
+					918779
+				</td><td align="right">
+					921141
+				</td><td align="right">
+					625178
+				</td><td align="right">
+					624454
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 01</td><td align="right">
+					930304
+				</td><td align="right">
+					928351
+				</td><td align="right">
+					630169
+				</td><td align="right">
+					628883
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 01</td><td align="right">
+					937102
+				</td><td align="right">
+					937940
+				</td><td align="right">
+					634701
+				</td><td align="right">
+					635959
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 01</td><td align="right">
+					942397
+				</td><td align="right">
+					942839
+				</td><td align="right">
+					638036
+				</td><td align="right">
+					637915
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 01</td><td align="right">
+					945976
+				</td><td align="right">
+					944111
+				</td><td align="right">
+					644544
+				</td><td align="right">
+					646779
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 01</td><td align="right">
+					942597
+				</td><td align="right">
+					940122
+				</td><td align="right">
+					647057
+				</td><td align="right">
+					649980
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 02</td><td align="right">
+					931131
+				</td><td align="right">
+					942261
+				</td><td align="right">
+					650542
+				</td><td align="right">
+					644740
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 02</td><td align="right">
+					941610
+				</td><td align="right">
+					949283
+				</td><td align="right">
+					654829
+				</td><td align="right">
+					647953
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 02</td><td align="right">
+					955213
+				</td><td align="right">
+					949263
+				</td><td align="right">
+					660945
+				</td><td align="right">
+					664281
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 02</td><td align="right">
+					955207
+				</td><td align="right">
+					954397
+				</td><td align="right">
+					660705
+				</td><td align="right">
+					662142
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 02</td><td align="right">
+					959186
+				</td><td align="right">
+					955159
+				</td><td align="right">
+					667885
+				</td><td align="right">
+					668184
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 02</td><td align="right">
+					975723
+				</td><td align="right">
+					969484
+				</td><td align="right">
+					674713
+				</td><td align="right">
+					679674
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 02</td><td align="right">
+					970882
+				</td><td align="right">
+					973164
+				</td><td align="right">
+					677404
+				</td><td align="right">
+					676368
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 02</td><td align="right">
+					982339
+				</td><td align="right">
+					981664
+				</td><td align="right">
+					681319
+				</td><td align="right">
+					680313
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 02</td><td align="right">
+					989429
+				</td><td align="right">
+					991419
+				</td><td align="right">
+					686916
+				</td><td align="right">
+					688129
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 02</td><td align="right">
+					994788
+				</td><td align="right">
+					994847
+				</td><td align="right">
+					691193
+				</td><td align="right">
+					691076
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 02</td><td align="right">
+					1002748
+				</td><td align="right">
+					1000125
+				</td><td align="right">
+					699216
+				</td><td align="right">
+					701683
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 02</td><td align="right">
+					1008743
+				</td><td align="right">
+					1005973
+				</td><td align="right">
+					701236
+				</td><td align="right">
+					703920
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 03</td><td align="right">
+					994313
+				</td><td align="right">
+					1004800
+				</td><td align="right">
+					707472
+				</td><td align="right">
+					701232
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 03</td><td align="right">
+					1004811
+				</td><td align="right">
+					1011693
+				</td><td align="right">
+					714930
+				</td><td align="right">
+					707547
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 03</td><td align="right">
+					1020634
+				</td><td align="right">
+					1017499
+				</td><td align="right">
+					716240
+				</td><td align="right">
+					717551
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 03</td><td align="right">
+					1029286
+				</td><td align="right">
+					1028207
+				</td><td align="right">
+					722242
+				</td><td align="right">
+					723852
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 03</td><td align="right">
+					1033352
+				</td><td align="right">
+					1029460
+				</td><td align="right">
+					728181
+				</td><td align="right">
+					728988
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 03</td><td align="right">
+					1048107
+				</td><td align="right">
+					1043337
+				</td><td align="right">
+					733009
+				</td><td align="right">
+					738111
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 03</td><td align="right">
+					1036717
+				</td><td align="right">
+					1038545
+				</td><td align="right">
+					739824
+				</td><td align="right">
+					738799
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 03</td><td align="right">
+					1040285
+				</td><td align="right">
+					1041150
+				</td><td align="right">
+					747082
+				</td><td align="right">
+					746562
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 03</td><td align="right">
+					1051162
+				</td><td align="right">
+					1053129
+				</td><td align="right">
+					753212
+				</td><td align="right">
+					754239
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 03</td><td align="right">
+					1055020
+				</td><td align="right">
+					1054536
+				</td><td align="right">
+					761881
+				</td><td align="right">
+					761856
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 03</td><td align="right">
+					1070558
+				</td><td align="right">
+					1067515
+				</td><td align="right">
+					767268
+				</td><td align="right">
+					769895
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 03</td><td align="right">
+					1081297
+				</td><td align="right">
+					1077637
+				</td><td align="right">
+					774776
+				</td><td align="right">
+					777347
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 04</td><td align="right">
+					1080314
+				</td><td align="right">
+					1091195
+				</td><td align="right">
+					779189
+				</td><td align="right">
+					772207
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 04</td><td align="right">
+					1087908
+				</td><td align="right">
+					1095013
+				</td><td align="right">
+					784223
+				</td><td align="right">
+					776439
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 04</td><td align="right">
+					1101924
+				</td><td align="right">
+					1099110
+				</td><td align="right">
+					787393
+				</td><td align="right">
+					788645
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 04</td><td align="right">
+					1109180
+				</td><td align="right">
+					1106322
+				</td><td align="right">
+					798143
+				</td><td align="right">
+					800338
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 04</td><td align="right">
+					1121195
+				</td><td align="right">
+					1117230
+				</td><td align="right">
+					801561
+				</td><td align="right">
+					803410
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 04</td><td align="right">
+					1133430
+				</td><td align="right">
+					1127928
+				</td><td align="right">
+					805861
+				</td><td align="right">
+					810988
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 04</td><td align="right">
+					1133336
+				</td><td align="right">
+					1134162
+				</td><td align="right">
+					813747
+				</td><td align="right">
+					813368
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 04</td><td align="right">
+					1143250
+				</td><td align="right">
+					1148203
+				</td><td align="right">
+					821393
+				</td><td align="right">
+					820558
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 04</td><td align="right">
+					1148486
+				</td><td align="right">
+					1149383
+				</td><td align="right">
+					826114
+				</td><td align="right">
+					827059
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 04</td><td align="right">
+					1158428
+				</td><td align="right">
+					1158453
+				</td><td align="right">
+					833481
+				</td><td align="right">
+					833234
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 04</td><td align="right">
+					1166772
+				</td><td align="right">
+					1165553
+				</td><td align="right">
+					838224
+				</td><td align="right">
+					839883
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 04</td><td align="right">
+					1179213
+				</td><td align="right">
+					1173546
+				</td><td align="right">
+					842773
+				</td><td align="right">
+					845671
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 05</td><td align="right">
+					1177489
+				</td><td align="right">
+					1190027
+				</td><td align="right">
+					850611
+				</td><td align="right">
+					842733
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 05</td><td align="right">
+					1189134
+				</td><td align="right">
+					1197976
+				</td><td align="right">
+					854177
+				</td><td align="right">
+					845445
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 05</td><td align="right">
+					1216945
+				</td><td align="right">
+					1212742
+				</td><td align="right">
+					858325
+				</td><td align="right">
+					862177
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 05</td><td align="right">
+					1223676
+				</td><td align="right">
+					1220483
+				</td><td align="right">
+					864425
+				</td><td align="right">
+					867150
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 05</td><td align="right">
+					1242167
+				</td><td align="right">
+					1240480
+				</td><td align="right">
+					874426
+				</td><td align="right">
+					876525
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 05</td><td align="right">
+					1250565
+				</td><td align="right">
+					1243560
+				</td><td align="right">
+					879833
+				</td><td align="right">
+					885423
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 05</td><td align="right">
+					1256392
+				</td><td align="right">
+					1257911
+				</td><td align="right">
+					889115
+				</td><td align="right">
+					889219
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 05</td><td align="right">
+					1255471
+				</td><td align="right">
+					1262193
+				</td><td align="right">
+					894690
+				</td><td align="right">
+					893904
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 05</td><td align="right">
+					1277155
+				</td><td align="right">
+					1277320
+				</td><td align="right">
+					902050
+				</td><td align="right">
+					903219
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 05</td><td align="right">
+					1287977
+				</td><td align="right">
+					1290026
+				</td><td align="right">
+					906263
+				</td><td align="right">
+					904910
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 05</td><td align="right">
+					1308216
+				</td><td align="right">
+					1306884
+				</td><td align="right">
+					912981
+				</td><td align="right">
+					913938
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 05</td><td align="right">
+					1328317
+				</td><td align="right">
+					1322243
+				</td><td align="right">
+					919834
+				</td><td align="right">
+					922706
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 06</td><td align="right">
+					1319606
+				</td><td align="right">
+					1331316
+				</td><td align="right">
+					924610
+				</td><td align="right">
+					915838
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 06</td><td align="right">
+					1335626
+				</td><td align="right">
+					1344665
+				</td><td align="right">
+					933908
+				</td><td align="right">
+					924480
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 06</td><td align="right">
+					1365995
+				</td><td align="right">
+					1361057
+				</td><td align="right">
+					942828
+				</td><td align="right">
+					945305
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 06</td><td align="right">
+					1379719
+				</td><td align="right">
+					1376455
+				</td><td align="right">
+					950734
+				</td><td align="right">
+					954301
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 06</td><td align="right">
+					1386640
+				</td><td align="right">
+					1384993
+				</td><td align="right">
+					950282
+				</td><td align="right">
+					953230
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 06</td><td align="right">
+					1420491
+				</td><td align="right">
+					1411656
+				</td><td align="right">
+					956444
+				</td><td align="right">
+					962876
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 06</td><td align="right">
+					1418710
+				</td><td align="right">
+					1423569
+				</td><td align="right">
+					961332
+				</td><td align="right">
+					961231
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 06</td><td align="right">
+					1427335
+				</td><td align="right">
+					1436528
+				</td><td align="right">
+					966909
+				</td><td align="right">
+					965931
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 06</td><td align="right">
+					1460453
+				</td><td align="right">
+					1460797
+				</td><td align="right">
+					972818
+				</td><td align="right">
+					973930
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 06</td><td align="right">
+					1469444
+				</td><td align="right">
+					1471285
+				</td><td align="right">
+					979204
+				</td><td align="right">
+					976637
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 06</td><td align="right">
+					1479852
+				</td><td align="right">
+					1477012
+				</td><td align="right">
+					988666
+				</td><td align="right">
+					988848
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 06</td><td align="right">
+					1498963
+				</td><td align="right">
+					1492645
+				</td><td align="right">
+					993487
+				</td><td align="right">
+					996671
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 07</td><td align="right">
+					1491549
+				</td><td align="right">
+					1501161
+				</td><td align="right">
+					995203
+				</td><td align="right">
+					985904
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 07</td><td align="right">
+					1506575
+				</td><td align="right">
+					1514449
+				</td><td align="right">
+					1001285
+				</td><td align="right">
+					991790
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 07</td><td align="right">
+					1543480
+				</td><td align="right">
+					1537602
+				</td><td align="right">
+					1007923
+				</td><td align="right">
+					1011816
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 07</td><td align="right">
+					1556855
+				</td><td align="right">
+					1555557
+				</td><td align="right">
+					1012942
+				</td><td align="right">
+					1016903
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 07</td><td align="right">
+					1577718
+				</td><td align="right">
+					1576941
+				</td><td align="right">
+					1021456
+				</td><td align="right">
+					1024883
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 07</td><td align="right">
+					1601033
+				</td><td align="right">
+					1591083
+				</td><td align="right">
+					1027519
+				</td><td align="right">
+					1034617
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 07</td><td align="right">
+					1603335
+				</td><td align="right">
+					1610377
+				</td><td align="right">
+					1034260
+				</td><td align="right">
+					1033543
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 07</td><td align="right">
+					1623888
+				</td><td align="right">
+					1635235
+				</td><td align="right">
+					1038020
+				</td><td align="right">
+					1036818
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 07</td><td align="right">
+					1647005
+				</td><td align="right">
+					1647612
+				</td><td align="right">
+					1039954
+				</td><td align="right">
+					1041222
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 07</td><td align="right">
+					1642477
+				</td><td align="right">
+					1642067
+				</td><td align="right">
+					1054772
+				</td><td align="right">
+					1051346
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 07</td><td align="right">
+					1648331
+				</td><td align="right">
+					1642606
+				</td><td align="right">
+					1060537
+				</td><td align="right">
+					1060388
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 07</td><td align="right">
+					1673926
+				</td><td align="right">
+					1669789
+				</td><td align="right">
+					1068314
+				</td><td align="right">
+					1071473
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 08</td><td align="right">
+					1681358
+				</td><td align="right">
+					1687745
+				</td><td align="right">
+					1087529
+				</td><td align="right">
+					1077926
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 08</td><td align="right">
+					1689258
+				</td><td align="right">
+					1693664
+				</td><td align="right">
+					1091094
+				</td><td align="right">
+					1082161
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 08</td><td align="right">
+					1718620
+				</td><td align="right">
+					1712671
+				</td><td align="right">
+					1102230
+				</td><td align="right">
+					1109144
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 08</td><td align="right">
+					1724656
+				</td><td align="right">
+					1722972
+				</td><td align="right">
+					1108526
+				</td><td align="right">
+					1112852
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 08</td><td align="right">
+					1736720
+				</td><td align="right">
+					1736437
+				</td><td align="right">
+					1117926
+				</td><td align="right">
+					1122022
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 08</td><td align="right">
+					1767575
+				</td><td align="right">
+					1759931
+				</td><td align="right">
+					1119867
+				</td><td align="right">
+					1127226
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 08</td><td align="right">
+					1765102
+				</td><td align="right">
+					1772749
+				</td><td align="right">
+					1118787
+				</td><td align="right">
+					1117569
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 08</td><td align="right">
+					1786116
+				</td><td align="right">
+					1799680
+				</td><td align="right">
+					1124356
+				</td><td align="right">
+					1122643
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 08</td><td align="right">
+					1822875
+				</td><td align="right">
+					1826055
+				</td><td align="right">
+					1126530
+				</td><td align="right">
+					1127026
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 08</td><td align="right">
+					1880561
+				</td><td align="right">
+					1873777
+				</td><td align="right">
+					1108419
+				</td><td align="right">
+					1105175
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 08</td><td align="right">
+					1908347
+				</td><td align="right">
+					1898470
+				</td><td align="right">
+					1115568
+				</td><td align="right">
+					1115203
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 08</td><td align="right">
+					1937239
+				</td><td align="right">
+					1934086
+				</td><td align="right">
+					1120415
+				</td><td align="right">
+					1123850
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 09</td><td align="right">
+					1969542
+				</td><td align="right">
+					1968780
+				</td><td align="right">
+					1124569
+				</td><td align="right">
+					1115804
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 09</td><td align="right">
+					1991491
+				</td><td align="right">
+					1992563
+				</td><td align="right">
+					1131547
+				</td><td align="right">
+					1123201
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 09</td><td align="right">
+					2010515
+				</td><td align="right">
+					2005020
+				</td><td align="right">
+					1131728
+				</td><td align="right">
+					1136084
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 09</td><td align="right">
+					1979833
+				</td><td align="right">
+					1977590
+				</td><td align="right">
+					1139038
+				</td><td align="right">
+					1143706
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 09</td><td align="right">
+					1982459
+				</td><td align="right">
+					1985877
+				</td><td align="right">
+					1143136
+				</td><td align="right">
+					1146989
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 09</td><td align="right">
+					1977414
+				</td><td align="right">
+					1979475
+				</td><td align="right">
+					1144849
+				</td><td align="right">
+					1151400
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 09</td><td align="right">
+					1986306
+				</td><td align="right">
+					1987512
+				</td><td align="right">
+					1152302
+				</td><td align="right">
+					1150766
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 09</td><td align="right">
+					1988244
+				</td><td align="right">
+					1990602
+				</td><td align="right">
+					1158192
+				</td><td align="right">
+					1155934
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 09</td><td align="right">
+					2009174
+				</td><td align="right">
+					2010901
+				</td><td align="right">
+					1164465
+				</td><td align="right">
+					1164844
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 09</td><td align="right">
+					2060138
+				</td><td align="right">
+					2048487
+				</td><td align="right">
+					1174031
+				</td><td align="right">
+					1170911
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 09</td><td align="right">
+					2056548
+				</td><td align="right">
+					2041520
+				</td><td align="right">
+					1177036
+				</td><td align="right">
+					1176101
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 09</td><td align="right">
+					2041859
+				</td><td align="right">
+					2043244
+				</td><td align="right">
+					1182719
+				</td><td align="right">
+					1187085
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 10</td><td align="right">
+					2209180
+				</td><td align="right">
+					2211164
+				</td><td align="right">
+					1182658
+				</td><td align="right">
+					1174604
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 10</td><td align="right">
+					2209391
+				</td><td align="right">
+					2217867
+				</td><td align="right">
+					1192073
+				</td><td align="right">
+					1184324
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 10</td><td align="right">
+					2219529
+				</td><td align="right">
+					2225354
+				</td><td align="right">
+					1200480
+				</td><td align="right">
+					1207131
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 10</td><td align="right">
+					2213342
+				</td><td align="right">
+					2209012
+				</td><td align="right">
+					1200850
+				</td><td align="right">
+					1205855
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 10</td><td align="right">
+					2200657
+				</td><td align="right">
+					2203084
+				</td><td align="right">
+					1202264
+				</td><td align="right">
+					1205699
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 10</td><td align="right">
+					2200167
+				</td><td align="right">
+					2207355
+				</td><td align="right">
+					1205632
+				</td><td align="right">
+					1211469
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 10</td><td align="right">
+					2200271
+				</td><td align="right">
+					2203086
+				</td><td align="right">
+					1205801
+				</td><td align="right">
+					1203877
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 10</td><td align="right">
+					2174254
+				</td><td align="right">
+					2179432
+				</td><td align="right">
+					1209267
+				</td><td align="right">
+					1205705
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 10</td><td align="right">
+					2183251
+				</td><td align="right">
+					2183145
+				</td><td align="right">
+					1213600
+				</td><td align="right">
+					1214118
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 10</td><td align="right">
+					2188059
+				</td><td align="right">
+					2174125
+				</td><td align="right">
+					1214822
+				</td><td align="right">
+					1212409
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 10</td><td align="right">
+					2177885
+				</td><td align="right">
+					2161209
+				</td><td align="right">
+					1226567
+				</td><td align="right">
+					1225512
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 10</td><td align="right">
+					2156043
+				</td><td align="right">
+					2155036
+				</td><td align="right">
+					1229376
+				</td><td align="right">
+					1235011
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 11</td><td align="right">
+					2149941
+				</td><td align="right">
+					2154663
+				</td><td align="right">
+					1232377
+				</td><td align="right">
+					1224172
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 11</td><td align="right">
+					2145090
+				</td><td align="right">
+					2154332
+				</td><td align="right">
+					1233306
+				</td><td align="right">
+					1225318
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 11</td><td align="right">
+					2162639
+				</td><td align="right">
+					2168220
+				</td><td align="right">
+					1237636
+				</td><td align="right">
+					1242474
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 11</td><td align="right">
+					2161721
+				</td><td align="right">
+					2159666
+				</td><td align="right">
+					1240207
+				</td><td align="right">
+					1244600
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 11</td><td align="right">
+					2161301
+				</td><td align="right">
+					2167864
+				</td><td align="right">
+					1240373
+				</td><td align="right">
+					1242306
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 11</td><td align="right">
+					2155527
+				</td><td align="right">
+					2161552
+				</td><td align="right">
+					1245412
+				</td><td align="right">
+					1250626
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 11</td><td align="right">
+					2152487
+				</td><td align="right">
+					2154796
+				</td><td align="right">
+					1250095
+				</td><td align="right">
+					1248120
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 11</td><td align="right">
+					2143297
+				</td><td align="right">
+					2144689
+				</td><td align="right">
+					1251901
+				</td><td align="right">
+					1248248
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 11</td><td align="right">
+					2134294
+				</td><td align="right">
+					2132340
+				</td><td align="right">
+					1253403
+				</td><td align="right">
+					1254511
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 11</td><td align="right">
+					2121141
+				</td><td align="right">
+					2111677
+				</td><td align="right">
+					1254933
+				</td><td align="right">
+					1252514
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 11</td><td align="right">
+					2109812
+				</td><td align="right">
+					2094961
+				</td><td align="right">
+					1256051
+				</td><td align="right">
+					1255734
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 11</td><td align="right">
+					2089867
+				</td><td align="right">
+					2086751
+				</td><td align="right">
+					1265228
+				</td><td align="right">
+					1271655
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 12</td><td align="right">
+					2093991
+				</td><td align="right">
+					2100585
+				</td><td align="right">
+					1268349
+				</td><td align="right">
+					1259886
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 12</td><td align="right">
+					2066020
+				</td><td align="right">
+					2074509
+				</td><td align="right">
+					1274663
+				</td><td align="right">
+					1266016
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 12</td><td align="right">
+					2069025
+				</td><td align="right">
+					2072446
+				</td><td align="right">
+					1278939
+				</td><td align="right">
+					1284920
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 12</td><td align="right">
+					2085113
+				</td><td align="right">
+					2087382
+				</td><td align="right">
+					1280648
+				</td><td align="right">
+					1283832
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 12</td><td align="right">
+					2088515
+				</td><td align="right">
+					2092344
+				</td><td align="right">
+					1285160
+				</td><td align="right">
+					1286708
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 12</td><td align="right">
+					2067815
+				</td><td align="right">
+					2069756
+				</td><td align="right">
+					1296164
+				</td><td align="right">
+					1301427
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 12</td><td align="right">
+					2065145
+				</td><td align="right">
+					2068376
+				</td><td align="right">
+					1301380
+				</td><td align="right">
+					1298588
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 12</td><td align="right">
+					2076931
+				</td><td align="right">
+					2072343
+				</td><td align="right">
+					1314351
+				</td><td align="right">
+					1311417
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 12</td><td align="right">
+					2080683
+				</td><td align="right">
+					2079912
+				</td><td align="right">
+					1318297
+				</td><td align="right">
+					1319964
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 12</td><td align="right">
+					2075054
+				</td><td align="right">
+					2068121
+				</td><td align="right">
+					1324805
+				</td><td align="right">
+					1322530
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 12</td><td align="right">
+					2076047
+				</td><td align="right">
+					2061416
+				</td><td align="right">
+					1332177
+				</td><td align="right">
+					1333314
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 12</td><td align="right">
+					2091546
+				</td><td align="right">
+					2090193
+				</td><td align="right">
+					1334655
+				</td><td align="right">
+					1341578
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 13</td><td align="right">
+					2091415
+				</td><td align="right">
+					2098920
+				</td><td align="right">
+					1345177
+				</td><td align="right">
+					1336316
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 13</td><td align="right">
+					2095999
+				</td><td align="right">
+					2102941
+				</td><td align="right">
+					1353709
+				</td><td align="right">
+					1344635
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 13</td><td align="right">
+					2093327
+				</td><td align="right">
+					2096180
+				</td><td align="right">
+					1354576
+				</td><td align="right">
+					1363298
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 13</td><td align="right">
+					2090918
+				</td><td align="right">
+					2095465
+				</td><td align="right">
+					1360781
+				</td><td align="right">
+					1362431
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 13</td><td align="right">
+					2094663
+				</td><td align="right">
+					2096093
+				</td><td align="right">
+					1370931
+				</td><td align="right">
+					1372804
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 13</td><td align="right">
+					2097189
+				</td><td align="right">
+					2097754
+				</td><td align="right">
+					1376139
+				</td><td align="right">
+					1381534
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 13</td><td align="right">
+					2108475
+				</td><td align="right">
+					2109261
+				</td><td align="right">
+					1382085
+				</td><td align="right">
+					1379438
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 13</td><td align="right">
+					2129499
+				</td><td align="right">
+					2120943
+				</td><td align="right">
+					1387288
+				</td><td align="right">
+					1384857
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 13</td><td align="right">
+					2140026
+				</td><td align="right">
+					2144153
+				</td><td align="right">
+					1391688
+				</td><td align="right">
+					1393175
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 13</td><td align="right">
+					2138190
+				</td><td align="right">
+					2131151
+				</td><td align="right">
+					1397472
+				</td><td align="right">
+					1396128
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 13</td><td align="right">
+					2148760
+				</td><td align="right">
+					2133513
+				</td><td align="right">
+					1407537
+				</td><td align="right">
+					1409595
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 13</td><td align="right">
+					2106288
+				</td><td align="right">
+					2105158
+				</td><td align="right">
+					1406409
+				</td><td align="right">
+					1413368
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 14</td><td align="right">
+					2121896
+				</td><td align="right">
+					2129406
+				</td><td align="right">
+					1429501
+				</td><td align="right">
+					1420396
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 14</td><td align="right">
+					2142757
+				</td><td align="right">
+					2147098
+				</td><td align="right">
+					1439296
+				</td><td align="right">
+					1430091
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 14</td><td align="right">
+					2107979
+				</td><td align="right">
+					2115675
+				</td><td align="right">
+					1440833
+				</td><td align="right">
+					1444506
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 14</td><td align="right">
+					2100981
+				</td><td align="right">
+					2106136
+				</td><td align="right">
+					1446458
+				</td><td align="right">
+					1447178
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 14</td><td align="right">
+					2099829
+				</td><td align="right">
+					2099878
+				</td><td align="right">
+					1454634
+				</td><td align="right">
+					1456431
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 14</td><td align="right">
+					2109203
+				</td><td align="right">
+					2111478
+				</td><td align="right">
+					1460775
+				</td><td align="right">
+					1465602
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 14</td><td align="right">
+					2107036
+				</td><td align="right">
+					2105468
+				</td><td align="right">
+					1465534
+				</td><td align="right">
+					1463489
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 14</td><td align="right">
+					2119536
+				</td><td align="right">
+					2110203
+				</td><td align="right">
+					1472257
+				</td><td align="right">
+					1470538
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 14</td><td align="right">
+					2106578
+				</td><td align="right">
+					2111688
+				</td><td align="right">
+					1476061
+				</td><td align="right">
+					1477568
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 14</td><td align="right">
+					2102321
+				</td><td align="right">
+					2094840
+				</td><td align="right">
+					1482746
+				</td><td align="right">
+					1483105
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 14</td><td align="right">
+					2107910
+				</td><td align="right">
+					2094876
+				</td><td align="right">
+					1486917
+				</td><td align="right">
+					1490088
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 14</td><td align="right">
+					2104992
+				</td><td align="right">
+					2103658
+				</td><td align="right">
+					1494132
+				</td><td align="right">
+					1501464
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 15</td><td align="right">
+					2081953
+				</td><td align="right">
+					2090932
+				</td><td align="right">
+					1502605
+				</td><td align="right">
+					1492545
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 15</td><td align="right">
+					2081936
+				</td><td align="right">
+					2086089
+				</td><td align="right">
+					1507433
+				</td><td align="right">
+					1497617
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 15</td><td align="right">
+					2103856
+				</td><td align="right">
+					2111206
+				</td><td align="right">
+					1512465
+				</td><td align="right">
+					1516626
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 15</td><td align="right">
+					2106761
+				</td><td align="right">
+					2110759
+				</td><td align="right">
+					1515617
+				</td><td align="right">
+					1515745
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 15</td><td align="right">
+					2120531
+				</td><td align="right">
+					2120167
+				</td><td align="right">
+					1519965
+				</td><td align="right">
+					1521750
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 15</td><td align="right">
+					2110303
+				</td><td align="right">
+					2110825
+				</td><td align="right">
+					1537419
+				</td><td align="right">
+					1542003
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 15</td><td align="right">
+					2125877
+				</td><td align="right">
+					2121833
+				</td><td align="right">
+					1542686
+				</td><td align="right">
+					1541765
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 15</td><td align="right">
+					2114829
+				</td><td align="right">
+					2106546
+				</td><td align="right">
+					1546311
+				</td><td align="right">
+					1545190
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 15</td><td align="right">
+					2095628
+				</td><td align="right">
+					2099338
+				</td><td align="right">
+					1554321
+				</td><td align="right">
+					1556423
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 15</td><td align="right">
+					2110847
+				</td><td align="right">
+					2103668
+				</td><td align="right">
+					1565117
+				</td><td align="right">
+					1566643
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 15</td><td align="right">
+					2120864
+				</td><td align="right">
+					2113408
+				</td><td align="right">
+					1570981
+				</td><td align="right">
+					1574303
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 15</td><td align="right">
+					2118648
+				</td><td align="right">
+					2115452
+				</td><td align="right">
+					1581944
+				</td><td align="right">
+					1589798
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 16</td><td align="right">
+					2107729
+				</td><td align="right">
+					2117590
+				</td><td align="right">
+					1589525
+				</td><td align="right">
+					1578538
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 16</td><td align="right">
+					2127319
+				</td><td align="right">
+					2135279
+				</td><td align="right">
+					1602125
+				</td><td align="right">
+					1590728
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 16</td><td align="right">
+					2131949
+				</td><td align="right">
+					2135548
+				</td><td align="right">
+					1556541
+				</td><td align="right">
+					1561459
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 16</td><td align="right">
+					2128788
+				</td><td align="right">
+					2130075
+				</td><td align="right">
+					1566025
+				</td><td align="right">
+					1566649
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 16</td><td align="right">
+					2152368
+				</td><td align="right">
+					2154532
+				</td><td align="right">
+					1573004
+				</td><td align="right">
+					1573154
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 16</td><td align="right">
+					2190002
+				</td><td align="right">
+					2187682
+				</td><td align="right">
+					1583301
+				</td><td align="right">
+					1588272
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 16</td><td align="right">
+					2211733
+				</td><td align="right">
+					2207379
+				</td><td align="right">
+					1596622
+				</td><td align="right">
+					1596762
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 16</td><td align="right">
+					2228608
+				</td><td align="right">
+					2223966
+				</td><td align="right">
+					1603526
+				</td><td align="right">
+					1601768
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 16</td><td align="right">
+					2228716
+				</td><td align="right">
+					2228622
+				</td><td align="right">
+					1615443
+				</td><td align="right">
+					1619034
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 16</td><td align="right">
+					2250349
+				</td><td align="right">
+					2246349
+				</td><td align="right">
+					1620489
+				</td><td align="right">
+					1622637
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 16</td><td align="right">
+					2260104
+				</td><td align="right">
+					2253239
+				</td><td align="right">
+					1622911
+				</td><td align="right">
+					1626176
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 16</td><td align="right">
+					2250850
+				</td><td align="right">
+					2247183
+				</td><td align="right">
+					1630533
+				</td><td align="right">
+					1639290
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 17</td><td align="right">
+					2251978
+				</td><td align="right">
+					2265425
+				</td><td align="right">
+					1632495
+				</td><td align="right">
+					1619129
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 17</td><td align="right">
+					2253881
+				</td><td align="right">
+					2262438
+				</td><td align="right">
+					1632754
+				</td><td align="right">
+					1619801
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 17</td><td align="right">
+					2288544
+				</td><td align="right">
+					2293292
+				</td><td align="right">
+					1644706
+				</td><td align="right">
+					1645085
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 17</td><td align="right">
+					2314769
+				</td><td align="right">
+					2315066
+				</td><td align="right">
+					1648197
+				</td><td align="right">
+					1649220
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 17</td><td align="right">
+					2308581
+				</td><td align="right">
+					2310278
+				</td><td align="right">
+					1650956
+				</td><td align="right">
+					1650850
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 17</td><td align="right">
+					2315892
+				</td><td align="right">
+					2311217
+				</td><td align="right">
+					1657744
+				</td><td align="right">
+					1664050
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 17</td><td align="right">
+					2310085
+				</td><td align="right">
+					2308092
+				</td><td align="right">
+					1659808
+				</td><td align="right">
+					1659712
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 17</td><td align="right">
+					2334228
+				</td><td align="right">
+					2328679
+				</td><td align="right">
+					1666685
+				</td><td align="right">
+					1665722
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 17</td><td align="right">
+					2356319
+				</td><td align="right">
+					2355780
+				</td><td align="right">
+					1670857
+				</td><td align="right">
+					1675099
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 17</td><td align="right">
+					2365257
+				</td><td align="right">
+					2361374
+				</td><td align="right">
+					1673188
+				</td><td align="right">
+					1675101
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 17</td><td align="right">
+					2370654
+				</td><td align="right">
+					2363300
+				</td><td align="right">
+					1678898
+				</td><td align="right">
+					1682741
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 17</td><td align="right">
+					2359706
+				</td><td align="right">
+					2356381
+				</td><td align="right">
+					1680890
+				</td><td align="right">
+					1689950
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 18</td><td align="right">
+					2374781
+				</td><td align="right">
+					2387511
+				</td><td align="right">
+					1694013
+				</td><td align="right">
+					1679533
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 18</td><td align="right">
+					2369963
+				</td><td align="right">
+					2378907
+				</td><td align="right">
+					1698045
+				</td><td align="right">
+					1683747
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 18</td><td align="right">
+					2357802
+				</td><td align="right">
+					2360905
+				</td><td align="right">
+					1696825
+				</td><td align="right">
+					1701037
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 18</td><td align="right">
+					2358174
+				</td><td align="right">
+					2359580
+				</td><td align="right">
+					1699570
+				</td><td align="right">
+					1700136
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 18</td><td align="right">
+					2374733
+				</td><td align="right">
+					2374172
+				</td><td align="right">
+					1706700
+				</td><td align="right">
+					1707013
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 18</td><td align="right">
+					2376654
+				</td><td align="right">
+					2371614
+				</td><td align="right">
+					1714637
+				</td><td align="right">
+					1721797
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 18</td><td align="right">
+					2378662
+				</td><td align="right">
+					2376599
+				</td><td align="right">
+					1720156
+				</td><td align="right">
+					1719692
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 18</td><td align="right">
+					2382976
+				</td><td align="right">
+					2376855
+				</td><td align="right">
+					1725519
+				</td><td align="right">
+					1725819
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 18</td><td align="right">
+					2385911
+				</td><td align="right">
+					2383302
+				</td><td align="right">
+					1727089
+				</td><td align="right">
+					1731994
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 18</td><td align="right">
+					2398049
+				</td><td align="right">
+					2394446
+				</td><td align="right">
+					1734432
+				</td><td align="right">
+					1736213
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 18</td><td align="right">
+					2402014
+				</td><td align="right">
+					2393973
+				</td><td align="right">
+					1741592
+				</td><td align="right">
+					1746483
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 18</td><td align="right">
+					2414182
+				</td><td align="right">
+					2414242
+				</td><td align="right">
+					1746850
+				</td><td align="right">
+					1754974
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 19</td><td align="right">
+					2398450
+				</td><td align="right">
+					2410326
+				</td><td align="right">
+					1751358
+				</td><td align="right">
+					1736280
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 19</td><td align="right">
+					2408188
+				</td><td align="right">
+					2417557
+				</td><td align="right">
+					1755076
+				</td><td align="right">
+					1739916
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 19</td><td align="right">
+					2414018
+				</td><td align="right">
+					2419770
+				</td><td align="right">
+					1758522
+				</td><td align="right">
+					1757948
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 19</td><td align="right">
+					2430864
+				</td><td align="right">
+					2430949
+				</td><td align="right">
+					1760130
+				</td><td align="right">
+					1760439
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 19</td><td align="right">
+					2428685
+				</td><td align="right">
+					2426879
+				</td><td align="right">
+					1774093
+				</td><td align="right">
+					1775886
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 19</td><td align="right">
+					2431827
+				</td><td align="right">
+					2426147
+				</td><td align="right">
+					1774721
+				</td><td align="right">
+					1783073
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 19</td><td align="right">
+					2442731
+				</td><td align="right">
+					2438821
+				</td><td align="right">
+					1782160
+				</td><td align="right">
+					1781908
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 19</td><td align="right">
+					2462733
+				</td><td align="right">
+					2457360
+				</td><td align="right">
+					1794639
+				</td><td align="right">
+					1795350
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 19</td><td align="right">
+					2475655
+				</td><td align="right">
+					2475760
+				</td><td align="right">
+					1802094
+				</td><td align="right">
+					1806121
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 19</td><td align="right">
+					2485257
+				</td><td align="right">
+					2480478
+				</td><td align="right">
+					1807360
+				</td><td align="right">
+					1809002
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 19</td><td align="right">
+					2511408
+				</td><td align="right">
+					2504246
+				</td><td align="right">
+					1814631
+				</td><td align="right">
+					1819635
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 19</td><td align="right">
+					2505947
+				</td><td align="right">
+					2506673
+				</td><td align="right">
+					1815703
+				</td><td align="right">
+					1823156
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 20</td><td align="right">
+					2516186
+				</td><td align="right">
+					2527443
+				</td><td align="right">
+					1823240
+				</td><td align="right">
+					1808258
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>29 Feb 20</td><td align="right">
+					2530062
+				</td><td align="right">
+					2539585
+				</td><td align="right">
+					1833559
+				</td><td align="right">
+					1818363
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Mar 20</td><td align="right">
+					2612187
+				</td><td align="right">
+					2622121
+				</td><td align="right">
+					1879184
+				</td><td align="right">
+					1877059
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Apr 20</td><td align="right">
+					2667911
+				</td><td align="right">
+					2663069
+				</td><td align="right">
+					1910957
+				</td><td align="right">
+					1911953
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 May 20</td><td align="right">
+					2719382
+				</td><td align="right">
+					2717701
+				</td><td align="right">
+					1960182
+				</td><td align="right">
+					1963672
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Jun 20</td><td align="right">
+					2748773
+				</td><td align="right">
+					2746672
+				</td><td align="right">
+					1973947
+				</td><td align="right">
+					1982065
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jul 20</td><td align="right">
+					2781839
+				</td><td align="right">
+					2771862
+				</td><td align="right">
+					1992702
+				</td><td align="right">
+					1993514
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Aug 20</td><td align="right">
+					2764895
+				</td><td align="right">
+					2759386
+				</td><td align="right">
+					1997082
+				</td><td align="right">
+					1998306
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Sep 20</td><td align="right">
+					2786028
+				</td><td align="right">
+					2784349
+				</td><td align="right">
+					2011474
+				</td><td align="right">
+					2014702
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Oct 20</td><td align="right">
+					2782410
+				</td><td align="right">
+					2776610
+				</td><td align="right">
+					2032984
+				</td><td align="right">
+					2035472
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>30 Nov 20</td><td align="right">
+					2805334
+				</td><td align="right">
+					2801134
+				</td><td align="right">
+					2046811
+				</td><td align="right">
+					2051767
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Dec 20</td><td align="right">
+					2820873
+				</td><td align="right">
+					2817719
+				</td><td align="right">
+					2075389
+				</td><td align="right">
+					2083636
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>31 Jan 21</td><td align="right">
+					2822052
+				</td><td align="right">
+					2837664
+				</td><td align="right">
+					2096234
+				</td><td align="right">
+					2079637
+				</td></tr>
+		<tr>
+		<td width="75" align="right" nowrap>28 Feb 21</td><td align="right">
+					2844178
+				</td><td align="right">
+					2858999
+				</td><td align="right">
+					2114235
+				</td><td align="right">
+					2097336
+				</td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Notes:</b></td></tr><TR><TD colspan=20>[a] In December 1995, a one-off transaction involving the repayment of loans within one banking group depressed M4 and its sterling lending counterpart by some £1.1bn. (31 Dec 1995)</TD></TR><TR><TD colspan=20>[b] National & Provincial Building Society transferred its business to Abbey National plc; its data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. In connection with this, M4 was boosted by some £0.9bn of deposits. (31 Aug 1996)</TD></TR><TR><TD colspan=20>[c] Separate intra-group transactions by two banks are estimated to have boosted the one month growth rate of M4 lending by 0.2pp, with a possible positive impact on M4 in November. One of these transactions was unwound in December. (30 Nov 1996 - 31 Dec 1996)</TD></TR><TR><TD colspan=20>[d] It is estimated that some £5bn (nsa) of the fall in wholesale M4 reflected the run-down of gilt repo activity over the calendar year-end; this was unwound in January. (31 Dec 1996 - 31 Jan 1997)</TD></TR><TR><TD colspan=20>[e] Alliance & Leicester Building Society converted to public limited company status; its data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. (30 Apr 1997)</TD></TR><TR><TD colspan=20>[f] Halifax Building Society converted to public limited company status; its data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. (30 Jun 1997)</TD></TR><TR><TD colspan=20>[g] Woolwich Building Society converted to public limited company status and Bristol & West Building Society joined the Bank of Ireland Group; their data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. (31 Jul 1997)</TD></TR><TR><TD colspan=20>[h] Banks' amounts outstanding have been affected by the introduction of the new banking statistics returns, in particular the reclassification of the Channel Islands and Isle of Man as non-residents. (30 Sep 1997)</TD></TR><TR><TD colspan=20>[i] Northern Rock Building Society converted to public limited company status; its data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. (31 Oct 1997)</TD></TR><TR><TD colspan=20>[j] The one-month growth rate of wholesale M4 included an unusual positive contribution equivalent to some 1.4pp (sa). (31 May 1999)</TD></TR><TR><TD colspan=20>[k] The one-month growth rate of wholesale M4 was depressed by 1.4pp (sa) due to the reversal of the unusual transaction which boosted wholesale M4 by the same amount in May. (30 Jun 1999)</TD></TR><TR><TD colspan=20>[l] The growth of total M4 was boosted by at least £4 bn (nsa), in part by transactions associated with Lloyds TSB's acquisition of Scottish Widows and corporate cash management activity in advance of payments due in early September for UK third generation mobile phone licences. (31 Aug 2000)</TD></TR><TR><TD colspan=20>[m] M4 was depressed by 0.2pp as a result of the unwinding of corporate cash management activity that took place in August 2000 (30 Sep 2000)</TD></TR><TR><TD colspan=20>[n] M4 was boosted by £2.6bn in September 2004 as a result of changes in the way a group is managing its interest rate risk ahead of the move to International Accounting Standards (IAS). (30 Sep 2004)</TD></TR><TR><TD colspan=20>[o] Following the transition of building societies' statistical reporting from the FSA to the Bank of England on 1 January 2008, some minor changes to the building societies' contribution to the calculation of M4 and M4 lending have been implemented.  The effects of these have been removed from the flows data, and are small in terms of the amounts outstanding. (31 Jan 2008)</TD></TR><TR><TD colspan=20>[p] From April 2009 data onwards, banks' and building societies' own covered bond entities are treated as part of the bank or building society. Positions between banks/building societies and their covered bond entities are netted out. This led to a £21 billion fall in the amount outstanding of M4. These effects have been removed from the flows (changes) data. (30 Apr 2009)</TD></TR><TR><TD colspan=20>[q] As a result of accounting changes at some institutions, the amount outstanding of this series has decreased by £11bn. The movement has been adjusted out of the flows for January 2010. (31 Jan 2010)</TD></TR><TR><TD colspan=20>[r] Due to changes to reporting of securitised loans, along with related liabilities, the amount outstanding of this series has increased by £176bn. The movement has been adjusted out of the flows for January 2010. For further details please see http://www.bankofengland.co.uk/statistics/documents/ms/articles/art1feb10.pdf. (31 Jan 2010)</TD></TR><TR><TD colspan=20>[s] Due to improvements in reporting at one institution, the amounts outstanding decreased by £8bn.  This effect has been adjusted out of the flows for February 2011. (28 Feb 2011)</TD></TR><TR><TD colspan=20>[t] Due to reporting process improvements at one institution, the amount outstanding of this series has decreased by £2bn. The movement has been adjusted out of the flows for October 2011. (31 Oct 2011)</TD></TR><TR><TD colspan=20>[u] Due to improvements in reporting at one institution, the amounts outstanding decreased by £3bn. This effect has been adjusted out of the flows for November 2011. (30 Nov 2011)</TD></TR><TR><TD colspan=20>[v] Due to a change in accounting treatment at one reporting institution, the amounts outstanding increased by £12bn. This effect has been adjusted out of the flows for January 2012. (31 Jan 2012)</TD></TR><TR><TD colspan=20>[w] Due to improvements in reporting at one institution, the amounts outstanding increased by £5bn. This effect has been adjusted out of the flows for April 2012. (30 Apr 2012)</TD></TR><TR><TD colspan=20>[x] Due to a change in treatment at one reporting institution, the amounts outstanding increased by £5bn. This effect has been adjusted out of the flows for April 2012. (30 Apr 2012)</TD></TR><TR><TD colspan=20>[y] Due to a change in accounting treatment at one reporting institution, the amounts outstanding increased by £7bn. This effect has been adjusted out of the flows for June 2012. (30 Jun 2012)</TD></TR><TR><TD colspan=20>[z] Due to a change in treatment at one reporting institution, the amounts outstanding decreased by £5bn. This effect has been adjusted out of the flows for October 2012. (31 Oct 2012)</TD></TR><TR><TD colspan=20>[1] Due to improvements in reporting at one institution, the amounts outstanding increased by £6bn. This effect has been adjusted out of the flows for February 2013. (28 Feb 2013)</TD></TR><TR><TD colspan=20>[2] Due to improvements in reporting at one institution, the amounts outstanding increased by £8bn. This effect has been adjusted out of the flows for July 2013. (31 Jul 2013)</TD></TR><TR><TD colspan=20>[3] Due to a restructuring at one reporting institution, the amounts outstanding decreased by £3bn. This effect has been adjusted out of the flows for November 2013. (30 Nov 2013)</TD></TR><TR><TD colspan=20>[4] Due to a change in treatment at one institution, the amounts outstanding increased by £19bn. This effect has been adjusted out of the flows for January 2014. (31 Jan 2014)</TD></TR><TR><TD colspan=20>[5] Due to improvements in reporting at one institution, the amounts outstanding increased by £3bn. This effect has been adjusted out of the flows for June 2014. (30 Jun 2014)</TD></TR><TR><TD colspan=20>[6] Due to a classification change, the amounts outstanding decreased by £5bn.  This effect has been adjusted out of the flows for October 2014. (31 Oct 2014)</TD></TR><TR><TD colspan=20>[7] Due to a change in treatment at one institution, the amounts outstanding decreased by £4bn.  This effect has been adjusted out of the flows for April 2015. (30 Apr 2015)</TD></TR><TR><TD colspan=20>[8] Due to improvements in reporting at one institution, the amounts outstanding increased by £3bn. This effect has been adjusted out of the flows for May 2015.
+ (31 May 2015)</TD></TR><TR><TD colspan=20>[9] Due to changes in reporting at one institution, the amounts outstanding decreased by £5bn. This effect has been adjusted out of the flows for March 2016. (31 Mar 2016)</TD></TR><TR><TD colspan=20>[10] Due to improvements in reporting at one institution, the amounts outstanding increased by £6bn. This effect has been adjusted out of the flows for June 2016. (30 Jun 2016)</TD></TR><TR><TD colspan=20>[11] Due to improvements in reporting at one institution, the amounts outstanding increased by £3bn.  This effect has been adjusted out of the flows for February 2017. (28 Feb 2017)</TD></TR><TR><TD colspan=20>[12] In order to bring reporting in line with the National Accounts, English housing associations were reclassified from PNFCs to public corporations with effect from July 2017 data. The amounts outstanding decreased by £3bn. This effect has been adjusted out of the flows for July 2017. (31 Jul 2017)</TD></TR><TR><TD colspan=20>[13] Due to improvements in reporting by one institution, the amounts outstanding increased by £11bn. This amount has been adjusted out of the flows for September 2017. (30 Sep 2017)</TD></TR><TR><TD colspan=20>[14] Due to a change in group structure by one reporting institution, the amounts outstanding increased by £6bn. This effect has been adjusted out of the flows for September 2017. (30 Sep 2017)</TD></TR><TR><TD colspan=20>[15] Due to improvements in reporting at one institution, the amounts outstanding increased by £5bn. This effect has been adjusted out of the flows for January 2018. (31 Jan 2018)</TD></TR><TR><TD colspan=20>[16] Due to improvements in reporting at one institution, the amounts outstanding decreased by £4bn. This effect has been adjusted out of the flows for January 2018. (31 Jan 2018)</TD></TR><TR><TD colspan=20>[17] Due to improvements in reporting at one institution, the amounts outstanding increased by £5bn. This effect has been adjusted out of the flows for September 2018. (30 Sep 2018)</TD></TR><TR><TD colspan=20>[18] Changes were introduced with effect from the publication of May 2019 data, following a review. The construction of this series now includes a seasonally adjusted intermediate other financial corporation (IOFC) component. Previously, this component was not seasonally adjusted. (31 Jul 1996 onward)</TD></TR><TR><TD colspan=20>[19] National & Provincial Building Society transferred its business to Abbey National plc; its data are now included within the banking sector rather than the building society sector. Flows have been adjusted for the change in both sectors' populations; levels data shown here are not break adjusted. (31 Aug 1996)</TD></TR><TR><TD colspan=20>[20] Due to improvements in reporting at one institution, the amounts outstanding increased by £3bn. This effect has been adjusted out of the flows for May 2015. (31 May 2015)</TD></TR><TR><TD colspan=20>[21] A minor change was made to the definition of Retail M4 in October 2007. From October data onwards, non-interest-bearing bank deposits are only included in Retail M4 when reporters identify them explicitly as being taken from retail sources. There was also a change to the reporting population in October 2007. Together these led to a break in the amount outstanding of Retail M4 in October 2007. The effect of this has been removed from the flows data.</TD></TR><TR><TD colspan=20>[22] The definitions of retail and wholesale M4 were changed from October 2008 data onwards. All deposits from related companies are now classified as wholesale, rather than retail reposits. Consequently, the amount outstanding of retail M4 fell by £12.6bn in October 2008 and that of wholesale M4 rose by the same amount. The effects have been removed from the flows data. (31 Oct 2008)</TD></TR><TR><TD colspan=20>[23] Due to improvements in reporting at one institution the amounts outstanding decreased by £4bn. This effect has been adjusted out of the flows for September 2011.
+ (30 Sep 2011)</TD></TR><TR><TD colspan=20>[24] Due to improvements in reporting at one institution, the amounts outstanding increased by £2bn. This effect has been adjusted out of the flows for December 2011. (31 Dec 2011)</TD></TR><TR><TD colspan=20>[25] Due to improvements in reporting at one institution, the amounts outstanding decreased by £4bn. This effect has been adjusted out of the flows for December 2013. (31 Dec 2013)</TD></TR><TR><TD colspan=20>[26] Due to a change in treatment at one institution, the amounts outstanding increased by £10bn. The effect has been adjusted out of the flows for January 2014. (31 Jan 2014)</TD></TR><TR><TD colspan=20>[27] Due to improvements in reporting at one institution, the amounts outstanding increased by £5bn.  This effect has been adjusted out of the flows for January 2014. (31 Jan 2014)</TD></TR><TR><TD colspan=20>[28] Due to improvements in reporting at one institution, the amounts outstanding increased by £15bn. This effect has been adjusted out of the flows for June 2015. (30 Jun 2015)</TD></TR><TR><TD colspan=20>[29] Due to improvements in reporting at one institution, the amounts outstanding decreased by £52bn. This effect has been adjusted out of the flows for March 2016. (31 Mar 2016)</TD></TR><TR><TD colspan=20>[30] Due to improvements in reporting at one institution, the amounts outstanding increased by £8bn. This effect has been adjusted out of the flows for January 2018. (31 Jan 2018)</TD></TR><TR><TD colspan=20>[31] Due to improvements in reporting at one institution, the amounts outstanding decreased by £4bn. This effect has been adjusted out of the flows for March 2018. (31 Mar 2018)</TD></TR><TR><TD colspan=20>[32] Due to improvements in reporting at one institution, the amounts outstanding increased by £3bn. (31 Oct 2018)</TD></TR>
+</TABLE>
+</div>
+</BODY>
+</HTML>
