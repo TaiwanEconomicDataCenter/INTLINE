@@ -1,0 +1,9 @@
+https://www.fsa.go.jp/en/regulated/npl/20200828.html
+頁面偏下方的地方下載 table-6 Transition of Risk Management Loans
+Please note that the Provisions for Loan Losses and the Specific Provisions have been corrected as follows:
+資料載Excel檔第71、72、77、78行
+i.e. 
+71:Total of All Banks -> Total Loans
+72:Total of All Banks -> Risk Management Loans
+77:Total of All Banks -> Provisions for Loan Losses
+78:Total of All Banks -> Provisions for Loan Losses -> Specific Provissons
