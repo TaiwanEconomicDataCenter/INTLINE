@@ -1,0 +1,9 @@
+http://www6.sistemaindustria.org.br/gpc/externo/listaResultados.faces?codPesquisa=180
+先將以上網址內容全網頁翻譯成英文
+然後勾選以下四列資料
+Industrial Entrepreneur Confidence Index - ICEI		Industrial entrepreneur confidence index - ICEI		Brazil		Expectations and confidence of the entrepreneur;
+Industrial Entrepreneur Confidence Index - ICEI		Industrial entrepreneur confidence index - ICEI		Brazil		Large		Expectations and confidence of the entrepreneur;
+Industrial Entrepreneur Confidence Index - ICEI		Industrial entrepreneur confidence index - ICEI		Brazil		Medium-sized		Expectations and confidence of the entrepreneur;
+Industrial Entrepreneur Confidence Index - ICEI		Industrial entrepreneur confidence index - ICEI		Brazil		Small		Expectations and confidence of the entrepreneur;
+
+點選 View Values  --->  點選 Export to Excel

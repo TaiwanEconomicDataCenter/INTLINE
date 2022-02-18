@@ -1,0 +1,8 @@
+巴西央行: 資料庫
+	https://www3.bcb.gov.br/sgspub/consultarvalores/telaCvsSelecionarSeries.paint
+11/11 目前查到有關 money supply 的series，下載下來後的csv資料格式很混亂，需要重整
+how to search: 
+	monetary indicators
+	monetary aggregates
+	money supply
+	選取月資料
