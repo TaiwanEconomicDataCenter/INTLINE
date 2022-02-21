@@ -1,7 +1,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # pylint: disable=E1101
-#pip install regex, datetime, pandas, requests, openpyxl(2.4.9), lxml, xlrd(1.2.0), iteration_utilities, matplotlib, statsmodels, pathlib, bs4, selenium, webdriver_manager, quandl, pywin32, pycnnum, roman, html5lib, pyxlsb, dateparser, sqlalchemy, pymysql
+#pip install regex, datetime, pandas, requests, openpyxl(3.0.3), lxml, xlrd(1.2.0), iteration_utilities, matplotlib, statsmodels, pathlib, bs4, selenium, webdriver_manager, quandl, pywin32, pycnnum, roman, html5lib, pyxlsb, dateparser, sqlalchemy, pymysql
 import math, sys, calendar, os, copy, time, shutil, logging, ssl, zipfile, traceback, pycnnum, roman, dateparser
 import regex as re
 import pandas as pd
