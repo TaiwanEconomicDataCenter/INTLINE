@@ -38,6 +38,8 @@ from dateutil.relativedelta import relativedelta
 from urllib.error import HTTPError
 sys.path.append('../TO_DB')
 from TO_DB import SELECT_DF_KEY, SELECT_DATABASES, INSERT_TABLES
+import warnings
+warnings.simplefilter("ignore")
 
 # 回報錯誤、記錄錯誤檔案並結束程式
 def ERROR(error_text, waiting=False):
