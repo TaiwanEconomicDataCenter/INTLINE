@@ -1,37 +1,885 @@
-﻿2021-12-30 01:32:28 PM excel_suffix: TOT202201
+﻿2022-02-22 04:53:11 PM excel_suffix: NEW
 
-2021-12-30 01:32:28 PM data_processing: False
+2022-02-22 04:53:11 PM data_processing: True
 
-2021-12-30 01:32:28 PM find_unknown: False
+2022-02-22 04:53:11 PM find_unknown: False
 
-2021-12-30 01:32:28 PM dealing_start_year: 1901
+2022-02-22 04:53:11 PM dealing_start_year: 1901
 
-2021-12-30 01:32:49 PM Process: File Updating
+2022-02-22 04:53:13 PM Data Processing
 
-2021-12-30 01:32:49 PM Reading main key: INTLINE_keyUP.xlsx, Time: 21 s
+2022-02-22 04:53:13 PM Reading table: Country, Time: 1s
 
-2021-12-30 01:32:51 PM Reading main database: INTLINE_databaseUP.xlsx, Time: 22 s
+2022-02-22 04:53:13 PM Reading table: TABLES, Time: 1 s
 
-2021-12-30 01:33:58 PM Reading original key: INTLINE_keyTOT202112.xlsx, Time: 90 s
+2022-02-22 04:53:17 PM Reading file: BEA TablesRegister, Time: 5 s
 
-2021-12-30 01:34:00 PM Reading original database: INTLINE_databaseTOT202112, Time: 92 s
+2022-02-22 04:53:20 PM Reading file: BEA SeriesRegister, Time: 8 s
 
-2021-12-30 01:34:35 PM Updating file: 0 s
+2022-02-22 04:53:29 PM 
 
-2021-12-30 02:06:13 PM updated: 7477
+2022-02-22 04:53:29 PM ====== WebDriver manager ======
+2022-02-22 04:53:30 PM Current google-chrome version is 98.0.4758
+2022-02-22 04:53:30 PM Get LATEST chromedriver version for 98.0.4758 google-chrome
+2022-02-22 04:53:31 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/98.0.4758.102/chromedriver_win32.zip
+2022-02-22 04:53:35 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\98.0.4758.102]
+2022-02-22 04:53:58 PM Present File Exists. Reading Data From Default Path.
 
-2021-12-30 02:13:27 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
-0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
-1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
-2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
-4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
-13659  INTLINE     W576STI.W  DB_W_0001  data025  ...  13660           Singapore Exchange                           Singapore Stock Exchange  Not Seasonally Adjusted
-13660  INTLINE    W924SSEA.W  DB_W_0001  data026  ...  13661      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13661  INTLINE    W924SSEB.W  DB_W_0001  data027  ...  13662      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13662  INTLINE   W924SZSEA.W  DB_W_0001  data028  ...  13663       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-13663  INTLINE   W924SZSEB.W  DB_W_0001  data029  ...  13664       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+2022-02-22 04:53:58 PM Reading source file, Time: 47 s
 
-[13664 rows x 15 columns]
-2021-12-30 02:13:28 PM Total Items: 13664
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 57s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 57 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 57s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 57 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 57s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 57 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 57s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 57 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 57s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 57 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 58s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 58 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 58s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 58 s
+
+2022-02-22 04:54:09 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 58s
+
+2022-02-22 04:54:09 PM Total New Items Found: 0 Time: 58 s
+
+2022-02-22 04:54:09 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:09 PM Reading source file, Time: 58 s
+
+2022-02-22 04:54:14 PM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 63s
+
+2022-02-22 04:54:14 PM Total New Items Found: 0 Time: 63 s
+
+2022-02-22 04:54:14 PM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 63s
+
+2022-02-22 04:54:14 PM Total New Items Found: 0 Time: 63 s
+
+2022-02-22 04:54:14 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:14 PM Reading source file, Time: 63 s
+
+2022-02-22 04:54:21 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 69s
+
+2022-02-22 04:54:21 PM Total New Items Found: 0 Time: 70 s
+
+2022-02-22 04:54:21 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 70s
+
+2022-02-22 04:54:21 PM Total New Items Found: 0 Time: 70 s
+
+2022-02-22 04:54:22 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 70s
+
+2022-02-22 04:54:22 PM Total New Items Found: 0 Time: 70 s
+
+2022-02-22 04:54:22 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 70s
+
+2022-02-22 04:54:22 PM Total New Items Found: 0 Time: 70 s
+
+2022-02-22 04:54:22 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 70s
+
+2022-02-22 04:54:22 PM Total New Items Found: 0 Time: 70 s
+
+2022-02-22 04:54:22 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:22 PM Reading source file, Time: 70 s
+
+2022-02-22 04:54:24 PM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 72s
+
+2022-02-22 04:54:24 PM Total New Items Found: 0 Time: 72 s
+
+2022-02-22 04:54:24 PM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 73s
+
+2022-02-22 04:54:24 PM Total New Items Found: 0 Time: 73 s
+
+2022-02-22 04:54:24 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:24 PM Reading source file, Time: 73 s
+
+2022-02-22 04:54:26 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 74s
+
+2022-02-22 04:54:26 PM Total New Items Found: 0 Time: 74 s
+
+2022-02-22 04:54:26 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 74s
+
+2022-02-22 04:54:26 PM Total New Items Found: 0 Time: 74 s
+
+2022-02-22 04:54:26 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 75s
+
+2022-02-22 04:54:26 PM Total New Items Found: 0 Time: 75 s
+
+2022-02-22 04:54:26 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 75s
+
+2022-02-22 04:54:26 PM Total New Items Found: 0 Time: 75 s
+
+2022-02-22 04:54:27 PM Reading file: BLS_series, Time: 75 s
+
+2022-02-22 04:54:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:30 PM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 78s
+
+2022-02-22 04:54:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:33 PM Total New Items Found: 0 Time: 81 s
+
+2022-02-22 04:54:33 PM Reading file: BLS_series, Time: 81 s
+
+2022-02-22 04:54:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:54:48 PM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 96s
+
+2022-02-22 04:59:11 PM Total New Items Found: 0 Time: 359 s
+
+2022-02-22 04:59:12 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:16 PM Country: United States, Reading file or url: IRBY, sheet: 1, frequency: M, Time: 364s
+
+2022-02-22 04:59:19 PM Total New Items Found: 0 Time: 367 s
+
+2022-02-22 04:59:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:19 PM Country: United States, Reading file or url: DowJones, sheet: 1, frequency: D, Time: 368s
+
+2022-02-22 04:59:19 PM Total New Items Found: 0 Time: 368 s
+
+2022-02-22 04:59:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:20 PM Country: United States, Reading file or url: NASDAQ, sheet: 1, frequency: D, Time: 369s
+
+2022-02-22 04:59:21 PM Total New Items Found: 0 Time: 369 s
+
+2022-02-22 04:59:21 PM Reading file: Datasets, Time: 369 s
+
+2022-02-22 04:59:27 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: M, Time: 375s
+
+2022-02-22 04:59:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:27 PM Total New Items Found: 0 Time: 376 s
+
+2022-02-22 04:59:27 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: W, Time: 376s
+
+2022-02-22 04:59:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:28 PM Total New Items Found: 0 Time: 376 s
+
+2022-02-22 04:59:28 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: D, Time: 376s
+
+2022-02-22 04:59:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:29 PM Total New Items Found: 0 Time: 377 s
+
+2022-02-22 04:59:29 PM Reading file: FTD_datasets, Time: 378 s
+
+2022-02-22 04:59:29 PM Reading file: FTDE_series, Time: 378 s
+
+2022-02-22 04:59:30 PM Country: United States, Reading file or url: AGDSCSB, sheet: 0, frequency: M, Time: 378s
+
+2022-02-22 04:59:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:30 PM Total New Items Found: 0 Time: 379 s
+
+2022-02-22 04:59:30 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#1, sheet: NSAEXP, frequency: M, Time: 379s
+
+2022-02-22 04:59:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:32 PM Total New Items Found: 0 Time: 380 s
+
+2022-02-22 04:59:32 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#2, sheet: NSAIMP, frequency: M, Time: 380s
+
+2022-02-22 04:59:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:33 PM Total New Items Found: 0 Time: 381 s
+
+2022-02-22 04:59:33 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#3, sheet: SAEXP, frequency: M, Time: 381s
+
+2022-02-22 04:59:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:34 PM Total New Items Found: 0 Time: 383 s
+
+2022-02-22 04:59:34 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#4, sheet: SAIMP, frequency: M, Time: 383s
+
+2022-02-22 04:59:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:35 PM Total New Items Found: 0 Time: 384 s
+
+2022-02-22 04:59:35 PM Country: United States, Reading file or url: UGDSCSB, sheet: 0, frequency: M, Time: 384s
+
+2022-02-22 04:59:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:36 PM Total New Items Found: 0 Time: 384 s
+
+2022-02-22 04:59:36 PM Reading file: Datasets, Time: 384 s
+
+2022-02-22 04:59:36 PM Country: United States, Reading file or url: https://www.eia.gov/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm, sheet: PET_MOVE_IMP_DC_NUS-Z00_MBBL_M, frequency: M, Time: 385s
+
+2022-02-22 04:59:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:48 PM Total New Items Found: 0 Time: 396 s
+
+2022-02-22 04:59:48 PM Reading file: Datasets, Time: 396 s
+
+2022-02-22 04:59:48 PM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 396s
+
+2022-02-22 04:59:48 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:54 PM Total New Items Found: 0 Time: 402 s
+
+2022-02-22 04:59:54 PM Reading file: country_series, Time: 402 s
+
+2022-02-22 04:59:55 PM Reading file: 112datasets, Time: 403 s
+
+2022-02-22 04:59:55 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: A, Time: 404s
+
+2022-02-22 04:59:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 04:59:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:15 PM Total New Items Found: 0 Time: 423 s
+
+2022-02-22 05:00:15 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: Q, Time: 423s
+
+2022-02-22 05:00:15 PM Total New Items Found: 0 Time: 423 s
+
+2022-02-22 05:00:15 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: M, Time: 423s
+
+2022-02-22 05:00:15 PM Total New Items Found: 0 Time: 423 s
+
+2022-02-22 05:00:15 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales/current, sheet: drsi, frequency: M, Time: 424s
+
+2022-02-22 05:00:15 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:15 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:20 PM Total New Items Found: 0 Time: 428 s
+
+2022-02-22 05:00:20 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/averageweeklyearnings/current, sheet: emp, frequency: M, Time: 428s
+
+2022-02-22 05:00:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:25 PM Total New Items Found: 0 Time: 434 s
+
+2022-02-22 05:00:26 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current, sheet: lms, frequency: M, Time: 434s
+
+2022-02-22 05:00:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:00:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:01:01 PM Total New Items Found: 0 Time: 469 s
+
+2022-02-22 05:01:01 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/aerospaceandelectronicscostindices/current, sheet: mm19, frequency: M, Time: 469s
+
+2022-02-22 05:01:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:01:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:01:01 PM Total New Items Found: 0 Time: 470 s
+
+2022-02-22 05:01:01 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices/current, sheet: mm23, frequency: M, Time: 470s
+
+2022-02-22 05:01:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:01:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:02:40 PM Total New Items Found: 0 Time: 568 s
+
+2022-02-22 05:02:40 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: A, Time: 568s
+
+2022-02-22 05:02:40 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:02:40 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:01 PM Total New Items Found: 0 Time: 589 s
+
+2022-02-22 05:03:01 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: Q, Time: 589s
+
+2022-02-22 05:03:01 PM Total New Items Found: 0 Time: 589 s
+
+2022-02-22 05:03:01 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: M, Time: 589s
+
+2022-02-22 05:03:01 PM Total New Items Found: 0 Time: 590 s
+
+2022-02-22 05:03:02 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/newordersintheconstructionindustry/current, sheet: noci, frequency: Q, Time: 590s
+
+2022-02-22 05:03:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:03 PM Total New Items Found: 0 Time: 592 s
+
+2022-02-22 05:03:04 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/outputintheconstructionindustry/current, sheet: opci, frequency: Q, Time: 592s
+
+2022-02-22 05:03:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:07 PM Total New Items Found: 0 Time: 596 s
+
+2022-02-22 05:03:07 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current, sheet: pn2, frequency: A, Time: 596s
+
+2022-02-22 05:03:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:10 PM Total New Items Found: 0 Time: 598 s
+
+2022-02-22 05:03:10 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current, sheet: pn2, frequency: Q, Time: 598s
+
+2022-02-22 05:03:10 PM Total New Items Found: 0 Time: 598 s
+
+2022-02-22 05:03:10 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/producerpriceindexstatisticalbulletindataset/current, sheet: ppi, frequency: M, Time: 599s
+
+2022-02-22 05:03:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:11 PM Total New Items Found: 0 Time: 599 s
+
+2022-02-22 05:03:11 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/labourproductivity/current, sheet: prdy, frequency: A, Time: 600s
+
+2022-02-22 05:03:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:12 PM Total New Items Found: 0 Time: 600 s
+
+2022-02-22 05:03:12 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/labourproductivity/current, sheet: prdy, frequency: Q, Time: 600s
+
+2022-02-22 05:03:12 PM Total New Items Found: 0 Time: 600 s
+
+2022-02-22 05:03:12 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: A, Time: 601s
+
+2022-02-22 05:03:12 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:12 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:19 PM Total New Items Found: 0 Time: 607 s
+
+2022-02-22 05:03:19 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: Q, Time: 607s
+
+2022-02-22 05:03:19 PM Total New Items Found: 0 Time: 607 s
+
+2022-02-22 05:03:19 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: M, Time: 607s
+
+2022-02-22 05:03:19 PM Total New Items Found: 0 Time: 607 s
+
+2022-02-22 05:03:19 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/unitlabourcostandunitwagecosttimeseries/current, sheet: ucst, frequency: A, Time: 607s
+
+2022-02-22 05:03:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:19 PM Total New Items Found: 0 Time: 608 s
+
+2022-02-22 05:03:19 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/unitlabourcostandunitwagecosttimeseries/current, sheet: ucst, frequency: Q, Time: 608s
+
+2022-02-22 05:03:19 PM Total New Items Found: 0 Time: 608 s
+
+2022-02-22 05:03:19 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current, sheet: ukea, frequency: A, Time: 608s
+
+2022-02-22 05:03:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:03:52 PM Total New Items Found: 0 Time: 641 s
+
+2022-02-22 05:03:52 PM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current, sheet: ukea, frequency: Q, Time: 641s
+
+2022-02-22 05:04:15 PM Total New Items Found: 0 Time: 664 s
+
+2022-02-22 05:04:16 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:16 PM Country: United Kingdom, Reading file or url: UK, sheet: Quarterly, frequency: Q, Time: 664s
+
+2022-02-22 05:04:16 PM Total New Items Found: 0 Time: 665 s
+
+2022-02-22 05:04:16 PM Country: United Kingdom, Reading file or url: UK, sheet: Monthly, frequency: M, Time: 665s
+
+2022-02-22 05:04:17 PM Total New Items Found: 0 Time: 665 s
+
+2022-02-22 05:04:17 PM Reading file: Datasets, Time: 665 s
+
+2022-02-22 05:04:17 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=E7D&C=E81&ShowData.x=58&ShowData.y=16&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - A, frequency: A, Time: 665s
+
+2022-02-22 05:04:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:17 PM Total New Items Found: 0 Time: 666 s
+
+2022-02-22 05:04:18 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=E32&C=E77&ShowData.x=23&ShowData.y=10&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - Q, frequency: Q, Time: 666s
+
+2022-02-22 05:04:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:18 PM Total New Items Found: 0 Time: 666 s
+
+2022-02-22 05:04:18 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=KV&C=P9&ShowData.x=49&ShowData.y=7&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - M, frequency: M, Time: 666s
+
+2022-02-22 05:04:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:18 PM Total New Items Found: 0 Time: 666 s
+
+2022-02-22 05:04:18 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=13T&ShowData.x=56&ShowData.y=7&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - D, frequency: D, Time: 667s
+
+2022-02-22 05:04:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:19 PM Total New Items Found: 0 Time: 667 s
+
+2022-02-22 05:04:19 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=British%2C+Government%2C+yield%2C+nominal+par+yield&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X41X61X&TotalNumResults=65&XNotes=Y&C=MW&C=5TU&C=ND&C=R5&C=RD&C=RK&ShowData.x=61&ShowData.y=13&FNotes2=Y&XNotes2=Y, sheet: Government Securities Yield, frequency: M, Time: 668s
+
+2022-02-22 05:04:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:19 PM Total New Items Found: 0 Time: 668 s
+
+2022-02-22 05:04:20 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxASxSCx&ShadowPage=1&Cat8=%A3&Frequency=M&SearchText=Effective+exchange+rate+index&SearchExclude=&SearchTextFields=TC&Thes=Y&SearchType=Advanced&Cats=&ActualResNumPerPage=&TotalNumResults=6&XNotes=Y&C=IIU&C=IPK&ShowData.x=52&ShowData.y=11&XNotes2=Y, sheet: Effective Exchange Rate Index - M, frequency: M, Time: 668s
+
+2022-02-22 05:04:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:20 PM Total New Items Found: 0 Time: 668 s
+
+2022-02-22 05:04:20 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxIRxSCx&ShadowPage=1&SearchText=Effective+exchange+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X41X61X81X101X121X141X161X&TotalNumResults=167&XNotes=Y&C=IIN&ShowData.x=59&ShowData.y=12&FNotes2=Y&XNotes2=Y, sheet: Effective Exchange Rate Index - D, frequency: D, Time: 668s
+
+2022-02-22 05:04:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:21 PM Total New Items Found: 0 Time: 669 s
+
+2022-02-22 05:04:21 PM Reading file: Datasets, Time: 669 s
+
+2022-02-22 05:04:21 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=Monthly+amounts+outstanding+of+M4&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X&TotalNumResults=34&XNotes=Y&C=61C&C=U8&C=O6K&C=LW&ShowData.x=66&ShowData.y=11&FNotes2=Y&XNotes2=Y&P1=X61CXU8XO6KXLWX, sheet: Money amounts outstanding of M4, frequency: M, Time: 670s
+
+2022-02-22 05:04:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:21 PM Total New Items Found: 0 Time: 670 s
+
+2022-02-22 05:04:22 PM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=Average+amount+outstanding%2C+Notes+and+coin&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=6&XNotes=Y&C=VT&C=VU&ShowData.x=50&ShowData.y=6&FNotes2=Y&XNotes2=Y, sheet: Monthly average amount outstanding of total sterling notes and coin, frequency: M, Time: 670s
+
+2022-02-22 05:04:22 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:22 PM Total New Items Found: 0 Time: 671 s
+
+2022-02-22 05:04:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:23 PM Country: United Kingdom, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 672s
+
+2022-02-22 05:04:24 PM Total New Items Found: 0 Time: 672 s
+
+2022-02-22 05:04:24 PM Country: United Kingdom, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 672s
+
+2022-02-22 05:04:32 PM Total New Items Found: 0 Time: 680 s
+
+2022-02-22 05:04:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:32 PM Country: United Kingdom, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 680s
+
+2022-02-22 05:04:32 PM Total New Items Found: 0 Time: 681 s
+
+2022-02-22 05:04:32 PM Country: United Kingdom, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 681s
+
+2022-02-22 05:04:34 PM Total New Items Found: 0 Time: 682 s
+
+2022-02-22 05:04:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:35 PM Country: United Kingdom, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 683s
+
+2022-02-22 05:04:35 PM Total New Items Found: 0 Time: 683 s
+
+2022-02-22 05:04:35 PM Country: United Kingdom, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 684s
+
+2022-02-22 05:04:37 PM Total New Items Found: 0 Time: 685 s
+
+2022-02-22 05:04:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:37 PM Country: United Kingdom, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 686s
+
+2022-02-22 05:04:39 PM Total New Items Found: 0 Time: 687 s
+
+2022-02-22 05:04:39 PM Country: United Kingdom, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 687s
+
+2022-02-22 05:04:44 PM Total New Items Found: 0 Time: 692 s
+
+2022-02-22 05:04:44 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:44 PM Country: United Kingdom, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 693s
+
+2022-02-22 05:04:49 PM Total New Items Found: 0 Time: 697 s
+
+2022-02-22 05:04:49 PM Country: United Kingdom, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 697s
+
+2022-02-22 05:04:50 PM Total New Items Found: 0 Time: 699 s
+
+2022-02-22 05:04:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:04:51 PM Country: United Kingdom, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 699s
+
+2022-02-22 05:04:55 PM Total New Items Found: 0 Time: 703 s
+
+2022-02-22 05:04:55 PM Country: United Kingdom, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 703s
+
+2022-02-22 05:04:56 PM Total New Items Found: 0 Time: 704 s
+
+2022-02-22 05:04:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:01 PM Country: United Kingdom, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 709s
+
+2022-02-22 05:05:04 PM Total New Items Found: 0 Time: 712 s
+
+2022-02-22 05:05:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:04 PM Country: United Kingdom, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 712s
+
+2022-02-22 05:05:05 PM Total New Items Found: 0 Time: 714 s
+
+2022-02-22 05:05:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:06 PM Country: United Kingdom, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 714s
+
+2022-02-22 05:05:07 PM Total New Items Found: 0 Time: 716 s
+
+2022-02-22 05:05:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:08 PM Country: United Kingdom, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 716s
+
+2022-02-22 05:05:08 PM Total New Items Found: 0 Time: 716 s
+
+2022-02-22 05:05:08 PM Country: United Kingdom, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 716s
+
+2022-02-22 05:05:09 PM Total New Items Found: 0 Time: 717 s
+
+2022-02-22 05:05:09 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:09 PM Country: United Kingdom, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 718s
+
+2022-02-22 05:05:10 PM Total New Items Found: 0 Time: 718 s
+
+2022-02-22 05:05:10 PM Country: United Kingdom, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 718s
+
+2022-02-22 05:05:11 PM Total New Items Found: 0 Time: 719 s
+
+2022-02-22 05:05:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:12 PM Country: United Kingdom, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 720s
+
+2022-02-22 05:05:15 PM Total New Items Found: 0 Time: 723 s
+
+2022-02-22 05:05:15 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:15 PM Country: United Kingdom, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 723s
+
+2022-02-22 05:05:17 PM Total New Items Found: 0 Time: 725 s
+
+2022-02-22 05:05:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:17 PM Country: United Kingdom, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 725s
+
+2022-02-22 05:05:19 PM Total New Items Found: 0 Time: 728 s
+
+2022-02-22 05:05:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:20 PM Country: United Kingdom, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 728s
+
+2022-02-22 05:05:22 PM Total New Items Found: 0 Time: 731 s
+
+2022-02-22 05:05:23 PM Country: United Kingdom, Reading file or url: https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads, sheet: Average price, frequency: M, Time: 731s
+
+2022-02-22 05:05:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:28 PM Total New Items Found: 0 Time: 736 s
+
+2022-02-22 05:05:28 PM Country: United Kingdom, Reading file or url: https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads, sheet: Index, frequency: M, Time: 736s
+
+2022-02-22 05:05:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:31 PM Total New Items Found: 0 Time: 740 s
+
+2022-02-22 05:05:31 PM Reading file: Datasets, Time: 740 s
+
+2022-02-22 05:05:32 PM Country: United Kingdom, Reading file or url: WSA, sheet: 0, frequency: M, Time: 740s
+
+2022-02-22 05:05:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:32 PM Total New Items Found: 0 Time: 741 s
+
+2022-02-22 05:05:32 PM Reading file: country_series, Time: 741 s
+
+2022-02-22 05:05:33 PM Reading file: 158datasets, Time: 741 s
+
+2022-02-22 05:05:33 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#1, sheet: def-cy, frequency: A, Time: 742s
+
+2022-02-22 05:05:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:34 PM Total New Items Found: 0 Time: 743 s
+
+2022-02-22 05:05:35 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#2, sheet: gaku-jcy, frequency: A, Time: 743s
+
+2022-02-22 05:05:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:35 PM Total New Items Found: 0 Time: 743 s
+
+2022-02-22 05:05:35 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#3, sheet: gaku-mcy, frequency: A, Time: 743s
+
+2022-02-22 05:05:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:35 PM Total New Items Found: 0 Time: 743 s
+
+2022-02-22 05:05:35 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#4, sheet: kdef-cy, frequency: A, Time: 744s
+
+2022-02-22 05:05:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:36 PM Total New Items Found: 0 Time: 744 s
+
+2022-02-22 05:05:36 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#5, sheet: kgaku-jcy, frequency: A, Time: 744s
+
+2022-02-22 05:05:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:36 PM Total New Items Found: 0 Time: 744 s
+
+2022-02-22 05:05:36 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#6, sheet: kgaku-mcy, frequency: A, Time: 744s
+
+2022-02-22 05:05:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:36 PM Total New Items Found: 0 Time: 745 s
+
+2022-02-22 05:05:36 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#1, sheet: s11dn_en, frequency: A, Time: 745s
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:37 PM Total New Items Found: 0 Time: 745 s
+
+2022-02-22 05:05:37 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#2, sheet: s11n_en, frequency: A, Time: 745s
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:37 PM Total New Items Found: 0 Time: 745 s
+
+2022-02-22 05:05:37 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#3, sheet: s11rn_en, frequency: A, Time: 746s
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:38 PM Total New Items Found: 0 Time: 746 s
+
+2022-02-22 05:05:38 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#4, sheet: s14n_en, frequency: A, Time: 746s
+
+2022-02-22 05:05:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:38 PM Total New Items Found: 0 Time: 746 s
+
+2022-02-22 05:05:38 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#5, sheet: s14rn_en, frequency: A, Time: 746s
+
+2022-02-22 05:05:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:38 PM Total New Items Found: 0 Time: 747 s
+
+2022-02-22 05:05:38 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#7, sheet: def-qg, frequency: Q, Time: 747s
+
+2022-02-22 05:05:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:39 PM Total New Items Found: 0 Time: 747 s
+
+2022-02-22 05:05:39 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#8, sheet: gaku-jg, frequency: Q, Time: 747s
+
+2022-02-22 05:05:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:39 PM Total New Items Found: 0 Time: 747 s
+
+2022-02-22 05:05:39 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#9, sheet: gaku-jk, frequency: Q, Time: 748s
+
+2022-02-22 05:05:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:40 PM Total New Items Found: 0 Time: 748 s
+
+2022-02-22 05:05:40 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#10, sheet: gaku-mg, frequency: Q, Time: 748s
+
+2022-02-22 05:05:40 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:40 PM Total New Items Found: 0 Time: 748 s
+
+2022-02-22 05:05:40 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#11, sheet: gaku-mk, frequency: Q, Time: 749s
+
+2022-02-22 05:05:40 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:40 PM Total New Items Found: 0 Time: 749 s
+
+2022-02-22 05:05:41 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#12, sheet: kdef-q, frequency: Q, Time: 749s
+
+2022-02-22 05:05:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:41 PM Total New Items Found: 0 Time: 749 s
+
+2022-02-22 05:05:41 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#13, sheet: kgaku-jg, frequency: Q, Time: 749s
+
+2022-02-22 05:05:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:41 PM Total New Items Found: 0 Time: 750 s
+
+2022-02-22 05:05:42 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#14, sheet: kgaku-jk, frequency: Q, Time: 750s
+
+2022-02-22 05:05:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:42 PM Total New Items Found: 0 Time: 750 s
+
+2022-02-22 05:05:42 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#15, sheet: kgaku-mg, frequency: Q, Time: 750s
+
+2022-02-22 05:05:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:42 PM Total New Items Found: 0 Time: 751 s
+
+2022-02-22 05:05:42 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#16, sheet: kgaku-mk, frequency: Q, Time: 751s
+
+2022-02-22 05:05:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:43 PM Total New Items Found: 0 Time: 751 s
+
+2022-02-22 05:05:43 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#17, sheet: kshotoku-cy, frequency: A, Time: 751s
+
+2022-02-22 05:05:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:43 PM Total New Items Found: 0 Time: 751 s
+
+2022-02-22 05:05:43 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#18, sheet: kshotoku-q, frequency: Q, Time: 752s
+
+2022-02-22 05:05:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:43 PM Total New Items Found: 0 Time: 752 s
+
+2022-02-22 05:05:43 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/stat/di/di-e.html, sheet: Indexes of Business Conditions, frequency: M, Time: 752s
+
+2022-02-22 05:05:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:44 PM Total New Items Found: 0 Time: 752 s
+
+2022-02-22 05:05:44 PM Country: Japan, Reading file or url: https://www5.cao.go.jp/keizai3/getsurei-e/index-e.html, sheet: shouhi, frequency: M, Time: 752s
+
+2022-02-22 05:05:44 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:44 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:45 PM Total New Items Found: 0 Time: 753 s
+
+2022-02-22 05:05:45 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#1, sheet: BOJA, frequency: A, Time: 754s
+
+2022-02-22 05:05:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:05:46 PM Total New Items Found: 0 Time: 754 s
+
+2022-02-22 05:05:46 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: M, Time: 755s
+
+2022-02-22 05:05:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:01 PM Total New Items Found: 0 Time: 769 s
+
+2022-02-22 05:06:01 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: Q, Time: 769s
+
+2022-02-22 05:06:01 PM Total New Items Found: 0 Time: 769 s
+
+2022-02-22 05:06:01 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#3, sheet: BOJD, frequency: D, Time: 769s
+
+2022-02-22 05:06:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:15 PM Total New Items Found: 0 Time: 783 s
+
+2022-02-22 05:06:15 PM Country: Japan, Reading file or url: https://www.boj.or.jp/en/statistics/dl/loan/prime/index.htm, sheet: LTPLR, frequency: M, Time: 783s
+
+2022-02-22 05:06:15 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:15 PM Total New Items Found: 0 Time: 783 s
+
+2022-02-22 05:06:15 PM Country: Japan, Reading file or url: https://www.investing.com/economic-calendar/interest-rate-decision-165, sheet: PR, frequency: M, Time: 784s
+
+2022-02-22 05:06:16 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:16 PM Total New Items Found: 0 Time: 784 s
+
+2022-02-22 05:06:16 PM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: M, Time: 784s
+
+2022-02-22 05:06:16 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:18 PM Total New Items Found: 0 Time: 787 s
+
+2022-02-22 05:06:18 PM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: A, Time: 787s
+
+2022-02-22 05:06:19 PM Total New Items Found: 0 Time: 788 s
+
+2022-02-22 05:06:20 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 788s
+
+2022-02-22 05:06:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:30 PM Total New Items Found: 0 Time: 799 s
+
+2022-02-22 05:06:30 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 799s
+
+2022-02-22 05:06:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:32 PM Total New Items Found: 0 Time: 800 s
+
+2022-02-22 05:06:32 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 801s
+
+2022-02-22 05:06:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-02-22 05:06:34 PM Total New Items Found: 0 Time: 803 s
+
+2022-02-22 05:06:35 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv, sheet: World, frequency: M, Time: 803s
+
+2022-02-22 05:06:36 PM Total New Items Found: 0 Time: 804 s
+
+2022-02-22 05:06:36 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma001.csv, sheet: Asia, frequency: M, Time: 804s
+
+2022-02-22 05:06:38 PM Total New Items Found: 0 Time: 806 s
+
+2022-02-22 05:06:38 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma002.csv, sheet: Oceania, frequency: M, Time: 806s
+
+2022-02-22 05:06:38 PM Total New Items Found: 0 Time: 807 s
+
+2022-02-22 05:06:39 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma003.csv, sheet: North America, frequency: M, Time: 807s
+
+2022-02-22 05:06:39 PM Total New Items Found: 0 Time: 807 s
+
+2022-02-22 05:06:39 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma004.csv, sheet: Middle and South America, frequency: M, Time: 808s
+
+2022-02-22 05:06:40 PM Total New Items Found: 0 Time: 808 s
+
+2022-02-22 05:06:40 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma005.csv, sheet: Western Europe, frequency: M, Time: 808s
+
+2022-02-22 05:06:40 PM Total New Items Found: 0 Time: 809 s
+
+2022-02-22 05:06:40 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma006.csv, sheet: Central and Eastern Europe, frequency: M, Time: 809s
+
+2022-02-22 05:06:41 PM Total New Items Found: 0 Time: 809 s
+
+2022-02-22 05:06:41 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma007.csv, sheet: Middle East, frequency: M, Time: 809s
+
+2022-02-22 05:06:42 PM Total New Items Found: 0 Time: 810 s
+
+2022-02-22 05:06:42 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma008.csv, sheet: Africa, frequency: M, Time: 810s
+

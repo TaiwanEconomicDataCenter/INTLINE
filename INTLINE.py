@@ -948,7 +948,7 @@ for country in COUNTRY(TABLES):
                         zip_list.append(zipname)
                     zf = zipfile.ZipFile(file_path,'r')
                     if source == 'European Commission':
-                        Table = readExcelFile(zf.open(fname+'.xlsx'), index_col_=0, sheet_name_=0, usecols_=[0, 1], squeeze_=True, acceptNoFile=False).str.strip()
+                        Table = readExcelFile(zf.open(fname+'.xlsx'), index_col_=0, sheet_name_=0, usecols_=[0, 1], acceptNoFile=False).squeeze().str.strip()
                         Table.index = [str(dex).strip() for dex in Table.index]
                     elif source == 'Federal Reserve Economic Data':
                         Series_temp = readExcelFile(zf.open(fname+'.xls'), sheet_name_=0)
@@ -1302,7 +1302,7 @@ for country in COUNTRY(TABLES):
                         if not not list(duplicates(label.index.dropna())):
                             if False in [d in NonValue for d in list(duplicates(label.index.dropna()))]:
                                 ERROR('Duplicated Indices found in the file.')
-                        print(INTLINE_t)
+                        #print(INTLINE_t)
                         #continue
                         nG = INTLINE_t.shape[0]
                         if find_unknown == False:

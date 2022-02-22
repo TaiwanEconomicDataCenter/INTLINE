@@ -107,9 +107,9 @@ def readExcelFile(dir, default=pd.DataFrame(), acceptNoFile=True, na_filter_=Tru
              header_=None,names_=None,skiprows_=None,index_col_=None,usecols_=None,skipfooter_=0,nrows_=None,sheet_name_=None,engine_=None, wait=False):
     try:
         if engine_ == 'pyxlsb':
-            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_,squeeze=squeeze_,engine=engine_)
+            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_,engine=engine_)
         else:
-            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_,squeeze=squeeze_)
+            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_)
         #print(t)
         return t
     except (OSError, FileNotFoundError):
@@ -123,7 +123,7 @@ def readExcelFile(dir, default=pd.DataFrame(), acceptNoFile=True, na_filter_=Tru
     except Exception as e:
         #print(str(e))
         try: #檔案編碼格式不同
-            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_,squeeze=squeeze_)
+            t = pd.read_excel(dir,sheet_name=sheet_name_, header=header_,names=names_,index_col=index_col_,skiprows=skiprows_,skipfooter=skipfooter_,usecols=usecols_,nrows=nrows_,na_filter=na_filter_)
             #print(t)
             return t
         except Exception as error:
@@ -394,7 +394,7 @@ def INTLINE_DATASETS(chrome, data_path, country, address, fname, sname, freq, Se
     if present_file_existed == False and address.find('DEUSTATIS') >= 0:
         if INTLINE_PRESENT(re.sub(r'\.[csvxlzip]+', "", file_path)+'_Notes.csv'):
             logging.info('Getting Data from Different Year Ranges.\n')
-            time_units = pd.read_csv(re.sub(r'\.[csvxlzip]+', "", file_path)+'_Notes.csv', header=None, squeeze=True).tolist()
+            time_units = pd.read_csv(re.sub(r'\.[csvxlzip]+', "", file_path)+'_Notes.csv', header=None).squeeze().tolist()
             if False not in [INTLINE_PRESENT(data_path+str(country)+'/'+address+str(file_name)+' - '+str(yr)+'.xls'+excel) for yr in time_units]:
                 present_file_existed = True
     if str(fname).find('http') >= 0 and present_file_existed == False:
@@ -5234,7 +5234,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.to_excel(file_path, sheet_name=fname)  
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
-    print(INTLINE_temp)
+    #print(INTLINE_temp)
     #ERROR('')
     
     #################################################################################################################################################################################################################
