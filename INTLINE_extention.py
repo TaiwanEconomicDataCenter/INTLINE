@@ -812,7 +812,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
                     WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[@title="rechercher"]'))).click()
                     time.sleep(5)
                     WebDriverWait(chrome, 2).until(EC.visibility_of_element_located((By.XPATH, './/td[@class="echo echo-chevron"][contains(., "'+str(file_name)+'")][not(contains(., "Stopped series"))]'))).click()
-                    title = WebDriverWait(chrome, 2).until(EC.visibility_of_element_located((By.XPATH, './/h3[@class="titre-figure"]'))).text
+                    title = WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/h3[@class="titre-figure"]'))).text
                 if is_period == True:
                     base_year = re.sub(r'.*?Base\s100\sin\s(Q[1-4])\sof\s([0-9]{4}).*', r"\2\1", title.replace('\n',''))
                 else:
@@ -852,7 +852,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
                     except NoSuchElementException:
                         count +=1
                         if count > 3:
-                            ERROR('The website is unable to enter, please download the file manually: '+str(fname).replace('$',''))
+                            ERROR('The website is unable to enter, please download the file manually: '+str(file_name).replace('$',''))
                         else:
                             continue
                     else:
