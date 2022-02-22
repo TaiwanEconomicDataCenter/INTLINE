@@ -37,7 +37,7 @@ from datetime import datetime, date, timedelta
 from dateutil.relativedelta import relativedelta
 from urllib.error import HTTPError
 sys.path.append('../TO_DB')
-from TO_DB import SELECT_DF_KEY
+from TO_DB import SELECT_DF_KEY, SELECT_DATABASES, INSERT_TABLES
 
 # 回報錯誤、記錄錯誤檔案並結束程式
 def ERROR(error_text, waiting=False):
@@ -58,7 +58,9 @@ out_path = "./output/"
 BANK = input('Bank (INTLINE/ASIA): ')#'INTLINE'#
 if BANK not in ['INTLINE','ASIA']:
     ERROR('Incorrect Name of Bank')
-excel_suffix = input('Output file suffix (If test identity press 0): ')
+excel_suffix = input('Output file suffix or mysql (If test identity press 0): ')
+if excel_suffix.lower().strip() == 'mysql':
+    excel_suffix = 'mysql'
 
 def takeFirst(alist):
     return alist[0]

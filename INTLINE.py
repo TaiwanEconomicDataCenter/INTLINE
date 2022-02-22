@@ -20,7 +20,8 @@ from sqlalchemy import create_engine
 import INTLINE_extention as EXT
 from INTLINE_extention import ERROR, readFile, readExcelFile, GET_NAME, MERGE, NEW_KEYS, CONCATE, UPDATE, INTLINE_NOTE, takeFirst, INTLINE_BLS, INTLINE_BASE_YEAR, NEW_LABEL, \
  INTLINE_STL, INTLINE_FTD, INTLINE_DOE, INTLINE_LATEST_STEEL, INTLINE_STEEL, INTLINE_STOCK, INTLINE_ONS, INTLINE_WEB, INTLINE_BOE, INTLINE_EUC, INTLINE_EST, INTLINE_KERI, \
- INTLINE_BEIS, INTLINE_MULTIKEYS, INTLINE_SINGLEKEY, INTLINE_LTPLR, INTLINE_JREI, INTLINE_DATASETS, INTLINE_METI, INTLINE_MHLW, INTLINE_CBFI, INTLINE_GACC, INTLINE_PRESENT, SELECT_DF_KEY
+ INTLINE_BEIS, INTLINE_MULTIKEYS, INTLINE_SINGLEKEY, INTLINE_LTPLR, INTLINE_JREI, INTLINE_DATASETS, INTLINE_METI, INTLINE_MHLW, INTLINE_CBFI, INTLINE_GACC, INTLINE_PRESENT, \
+     SELECT_DF_KEY, SELECT_DATABASES, INSERT_TABLES
 import INTLINE_test as test
 from INTLINE_test import INTLINE_identity
 FORMAT = '%(asctime)s %(message)s'
@@ -40,7 +41,7 @@ data_processing = bool(int(input('Processing data (1/0): ')))#True#
 keyword = ['','']
 bls_start = dealing_start_year
 STOCK_start = dealing_start_year
-DF_suffix = test.DF_suffix
+# DF_suffix = test.DF_suffix
 #Historical = True
 make_discontinued = False#True#
 ENCODING = EXT.ENCODING
@@ -67,7 +68,7 @@ for i in range(len(key_list)):
         snl_pos = i
         break
 tStart = time.time()
-using_database = True
+"""using_database = True
 pwd = open(data_path+'password.txt','r',encoding='ANSI').read()
 try:
     engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306')
@@ -77,7 +78,7 @@ except sqlalchemy.exc.OperationalError:
 else:
     if 'intline' not in connection.dialect.get_schema_names(connection):
         connection.execute('create database intline')
-    engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306/intline')
+    engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306/intline')"""
 
 FREQNAME = {'A':'annual','M':'month','Q':'quarter','S':'semiannual','W':'week','D':'daily'}
 FREQLIST = {}
@@ -157,11 +158,15 @@ if data_processing:
     Titles = readExcelFile(data_path+'tablesINT.xlsx', header_ = 0, index_col_=1, sheet_name_='titles').to_dict()
 
 merge_file_loaded = False
+if excel_suffix == 'mysql':
+    df_key = SELECT_DF_KEY(databank)
+    DATA_BASE_dict = SELECT_DATABASES(databank)
+    merge_file_loaded = True
 while data_processing == False:
     TABLES = pd.DataFrame()
     while True:
         try:
-            merging = bool(int(input('Merging data file = 1/Updating TOT file = 0: ')))
+            merging = bool(int(input('Merging data file = 1/Updating data file = 0: ')))
             updating = not merging
             if merge_file_loaded == False:
                 merge_suf = input('Be Merged(Original) data suffix: ')
@@ -197,7 +202,7 @@ while data_processing == False:
         merge_database = readExcelFile(out_path+NAME+'database'+merge_suf+'.xlsx', header_ = 0, index_col_=0, acceptNoFile=False)
     #if merge_file.empty == False and merging == True and updating == False:
     if merging:
-        logging.info('Merging File: '+out_path+NAME+'key'+merge_suf+'.xlsx, Time: '+str(int(time.time() - tStart))+' s'+'\n')
+        logging.info('Merging File, Time: '+str(int(time.time() - tStart))+' s'+'\n')
         snl = int(merge_file['snl'][merge_file.shape[0]-1]+1)
         for f in FREQNAME:
             table_num_dict[f], code_num_dict[f] = MERGE(merge_file, DB_TABLE, DB_CODE, f)
@@ -242,7 +247,11 @@ while data_processing == False:
     if continuing == False:
         break
 
-DF_KEY = pd.DataFrame()
+if updating == False:
+    DF_KEY = SELECT_DF_KEY(databank)
+    DF_KEY = DF_KEY.set_index('name')
+    #print(DF_KEY)
+"""DF_KEY = pd.DataFrame()
 if updating == False and DF_suffix != merge_suf:
     logging.info('Reading file: INTLINE_key'+DF_suffix+', Time: '+str(int(time.time() - tStart))+'s'+'\n')
     try:
@@ -256,7 +265,7 @@ if updating == False and DF_suffix != merge_suf:
     DF_KEY = DF_KEY.set_index('name')
 elif updating == False and DF_suffix == merge_suf:
     DF_KEY = merge_file
-    DF_KEY = DF_KEY.set_index('name')
+    DF_KEY = DF_KEY.set_index('name')"""
 
 CONTINUE = []
 def COUNTRY(TABLES):
@@ -847,8 +856,8 @@ if data_processing:
     new_item_counts = 0
 
 for country in COUNTRY(TABLES):
-    #if main_file.empty == False:
-    #    break
+    if data_processing == False:
+        break
     country_read = False
     country = int(country)
     if databank == 'ASIA' and country not in ASIA:
@@ -1382,22 +1391,18 @@ logging.info(df_key)
 logging.info('Total Items: '+str(df_key.shape[0]))
 
 print('Time: '+str(int(time.time() - tStart))+' s'+'\n')
-df_key.to_excel(out_path+NAME+"key"+excel_suffix+".xlsx", sheet_name=NAME+'key')
-with pd.ExcelWriter(out_path+NAME+"database"+excel_suffix+".xlsx") as writer:
-    #if updating == True:
-    for d in DATA_BASE_dict:
-        sys.stdout.write("\rOutputing sheet: "+str(d))
-        sys.stdout.flush()
-        if DATA_BASE_dict[d].empty == False:
-            DATA_BASE_dict[d].to_excel(writer, sheet_name = d)
-    """else:
-        for f in FREQNAME:
-            for d in DATA_BASE_dict[f]:
-                sys.stdout.write("\rOutputing sheet: "+str(d))
-                sys.stdout.flush()
-                if DATA_BASE_dict[f][d].empty == False:
-                    DATA_BASE_dict[f][d].to_excel(writer, sheet_name = d)"""
-    sys.stdout.write("\n")
+if excel_suffix == 'mysql':
+    INSERT_TABLES(databank, df_key, DATA_BASE_dict)
+else:
+    df_key.to_excel(out_path+NAME+"key"+excel_suffix+".xlsx", sheet_name=NAME+'key')
+    with pd.ExcelWriter(out_path+NAME+"database"+excel_suffix+".xlsx") as writer:
+        #if updating == True:
+        for d in DATA_BASE_dict:
+            sys.stdout.write("\rOutputing sheet: "+str(d))
+            sys.stdout.flush()
+            if DATA_BASE_dict[d].empty == False:
+                DATA_BASE_dict[d].to_excel(writer, sheet_name = d)
+        sys.stdout.write("\n")
 
 if data_processing and find_unknown == True: 
     if new_tables.empty == False:
