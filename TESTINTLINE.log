@@ -1,502 +1,217 @@
-﻿2022-02-23 10:50:31 AM Checking Identities: 3063 s
+﻿2022-02-23 12:15:10 PM Checking Identities: 2921 s
 
-2022-02-23 10:50:31 AM Index A132IRLTLT01FR.A desc_e updated
-2022-02-23 10:50:31 AM Index A132IRLTLT01FR.A type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index A136ITAGDPDEFA.A desc_e updated
-2022-02-23 10:50:31 AM Index A136ITAGDPDEFA.A type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111DJCA.D desc_e updated
-2022-02-23 10:50:31 AM Index D111DJCA.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111DJIA.D desc_e updated
-2022-02-23 10:50:31 AM Index D111DJIA.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111DJTA.D desc_e updated
-2022-02-23 10:50:31 AM Index D111DJTA.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111DJUA.D desc_e updated
-2022-02-23 10:50:31 AM Index D111DJUA.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111NASDAQ100.D desc_e updated
-2022-02-23 10:50:31 AM Index D111NASDAQ100.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111NASDAQCOM.D desc_e updated
-2022-02-23 10:50:31 AM Index D111NASDAQCOM.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index D111SP500.D desc_e updated
-2022-02-23 10:50:31 AM Index D111SP500.D type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CD1M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CD3M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CD6M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPF1M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPF1M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPF2M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPF2M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPF3M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPF3M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPN1M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPN1M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPN2M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPN2M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111CPN3M.M desc_e updated
-2022-02-23 10:50:31 AM Index M111CPN3M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FEDFUNDS.M desc_e updated
-2022-02-23 10:50:31 AM Index M111FEDFUNDS.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FII10.M desc_e inconsistent
-2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM Index M111FII10.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FII20.M desc_e inconsistent
-2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM Index M111FII20.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FII30.M desc_e inconsistent
-2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM Index M111FII30.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FII5.M desc_e inconsistent
-2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM Index M111FII5.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111FII7.M desc_e inconsistent
-2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2022-02-23 10:50:31 AM Index M111FII7.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS1.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS10.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS1M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS2.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS20.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS3.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS30.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS3M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS5.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS6M.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111GS7.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS110.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS120.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS130.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS140.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS150.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS160.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS170.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNS180.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU000.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU010.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU020.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU030.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU040.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU050.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU060.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU070.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LNU080.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LTA.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111LTIIT.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MDISCRT.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MED1.M desc_e updated
-2022-02-23 10:50:31 AM Index M111MED1.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MED3.M desc_e updated
-2022-02-23 10:50:31 AM Index M111MED3.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MED6.M desc_e updated
-2022-02-23 10:50:31 AM Index M111MED6.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MORTG.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MPCREDIT.M desc_e updated
-2022-02-23 10:50:31 AM Index M111MPCREDIT.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MPRIME.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSLB20.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP1.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP10.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP2.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP3.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP30.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP4.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP5.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111MSWP7.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111TB1YR.M desc_e updated
-2022-02-23 10:50:31 AM Index M111TB1YR.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111TB3MS.M desc_e updated
-2022-02-23 10:50:31 AM Index M111TB3MS.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111TB4WK.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:31 AM Index M111TB6MS.M type inconsistent
-2022-02-23 10:50:31 AM DF_KEY = None
-2022-02-23 10:50:31 AM df_key = 
-2022-02-23 10:50:32 AM Index M112SACRMISMEI.M desc_e updated
-2022-02-23 10:50:32 AM Index M112SACRMISMEI.M type inconsistent
-2022-02-23 10:50:32 AM DF_KEY = None
-2022-02-23 10:50:32 AM df_key = 
-2022-02-23 10:50:32 AM Index M132FRASLRTCR0.M type inconsistent
-2022-02-23 10:50:32 AM DF_KEY = None
-2022-02-23 10:50:32 AM df_key = 
-2022-02-23 10:50:32 AM Index M132IRLTLT01FR.M desc_e updated
-2022-02-23 10:50:32 AM Index M132IRLTLT01FR.M type inconsistent
-2022-02-23 10:50:32 AM DF_KEY = None
-2022-02-23 10:50:32 AM df_key = 
-2022-02-23 10:50:32 AM Index M134DEUSLRTCR0.M type inconsistent
-2022-02-23 10:50:32 AM DF_KEY = None
-2022-02-23 10:50:32 AM df_key = 
-2022-02-23 10:50:32 AM Index M134EUR3MTD156.M desc_e updated
-2022-02-23 10:50:32 AM Index M134EUR3MTD156.M type inconsistent
-2022-02-23 10:50:32 AM DF_KEY = None
-2022-02-23 10:50:32 AM df_key = 
-2022-02-23 10:50:33 AM Index M136ITASLRTCR0.M type inconsistent
-2022-02-23 10:50:33 AM DF_KEY = None
-2022-02-23 10:50:33 AM df_key = 
-2022-02-23 10:50:33 AM Index M144SWESACRMIS.M desc_e updated
-2022-02-23 10:50:33 AM Index M144SWESACRMIS.M type inconsistent
-2022-02-23 10:50:33 AM DF_KEY = None
-2022-02-23 10:50:33 AM df_key = 
-2022-02-23 10:50:33 AM Index M144SWESLRTCR0.M type inconsistent
-2022-02-23 10:50:33 AM DF_KEY = None
-2022-02-23 10:50:33 AM df_key = 
-2022-02-23 10:50:34 AM Index M158MHLEI1.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI1.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI13.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI13.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI15.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI15.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI25.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI25.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI27.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI27.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI3.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI3.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI5.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI5.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI7.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLEI7.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLHWI3.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLHWI3.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLHWI4.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLHWI4.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLRWI1.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLRWI1.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLRWI3.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLRWI3.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLSAI9.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLSAI9.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI1.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI1.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI13.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI13.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI25.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI25.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI3.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI3.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI5.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI5.M unit: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI7.M desc_e: base updated
-2022-02-23 10:50:34 AM Index M158MHLWI7.M unit: base updated
-2022-02-23 10:50:34 AM Index M158XTEXVA01JP.M desc_e updated
-2022-02-23 10:50:34 AM Index M158XTEXVA01JP.M type inconsistent
-2022-02-23 10:50:34 AM DF_KEY = None
-2022-02-23 10:50:34 AM df_key = 
-2022-02-23 10:50:34 AM Index M158XTIMVA01JP.M desc_e updated
-2022-02-23 10:50:34 AM Index M158XTIMVA01JP.M type inconsistent
-2022-02-23 10:50:34 AM DF_KEY = None
-2022-02-23 10:50:34 AM df_key = 
-2022-02-23 10:50:34 AM Index M158XTNTVA01JP.M desc_e updated
-2022-02-23 10:50:34 AM Index M158XTNTVA01JP.M type inconsistent
-2022-02-23 10:50:34 AM DF_KEY = None
-2022-02-23 10:50:34 AM df_key = 
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB28.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB29.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB31.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB31a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB32.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB33.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB34.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB35.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB36.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB37.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB38.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB39.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB41.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB41a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB42.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB43.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB44.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB45.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB46.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB47.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB49.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB51.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB51a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB52.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB54.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB55.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB56.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB57.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB58.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB59.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB61.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB61a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB62.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB63.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB64.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB65.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB66.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB67.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB68.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB69.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB71.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB71a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB72.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB73.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB74.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB75.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB76.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB77.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB78.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB79.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB81.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB82.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB83.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB84.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB85.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB87.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP13.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP14.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP15.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP16.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP17.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP18.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP19.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP21.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP21a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP22.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP23.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP24.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP25.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP26.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP27.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP28.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP29.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP31.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP31a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP32.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP33.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP34.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP35.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP36.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP37.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP38.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP39.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP41.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP41a.M
-2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP42.M
-2022-02-23 10:50:34 AM Index M193CSCICP03AU.M desc_e updated
-2022-02-23 10:50:34 AM Index M193CSCICP03AU.M type inconsistent
-2022-02-23 10:50:34 AM DF_KEY = None
-2022-02-23 10:50:34 AM df_key = 
-2022-02-23 10:50:35 AM Index Q112QGBN628BIS.Q desc_e updated
-2022-02-23 10:50:35 AM Index Q112QGBN628BIS.Q type inconsistent
-2022-02-23 10:50:35 AM DF_KEY = None
-2022-02-23 10:50:35 AM df_key = 
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH1.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH11.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH111.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH112.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH113.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH114.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH116.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH117.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH119.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH12.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH124.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH125.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH127.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH128.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH129.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH13.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH131.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH131a.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH132.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH135.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH136.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH137.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH138.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH14.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH141.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH141a.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH142.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH143.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH144.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH145.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH147.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH15.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH16.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH17.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH171.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH18.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH19.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH96.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH97.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH98.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH99.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP1.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP11.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP12.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP13.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP2.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP3.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP4.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP5.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP6.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP7.Q
-2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP9.Q
-2022-02-23 10:50:36 AM unknown: 0
-2022-02-23 10:50:36 AM name too long: 0
-2022-02-23 10:50:36 AM inconsistent: 92
-2022-02-23 10:50:36 AM Total desc_e inconsistent: 5
-2022-02-23 10:50:36 AM Total country inconsistent: 0
-2022-02-23 10:50:36 AM Total freq inconsistent: 0
-2022-02-23 10:50:36 AM Total unit inconsistent: 0
-2022-02-23 10:50:36 AM Total type inconsistent: 87
-2022-02-23 10:50:36 AM Total source inconsistent: 0
-2022-02-23 10:50:36 AM Total form_e inconsistent: 0
-2022-02-23 10:50:36 AM Total form_c inconsistent: 0
-2022-02-23 10:50:36 AM inconsistent earliest: 1934
-2022-02-23 10:50:36 AM base updated: 19
-2022-02-23 10:50:36 AM data updated: 130
-2022-02-23 10:50:36 AM including weekly: True
-2022-02-23 10:50:36 AM including daily: True
-2022-02-23 10:50:36 AM too many months: True
+2022-02-23 12:15:10 PM Index A132IRLTLT01FR.A desc_e updated
+2022-02-23 12:15:11 PM Index A136ITAGDPDEFA.A desc_e updated
+2022-02-23 12:15:11 PM Index D111DJCA.D desc_e updated
+2022-02-23 12:15:11 PM Index D111DJIA.D desc_e updated
+2022-02-23 12:15:11 PM Index D111DJTA.D desc_e updated
+2022-02-23 12:15:11 PM Index D111DJUA.D desc_e updated
+2022-02-23 12:15:11 PM Index D111NASDAQ100.D desc_e updated
+2022-02-23 12:15:11 PM Index D111NASDAQCOM.D desc_e updated
+2022-02-23 12:15:11 PM Index D111SP500.D desc_e updated
+2022-02-23 12:15:11 PM Index M111CPF1M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111CPF2M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111CPF3M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111CPN1M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111CPN2M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111CPN3M.M desc_e updated
+2022-02-23 12:15:11 PM Index M111FEDFUNDS.M desc_e updated
+2022-02-23 12:15:11 PM Index M111MED1.M desc_e updated
+2022-02-23 12:15:11 PM Index M111MED3.M desc_e updated
+2022-02-23 12:15:11 PM Index M111MED6.M desc_e updated
+2022-02-23 12:15:11 PM Index M111MPCREDIT.M desc_e updated
+2022-02-23 12:15:11 PM Index M111TB1YR.M desc_e updated
+2022-02-23 12:15:11 PM Index M111TB3MS.M desc_e updated
+2022-02-23 12:15:11 PM Index M112SACRMISMEI.M desc_e updated
+2022-02-23 12:15:11 PM Index M132IRLTLT01FR.M desc_e updated
+2022-02-23 12:15:12 PM Index M134EUR3MTD156.M desc_e updated
+2022-02-23 12:15:14 PM Index M144SWESACRMIS.M desc_e updated
+2022-02-23 12:15:14 PM Index M158MHLEI1.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI1.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI13.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI13.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI15.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI15.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI25.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI25.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI27.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI27.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI3.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI3.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI5.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI5.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI7.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLEI7.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLHWI3.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLHWI3.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLHWI4.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLHWI4.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLRWI1.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLRWI1.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLRWI3.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLRWI3.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLSAI9.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLSAI9.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI1.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI1.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI13.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI13.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI25.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI25.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI3.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI3.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI5.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI5.M unit: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI7.M desc_e: base updated
+2022-02-23 12:15:14 PM Index M158MHLWI7.M unit: base updated
+2022-02-23 12:15:14 PM Index M158XTEXVA01JP.M desc_e updated
+2022-02-23 12:15:14 PM Index M158XTIMVA01JP.M desc_e updated
+2022-02-23 12:15:14 PM Index M158XTNTVA01JP.M desc_e updated
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB28.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB29.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB31.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB31a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB32.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB33.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB34.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB35.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB36.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB37.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB38.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB39.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB41.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB41a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB42.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB43.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB44.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB45.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB46.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB47.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB49.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB51.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB51a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB52.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB54.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB55.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB56.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB57.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB58.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB59.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB61.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB61a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB62.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB63.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB64.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB65.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB66.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB67.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB68.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB69.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB71.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB71a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB72.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB73.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB74.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB75.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB76.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB77.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB78.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB79.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB81.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB82.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB83.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB84.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB85.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSLAB87.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP13.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP14.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP15.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP16.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP17.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP18.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP19.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP21.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP21a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP22.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP23.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP24.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP25.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP26.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP27.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP28.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP29.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP31.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP31a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP32.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP33.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP34.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP35.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP36.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP37.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP38.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP39.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP41.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP41a.M
+2022-02-23 12:15:14 PM The program did not fetch the latest data for: M193ABSUNEMP42.M
+2022-02-23 12:15:14 PM Index M193CSCICP03AU.M desc_e updated
+2022-02-23 12:15:15 PM Index Q112QGBN628BIS.Q desc_e updated
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH1.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH11.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH111.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH112.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH113.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH114.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH116.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH117.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH119.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH12.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH124.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH125.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH127.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH128.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH129.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH13.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH131.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH131a.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH132.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH135.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH136.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH137.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH138.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH14.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH141.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH141a.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH142.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH143.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH144.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH145.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH147.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH15.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH16.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH17.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH171.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH18.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH19.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH96.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH97.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH98.Q
+2022-02-23 12:15:15 PM The program did not fetch the latest data for: Q193ABSALH99.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP1.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP11.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP12.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP13.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP2.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP3.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP4.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP5.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP6.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP7.Q
+2022-02-23 12:15:16 PM The program did not fetch the latest data for: Q193ABSPOP9.Q
+2022-02-23 12:15:16 PM unknown: 0
+2022-02-23 12:15:16 PM name too long: 0
+2022-02-23 12:15:16 PM inconsistent: 0
+2022-02-23 12:15:16 PM base updated: 19
+2022-02-23 12:15:16 PM data updated: 130
+2022-02-23 12:15:16 PM including weekly: True
+2022-02-23 12:15:16 PM including daily: True
+2022-02-23 12:15:16 PM too many months: True
