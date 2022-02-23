@@ -1,356 +1,517 @@
-﻿2022-02-22 06:01:20 PM excel_suffix: NEW
+﻿2022-02-23 09:59:27 AM excel_suffix: UP
 
-2022-02-22 06:01:20 PM data_processing: True
+2022-02-23 09:59:27 AM data_processing: True
 
-2022-02-22 06:01:20 PM find_unknown: False
+2022-02-23 09:59:27 AM find_unknown: False
 
-2022-02-22 06:01:20 PM dealing_start_year: 1901
+2022-02-23 09:59:27 AM dealing_start_year: 1901
 
-2022-02-22 06:01:26 PM Data Processing
+2022-02-23 09:59:28 AM Data Processing
 
-2022-02-22 06:01:26 PM Reading table: Country, Time: 5s
+2022-02-23 09:59:28 AM Reading table: Country, Time: 1s
 
-2022-02-22 06:01:27 PM Reading table: TABLES, Time: 6 s
+2022-02-23 09:59:29 AM Reading table: TABLES, Time: 1 s
 
-2022-02-22 06:01:37 PM Reading file: country_series, Time: 16 s
+2022-02-23 09:59:30 AM Reading file: BEA TablesRegister, Time: 2 s
 
-2022-02-22 06:01:38 PM Reading file: 136datasets, Time: 17 s
+2022-02-23 09:59:34 AM Reading file: BEA SeriesRegister, Time: 7 s
 
-2022-02-22 06:01:38 PM 
+2022-02-23 09:59:39 AM 
 
-2022-02-22 06:01:38 PM ====== WebDriver manager ======
-2022-02-22 06:01:42 PM Current google-chrome version is 98.0.4758
-2022-02-22 06:01:42 PM Get LATEST chromedriver version for 98.0.4758 google-chrome
-2022-02-22 06:01:43 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/98.0.4758.102/chromedriver_win32.zip
-2022-02-22 06:01:48 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\98.0.4758.102]
-2022-02-22 06:01:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 30s
+2022-02-23 09:59:39 AM ====== WebDriver manager ======
+2022-02-23 09:59:39 AM Current google-chrome version is 98.0.4758
+2022-02-23 09:59:39 AM Get LATEST chromedriver version for 98.0.4758 google-chrome
+2022-02-23 09:59:40 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/98.0.4758.102/chromedriver_win32.zip
+2022-02-23 09:59:45 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\98.0.4758.102]
+2022-02-23 09:59:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:51 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 09:59:47 AM Reading source file, Time: 20 s
 
-2022-02-22 06:01:51 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 09:59:58 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 31s
 
-2022-02-22 06:01:52 PM Total New Items Found: 0 Time: 31 s
+2022-02-23 09:59:58 AM Total Items: 26 Time: 31s
 
-2022-02-22 06:01:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 31s
+2022-02-23 09:59:59 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 32s
 
-2022-02-22 06:01:52 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 09:59:59 AM Total Items: 26 Time: 32s
 
-2022-02-22 06:01:52 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:01 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 33s
 
-2022-02-22 06:01:53 PM Total New Items Found: 0 Time: 32 s
+2022-02-23 10:00:01 AM Total Items: 29 Time: 33s
 
-2022-02-22 06:01:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 32s
+2022-02-23 10:00:01 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 34s
 
-2022-02-22 06:01:53 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:01 AM Total Items: 29 Time: 34s
 
-2022-02-22 06:01:53 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:04 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 36s
 
-2022-02-22 06:01:53 PM Total New Items Found: 0 Time: 32 s
+2022-02-23 10:00:04 AM Total Items: 41 Time: 36s
 
-2022-02-22 06:01:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54760, sheet: Output and value added by industry basic prices chain linked, frequency: A, Time: 32s
+2022-02-23 10:00:05 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 37s
 
-2022-02-22 06:01:53 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:05 AM Total Items: 41 Time: 37s
 
-2022-02-22 06:01:53 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:07 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 40s
 
-2022-02-22 06:01:54 PM Total New Items Found: 0 Time: 33 s
+2022-02-23 10:00:07 AM Total Items: 23 Time: 40s
 
-2022-02-22 06:01:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54761, sheet: Output and value added by industry factor cost current prices, frequency: A, Time: 33s
+2022-02-23 10:00:08 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 41s
 
-2022-02-22 06:01:54 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:08 AM Total Items: 23 Time: 41s
 
-2022-02-22 06:01:54 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:10 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:54 PM Total New Items Found: 0 Time: 33 s
+2022-02-23 10:00:10 AM Reading source file, Time: 42 s
 
-2022-02-22 06:01:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54762, sheet: Output and value added by industry factor cost chain linked, frequency: A, Time: 33s
+2022-02-23 10:00:15 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 48s
 
-2022-02-22 06:01:54 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:15 AM Total Items: 52 Time: 48s
 
-2022-02-22 06:01:54 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:20 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 53s
 
-2022-02-22 06:01:54 PM Total New Items Found: 0 Time: 34 s
+2022-02-23 10:00:20 AM Total Items: 50 Time: 53s
 
-2022-02-22 06:01:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54763, sheet: Output and value added by industry basic prices in previous year prices, frequency: A, Time: 34s
+2022-02-23 10:00:26 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:55 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:26 AM Reading source file, Time: 59 s
 
-2022-02-22 06:01:55 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:34 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 67s
 
-2022-02-22 06:01:55 PM Total New Items Found: 0 Time: 34 s
+2022-02-23 10:00:34 AM Total Items: 50 Time: 67s
 
-2022-02-22 06:01:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54764, sheet: Output and value added by industry factor cost in previous year prices, frequency: A, Time: 34s
+2022-02-23 10:00:40 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 72s
 
-2022-02-22 06:01:55 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:40 AM Total Items: 59 Time: 72s
 
-2022-02-22 06:01:55 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:43 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 76s
 
-2022-02-22 06:01:55 PM Total New Items Found: 0 Time: 34 s
+2022-02-23 10:00:43 AM Total Items: 47 Time: 76s
 
-2022-02-22 06:01:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54765, sheet: Compensation of employees, frequency: A, Time: 35s
+2022-02-23 10:00:47 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 79s
 
-2022-02-22 06:01:56 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:47 AM Total Items: 43 Time: 79s
 
-2022-02-22 06:01:56 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:50 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 83s
 
-2022-02-22 06:01:56 PM Total New Items Found: 0 Time: 35 s
+2022-02-23 10:00:50 AM Total Items: 45 Time: 83s
 
-2022-02-22 06:01:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54766, sheet: Wages and Salaries, frequency: A, Time: 35s
+2022-02-23 10:00:52 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:56 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:52 AM Reading source file, Time: 84 s
 
-2022-02-22 06:01:56 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:54 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 86s
 
-2022-02-22 06:01:56 PM Total New Items Found: 0 Time: 35 s
+2022-02-23 10:00:54 AM Total Items: 62 Time: 86s
 
-2022-02-22 06:01:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54767, sheet: Employers' Social Contributions, frequency: A, Time: 36s
+2022-02-23 10:00:58 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 90s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:58 AM Total Items: 66 Time: 90s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:00:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:57 PM Total New Items Found: 0 Time: 36 s
+2022-02-23 10:00:59 AM Reading source file, Time: 91 s
 
-2022-02-22 06:01:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54768, sheet: Gross fixed capital formation total current prices, frequency: A, Time: 36s
+2022-02-23 10:01:00 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 93s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:00 AM Total Items: 63 Time: 93s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:04 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 97s
 
-2022-02-22 06:01:57 PM Total New Items Found: 0 Time: 36 s
+2022-02-23 10:01:04 AM Total Items: 83 Time: 97s
 
-2022-02-22 06:01:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54769, sheet: Gross fixed capital formation total chain linked, frequency: A, Time: 36s
+2022-02-23 10:01:10 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 103s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:10 AM Total Items: 64 Time: 103s
 
-2022-02-22 06:01:57 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:18 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 110s
 
-2022-02-22 06:01:58 PM Total New Items Found: 0 Time: 37 s
+2022-02-23 10:01:18 AM Total Items: 85 Time: 110s
 
-2022-02-22 06:01:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54770, sheet: Gross fixed capital formation agriculture current prices, frequency: A, Time: 37s
+2022-02-23 10:01:19 AM Reading file: BLS_series, Time: 112 s
 
-2022-02-22 06:01:58 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:20 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:58 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:27 AM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 120s
 
-2022-02-22 06:01:58 PM Total New Items Found: 0 Time: 37 s
+2022-02-23 10:01:27 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54771, sheet: Gross fixed capital formation agriculture chain linked, frequency: A, Time: 37s
+2022-02-23 10:01:38 AM Total Items: 6 Time: 131s
 
-2022-02-22 06:01:58 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:01:39 AM Reading file: BLS_series, Time: 132 s
 
-2022-02-22 06:01:58 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:02:22 AM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 174s
 
-2022-02-22 06:01:58 PM Total New Items Found: 0 Time: 38 s
+2022-02-23 10:02:22 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54772, sheet: Gross fixed capital formation industry current prices, frequency: A, Time: 38s
+2022-02-23 10:03:03 AM Total Items: 17 Time: 215s
 
-2022-02-22 06:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:08 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:09 AM Country: United States, Reading file or url: IRBY, sheet: 1, frequency: M, Time: 221s
 
-2022-02-22 06:01:59 PM Total New Items Found: 0 Time: 38 s
+2022-02-23 10:03:09 AM Total Items: 48 Time: 221s
 
-2022-02-22 06:01:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54773, sheet: Gross fixed capital formation industry chain linked, frequency: A, Time: 38s
+2022-02-23 10:03:28 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:28 AM Country: United States, Reading file or url: DowJones, sheet: 1, frequency: D, Time: 241s
 
-2022-02-22 06:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:28 AM Total Items: 5 Time: 241s
 
-2022-02-22 06:01:59 PM Total New Items Found: 0 Time: 38 s
+2022-02-23 10:03:31 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54774, sheet: Gross fixed capital formation construction current prices, frequency: A, Time: 39s
+2022-02-23 10:03:31 AM Country: United States, Reading file or url: NASDAQ, sheet: 1, frequency: D, Time: 244s
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:31 AM Total Items: 2 Time: 244s
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:36 AM Reading file: Datasets, Time: 249 s
 
-2022-02-22 06:02:00 PM Total New Items Found: 0 Time: 39 s
+2022-02-23 10:03:37 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: M, Time: 249s
 
-2022-02-22 06:02:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54775, sheet: Gross fixed capital formation construction chain linked, frequency: A, Time: 39s
+2022-02-23 10:03:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:37 AM Total Items: 1 Time: 249s
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:37 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: W, Time: 250s
 
-2022-02-22 06:02:00 PM Total New Items Found: 0 Time: 39 s
+2022-02-23 10:03:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54776, sheet: Gross fixed capital formation wholesale current prices, frequency: A, Time: 39s
+2022-02-23 10:03:37 AM Total Items: 1 Time: 250s
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:37 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: D, Time: 250s
 
-2022-02-22 06:02:00 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:01 PM Total New Items Found: 0 Time: 40 s
+2022-02-23 10:03:38 AM Total Items: 1 Time: 251s
 
-2022-02-22 06:02:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54777, sheet: Gross fixed capital formation wholesale chain linked, frequency: A, Time: 40s
+2022-02-23 10:03:41 AM Reading file: FTD_datasets, Time: 253 s
 
-2022-02-22 06:02:01 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:41 AM Reading file: FTDE_series, Time: 253 s
 
-2022-02-22 06:02:01 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:41 AM Country: United States, Reading file or url: AGDSCSB, sheet: 0, frequency: M, Time: 254s
 
-2022-02-22 06:02:01 PM Total New Items Found: 0 Time: 40 s
+2022-02-23 10:03:41 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54778, sheet: Gross fixed capital formation financial current prices, frequency: A, Time: 40s
+2022-02-23 10:03:41 AM Total Items: 9 Time: 254s
 
-2022-02-22 06:02:01 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:42 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#1, sheet: NSAEXP, frequency: M, Time: 255s
 
-2022-02-22 06:02:01 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:42 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:01 PM Total New Items Found: 0 Time: 41 s
+2022-02-23 10:03:43 AM Total Items: 6 Time: 255s
 
-2022-02-22 06:02:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54779, sheet: Gross fixed capital formation financial chain linked, frequency: A, Time: 41s
+2022-02-23 10:03:44 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#2, sheet: NSAIMP, frequency: M, Time: 256s
 
-2022-02-22 06:02:02 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:02 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:44 AM Total Items: 6 Time: 257s
 
-2022-02-22 06:02:02 PM Total New Items Found: 0 Time: 41 s
+2022-02-23 10:03:45 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#3, sheet: SAEXP, frequency: M, Time: 258s
 
-2022-02-22 06:02:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54780, sheet: Gross fixed capital formation other current prices, frequency: A, Time: 41s
+2022-02-23 10:03:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:02 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:46 AM Total Items: 6 Time: 258s
 
-2022-02-22 06:02:02 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:47 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#4, sheet: SAIMP, frequency: M, Time: 259s
 
-2022-02-22 06:02:02 PM Total New Items Found: 0 Time: 41 s
+2022-02-23 10:03:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54781, sheet: Gross fixed capital formation other chain linked, frequency: A, Time: 42s
+2022-02-23 10:03:47 AM Total Items: 6 Time: 260s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:48 AM Country: United States, Reading file or url: UGDSCSB, sheet: 0, frequency: M, Time: 261s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:48 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:03 PM Total New Items Found: 0 Time: 42 s
+2022-02-23 10:03:48 AM Total Items: 9 Time: 261s
 
-2022-02-22 06:02:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54782, sheet: Stocks of fixed assets total chain linked, frequency: A, Time: 42s
+2022-02-23 10:03:49 AM Reading file: Datasets, Time: 262 s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:50 AM Country: United States, Reading file or url: https://www.eia.gov/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm, sheet: PET_MOVE_IMP_DC_NUS-Z00_MBBL_M, frequency: M, Time: 262s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:50 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:03 PM Total New Items Found: 0 Time: 42 s
+2022-02-23 10:03:50 AM Total Items: 79 Time: 263s
 
-2022-02-22 06:02:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54783, sheet: Stocks of fixed assets construction chain linked, frequency: A, Time: 42s
+2022-02-23 10:03:53 AM Reading file: Datasets, Time: 265 s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:53 AM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 266s
 
-2022-02-22 06:02:03 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:53 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:04 PM Total New Items Found: 0 Time: 43 s
+2022-02-23 10:03:53 AM Total Items: 1 Time: 266s
 
-2022-02-22 06:02:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54784, sheet: Stocks of fixed assets transport chain linked, frequency: A, Time: 43s
+2022-02-23 10:03:54 AM Reading file: country_series, Time: 266 s
 
-2022-02-22 06:02:04 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:54 AM Reading file: 112datasets, Time: 267 s
 
-2022-02-22 06:02:04 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:03:55 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: A, Time: 267s
 
-2022-02-22 06:02:04 PM Total New Items Found: 0 Time: 43 s
+2022-02-23 10:03:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54785, sheet: Stocks of fixed assets other machinery chain linked, frequency: A, Time: 43s
+2022-02-23 10:03:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:04 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:14 AM Total Items: 8 Time: 287s
 
-2022-02-22 06:02:04 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:15 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: Q, Time: 287s
 
-2022-02-22 06:02:05 PM Total New Items Found: 0 Time: 44 s
+2022-02-23 10:04:15 AM Total Items: 8 Time: 288s
 
-2022-02-22 06:02:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54786, sheet: Employment in full time equivalent employed, frequency: A, Time: 44s
+2022-02-23 10:04:16 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: M, Time: 288s
 
-2022-02-22 06:02:05 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:16 AM Total Items: 9 Time: 289s
 
-2022-02-22 06:02:05 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:17 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales/current, sheet: drsi, frequency: M, Time: 290s
 
-2022-02-22 06:02:05 PM Total New Items Found: 0 Time: 44 s
+2022-02-23 10:04:17 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54787, sheet: Employment in full time equivalent employees, frequency: A, Time: 44s
+2022-02-23 10:04:17 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:05 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:22 AM Total Items: 9 Time: 294s
 
-2022-02-22 06:02:05 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:22 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/averageweeklyearnings/current, sheet: emp, frequency: M, Time: 295s
 
-2022-02-22 06:02:05 PM Total New Items Found: 0 Time: 44 s
+2022-02-23 10:04:22 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54788, sheet: Population, frequency: A, Time: 45s
+2022-02-23 10:04:22 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:06 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:28 AM Total Items: 12 Time: 301s
 
-2022-02-22 06:02:06 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:04:30 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current, sheet: lms, frequency: M, Time: 302s
 
-2022-02-22 06:02:06 PM Total New Items Found: 0 Time: 45 s
+2022-02-23 10:04:30 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54789, sheet: Economic account general government, frequency: A, Time: 45s
+2022-02-23 10:04:30 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:06 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:05:10 AM Total Items: 1 Time: 343s
 
-2022-02-22 06:02:06 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:05:10 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/aerospaceandelectronicscostindices/current, sheet: mm19, frequency: M, Time: 343s
 
-2022-02-22 06:02:06 PM Total New Items Found: 0 Time: 45 s
+2022-02-23 10:05:10 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54815, sheet: Economic account central government, frequency: A, Time: 46s
+2022-02-23 10:05:10 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:07 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:05:11 AM Total Items: 7 Time: 343s
 
-2022-02-22 06:02:07 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:05:11 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices/current, sheet: mm23, frequency: M, Time: 344s
 
-2022-02-22 06:02:07 PM Total New Items Found: 0 Time: 46 s
+2022-02-23 10:05:11 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54816, sheet: Economic account local government, frequency: A, Time: 46s
+2022-02-23 10:05:11 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:07 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:15 AM Total Items: 14 Time: 467s
 
-2022-02-22 06:02:07 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:17 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: A, Time: 470s
 
-2022-02-22 06:02:07 PM Total New Items Found: 0 Time: 46 s
+2022-02-23 10:07:17 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:08 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54817, sheet: Economic account social security funds, frequency: A, Time: 47s
+2022-02-23 10:07:17 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:08 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:41 AM Total Items: 4 Time: 493s
 
-2022-02-22 06:02:08 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:41 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: Q, Time: 493s
 
-2022-02-22 06:02:08 PM Total New Items Found: 0 Time: 47 s
+2022-02-23 10:07:41 AM Total Items: 1 Time: 494s
 
-2022-02-22 06:02:08 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54818, sheet: Sequence of accounts and stock of non-financial assets by institutional sector, frequency: A, Time: 47s
+2022-02-23 10:07:41 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet/current, sheet: mret, frequency: M, Time: 494s
 
-2022-02-22 06:02:08 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:41 AM Total Items: 28 Time: 494s
 
-2022-02-22 06:02:08 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:46 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/newordersintheconstructionindustry/current, sheet: noci, frequency: Q, Time: 499s
 
-2022-02-22 06:02:09 PM Total New Items Found: 0 Time: 48 s
+2022-02-23 10:07:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:09 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54819, sheet: Social protection accounts health, frequency: A, Time: 48s
+2022-02-23 10:07:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:09 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:47 AM Total Items: 36 Time: 500s
 
-2022-02-22 06:02:09 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:51 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/constructionindustry/datasets/outputintheconstructionindustry/current, sheet: opci, frequency: Q, Time: 503s
 
-2022-02-22 06:02:09 PM Total New Items Found: 0 Time: 48 s
+2022-02-23 10:07:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:09 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54820, sheet: Social protection accounts social security, frequency: A, Time: 48s
+2022-02-23 10:07:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:09 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:54 AM Total Items: 3 Time: 506s
 
-2022-02-22 06:02:09 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:54 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current, sheet: pn2, frequency: A, Time: 507s
 
-2022-02-22 06:02:10 PM Total New Items Found: 0 Time: 49 s
+2022-02-23 10:07:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:10 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54821, sheet: Social protection accounts social assistance, frequency: A, Time: 49s
+2022-02-23 10:07:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:57 AM Total Items: 1 Time: 509s
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:57 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/secondestimateofgdp/current, sheet: pn2, frequency: Q, Time: 509s
 
-2022-02-22 06:02:10 PM Total New Items Found: 0 Time: 49 s
+2022-02-23 10:07:57 AM Total Items: 1 Time: 509s
 
-2022-02-22 06:02:10 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54822, sheet: Gross domestic product and expenditure components chain linked, frequency: Q, Time: 49s
+2022-02-23 10:07:57 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/producerpriceindexstatisticalbulletindataset/current, sheet: ppi, frequency: M, Time: 510s
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:58 AM Total Items: 8 Time: 510s
 
-2022-02-22 06:02:10 PM Present File Exists. Reading Data From Default Path.
+2022-02-23 10:07:59 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/labourproductivity/current, sheet: prdy, frequency: A, Time: 511s
 
-2022-02-22 06:03:30 PM = ! = The website is unable to enter, please download the file manually: Gross domestic product and expenditure components chain linked
+2022-02-23 10:07:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:07:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:07:59 AM Total Items: 2 Time: 512s
+
+2022-02-23 10:07:59 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/labourproductivity/current, sheet: prdy, frequency: Q, Time: 512s
+
+2022-02-23 10:08:00 AM Total Items: 3 Time: 512s
+
+2022-02-23 10:08:00 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: A, Time: 513s
+
+2022-02-23 10:08:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:07 AM Total Items: 5 Time: 520s
+
+2022-02-23 10:08:07 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: Q, Time: 520s
+
+2022-02-23 10:08:07 AM Total Items: 5 Time: 520s
+
+2022-02-23 10:08:08 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances/current, sheet: pusf, frequency: M, Time: 520s
+
+2022-02-23 10:08:08 AM Total Items: 7 Time: 521s
+
+2022-02-23 10:08:09 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/unitlabourcostandunitwagecosttimeseries/current, sheet: ucst, frequency: A, Time: 522s
+
+2022-02-23 10:08:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:10 AM Total Items: 1 Time: 522s
+
+2022-02-23 10:08:10 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/labourproductivity/datasets/unitlabourcostandunitwagecosttimeseries/current, sheet: ucst, frequency: Q, Time: 522s
+
+2022-02-23 10:08:10 AM Total Items: 2 Time: 522s
+
+2022-02-23 10:08:10 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current, sheet: ukea, frequency: A, Time: 523s
+
+2022-02-23 10:08:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:08:46 AM Total Items: 160 Time: 559s
+
+2022-02-23 10:08:51 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/grossdomesticproductgdp/datasets/unitedkingdomeconomicaccounts/current, sheet: ukea, frequency: Q, Time: 563s
+
+2022-02-23 10:08:52 AM Total Items: 200 Time: 565s
+
+2022-02-23 10:09:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:10 AM Country: United Kingdom, Reading file or url: UK, sheet: Quarterly, frequency: Q, Time: 583s
+
+2022-02-23 10:09:11 AM Total Items: 1 Time: 583s
+
+2022-02-23 10:09:11 AM Country: United Kingdom, Reading file or url: UK, sheet: Monthly, frequency: M, Time: 583s
+
+2022-02-23 10:09:11 AM Total Items: 1 Time: 583s
+
+2022-02-23 10:09:11 AM Reading file: Datasets, Time: 584 s
+
+2022-02-23 10:09:12 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=E7D&C=E81&ShowData.x=58&ShowData.y=16&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - A, frequency: A, Time: 584s
+
+2022-02-23 10:09:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:12 AM Total Items: 2 Time: 584s
+
+2022-02-23 10:09:12 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=E32&C=E77&ShowData.x=23&ShowData.y=10&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - Q, frequency: Q, Time: 585s
+
+2022-02-23 10:09:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:12 AM Total Items: 2 Time: 585s
+
+2022-02-23 10:09:12 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=KV&C=P9&ShowData.x=49&ShowData.y=7&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - M, frequency: M, Time: 585s
+
+2022-02-23 10:09:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:12 AM Total Items: 2 Time: 585s
+
+2022-02-23 10:09:13 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=official+bank+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=8&XNotes=Y&C=13T&ShowData.x=56&ShowData.y=7&FNotes2=Y&XNotes2=Y, sheet: Official Bank Rate - D, frequency: D, Time: 586s
+
+2022-02-23 10:09:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:14 AM Total Items: 1 Time: 586s
+
+2022-02-23 10:09:16 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=British%2C+Government%2C+yield%2C+nominal+par+yield&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X41X61X&TotalNumResults=65&XNotes=Y&C=MW&C=5TU&C=ND&C=R5&C=RD&C=RK&ShowData.x=61&ShowData.y=13&FNotes2=Y&XNotes2=Y, sheet: Government Securities Yield, frequency: M, Time: 589s
+
+2022-02-23 10:09:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:16 AM Total Items: 6 Time: 589s
+
+2022-02-23 10:09:17 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxASxSCx&ShadowPage=1&Cat8=%A3&Frequency=M&SearchText=Effective+exchange+rate+index&SearchExclude=&SearchTextFields=TC&Thes=Y&SearchType=Advanced&Cats=&ActualResNumPerPage=&TotalNumResults=6&XNotes=Y&C=IIU&C=IPK&ShowData.x=52&ShowData.y=11&XNotes2=Y, sheet: Effective Exchange Rate Index - M, frequency: M, Time: 590s
+
+2022-02-23 10:09:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:17 AM Total Items: 2 Time: 590s
+
+2022-02-23 10:09:18 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxIRxSCx&ShadowPage=1&SearchText=Effective+exchange+rate&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X41X61X81X101X121X141X161X&TotalNumResults=167&XNotes=Y&C=IIN&ShowData.x=59&ShowData.y=12&FNotes2=Y&XNotes2=Y, sheet: Effective Exchange Rate Index - D, frequency: D, Time: 590s
+
+2022-02-23 10:09:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:18 AM Total Items: 1 Time: 591s
+
+2022-02-23 10:09:20 AM Reading file: Datasets, Time: 592 s
+
+2022-02-23 10:09:20 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=Monthly+amounts+outstanding+of+M4&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=21X&TotalNumResults=34&XNotes=Y&C=61C&C=U8&C=O6K&C=LW&ShowData.x=66&ShowData.y=11&FNotes2=Y&XNotes2=Y&P1=X61CXU8XO6KXLWX, sheet: Money amounts outstanding of M4, frequency: M, Time: 593s
+
+2022-02-23 10:09:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:20 AM Total Items: 4 Time: 593s
+
+2022-02-23 10:09:21 AM Country: United Kingdom, Reading file or url: http://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?Travel=NIxSCx&ShadowPage=1&SearchText=Average+amount+outstanding%2C+Notes+and+coin&SearchExclude=&SearchTextFields=TC&Thes=&SearchType=&Cats=&ActualResNumPerPage=&TotalNumResults=6&XNotes=Y&C=VT&C=VU&ShowData.x=50&ShowData.y=6&FNotes2=Y&XNotes2=Y, sheet: Monthly average amount outstanding of total sterling notes and coin, frequency: M, Time: 594s
+
+2022-02-23 10:09:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:21 AM Total Items: 2 Time: 594s
+
+2022-02-23 10:09:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:22 AM Country: United Kingdom, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 595s
+
+2022-02-23 10:09:23 AM Total Items: 1 Time: 595s
+
+2022-02-23 10:09:23 AM Country: United Kingdom, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 596s
+
+2022-02-23 10:09:32 AM Total Items: 12 Time: 605s
+
+2022-02-23 10:09:34 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:35 AM Country: United Kingdom, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 607s
+
+2022-02-23 10:09:35 AM Total Items: 1 Time: 607s
+
+2022-02-23 10:09:35 AM Country: United Kingdom, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 608s
+
+2022-02-23 10:09:37 AM Total Items: 12 Time: 609s
+
+2022-02-23 10:09:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:39 AM Country: United Kingdom, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 611s
+
+2022-02-23 10:09:39 AM Total Items: 3 Time: 612s
+
+2022-02-23 10:09:39 AM Country: United Kingdom, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 612s
+
+2022-02-23 10:09:41 AM Total Items: 13 Time: 614s
+
+2022-02-23 10:09:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:44 AM Country: United Kingdom, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 616s
+
+2022-02-23 10:09:45 AM Total Items: 3 Time: 618s
+
+2022-02-23 10:09:45 AM Country: United Kingdom, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 618s
+
+2022-02-23 10:09:50 AM Total Items: 13 Time: 622s
+
+2022-02-23 10:09:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:09:52 AM Country: United Kingdom, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 625s
+

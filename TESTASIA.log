@@ -1,17 +1,69 @@
-﻿2021-12-29 06:43:19 PM Checking Identities: 613 s
+﻿2022-02-23 09:34:35 AM Checking Identities: 645 s
 
-2021-12-29 06:43:20 PM Index M158XTEXVA01JP.M desc_e updated
-2021-12-29 06:43:20 PM Index M158XTIMVA01JP.M desc_e updated
-2021-12-29 06:43:20 PM Index M158XTNTVA01JP.M desc_e updated
-2021-12-29 06:43:20 PM Index M532HKCQS0001.M desc_e: base updated
-2021-12-29 06:43:20 PM Index M532HKCQS0001.M unit: base updated
-2021-12-29 06:43:20 PM Index M532HKCVS0001.M desc_e: base updated
-2021-12-29 06:43:20 PM Index M532HKCVS0001.M unit: base updated
-2021-12-29 06:43:20 PM unknown: 0
-2021-12-29 06:43:20 PM name too long: 0
-2021-12-29 06:43:20 PM inconsistent: 0
-2021-12-29 06:43:20 PM base updated: 2
-2021-12-29 06:43:20 PM data updated: 2076
-2021-12-29 06:43:20 PM including weekly: True
-2021-12-29 06:43:20 PM including daily: True
-2021-12-29 06:43:20 PM too many months: True
+2022-02-23 09:34:36 AM Index M158MHLEI1.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI1.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI13.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI13.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI15.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI15.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI25.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI25.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI27.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI27.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI3.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI3.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI5.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI5.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI7.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLEI7.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLHWI3.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLHWI3.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLHWI4.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLHWI4.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLRWI1.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLRWI1.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLRWI3.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLRWI3.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLSAI9.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLSAI9.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI1.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI1.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI13.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI13.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI25.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI25.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI3.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI3.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI5.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI5.M unit: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI7.M desc_e: base updated
+2022-02-23 09:34:36 AM Index M158MHLWI7.M unit: base updated
+2022-02-23 09:34:36 AM Index M158XTEXVA01JP.M desc_e updated
+2022-02-23 09:34:36 AM Index M158XTEXVA01JP.M type inconsistent
+2022-02-23 09:34:36 AM DF_KEY = None
+2022-02-23 09:34:36 AM df_key = 
+2022-02-23 09:34:36 AM Index M158XTIMVA01JP.M desc_e updated
+2022-02-23 09:34:36 AM Index M158XTIMVA01JP.M type inconsistent
+2022-02-23 09:34:36 AM DF_KEY = None
+2022-02-23 09:34:36 AM df_key = 
+2022-02-23 09:34:36 AM Index M158XTNTVA01JP.M desc_e updated
+2022-02-23 09:34:36 AM Index M158XTNTVA01JP.M type inconsistent
+2022-02-23 09:34:36 AM DF_KEY = None
+2022-02-23 09:34:36 AM df_key = 
+2022-02-23 09:34:36 AM unknown: 0
+2022-02-23 09:34:36 AM name too long: 0
+2022-02-23 09:34:36 AM inconsistent: 3
+2022-02-23 09:34:36 AM Total desc_e inconsistent: 0
+2022-02-23 09:34:36 AM Total country inconsistent: 0
+2022-02-23 09:34:36 AM Total freq inconsistent: 0
+2022-02-23 09:34:36 AM Total unit inconsistent: 0
+2022-02-23 09:34:36 AM Total type inconsistent: 3
+2022-02-23 09:34:36 AM Total source inconsistent: 0
+2022-02-23 09:34:36 AM Total form_e inconsistent: 0
+2022-02-23 09:34:36 AM Total form_c inconsistent: 0
+2022-02-23 09:34:36 AM inconsistent earliest: 1960
+2022-02-23 09:34:36 AM base updated: 19
+2022-02-23 09:34:36 AM data updated: 113
+2022-02-23 09:34:36 AM including weekly: True
+2022-02-23 09:34:36 AM including daily: True
+2022-02-23 09:34:36 AM too many months: True
