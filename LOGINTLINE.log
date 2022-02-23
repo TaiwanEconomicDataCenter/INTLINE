@@ -515,3 +515,2077 @@
 
 2022-02-23 10:09:52 AM Country: United Kingdom, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 625s
 
+2022-02-23 10:09:57 AM Total Items: 14 Time: 629s
+
+2022-02-23 10:09:58 AM Country: United Kingdom, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 631s
+
+2022-02-23 10:09:59 AM Total Items: 8 Time: 632s
+
+2022-02-23 10:10:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:01 AM Country: United Kingdom, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 634s
+
+2022-02-23 10:10:07 AM Total Items: 14 Time: 640s
+
+2022-02-23 10:10:08 AM Country: United Kingdom, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 641s
+
+2022-02-23 10:10:10 AM Total Items: 8 Time: 643s
+
+2022-02-23 10:10:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:17 AM Country: United Kingdom, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 650s
+
+2022-02-23 10:10:21 AM Total Items: 1 Time: 653s
+
+2022-02-23 10:10:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:21 AM Country: United Kingdom, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 654s
+
+2022-02-23 10:10:23 AM Total Items: 7 Time: 655s
+
+2022-02-23 10:10:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:24 AM Country: United Kingdom, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 657s
+
+2022-02-23 10:10:26 AM Total Items: 7 Time: 659s
+
+2022-02-23 10:10:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:28 AM Country: United Kingdom, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 661s
+
+2022-02-23 10:10:29 AM Total Items: 7 Time: 661s
+
+2022-02-23 10:10:29 AM Country: United Kingdom, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 662s
+
+2022-02-23 10:10:30 AM Total Items: 7 Time: 663s
+
+2022-02-23 10:10:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:32 AM Country: United Kingdom, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 664s
+
+2022-02-23 10:10:32 AM Total Items: 7 Time: 665s
+
+2022-02-23 10:10:33 AM Country: United Kingdom, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 665s
+
+2022-02-23 10:10:34 AM Total Items: 7 Time: 666s
+
+2022-02-23 10:10:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:35 AM Country: United Kingdom, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 667s
+
+2022-02-23 10:10:39 AM Total Items: 1 Time: 671s
+
+2022-02-23 10:10:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:39 AM Country: United Kingdom, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 672s
+
+2022-02-23 10:10:41 AM Total Items: 1 Time: 673s
+
+2022-02-23 10:10:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:41 AM Country: United Kingdom, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 674s
+
+2022-02-23 10:10:44 AM Total Items: 2 Time: 677s
+
+2022-02-23 10:10:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:44 AM Country: United Kingdom, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 677s
+
+2022-02-23 10:10:47 AM Total Items: 2 Time: 680s
+
+2022-02-23 10:10:48 AM Country: United Kingdom, Reading file or url: https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads, sheet: Average price, frequency: M, Time: 680s
+
+2022-02-23 10:10:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:50 AM Total Items: 5 Time: 683s
+
+2022-02-23 10:10:51 AM Country: United Kingdom, Reading file or url: https://www.gov.uk/government/statistical-data-sets/uk-house-price-index-data-downloads, sheet: Index, frequency: M, Time: 684s
+
+2022-02-23 10:10:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:54 AM Total Items: 5 Time: 686s
+
+2022-02-23 10:10:54 AM Reading file: Datasets, Time: 687 s
+
+2022-02-23 10:10:55 AM Country: United Kingdom, Reading file or url: WSA, sheet: 0, frequency: M, Time: 688s
+
+2022-02-23 10:10:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:55 AM Total Items: 1 Time: 688s
+
+2022-02-23 10:10:56 AM Reading file: country_series, Time: 688 s
+
+2022-02-23 10:10:56 AM Reading file: 158datasets, Time: 688 s
+
+2022-02-23 10:10:56 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#1, sheet: def-cy, frequency: A, Time: 689s
+
+2022-02-23 10:10:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:56 AM Total Items: 19 Time: 689s
+
+2022-02-23 10:10:57 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#2, sheet: gaku-jcy, frequency: A, Time: 690s
+
+2022-02-23 10:10:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:57 AM Total Items: 24 Time: 690s
+
+2022-02-23 10:10:58 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#3, sheet: gaku-mcy, frequency: A, Time: 690s
+
+2022-02-23 10:10:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:58 AM Total Items: 21 Time: 690s
+
+2022-02-23 10:10:58 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#4, sheet: kdef-cy, frequency: A, Time: 691s
+
+2022-02-23 10:10:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:59 AM Total Items: 14 Time: 691s
+
+2022-02-23 10:10:59 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#5, sheet: kgaku-jcy, frequency: A, Time: 692s
+
+2022-02-23 10:10:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:10:59 AM Total Items: 7 Time: 692s
+
+2022-02-23 10:11:00 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#6, sheet: kgaku-mcy, frequency: A, Time: 692s
+
+2022-02-23 10:11:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:00 AM Total Items: 9 Time: 692s
+
+2022-02-23 10:11:00 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#1, sheet: s11dn_en, frequency: A, Time: 693s
+
+2022-02-23 10:11:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:00 AM Total Items: 4 Time: 693s
+
+2022-02-23 10:11:00 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#2, sheet: s11n_en, frequency: A, Time: 693s
+
+2022-02-23 10:11:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:01 AM Total Items: 4 Time: 693s
+
+2022-02-23 10:11:01 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#3, sheet: s11rn_en, frequency: A, Time: 694s
+
+2022-02-23 10:11:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:01 AM Total Items: 4 Time: 694s
+
+2022-02-23 10:11:01 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#4, sheet: s14n_en, frequency: A, Time: 694s
+
+2022-02-23 10:11:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:01 AM Total Items: 5 Time: 694s
+
+2022-02-23 10:11:02 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#5, sheet: s14rn_en, frequency: A, Time: 694s
+
+2022-02-23 10:11:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:02 AM Total Items: 5 Time: 694s
+
+2022-02-23 10:11:02 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#7, sheet: def-qg, frequency: Q, Time: 695s
+
+2022-02-23 10:11:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:02 AM Total Items: 17 Time: 695s
+
+2022-02-23 10:11:03 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#8, sheet: gaku-jg, frequency: Q, Time: 695s
+
+2022-02-23 10:11:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:03 AM Total Items: 24 Time: 696s
+
+2022-02-23 10:11:04 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#9, sheet: gaku-jk, frequency: Q, Time: 697s
+
+2022-02-23 10:11:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:04 AM Total Items: 25 Time: 697s
+
+2022-02-23 10:11:05 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#10, sheet: gaku-mg, frequency: Q, Time: 698s
+
+2022-02-23 10:11:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:06 AM Total Items: 21 Time: 698s
+
+2022-02-23 10:11:07 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#11, sheet: gaku-mk, frequency: Q, Time: 699s
+
+2022-02-23 10:11:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:07 AM Total Items: 21 Time: 700s
+
+2022-02-23 10:11:08 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#12, sheet: kdef-q, frequency: Q, Time: 701s
+
+2022-02-23 10:11:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:08 AM Total Items: 17 Time: 701s
+
+2022-02-23 10:11:09 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#13, sheet: kgaku-jg, frequency: Q, Time: 702s
+
+2022-02-23 10:11:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:10 AM Total Items: 18 Time: 702s
+
+2022-02-23 10:11:11 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#14, sheet: kgaku-jk, frequency: Q, Time: 704s
+
+2022-02-23 10:11:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:11 AM Total Items: 18 Time: 704s
+
+2022-02-23 10:11:12 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#15, sheet: kgaku-mg, frequency: Q, Time: 705s
+
+2022-02-23 10:11:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:12 AM Total Items: 18 Time: 705s
+
+2022-02-23 10:11:14 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#16, sheet: kgaku-mk, frequency: Q, Time: 706s
+
+2022-02-23 10:11:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:14 AM Total Items: 18 Time: 707s
+
+2022-02-23 10:11:15 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#17, sheet: kshotoku-cy, frequency: A, Time: 707s
+
+2022-02-23 10:11:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:15 AM Total Items: 2 Time: 707s
+
+2022-02-23 10:11:15 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#18, sheet: kshotoku-q, frequency: Q, Time: 708s
+
+2022-02-23 10:11:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:15 AM Total Items: 4 Time: 708s
+
+2022-02-23 10:11:15 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/stat/di/di-e.html, sheet: Indexes of Business Conditions, frequency: M, Time: 708s
+
+2022-02-23 10:11:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:16 AM Total Items: 3 Time: 708s
+
+2022-02-23 10:11:16 AM Country: Japan, Reading file or url: https://www5.cao.go.jp/keizai3/getsurei-e/index-e.html, sheet: shouhi, frequency: M, Time: 709s
+
+2022-02-23 10:11:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:17 AM Total Items: 1 Time: 709s
+
+2022-02-23 10:11:17 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#1, sheet: BOJA, frequency: A, Time: 710s
+
+2022-02-23 10:11:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:17 AM Total Items: 6 Time: 710s
+
+2022-02-23 10:11:18 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: M, Time: 710s
+
+2022-02-23 10:11:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:34 AM Total Items: 12 Time: 727s
+
+2022-02-23 10:11:37 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: Q, Time: 730s
+
+2022-02-23 10:11:37 AM Total Items: 1 Time: 730s
+
+2022-02-23 10:11:38 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#3, sheet: BOJD, frequency: D, Time: 730s
+
+2022-02-23 10:11:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:39 AM Total Items: 1 Time: 732s
+
+2022-02-23 10:11:46 AM Country: Japan, Reading file or url: https://www.boj.or.jp/en/statistics/dl/loan/prime/index.htm, sheet: LTPLR, frequency: M, Time: 739s
+
+2022-02-23 10:11:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:46 AM Total Items: 1 Time: 739s
+
+2022-02-23 10:11:47 AM Country: Japan, Reading file or url: https://www.investing.com/economic-calendar/interest-rate-decision-165, sheet: PR, frequency: M, Time: 739s
+
+2022-02-23 10:11:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:47 AM Total Items: 1 Time: 739s
+
+2022-02-23 10:11:47 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: M, Time: 740s
+
+2022-02-23 10:11:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:49 AM Total Items: 2 Time: 741s
+
+2022-02-23 10:11:49 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: A, Time: 742s
+
+2022-02-23 10:11:50 AM Total Items: 2 Time: 743s
+
+2022-02-23 10:11:50 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 743s
+
+2022-02-23 10:11:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:57 AM Total Items: 21 Time: 749s
+
+2022-02-23 10:11:58 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 751s
+
+2022-02-23 10:11:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:11:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:00 AM Total Items: 50 Time: 752s
+
+2022-02-23 10:12:03 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 756s
+
+2022-02-23 10:12:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:04 AM Total Items: 49 Time: 757s
+
+2022-02-23 10:12:08 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv, sheet: World, frequency: M, Time: 761s
+
+2022-02-23 10:12:10 AM Total Items: 2 Time: 763s
+
+2022-02-23 10:12:11 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma001.csv, sheet: Asia, frequency: M, Time: 764s
+
+2022-02-23 10:12:14 AM Total Items: 25 Time: 767s
+
+2022-02-23 10:12:20 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma002.csv, sheet: Oceania, frequency: M, Time: 772s
+
+2022-02-23 10:12:22 AM Total Items: 8 Time: 775s
+
+2022-02-23 10:12:24 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma003.csv, sheet: North America, frequency: M, Time: 776s
+
+2022-02-23 10:12:26 AM Total Items: 6 Time: 778s
+
+2022-02-23 10:12:26 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma004.csv, sheet: Middle and South America, frequency: M, Time: 779s
+
+2022-02-23 10:12:29 AM Total Items: 8 Time: 782s
+
+2022-02-23 10:12:30 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma005.csv, sheet: Western Europe, frequency: M, Time: 783s
+
+2022-02-23 10:12:33 AM Total Items: 22 Time: 785s
+
+2022-02-23 10:12:36 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma006.csv, sheet: Central and Eastern Europe, frequency: M, Time: 789s
+
+2022-02-23 10:12:39 AM Total Items: 4 Time: 792s
+
+2022-02-23 10:12:40 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma007.csv, sheet: Middle East, frequency: M, Time: 792s
+
+2022-02-23 10:12:42 AM Total Items: 10 Time: 795s
+
+2022-02-23 10:12:43 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma008.csv, sheet: Africa, frequency: M, Time: 796s
+
+2022-02-23 10:12:47 AM Total Items: 4 Time: 800s
+
+2022-02-23 10:12:48 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma010.csv, sheet: EU, frequency: M, Time: 801s
+
+2022-02-23 10:12:51 AM Total Items: 2 Time: 804s
+
+2022-02-23 10:12:52 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma012.csv, sheet: ASEAN, frequency: M, Time: 804s
+
+2022-02-23 10:12:53 AM Total Items: 2 Time: 806s
+
+2022-02-23 10:12:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:54 AM Country: Japan, Reading file or url: JP, sheet: Monthly, frequency: M, Time: 806s
+
+2022-02-23 10:12:54 AM Total Items: 3 Time: 806s
+
+2022-02-23 10:12:55 AM Country: Japan, Reading file or url: TIBOR, sheet: 0, frequency: M, Time: 807s
+
+2022-02-23 10:12:56 AM Total Items: 1 Time: 809s
+
+2022-02-23 10:12:56 AM Country: Japan, Reading file or url: https://www.jpc-net.jp/research/rd/db/#anc-01, sheet: koukougyo_LP, frequency: M, Time: 809s
+
+2022-02-23 10:12:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:57 AM Latest Base Year Received.
+
+2022-02-23 10:12:57 AM Total Items: 1 Time: 810s
+
+2022-02-23 10:12:57 AM Country: Japan, Reading file or url: https://www.fsa.go.jp/en/regulated/npl/index.html, sheet: Table-6, frequency: A, Time: 810s
+
+2022-02-23 10:12:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:57 AM Total Items: 4 Time: 810s
+
+2022-02-23 10:12:58 AM Country: Japan, Reading file or url: Nationwide_historical, sheet: 0, frequency: S, Time: 811s
+
+2022-02-23 10:12:58 AM Total Items: 5 Time: 811s
+
+2022-02-23 10:12:58 AM Country: Japan, Reading file or url: Six Large City Areas_historical, sheet: 0, frequency: S, Time: 811s
+
+2022-02-23 10:12:58 AM Total Items: 5 Time: 811s
+
+2022-02-23 10:12:59 AM Country: Japan, Reading file or url: NESLCA_historical, sheet: 0, frequency: S, Time: 811s
+
+2022-02-23 10:12:59 AM Total Items: 5 Time: 812s
+
+2022-02-23 10:12:59 AM Reading file: 158datasets, Time: 812 s
+
+2022-02-23 10:12:59 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#1, sheet: gom1e, frequency: M, Time: 812s
+
+2022-02-23 10:12:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:12:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:01 AM Total Items: 159 Time: 814s
+
+2022-02-23 10:13:29 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#2, sheet: gsm1e, frequency: M, Time: 842s
+
+2022-02-23 10:13:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:30 AM Total Items: 159 Time: 843s
+
+2022-02-23 10:13:55 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#3, sheet: zom1e, frequency: M, Time: 867s
+
+2022-02-23 10:13:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:13:56 AM Total Items: 98 Time: 868s
+
+2022-02-23 10:14:08 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#4, sheet: zsm1e, frequency: M, Time: 880s
+
+2022-02-23 10:14:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:08 AM Total Items: 98 Time: 881s
+
+2022-02-23 10:14:26 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#5, sheet: ngsm1e, frequency: M, Time: 899s
+
+2022-02-23 10:14:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:26 AM Total Items: 1 Time: 899s
+
+2022-02-23 10:14:27 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#1, sheet: kome, frequency: M, Time: 900s
+
+2022-02-23 10:14:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:29 AM Total Items: 1 Time: 902s
+
+2022-02-23 10:14:29 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#2, sheet: ksme, frequency: M, Time: 902s
+
+2022-02-23 10:14:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:32 AM Total Items: 5 Time: 904s
+
+2022-02-23 10:14:33 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/syoudou_kakuho/index.html, sheet: h2slt51j, frequency: M, Time: 905s
+
+2022-02-23 10:14:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:34 AM Total Items: 12 Time: 906s
+
+2022-02-23 10:14:35 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913616&tclass3val=0, sheet: hon-maikin-k-jissu, frequency: M, Time: 908s
+
+2022-02-23 10:14:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:40 AM Total Items: 11 Time: 913s
+
+2022-02-23 10:14:41 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913617&tclass3val=0, sheet: hon-maikin-k-sisu, frequency: M, Time: 914s
+
+2022-02-23 10:14:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:48 AM Total Items: 19 Time: 921s
+
+2022-02-23 10:14:51 AM Reading file: 158datasets, Time: 924 s
+
+2022-02-23 10:14:51 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#1, sheet: zmis, frequency: M, Time: 924s
+
+2022-02-23 10:14:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:14:53 AM Total Items: 78 Time: 926s
+
+2022-02-23 10:15:06 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#2, sheet: zmir, frequency: M, Time: 939s
+
+2022-02-23 10:15:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:08 AM Total Items: 1 Time: 940s
+
+2022-02-23 10:15:08 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#3, sheet: zmic, frequency: M, Time: 941s
+
+2022-02-23 10:15:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:09 AM Total Items: 5 Time: 942s
+
+2022-02-23 10:15:09 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#4, sheet: zmib, frequency: M, Time: 942s
+
+2022-02-23 10:15:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:11 AM Total Items: 41 Time: 943s
+
+2022-02-23 10:15:20 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#5, sheet: tmis, frequency: M, Time: 952s
+
+2022-02-23 10:15:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:20 AM Total Items: 78 Time: 953s
+
+2022-02-23 10:15:36 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#6, sheet: tmir, frequency: M, Time: 969s
+
+2022-02-23 10:15:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:37 AM Total Items: 1 Time: 970s
+
+2022-02-23 10:15:38 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#7, sheet: tmic, frequency: M, Time: 970s
+
+2022-02-23 10:15:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:38 AM Total Items: 5 Time: 971s
+
+2022-02-23 10:15:39 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#8, sheet: tmib, frequency: M, Time: 971s
+
+2022-02-23 10:15:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:39 AM Total Items: 41 Time: 972s
+
+2022-02-23 10:15:47 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&query=Employed%20person%20by%20major%20industry&layout=dataset&stat_infid=000031831374, sheet: lt01-c30, frequency: M, Time: 979s
+
+2022-02-23 10:15:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:47 AM Total Items: 9 Time: 980s
+
+2022-02-23 10:15:48 AM Country: Japan, Reading file or url: https://www.stat.go.jp/english/data/kakei/156.html, sheet: season-k, frequency: M, Time: 981s
+
+2022-02-23 10:15:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:49 AM Total Items: 6 Time: 981s
+
+2022-02-23 10:15:50 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200571&bunya_l=07&tstat=000000680001&cycle=1&tclass1val=0, sheet: RPKT, frequency: M, Time: 982s
+
+2022-02-23 10:15:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:50 AM Total Items: 1 Time: 983s
+
+2022-02-23 10:15:50 AM Reading file: Datasets, Time: 983 s
+
+2022-02-23 10:15:50 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: M, Time: 983s
+
+2022-02-23 10:15:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:50 AM Total Items: 1 Time: 983s
+
+2022-02-23 10:15:51 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: W, Time: 983s
+
+2022-02-23 10:15:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:51 AM Total Items: 1 Time: 984s
+
+2022-02-23 10:15:51 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: D, Time: 984s
+
+2022-02-23 10:15:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:52 AM Total Items: 1 Time: 985s
+
+2022-02-23 10:15:54 AM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: D, Time: 987s
+
+2022-02-23 10:15:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:54 AM Total Items: 1 Time: 987s
+
+2022-02-23 10:15:57 AM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: W, Time: 990s
+
+2022-02-23 10:15:58 AM Total Items: 1 Time: 990s
+
+2022-02-23 10:15:58 AM Reading file: Datasets, Time: 991 s
+
+2022-02-23 10:15:59 AM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 991s
+
+2022-02-23 10:15:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:15:59 AM Total Items: 1 Time: 991s
+
+2022-02-23 10:15:59 AM Reading file: country_series, Time: 992 s
+
+2022-02-23 10:16:00 AM Reading file: 924datasets, Time: 993 s
+
+2022-02-23 10:16:00 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#1, sheet: Average Wage of Employed Persons in Urban Units and _Related Indices, frequency: A, Time: 993s
+
+2022-02-23 10:16:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:00 AM Total Items: 1 Time: 993s
+
+2022-02-23 10:16:01 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#2, sheet: Average Wage of Employed Persons in Urban Units by _Sector, frequency: A, Time: 993s
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Total Items: 10 Time: 993s
+
+2022-02-23 10:16:01 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#3, sheet: Current Account Balance(Credit-Debit), frequency: A, Time: 994s
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Total Items: 1 Time: 994s
+
+2022-02-23 10:16:01 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#4, sheet: Capital and Finance Account Balance(Credit-Debit), frequency: A, Time: 994s
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:01 AM Total Items: 4 Time: 994s
+
+2022-02-23 10:16:02 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#5, sheet: Reserve Assets Balance(Credit-Debit), frequency: A, Time: 994s
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:02 AM Total Items: 4 Time: 995s
+
+2022-02-23 10:16:02 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#6, sheet: Net Error and Omission Balance(Credit-Debit), frequency: A, Time: 995s
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:02 AM Total Items: 1 Time: 995s
+
+2022-02-23 10:16:02 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#7, sheet: Current Account Credit, frequency: A, Time: 995s
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:03 AM Total Items: 3 Time: 995s
+
+2022-02-23 10:16:03 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#8, sheet: Capital and Finance Account Credit, frequency: A, Time: 996s
+
+2022-02-23 10:16:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:03 AM Total Items: 1 Time: 996s
+
+2022-02-23 10:16:03 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#9, sheet: Current Account Debit, frequency: A, Time: 996s
+
+2022-02-23 10:16:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:03 AM Total Items: 3 Time: 996s
+
+2022-02-23 10:16:04 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#10, sheet: Capital and Finance Account Debit, frequency: A, Time: 996s
+
+2022-02-23 10:16:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:04 AM Total Items: 1 Time: 997s
+
+2022-02-23 10:16:04 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#11, sheet: Gross Domestic Product by Expenditure Approach, frequency: A, Time: 997s
+
+2022-02-23 10:16:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:04 AM Total Items: 8 Time: 997s
+
+2022-02-23 10:16:05 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#12, sheet: Economically Active Population, frequency: A, Time: 997s
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Total Items: 1 Time: 997s
+
+2022-02-23 10:16:05 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#13, sheet: Registered Unemployed Persons and Unemployment Rate in _Urban Area, frequency: A, Time: 998s
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Total Items: 2 Time: 998s
+
+2022-02-23 10:16:05 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#14, sheet: Number of Employed Persons at Year-end in Urban and _Rural Areas, frequency: A, Time: 998s
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:05 AM Total Items: 3 Time: 998s
+
+2022-02-23 10:16:06 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#15, sheet: Gross Domestic Product - A, frequency: A, Time: 998s
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:06 AM Total Items: 5 Time: 998s
+
+2022-02-23 10:16:06 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#16, sheet: Value-added by industries, frequency: A, Time: 999s
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:06 AM Total Items: 2 Time: 999s
+
+2022-02-23 10:16:06 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#17, sheet: Total Population, frequency: A, Time: 999s
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:07 AM Total Items: 2 Time: 999s
+
+2022-02-23 10:16:07 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#18, sheet: Producer Price Indices for Industrial Products by _Category, frequency: A, Time: 999s
+
+2022-02-23 10:16:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:07 AM Total Items: 10 Time: 1000s
+
+2022-02-23 10:16:07 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#19, sheet: Total Value of Imports and Exports, frequency: A, Time: 1000s
+
+2022-02-23 10:16:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:07 AM Total Items: 1 Time: 1000s
+
+2022-02-23 10:16:08 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#0, sheet: Money Supply, frequency: Q, Time: 1000s
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:08 AM Total Items: 1 Time: 1000s
+
+2022-02-23 10:16:08 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#1, sheet: Gross Domestic Product - Q, frequency: Q, Time: 1001s
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:08 AM Total Items: 4 Time: 1001s
+
+2022-02-23 10:16:08 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#2, sheet: Indices of Gross Domestic Product, frequency: Q, Time: 1001s
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:09 AM Total Items: 5 Time: 1001s
+
+2022-02-23 10:16:09 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#1, sheet: Consumer Price Indices by Category(The same month _last year=100)(2016-), frequency: M, Time: 1002s
+
+2022-02-23 10:16:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:09 AM Total Items: 7 Time: 1002s
+
+2022-02-23 10:16:11 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#2, sheet: Consumer Price Indices (The same month last year=100) _Food, frequency: M, Time: 1003s
+
+2022-02-23 10:16:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:11 AM Total Items: 1 Time: 1003s
+
+2022-02-23 10:16:11 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#3, sheet: Producer Price Index for Industrial Products (The same _month last year=100), frequency: M, Time: 1004s
+
+2022-02-23 10:16:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:11 AM Total Items: 3 Time: 1004s
+
+2022-02-23 10:16:12 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#4, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Means of Production, frequency: M, Time: 1005s
+
+2022-02-23 10:16:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:12 AM Total Items: 3 Time: 1005s
+
+2022-02-23 10:16:13 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#5, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Consumer Goods, frequency: M, Time: 1005s
+
+2022-02-23 10:16:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:13 AM Total Items: 4 Time: 1006s
+
+2022-02-23 10:16:14 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#6, sheet: Purchasing Price Index for Industrial Producers (The _same month last year=100), frequency: M, Time: 1006s
+
+2022-02-23 10:16:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:14 AM Total Items: 6 Time: 1006s
+
+2022-02-23 10:16:15 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#7, sheet: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100) (2018 to present), frequency: M, Time: 1008s
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:15 AM Total Items: 12 Time: 1008s
+
+2022-02-23 10:16:17 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#8, sheet: Retail Price Index (The same month last year=100), frequency: M, Time: 1009s
+
+2022-02-23 10:16:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:17 AM Total Items: 17 Time: 1010s
+
+2022-02-23 10:16:20 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#9, sheet: Growth Rate of Industrial Value-added, frequency: M, Time: 1013s
+
+2022-02-23 10:16:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:21 AM Total Items: 1 Time: 1013s
+
+2022-02-23 10:16:21 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#10, sheet: Growth Rate of Industrial Value-added by Category, frequency: M, Time: 1014s
+
+2022-02-23 10:16:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:21 AM Total Items: 3 Time: 1014s
+
+2022-02-23 10:16:22 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#11, sheet: Cars, frequency: M, Time: 1015s
+
+2022-02-23 10:16:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:22 AM Total Items: 1 Time: 1015s
+
+2022-02-23 10:16:23 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#12, sheet: Motor Vehicles, frequency: M, Time: 1015s
+
+2022-02-23 10:16:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:23 AM Total Items: 1 Time: 1016s
+
+2022-02-23 10:16:23 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#13, sheet: Electricity, frequency: M, Time: 1016s
+
+2022-02-23 10:16:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:23 AM Total Items: 1 Time: 1016s
+
+2022-02-23 10:16:24 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#14, sheet: Investment in Fixed Assets[0], frequency: M, Time: 1016s
+
+2022-02-23 10:16:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:24 AM Total Items: 4 Time: 1017s
+
+2022-02-23 10:16:25 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#15, sheet: Investment in Fixed Assets Growth, frequency: M, Time: 1018s
+
+2022-02-23 10:16:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:25 AM Total Items: 7 Time: 1018s
+
+2022-02-23 10:16:27 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#17, sheet: Total Retail Sales of Consumer Goods, frequency: M, Time: 1020s
+
+2022-02-23 10:16:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:27 AM Total Items: 2 Time: 1020s
+
+2022-02-23 10:16:28 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#18, sheet: Total Retail Sales of Consumer Goods by Operates, frequency: M, Time: 1021s
+
+2022-02-23 10:16:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:28 AM Total Items: 1 Time: 1021s
+
+2022-02-23 10:16:29 AM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#19, sheet: Total Retail Sales of Consumer Goods by Consumption _patterns, frequency: M, Time: 1021s
+
+2022-02-23 10:16:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:29 AM Total Items: 2 Time: 1021s
+
+2022-02-23 10:16:30 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0-112B.html, sheet: Business Climate Index, frequency: Q, Time: 1022s
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:30 AM Total Items: 1 Time: 1022s
+
+2022-02-23 10:16:30 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E5%AE%B6%E4%BF%A1%E5%BF%83%E6%8C%87%E6%95%B0-112B.html, sheet: Entrepreneur Confidence Index, frequency: Q, Time: 1023s
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:30 AM Total Items: 1 Time: 1023s
+
+2022-02-23 10:16:30 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112E.html, sheet: Consumer Index, frequency: M, Time: 1023s
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:31 AM Total Items: 3 Time: 1023s
+
+2022-02-23 10:16:31 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112P.html, sheet: Money Supply - PPI, frequency: M, Time: 1024s
+
+2022-02-23 10:16:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:32 AM Total Items: 6 Time: 1024s
+
+2022-02-23 10:16:33 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: M, Time: 1026s
+
+2022-02-23 10:16:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:35 AM Total Items: 3 Time: 1028s
+
+2022-02-23 10:16:36 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: A, Time: 1028s
+
+2022-02-23 10:16:37 AM Total Items: 2 Time: 1030s
+
+2022-02-23 10:16:37 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: M, Time: 1030s
+
+2022-02-23 10:16:37 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:37 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:40 AM Total Items: 5 Time: 1033s
+
+2022-02-23 10:16:41 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: Q, Time: 1034s
+
+2022-02-23 10:16:44 AM Total Items: 1 Time: 1037s
+
+2022-02-23 10:16:44 AM Country: China, Reading file or url: http://www.100ppi.com/mac/data---111O.html, sheet: Corporate Goods Price Indices, frequency: M, Time: 1037s
+
+2022-02-23 10:16:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:44 AM Total Items: 4 Time: 1037s
+
+2022-02-23 10:16:45 AM Reading file: Datasets, Time: 1038 s
+
+2022-02-23 10:16:46 AM Country: China, Reading file or url: http://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html, sheet: Statistics of Interbank Pledged Repo, frequency: M, Time: 1038s
+
+2022-02-23 10:16:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:46 AM Total Items: 11 Time: 1039s
+
+2022-02-23 10:16:47 AM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#1, sheet: Summary of Imports and Exports (In USD) B：Monthly, frequency: M, Time: 1040s
+
+2022-02-23 10:16:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:48 AM Total Items: 3 Time: 1040s
+
+2022-02-23 10:16:48 AM Reading file: Datasets, Time: 1041 s
+
+2022-02-23 10:16:48 AM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#2, sheet: Major Import Commodities in Quantity and Value, frequency: M, Time: 1041s
+
+2022-02-23 10:16:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:49 AM Total Items: 1 Time: 1041s
+
+2022-02-23 10:16:49 AM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#3, sheet: Imports and Exports by Country, frequency: M, Time: 1042s
+
+2022-02-23 10:16:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:50 AM Total Items: 47 Time: 1042s
+
+2022-02-23 10:16:53 AM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#4, sheet: Composition of Imports and Exports by Section and Division, frequency: M, Time: 1046s
+
+2022-02-23 10:16:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:54 AM Total Items: 24 Time: 1046s
+
+2022-02-23 10:16:56 AM Reading file: Datasets, Time: 1049 s
+
+2022-02-23 10:16:57 AM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 1050s
+
+2022-02-23 10:16:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:57 AM Total Items: 1 Time: 1050s
+
+2022-02-23 10:16:57 AM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 1050s
+
+2022-02-23 10:16:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:58 AM Total Items: 1 Time: 1051s
+
+2022-02-23 10:16:59 AM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 1052s
+
+2022-02-23 10:16:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:16:59 AM Total Items: 1 Time: 1052s
+
+2022-02-23 10:17:00 AM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 1052s
+
+2022-02-23 10:17:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:00 AM Total Items: 1 Time: 1053s
+
+2022-02-23 10:17:02 AM Reading file: Datasets, Time: 1054 s
+
+2022-02-23 10:17:02 AM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 1055s
+
+2022-02-23 10:17:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:02 AM Total Items: 1 Time: 1055s
+
+2022-02-23 10:17:02 AM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 1055s
+
+2022-02-23 10:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:03 AM Total Items: 1 Time: 1056s
+
+2022-02-23 10:17:04 AM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 1057s
+
+2022-02-23 10:17:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:05 AM Total Items: 1 Time: 1057s
+
+2022-02-23 10:17:05 AM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 1058s
+
+2022-02-23 10:17:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:05 AM Total Items: 1 Time: 1058s
+
+2022-02-23 10:17:07 AM Reading file: Datasets, Time: 1059 s
+
+2022-02-23 10:17:07 AM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 1060s
+
+2022-02-23 10:17:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:07 AM Total Items: 1 Time: 1060s
+
+2022-02-23 10:17:08 AM Reading file: country_series, Time: 1060 s
+
+2022-02-23 10:17:08 AM Reading file: 532datasets, Time: 1060 s
+
+2022-02-23 10:17:08 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=31, sheet: Gross Domestic Product, frequency: A, Time: 1061s
+
+2022-02-23 10:17:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:08 AM Total Items: 4 Time: 1061s
+
+2022-02-23 10:17:08 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: A, Time: 1061s
+
+2022-02-23 10:17:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:08 AM Total Items: 8 Time: 1061s
+
+2022-02-23 10:17:09 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: Q, Time: 1061s
+
+2022-02-23 10:17:09 AM Total Items: 9 Time: 1061s
+
+2022-02-23 10:17:09 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: A, Time: 1062s
+
+2022-02-23 10:17:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:09 AM Total Items: 8 Time: 1062s
+
+2022-02-23 10:17:10 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: Q, Time: 1062s
+
+2022-02-23 10:17:10 AM Total Items: 9 Time: 1062s
+
+2022-02-23 10:17:10 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=35, sheet: Nominal Gross Value Added, frequency: A, Time: 1063s
+
+2022-02-23 10:17:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:10 AM Total Items: 12 Time: 1063s
+
+2022-02-23 10:17:11 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: A, Time: 1063s
+
+2022-02-23 10:17:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:11 AM Total Items: 2 Time: 1063s
+
+2022-02-23 10:17:11 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: Q, Time: 1063s
+
+2022-02-23 10:17:11 AM Total Items: 2 Time: 1063s
+
+2022-02-23 10:17:11 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: A, Time: 1064s
+
+2022-02-23 10:17:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:11 AM Total Items: 3 Time: 1064s
+
+2022-02-23 10:17:11 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: Q, Time: 1064s
+
+2022-02-23 10:17:11 AM Total Items: 3 Time: 1064s
+
+2022-02-23 10:17:12 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=37, sheet: Real Gross Value Added, frequency: Q, Time: 1064s
+
+2022-02-23 10:17:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:12 AM Total Items: 10 Time: 1064s
+
+2022-02-23 10:17:12 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=96, sheet: Industrial Production Index, frequency: Q, Time: 1065s
+
+2022-02-23 10:17:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:12 AM Latest Base Year Received.
+
+2022-02-23 10:17:12 AM Total Items: 5 Time: 1065s
+
+2022-02-23 10:17:13 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=97, sheet: Producer Price Index, frequency: Q, Time: 1065s
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Latest Base Year Received.
+
+2022-02-23 10:17:13 AM Total Items: 3 Time: 1065s
+
+2022-02-23 10:17:13 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=71, sheet: Merchandise Trade Index Numbers - Imports, frequency: M, Time: 1066s
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Latest Base Year Received.
+
+2022-02-23 10:17:13 AM Total Items: 1 Time: 1066s
+
+2022-02-23 10:17:13 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=74, sheet: Merchandise Trade Index Numbers - Exports, frequency: M, Time: 1066s
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:13 AM Latest Base Year Received.
+
+2022-02-23 10:17:13 AM Total Items: 1 Time: 1066s
+
+2022-02-23 10:17:14 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=75, sheet: Merchandise Trade Index Numbers - Terms of Trade, frequency: M, Time: 1066s
+
+2022-02-23 10:17:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:14 AM Latest Base Year Received.
+
+2022-02-23 10:17:14 AM Total Items: 1 Time: 1067s
+
+2022-02-23 10:17:14 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=89, sheet: Index of Retail Sales, frequency: M, Time: 1067s
+
+2022-02-23 10:17:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:14 AM Latest Base Year Received.
+
+2022-02-23 10:17:14 AM Total Items: 2 Time: 1067s
+
+2022-02-23 10:17:15 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=122, sheet: Hong Kong Dollar interest rates, frequency: M, Time: 1067s
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:15 AM Total Items: 1 Time: 1067s
+
+2022-02-23 10:17:15 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=123, sheet: Hong Kong Dollar Interest Settlement Rates, frequency: A, Time: 1068s
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:15 AM Total Items: 2 Time: 1068s
+
+2022-02-23 10:17:15 AM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/scode270.html#section3, sheet: Consumer Price Index, frequency: M, Time: 1068s
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:21 AM Total Items: 48 Time: 1073s
+
+2022-02-23 10:17:31 AM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/currency?pagesize=1000, sheet: Currency in circulation, frequency: M, Time: 1083s
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:31 AM Total Items: 1 Time: 1084s
+
+2022-02-23 10:17:31 AM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/supply-adjusted?pagesize=1000, sheet: Money supply Adjusted for currency swap deposits, frequency: M, Time: 1084s
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:32 AM Total Items: 6 Time: 1084s
+
+2022-02-23 10:17:33 AM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/banking/residential-mortgage-survey?pagesize=1000, sheet: Residential mortgage survey results, frequency: M, Time: 1085s
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:33 AM Total Items: 3 Time: 1086s
+
+2022-02-23 10:17:33 AM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/gov-bond/instit-bond-price-yield-endperiod?pagesize=1000&segment=Benchmark, sheet: Prices and yields of Government Bonds, frequency: M, Time: 1086s
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:34 AM Total Items: 1 Time: 1086s
+
+2022-02-23 10:17:34 AM Reading file: Datasets, Time: 1086 s
+
+2022-02-23 10:17:34 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: M, Time: 1087s
+
+2022-02-23 10:17:34 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:34 AM Total Items: 1 Time: 1087s
+
+2022-02-23 10:17:35 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: Q, Time: 1087s
+
+2022-02-23 10:17:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:35 AM Total Items: 1 Time: 1087s
+
+2022-02-23 10:17:35 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: A, Time: 1087s
+
+2022-02-23 10:17:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:35 AM Total Items: 1 Time: 1087s
+
+2022-02-23 10:17:35 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: W, Time: 1087s
+
+2022-02-23 10:17:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:35 AM Total Items: 1 Time: 1088s
+
+2022-02-23 10:17:35 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: D, Time: 1088s
+
+2022-02-23 10:17:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:36 AM Total Items: 1 Time: 1089s
+
+2022-02-23 10:17:39 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: W, Time: 1091s
+
+2022-02-23 10:17:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:39 AM Total Items: 1 Time: 1092s
+
+2022-02-23 10:17:40 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: D, Time: 1092s
+
+2022-02-23 10:17:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:41 AM Total Items: 1 Time: 1093s
+
+2022-02-23 10:17:43 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: W, Time: 1096s
+
+2022-02-23 10:17:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:44 AM Total Items: 1 Time: 1096s
+
+2022-02-23 10:17:44 AM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: D, Time: 1097s
+
+2022-02-23 10:17:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:45 AM Total Items: 1 Time: 1098s
+
+2022-02-23 10:17:48 AM Reading file: country_series, Time: 1100 s
+
+2022-02-23 10:17:48 AM Reading file: 576datasets, Time: 1101 s
+
+2022-02-23 10:17:48 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=14680, sheet: M182941, frequency: A, Time: 1101s
+
+2022-02-23 10:17:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:48 AM Total Items: 1 Time: 1101s
+
+2022-02-23 10:17:49 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=14821, sheet: M182331, frequency: A, Time: 1101s
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Total Items: 2 Time: 1101s
+
+2022-02-23 10:17:49 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15139, sheet: M212261, frequency: Q, Time: 1102s
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Latest Base Year Received.
+
+2022-02-23 10:17:49 AM Total Items: 1 Time: 1102s
+
+2022-02-23 10:17:49 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16022, sheet: M014911, frequency: A, Time: 1102s
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:49 AM Total Items: 9 Time: 1102s
+
+2022-02-23 10:17:50 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16023, sheet: M014921, frequency: A, Time: 1103s
+
+2022-02-23 10:17:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:50 AM Latest Base Year Received.
+
+2022-02-23 10:17:50 AM Total Items: 6 Time: 1103s
+
+2022-02-23 10:17:50 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16028, sheet: M015021, frequency: A, Time: 1103s
+
+2022-02-23 10:17:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:51 AM Total Items: 8 Time: 1103s
+
+2022-02-23 10:17:51 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16034, sheet: M015231, frequency: A, Time: 1104s
+
+2022-02-23 10:17:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:51 AM Total Items: 14 Time: 1104s
+
+2022-02-23 10:17:52 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16035, sheet: M015241, frequency: A, Time: 1104s
+
+2022-02-23 10:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:52 AM Total Items: 11 Time: 1105s
+
+2022-02-23 10:17:52 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16049, sheet: M014811, frequency: Q, Time: 1105s
+
+2022-02-23 10:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:52 AM Total Items: 8 Time: 1105s
+
+2022-02-23 10:17:53 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16059, sheet: M015161, frequency: Q, Time: 1106s
+
+2022-02-23 10:17:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:53 AM Total Items: 10 Time: 1106s
+
+2022-02-23 10:17:54 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16061, sheet: M015171, frequency: Q, Time: 1107s
+
+2022-02-23 10:17:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:54 AM Total Items: 11 Time: 1107s
+
+2022-02-23 10:17:55 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16082, sheet: M183591, frequency: Q, Time: 1108s
+
+2022-02-23 10:17:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:55 AM Latest Base Year Received.
+
+2022-02-23 10:17:55 AM Total Items: 1 Time: 1108s
+
+2022-02-23 10:17:56 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16741, sheet: M060171, frequency: Q, Time: 1108s
+
+2022-02-23 10:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:56 AM Total Items: 18 Time: 1109s
+
+2022-02-23 10:17:57 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16842, sheet: M212931, frequency: A, Time: 1110s
+
+2022-02-23 10:17:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:57 AM Latest Base Year Received.
+
+2022-02-23 10:17:57 AM Total Items: 1 Time: 1110s
+
+2022-02-23 10:17:58 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16854, sheet: M212881, frequency: M, Time: 1110s
+
+2022-02-23 10:17:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:17:59 AM Latest Base Year Received.
+
+2022-02-23 10:17:59 AM Total Items: 9 Time: 1112s
+
+2022-02-23 10:18:02 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16848, sheet: M212882, frequency: M, Time: 1114s
+
+2022-02-23 10:18:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:02 AM Latest Base Year Received.
+
+2022-02-23 10:18:02 AM Total Items: 6 Time: 1115s
+
+2022-02-23 10:18:04 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15534, sheet: M450091, frequency: M, Time: 1117s
+
+2022-02-23 10:18:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:05 AM Total Items: 1 Time: 1118s
+
+2022-02-23 10:18:05 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15544, sheet: M450081, frequency: M, Time: 1118s
+
+2022-02-23 10:18:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:06 AM Total Items: 1 Time: 1119s
+
+2022-02-23 10:18:07 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15338, sheet: M451002, frequency: M, Time: 1119s
+
+2022-02-23 10:18:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:07 AM Total Items: 1 Time: 1119s
+
+2022-02-23 10:18:07 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15368, sheet: M451082, frequency: M, Time: 1120s
+
+2022-02-23 10:18:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:07 AM Total Items: 1 Time: 1120s
+
+2022-02-23 10:18:08 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15327, sheet: M451001, frequency: M, Time: 1120s
+
+2022-02-23 10:18:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:08 AM Total Items: 24 Time: 1121s
+
+2022-02-23 10:18:15 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15326, sheet: M451031, frequency: M, Time: 1128s
+
+2022-02-23 10:18:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:15 AM Total Items: 1 Time: 1128s
+
+2022-02-23 10:18:16 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=14859, sheet: M451111, frequency: M, Time: 1129s
+
+2022-02-23 10:18:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:16 AM Total Items: 1 Time: 1129s
+
+2022-02-23 10:18:16 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15354, sheet: M451121, frequency: M, Time: 1129s
+
+2022-02-23 10:18:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:16 AM Total Items: 2 Time: 1129s
+
+2022-02-23 10:18:17 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15912, sheet: M451391, frequency: M, Time: 1129s
+
+2022-02-23 10:18:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:17 AM Total Items: 3 Time: 1130s
+
+2022-02-23 10:18:18 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15925, sheet: M212701, frequency: M, Time: 1131s
+
+2022-02-23 10:18:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:18 AM Latest Base Year Received.
+
+2022-02-23 10:18:18 AM Total Items: 10 Time: 1131s
+
+2022-02-23 10:18:19 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16862, sheet: M355271, frequency: M, Time: 1132s
+
+2022-02-23 10:18:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:19 AM Latest Base Year Received.
+
+2022-02-23 10:18:20 AM Total Items: 15 Time: 1132s
+
+2022-02-23 10:18:21 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16864, sheet: M355301, frequency: M, Time: 1134s
+
+2022-02-23 10:18:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:21 AM Latest Base Year Received.
+
+2022-02-23 10:18:21 AM Total Items: 2 Time: 1134s
+
+2022-02-23 10:18:22 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=16865, sheet: M355302, frequency: M, Time: 1134s
+
+2022-02-23 10:18:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:22 AM Latest Base Year Received.
+
+2022-02-23 10:18:22 AM Total Items: 1 Time: 1135s
+
+2022-02-23 10:18:22 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15242, sheet: M700001, frequency: M, Time: 1135s
+
+2022-02-23 10:18:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:22 AM Total Items: 1 Time: 1135s
+
+2022-02-23 10:18:23 AM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/createDataTable.action?refId=15238, sheet: M700011, frequency: M, Time: 1135s
+
+2022-02-23 10:18:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:23 AM Total Items: 5 Time: 1135s
+
+2022-02-23 10:18:23 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=5f2b18a8-0883-4769-a635-879c63d3caac, sheet: Interest Rates of Banks and Finance Companies, frequency: M, Time: 1136s
+
+2022-02-23 10:18:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:24 AM Total Items: 1 Time: 1136s
+
+2022-02-23 10:18:24 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=a8fab653-feeb-4c7a-a036-b544dca9bf1a, sheet: Official Foreign Reserves, frequency: M, Time: 1137s
+
+2022-02-23 10:18:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:24 AM Total Items: 4 Time: 1137s
+
+2022-02-23 10:18:25 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/statistics/fdanet/BenchmarkPricesAndYields.aspx, sheet: SGSY, frequency: M, Time: 1138s
+
+2022-02-23 10:18:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:25 AM Total Items: 1 Time: 1138s
+
+2022-02-23 10:18:26 AM Country: Singapore, Reading file or url: https://www.cpf.gov.sg/Members/AboutUs/about-us-info/cpf-interest-rates, sheet: CPF, frequency: M, Time: 1139s
+
+2022-02-23 10:18:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:26 AM Total Items: 1 Time: 1139s
+
+2022-02-23 10:18:26 AM Reading file: Datasets, Time: 1139 s
+
+2022-02-23 10:18:27 AM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0, sheet: Straits Times Index, frequency: D, Time: 1139s
+
+2022-02-23 10:18:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:27 AM Total Items: 1 Time: 1140s
+
+2022-02-23 10:18:30 AM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0&i=w, sheet: Straits Times Index, frequency: W, Time: 1142s
+
+2022-02-23 10:18:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:30 AM Total Items: 1 Time: 1143s
+
+2022-02-23 10:18:31 AM Reading file: country_series, Time: 1143 s
+
+2022-02-23 10:18:31 AM Reading file: 542datasets, Time: 1143 s
+
+2022-02-23 10:18:31 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#1, sheet: Annual, frequency: A, Time: 1144s
+
+2022-02-23 10:18:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:31 AM Total Items: 20 Time: 1144s
+
+2022-02-23 10:18:32 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#2, sheet: Quarterly_Nominal_SA, frequency: Q, Time: 1145s
+
+2022-02-23 10:18:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:32 AM Total Items: 32 Time: 1145s
+
+2022-02-23 10:18:36 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#3, sheet: Quarterly_Real_SA, frequency: Q, Time: 1148s
+
+2022-02-23 10:18:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:36 AM Total Items: 32 Time: 1149s
+
+2022-02-23 10:18:40 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#4, sheet: Quarterly_Nominal_NSA, frequency: Q, Time: 1152s
+
+2022-02-23 10:18:40 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:40 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:40 AM Total Items: 31 Time: 1153s
+
+2022-02-23 10:18:42 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#5, sheet: Quarterly_Real_NSA, frequency: Q, Time: 1155s
+
+2022-02-23 10:18:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:43 AM Total Items: 34 Time: 1156s
+
+2022-02-23 10:18:45 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#6, sheet: Monthly_NA1, frequency: M, Time: 1158s
+
+2022-02-23 10:18:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:46 AM Total Items: 18 Time: 1158s
+
+2022-02-23 10:18:49 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#7, sheet: Monthly_NA2, frequency: M, Time: 1162s
+
+2022-02-23 10:18:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:50 AM Total Items: 23 Time: 1162s
+
+2022-02-23 10:18:54 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#8, sheet: Credit to Households, frequency: Q, Time: 1167s
+
+2022-02-23 10:18:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:54 AM Total Items: 1 Time: 1167s
+
+2022-02-23 10:18:55 AM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#9, sheet: Monthly_FS, frequency: M, Time: 1167s
+
+2022-02-23 10:18:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:55 AM Total Items: 14 Time: 1168s
+
+2022-02-23 10:18:59 AM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#1, sheet: Quarterly_KOS, frequency: Q, Time: 1172s
+
+2022-02-23 10:18:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:18:59 AM Total Items: 6 Time: 1172s
+
+2022-02-23 10:19:00 AM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#2, sheet: Monthly_KOS, frequency: M, Time: 1172s
+
+2022-02-23 10:19:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:00 AM Total Items: 1 Time: 1172s
+
+2022-02-23 10:19:00 AM Reading file: Datasets, Time: 1173 s
+
+2022-02-23 10:19:01 AM Country: South Korea, Reading file or url: http://www.keri.org/web/www/keribsi, sheet: BSI, frequency: M, Time: 1173s
+
+2022-02-23 10:19:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:01 AM Total Items: 18 Time: 1173s
+
+2022-02-23 10:19:04 AM Reading file: Datasets, Time: 1176 s
+
+2022-02-23 10:19:04 AM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: M, Time: 1177s
+
+2022-02-23 10:19:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:04 AM Total Items: 1 Time: 1177s
+
+2022-02-23 10:19:04 AM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: Q, Time: 1177s
+
+2022-02-23 10:19:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:05 AM Total Items: 1 Time: 1177s
+
+2022-02-23 10:19:05 AM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: A, Time: 1177s
+
+2022-02-23 10:19:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:05 AM Total Items: 1 Time: 1177s
+
+2022-02-23 10:19:05 AM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: W, Time: 1177s
+
+2022-02-23 10:19:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:05 AM Total Items: 1 Time: 1178s
+
+2022-02-23 10:19:05 AM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: D, Time: 1178s
+
+2022-02-23 10:19:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:06 AM Total Items: 1 Time: 1179s
+
+2022-02-23 10:19:09 AM Reading file: Datasets, Time: 1181 s
+
+2022-02-23 10:19:09 AM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 1182s
+
+2022-02-23 10:19:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:09 AM Total Items: 1 Time: 1182s
+
+2022-02-23 10:19:10 AM Reading file: country_series, Time: 1182 s
+
+2022-02-23 10:19:10 AM Reading file: 193datasets, Time: 1183 s
+
+2022-02-23 10:19:10 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#house-bus-fin, sheet: e01hist, frequency: Q, Time: 1183s
+
+2022-02-23 10:19:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:11 AM Total Items: 5 Time: 1183s
+
+2022-02-23 10:19:11 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#inflation-expectations, sheet: g01hist, frequency: Q, Time: 1184s
+
+2022-02-23 10:19:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:11 AM Total Items: 4 Time: 1184s
+
+2022-02-23 10:19:12 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#intl-trade-ext-fin, sheet: i02hist, frequency: M, Time: 1185s
+
+2022-02-23 10:19:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:12 AM Total Items: 12 Time: 1185s
+
+2022-02-23 10:19:15 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#1, sheet: f01hist, frequency: M, Time: 1188s
+
+2022-02-23 10:19:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:15 AM Total Items: 3 Time: 1188s
+
+2022-02-23 10:19:16 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#1, sheet: f01hist, frequency: A, Time: 1189s
+
+2022-02-23 10:19:16 AM Total Items: 1 Time: 1189s
+
+2022-02-23 10:19:17 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#2, sheet: f02hist, frequency: M, Time: 1189s
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:17 AM Total Items: 1 Time: 1189s
+
+2022-02-23 10:19:17 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#2, sheet: f02hist, frequency: A, Time: 1190s
+
+2022-02-23 10:19:17 AM Total Items: 1 Time: 1190s
+
+2022-02-23 10:19:17 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#5, sheet: f05hist, frequency: M, Time: 1190s
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:18 AM Total Items: 2 Time: 1190s
+
+2022-02-23 10:19:18 AM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/historical-data.html#exchange-rates, sheet: f11hist, frequency: M, Time: 1191s
+
+2022-02-23 10:19:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:19 AM Total Items: 2 Time: 1191s
+
+2022-02-23 10:19:20 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/average-weekly-earnings-australia#1, sheet: 6302003, frequency: S, Time: 1192s
+
+2022-02-23 10:19:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:20 AM Total Items: 18 Time: 1193s
+
+2022-02-23 10:19:21 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/average-weekly-earnings-australia#2, sheet: 6302006, frequency: S, Time: 1193s
+
+2022-02-23 10:19:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:21 AM Total Items: 9 Time: 1193s
+
+2022-02-23 10:19:21 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-finance-and-wealth, sheet: 5232034, frequency: Q, Time: 1194s
+
+2022-02-23 10:19:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:22 AM Total Items: 41 Time: 1195s
+
+2022-02-23 10:19:24 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#1, sheet: 87520037, frequency: Q, Time: 1197s
+
+2022-02-23 10:19:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:25 AM Total Items: 12 Time: 1197s
+
+2022-02-23 10:19:26 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia/mar-2020#data-download#1, sheet: 87520037_Trend, frequency: Q, Time: 1199s
+
+2022-02-23 10:19:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:26 AM Total Items: 6 Time: 1199s
+
+2022-02-23 10:19:27 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#2, sheet: 87520049, frequency: Q, Time: 1200s
+
+2022-02-23 10:19:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:28 AM Total Items: 189 Time: 1201s
+
+2022-02-23 10:19:43 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#3, sheet: 87520075, frequency: Q, Time: 1216s
+
+2022-02-23 10:19:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:43 AM Total Items: 24 Time: 1216s
+
+2022-02-23 10:19:45 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia/mar-2020#data-download#2, sheet: 87520075_Trend, frequency: Q, Time: 1218s
+
+2022-02-23 10:19:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:46 AM Total Items: 12 Time: 1218s
+
+2022-02-23 10:19:47 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#4, sheet: 87520076, frequency: Q, Time: 1220s
+
+2022-02-23 10:19:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:47 AM Total Items: 12 Time: 1220s
+
+2022-02-23 10:19:49 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#1, sheet: 06_volume_measures_original_capex, frequency: Q, Time: 1221s
+
+2022-02-23 10:19:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:49 AM Total Items: 3 Time: 1222s
+
+2022-02-23 10:19:49 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#2, sheet: 07_volume_measures_seasonally_adjusted_capex, frequency: Q, Time: 1222s
+
+2022-02-23 10:19:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:50 AM Total Items: 3 Time: 1222s
+
+2022-02-23 10:19:50 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#3, sheet: 08_volume_measures_trend_capex, frequency: Q, Time: 1223s
+
+2022-02-23 10:19:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:51 AM Total Items: 3 Time: 1223s
+
+2022-02-23 10:19:51 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#4, sheet: 04_current_prices_seasonally_adjusted_capex, frequency: Q, Time: 1224s
+
+2022-02-23 10:19:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:51 AM Total Items: 12 Time: 1224s
+
+2022-02-23 10:19:52 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#1, sheet: 530202, frequency: Q, Time: 1225s
+
+2022-02-23 10:19:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:53 AM Total Items: 1 Time: 1225s
+
+2022-02-23 10:19:53 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#2, sheet: 530201, frequency: Q, Time: 1226s
+
+2022-02-23 10:19:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:54 AM Total Items: 37 Time: 1226s
+
+2022-02-23 10:19:56 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#3, sheet: 530204, frequency: Q, Time: 1229s
+
+2022-02-23 10:19:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:19:57 AM Total Items: 42 Time: 1230s
+
+2022-02-23 10:20:00 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#4, sheet: 530206, frequency: Q, Time: 1232s
+
+2022-02-23 10:20:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:20:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:20:00 AM Total Items: 7 Time: 1233s
+
+2022-02-23 10:20:01 AM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#5, sheet: 530207, frequency: Q, Time: 1234s
+
+2022-02-23 10:20:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-02-23 10:20:01 AM Present File Exists. Reading Data From Default Path.
+
