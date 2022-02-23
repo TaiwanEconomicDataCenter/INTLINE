@@ -68,17 +68,6 @@ for i in range(len(key_list)):
         snl_pos = i
         break
 tStart = time.time()
-"""using_database = True
-pwd = open(data_path+'password.txt','r',encoding='ANSI').read()
-try:
-    engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306')
-    connection = engine.connect()
-except sqlalchemy.exc.OperationalError:
-    using_database = False
-else:
-    if 'intline' not in connection.dialect.get_schema_names(connection):
-        connection.execute('create database intline')
-    engine = create_engine('mysql+pymysql://root:'+pwd+'@localhost:3306/intline')"""
 
 FREQNAME = {'A':'annual','M':'month','Q':'quarter','S':'semiannual','W':'week','D':'daily'}
 FREQLIST = {}
@@ -251,21 +240,6 @@ if updating == False:
     DF_KEY = SELECT_DF_KEY(databank)
     DF_KEY = DF_KEY.set_index('name')
     #print(DF_KEY)
-"""DF_KEY = pd.DataFrame()
-if updating == False and DF_suffix != merge_suf:
-    logging.info('Reading file: INTLINE_key'+DF_suffix+', Time: '+str(int(time.time() - tStart))+'s'+'\n')
-    try:
-        pd.read_sql_query("SELECT * FROM "+('INTLINE_key'+DF_suffix).lower(), engine)
-    except:
-        using_database = False
-    if using_database:
-        DF_KEY = pd.read_sql_query("SELECT * FROM "+('INTLINE_key'+DF_suffix).lower(), engine)
-    else:
-        DF_KEY = readExcelFile(out_path+'INTLINE_key'+DF_suffix+'.xlsx', header_ = 0, acceptNoFile=False, index_col_=0, sheet_name_='INTLINE_key')
-    DF_KEY = DF_KEY.set_index('name')
-elif updating == False and DF_suffix == merge_suf:
-    DF_KEY = merge_file
-    DF_KEY = DF_KEY.set_index('name')"""
 
 CONTINUE = []
 def COUNTRY(TABLES):
@@ -772,7 +746,7 @@ def INTLINE_DATA(ind, name, INTLINE_t, country, address, file_name, sheet_name, 
     for footnote_item in FOOTNOTE:
         if desc_e.find(footnote_item[0]) >= 0:
             desc_e = desc_e.replace(footnote_item[0],footnote_item[1])
-    desc_e = desc_e.replace('"', '').replace("'", '').replace('#', ' ')
+    desc_e = desc_e.replace('"', '').replace("'", '').replace('#', ' ').replace(',,',',')
     table_id = str(country)+'國'+address+'國'+file_name+'國'+str(sheet_name)
     
     start_found = False

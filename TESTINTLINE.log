@@ -1,220 +1,502 @@
-﻿2021-12-30 01:22:28 PM Checking Identities: 2854 s
+﻿2022-02-23 10:50:31 AM Checking Identities: 3063 s
 
-2021-12-30 01:22:28 PM Index A112ONSK222.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK222.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK224.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK224.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK22A.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK22A.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK22B.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK22B.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK23G.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK23G.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24Q.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24Q.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24R.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24R.A unit: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24S.A desc_e: base updated
-2021-12-30 01:22:28 PM Index A112ONSK24S.A unit: base updated
-2021-12-30 01:22:28 PM Index A132IRLTLT01FR.A desc_e updated
-2021-12-30 01:22:29 PM Index D111DJCA.D desc_e updated
-2021-12-30 01:22:29 PM Index D111DJIA.D desc_e updated
-2021-12-30 01:22:29 PM Index D111DJTA.D desc_e updated
-2021-12-30 01:22:29 PM Index D111DJUA.D desc_e updated
-2021-12-30 01:22:29 PM Index D111NASDAQ100.D desc_e updated
-2021-12-30 01:22:29 PM Index D111NASDAQCOM.D desc_e updated
-2021-12-30 01:22:29 PM Index D111SP500.D desc_e updated
-2021-12-30 01:22:29 PM Index M111CPF1M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111CPF2M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 60-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111CPF3M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month AA Financial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 90-Day AA Financial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111CPN1M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111CPN2M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 60-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111CPN3M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month AA Nonfinancial Commercial Paper Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 90-Day AA Nonfinancial Commercial Paper Interest Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111FEDFUNDS.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Effective Federal Funds Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of daily figures. nan For additional historical federal funds rate data, please see Daily Federal Funds Rate from 1928-1954 (https://fred.stlouisfed.org/categories/33951). (2)The federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. When a depository institution has surplus balances in its reserve account, it lends to other banks in need of larger balances. In simpler terms, a bank with excess cash, which is often referred to as liquidity, will lend to another bank that needs to quickly raise liquidity. (1) The rate that the borrowing institution pays to the lending institution is determined between the two banks; the weighted average rate for all of these types of negotiations is called the effective federal funds rate.(2) The effective federal funds rate is essentially determined by the market but is influenced by the Federal Reserve through open market operations to reach the federal funds rate target.(2) The Federal Open Market Committee (FOMC) meets eight times a year to determine the federal funds target rate. As previously stated, this rate influences the effective federal funds rate through open market operations or by buying and selling of government bonds (government debt).(2) More specifically, the Federal Reserve decreases liquidity by selling government bonds, thereby raising the federal funds rate because banks have less liquidity to trade with other banks. (3)Similarly, the Federal Reserve can increase liquidity by buying government bonds, decreasing the federal funds rate because banks have excess liquidity for trade. Whether the Federal Reserve wants to buy or sell bonds depends on the state of the economy. If the FOMC believes the economy is growing too fast and inflation pressures are inconsistent with the dual mandate of the Federal Reserve, the Committee may set a higher federal funds rate target to temper economic activity. In the opposing scenario, the FOMC may set a lower federal funds rate target to spur greater economic activity. (4)Therefore, the FOMC must observe the current state of the economy to determine the best course of monetary policy that will maximize economic growth while adhering to the dual mandate set forth by Congress. In making its monetary policy decisions, the FOMC considers a wealth of economic data, such as: trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets. (5)The federal funds rate is the central interest rate in the U.S. (6)financial market. It influences other interest rates such as the prime rate, which is the rate banks charge their customers with higher credit ratings. Additionally, the federal funds rate indirectly influences longer- term interest rates such as mortgages, loans, and savings, all of which are very important to consumer wealth and confidence.(2) References (1) Federal Reserve Bank of New York. Federal funds. Fedpoints, August 2007. (7)(2) Board of Governors of the Federal Reserve System. Monetary Policy (http://www.federalreserve.gov/monetarypolicy/default.htm).
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Federal Funds Effective Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of daily figures. For additional historical federal funds rate data, please see Daily Federal Funds Rate from 1928-1954 (https://fred.stlouisfed.org/categories/33951). (2)The federal funds rate is the interest rate at which depository institutions trade federal funds (balances held at Federal Reserve Banks) with each other overnight. When a depository institution has surplus balances in its reserve account, it lends to other banks in need of larger balances. In simpler terms, a bank with excess cash, which is often referred to as liquidity, will lend to another bank that needs to quickly raise liquidity. (1) The rate that the borrowing institution pays to the lending institution is determined between the two banks; the weighted average rate for all of these types of negotiations is called the effective federal funds rate.(2) The effective federal funds rate is essentially determined by the market but is influenced by the Federal Reserve through open market operations to reach the federal funds rate target.(2) The Federal Open Market Committee (FOMC) meets eight times a year to determine the federal funds target rate. As previously stated, this rate influences the effective federal funds rate through open market operations or by buying and selling of government bonds (government debt).(2) More specifically, the Federal Reserve decreases liquidity by selling government bonds, thereby raising the federal funds rate because banks have less liquidity to trade with other banks. (3)Similarly, the Federal Reserve can increase liquidity by buying government bonds, decreasing the federal funds rate because banks have excess liquidity for trade. Whether the Federal Reserve wants to buy or sell bonds depends on the state of the economy. If the FOMC believes the economy is growing too fast and inflation pressures are inconsistent with the dual mandate of the Federal Reserve, the Committee may set a higher federal funds rate target to temper economic activity. In the opposing scenario, the FOMC may set a lower federal funds rate target to spur greater economic activity. (4)Therefore, the FOMC must observe the current state of the economy to determine the best course of monetary policy that will maximize economic growth while adhering to the dual mandate set forth by Congress. In making its monetary policy decisions, the FOMC considers a wealth of economic data, such as: trends in prices and wages, employment, consumer spending and income, business investments, and foreign exchange markets. (5)The federal funds rate is the central interest rate in the U.S. (6)financial market. It influences other interest rates such as the prime rate, which is the rate banks charge their customers with higher credit ratings. Additionally, the federal funds rate indirectly influences longer- term interest rates such as mortgages, loans, and savings, all of which are very important to consumer wealth and confidence.(2) References (1) Federal Reserve Bank of New York. Federal funds. Fedpoints, August 2007. (7)(2) Board of Governors of the Federal Reserve System. Monetary Policy (http://www.federalreserve.gov/monetarypolicy/default.htm).
-2021-12-30 01:22:29 PM Index M111FII10.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 10-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111FII20.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 20-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111FII30.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111FII5.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 5-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111FII7.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 7-Year Treasury Inflation-Indexed Security,Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS1.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 1-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS10.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 10-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to the Board of Governors (http://www.federalreserve.gov/releases/h15/current/h15.pdf) and the Treasury (http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx).
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to the Board of Governors (http://www.federalreserve.gov/releases/h15/current/h15.pdf) and the Treasury (http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx).
-2021-12-30 01:22:29 PM Index M111GS1M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 1-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS2.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 2-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 2-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS20.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 20-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For information on the break in this series from January 1987 through September 1993, please refer to information available at http://www.federalreserve.gov/releases/h15/data.htm. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For information on the break in this series from January 1987 through September 1993, please refer to information available at http://www.federalreserve.gov/releases/h15/data.htm. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS3.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 3-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS30.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 30-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Yields on actively traded non-inflation-indexed issues adjusted to constant maturities. The 30-year Treasury constant maturity series was discontinued on February 18, 2002, and reintroduced on February 9, 2006. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Yields on actively traded non-inflation-indexed issues adjusted to constant maturities. The 30-year Treasury constant maturity series was discontinued on February 18, 2002, and reintroduced on February 9, 2006. (2)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS3M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 3-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS5.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 5-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS6M.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 6-Month Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111GS7.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 7-Year Treasury Constant Maturity Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
-2021-12-30 01:22:29 PM Index M111LTIIT.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Treasury Inflation-Indexed Long-Term Average Yield, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Treasury Long-Term Average (Over 10 Years),Inflation-Indexed, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Based on the unweighted average bid yields for all TIPS with remaining terms to maturity of more than 10 years.
-2021-12-30 01:22:29 PM Index M111MED1.M desc_e updated
-2021-12-30 01:22:29 PM Index M111MED3.M desc_e updated
-2021-12-30 01:22:29 PM Index M111MED6.M desc_e updated
-2021-12-30 01:22:29 PM Index M111MPCREDIT.M desc_e updated
-2021-12-30 01:22:29 PM Index M111TB1YR.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 1-Year Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111TB3MS.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis nan nan nan
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 3-Month Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M111TB4WK.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 4-Week Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Discount basis.
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 4-Week Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of business days. Discount basis.
-2021-12-30 01:22:29 PM Index M111TB6MS.M desc_e inconsistent
-2021-12-30 01:22:29 PM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Bill: Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, 6-Month Treasury Bill Secondary Market Rate, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)Averages of Business Days, Discount Basis
-2021-12-30 01:22:29 PM Index M112ONSEAPT.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPT.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPU.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPU.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPV.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPV.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPW.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPW.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPX.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPX.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPY.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSEAPY.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5C4.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5C4.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5DZ.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5DZ.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5EK.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSJ5EK.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK222.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK222.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK224.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK224.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK22A.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK22A.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK22B.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK22B.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK23G.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK23G.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK23T.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK23T.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24Q.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24Q.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24R.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24R.M unit: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24S.M desc_e: base updated
-2021-12-30 01:22:29 PM Index M112ONSK24S.M unit: base updated
-2021-12-30 01:22:29 PM Index M112SACRMISMEI.M desc_e updated
-2021-12-30 01:22:29 PM Index M132IRLTLT01FR.M desc_e updated
-2021-12-30 01:22:30 PM Index M134EUR3MTD156.M desc_e updated
-2021-12-30 01:22:31 PM Index M144SWESACRMIS.M desc_e updated
-2021-12-30 01:22:31 PM Index M158XTEXVA01JP.M desc_e updated
-2021-12-30 01:22:31 PM Index M158XTIMVA01JP.M desc_e updated
-2021-12-30 01:22:31 PM Index M158XTNTVA01JP.M desc_e updated
-2021-12-30 01:22:31 PM Index M193CSCICP03AU.M desc_e updated
-2021-12-30 01:22:32 PM Index M532HKCQS0001.M desc_e: base updated
-2021-12-30 01:22:32 PM Index M532HKCQS0001.M unit: base updated
-2021-12-30 01:22:32 PM Index M532HKCVS0001.M desc_e: base updated
-2021-12-30 01:22:32 PM Index M532HKCVS0001.M unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0002.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0002.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0009.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0009.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0013.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSCO0013.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK222.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK222.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK224.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK224.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK22A.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK22A.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK22B.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK22B.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK23G.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK23G.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24Q.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24Q.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24R.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24R.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24S.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSK24S.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC001.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC001.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC002.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC002.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC003.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC003.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC004.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC004.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC005.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC005.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC006.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC006.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC007.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC007.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC008.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC008.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC009.Q desc_e: base updated
-2021-12-30 01:22:32 PM Index Q112ONSOC009.Q unit: base updated
-2021-12-30 01:22:32 PM Index Q112QGBN628BIS.Q desc_e updated
-2021-12-30 01:22:33 PM unknown: 0
-2021-12-30 01:22:33 PM name too long: 0
-2021-12-30 01:22:33 PM inconsistent: 28
-2021-12-30 01:22:33 PM Total desc_e inconsistent: 28
-2021-12-30 01:22:33 PM Total country inconsistent: 0
-2021-12-30 01:22:33 PM Total freq inconsistent: 0
-2021-12-30 01:22:33 PM Total unit inconsistent: 0
-2021-12-30 01:22:33 PM Total type inconsistent: 0
-2021-12-30 01:22:33 PM Total source inconsistent: 0
-2021-12-30 01:22:33 PM Total form_e inconsistent: 0
-2021-12-30 01:22:33 PM Total form_c inconsistent: 0
-2021-12-30 01:22:33 PM inconsistent earliest: 1934
-2021-12-30 01:22:33 PM base updated: 48
-2021-12-30 01:22:33 PM data updated: 7426
-2021-12-30 01:22:33 PM including weekly: True
-2021-12-30 01:22:33 PM including daily: True
-2021-12-30 01:22:33 PM too many months: True
+2022-02-23 10:50:31 AM Index A132IRLTLT01FR.A desc_e updated
+2022-02-23 10:50:31 AM Index A132IRLTLT01FR.A type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index A136ITAGDPDEFA.A desc_e updated
+2022-02-23 10:50:31 AM Index A136ITAGDPDEFA.A type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111DJCA.D desc_e updated
+2022-02-23 10:50:31 AM Index D111DJCA.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111DJIA.D desc_e updated
+2022-02-23 10:50:31 AM Index D111DJIA.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111DJTA.D desc_e updated
+2022-02-23 10:50:31 AM Index D111DJTA.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111DJUA.D desc_e updated
+2022-02-23 10:50:31 AM Index D111DJUA.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111NASDAQ100.D desc_e updated
+2022-02-23 10:50:31 AM Index D111NASDAQ100.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111NASDAQCOM.D desc_e updated
+2022-02-23 10:50:31 AM Index D111NASDAQCOM.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index D111SP500.D desc_e updated
+2022-02-23 10:50:31 AM Index D111SP500.D type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CD1M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CD3M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CD6M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPF1M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPF1M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPF2M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPF2M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPF3M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPF3M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPN1M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPN1M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPN2M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPN2M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111CPN3M.M desc_e updated
+2022-02-23 10:50:31 AM Index M111CPN3M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FEDFUNDS.M desc_e updated
+2022-02-23 10:50:31 AM Index M111FEDFUNDS.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FII10.M desc_e inconsistent
+2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 10-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM Index M111FII10.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FII20.M desc_e inconsistent
+2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 20-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM Index M111FII20.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FII30.M desc_e inconsistent
+2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 30-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM Index M111FII30.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FII5.M desc_e inconsistent
+2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 5-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM Index M111FII5.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111FII7.M desc_e inconsistent
+2022-02-23 10:50:31 AM DF_KEY = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM df_key = United States Interest Rates and Bond Yields, Selected Interest Rates, Market Yield on U.S. Treasury Securities at 7-Year Constant Maturity,, Not Seasonally Adjusted, Unit: Percent, Source: Federal Reserve Economic Data, Note: (1)For further information regarding treasury constant maturity data, please refer to http://www.federalreserve.gov/releases/h15/current/h15.pdf and http://www.treasury.gov/resource-center/data-chart-center/interest-rates/Pages/yieldmethod.aspx.
+2022-02-23 10:50:31 AM Index M111FII7.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS1.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS10.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS1M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS2.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS20.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS3.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS30.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS3M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS5.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS6M.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111GS7.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS110.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS120.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS130.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS140.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS150.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS160.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS170.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNS180.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU000.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU010.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU020.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU030.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU040.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU050.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU060.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU070.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LNU080.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LTA.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111LTIIT.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MDISCRT.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MED1.M desc_e updated
+2022-02-23 10:50:31 AM Index M111MED1.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MED3.M desc_e updated
+2022-02-23 10:50:31 AM Index M111MED3.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MED6.M desc_e updated
+2022-02-23 10:50:31 AM Index M111MED6.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MORTG.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MPCREDIT.M desc_e updated
+2022-02-23 10:50:31 AM Index M111MPCREDIT.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MPRIME.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSLB20.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP1.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP10.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP2.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP3.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP30.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP4.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP5.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111MSWP7.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111TB1YR.M desc_e updated
+2022-02-23 10:50:31 AM Index M111TB1YR.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111TB3MS.M desc_e updated
+2022-02-23 10:50:31 AM Index M111TB3MS.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111TB4WK.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:31 AM Index M111TB6MS.M type inconsistent
+2022-02-23 10:50:31 AM DF_KEY = None
+2022-02-23 10:50:31 AM df_key = 
+2022-02-23 10:50:32 AM Index M112SACRMISMEI.M desc_e updated
+2022-02-23 10:50:32 AM Index M112SACRMISMEI.M type inconsistent
+2022-02-23 10:50:32 AM DF_KEY = None
+2022-02-23 10:50:32 AM df_key = 
+2022-02-23 10:50:32 AM Index M132FRASLRTCR0.M type inconsistent
+2022-02-23 10:50:32 AM DF_KEY = None
+2022-02-23 10:50:32 AM df_key = 
+2022-02-23 10:50:32 AM Index M132IRLTLT01FR.M desc_e updated
+2022-02-23 10:50:32 AM Index M132IRLTLT01FR.M type inconsistent
+2022-02-23 10:50:32 AM DF_KEY = None
+2022-02-23 10:50:32 AM df_key = 
+2022-02-23 10:50:32 AM Index M134DEUSLRTCR0.M type inconsistent
+2022-02-23 10:50:32 AM DF_KEY = None
+2022-02-23 10:50:32 AM df_key = 
+2022-02-23 10:50:32 AM Index M134EUR3MTD156.M desc_e updated
+2022-02-23 10:50:32 AM Index M134EUR3MTD156.M type inconsistent
+2022-02-23 10:50:32 AM DF_KEY = None
+2022-02-23 10:50:32 AM df_key = 
+2022-02-23 10:50:33 AM Index M136ITASLRTCR0.M type inconsistent
+2022-02-23 10:50:33 AM DF_KEY = None
+2022-02-23 10:50:33 AM df_key = 
+2022-02-23 10:50:33 AM Index M144SWESACRMIS.M desc_e updated
+2022-02-23 10:50:33 AM Index M144SWESACRMIS.M type inconsistent
+2022-02-23 10:50:33 AM DF_KEY = None
+2022-02-23 10:50:33 AM df_key = 
+2022-02-23 10:50:33 AM Index M144SWESLRTCR0.M type inconsistent
+2022-02-23 10:50:33 AM DF_KEY = None
+2022-02-23 10:50:33 AM df_key = 
+2022-02-23 10:50:34 AM Index M158MHLEI1.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI1.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI13.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI13.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI15.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI15.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI25.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI25.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI27.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI27.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI3.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI3.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI5.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI5.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI7.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLEI7.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLHWI3.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLHWI3.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLHWI4.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLHWI4.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLRWI1.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLRWI1.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLRWI3.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLRWI3.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLSAI9.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLSAI9.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI1.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI1.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI13.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI13.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI25.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI25.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI3.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI3.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI5.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI5.M unit: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI7.M desc_e: base updated
+2022-02-23 10:50:34 AM Index M158MHLWI7.M unit: base updated
+2022-02-23 10:50:34 AM Index M158XTEXVA01JP.M desc_e updated
+2022-02-23 10:50:34 AM Index M158XTEXVA01JP.M type inconsistent
+2022-02-23 10:50:34 AM DF_KEY = None
+2022-02-23 10:50:34 AM df_key = 
+2022-02-23 10:50:34 AM Index M158XTIMVA01JP.M desc_e updated
+2022-02-23 10:50:34 AM Index M158XTIMVA01JP.M type inconsistent
+2022-02-23 10:50:34 AM DF_KEY = None
+2022-02-23 10:50:34 AM df_key = 
+2022-02-23 10:50:34 AM Index M158XTNTVA01JP.M desc_e updated
+2022-02-23 10:50:34 AM Index M158XTNTVA01JP.M type inconsistent
+2022-02-23 10:50:34 AM DF_KEY = None
+2022-02-23 10:50:34 AM df_key = 
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB28.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB29.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB31.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB31a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB32.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB33.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB34.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB35.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB36.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB37.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB38.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB39.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB41.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB41a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB42.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB43.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB44.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB45.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB46.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB47.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB49.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB51.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB51a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB52.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB54.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB55.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB56.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB57.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB58.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB59.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB61.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB61a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB62.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB63.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB64.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB65.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB66.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB67.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB68.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB69.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB71.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB71a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB72.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB73.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB74.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB75.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB76.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB77.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB78.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB79.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB81.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB82.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB83.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB84.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB85.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSLAB87.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP13.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP14.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP15.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP16.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP17.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP18.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP19.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP21.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP21a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP22.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP23.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP24.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP25.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP26.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP27.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP28.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP29.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP31.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP31a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP32.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP33.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP34.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP35.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP36.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP37.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP38.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP39.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP41.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP41a.M
+2022-02-23 10:50:34 AM The program did not fetch the latest data for: M193ABSUNEMP42.M
+2022-02-23 10:50:34 AM Index M193CSCICP03AU.M desc_e updated
+2022-02-23 10:50:34 AM Index M193CSCICP03AU.M type inconsistent
+2022-02-23 10:50:34 AM DF_KEY = None
+2022-02-23 10:50:34 AM df_key = 
+2022-02-23 10:50:35 AM Index Q112QGBN628BIS.Q desc_e updated
+2022-02-23 10:50:35 AM Index Q112QGBN628BIS.Q type inconsistent
+2022-02-23 10:50:35 AM DF_KEY = None
+2022-02-23 10:50:35 AM df_key = 
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH1.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH11.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH111.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH112.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH113.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH114.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH116.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH117.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH119.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH12.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH124.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH125.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH127.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH128.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH129.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH13.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH131.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH131a.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH132.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH135.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH136.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH137.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH138.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH14.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH141.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH141a.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH142.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH143.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH144.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH145.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH147.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH15.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH16.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH17.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH171.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH18.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH19.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH96.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH97.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH98.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSALH99.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP1.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP11.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP12.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP13.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP2.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP3.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP4.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP5.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP6.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP7.Q
+2022-02-23 10:50:35 AM The program did not fetch the latest data for: Q193ABSPOP9.Q
+2022-02-23 10:50:36 AM unknown: 0
+2022-02-23 10:50:36 AM name too long: 0
+2022-02-23 10:50:36 AM inconsistent: 92
+2022-02-23 10:50:36 AM Total desc_e inconsistent: 5
+2022-02-23 10:50:36 AM Total country inconsistent: 0
+2022-02-23 10:50:36 AM Total freq inconsistent: 0
+2022-02-23 10:50:36 AM Total unit inconsistent: 0
+2022-02-23 10:50:36 AM Total type inconsistent: 87
+2022-02-23 10:50:36 AM Total source inconsistent: 0
+2022-02-23 10:50:36 AM Total form_e inconsistent: 0
+2022-02-23 10:50:36 AM Total form_c inconsistent: 0
+2022-02-23 10:50:36 AM inconsistent earliest: 1934
+2022-02-23 10:50:36 AM base updated: 19
+2022-02-23 10:50:36 AM data updated: 130
+2022-02-23 10:50:36 AM including weekly: True
+2022-02-23 10:50:36 AM including daily: True
+2022-02-23 10:50:36 AM too many months: True

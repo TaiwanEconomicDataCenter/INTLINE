@@ -81,7 +81,7 @@ def INTLINE_identity(data_path, df_key, DF_KEY=pd.DataFrame(), keyword='', check
                 if str(df_key.loc[ind, check]).strip().lower() != str(DF_KEY.loc[ind, check]).strip().lower():
                     if check == 'start' and (str(DF_KEY.loc[ind, check]).strip() == 'Nan' or str(df_key.loc[ind, check]).strip() < str(DF_KEY.loc[ind, check]).strip()):
                         continue
-                    elif str(DF_KEY.loc[ind, check]).strip() == 'nan' and str(df_key.loc[ind, check]).strip() == '':
+                    elif (str(DF_KEY.loc[ind, check]).strip() == 'nan' or str(DF_KEY.loc[ind, check]).strip() == 'None') and (str(df_key.loc[ind, check]).strip() == '' or str(df_key.loc[ind, check]).strip() == 'nan'):
                         continue
                     elif checkDESC == False and (check == 'desc_e' or check == 'type'):
                         continue
