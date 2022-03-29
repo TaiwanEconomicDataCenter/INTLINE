@@ -28,6 +28,7 @@ from selenium.common.exceptions import JavascriptException
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.common.exceptions import NoSuchFrameException
 from pandas.errors import ParserError
+from pandas.core.indexes.base import InvalidIndexError
 from roman import InvalidRomanNumeralError
 from io import BytesIO
 import http.client
@@ -1742,6 +1743,7 @@ def INTLINE_STOCK(chrome, data_path, country, address, fname, sname, freq, keywo
         ActionChains(chrome).key_down(Keys.CONTROL).key_down("a").send_keys(Keys.BACKSPACE).key_up(Keys.CONTROL).key_up("a").send_keys(start).send_keys(Keys.ENTER).perform()
         while True:
             try:
+                time.sleep(0.5)
                 IN_t = pd.DataFrame(pd.read_html(chrome.page_source, header=[0], index_col=0)[0][price]).T
             except KeyError:
                 time.sleep(1)
@@ -6832,8 +6834,20 @@ def INTLINE_GACC(chrome, data_path, country, address, fname, sname, freq, skip=N
                         new_columns.append(None)
                 IN_t.columns = new_columns
                 IN_t = IN_t.loc[:, IN_t.columns.dropna()]
-                IN_t.index = [str(dex[1]).strip() for dex in IN_t.index]
-                INTLINE_temp = pd.concat([INTLINE_temp, IN_t], axis=1)
+                if str(IN_t.index[0][0]) != 'nan' and bool(re.search(r'^[A-Za-z]{2,}', str(IN_t.index[0][0]).strip())):
+                    IN_t.index = [str(dex[0]).strip() for dex in IN_t.index]
+                else:
+                    IN_t.index = [str(dex[1]).strip() for dex in IN_t.index]
+                try:
+                    INTLINE_temp = pd.concat([INTLINE_temp, IN_t], axis=1)
+                except InvalidIndexError:
+                    print('INTLINE_temp.index')
+                    print(list(INTLINE_temp.index))
+                    print('IN_t.index')
+                    print(list(IN_t.index))
+                    #print(str(IN_t.index[0]).strip())
+                    #print(bool(re.search(r'^[A-Za-z]{2,}', str(IN_t.index[0]).strip())))
+                    ERROR('Incorrect column was used as index column. Please modify your program!')
     sys.stdout.write("\n\n")
     sys.stdout.write('\nDownload Complete\n\n')
     
