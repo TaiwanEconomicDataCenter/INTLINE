@@ -1,741 +1,130 @@
-﻿2022-03-29 04:16:48 PM excel_suffix: NEW
+﻿2022-03-29 05:37:15 PM excel_suffix: NEW
 
-2022-03-29 04:16:48 PM data_processing: True
+2022-03-29 05:37:15 PM data_processing: True
 
-2022-03-29 04:16:48 PM find_unknown: False
+2022-03-29 05:37:15 PM find_unknown: False
 
-2022-03-29 04:16:48 PM dealing_start_year: 1901
+2022-03-29 05:37:15 PM dealing_start_year: 1901
 
-2022-03-29 04:16:53 PM Data Processing
+2022-03-29 05:37:22 PM Data Processing
 
-2022-03-29 04:16:53 PM Reading table: Country, Time: 5s
+2022-03-29 05:37:22 PM Reading table: Country, Time: 6s
 
-2022-03-29 04:16:53 PM Reading table: TABLES, Time: 5 s
+2022-03-29 05:37:22 PM Reading table: TABLES, Time: 7 s
 
-2022-03-29 04:17:02 PM Reading file: country_series, Time: 13 s
+2022-03-29 05:37:29 PM Reading file: country_series, Time: 14 s
 
-2022-03-29 04:17:02 PM Reading file: 924datasets, Time: 14 s
+2022-03-29 05:37:29 PM Reading file: 542datasets, Time: 14 s
 
-2022-03-29 04:17:02 PM 
+2022-03-29 05:37:30 PM 
 
-2022-03-29 04:17:02 PM ====== WebDriver manager ======
-2022-03-29 04:17:03 PM Current google-chrome version is 99.0.4844
-2022-03-29 04:17:03 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-03-29 04:17:03 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-03-29 04:17:05 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-03-29 04:17:07 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#1, sheet: Average Wage of Employed Persons in Urban Units and _Related Indices, frequency: A, Time: 19s
+2022-03-29 05:37:30 PM ====== WebDriver manager ======
+2022-03-29 05:37:30 PM Current google-chrome version is 99.0.4844
+2022-03-29 05:37:30 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-29 05:37:31 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-29 05:37:33 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-29 05:37:35 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#1, sheet: Annual, frequency: A, Time: 20s
 
-2022-03-29 04:17:07 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:07 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:07 PM Total New Items Found: 0 Time: 19 s
+2022-03-29 05:37:35 PM Total New Items Found: 0 Time: 20 s
 
-2022-03-29 04:17:07 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#2, sheet: Average Wage of Employed Persons in Urban Units by _Sector, frequency: A, Time: 19s
+2022-03-29 05:37:35 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#2, sheet: Quarterly_Nominal_SA, frequency: Q, Time: 20s
 
-2022-03-29 04:17:07 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:07 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:07 PM Total New Items Found: 0 Time: 19 s
+2022-03-29 05:37:36 PM Total New Items Found: 0 Time: 20 s
 
-2022-03-29 04:17:08 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#3, sheet: Current Account Balance(Credit-Debit), frequency: A, Time: 19s
+2022-03-29 05:37:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#3, sheet: Quarterly_Real_SA, frequency: Q, Time: 21s
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Total New Items Found: 0 Time: 19 s
+2022-03-29 05:37:36 PM Total New Items Found: 0 Time: 21 s
 
-2022-03-29 04:17:08 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#4, sheet: Capital and Finance Account Balance(Credit-Debit), frequency: A, Time: 19s
+2022-03-29 05:37:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#4, sheet: Quarterly_Nominal_NSA, frequency: Q, Time: 21s
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Total New Items Found: 0 Time: 19 s
+2022-03-29 05:37:37 PM Total New Items Found: 0 Time: 21 s
 
-2022-03-29 04:17:08 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#5, sheet: Reserve Assets Balance(Credit-Debit), frequency: A, Time: 19s
+2022-03-29 05:37:37 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#5, sheet: Quarterly_Real_NSA, frequency: Q, Time: 21s
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Total New Items Found: 0 Time: 19 s
+2022-03-29 05:37:37 PM Total New Items Found: 0 Time: 22 s
 
-2022-03-29 04:17:08 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#6, sheet: Net Error and Omission Balance(Credit-Debit), frequency: A, Time: 20s
+2022-03-29 05:37:37 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#6, sheet: Monthly_NA1, frequency: M, Time: 22s
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-29 04:17:08 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 05:37:38 PM Total New Items Found: 0 Time: 22 s
 
-2022-03-29 04:17:08 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#7, sheet: Current Account Credit, frequency: A, Time: 20s
+2022-03-29 05:37:38 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#7, sheet: Monthly_NA2, frequency: M, Time: 22s
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:38 PM Downloading file: Monthly_NA2
 
-2022-03-29 04:17:08 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:37:56 PM Getting Data From Website
 
-2022-03-29 04:17:08 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 05:40:12 PM Total New Items Found: 0 Time: 177 s
 
-2022-03-29 04:17:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#8, sheet: Capital and Finance Account Credit, frequency: A, Time: 20s
+2022-03-29 05:40:12 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#8, sheet: Credit to Households, frequency: Q, Time: 177s
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:40:12 PM Downloading file: Credit to Households
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:40:13 PM Getting Data From Website
 
-2022-03-29 04:17:09 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 05:40:30 PM Total New Items Found: 0 Time: 195 s
 
-2022-03-29 04:17:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#9, sheet: Current Account Debit, frequency: A, Time: 20s
+2022-03-29 05:40:30 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#9, sheet: Monthly_FS, frequency: M, Time: 195s
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:40:30 PM Downloading file: Monthly_FS
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:40:30 PM Getting Data From Website
 
-2022-03-29 04:17:09 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 05:41:33 PM Total New Items Found: 0 Time: 258 s
 
-2022-03-29 04:17:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#10, sheet: Capital and Finance Account Debit, frequency: A, Time: 21s
+2022-03-29 05:41:34 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#1, sheet: Quarterly_KOS, frequency: Q, Time: 258s
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 05:41:34 PM Downloading file: Quarterly_previous
 
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:09 PM Total New Items Found: 0 Time: 21 s
-
-2022-03-29 04:17:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#11, sheet: Gross Domestic Product by Expenditure Approach, frequency: A, Time: 21s
-
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Total New Items Found: 0 Time: 21 s
-
-2022-03-29 04:17:10 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#12, sheet: Economically Active Population, frequency: A, Time: 21s
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Total New Items Found: 0 Time: 21 s
-
-2022-03-29 04:17:10 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#13, sheet: Registered Unemployed Persons and Unemployment Rate in _Urban Area, frequency: A, Time: 22s
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 04:17:10 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#14, sheet: Number of Employed Persons at Year-end in Urban and _Rural Areas, frequency: A, Time: 22s
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:10 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 04:17:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#15, sheet: Gross Domestic Product - A, frequency: A, Time: 22s
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 04:17:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#16, sheet: Value-added by industries, frequency: A, Time: 22s
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 04:17:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#17, sheet: Total Population, frequency: A, Time: 22s
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 04:17:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#18, sheet: Producer Price Indices for Industrial Products by _Category, frequency: A, Time: 23s
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Total New Items Found: 0 Time: 23 s
-
-2022-03-29 04:17:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#19, sheet: Total Value of Imports and Exports, frequency: A, Time: 23s
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:11 PM Total New Items Found: 0 Time: 23 s
-
-2022-03-29 04:17:12 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#0, sheet: Money Supply, frequency: Q, Time: 23s
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Total New Items Found: 0 Time: 23 s
-
-2022-03-29 04:17:12 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#1, sheet: Gross Domestic Product - Q, frequency: Q, Time: 23s
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Total New Items Found: 0 Time: 23 s
-
-2022-03-29 04:17:12 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#2, sheet: Indices of Gross Domestic Product, frequency: Q, Time: 24s
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Total New Items Found: 0 Time: 24 s
-
-2022-03-29 04:17:12 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#1, sheet: Consumer Price Indices by Category(The same month _last year=100)(2016-), frequency: M, Time: 24s
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Total New Items Found: 0 Time: 24 s
-
-2022-03-29 04:17:13 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#2, sheet: Consumer Price Indices (The same month last year=100) _Food, frequency: M, Time: 24s
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Total New Items Found: 0 Time: 24 s
-
-2022-03-29 04:17:13 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#3, sheet: Producer Price Index for Industrial Products (The same _month last year=100), frequency: M, Time: 25s
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:13 PM Total New Items Found: 0 Time: 25 s
-
-2022-03-29 04:17:14 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#4, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Means of Production, frequency: M, Time: 25s
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Total New Items Found: 0 Time: 25 s
-
-2022-03-29 04:17:14 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#5, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Consumer Goods, frequency: M, Time: 25s
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Total New Items Found: 0 Time: 25 s
-
-2022-03-29 04:17:14 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#6, sheet: Purchasing Price Index for Industrial Producers (The _same month last year=100), frequency: M, Time: 26s
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:14 PM Total New Items Found: 0 Time: 26 s
-
-2022-03-29 04:17:15 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#7, sheet: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100) (2018 to present), frequency: M, Time: 26s
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Total New Items Found: 0 Time: 27 s
-
-2022-03-29 04:17:15 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#8, sheet: Retail Price Index (The same month last year=100), frequency: M, Time: 27s
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Total New Items Found: 0 Time: 27 s
-
-2022-03-29 04:17:16 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#9, sheet: Growth Rate of Industrial Value-added, frequency: M, Time: 27s
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Total New Items Found: 0 Time: 27 s
-
-2022-03-29 04:17:16 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#10, sheet: Growth Rate of Industrial Value-added by Category, frequency: M, Time: 27s
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Total New Items Found: 0 Time: 28 s
-
-2022-03-29 04:17:16 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#11, sheet: Cars, frequency: M, Time: 28s
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:16 PM Total New Items Found: 0 Time: 28 s
-
-2022-03-29 04:17:17 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#12, sheet: Motor Vehicles, frequency: M, Time: 28s
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Total New Items Found: 0 Time: 28 s
-
-2022-03-29 04:17:17 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#13, sheet: Electricity, frequency: M, Time: 28s
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Total New Items Found: 0 Time: 28 s
-
-2022-03-29 04:17:17 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#14, sheet: Investment in Fixed Assets[0], frequency: M, Time: 29s
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:17 PM Total New Items Found: 0 Time: 29 s
-
-2022-03-29 04:17:18 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#15, sheet: Investment in Fixed Assets Growth, frequency: M, Time: 29s
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Total New Items Found: 0 Time: 29 s
-
-2022-03-29 04:17:18 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#17, sheet: Total Retail Sales of Consumer Goods, frequency: M, Time: 29s
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Total New Items Found: 0 Time: 29 s
-
-2022-03-29 04:17:18 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#18, sheet: Total Retail Sales of Consumer Goods by Operates, frequency: M, Time: 30s
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:18 PM Total New Items Found: 0 Time: 30 s
-
-2022-03-29 04:17:19 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#19, sheet: Total Retail Sales of Consumer Goods by Consumption _patterns, frequency: M, Time: 30s
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Total New Items Found: 0 Time: 30 s
-
-2022-03-29 04:17:19 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0-112B.html, sheet: Business Climate Index, frequency: Q, Time: 31s
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Total New Items Found: 0 Time: 31 s
-
-2022-03-29 04:17:19 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E5%AE%B6%E4%BF%A1%E5%BF%83%E6%8C%87%E6%95%B0-112B.html, sheet: Entrepreneur Confidence Index, frequency: Q, Time: 31s
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:19 PM Total New Items Found: 0 Time: 31 s
-
-2022-03-29 04:17:20 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112E.html, sheet: Consumer Index, frequency: M, Time: 31s
-
-2022-03-29 04:17:20 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:20 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:20 PM Total New Items Found: 0 Time: 31 s
-
-2022-03-29 04:17:20 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112P.html, sheet: Money Supply - PPI, frequency: M, Time: 32s
-
-2022-03-29 04:17:20 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:20 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:21 PM Total New Items Found: 0 Time: 32 s
-
-2022-03-29 04:17:21 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: M, Time: 32s
-
-2022-03-29 04:17:21 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:21 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:22 PM Total New Items Found: 0 Time: 33 s
-
-2022-03-29 04:17:22 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: A, Time: 33s
-
-2022-03-29 04:17:23 PM Total New Items Found: 0 Time: 34 s
-
-2022-03-29 04:17:23 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: M, Time: 34s
-
-2022-03-29 04:17:23 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:23 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:25 PM Total New Items Found: 0 Time: 37 s
-
-2022-03-29 04:17:25 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: Q, Time: 37s
-
-2022-03-29 04:17:27 PM Total New Items Found: 0 Time: 39 s
-
-2022-03-29 04:17:27 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---111O.html, sheet: Corporate Goods Price Indices, frequency: M, Time: 39s
-
-2022-03-29 04:17:27 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:27 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:28 PM Total New Items Found: 0 Time: 39 s
-
-2022-03-29 04:17:28 PM Reading file: Datasets, Time: 39 s
-
-2022-03-29 04:17:28 PM Country: China, Reading file or url: http://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html, sheet: Statistics of Interbank Pledged Repo, frequency: M, Time: 40s
-
-2022-03-29 04:17:28 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:28 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:29 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:29 PM Total New Items Found: 0 Time: 40 s
-
-2022-03-29 04:17:29 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#1, sheet: Summary of Imports and Exports (In USD) B：Monthly, frequency: M, Time: 41s
-
-2022-03-29 04:17:29 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:29 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:29 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:29 PM Total New Items Found: 0 Time: 41 s
-
-2022-03-29 04:17:29 PM Reading file: Datasets, Time: 41 s
-
-2022-03-29 04:17:30 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#2, sheet: Major Import Commodities in Quantity and Value, frequency: M, Time: 41s
-
-2022-03-29 04:17:30 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:30 PM Total New Items Found: 0 Time: 41 s
-
-2022-03-29 04:17:30 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#3, sheet: Imports and Exports by Country, frequency: M, Time: 42s
-
-2022-03-29 04:17:30 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:31 PM Total New Items Found: 0 Time: 42 s
-
-2022-03-29 04:17:31 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#4, sheet: Composition of Imports and Exports by Section and Division, frequency: M, Time: 42s
-
-2022-03-29 04:17:31 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:31 PM Total New Items Found: 0 Time: 42 s
-
-2022-03-29 04:17:31 PM Reading file: Datasets, Time: 43 s
-
-2022-03-29 04:17:32 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 43s
-
-2022-03-29 04:17:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:32 PM Total New Items Found: 0 Time: 43 s
-
-2022-03-29 04:17:32 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 43s
-
-2022-03-29 04:17:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:32 PM Total New Items Found: 0 Time: 43 s
-
-2022-03-29 04:17:32 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 44s
-
-2022-03-29 04:17:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:32 PM Total New Items Found: 0 Time: 44 s
-
-2022-03-29 04:17:32 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 44s
-
-2022-03-29 04:17:33 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:17:33 PM Total New Items Found: 0 Time: 44 s
-
-2022-03-29 04:17:33 PM Reading file: Datasets, Time: 44 s
-
-2022-03-29 04:17:33 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 45s
-
-2022-03-29 04:18:01 PM Total New Items Found: 0 Time: 72 s
-
-2022-03-29 04:18:01 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 72s
-
-2022-03-29 04:18:07 PM Total New Items Found: 0 Time: 78 s
-
-2022-03-29 04:18:07 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 79s
-
-2022-03-29 04:18:35 PM Total New Items Found: 0 Time: 106 s
-
-2022-03-29 04:18:35 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 106s
-
-2022-03-29 04:18:40 PM Total New Items Found: 0 Time: 112 s
-
-2022-03-29 04:18:40 PM Reading file: Datasets, Time: 112 s
-
-2022-03-29 04:18:41 PM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 112s
-
-2022-03-29 04:18:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:18:41 PM Total New Items Found: 0 Time: 112 s
-
-2022-03-29 04:18:41 PM Reading file: country_series, Time: 113 s
-
-2022-03-29 04:18:41 PM Reading file: 532datasets, Time: 113 s
-
-2022-03-29 04:18:42 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=31, sheet: Gross Domestic Product, frequency: A, Time: 113s
-
-2022-03-29 04:18:42 PM Downloading file: Gross Domestic Product
-
-2022-03-29 04:18:55 PM Getting Data From Website
-
-2022-03-29 04:19:03 PM Total New Items Found: 0 Time: 134 s
-
-2022-03-29 04:19:03 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: A, Time: 135s
-
-2022-03-29 04:19:03 PM Downloading file: Nominal Gross Domestic Product
-
-2022-03-29 04:19:04 PM Getting Data From Website
-
-2022-03-29 04:19:14 PM Total New Items Found: 0 Time: 145 s
-
-2022-03-29 04:19:14 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: Q, Time: 145s
-
-2022-03-29 04:19:14 PM Total New Items Found: 0 Time: 145 s
-
-2022-03-29 04:19:14 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: A, Time: 145s
-
-2022-03-29 04:19:14 PM Downloading file: Real Gross Domestic Product
-
-2022-03-29 04:19:14 PM Getting Data From Website
-
-2022-03-29 04:19:25 PM Total New Items Found: 0 Time: 156 s
-
-2022-03-29 04:19:25 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: Q, Time: 156s
-
-2022-03-29 04:19:25 PM Total New Items Found: 0 Time: 157 s
-
-2022-03-29 04:19:25 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=35, sheet: Nominal Gross Value Added, frequency: A, Time: 157s
-
-2022-03-29 04:19:25 PM Downloading file: Nominal Gross Value Added
-
-2022-03-29 04:19:26 PM Getting Data From Website
-
-2022-03-29 04:19:34 PM Total New Items Found: 0 Time: 165 s
-
-2022-03-29 04:19:34 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: A, Time: 166s
-
-2022-03-29 04:19:34 PM Downloading file: Gross National Income Per Capita
-
-2022-03-29 04:19:35 PM Getting Data From Website
-
-2022-03-29 04:19:43 PM Total New Items Found: 0 Time: 174 s
-
-2022-03-29 04:19:43 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: Q, Time: 174s
-
-2022-03-29 04:19:43 PM Total New Items Found: 0 Time: 174 s
-
-2022-03-29 04:19:43 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: A, Time: 174s
-
-2022-03-29 04:19:43 PM Downloading file: Nominal Gross Domestic Fixed Capital Formation
-
-2022-03-29 04:19:44 PM Getting Data From Website
-
-2022-03-29 04:19:47 PM Getting Data From Website
-
-2022-03-29 04:19:59 PM Total New Items Found: 0 Time: 190 s
-
-2022-03-29 04:19:59 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: Q, Time: 190s
-
-2022-03-29 04:19:59 PM Total New Items Found: 0 Time: 190 s
-
-2022-03-29 04:19:59 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=37, sheet: Real Gross Value Added, frequency: Q, Time: 191s
-
-2022-03-29 04:19:59 PM Downloading file: Real Gross Value Added
-
-2022-03-29 04:20:00 PM Getting Data From Website
-
-2022-03-29 04:20:07 PM Total New Items Found: 0 Time: 199 s
-
-2022-03-29 04:20:07 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=96, sheet: Industrial Production Index, frequency: Q, Time: 199s
-
-2022-03-29 04:20:07 PM Downloading file: Industrial Production Index
-
-2022-03-29 04:20:08 PM Getting Data From Website
-
-2022-03-29 04:20:17 PM Total New Items Found: 0 Time: 209 s
-
-2022-03-29 04:20:18 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=97, sheet: Producer Price Index, frequency: Q, Time: 209s
-
-2022-03-29 04:20:18 PM Downloading file: Producer Price Index
-
-2022-03-29 04:20:19 PM Getting Data From Website
-
-2022-03-29 04:20:36 PM Total New Items Found: 0 Time: 228 s
-
-2022-03-29 04:20:36 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=71, sheet: Merchandise Trade Index Numbers - Imports, frequency: M, Time: 228s
-
-2022-03-29 04:20:36 PM Downloading file: Merchandise Trade Index Numbers - Imports
-
-2022-03-29 04:20:37 PM Getting Data From Website
-
-2022-03-29 04:20:47 PM Total New Items Found: 0 Time: 239 s
-
-2022-03-29 04:20:47 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=74, sheet: Merchandise Trade Index Numbers - Exports, frequency: M, Time: 239s
-
-2022-03-29 04:20:47 PM Downloading file: Merchandise Trade Index Numbers - Exports
-
-2022-03-29 04:20:48 PM Getting Data From Website
-
-2022-03-29 04:20:59 PM Total New Items Found: 0 Time: 250 s
-
-2022-03-29 04:20:59 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=75, sheet: Merchandise Trade Index Numbers - Terms of Trade, frequency: M, Time: 250s
-
-2022-03-29 04:20:59 PM Downloading file: Merchandise Trade Index Numbers - Terms of Trade
-
-2022-03-29 04:20:59 PM Getting Data From Website
-
-2022-03-29 04:21:09 PM Total New Items Found: 0 Time: 261 s
-
-2022-03-29 04:21:10 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=89, sheet: Index of Retail Sales, frequency: M, Time: 261s
-
-2022-03-29 04:21:10 PM Downloading file: Index of Retail Sales
-
-2022-03-29 04:21:10 PM Getting Data From Website
-
-2022-03-29 04:21:20 PM Total New Items Found: 0 Time: 272 s
-
-2022-03-29 04:21:20 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=122, sheet: Hong Kong Dollar interest rates, frequency: M, Time: 272s
-
-2022-03-29 04:21:20 PM Downloading file: Hong Kong Dollar interest rates
-
-2022-03-29 04:21:21 PM Getting Data From Website
-
-2022-03-29 04:21:28 PM Total New Items Found: 0 Time: 279 s
-
-2022-03-29 04:21:28 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=123, sheet: Hong Kong Dollar Interest Settlement Rates, frequency: A, Time: 280s
-
-2022-03-29 04:21:28 PM Downloading file: Hong Kong Dollar Interest Settlement Rates
-
-2022-03-29 04:21:28 PM Getting Data From Website
-
-2022-03-29 04:21:35 PM Total New Items Found: 0 Time: 286 s
-
-2022-03-29 04:21:35 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/scode270.html#section3, sheet: Consumer Price Index, frequency: M, Time: 287s
-
-2022-03-29 04:21:35 PM Downloading file: Consumer Price Index
-
-2022-03-29 04:21:36 PM Getting Data From Website
-
-2022-03-29 04:21:39 PM Getting Data From Website
-
-2022-03-29 04:21:42 PM Getting Data From Website
-
-2022-03-29 04:21:59 PM Total New Items Found: 0 Time: 310 s
-
-2022-03-29 04:21:59 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/currency?pagesize=1000, sheet: Currency in circulation, frequency: M, Time: 310s
-
-2022-03-29 04:21:59 PM Downloading file: Currency in circulation
-
-2022-03-29 04:22:00 PM Getting Data From Website
-
-2022-03-29 04:22:06 PM Total New Items Found: 0 Time: 318 s
-
-2022-03-29 04:22:06 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/supply-adjusted?pagesize=1000, sheet: Money supply Adjusted for currency swap deposits, frequency: M, Time: 318s
-
-2022-03-29 04:22:07 PM Downloading file: Money supply Adjusted for currency swap deposits
-
-2022-03-29 04:22:08 PM Getting Data From Website
-
-2022-03-29 04:22:11 PM Total New Items Found: 0 Time: 323 s
-
-2022-03-29 04:22:11 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/banking/residential-mortgage-survey?pagesize=1000, sheet: Residential mortgage survey results, frequency: M, Time: 323s
-
-2022-03-29 04:22:11 PM Downloading file: Residential mortgage survey results
-
-2022-03-29 04:22:12 PM Getting Data From Website
-
-2022-03-29 04:22:16 PM Total New Items Found: 0 Time: 327 s
-
-2022-03-29 04:22:16 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/gov-bond/instit-bond-price-yield-endperiod?pagesize=1000&segment=Benchmark, sheet: Prices and yields of Government Bonds, frequency: M, Time: 327s
-
-2022-03-29 04:22:16 PM Downloading file: Prices and yields of Government Bonds
-
-2022-03-29 04:22:16 PM Getting Data From Website
-
-2022-03-29 04:22:19 PM Total New Items Found: 0 Time: 331 s
-
-2022-03-29 04:22:19 PM Reading file: Datasets, Time: 331 s
-
-2022-03-29 04:22:20 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: M, Time: 331s
-
-2022-03-29 04:22:32 PM Total New Items Found: 0 Time: 343 s
-
-2022-03-29 04:22:32 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: Q, Time: 343s
-
-2022-03-29 04:22:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:22:32 PM Total New Items Found: 0 Time: 344 s
-
-2022-03-29 04:22:32 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: A, Time: 344s
-
-2022-03-29 04:22:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 04:22:32 PM Total New Items Found: 0 Time: 344 s
-
-2022-03-29 04:22:32 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: W, Time: 344s
-
-2022-03-29 04:22:36 PM Total New Items Found: 0 Time: 348 s
-
-2022-03-29 04:22:36 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: D, Time: 348s
-
-2022-03-29 04:22:45 PM Total New Items Found: 0 Time: 357 s
-
-2022-03-29 04:22:45 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: W, Time: 357s
-
-2022-03-29 04:22:52 PM Total New Items Found: 0 Time: 363 s
-
-2022-03-29 04:22:52 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: D, Time: 363s
-
-2022-03-29 04:23:01 PM Total New Items Found: 0 Time: 372 s
-
-2022-03-29 04:23:01 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: W, Time: 372s
-
-2022-03-29 04:23:17 PM Total New Items Found: 0 Time: 388 s
-
-2022-03-29 04:23:17 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: D, Time: 388s
+2022-03-29 05:41:40 PM Getting Data From Website
+
+2022-03-29 05:41:46 PM = ! = Error in line 247 inside check_response: [NoSuchElementException] Message: no such element: Unable to locate element: {"method":"xpath","selector":".//iframe[@title[contains(., "Average monthly income & expenditure (real,urban excl.1 person and farm)")]]"}
+  (Session info: chrome=99.0.4844.82)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x01239943+2595139]
+	Ordinal0 [0x011CC9F1+2148849]
+	Ordinal0 [0x010C4528+1066280]
+	Ordinal0 [0x010F0FD4+1249236]
+	Ordinal0 [0x010F11CB+1249739]
+	Ordinal0 [0x0111D812+1431570]
+	Ordinal0 [0x0110BA34+1358388]
+	Ordinal0 [0x0111BAF2+1424114]
+	Ordinal0 [0x0110B806+1357830]
+	Ordinal0 [0x010E6086+1204358]
+	Ordinal0 [0x010E6F96+1208214]
+	GetHandleVerifier [0x013DB232+1658114]
+	GetHandleVerifier [0x0149312C+2411516]
+	GetHandleVerifier [0x012CF261+560433]
+	GetHandleVerifier [0x012CE366+556598]
+	Ordinal0 [0x011D286B+2173035]
+	Ordinal0 [0x011D75F8+2192888]
+	Ordinal0 [0x011D76E5+2193125]
+	Ordinal0 [0x011E11FC+2232828]
+	BaseThreadInitThunk [0x762FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775F7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x775F7A4E+238]
 
