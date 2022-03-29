@@ -90,6 +90,8 @@ def readFile(dir, default=pd.DataFrame(), acceptNoFile=False,header_=None,names_
         try:
             t = pd.read_csv(dir, header=header_,skiprows=skiprows_,index_col=index_col_,skipfooter=skipfooter_,\
                             names=names_,usecols=usecols_,nrows=nrows_,encoding=encoding_,engine=engine_)
+            if t.empty:
+                raise ParserError
             return t
         except:
             return default
@@ -1921,6 +1923,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
     y = 0
     height = chrome.execute_script("return document.documentElement.scrollHeight")
     while True:
+        logging.info("Getting Data From Website\n")
         if done == True:
             break
         try:
@@ -2125,6 +2128,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 chrome.find_element_by_xpath('.//button[@id="dataDownload"]').click()
                 link_found = True
             elif address.find('NBS') >= 0:
+                error_count = 0
                 try:
                     WebDriverWait(chrome, 1).until(EC.visibility_of_element_located((By.XPATH, './/div[contains(., "验证码访问")]')))
                 except TimeoutException:
@@ -2151,8 +2155,13 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                                         time.sleep(1)
                                         target.find_elements_by_link_text(re.sub(r'\[[0-9]+\]\s*$', "", item))[int(re.sub(r'.+?\[([0-9]+)\]\s*$', r"\1", item))].click()
                                     else:
-                                        WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, str(item)))).click()
-                                        target = target.find_element_by_partial_link_text(str(item)).find_element_by_xpath('..')
+                                        if bool(re.search(r'^\^', item)):
+                                            item = re.sub(r'^\^', "", item)
+                                            WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.LINK_TEXT, str(item)))).click()
+                                            target = target.find_element_by_link_text(str(item)).find_element_by_xpath('..')
+                                        else:
+                                            WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.PARTIAL_LINK_TEXT, str(item)))).click()
+                                            target = target.find_element_by_partial_link_text(str(item)).find_element_by_xpath('..')
                                     ActionChains(chrome).send_keys(Keys.DOWN).send_keys(Keys.DOWN).send_keys(Keys.DOWN).perform()
                                 except (ElementNotInteractableException, ElementClickInterceptedException):
                                     if count > 3:
@@ -2192,7 +2201,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         ERROR('Link Text Not Found for item: '+str(item))
                     except Exception as e:
                         print(traceback.format_exc())
-                        ERROR(str(e))
+                        #ERROR(str(e))
+                        if error_count > 3:
+                            raise ElementNotInteractableException
+                        error_count += 1
+                        chrome.refresh()
                     else:
                         break
                 sys.stdout.write("\rDownload Completed"+" "*200)
@@ -2205,7 +2218,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 try:
                     pages = int(re.sub(r'.*?页次:[0-9]+/([0-9]+).*', r"\1", chrome.find_element_by_xpath('.//div[@id="wrap_list_data"]/div[contains(., "页次")]').text.replace('\n','')))
                 except NoSuchElementException:
-                    chrome.refreah()
+                    chrome.refresh()
                     raise FileNotFoundError
                 IN_t = pd.read_html(chrome.page_source, header=header, index_col=index_col)[0]
                 INTLINE_temp = pd.concat([INTLINE_temp, IN_t])
@@ -3718,7 +3731,7 @@ def INTLINE_WEB_TRADE(chrome, country, address, fname, sname, freq=None, header=
                 time.sleep(1)
             else:
                 break
-        new_base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(readFile((Path.home() / "Downloads" / excel_file).as_posix(), acceptNoFile=False).iloc[0]).replace('\n',''))
+        new_base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(readFile((Path.home() / "Downloads" / excel_file).as_posix(), header_='infer', acceptNoFile=False).iloc[0]).replace('\n',''))
         CSVSHEET = CSVFILE.Worksheets(1)
         CSVSHEET.Name = year
         position = ExcelFile.Sheets.Count+1
