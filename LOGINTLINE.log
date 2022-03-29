@@ -1,33 +1,79 @@
-﻿2022-02-23 12:17:15 PM excel_suffix: mysql
+﻿2022-03-29 11:40:09 AM excel_suffix: NEW
 
-2022-02-23 12:17:15 PM data_processing: False
+2022-03-29 11:40:09 AM data_processing: True
 
-2022-02-23 12:17:15 PM find_unknown: False
+2022-03-29 11:40:09 AM find_unknown: False
 
-2022-02-23 12:17:15 PM dealing_start_year: 1901
+2022-03-29 11:40:09 AM dealing_start_year: 1901
 
-2022-02-23 12:18:25 PM Process: File Updating
+2022-03-29 11:40:14 AM Data Processing
 
-2022-02-23 12:18:25 PM Reading main key: INTLINE_keyUP.xlsx, Time: 70 s
+2022-03-29 11:40:14 AM Reading table: Country, Time: 5s
 
-2022-02-23 12:18:29 PM Reading main database: INTLINE_databaseUP.xlsx, Time: 74 s
+2022-03-29 11:40:15 AM Reading table: TABLES, Time: 6 s
 
-2022-02-23 12:19:49 PM Updating file: 0 s
+2022-03-29 11:40:16 AM Reading file: country_series, Time: 7 s
 
-2022-02-23 12:35:39 PM updated: 132
+2022-03-29 11:40:16 AM Reading file: 112datasets, Time: 7 s
 
-2022-02-23 01:27:57 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
-0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
-1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
-2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
-4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
-13659  INTLINE     W576STI.W  DB_W_0001  data025  ...  13660           Singapore Exchange                           Singapore Stock Exchange  Not Seasonally Adjusted
-13660  INTLINE    W924SSEA.W  DB_W_0001  data026  ...  13661      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13661  INTLINE    W924SSEB.W  DB_W_0001  data027  ...  13662      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13662  INTLINE   W924SZSEA.W  DB_W_0001  data028  ...  13663       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-13663  INTLINE   W924SZSEB.W  DB_W_0001  data029  ...  13664       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+2022-03-29 11:40:17 AM 
 
-[13664 rows x 15 columns]
-2022-02-23 01:27:57 PM Total Items: 13664
+2022-03-29 11:40:17 AM ====== WebDriver manager ======
+2022-03-29 11:40:17 AM Current google-chrome version is 99.0.4844
+2022-03-29 11:40:17 AM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-29 11:40:17 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-29 11:40:20 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-29 11:40:22 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: A, Time: 13s
+
+2022-03-29 11:40:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:38 AM Total New Items Found: 0 Time: 29 s
+
+2022-03-29 11:40:38 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: Q, Time: 29s
+
+2022-03-29 11:40:38 AM Total New Items Found: 0 Time: 29 s
+
+2022-03-29 11:40:38 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/indexofproduction/current, sheet: diop, frequency: M, Time: 29s
+
+2022-03-29 11:40:38 AM Total New Items Found: 0 Time: 29 s
+
+2022-03-29 11:40:39 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/businessindustryandtrade/retailindustry/datasets/retailsales/current, sheet: drsi, frequency: M, Time: 30s
+
+2022-03-29 11:40:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:42 AM Total New Items Found: 0 Time: 33 s
+
+2022-03-29 11:40:42 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/averageweeklyearnings/current, sheet: emp, frequency: M, Time: 33s
+
+2022-03-29 11:40:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:47 AM Total New Items Found: 0 Time: 38 s
+
+2022-03-29 11:40:47 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/datasets/labourmarketstatistics/current, sheet: lms, frequency: M, Time: 38s
+
+2022-03-29 11:40:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:40:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:41:26 AM Total New Items Found: 0 Time: 77 s
+
+2022-03-29 11:41:26 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/aerospaceandelectronicscostindices/current, sheet: mm19, frequency: M, Time: 77s
+
+2022-03-29 11:41:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:41:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:41:26 AM Total New Items Found: 0 Time: 77 s
+
+2022-03-29 11:41:26 AM Country: United Kingdom, Reading file or url: https://www.ons.gov.uk/economy/inflationandpriceindices/datasets/consumerpriceindices/current, sheet: mm23, frequency: M, Time: 77s
+
+2022-03-29 11:41:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-03-29 11:41:26 AM Present File Exists. Reading Data From Default Path.
+

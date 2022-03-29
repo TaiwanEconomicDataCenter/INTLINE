@@ -1802,6 +1802,12 @@ def INTLINE_STEEL(data_path, country, address, fname, INTLINE_steel, Countries, 
     INTLINE_t = readExcelFile(data_path+str(country)+'/'+address+fname+'.xlsx', header_=0, index_col_=0, sheet_name_=0)
     INTLINE_t.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_t.columns]
     INTLINE_steel = INTLINE_steel.sort_index(axis=1)
+    try:
+        INTLINE_steel.loc[Countries.loc[country, 'Country_Name'].replace('South Korea','Korea').strip()]
+    except KeyError:
+        logging.info(Countries.loc[country, 'Country_Name'].replace('South Korea','Korea').strip()+" steel production data discontinued\n")
+        label = INTLINE_t['Label']
+        return INTLINE_t, label, note, footnote
     
     for i in range(INTLINE_steel.shape[1]):
         if INTLINE_steel.columns[i][:4].isnumeric():
@@ -1937,12 +1943,15 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 try:
                     WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'eml'))).send_keys(email)
                     WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.ID, 'pw'))).send_keys(password)
+                    time.sleep(1)
                     WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"]'))).click()
                     time.sleep(2)
                 except TimeoutException:
                     time.sleep(0)
-                target = WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'content-table')))
-                link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword=str(sname).replace('_xls',''), text_match=True)
+                chrome.refresh()
+                WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'content-table')))
+                time.sleep(2)
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname).replace('_xls',''), text_match=True)
                 time.sleep(2)
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='download')
                 WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="download_data"]'))).click()
