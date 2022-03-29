@@ -680,7 +680,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
         base_mth = re.split(r'[^A-Za-z]+', base_temp)[:2]
         base_yr = re.split(r'[^0-9]+', base_temp)[-2:]
         base_year = base_yr[0]+'.'+datetime.strptime(base_mth[0],'%B').strftime('%m')+'-'+base_yr[1]+'.'+datetime.strptime(base_mth[1],'%B').strftime('%m')
-    elif address.find('DOS') >= 0:
+    elif address.find('DOS') >= 0 and address.find('API') < 0:
         file_path = data_path+str(country)+'/'+address+'base_year.csv'
         base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
         try:
@@ -2278,6 +2278,14 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 target = WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "E501 ")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xlsx')
             elif address.find('DOS') >= 0:
+                if address.find('API') >= 0:
+                    keywords = re.split(r', ', str(file_name))
+                    target = WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/input[@aria-label="search-keywords"]')))
+                    ActionChains(chrome).click(target).send_keys(Keys.BACKSPACE).send_keys(keywords[0]).perform()
+                    ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                    WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/a[contains(., "'+keywords[0]+'")][contains(., "'+keywords[1]+'")][contains(., "'+keywords[2]+'")]'))).click()
+                    chrome.close()
+                    chrome.switch_to.window(chrome.window_handles[0])
                 target = chrome.find_element_by_id('TableContainerDiv').get_attribute('outerHTML')
                 INTLINE_temp = pd.read_html(target, skiprows=skiprows, header=header, index_col=index_col)[0]
                 note_content = re.sub(r'.+?(In Chained.+?Dollars).*|.+?(SSIC.+?)\).*|.+?\((At.+?Prices)\).*', r"\1, \2, \3", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text).strip(', ')

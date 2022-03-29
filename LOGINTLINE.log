@@ -1,130 +1,58 @@
-﻿2022-03-29 05:37:15 PM excel_suffix: NEW
+﻿2022-03-29 07:31:06 PM excel_suffix: NEW
 
-2022-03-29 05:37:15 PM data_processing: True
+2022-03-29 07:31:06 PM data_processing: True
 
-2022-03-29 05:37:15 PM find_unknown: False
+2022-03-29 07:31:06 PM find_unknown: False
 
-2022-03-29 05:37:15 PM dealing_start_year: 1901
+2022-03-29 07:31:06 PM dealing_start_year: 1901
 
-2022-03-29 05:37:22 PM Data Processing
+2022-03-29 07:31:09 PM Data Processing
 
-2022-03-29 05:37:22 PM Reading table: Country, Time: 6s
+2022-03-29 07:31:09 PM Reading table: Country, Time: 2s
 
-2022-03-29 05:37:22 PM Reading table: TABLES, Time: 7 s
+2022-03-29 07:31:09 PM Reading table: TABLES, Time: 2 s
 
-2022-03-29 05:37:29 PM Reading file: country_series, Time: 14 s
+2022-03-29 07:31:13 PM Reading file: country_series, Time: 6 s
 
-2022-03-29 05:37:29 PM Reading file: 542datasets, Time: 14 s
+2022-03-29 07:31:13 PM Reading file: 576datasets, Time: 6 s
 
-2022-03-29 05:37:30 PM 
+2022-03-29 07:31:13 PM 
 
-2022-03-29 05:37:30 PM ====== WebDriver manager ======
-2022-03-29 05:37:30 PM Current google-chrome version is 99.0.4844
-2022-03-29 05:37:30 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-03-29 05:37:31 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-03-29 05:37:33 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-03-29 05:37:35 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#1, sheet: Annual, frequency: A, Time: 20s
+2022-03-29 07:31:13 PM ====== WebDriver manager ======
+2022-03-29 07:31:14 PM Current google-chrome version is 99.0.4844
+2022-03-29 07:31:14 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-29 07:31:14 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-03-29 07:31:16 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-03-29 07:31:18 PM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/initApiList.action#1, sheet: Gross Domestic Product At Current Prices By Industry Annual, frequency: A, Time: 11s
 
-2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:18 PM Downloading file: Gross Domestic Product At Current Prices By Industry Annual
 
-2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:23 PM Getting Data From Website
 
-2022-03-29 05:37:35 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 07:31:30 PM Total New Items Found: 0 Time: 23 s
 
-2022-03-29 05:37:35 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#2, sheet: Quarterly_Nominal_SA, frequency: Q, Time: 20s
+2022-03-29 07:31:30 PM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/initApiList.action#2, sheet: Gross Domestic Product In Chained Dollars By Industry Annual, frequency: A, Time: 23s
 
-2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:30 PM Downloading file: Gross Domestic Product In Chained Dollars By Industry Annual
 
-2022-03-29 05:37:35 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:34 PM Getting Data From Website
 
-2022-03-29 05:37:36 PM Total New Items Found: 0 Time: 20 s
+2022-03-29 07:31:39 PM Total New Items Found: 0 Time: 32 s
 
-2022-03-29 05:37:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#3, sheet: Quarterly_Real_SA, frequency: Q, Time: 21s
+2022-03-29 07:31:40 PM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/initApiList.action#3, sheet: Gross Domestic Product At Current Prices By Industry Quarterly, frequency: Q, Time: 33s
 
-2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:40 PM Downloading file: Gross Domestic Product At Current Prices By Industry Quarterly
 
-2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:43 PM Getting Data From Website
 
-2022-03-29 05:37:36 PM Total New Items Found: 0 Time: 21 s
+2022-03-29 07:31:50 PM Total New Items Found: 0 Time: 43 s
 
-2022-03-29 05:37:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#4, sheet: Quarterly_Nominal_NSA, frequency: Q, Time: 21s
+2022-03-29 07:31:50 PM Country: Singapore, Reading file or url: https://www.tablebuilder.singstat.gov.sg/publicfacing/initApiList.action#4, sheet: Gross Domestic Product In Chained Dollars By Industry Quarterly, frequency: Q, Time: 43s
 
-2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:50 PM Downloading file: Gross Domestic Product In Chained Dollars By Industry Quarterly
 
-2022-03-29 05:37:36 PM Present File Exists. Reading Data From Default Path.
+2022-03-29 07:31:54 PM Getting Data From Website
 
-2022-03-29 05:37:37 PM Total New Items Found: 0 Time: 21 s
+2022-03-29 07:32:00 PM Total New Items Found: 0 Time: 53 s
 
-2022-03-29 05:37:37 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#5, sheet: Quarterly_Real_NSA, frequency: Q, Time: 21s
-
-2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 05:37:37 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 05:37:37 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#6, sheet: Monthly_NA1, frequency: M, Time: 22s
-
-2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 05:37:37 PM Present File Exists. Reading Data From Default Path.
-
-2022-03-29 05:37:38 PM Total New Items Found: 0 Time: 22 s
-
-2022-03-29 05:37:38 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#7, sheet: Monthly_NA2, frequency: M, Time: 22s
-
-2022-03-29 05:37:38 PM Downloading file: Monthly_NA2
-
-2022-03-29 05:37:56 PM Getting Data From Website
-
-2022-03-29 05:40:12 PM Total New Items Found: 0 Time: 177 s
-
-2022-03-29 05:40:12 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#8, sheet: Credit to Households, frequency: Q, Time: 177s
-
-2022-03-29 05:40:12 PM Downloading file: Credit to Households
-
-2022-03-29 05:40:13 PM Getting Data From Website
-
-2022-03-29 05:40:30 PM Total New Items Found: 0 Time: 195 s
-
-2022-03-29 05:40:30 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#9, sheet: Monthly_FS, frequency: M, Time: 195s
-
-2022-03-29 05:40:30 PM Downloading file: Monthly_FS
-
-2022-03-29 05:40:30 PM Getting Data From Website
-
-2022-03-29 05:41:33 PM Total New Items Found: 0 Time: 258 s
-
-2022-03-29 05:41:34 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#1, sheet: Quarterly_KOS, frequency: Q, Time: 258s
-
-2022-03-29 05:41:34 PM Downloading file: Quarterly_previous
-
-2022-03-29 05:41:40 PM Getting Data From Website
-
-2022-03-29 05:41:46 PM = ! = Error in line 247 inside check_response: [NoSuchElementException] Message: no such element: Unable to locate element: {"method":"xpath","selector":".//iframe[@title[contains(., "Average monthly income & expenditure (real,urban excl.1 person and farm)")]]"}
-  (Session info: chrome=99.0.4844.82)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x01239943+2595139]
-	Ordinal0 [0x011CC9F1+2148849]
-	Ordinal0 [0x010C4528+1066280]
-	Ordinal0 [0x010F0FD4+1249236]
-	Ordinal0 [0x010F11CB+1249739]
-	Ordinal0 [0x0111D812+1431570]
-	Ordinal0 [0x0110BA34+1358388]
-	Ordinal0 [0x0111BAF2+1424114]
-	Ordinal0 [0x0110B806+1357830]
-	Ordinal0 [0x010E6086+1204358]
-	Ordinal0 [0x010E6F96+1208214]
-	GetHandleVerifier [0x013DB232+1658114]
-	GetHandleVerifier [0x0149312C+2411516]
-	GetHandleVerifier [0x012CF261+560433]
-	GetHandleVerifier [0x012CE366+556598]
-	Ordinal0 [0x011D286B+2173035]
-	Ordinal0 [0x011D75F8+2192888]
-	Ordinal0 [0x011D76E5+2193125]
-	Ordinal0 [0x011E11FC+2232828]
-	BaseThreadInitThunk [0x762FFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x775F7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x775F7A4E+238]
-
+2022-03-29 07:32:10 PM = ! = No new items were found.
