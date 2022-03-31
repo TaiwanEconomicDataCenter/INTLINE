@@ -723,7 +723,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
         except:
             xl = win32.DispatchEx('Excel.Application')
         xl.DisplayAlerts=False
-        xl.Visible = 1
+        xl.Visible = 0
         ExcelFile = xl.Workbooks.Open(Filename=os.path.realpath(data_path+str(country)+'/'+address+str(file_name)+'.xls'+excel))
         for sh in range(1, ExcelFile.Sheets.Count+1):
             if ExcelFile.Worksheets(sh).Name == sheet_name:
@@ -1732,15 +1732,21 @@ def INTLINE_STOCK(chrome, data_path, country, address, fname, sname, freq, keywo
         elif freq == 'W':
             IN_t.columns = [(datetime.strptime(str(col).strip(), '%Y-%m-%d')-timedelta(days=daydelta)).strftime('%Y-%m-%d') if str(col).strip()[:4].isnumeric() else '' for col in IN_t.columns]
     else:
-        try:
-            WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/i[@class="popupCloseIcon largeBannerCloser"]'))).click()
-        except TimeoutException:
-            time.sleep(0)
+        # try:
+        #     WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/i[@class="popupCloseIcon largeBannerCloser"]'))).click()
+        # except TimeoutException:
+        #     time.sleep(0)
         price = 'Price'
         daydelta = 1
-        Select(chrome.find_element_by_id("data_interval")).select_by_value(FREQ[freq])
-        WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, "widgetFieldDateRange"))).click()
-        ActionChains(chrome).key_down(Keys.CONTROL).key_down("a").send_keys(Keys.BACKSPACE).key_up(Keys.CONTROL).key_up("a").send_keys(start).send_keys(Keys.ENTER).perform()
+        while True:
+            try:
+                Select(chrome.find_element_by_id("data_interval")).select_by_value(FREQ[freq])
+                WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, "widgetFieldDateRange"))).click()
+                ActionChains(chrome).key_down(Keys.CONTROL).key_down("a").send_keys(Keys.BACKSPACE).key_up(Keys.CONTROL).key_up("a").send_keys(start).send_keys(Keys.ENTER).perform()
+            except ElementClickInterceptedException:
+                ActionChains(chrome).send_keys(Keys.ESCAPE).perform()
+            else:
+                break
         while True:
             try:
                 time.sleep(0.5)
@@ -1871,6 +1877,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         done = True
     elif address.find('MAS/OFRV') >= 0:
         json_data = rq.get(fname).content
+        #TypeError: Expected file path name or file-like object, got <class 'bytes'> type
+        #pd.read_json(json_data) -> pd.read_json(BytesIO(json_data))
+        if type(json_data) == bytes:
+            json_data = BytesIO(json_data)
         INTLINE_temp = pd.DataFrame.from_dict(pd.read_json(json_data).loc['records','result']).set_index('end_of_month')
         INTLINE_temp = INTLINE_temp.sort_index(axis=0)
         done = True
@@ -1923,7 +1933,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         if address.find('MEASTF') >= 0:
             time.sleep(2)
     y = 0
-    height = chrome.execute_script("return document.documentElement.scrollHeight")
+    chrome.set_script_timeout(10)
+    try:
+        height = chrome.execute_script("return document.documentElement.scrollHeight")
+    except TimeoutException:
+        height = 1500
     while True:
         logging.info("Getting Data From Website\n")
         if done == True:
@@ -2390,41 +2404,49 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     else:
                         sys.stdout.write('\n\n')
                         break
-                chrome.switch_to.frame(chrome.find_element_by_xpath('.//iframe[@title[contains(., "'+str(route[-1])+'")]]'))
-                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/p[@class="leftBtn"]'))).click()
-                chrome.switch_to.frame('ifrSearchDetail')
-                for button in WebDriverWait(chrome, 20).until(EC.presence_of_all_elements_located((By.XPATH, './/img[@title="Clear all"]'))):
-                    button.click()
-                Attributes = []
-                for k in range(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].shape[0]):
-                    Attributes.extend(re.split(r', ', str(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].iloc[k]['keyword'])))
-                Attributes = list(set(Attributes))
-                for attri in Attributes:
-                    chrome.find_element_by_xpath('.//option[contains(., "'+str(attri)+'")]').click()
-                    chrome.find_element_by_xpath('.//div[@class="detailPart"][contains(., "'+str(attri)+'")]//img[@title="Additional"]').click()
-                chrome.find_element_by_xpath('.//li[text()="'+FREQ[freq]+'"]').click()
-                chrome.find_element_by_xpath('.//div[@class="detailPart"][contains(., "'+FREQ[freq]+'")]//img[@title="Additional all"]').click()
-                for r in range(6):
-                    ActionChains(chrome).send_keys(Keys.RIGHT).perform()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Apply', text_match=True)
+                new_version = False
                 try:
-                    chrome.switch_to.parent_frame()
-                except UnexpectedAlertPresentException:
-                    chrome.switch_to.alert.accept()
-                    chrome.switch_to.parent_frame()
-                time.sleep(3)
-                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[@title="Pivot"]'))).click()
-                for item in chrome.find_elements_by_xpath('.//ul[@id="ulRight"]//li'):
-                    if item.text.find('Time Period') < 0:
-                        item.click()
-                        chrome.find_element_by_xpath('.//img[@title="Move to the left"]').click()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome.find_element_by_xpath('.//div[@id="pop_pivotfunc"]'), fname, keyword='Apply', text_match=True)
-                time.sleep(3)
-                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[@id="ico_download"]'))).click()
-                chrome.find_element_by_xpath('.//input[@value="original"]').click()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome.find_element_by_xpath('.//div[@id="pop_downgrid"]'), fname, keyword='downGridSubmit')
-                chrome.switch_to.default_content()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Statistical list', text_match=True)
+                    chrome.switch_to.frame(chrome.find_element_by_xpath('.//iframe[@title[contains(., "'+str(route[-1])+'")]]'))
+                except NoSuchElementException:
+                    new_version = True
+                if new_version:
+                    chrome.close()
+                    chrome.switch_to.window(chrome.window_handles[0])
+                else:
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/p[@class="leftBtn"]'))).click()
+                    chrome.switch_to.frame('ifrSearchDetail')
+                    for button in WebDriverWait(chrome, 20).until(EC.presence_of_all_elements_located((By.XPATH, './/img[@title="Clear all"]'))):
+                        button.click()
+                    Attributes = []
+                    for k in range(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].shape[0]):
+                        Attributes.extend(re.split(r', ', str(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].iloc[k]['keyword'])))
+                    Attributes = list(set(Attributes))
+                    for attri in Attributes:
+                        chrome.find_element_by_xpath('.//option[contains(., "'+str(attri)+'")]').click()
+                        chrome.find_element_by_xpath('.//div[@class="detailPart"][contains(., "'+str(attri)+'")]//img[@title="Additional"]').click()
+                    chrome.find_element_by_xpath('.//li[text()="'+FREQ[freq]+'"]').click()
+                    chrome.find_element_by_xpath('.//div[@class="detailPart"][contains(., "'+FREQ[freq]+'")]//img[@title="Additional all"]').click()
+                    for r in range(6):
+                        ActionChains(chrome).send_keys(Keys.RIGHT).perform()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Apply', text_match=True)
+                    try:
+                        chrome.switch_to.parent_frame()
+                    except UnexpectedAlertPresentException:
+                        chrome.switch_to.alert.accept()
+                        chrome.switch_to.parent_frame()
+                    time.sleep(3)
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[@title="Pivot"]'))).click()
+                    for item in chrome.find_elements_by_xpath('.//ul[@id="ulRight"]//li'):
+                        if item.text.find('Time Period') < 0:
+                            item.click()
+                            chrome.find_element_by_xpath('.//img[@title="Move to the left"]').click()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome.find_element_by_xpath('.//div[@id="pop_pivotfunc"]'), fname, keyword='Apply', text_match=True)
+                    time.sleep(3)
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[@id="ico_download"]'))).click()
+                    chrome.find_element_by_xpath('.//input[@value="original"]').click()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome.find_element_by_xpath('.//div[@id="pop_downgrid"]'), fname, keyword='downGridSubmit')
+                    chrome.switch_to.default_content()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Statistical list', text_match=True)
                 if freq == 'Q' and previous == False:
                     note.append(['Note', re.sub(r'\s+', " ", note_content)])
             elif address.find('KERI') >= 0:

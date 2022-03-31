@@ -146,7 +146,6 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Sep,3.54
 ,Oct,3.77
 ,Nov,3.67
-,Dec,3.7
 2000,Jan,3.96
 ,Feb,3.75
 ,Mar,3.73
@@ -408,6 +407,8 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Jul,0.75
 ,Aug,0.79
 ,Sep,0.94
+,Oct,1.46
+,Nov,1.28
 
 "* Data reflects bid rates quoted by SGS Primary Dealers to each other based on standard market lot transactions as specified in the Rules and Market Practices of the SGS Market. Prices quoted to non-Primary Dealers may be different, subject to factors such as transaction size and administrative costs."
 "* Figures before 2000 are the modes of closing bid prices quoted by SGS primary dealers."

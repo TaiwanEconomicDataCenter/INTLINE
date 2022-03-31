@@ -1,6 +1,6 @@
 SGS Prices and Yields - Benchmark Issues (2005 to 2007)
 
-Jan 1988 to Dec 2021 (Monthly)
+Jan 1988 to Dec 2022 (Monthly)
 
 ,,Average Buying Rates of Govt Securities Dealers 5-Year Bond Yield
 1988,Jan,4.95
@@ -41,7 +41,6 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Dec,5.19
 1991,Jan,5.2
 ,Feb,5.11
-,Mar,5.03
 ,Apr,5.02
 ,May,5.03
 ,Jun,5.08
@@ -146,6 +145,7 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Sep,3.54
 ,Oct,3.77
 ,Nov,3.67
+,Dec,3.7
 2000,Jan,3.96
 ,Feb,3.75
 ,Mar,3.73
@@ -172,7 +172,6 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Dec,3.42
 2002,Jan,3.36
 ,Feb,3.11
-,Mar,3.2
 ,Apr,2.97
 ,May,2.95
 ,Jun,2.78
@@ -409,6 +408,9 @@ Jan 1988 to Dec 2021 (Monthly)
 ,Sep,0.94
 ,Oct,1.46
 ,Nov,1.28
+,Dec,1.36
+2022,Jan,1.57
+,Feb,1.69
 
 "* Data reflects bid rates quoted by SGS Primary Dealers to each other based on standard market lot transactions as specified in the Rules and Market Practices of the SGS Market. Prices quoted to non-Primary Dealers may be different, subject to factors such as transaction size and administrative costs."
 "* Figures before 2000 are the modes of closing bid prices quoted by SGS primary dealers."
