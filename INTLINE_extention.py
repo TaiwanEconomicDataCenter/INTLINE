@@ -2409,18 +2409,94 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     chrome.switch_to.frame(chrome.find_element_by_xpath('.//iframe[@title[contains(., "'+str(route[-1])+'")]]'))
                 except NoSuchElementException:
                     new_version = True
+                Attributes = []
+                for k in range(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].shape[0]):
+                    Attributes.extend(re.split(r', ', str(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].iloc[k]['keyword'])))
+                Attributes = list(set(Attributes))
                 if new_version:
                     chrome.close()
                     chrome.switch_to.window(chrome.window_handles[0])
+                    chrome.switch_to.frame('iframe_rightMenu')
+                    chrome.switch_to.frame('iframe_centerMenu1')
+                    timeStart = time.time()
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/button[@class="Btn_querySetting"]'))).click()
+                        except ElementClickInterceptedException:
+                            if int(time.time() - timeStart) > 30:
+                                chrome.get(fname)
+                                raise TimeoutException
+                            time.sleep(0)
+                        else:
+                            break
+                    setting_list = chrome.find_elements_by_xpath('.//h3[contains(@class, "set_menu")]/following-sibling::div')
+                    for setting in setting_list:
+                        if str(setting.get_attribute('aria-labelledby')).find('Time') < 0:
+                            chrome.execute_script("arguments[0].setAttribute('style', 'display: block;')", setting)
+                            try:
+                                if WebDriverWait(setting, 2).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Select all")]/input'))).get_attribute('checked') == 'true':
+                                    WebDriverWait(setting, 2).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Select all")]/input'))).click()
+                            except:
+                                continue
+                            for attri in Attributes:
+                                try:
+                                    WebDriverWait(setting, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(@class, "fancytree-node")][contains(., "'+str(attri)+'")]/span[@class="fancytree-checkbox"]'))).click()
+                                except:
+                                    continue
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/button[@class="btn_search"]'))).click()
+                    timeStart = time.time()
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[@class="btn_time"]'))).click()
+                        except ElementClickInterceptedException:
+                            if int(time.time() - timeStart) > 30:
+                                chrome.get(fname)
+                                raise TimeoutException
+                            time.sleep(0)
+                        else:
+                            break
+                    Select(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@title="Time Month/Time Quarter"]')))).select_by_value("all")
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/button[@title="Apply"]'))).click()
+                    timeStart = time.time()
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 2).until(EC.visibility_of_element_located((By.XPATH, './/button[@title="Pivot"]'))).click()
+                        except ElementClickInterceptedException:
+                            if int(time.time() - timeStart) > 30:
+                                chrome.get(fname)
+                                raise TimeoutException
+                            time.sleep(0)
+                        else:
+                            break
+                    index_column = chrome.find_element_by_xpath('.//ul[@id="ulLeft"]')
+                    for item in chrome.find_elements_by_xpath('.//ul[@id="ulRight"]//li'):
+                        if item.text.find('Time Period') < 0:
+                            ActionChains(chrome).drag_and_drop(item, index_column).perform()
+                            # moved_item = chrome.find_element_by_xpath('.//ul[@id="ulLeft"]/li[1]')
+                            # target_item = chrome.find_element_by_xpath('.//ul[@id="ulLeft"]/li[2]')
+                            # ActionChains(chrome).click_and_hold(moved_item).perform()
+                            # ActionChains(chrome).move_to_element_with_offset(target_item , 70, 80).perform()
+                            # ActionChains(chrome).release(moved_item).perform()
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[@class="confirmBtn"]/a[contains(., "Apply")]'))).click()
+                    timeStart = time.time()
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[@id="ico_download"]'))).click()
+                        except ElementClickInterceptedException:
+                            if int(time.time() - timeStart) > 30:
+                                chrome.get(fname)
+                                raise TimeoutException
+                            time.sleep(0)
+                        else:
+                            break
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[@class="confirmBtn"]/a[contains(., "Download")]'))).click()
+                    link_found = True
+                    time.sleep(5)
                 else:
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/p[@class="leftBtn"]'))).click()
                     chrome.switch_to.frame('ifrSearchDetail')
                     for button in WebDriverWait(chrome, 20).until(EC.presence_of_all_elements_located((By.XPATH, './/img[@title="Clear all"]'))):
                         button.click()
-                    Attributes = []
-                    for k in range(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].shape[0]):
-                        Attributes.extend(re.split(r', ', str(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].iloc[k]['keyword'])))
-                    Attributes = list(set(Attributes))
                     for attri in Attributes:
                         chrome.find_element_by_xpath('.//option[contains(., "'+str(attri)+'")]').click()
                         chrome.find_element_by_xpath('.//div[@class="detailPart"][contains(., "'+str(attri)+'")]//img[@title="Additional"]').click()
@@ -2460,7 +2536,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         try:
                             WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/a[text()="'+str(page)+'"]'))).click()
                         except TimeoutException:
-                            raise KeyError('Date of data file '+str(file_name)+' Not Found.')
+                            #raise KeyError('Date of data file '+str(file_name)+' Not Found.')
+                            logging.info('Date of data file '+str(file_name)+' Not Found.')
+                            return pd.DataFrame()
                     else:
                         break
                 chrome.switch_to.window(chrome.window_handles[-1])
@@ -2523,9 +2601,19 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     if str(sname).find('2005') < 0:
                         ERROR('The base year of Index has been modified. Please find the table with the latest Index and do the modification on tableINT.')
                 note_content = re.sub(r'.*?\((.+?)\).*', r"\1", chrome.find_element_by_xpath('.//span[@class="hierarchical_tableinformation_title"]').text)
-                target = WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_saveas_dropdownlist"]')))
-                Select(target).select_by_visible_text('Excel (xlsx)')
-                ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                # target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_saveas_dropdownlist"]')))
+                # Select(target).select_by_visible_text('Excel (xlsx)')
+                # ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                if str(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'btnBurgerMenu'))).get_attribute('class')).find('open') < 0:
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'btnBurgerMenu'))).click()
+                if str(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).get_attribute('class')).find('closed') >= 0:
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
+                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/h2[contains(., "Tools")]'))).click()
+                for i in range(10):
+                    ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel (xlsx)")]'))).click()
+                target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'SaveAsBody')))
+                WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Save"]'))).click()
                 link_found = True
                 if note_content.find('ESA') >= 0:
                     note.append(['Note', re.sub(r'\s+', " ", note_content)])
@@ -2694,7 +2782,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('MOCI') >= 0:
                 INTLINE_temp = pd.DataFrame()
                 for yr in [datetime.today().year-1, datetime.today().year]:
-                    Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="yy1"]')))).select_by_visible_text(str(yr)+'-'+str(yr+1))
+                    try:
+                        Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="yy1"]')))).select_by_visible_text(str(yr)+'-'+str(yr+1))
+                    except:
+                        continue
                     Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="rgnid"]')))).select_by_visible_text('All')
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.ID, 'radiousd'))).click()
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Submit"]'))).click()
@@ -6922,6 +7013,8 @@ def INTLINE_KERI(chrome, data_path, country, address, fname, sname, tables, freq
             if key_period[-2:] == '01':
                 key_period = str(int(key_period[:4])-1)+key_period[4:]
             INTLINE_temp = INTLINE_WEB(chrome, country, address+'historical_data/', fname, sname+'_'+str(period[2:4]+period[-2:]), freq=freq, tables=tables, header=header, index_col=index_col, skiprows=skiprows, file_name=key_period, specific_sheet=True)
+        if INTLINE_temp.empty:
+            continue
         start = 3
         while True:
             table_found = False
