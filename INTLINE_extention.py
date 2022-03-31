@@ -1929,6 +1929,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         INTLINE_temp = pd.read_csv(BytesIO(data), header=[2], index_col=0, low_memory=False)
         done = True
     else:
+        chrome.set_page_load_timeout(60)
         chrome.get(fname)
         if address.find('MEASTF') >= 0:
             time.sleep(2)
@@ -2816,7 +2817,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Apply")]'))).click()
                 WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Apply")]')))
                 INTLINE_temp = pd.read_html(chrome.page_source, skiprows=html_skip, header=header, index_col=index_col)[0]
-                INTLINE_temp = INTLINE_temp.applymap(lambda x: float(x) if str(x)[0].isnumeric() else x)
+                INTLINE_temp = INTLINE_temp.applymap(lambda x: float(re.sub(r'[A-Z]+', "", x)) if str(x)[0].isnumeric() else x)
                 link_found = True
             elif address.find('CFIB') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='economic-indicators')
