@@ -3639,25 +3639,30 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     ActionChains(chrome).send_keys(Keys.UP).perform()
                 WebDriverWait(chrome, 3).until(EC.visibility_of_element_located((By.XPATH, './/div[@data-idx="2"]/button[@id="esportaTaxo"]'))).click()
                 time.sleep(1)
-                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'excel'))).click()
-                WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'alldateExport'))).click()
+                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'excel_ButtonToRadio'))).click()
+                WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'alldateExport_ButtonToRadio'))).click()
                 #WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'expData'))).click()
-                while WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).get_attribute('checked') != 'true':
-                    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).click()
-                WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'descrizioniExport'))).click()
+                # while WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).get_attribute('checked') != 'true':
+                #     WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).click()
+                WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'descrizioniExport_ButtonToRadio'))).click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'applicaExport'))).click()
                 timeStart = time.time()
                 while True:
                     try:
-                        WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'descrizioniExport'))).click()
+                        WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'excel_ButtonToRadio'))).click()
                     except ElementClickInterceptedException:
-                        if int(time.time()-timeStart) >= 300:
+                        if int(time.time()-timeStart) >= 100:
                             ERROR('The file was not properly downloaded')
                         time.sleep(0)
                     else:
                         break
                 link_found = True
+                chrome.get(fname)
             elif address.find('ANFIA') >= 0:
+                try:
+                    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/button[@class="iubenda-cs-close-btn"]'))).click()
+                except:
+                    time.sleep(0)
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Passenger cars, press release tables', text_match=True)
             elif address.find('SIDRA') >= 0:
                 WebDriverWait(chrome, 50).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Funções")]'))).click()
@@ -3756,12 +3761,12 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('CNI') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='recentseri')
             elif address.find('STANOR') >= 0:
+                ActionChains(chrome).send_keys(Keys.DOWN).perform()
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-                for r in range(6):
+                for r in range(12):
                     ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                time.sleep(2)
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel")]'))).click()
-                for r in range(6):
-                    ActionChains(chrome).send_keys(Keys.DOWN).perform()
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"][@value="Save"]'))).click()
                 link_found = True
             elif address.find('NORGES') >= 0:

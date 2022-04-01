@@ -1,137 +1,600 @@
-﻿2022-04-01 06:12:02 PM excel_suffix: NEW
+﻿2022-04-01 07:05:57 PM excel_suffix: NEW
 
-2022-04-01 06:12:02 PM data_processing: True
+2022-04-01 07:05:57 PM data_processing: True
 
-2022-04-01 06:12:02 PM find_unknown: False
+2022-04-01 07:05:57 PM find_unknown: False
 
-2022-04-01 06:12:02 PM dealing_start_year: 1901
+2022-04-01 07:05:57 PM dealing_start_year: 1901
 
-2022-04-01 06:12:07 PM Data Processing
+2022-04-01 07:06:04 PM Data Processing
 
-2022-04-01 06:12:07 PM Reading table: Country, Time: 4s
+2022-04-01 07:06:04 PM Reading table: Country, Time: 6s
 
-2022-04-01 06:12:07 PM Reading table: TABLES, Time: 4 s
+2022-04-01 07:06:04 PM Reading table: TABLES, Time: 6 s
 
-2022-04-01 06:12:18 PM Reading file: country_series, Time: 16 s
+2022-04-01 07:06:15 PM Reading file: country_series, Time: 17 s
 
-2022-04-01 06:12:19 PM Reading file: 142datasets, Time: 16 s
+2022-04-01 07:06:15 PM Reading file: 136datasets, Time: 17 s
 
-2022-04-01 06:12:19 PM 
+2022-04-01 07:06:16 PM 
 
-2022-04-01 06:12:19 PM ====== WebDriver manager ======
-2022-04-01 06:12:19 PM Current google-chrome version is 99.0.4844
-2022-04-01 06:12:19 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-04-01 06:12:19 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-04-01 06:12:22 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-04-01 06:12:24 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 21s
+2022-04-01 07:06:16 PM ====== WebDriver manager ======
+2022-04-01 07:06:16 PM Current google-chrome version is 99.0.4844
+2022-04-01 07:06:16 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-04-01 07:06:16 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-04-01 07:06:19 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-04-01 07:06:21 PM Country: Italy, Reading file or url: https://www.anfia.it/en/statistical-data/italy-new-registrations, sheet: Italy New registrations, frequency: M, Time: 23s
 
-2022-04-01 06:12:24 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:21 PM Downloading file: Italy New registrations
 
-2022-04-01 06:12:24 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:25 PM Getting Data From Website
 
-2022-04-01 06:12:25 PM Total New Items Found: 0 Time: 22 s
+2022-04-01 07:06:34 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 22s
+2022-04-01 07:06:34 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:35 PM Total New Items Found: 0 Time: 37 s
 
-2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:35 PM Reading file: Datasets, Time: 37 s
 
-2022-04-01 06:12:25 PM Total New Items Found: 0 Time: 23 s
+2022-04-01 07:06:36 PM Reading file: country_series, Time: 38 s
 
-2022-04-01 06:12:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 23s
+2022-04-01 07:06:36 PM Reading file: 223datasets, Time: 38 s
 
-2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:36 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/2681#/n1/all/v/allxp/p/all/c244/0/c1836/0/c2/all/c260/0/c257/107166/l/v,p+c244+c1836,t+c260+c257+c2/resultado, sheet: Number of deaths in the year, frequency: A, Time: 38s
 
-2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:26 PM Total New Items Found: 0 Time: 23 s
+2022-04-01 07:06:36 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 23s
+2022-04-01 07:06:36 PM Total New Items Found: 0 Time: 38 s
 
-2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#1, sheet: Balance on goods - Balance of Payments - annual - net, frequency: A, Time: 39s
 
-2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:26 PM Total New Items Found: 0 Time: 24 s
+2022-04-01 07:06:37 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-01 06:12:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 24s
+2022-04-01 07:06:37 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: A, Time: 39s
 
-2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-01 06:12:27 PM Total New Items Found: 0 Time: 24 s
+2022-04-01 07:06:37 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: Q, Time: 39s
 
-2022-04-01 06:12:27 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 24s
+2022-04-01 07:06:37 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: M, Time: 39s
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:37 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-01 06:12:27 PM Total New Items Found: 0 Time: 25 s
+2022-04-01 07:06:38 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: A, Time: 40s
 
-2022-04-01 06:12:27 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 25s
+2022-04-01 07:06:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:38 PM Total New Items Found: 0 Time: 40 s
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:38 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: M, Time: 40s
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:38 PM Total New Items Found: 0 Time: 40 s
 
-2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:38 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#4, sheet: Broad National Consumer Price Index, frequency: M, Time: 40s
 
-2022-04-01 06:12:28 PM Total New Items Found: 0 Time: 25 s
+2022-04-01 07:06:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:28 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 25s
+2022-04-01 07:06:38 PM Total New Items Found: 0 Time: 41 s
 
-2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:39 PM Country: Brazil, Reading file or url: https://www.bcb.gov.br/en/statistics/specialseries, sheet: Gross and net general government debt historical series, frequency: M, Time: 41s
 
-2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:28 PM Total New Items Found: 0 Time: 26 s
+2022-04-01 07:06:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:28 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 26s
+2022-04-01 07:06:39 PM Total New Items Found: 0 Time: 41 s
 
-2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:39 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#5, sheet: External sector, frequency: M, Time: 41s
 
-2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 26 s
+2022-04-01 07:06:39 PM Total New Items Found: 0 Time: 42 s
 
-2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 26s
+2022-04-01 07:06:40 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#6, sheet: Money supply, frequency: M, Time: 42s
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:40 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:40 PM Total New Items Found: 0 Time: 42 s
 
-2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 26 s
+2022-04-01 07:06:40 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#7, sheet: Production of petroleum derivatives, frequency: M, Time: 42s
 
-2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 27s
+2022-04-01 07:06:40 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:40 PM Total New Items Found: 0 Time: 42 s
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:41 PM Country: Brazil, Reading file or url: http://comexstat.mdic.gov.br/en/geral/47028, sheet: General Exports and Imports, frequency: M, Time: 43s
 
-2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 27 s
+2022-04-01 07:06:41 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 27s
+2022-04-01 07:06:41 PM Total New Items Found: 0 Time: 43 s
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:41 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/3416#/n1/all/n3/33,35/v/564/p/all/c11046/40311,40312/d/v564%201/l/v,p,c11046+t/resultado, sheet: Volume and nominal revenue indices from sales in retail trade by types of index, frequency: M, Time: 43s
 
-2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:41 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:30 PM Total New Items Found: 0 Time: 27 s
+2022-04-01 07:06:41 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:30 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 27s
+2022-04-01 07:06:41 PM Total New Items Found: 0 Time: 43 s
 
-2022-04-01 06:12:30 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:42 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/3418#/n1/all/n3/33,35/v/564/p/all/c11046/40311/c85/2759,90671,90672,90673,103154,103155,103156,103157,103158/d/v564%201/l/v,p+c11046,t+c85/resultado, sheet: Volume and nominal revenue indices from sales in retail trade by types of index and activities, frequency: M, Time: 44s
 
-2022-04-01 06:12:30 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 07:06:42 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:30 PM Total New Items Found: 0 Time: 28 s
+2022-04-01 07:06:42 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 06:12:30 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 28s
+2022-04-01 07:06:42 PM Total New Items Found: 0 Time: 44 s
 
-2022-04-01 06:12:30 PM Downloading file: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter
+2022-04-01 07:06:42 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/1736#/n1/all/v/2289,2292/p/all/d/v2289%2013,v2292%202/l/,p,t+v/resultado, sheet: Table 1736 indice, frequency: M, Time: 44s
 
+2022-04-01 07:06:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:42 PM Total New Items Found: 0 Time: 44 s
+
+2022-04-01 07:06:43 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/1737#/n1/all/v/2265,2266/p/all/d/v2265%202,v2266%2013/l/,p,t+v/resultado, sheet: Table 1737 indice, frequency: M, Time: 45s
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:43 PM Total New Items Found: 0 Time: 45 s
+
+2022-04-01 07:06:43 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/7060#/n1/all/v/2265/p/all/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v2265%202/l/,p+t+v,c315/resultado, sheet: Table 7060, frequency: M, Time: 45s
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:43 PM Total New Items Found: 0 Time: 45 s
+
+2022-04-01 07:06:43 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/7063#/n1/all/v/2292/p/all/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v2292%202/l/,t+p+v,c315/resultado, sheet: Table 7063, frequency: M, Time: 45s
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:44 PM Total New Items Found: 0 Time: 46 s
+
+2022-04-01 07:06:44 PM Country: Brazil, Reading file or url: https://extra-ibre.fgv.br/autenticacao_produtos_licenciados/?ReturnUrl=%2fautenticacao_produtos_licenciados%2flista-produtos.aspx, sheet: Wholesale Price Index, frequency: M, Time: 46s
+
+2022-04-01 07:06:44 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:44 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:44 PM Total New Items Found: 0 Time: 46 s
+
+2022-04-01 07:06:45 PM Country: Brazil, Reading file or url: https://www.portaldaindustria.com.br/estatisticas/icei-industrial-sectors/, sheet: Business Confidence Index, frequency: M, Time: 47s
+
+2022-04-01 07:06:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:45 PM Total New Items Found: 0 Time: 47 s
+
+2022-04-01 07:06:45 PM Reading file: Datasets, Time: 47 s
+
+2022-04-01 07:06:45 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: M, Time: 48s
+
+2022-04-01 07:06:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:45 PM Total New Items Found: 0 Time: 48 s
+
+2022-04-01 07:06:45 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: Q, Time: 48s
+
+2022-04-01 07:06:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:46 PM Total New Items Found: 0 Time: 48 s
+
+2022-04-01 07:06:46 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: A, Time: 48s
+
+2022-04-01 07:06:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:46 PM Total New Items Found: 0 Time: 48 s
+
+2022-04-01 07:06:46 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: W, Time: 48s
+
+2022-04-01 07:06:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:46 PM Total New Items Found: 0 Time: 48 s
+
+2022-04-01 07:06:46 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: D, Time: 48s
+
+2022-04-01 07:06:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:46 PM Total New Items Found: 0 Time: 48 s
+
+2022-04-01 07:06:46 PM Reading file: Datasets, Time: 48 s
+
+2022-04-01 07:06:47 PM Country: Brazil, Reading file or url: WSA, sheet: 0, frequency: M, Time: 49s
+
+2022-04-01 07:06:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:47 PM Total New Items Found: 0 Time: 49 s
+
+2022-04-01 07:06:47 PM Reading file: country_series, Time: 49 s
+
+2022-04-01 07:06:47 PM Reading file: 142datasets, Time: 49 s
+
+2022-04-01 07:06:47 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 49s
+
+2022-04-01 07:06:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:48 PM Total New Items Found: 0 Time: 50 s
+
+2022-04-01 07:06:48 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 50s
+
+2022-04-01 07:06:48 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:48 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:48 PM Total New Items Found: 0 Time: 50 s
+
+2022-04-01 07:06:49 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 51s
+
+2022-04-01 07:06:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:49 PM Total New Items Found: 0 Time: 51 s
+
+2022-04-01 07:06:49 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 51s
+
+2022-04-01 07:06:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:50 PM Total New Items Found: 0 Time: 52 s
+
+2022-04-01 07:06:50 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 52s
+
+2022-04-01 07:06:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:50 PM Total New Items Found: 0 Time: 52 s
+
+2022-04-01 07:06:50 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 52s
+
+2022-04-01 07:06:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:50 PM Total New Items Found: 0 Time: 52 s
+
+2022-04-01 07:06:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 53s
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Total New Items Found: 0 Time: 53 s
+
+2022-04-01 07:06:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 53s
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Total New Items Found: 0 Time: 53 s
+
+2022-04-01 07:06:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 53s
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:51 PM Total New Items Found: 0 Time: 54 s
+
+2022-04-01 07:06:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 54s
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:52 PM Total New Items Found: 0 Time: 54 s
+
+2022-04-01 07:06:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 54s
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:52 PM Total New Items Found: 0 Time: 54 s
+
+2022-04-01 07:06:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 54s
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:53 PM Total New Items Found: 0 Time: 55 s
+
+2022-04-01 07:06:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 55s
+
+2022-04-01 07:06:53 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:53 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:53 PM Total New Items Found: 0 Time: 55 s
+
+2022-04-01 07:06:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 55s
+
+2022-04-01 07:06:53 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:53 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:54 PM Total New Items Found: 0 Time: 56 s
+
+2022-04-01 07:06:54 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060823, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Main industries), frequency: Q, Time: 56s
+
+2022-04-01 07:06:54 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:54 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:54 PM Total New Items Found: 0 Time: 57 s
+
+2022-04-01 07:06:55 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060824, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Asset type), frequency: Q, Time: 57s
+
+2022-04-01 07:06:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:55 PM Total New Items Found: 0 Time: 57 s
+
+2022-04-01 07:06:55 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060826, sheet: 10740 Financial account, frequency: Q, Time: 57s
+
+2022-04-01 07:06:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:55 PM Total New Items Found: 0 Time: 57 s
+
+2022-04-01 07:06:56 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060827, sheet: 09672 Current and capital account (Exports), frequency: Q, Time: 58s
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:56 PM Total New Items Found: 0 Time: 58 s
+
+2022-04-01 07:06:56 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060828, sheet: 09672 Current and capital account (Imports), frequency: Q, Time: 58s
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:56 PM Total New Items Found: 0 Time: 58 s
+
+2022-04-01 07:06:56 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060830, sheet: 09672 Current and capital account (Balance From abroad), frequency: Q, Time: 58s
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:57 PM Total New Items Found: 0 Time: 59 s
+
+2022-04-01 07:06:57 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060831, sheet: 09672 Current and capital account (Balance To abroad), frequency: Q, Time: 59s
+
+2022-04-01 07:06:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:57 PM Total New Items Found: 0 Time: 59 s
+
+2022-04-01 07:06:57 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060832, sheet: 07221 Price for existing dwellings, frequency: Q, Time: 59s
+
+2022-04-01 07:06:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:57 PM Latest Base Year Received.
+
+2022-04-01 07:06:57 PM Total New Items Found: 0 Time: 60 s
+
+2022-04-01 07:06:58 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060946, sheet: 08792 External trade in goods main figures, frequency: M, Time: 60s
+
+2022-04-01 07:06:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:58 PM Total New Items Found: 0 Time: 60 s
+
+2022-04-01 07:06:58 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060947, sheet: 08864 External Trade in goods main figures seasonal adjusted, frequency: M, Time: 60s
+
+2022-04-01 07:06:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:58 PM Total New Items Found: 0 Time: 60 s
+
+2022-04-01 07:06:59 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060948, sheet: 03013 Consumer Price Index by Divisions, frequency: M, Time: 61s
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Latest Base Year Received.
+
+2022-04-01 07:06:59 PM Total New Items Found: 0 Time: 61 s
+
+2022-04-01 07:06:59 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060950, sheet: 08183 Consumer Price Index, frequency: M, Time: 61s
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Latest Base Year Received.
+
+2022-04-01 07:06:59 PM Total New Items Found: 0 Time: 61 s
+
+2022-04-01 07:06:59 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060951, sheet: 03700 Harmonized index of consumer prices, frequency: M, Time: 61s
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:06:59 PM Latest Base Year Received.
+
+2022-04-01 07:07:00 PM Total New Items Found: 0 Time: 62 s
+
+2022-04-01 07:07:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060952, sheet: 08651 Construction cost index for residential buildings, frequency: M, Time: 62s
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:00 PM Latest Base Year Received.
+
+2022-04-01 07:07:00 PM Total New Items Found: 0 Time: 62 s
+
+2022-04-01 07:07:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060953, sheet: 13332 Employment and unemployment for persons aged 15-74, frequency: M, Time: 62s
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:00 PM Total New Items Found: 0 Time: 62 s
+
+2022-04-01 07:07:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060956, sheet: 07095 Index of production by Main Industrial Groupring, frequency: M, Time: 63s
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:01 PM Latest Base Year Received.
+
+2022-04-01 07:07:01 PM Total New Items Found: 0 Time: 63 s
+
+2022-04-01 07:07:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060957, sheet: 07095 Index of production by Industry, frequency: M, Time: 63s
+
+2022-04-01 07:07:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:01 PM Latest Base Year Received.
+
+2022-04-01 07:07:01 PM Total New Items Found: 0 Time: 63 s
+
+2022-04-01 07:07:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060958, sheet: 07095 Index of production by contents Total, frequency: M, Time: 64s
+
+2022-04-01 07:07:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:02 PM Latest Base Year Received.
+
+2022-04-01 07:07:02 PM Total New Items Found: 0 Time: 64 s
+
+2022-04-01 07:07:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060959, sheet: 12462 Producer price index, frequency: M, Time: 64s
+
+2022-04-01 07:07:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:02 PM Latest Base Year Received.
+
+2022-04-01 07:07:02 PM Total New Items Found: 0 Time: 64 s
+
+2022-04-01 07:07:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060963, sheet: 12462 Producer price index Industry combined, frequency: M, Time: 64s
+
+2022-04-01 07:07:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:02 PM Latest Base Year Received.
+
+2022-04-01 07:07:02 PM Total New Items Found: 0 Time: 65 s
+
+2022-04-01 07:07:03 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060960, sheet: 07129 The Index of wholesale and retail trade, frequency: M, Time: 65s
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:03 PM Latest Base Year Received.
+
+2022-04-01 07:07:03 PM Total New Items Found: 0 Time: 65 s
+
+2022-04-01 07:07:03 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060962, sheet: 10947 Monetary aggregate M3 by financial instrument, frequency: M, Time: 65s
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:03 PM Total New Items Found: 0 Time: 65 s
+
+2022-04-01 07:07:03 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060968, sheet: 10336 First time registered private cars, frequency: M, Time: 65s
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:04 PM Total New Items Found: 0 Time: 66 s
+
+2022-04-01 07:07:04 PM Country: Norway, Reading file or url: https://www.norges-bank.no/en/topics/Statistics/Interest-rates/Government-bonds-monthly/, sheet: Government bonds monthly average, frequency: M, Time: 66s
+
+2022-04-01 07:07:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:04 PM Total New Items Found: 0 Time: 66 s
+
+2022-04-01 07:07:05 PM Country: Norway, Reading file or url: https://www.nima.no/norsk-pmi/, sheet: Purchasing Managers Index, frequency: M, Time: 67s
+
+2022-04-01 07:07:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:05 PM Total New Items Found: 0 Time: 67 s
+
+2022-04-01 07:07:05 PM Country: Norway, Reading file or url: https://www.nav.no/en/home/work-and-stay-in-norway/relatert-informasjon/labour-market-information-in-english, sheet: Labour Market Statistics, frequency: M, Time: 67s
+
+2022-04-01 07:07:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:06 PM Total New Items Found: 0 Time: 68 s
+
+2022-04-01 07:07:06 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:07 PM Country: Norway, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 69s
+
+2022-04-01 07:07:10 PM Total New Items Found: 0 Time: 72 s
+
+2022-04-01 07:07:10 PM Reading file: Datasets, Time: 72 s
+
+2022-04-01 07:07:10 PM Country: Norway, Reading file or url: https://www.investing.com/indices/oslo-all-share-historical-data, sheet: Oslo All Share Index, frequency: W, Time: 72s
+
+2022-04-01 07:07:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:10 PM Total New Items Found: 0 Time: 72 s
+
+2022-04-01 07:07:10 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: W, Time: 72s
+
+2022-04-01 07:07:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:11 PM Total New Items Found: 0 Time: 73 s
+
+2022-04-01 07:07:11 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: D, Time: 73s
+
+2022-04-01 07:07:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 07:07:11 PM Total New Items Found: 0 Time: 73 s
+
+2022-04-01 07:07:13 PM = ! = No new items were found.
