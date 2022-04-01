@@ -265,3 +265,33 @@
 
 2022-03-31 05:45:24 PM Getting Data From Website
 
+2022-03-31 05:47:27 PM Getting Data From Website
+
+2022-03-31 05:48:46 PM = ! = Error in line 247 inside check_response: [WebDriverException] Message: chrome not reachable
+  (Session info: chrome=99.0.4844.82)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00F89943+2595139]
+	Ordinal0 [0x00F1C9F1+2148849]
+	Ordinal0 [0x00E143F0+1065968]
+	Ordinal0 [0x00E087C2+1017794]
+	Ordinal0 [0x00E08FF8+1019896]
+	Ordinal0 [0x00E0A892+1026194]
+	Ordinal0 [0x00E04219+999961]
+	Ordinal0 [0x00E15860+1071200]
+	Ordinal0 [0x00E6B2D2+1422034]
+	Ordinal0 [0x00E5B806+1357830]
+	Ordinal0 [0x00E36086+1204358]
+	Ordinal0 [0x00E36F96+1208214]
+	GetHandleVerifier [0x0112B232+1658114]
+	GetHandleVerifier [0x011E312C+2411516]
+	GetHandleVerifier [0x0101F261+560433]
+	GetHandleVerifier [0x0101E366+556598]
+	Ordinal0 [0x00F2286B+2173035]
+	Ordinal0 [0x00F275F8+2192888]
+	Ordinal0 [0x00F276E5+2193125]
+	Ordinal0 [0x00F311FC+2232828]
+	BaseThreadInitThunk [0x762FFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x775F7A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x775F7A4E+238]
+
