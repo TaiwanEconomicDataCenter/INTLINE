@@ -1,2 +1,0 @@
-https://api.bcb.gov.br/dados/serie/bcdata.sgs.4983/dados?formato=json
-4983是巴西銀行資料庫的code，可以做替換

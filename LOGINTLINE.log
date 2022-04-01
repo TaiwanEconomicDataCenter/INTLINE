@@ -1,45 +1,137 @@
-﻿2022-04-01 04:15:45 PM excel_suffix: NEW
+﻿2022-04-01 06:12:02 PM excel_suffix: NEW
 
-2022-04-01 04:15:45 PM data_processing: True
+2022-04-01 06:12:02 PM data_processing: True
 
-2022-04-01 04:15:45 PM find_unknown: False
+2022-04-01 06:12:02 PM find_unknown: False
 
-2022-04-01 04:15:45 PM dealing_start_year: 1901
+2022-04-01 06:12:02 PM dealing_start_year: 1901
 
-2022-04-01 04:16:01 PM Data Processing
+2022-04-01 06:12:07 PM Data Processing
 
-2022-04-01 04:16:01 PM Reading table: Country, Time: 16s
+2022-04-01 06:12:07 PM Reading table: Country, Time: 4s
 
-2022-04-01 04:16:02 PM Reading table: TABLES, Time: 16 s
+2022-04-01 06:12:07 PM Reading table: TABLES, Time: 4 s
 
-2022-04-01 04:16:11 PM Reading file: country_series, Time: 26 s
+2022-04-01 06:12:18 PM Reading file: country_series, Time: 16 s
 
-2022-04-01 04:16:12 PM Reading file: 136datasets, Time: 26 s
+2022-04-01 06:12:19 PM Reading file: 142datasets, Time: 16 s
 
-2022-04-01 04:16:12 PM 
+2022-04-01 06:12:19 PM 
 
-2022-04-01 04:16:12 PM ====== WebDriver manager ======
-2022-04-01 04:16:12 PM Current google-chrome version is 99.0.4844
-2022-04-01 04:16:12 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-04-01 04:16:12 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-04-01 04:16:15 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-04-01 04:16:17 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 31s
+2022-04-01 06:12:19 PM ====== WebDriver manager ======
+2022-04-01 06:12:19 PM Current google-chrome version is 99.0.4844
+2022-04-01 06:12:19 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-04-01 06:12:19 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-04-01 06:12:22 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-04-01 06:12:24 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 21s
 
-2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 06:12:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 06:12:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 04:16:17 PM Total New Items Found: 0 Time: 32 s
+2022-04-01 06:12:25 PM Total New Items Found: 0 Time: 22 s
 
-2022-04-01 04:16:17 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 32s
+2022-04-01 06:12:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 22s
 
-2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 04:16:17 PM Total New Items Found: 0 Time: 32 s
+2022-04-01 06:12:25 PM Total New Items Found: 0 Time: 23 s
 
-2022-04-01 04:16:18 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 32s
+2022-04-01 06:12:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 23s
 
-2022-04-01 04:16:18 PM Downloading file: Output and value added by industry basic prices current prices
+2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:26 PM Total New Items Found: 0 Time: 23 s
+
+2022-04-01 06:12:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 23s
+
+2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:26 PM Total New Items Found: 0 Time: 24 s
+
+2022-04-01 06:12:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 24s
+
+2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Total New Items Found: 0 Time: 24 s
+
+2022-04-01 06:12:27 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 24s
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Total New Items Found: 0 Time: 25 s
+
+2022-04-01 06:12:27 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 25s
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:28 PM Total New Items Found: 0 Time: 25 s
+
+2022-04-01 06:12:28 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 25s
+
+2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:28 PM Total New Items Found: 0 Time: 26 s
+
+2022-04-01 06:12:28 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 26s
+
+2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 26 s
+
+2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 26s
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 26 s
+
+2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 27s
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Total New Items Found: 0 Time: 27 s
+
+2022-04-01 06:12:29 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 27s
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:30 PM Total New Items Found: 0 Time: 27 s
+
+2022-04-01 06:12:30 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 27s
+
+2022-04-01 06:12:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-01 06:12:30 PM Total New Items Found: 0 Time: 28 s
+
+2022-04-01 06:12:30 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 28s
+
+2022-04-01 06:12:30 PM Downloading file: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter
 

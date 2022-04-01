@@ -3530,7 +3530,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         else:
                             break
                 ActionChains(chrome).send_keys(Keys.ESCAPE).perform()
-                target = chrome.find_element_by_xpath('.//table[@class="DataTable"]')
+                try:
+                    target = chrome.find_element_by_xpath('.//table[@class="DataTable"]')
+                except NoSuchElementException:
+                    raise KeyError('找不到資料表格!')
                 if output == True:
                     try:
                         pages = Select(WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'PAGE'))))
@@ -3731,7 +3734,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         except TimeoutException:
                             time.sleep(0)
                         if listed == False:
-                            WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'txtBuscarSeries'))).click()
+                            WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'txtBuscarSeries'))).click()
                             ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(item).send_keys(Keys.ENTER).perform()
                             WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnSelecionarTodas'))).click()
                             time.sleep(3)
@@ -3751,11 +3754,15 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 10).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'cphConsulta_ifrVisualizaConsulta')))
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Salvar XLS', text_match=True)
             elif address.find('CNI') >= 0:
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='recentseries')
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='recentseri')
             elif address.find('STANOR') >= 0:
-                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel")]'))).click()
-                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"][@value="Save"]'))).click()
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
+                for r in range(6):
+                    ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel")]'))).click()
+                for r in range(6):
+                    ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"][@value="Save"]'))).click()
                 link_found = True
             elif address.find('NORGES') >= 0:
                 chrome.execute_script("window.scrollTo(0,2500)")
@@ -5352,10 +5359,10 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             if INTLINE_previous.empty == False:
                 INTLINE_previous.index = [str(dex[0]).strip()+'//'+str(dex[1]).replace('+',' plus ').strip() if str(dex[0]) != 'nan' else None for dex in INTLINE_previous.index]
         else:
-            INTLINE_temp.index = [re.sub(r'\(.+?=.*100.*\)', "", str(dex)).replace('+',' plus ').strip() if str(dex) != 'nan' else None for dex in INTLINE_temp.index]
-        INTLINE_temp = INTLINE_temp.applymap(lambda x: float(str(x).replace(' ','')) if str(x).strip()[-1].isnumeric() else np.nan)
+            INTLINE_temp.index = [re.sub(r'\(.+?=.*100.*\)', "", str(dex)).replace('+',' plus ').strip() if str(dex) != 'nan' and str(dex).find('Unnamed') < 0 else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = INTLINE_temp.applymap(lambda x: float(str(x).replace(' ','')) if str(x).strip()[-1].isnumeric() else np.nan)
         if str(fname).find('10799') >= 0:
             IN_temp = INTLINE_temp.loc['Resident sectors, total//Balance of primary income'].add(INTLINE_previous.loc['Total industry//Consumption of fixed capital. Current prices (NOK million)'])
             IN_temp.name = 'GROSS NATIONAL INCOME'
