@@ -1,297 +1,163 @@
-﻿2022-03-31 05:31:02 PM excel_suffix: NEW
+﻿2022-04-01 02:48:19 PM excel_suffix: NEW
 
-2022-03-31 05:31:02 PM data_processing: True
+2022-04-01 02:48:19 PM data_processing: True
 
-2022-03-31 05:31:02 PM find_unknown: False
+2022-04-01 02:48:19 PM find_unknown: False
 
-2022-03-31 05:31:02 PM dealing_start_year: 1901
+2022-04-01 02:48:19 PM dealing_start_year: 1901
 
-2022-03-31 05:31:08 PM Data Processing
+2022-04-01 02:48:37 PM Data Processing
 
-2022-03-31 05:31:08 PM Reading table: Country, Time: 5s
+2022-04-01 02:48:37 PM Reading table: Country, Time: 17s
 
-2022-03-31 05:31:08 PM Reading table: TABLES, Time: 5 s
+2022-04-01 02:48:38 PM Reading table: TABLES, Time: 18 s
 
-2022-03-31 05:31:16 PM Reading file: country_series, Time: 13 s
+2022-04-01 02:48:46 PM Reading file: country_series, Time: 26 s
 
-2022-03-31 05:31:16 PM Reading file: 156datasets, Time: 13 s
+2022-04-01 02:48:46 PM Reading file: 536datasets, Time: 26 s
 
-2022-03-31 05:31:16 PM 
+2022-04-01 02:48:46 PM 
 
-2022-03-31 05:31:16 PM ====== WebDriver manager ======
-2022-03-31 05:31:16 PM Current google-chrome version is 99.0.4844
-2022-03-31 05:31:16 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-03-31 05:31:16 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-03-31 05:31:28 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-03-31 05:31:30 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810020501&pickMembers%5B0%5D=1.1&referencePeriods=19810101%2C19811201, sheet: New housing price index, frequency: M, Time: 27s
+2022-04-01 02:48:46 PM ====== WebDriver manager ======
+2022-04-01 02:48:46 PM Current google-chrome version is 99.0.4844
+2022-04-01 02:48:46 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-04-01 02:48:46 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-04-01 02:48:49 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#population-section, sheet: Population, frequency: A, Time: 31s
 
-2022-03-31 05:31:30 PM Downloading file: New housing price index
+2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:31:36 PM Getting Data From Website
+2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:31:43 PM Total New Items Found: 0 Time: 40 s
+2022-04-01 02:48:51 PM Total New Items Found: 0 Time: 31 s
 
-2022-03-31 05:31:43 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=3410006601&selectedNodeIds=1D1,2D4,2D7,2D15,2D33,2D36,2D49,2D73,4D1,5D1,5D2&checkedLevels=1D1,2D1&refPeriods=20110101,20111201&dimensionLayouts=layout2,layout3,layout2,layout2,layout3,layout2&vectorDisplay=false, sheet: Building permits by type of structure and type of work, frequency: M, Time: 41s
+2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section1, sheet: IndonesianGDP, frequency: A, Time: 31s
 
-2022-03-31 05:31:43 PM Downloading file: Building permits by type of structure and type of work
+2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:31:51 PM Getting Data From Website
+2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:31:58 PM Total New Items Found: 0 Time: 56 s
+2022-04-01 02:48:51 PM Total New Items Found: 0 Time: 31 s
 
-2022-03-31 05:31:59 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1210001101&selectedNodeIds=2D3,3D2,4D2,5D2,5D3,5D4,5D13&checkedLevels=0D1,4D1&refPeriods=19970101,19971201&dimensionLayouts=layout2,layout2,layout2,layout2,layout3,layout2&vectorDisplay=false, sheet: International merchandise trade, frequency: M, Time: 56s
+2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section1, sheet: IndonesianGDP, frequency: Q, Time: 31s
 
-2022-03-31 05:31:59 PM Downloading file: International merchandise trade
+2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 32 s
 
-2022-03-31 05:32:06 PM Getting Data From Website
+2022-04-01 02:48:52 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section2, sheet: IndonesianGDPExp, frequency: A, Time: 32s
 
-2022-03-31 05:32:13 PM Total New Items Found: 0 Time: 71 s
+2022-04-01 02:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:13 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1010012501&selectedNodeIds=2D3&checkedLevels=0D1&refPeriods=19560101,19561201&dimensionLayouts=layout2,layout3,layout2&vectorDisplay=false, sheet: Toronto Stock Exchange statistics, frequency: M, Time: 71s
+2022-04-01 02:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:13 PM Downloading file: Toronto Stock Exchange statistics
+2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 32 s
 
-2022-03-31 05:32:20 PM Getting Data From Website
+2022-04-01 02:48:52 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section2, sheet: IndonesianGDPExp, frequency: Q, Time: 32s
 
-2022-03-31 05:32:26 PM Total New Items Found: 0 Time: 84 s
+2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 33 s
 
-2022-03-31 05:32:27 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1010012201&selectedNodeIds=2D2,2D23,2D24,2D26,2D47&checkedLevels=0D1&refPeriods=19340101,19341201&dimensionLayouts=layout2,layout3,layout2&vectorDisplay=false, sheet: Financial market statistics last Wednesday unless otherwise stated, frequency: M, Time: 84s
+2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section1, sheet: GGOVOP, frequency: A, Time: 33s
 
-2022-03-31 05:32:27 PM Downloading file: Financial market statistics last Wednesday unless otherwise stated
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:34 PM Getting Data From Website
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:41 PM Total New Items Found: 0 Time: 99 s
+2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 33 s
 
-2022-03-31 05:32:42 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1010014501&selectedNodeIds=2D2,2D24,2D25,2D27&checkedLevels=0D1&refPeriods=19570102,19571231&dimensionLayouts=layout2,layout3,layout2&vectorDisplay=false, sheet: Financial market statistics as at Wednesday, frequency: W, Time: 99s
+2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section3, sheet: OutstandingGovernmentSecurity, frequency: Q, Time: 33s
 
-2022-03-31 05:32:42 PM Downloading file: Financial market statistics as at Wednesday
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:48 PM Getting Data From Website
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:32:58 PM Total New Items Found: 0 Time: 116 s
+2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 33 s
 
-2022-03-31 05:32:59 PM Country: Canada, Reading file or url: https://www.cfib-fcei.ca/en/research-economic-analysis/business-barometer, sheet: business-barometer-data-donnes, frequency: M, Time: 116s
+2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section4, sheet: CGOVOP, frequency: M, Time: 33s
 
-2022-03-31 05:32:59 PM Downloading file: business-barometer-data-donnes
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:05 PM Getting Data From Website
+2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:15 PM Total New Items Found: 0 Time: 133 s
+2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 34 s
 
-2022-03-31 05:33:15 PM Reading file: Datasets, Time: 133 s
+2022-04-01 02:48:54 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#1, sheet: Broad Money, frequency: A, Time: 34s
 
-2022-03-31 05:33:16 PM Reading file: country_series, Time: 133 s
+2022-04-01 02:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:16 PM Reading file: 134datasets, Time: 134 s
+2022-04-01 02:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:17 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0001&bypass=true&levelindex=0&levelid=1630027162304#abreadcrumb, sheet: Consumer price index years, frequency: A, Time: 134s
+2022-04-01 02:48:54 PM Total New Items Found: 0 Time: 34 s
 
-2022-03-31 05:33:17 PM Downloading file: Consumer price index years
+2022-04-01 02:48:54 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#1, sheet: Broad Money, frequency: M, Time: 34s
 
-2022-03-31 05:33:22 PM Getting Data From Website
+2022-04-01 02:48:54 PM Total New Items Found: 0 Time: 35 s
 
-2022-03-31 05:33:45 PM Total New Items Found: 0 Time: 163 s
+2022-04-01 02:48:55 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#external-sector-section1, sheet: BPM6, frequency: Q, Time: 35s
 
-2022-03-31 05:33:45 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0011&bypass=true&levelindex=0&levelid=1630044362548#abreadcrumb, sheet: National accounts - Population and employment, frequency: A, Time: 163s
+2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:45 PM Downloading file: National accounts - Population and employment
+2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:33:48 PM Getting Data From Website
+2022-04-01 02:48:55 PM Total New Items Found: 0 Time: 35 s
 
-2022-03-31 05:34:16 PM Total New Items Found: 0 Time: 193 s
+2022-04-01 02:48:55 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section2, sheet: CGOVDB, frequency: Q, Time: 35s
 
-2022-03-31 05:34:16 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0013&bypass=true&levelindex=0&levelid=1630045505364#abreadcrumb, sheet: National accounts - Gross value added years, frequency: A, Time: 193s
+2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:34:16 PM Downloading file: National accounts - Gross value added years
+2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:34:17 PM Getting Data From Website
+2022-04-01 02:48:56 PM Total New Items Found: 0 Time: 36 s
 
-2022-03-31 05:34:42 PM Total New Items Found: 0 Time: 219 s
+2022-04-01 02:48:56 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#external-sector-section2, sheet: EXDB, frequency: Q, Time: 36s
 
-2022-03-31 05:34:42 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0015&bypass=true&levelindex=0&levelid=1630047868609#abreadcrumb, sheet: National accounts - Employment years, frequency: A, Time: 219s
+2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:34:42 PM Downloading file: National accounts - Employment years
+2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:34:44 PM Getting Data From Website
+2022-04-01 02:48:56 PM Total New Items Found: 0 Time: 36 s
 
-2022-03-31 05:35:15 PM Total New Items Found: 0 Time: 252 s
+2022-04-01 02:48:56 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#2, sheet: Base Money, frequency: M, Time: 37s
 
-2022-03-31 05:35:15 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0005&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - national disposable income years, frequency: A, Time: 252s
+2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:35:15 PM Downloading file: National accounts - national disposable income years
+2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-03-31 05:35:17 PM Getting Data From Website
+2022-04-01 02:48:57 PM Total New Items Found: 0 Time: 37 s
 
-2022-03-31 05:35:42 PM Total New Items Found: 0 Time: 279 s
+2022-04-01 02:48:57 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#headingFour, sheet: Official Reserve Assets, frequency: M, Time: 37s
 
-2022-03-31 05:35:42 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0007&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Compensation of employees(national concept) years, frequency: A, Time: 280s
+2022-04-01 02:48:57 PM Downloading file: Official Reserve Assets
 
-2022-03-31 05:35:42 PM Downloading file: National accounts - Compensation of employees(national concept) years
+2022-04-01 02:49:11 PM Getting Data From Website
 
-2022-03-31 05:35:44 PM Getting Data From Website
+2022-04-01 02:49:14 PM Getting Data From Website
 
-2022-03-31 05:36:11 PM Total New Items Found: 0 Time: 308 s
+2022-04-01 02:49:18 PM Getting Data From Website
 
-2022-03-31 05:36:11 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0003&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Gross national income years, frequency: A, Time: 308s
+2022-04-01 02:49:30 PM Total New Items Found: 0 Time: 70 s
 
-2022-03-31 05:36:11 PM Downloading file: National accounts - Gross national income years
+2022-04-01 02:49:30 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#3, sheet: IDR Interbank Call Money, frequency: M, Time: 71s
 
-2022-03-31 05:36:13 PM Getting Data From Website
+2022-04-01 02:49:30 PM Downloading file: IDR Interbank Call Money
 
-2022-03-31 05:36:40 PM Total New Items Found: 0 Time: 337 s
+2022-04-01 02:49:30 PM Getting Data From Website
 
-2022-03-31 05:36:40 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0009&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - saving of households years, frequency: A, Time: 338s
+2022-04-01 02:49:33 PM Getting Data From Website
 
-2022-03-31 05:36:40 PM Downloading file: National accounts - saving of households years
+2022-04-01 02:49:44 PM Total New Items Found: 0 Time: 84 s
 
-2022-03-31 05:36:43 PM Getting Data From Website
+2022-04-01 02:49:44 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#4, sheet: Interest Rate of Rupiah Loans, frequency: M, Time: 85s
 
-2022-03-31 05:37:11 PM Total New Items Found: 0 Time: 369 s
+2022-04-01 02:49:44 PM Downloading file: Interest Rate of Rupiah Loans
 
-2022-03-31 05:37:12 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0001&bypass=true&levelindex=2&levelid=1630055815966#abreadcrumb, sheet: National accounts - GDP years, frequency: A, Time: 369s
+2022-04-01 02:49:44 PM Getting Data From Website
 
-2022-03-31 05:37:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 02:49:47 PM Getting Data From Website
 
-2022-03-31 05:37:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 02:49:58 PM Total New Items Found: 0 Time: 98 s
 
-2022-03-31 05:37:12 PM Downloading file: National accounts - GDP years
+2022-04-01 02:49:59 PM Country: Indonesia, Reading file or url: https://nswi.bkpm.go.id/integrator/dataumum/index.php?lang=EN#1, sheet: DDI, frequency: A, Time: 99s
 
-2022-03-31 05:37:13 PM Getting Data From Website
+2022-04-01 02:49:59 PM Downloading file: DDI
 
-2022-03-31 05:37:41 PM Total New Items Found: 0 Time: 398 s
-
-2022-03-31 05:37:41 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0019&bypass=true&levelindex=0&levelid=1630056471068#abreadcrumb, sheet: National accounts - Use of the gross domestic product years, frequency: A, Time: 398s
-
-2022-03-31 05:37:41 PM Downloading file: National accounts - Use of the gross domestic product years
-
-2022-03-31 05:37:44 PM Getting Data From Website
-
-2022-03-31 05:38:15 PM Total New Items Found: 0 Time: 433 s
-
-2022-03-31 05:38:15 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0023&bypass=true&levelindex=0&levelid=1630057607388#abreadcrumb, sheet: National accounts - Gross fixed capital formation years, frequency: A, Time: 433s
-
-2022-03-31 05:38:15 PM Downloading file: National accounts - Gross fixed capital formation years
-
-2022-03-31 05:38:17 PM Getting Data From Website
-
-2022-03-31 05:38:45 PM Total New Items Found: 0 Time: 462 s
-
-2022-03-31 05:38:45 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0027&bypass=true&levelindex=0&levelid=1630058218452#abreadcrumb, sheet: National accounts - Exports and imports years, frequency: A, Time: 463s
-
-2022-03-31 05:38:45 PM Downloading file: National accounts - Exports and imports years
-
-2022-03-31 05:38:47 PM Getting Data From Website
-
-2022-03-31 05:39:14 PM Total New Items Found: 0 Time: 491 s
-
-2022-03-31 05:39:14 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0031&bypass=true&levelindex=1&levelid=1630061439665#abreadcrumb, sheet: National accounts - general government years, frequency: A, Time: 491s
-
-2022-03-31 05:39:14 PM Downloading file: National accounts - general government years
-
-2022-03-31 05:39:15 PM Getting Data From Website
-
-2022-03-31 05:39:42 PM Total New Items Found: 0 Time: 520 s
-
-2022-03-31 05:39:43 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0033&bypass=true&levelindex=0&levelid=1630059281052#abreadcrumb, sheet: National accounts - Deflators, frequency: A, Time: 520s
-
-2022-03-31 05:39:43 PM Downloading file: National accounts - Deflators
-
-2022-03-31 05:39:44 PM Getting Data From Website
-
-2022-03-31 05:40:08 PM Total New Items Found: 0 Time: 545 s
-
-2022-03-31 05:40:08 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=31121-0001&bypass=true&levelindex=1&levelid=1630292272785#abreadcrumb, sheet: Construction work completed in structural engineering years, frequency: A, Time: 545s
-
-2022-03-31 05:40:08 PM Downloading file: Construction work completed in structural engineering years
-
-2022-03-31 05:40:19 PM Getting Data From Website
-
-2022-03-31 05:40:51 PM Total New Items Found: 0 Time: 588 s
-
-2022-03-31 05:40:51 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0005&bypass=true&levelindex=0&levelid=1630306980011#abreadcrumb, sheet: Construction price indices by maintenance of residential buildings years, frequency: A, Time: 588s
-
-2022-03-31 05:40:51 PM Downloading file: Construction price indices by maintenance of residential buildings years
-
-2022-03-31 05:40:52 PM Getting Data From Website
-
-2022-03-31 05:41:22 PM Total New Items Found: 0 Time: 619 s
-
-2022-03-31 05:41:22 PM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Society-Environment/Population/Current-Population/Tables/lrbev03.html, sheet: Population by area, frequency: A, Time: 619s
-
-2022-03-31 05:41:22 PM Downloading file: Population by area
-
-2022-03-31 05:41:27 PM Getting Data From Website
-
-2022-03-31 05:41:35 PM Total New Items Found: 0 Time: 632 s
-
-2022-03-31 05:41:35 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0001&bypass=true&levelindex=0&levelid=1630311619053#abreadcrumb, sheet: Population - reference date, frequency: A, Time: 632s
-
-2022-03-31 05:41:35 PM Downloading file: Population - reference date
-
-2022-03-31 05:41:36 PM Getting Data From Website
-
-2022-03-31 05:41:59 PM Total New Items Found: 0 Time: 657 s
-
-2022-03-31 05:42:00 PM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Construction-Industry/pgw710.html, sheet: Volume index of stock of orders, frequency: Q, Time: 657s
-
-2022-03-31 05:42:00 PM Downloading file: Volume index of stock of orders
-
-2022-03-31 05:42:04 PM Getting Data From Website
-
-2022-03-31 05:42:13 PM Total New Items Found: 0 Time: 670 s
-
-2022-03-31 05:42:13 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62221-0002&bypass=true&levelindex=0&levelid=1630489264401#abreadcrumb, sheet: Indices of agreed earnings weekly working hours, frequency: Q, Time: 670s
-
-2022-03-31 05:42:13 PM Downloading file: Indices of agreed earnings weekly working hours
-
-2022-03-31 05:42:15 PM Getting Data From Website
-
-2022-03-31 05:42:47 PM Total New Items Found: 0 Time: 704 s
-
-2022-03-31 05:42:47 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#1, sheet: Indices of labour costs - Index of labour costs per hour worked, frequency: Q, Time: 704s
-
-2022-03-31 05:42:47 PM Downloading file: Indices of labour costs - Index of labour costs per hour worked
-
-2022-03-31 05:42:48 PM Getting Data From Website
-
-2022-03-31 05:43:19 PM Total New Items Found: 0 Time: 737 s
-
-2022-03-31 05:43:19 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#2, sheet: Indices of labour costs - Index of gross earnings per hour worked, frequency: Q, Time: 737s
-
-2022-03-31 05:43:19 PM Downloading file: Indices of labour costs - Index of gross earnings per hour worked
-
-2022-03-31 05:43:20 PM Getting Data From Website
-
-2022-03-31 05:45:24 PM Getting Data From Website
-
-2022-03-31 05:47:27 PM Getting Data From Website
-
-2022-03-31 05:48:46 PM = ! = Error in line 247 inside check_response: [WebDriverException] Message: chrome not reachable
-  (Session info: chrome=99.0.4844.82)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x00F89943+2595139]
-	Ordinal0 [0x00F1C9F1+2148849]
-	Ordinal0 [0x00E143F0+1065968]
-	Ordinal0 [0x00E087C2+1017794]
-	Ordinal0 [0x00E08FF8+1019896]
-	Ordinal0 [0x00E0A892+1026194]
-	Ordinal0 [0x00E04219+999961]
-	Ordinal0 [0x00E15860+1071200]
-	Ordinal0 [0x00E6B2D2+1422034]
-	Ordinal0 [0x00E5B806+1357830]
-	Ordinal0 [0x00E36086+1204358]
-	Ordinal0 [0x00E36F96+1208214]
-	GetHandleVerifier [0x0112B232+1658114]
-	GetHandleVerifier [0x011E312C+2411516]
-	GetHandleVerifier [0x0101F261+560433]
-	GetHandleVerifier [0x0101E366+556598]
-	Ordinal0 [0x00F2286B+2173035]
-	Ordinal0 [0x00F275F8+2192888]
-	Ordinal0 [0x00F276E5+2193125]
-	Ordinal0 [0x00F311FC+2232828]
-	BaseThreadInitThunk [0x762FFA29+25]
-	RtlGetAppContainerNamedObjectPath [0x775F7A7E+286]
-	RtlGetAppContainerNamedObjectPath [0x775F7A4E+238]
+2022-04-01 02:50:51 PM Getting Data From Website
 

@@ -1715,6 +1715,10 @@ def INTLINE_STOCK(chrome, data_path, country, address, fname, sname, freq, keywo
         label = INTLINE_t['Label']
         return INTLINE_t, label, note, footnote
     modified = pd.Series(np.array([datetime.now().strftime('%Y-%m-%d, %H:%M:%S')]))
+    try:
+        url = chrome.current_url
+    except WebDriverException:
+        chrome.refresh()
     if str(chrome.current_url) != str(fname):
         try:
             chrome.get(fname)
@@ -3086,6 +3090,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                                 break
                 link_found = True
             elif address.find('BUNDES') >= 0:
+                try:
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/div[contains(@class, "listTable")]')))
+                except:
+                    fname = input('網址改版，請輸入正確的網址後繼續:')
+                    chrome.get(fname)
                 chrome.set_window_size(1080,1020)
                 chrome.refresh()
                 if str(sname).find('special trade') >= 0 or str(sname).find('MFI interest rate statistics') >= 0:
@@ -3124,11 +3133,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 chrome.refresh()
                 chrome.execute_script("window.scrollTo(0,0)")
                 chrome.find_element_by_xpath('.//input[@value="Go to download"]').click()
-                time.sleep(10)
+                #time.sleep(10)
                 # for i in range(5):
                 #     time.sleep(10)
                 #     chrome.refresh()
-                input('請手動重新整理後按Enter鍵繼續:')
+                #input('請手動重新整理後按Enter鍵繼續:')
                 target = WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/div[@class="listTable"]')))
                 if freq == 'M' or str(sname).find('monthly average') >= 0 or str(sname).find('monthly end') >= 0:
                     link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='Monthly series', text_match=True)
@@ -4530,6 +4539,8 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     IN_temp.columns = INTLINE_temp.columns
                     IN_temp.index = ['CPIIR'+INFLATION[str(dex)[11]]]
                     INTLINE_temp = pd.concat([INTLINE_temp, IN_temp])
+        elif str(fname).find('Commodity prices') >= 0:
+            INTLINE_temp.index = [re.sub(r'\.I[0-9]+\.', ".", str(dex)).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [str(dex).strip() for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
     elif address.find('ARBEIT') >= 0:
@@ -4731,6 +4742,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         else:
             INTLINE_temp.index = [re.sub(r'.*?(([A-Za-z][a-z]+\s*)+).*', r"\1", str(dex)).strip() if re.sub(r'.*?(([A-Za-z][a-z]+\s*)+).*', r"\1", str(dex)).strip() in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
