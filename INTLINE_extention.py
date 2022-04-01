@@ -605,7 +605,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             this_year = datetime.today().year
             for yr in list(reversed(range(1952, this_year))):
                 IN_temp = INTLINE_temp.loc[(INTLINE_temp['種別'] == '指数') & (INTLINE_temp['月'] == 'CY') & (INTLINE_temp['年'] == yr)]
-                if False not in [ind == 100 for ind in list(IN_temp['現金給与総額'])]:
+                if not not list(IN_temp['現金給与総額']) and False not in [ind == 100 for ind in list(IN_temp['現金給与総額'])]:
                     base_found = True
                     base_year = str(yr)
                     break
@@ -3418,7 +3418,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                                     chrome.close()
                                     chrome.switch_to.window(chrome.window_handles[0])
                 else:
-                    WebDriverWait(chrome, 40).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]')))
+                    WebDriverWait(chrome, 120).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]')))
                     while True:
                         time.sleep(5)
                         WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]'))).click()
@@ -3426,7 +3426,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         time.sleep(5)
                         WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/table[@class="PPTLVNodesTable"]/tbody/tr'))).click()
                         try:
-                            WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/div[@class="PPTSCellConText"][contains(text(), "Vietnam")]')))
+                            WebDriverWait(chrome, 120).until(EC.visibility_of_element_located((By.XPATH, './/div[@class="PPTSCellConText"][contains(text(), "Vietnam")]')))
                         except (NoSuchElementException, StaleElementReferenceException):
                             time.sleep(1)
                         else:
@@ -3434,6 +3434,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     chrome.find_element_by_id('ExportSplitButton').click()
                     chrome.find_element_by_id('ExportMenuItemXLSX').click()
                     chrome.find_element_by_xpath('.//div[div[div[text()="OK"]]]').click()
+                    time.sleep(30)
                 link_found = True
             elif address.find('INSEE') >= 0:
                 time.sleep(8)
@@ -3486,7 +3487,16 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'Login'))).send_keys(username)
                 WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.ID, 'Pwd'))).send_keys(password)
                 WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"]'))).click()
-                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Période")]'))).click()
+                timeStart = time.time()
+                while True:
+                    try:
+                        WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Période")]'))).click()
+                    except UnexpectedAlertPresentException:
+                        if int(time.time() - timeStart) > 30:
+                            raise TimeoutException
+                        time.sleep(0)
+                    else:
+                        break
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='SelectAll')
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='SelectLevel(0,0)')
                 WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@class="ShowReport"]'))).click()
@@ -3601,7 +3611,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     ActionChains(chrome).move_to_element(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'export-icon')))).perform()
                     WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.ID, 'export-excel-icon'))).click()
                     export = WebDriverWait(chrome, 5).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'DialogFrame')))
-                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'btnExportToExcel'))).click()
+                    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnExportToExcel'))).click()
                 link_found = True
             elif address.find('BOI') >= 0:
                 timeStart = time.time()

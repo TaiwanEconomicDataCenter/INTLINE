@@ -1,163 +1,45 @@
-﻿2022-04-01 02:48:19 PM excel_suffix: NEW
+﻿2022-04-01 04:15:45 PM excel_suffix: NEW
 
-2022-04-01 02:48:19 PM data_processing: True
+2022-04-01 04:15:45 PM data_processing: True
 
-2022-04-01 02:48:19 PM find_unknown: False
+2022-04-01 04:15:45 PM find_unknown: False
 
-2022-04-01 02:48:19 PM dealing_start_year: 1901
+2022-04-01 04:15:45 PM dealing_start_year: 1901
 
-2022-04-01 02:48:37 PM Data Processing
+2022-04-01 04:16:01 PM Data Processing
 
-2022-04-01 02:48:37 PM Reading table: Country, Time: 17s
+2022-04-01 04:16:01 PM Reading table: Country, Time: 16s
 
-2022-04-01 02:48:38 PM Reading table: TABLES, Time: 18 s
+2022-04-01 04:16:02 PM Reading table: TABLES, Time: 16 s
 
-2022-04-01 02:48:46 PM Reading file: country_series, Time: 26 s
+2022-04-01 04:16:11 PM Reading file: country_series, Time: 26 s
 
-2022-04-01 02:48:46 PM Reading file: 536datasets, Time: 26 s
+2022-04-01 04:16:12 PM Reading file: 136datasets, Time: 26 s
 
-2022-04-01 02:48:46 PM 
+2022-04-01 04:16:12 PM 
 
-2022-04-01 02:48:46 PM ====== WebDriver manager ======
-2022-04-01 02:48:46 PM Current google-chrome version is 99.0.4844
-2022-04-01 02:48:46 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-04-01 02:48:46 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-04-01 02:48:49 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#population-section, sheet: Population, frequency: A, Time: 31s
+2022-04-01 04:16:12 PM ====== WebDriver manager ======
+2022-04-01 04:16:12 PM Current google-chrome version is 99.0.4844
+2022-04-01 04:16:12 PM Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-04-01 04:16:12 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
+2022-04-01 04:16:15 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
+2022-04-01 04:16:17 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 31s
 
-2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 02:48:51 PM Total New Items Found: 0 Time: 31 s
+2022-04-01 04:16:17 PM Total New Items Found: 0 Time: 32 s
 
-2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section1, sheet: IndonesianGDP, frequency: A, Time: 31s
+2022-04-01 04:16:17 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 32s
 
-2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 02:48:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-01 04:16:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-01 02:48:51 PM Total New Items Found: 0 Time: 31 s
+2022-04-01 04:16:17 PM Total New Items Found: 0 Time: 32 s
 
-2022-04-01 02:48:51 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section1, sheet: IndonesianGDP, frequency: Q, Time: 31s
+2022-04-01 04:16:18 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 32s
 
-2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 32 s
-
-2022-04-01 02:48:52 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section2, sheet: IndonesianGDPExp, frequency: A, Time: 32s
-
-2022-04-01 02:48:52 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:52 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 32 s
-
-2022-04-01 02:48:52 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#real-sector-section2, sheet: IndonesianGDPExp, frequency: Q, Time: 32s
-
-2022-04-01 02:48:52 PM Total New Items Found: 0 Time: 33 s
-
-2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section1, sheet: GGOVOP, frequency: A, Time: 33s
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 33 s
-
-2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section3, sheet: OutstandingGovernmentSecurity, frequency: Q, Time: 33s
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 33 s
-
-2022-04-01 02:48:53 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section4, sheet: CGOVOP, frequency: M, Time: 33s
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:53 PM Total New Items Found: 0 Time: 34 s
-
-2022-04-01 02:48:54 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#1, sheet: Broad Money, frequency: A, Time: 34s
-
-2022-04-01 02:48:54 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:54 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:54 PM Total New Items Found: 0 Time: 34 s
-
-2022-04-01 02:48:54 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#1, sheet: Broad Money, frequency: M, Time: 34s
-
-2022-04-01 02:48:54 PM Total New Items Found: 0 Time: 35 s
-
-2022-04-01 02:48:55 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#external-sector-section1, sheet: BPM6, frequency: Q, Time: 35s
-
-2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:55 PM Total New Items Found: 0 Time: 35 s
-
-2022-04-01 02:48:55 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#fiscal-sector-section2, sheet: CGOVDB, frequency: Q, Time: 35s
-
-2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:55 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:56 PM Total New Items Found: 0 Time: 36 s
-
-2022-04-01 02:48:56 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/sdds/Default.aspx#external-sector-section2, sheet: EXDB, frequency: Q, Time: 36s
-
-2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:56 PM Total New Items Found: 0 Time: 36 s
-
-2022-04-01 02:48:56 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#2, sheet: Base Money, frequency: M, Time: 37s
-
-2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-01 02:48:57 PM Total New Items Found: 0 Time: 37 s
-
-2022-04-01 02:48:57 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#headingFour, sheet: Official Reserve Assets, frequency: M, Time: 37s
-
-2022-04-01 02:48:57 PM Downloading file: Official Reserve Assets
-
-2022-04-01 02:49:11 PM Getting Data From Website
-
-2022-04-01 02:49:14 PM Getting Data From Website
-
-2022-04-01 02:49:18 PM Getting Data From Website
-
-2022-04-01 02:49:30 PM Total New Items Found: 0 Time: 70 s
-
-2022-04-01 02:49:30 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#3, sheet: IDR Interbank Call Money, frequency: M, Time: 71s
-
-2022-04-01 02:49:30 PM Downloading file: IDR Interbank Call Money
-
-2022-04-01 02:49:30 PM Getting Data From Website
-
-2022-04-01 02:49:33 PM Getting Data From Website
-
-2022-04-01 02:49:44 PM Total New Items Found: 0 Time: 84 s
-
-2022-04-01 02:49:44 PM Country: Indonesia, Reading file or url: https://www.bi.go.id/en/statistik/ekonomi-keuangan/seki/Default.aspx#4, sheet: Interest Rate of Rupiah Loans, frequency: M, Time: 85s
-
-2022-04-01 02:49:44 PM Downloading file: Interest Rate of Rupiah Loans
-
-2022-04-01 02:49:44 PM Getting Data From Website
-
-2022-04-01 02:49:47 PM Getting Data From Website
-
-2022-04-01 02:49:58 PM Total New Items Found: 0 Time: 98 s
-
-2022-04-01 02:49:59 PM Country: Indonesia, Reading file or url: https://nswi.bkpm.go.id/integrator/dataumum/index.php?lang=EN#1, sheet: DDI, frequency: A, Time: 99s
-
-2022-04-01 02:49:59 PM Downloading file: DDI
-
-2022-04-01 02:50:51 PM Getting Data From Website
+2022-04-01 04:16:18 PM Downloading file: Output and value added by industry basic prices current prices
 
