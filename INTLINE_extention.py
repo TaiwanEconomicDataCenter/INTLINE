@@ -1790,9 +1790,12 @@ def INTLINE_STOCK(chrome, data_path, country, address, fname, sname, freq, keywo
 
 def INTLINE_LATEST_STEEL(INTLINE_steel):
     new_columns = []
+    yr = ''
     for col in INTLINE_steel.columns:
+        if re.sub(r'.*?([0-9]{4}).*', r"\1", str(col[1])).isnumeric():
+            yr = re.sub(r'.*?([0-9]{4}).*', r"\1", str(col[1]))
         try:
-            new_columns.append(re.sub(r'.*?([0-9]{4}).*', r"\1", str(col[1]))+'-'+datetime.strptime(str(col[0]).strip()[:3], '%b').strftime('%m'))
+            new_columns.append(yr+'-'+datetime.strptime(str(col[0]).strip()[:3], '%b').strftime('%m'))
         except ValueError:
             new_columns.append(None)
     INTLINE_steel.columns = new_columns

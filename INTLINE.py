@@ -21,7 +21,7 @@ import INTLINE_extention as EXT
 from INTLINE_extention import ERROR, readFile, readExcelFile, GET_NAME, MERGE, NEW_KEYS, CONCATE, UPDATE, INTLINE_NOTE, takeFirst, INTLINE_BLS, INTLINE_BASE_YEAR, NEW_LABEL, \
  INTLINE_STL, INTLINE_FTD, INTLINE_DOE, INTLINE_LATEST_STEEL, INTLINE_STEEL, INTLINE_STOCK, INTLINE_ONS, INTLINE_WEB, INTLINE_BOE, INTLINE_EUC, INTLINE_EST, INTLINE_KERI, \
  INTLINE_BEIS, INTLINE_MULTIKEYS, INTLINE_SINGLEKEY, INTLINE_LTPLR, INTLINE_JREI, INTLINE_DATASETS, INTLINE_METI, INTLINE_MHLW, INTLINE_CBFI, INTLINE_GACC, INTLINE_PRESENT, \
-     SELECT_DF_KEY, SELECT_DATABASES, INSERT_TABLES
+     SELECT_DF_KEY, SELECT_DATABASES, INSERT_TABLES, Reading_Excel
 import INTLINE_test as test
 from INTLINE_test import INTLINE_identity
 FORMAT = '%(asctime)s %(message)s'
@@ -1113,7 +1113,8 @@ for country in COUNTRY(TABLES):
                             present_file_existed = INTLINE_PRESENT(file_path)
                             if steel_read == False:
                                 if present_file_existed == True:
-                                    INTLINE_steel = readExcelFile(file_path, header_=[0,1,2], index_col_=[0,1], skiprows_=[0,1], sheet_name_=0, acceptNoFile=False).T
+                                    #INTLINE_steel = readExcelFile(file_path, header_=[0,1,2], index_col_=[0,1], skiprows_=[0,1], sheet_name_=0, acceptNoFile=False).T
+                                    INTLINE_steel = Reading_Excel(file_path,tables=[0], header=[0,1,2], index_col=[0,1], skiprows=[0,1]).T
                                 else:
                                     url = 'https://www.jisf.or.jp/en/statistics/MainCountries/index.html'
                                     INTLINE_steel = INTLINE_WEB(chrome, country=158, address=address, fname=url, sname='WorldCrudeSteelProduction', tables=[0], header=[0,1,2], index_col=[0,1], skiprows=[0,1])
