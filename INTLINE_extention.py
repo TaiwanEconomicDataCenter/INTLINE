@@ -3589,7 +3589,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             Select(WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.ID, 'PAGE')))).select_by_index(i)
                             timeStart = time.time()
                             while True:
-                                print('pages: '+str(pages))
+                                print('pages: '+str(i+1))
                                 try:
                                     WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.ID, 'PAGE')))
                                 except TimeoutException:
@@ -3611,10 +3611,19 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             INTLINE_temp = pd.concat([INTLINE_temp, IN_temp])
                 else:
                     IN_t = pd.read_html(target.get_attribute('outerHTML'), skiprows=skiprows[:-2], header=header, index_col=index_col)[0]
-                    ActionChains(chrome).move_to_element(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'export-icon')))).perform()
-                    WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.ID, 'export-excel-icon'))).click()
-                    export = WebDriverWait(chrome, 5).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'DialogFrame')))
-                    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnExportToExcel'))).click()
+                    timeStart = time.time()
+                    while True:
+                        try:
+                            ActionChains(chrome).move_to_element(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'export-icon')))).perform()
+                            WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.ID, 'export-excel-icon'))).click()
+                            export = WebDriverWait(chrome, 5).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'DialogFrame')))
+                            WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnExportToExcel'))).click()
+                        except:
+                            if int(time.time()-timeStart) > 30:
+                                raise TimeoutException
+                            chrome.refresh()
+                        else:
+                            break
                 link_found = True
             elif address.find('BOI') >= 0:
                 timeStart = time.time()
@@ -5152,7 +5161,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             for dex in INTLINE_temp.index:
                 new_dex = ''
                 for d in dex:
-                    new_dex = new_dex + re.sub(r'\+|\-\s|(\(|base).+?=\s*100\s*\)*\s*', "", str(d)).strip()+'//'
+                    new_dex = new_dex + re.sub(r'\+|\-\s|(\(|base).+?=\s*100\s*\)*\s*', "", str(d)).replace('15-74 years','15 years and over').strip()+'//'
                 new_index.append(new_dex.strip('//'))
             INTLINE_temp.index = new_index
             if str(fname).find('Labour force') >= 0:
