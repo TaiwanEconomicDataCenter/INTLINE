@@ -907,11 +907,11 @@ for country in COUNTRY(TABLES):
                         zip_country = 163
                     file_address = data_path+str(zip_country)+'/'+address
                     if US_address != None:
-                        file_address = US_address
                         if str(fname).find('Section7all') >= 0:
-                            file_address = file_address.replace('Survey','Underlying')
+                            US_address = US_address.replace('Survey','Underlying')
                         else:
-                            file_address = file_address.replace('Underlying','Survey')
+                            US_address = US_address.replace('Underlying','Survey')
+                        file_address = US_address
                     file_path = file_address+Zip_table.loc[fname, 'Zipname']+'.zip'
                     present_file_existed = INTLINE_PRESENT(file_path)
                     if Zip_table.loc[fname, 'Zipname']+'.zip' not in zip_list:

@@ -27,6 +27,7 @@ from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import JavascriptException
 from selenium.common.exceptions import UnexpectedAlertPresentException
 from selenium.common.exceptions import NoSuchFrameException
+from selenium.common.exceptions import WebDriverException
 from pandas.errors import ParserError
 from pandas.core.indexes.base import InvalidIndexError
 from roman import InvalidRomanNumeralError
@@ -204,7 +205,7 @@ def INTLINE_PRESENT(file_path, check_latest_update=False, latest_update=None, fo
                     latest_update = datetime.strptime(str(latest_update),'%Y/%m/%d').strftime('%Y-%m-%d')
                 except ValueError:
                     return False
-        if check_latest_update == True and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != datetime.today().strftime('%Y-%V') and datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') != (datetime.today()-timedelta(days=7)).strftime('%Y-%V'):
+        if check_latest_update == True and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != datetime.today().strftime('%Y-%V') and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != (datetime.today()-timedelta(days=7)).strftime('%Y-%V'):
             return False
         elif forcing_download == True:
             return False
