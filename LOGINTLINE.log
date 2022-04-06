@@ -14,46 +14,24 @@
 
 2022-04-06 10:55:22 AM Reading file: country_series,2022-04-06 10:55:37 AM Updating file: 0 s
 
- file: 136datasets, Time: 14 s
+2022-04-06 11:11:45 AM updated: 10960
 
-2022-04-06 10:55:23 AM 
+2022-04-06 11:12:10 AM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
+0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
+1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
+2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
+4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
+13659  INTLINE     W576STI.W  DB_W_0001  data025  ...  13660           Singapore Exchange                           Singapore Stock Exchange  Not Seasonally Adjusted
+13660  INTLINE    W924SSEA.W  DB_W_0001  data026  ...  13661      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+13661  INTLINE    W924SSEB.W  DB_W_0001  data027  ...  13662      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+13662  INTLINE   W924SZSEA.W  DB_W_0001  data028  ...  13663       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+13663  INTLINE   W924SZSEB.W  DB_W_0001  data029  ...  13664       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
-2022-04-06 10:55:23 AM ====== WebDriver manager ======
-2022-04-06 10:55:23 AM Current google-chrome version is 99.0.4844
-2022-04-06 10:55:23 AM Get LATEST chromedriver version for 99.0.4844 google-chrome
-2022-04-06 10:55:23 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/99.0.4844.51/chromedriver_win32.zip
-2022-04-06 10:55:26 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\99.0.4844.51]
-2022-04-06 10:55:27 AM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 19s
-
-2022-04-06 10:55:27 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:27 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:28 AM Total New Items Found: 0 Time: 20 s
-
-2022-04-06 10:55:28 AM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 20s
-
-2022-04-06 10:55:28 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:28 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:28 AM Total New Items Found: 0 Time: 20 s
-
-2022-04-06 10:55:28 AM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 20s
-
-2022-04-06 10:55:28 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:28 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:28 AM Total New Items Found: 0 Time: 20 s
-
-2022-04-06 10:55:29 AM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54760, sheet: Output and value added by industry basic prices chain linked, frequency: A, Time: 21s
-
-2022-04-06 10:55:29 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:29 AM Present File Exists. Reading Data From Default Path.
-
-2022-04-06 10:55:29 AM Total New Items Found: 0 Time: 21 s
+[13664 rows x 15 columns]
+2022-04-06 11:12:10 AM Total Items: 13664
+022-04-06 10:55:29 AM Total New Items Found: 0 Time: 21 s
 
 2022-04-06 10:55:29 AM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54761, sheet: Output and value added by industry factor cost current prices, frequency: A, Time: 21s
 
