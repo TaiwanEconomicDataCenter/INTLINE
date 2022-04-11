@@ -1,50 +1,244 @@
-﻿2022-04-11 10:18:12 AM excel_suffix: test
+﻿2022-04-11 10:21:46 AM excel_suffix: test
 
-2022-04-11 10:18:12 AM data_processing: True
+2022-04-11 10:21:46 AM data_processing: True
 
-2022-04-11 10:18:12 AM find_unknown: False
+2022-04-11 10:21:46 AM find_unknown: False
 
-2022-04-11 10:18:12 AM dealing_start_year: 1901
+2022-04-11 10:21:46 AM dealing_start_year: 1901
 
-2022-04-11 10:18:15 AM Data Processing
+2022-04-11 10:21:48 AM Data Processing
 
-2022-04-11 10:18:15 AM Reading table: Country, Time: 2s
+2022-04-11 10:21:48 AM Reading table: Country, Time: 2s
 
-2022-04-11 10:18:15 AM Reading table: TABLES, Time: 3 s
+2022-04-11 10:21:48 AM Reading table: TABLES, Time: 2 s
 
-2022-04-11 10:18:17 AM Reading file: FTD_datasets, Time: 4 s
+2022-04-11 10:21:49 AM Reading file: BEA TablesRegister, Time: 3 s
 
-2022-04-11 10:18:17 AM Reading file: FTDE_series, Time: 4 s
+2022-04-11 10:21:53 AM Reading file: BEA SeriesRegister, Time: 7 s
 
-2022-04-11 10:18:17 AM 
+2022-04-11 10:21:57 AM 
 
-2022-04-11 10:18:17 AM ====== WebDriver manager ======
-2022-04-11 10:18:17 AM Current google-chrome version is 100.0.4896
-2022-04-11 10:18:17 AM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-11 10:18:17 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-11 10:18:20 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-11 10:18:22 AM Country: United States, Reading file or url: AGDSCSB, sheet: 0, frequency: M, Time: 9s
+2022-04-11 10:21:57 AM ====== WebDriver manager ======
+2022-04-11 10:21:58 AM Current google-chrome version is 100.0.4896
+2022-04-11 10:21:58 AM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-11 10:21:59 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-11 10:22:04 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-11 10:22:06 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-11 10:18:22 AM Reading file: finalxlsx2020
+2022-04-11 10:22:06 AM Reading source file, Time: 19 s
 
-2022-04-11 10:18:23 AM Downloading file: finalxlsx2020
+2022-04-11 10:22:15 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 29s
 
-2022-04-11 10:18:25 AM Getting Data From Website
+2022-04-11 10:22:15 AM Total New Items Found: 0 Time: 29 s
 
-2022-04-11 10:18:52 AM Reading file: finalxlsx2021
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 29s
 
-2022-04-11 10:18:53 AM Process data from monthly data of last year.
-2022-04-11 10:18:53 AM Reading file: ft900xlsx_2104
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 29 s
 
-2022-04-11 10:18:54 AM Downloading file: ft900xlsx04
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 29s
 
-2022-04-11 10:18:55 AM Getting Data From Website
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 29 s
 
-2022-04-11 10:19:04 AM Reading file: ft900xlsx_2105
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 30s
 
-2022-04-11 10:19:04 AM Downloading file: ft900xlsx05
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 30 s
 
-2022-04-11 10:19:05 AM Getting Data From Website
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 30s
 
-2022-04-11 10:19:13 AM Reading file: ft900xlsx_2106
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 30 s
 
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 30s
+
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 30 s
+
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 30s
+
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 30 s
+
+2022-04-11 10:22:16 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 30s
+
+2022-04-11 10:22:16 AM Total New Items Found: 0 Time: 30 s
+
+2022-04-11 10:22:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:22:16 AM Reading source file, Time: 30 s
+
+2022-04-11 10:22:21 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 35s
+
+2022-04-11 10:22:21 AM Total New Items Found: 0 Time: 35 s
+
+2022-04-11 10:22:21 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 35s
+
+2022-04-11 10:22:21 AM Total New Items Found: 0 Time: 35 s
+
+2022-04-11 10:22:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:22:21 AM Reading source file, Time: 35 s
+
+2022-04-11 10:22:28 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 41s
+
+2022-04-11 10:22:28 AM Total New Items Found: 0 Time: 41 s
+
+2022-04-11 10:22:28 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 42s
+
+2022-04-11 10:22:28 AM Total New Items Found: 0 Time: 42 s
+
+2022-04-11 10:22:28 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 42s
+
+2022-04-11 10:22:28 AM Total New Items Found: 0 Time: 42 s
+
+2022-04-11 10:22:28 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 42s
+
+2022-04-11 10:22:28 AM Total New Items Found: 0 Time: 42 s
+
+2022-04-11 10:22:28 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 42s
+
+2022-04-11 10:22:28 AM Total New Items Found: 0 Time: 42 s
+
+2022-04-11 10:22:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:22:28 AM Reading source file, Time: 42 s
+
+2022-04-11 10:22:30 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 44s
+
+2022-04-11 10:22:30 AM Total New Items Found: 0 Time: 44 s
+
+2022-04-11 10:22:30 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 44s
+
+2022-04-11 10:22:30 AM Total New Items Found: 0 Time: 44 s
+
+2022-04-11 10:22:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:22:30 AM Reading source file, Time: 44 s
+
+2022-04-11 10:22:32 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 46s
+
+2022-04-11 10:22:32 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-11 10:22:32 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 46s
+
+2022-04-11 10:22:32 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-11 10:22:32 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 46s
+
+2022-04-11 10:22:32 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-11 10:22:33 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 46s
+
+2022-04-11 10:22:33 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-11 10:22:33 AM Reading file: BLS_series, Time: 46 s
+
+2022-04-11 10:22:41 AM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 55s
+
+2022-04-11 10:22:47 AM Total New Items Found: 0 Time: 61 s
+
+2022-04-11 10:22:47 AM Reading file: BLS_series, Time: 61 s
+
+2022-04-11 10:22:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:23:21 AM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 95s
+
+2022-04-11 10:23:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:23:52 AM Total New Items Found: 0 Time: 126 s
+
+2022-04-11 10:23:53 AM Downloading file: IRBY_xls
+
+2022-04-11 10:24:03 AM Getting Data From Website
+
+2022-04-11 10:24:33 AM Country: United States, Reading file or url: IRBY, sheet: 1, frequency: M, Time: 166s
+
+2022-04-11 10:24:33 AM Total New Items Found: 0 Time: 167 s
+
+2022-04-11 10:24:33 AM Downloading file: DowJones_xls
+
+2022-04-11 10:24:39 AM Getting Data From Website
+
+2022-04-11 10:25:14 AM Country: United States, Reading file or url: DowJones, sheet: 1, frequency: D, Time: 208s
+
+2022-04-11 10:25:14 AM Total New Items Found: 0 Time: 208 s
+
+2022-04-11 10:25:14 AM Downloading file: NASDAQ_xls
+
+2022-04-11 10:25:17 AM Getting Data From Website
+
+2022-04-11 10:25:50 AM Country: United States, Reading file or url: NASDAQ, sheet: 1, frequency: D, Time: 244s
+
+2022-04-11 10:25:51 AM Total New Items Found: 0 Time: 244 s
+
+2022-04-11 10:25:51 AM Reading file: Datasets, Time: 245 s
+
+2022-04-11 10:25:51 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: M, Time: 245s
+
+2022-04-11 10:26:15 AM Total New Items Found: 0 Time: 269 s
+
+2022-04-11 10:26:15 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: W, Time: 269s
+
+2022-04-11 10:26:17 AM Total New Items Found: 0 Time: 270 s
+
+2022-04-11 10:26:17 AM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: D, Time: 270s
+
+2022-04-11 10:26:23 AM Total New Items Found: 0 Time: 277 s
+
+2022-04-11 10:26:24 AM Reading file: FTD_datasets, Time: 277 s
+
+2022-04-11 10:26:24 AM Reading file: FTDE_series, Time: 277 s
+
+2022-04-11 10:26:24 AM Country: United States, Reading file or url: AGDSCSB, sheet: 0, frequency: M, Time: 278s
+
+2022-04-11 10:26:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:24 AM Total New Items Found: 0 Time: 278 s
+
+2022-04-11 10:26:24 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#1, sheet: NSAEXP, frequency: M, Time: 278s
+
+2022-04-11 10:26:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:25 AM Total New Items Found: 0 Time: 279 s
+
+2022-04-11 10:26:25 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#2, sheet: NSAIMP, frequency: M, Time: 279s
+
+2022-04-11 10:26:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:26 AM Total New Items Found: 0 Time: 279 s
+
+2022-04-11 10:26:26 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#3, sheet: SAEXP, frequency: M, Time: 280s
+
+2022-04-11 10:26:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:26 AM Total New Items Found: 0 Time: 280 s
+
+2022-04-11 10:26:26 AM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#4, sheet: SAIMP, frequency: M, Time: 280s
+
+2022-04-11 10:26:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:27 AM Total New Items Found: 0 Time: 281 s
+
+2022-04-11 10:26:27 AM Country: United States, Reading file or url: UGDSCSB, sheet: 0, frequency: M, Time: 281s
+
+2022-04-11 10:26:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-11 10:26:27 AM Total New Items Found: 0 Time: 281 s
+
+2022-04-11 10:26:27 AM Reading file: Datasets, Time: 281 s
+
+2022-04-11 10:26:28 AM Country: United States, Reading file or url: https://www.eia.gov/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm, sheet: PET_MOVE_IMP_DC_NUS-Z00_MBBL_M, frequency: M, Time: 282s
+
+2022-04-11 10:26:28 AM Downloading file: PET_MOVE_IMP_DC_NUS-Z00_MBBL_M
+
+2022-04-11 10:26:32 AM Getting Data From Website
+
+2022-04-11 10:26:41 AM Total New Items Found: 0 Time: 295 s
+
+2022-04-11 10:26:41 AM Reading file: Datasets, Time: 295 s
+
+2022-04-11 10:26:41 AM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 295s
+
+2022-04-11 10:26:41 AM Downloading file: WorldCrudeSteelProduction
+
+2022-04-11 10:26:44 AM Getting Data From Website
+
+2022-04-11 10:26:52 AM Total New Items Found: 0 Time: 305 s
+
+2022-04-11 10:27:05 AM = ! = No new items were found.
