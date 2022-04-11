@@ -867,6 +867,7 @@ for country in COUNTRY(TABLES):
                     Zip = True
                 with open(data_path+str(country)+'/'+address+'US_address.txt','r',encoding='ANSI') as f:
                     US_address = Path(os.path.realpath(data_path).replace(databank, 'US')).as_posix()+f.read()
+                # US_address = data_path+str(country)+'/'+address
             country_series = Titles['country_series'][address]
             country_datasets = Titles['country_datasets'][address]
             single_key = Titles['single_key'][address]
