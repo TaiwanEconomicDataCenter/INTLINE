@@ -892,8 +892,6 @@ for country in COUNTRY(TABLES):
             for fname in FILE_NAME(country, source, address):
                 if make_discontinued == False and fname.find('discontinued') >= 0:
                     continue
-                if str(fname).find(keyword[1]) < 0:
-                    continue
                 if chrome == None:# and ((str(fname).find('http') >= 0 and address.find('COUN') < 0) or (address.find('WSA') >= 0 and steel_read == False) or Zip == True or address.find('FTD') >= 0):
                     options = Options()
                     options.add_argument("--disable-notifications")
@@ -936,6 +934,8 @@ for country in COUNTRY(TABLES):
                 else:
                     sheet_list = SHEET_NAME(country, address, fname)
                 for sname in sheet_list:
+                    if (str(fname)+str(sname)).find(keyword[1]) < 0:
+                        continue
                     if sname == 'None':
                         sname = None
                     if make_discontinued == False and source != 'Bureau of Economic Analysis' and str(NEW_TABLES.loc[(country,address,fname), 'keyword']).find('discontinued') >= 0:

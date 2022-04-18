@@ -7,7 +7,7 @@ Unit,"CY2015 average=100","CY2015 average=100","CY2015 average=100","CY2015 aver
 Statistical category,"Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Corporate Goods Price Index (2015 Base)/ Producer Price Index","Services Producer Price Index (2015 base)","Corporate Goods Price Index (2015 Base)/ Export Price Index (yen basis)","Corporate Goods Price Index (2015 Base)/ Import Price Index (yen basis)","The Basic Discount Rates and Basic Loan Rates","Call Rate (Monthly)"
 Observation,"AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","AVERAGED","END","AVERAGED"
 start of time-series,"1960/01","1960/01","1960/01","1960/01","1960/01","1960/01","1960/01","1985/01","1960/01","1960/01","1882/10","1985/07"
-End of time-series,"2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02","2022/02"
+End of time-series,"2022/03","2022/03","2022/03","2022/03","2022/03","2022/03","2022/03","2022/02","2022/03","2022/03","2022/03","2022/03"
 Frequency,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY,MONTHLY
 
 Notes,"Number of Commodity:746, Weights:1000","Number of Commodity:703, Weights:888.3","Number of Commodity:109, Weights:141.6","Number of Commodity:31, Weights:9.6","Number of Commodity:111, Weights:89.2","Number of Commodity:12, Weights:59.5","Number of Commodity:37, Weights:51.7","Number of Item:146, Weights:1000","Number of Commodity:209, Weights:1000","Number of Commodity:258, Weights:1000","",""
@@ -1463,10 +1463,10 @@ Notes,"Number of Commodity:746, Weights:1000","Number of Commodity:703, Weights:
 2021/09,106.6,106.6,105,104.2,99.9,121.8,128.9,105.1,100.1,108.9,0.3,-0.022
 2021/10,108.2,108.5,105.7,104.4,102.1,131.2,134.5,105.5,102.7,113.9,0.3,-0.027
 2021/11,108.9,109.2,105.9,105,102.8,134.3,137.2,105.8,103.8,120.2,0.3,-0.04
-2021/12,108.9,108.9,106.2,104.9,102.5,128.5,138.1,106,102.8,120.2,0.3,-0.026
-2022/01,109.8,109.9,106.5,104.9,103.7,135,139.9,105.6,103.4,119.8,0.3,-0.02
-2022/02,110.7,110.5,106.7,105.5,104.7,139,140.4,105.7,104.6,122.2,0.3,-0.018
-2022/03,,,,,,,,,,,,
+2021/12,109.1,109.1,106.2,104.9,102.5,128.5,141.4,106,102.9,120.2,0.3,-0.026
+2022/01,110.1,110.2,106.5,104.9,103.9,135.3,143.5,105.6,103.5,119.8,0.3,-0.02
+2022/02,111.1,110.9,106.9,105.5,105.3,139.1,144.1,105.7,104.8,122.5,0.3,-0.018
+2022/03,112,111.6,107.2,106,107,140.1,145.3,,107.9,126.5,0.3,-0.008
 2022/04,,,,,,,,,,,,
 2022/05,,,,,,,,,,,,
 2022/06,,,,,,,,,,,,

@@ -1989,7 +1989,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('BOE') >= 0:
                 try:
-                    WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Accept recommended cookies")]'))).click()
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Accept recommended cookies")]'))).click()
                 except TimeoutException:
                     time.sleep(2)
                 #note = {}
@@ -2176,8 +2176,8 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                                 sys.stdout.write("\rGetting Route Item: "+str(item)+" "*200)
                                 sys.stdout.flush()
                                 try:
+                                    time.sleep(1)
                                     if bool(re.search(r'\[[0-9]+\]$', item)):
-                                        time.sleep(1)
                                         target.find_elements_by_link_text(re.sub(r'\[[0-9]+\]\s*$', "", item))[int(re.sub(r'.+?\[([0-9]+)\]\s*$', r"\1", item))].click()
                                     else:
                                         if bool(re.search(r'^\^', item)):
@@ -2230,7 +2230,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         if error_count > 3:
                             raise ElementNotInteractableException
                         error_count += 1
-                        chrome.refresh()
+                        try:
+                            chrome.refresh()
+                        except:
+                            chrome.get("https://www.google.com/")
                     else:
                         break
                 sys.stdout.write("\rDownload Completed"+" "*200)
@@ -6063,34 +6066,51 @@ def INTLINE_ONS(INTLINE_temp, data_path, country, address, fname, sname, Series,
     if CDID == True:
         INTLINE_temp = INTLINE_temp.set_index('CDID')
     else:
-        new_columns = []
-        for col in INTLINE_temp.columns:
-            if bool(re.match(r'[0-9]{4}', str(col[0]))):
-                year = str(int(col[0]))
-            if str(col[1]) != 'nan':
-                new_columns.append(year+'-'+str(col[1]).strip())
-            elif bool(re.match(r'[0-9]{4}', str(col[0]))):
-                new_columns.append(str(int(col[0])))
-            else:
-                new_columns.append(None)
-        INTLINE_temp.columns = new_columns
-        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
-        if type(INTLINE_temp.index) == pd.core.indexes.multi.MultiIndex:
-            new_index = []
-            sector = ''
-            SeriesID = ''
-            for dex in INTLINE_temp.index:
-                if str(dex[0]).find('Unnamed') < 0 and str(dex[0]).find('nan') < 0:
-                    sector = str(dex[0]).strip()
-                if str(dex[1]).find('Unnamed') < 0 and str(dex[1]).find('nan') < 0 and str(dex[1]).find('Excluding') < 0:
-                    SeriesID = str(dex[1]).strip()
-                elif str(dex[2]).find('Unnamed') < 0 and str(dex[2]).find('nan') < 0:
-                    SeriesID = str(dex[2]).strip()
+        if isinstance(INTLINE_temp.columns, pd.MultiIndex):
+            new_columns = []
+            for col in INTLINE_temp.columns:
+                if bool(re.match(r'^[0-9]{4}$', str(col[0]))):
+                    year = str(int(col[0]))
+                if str(col[1]) != 'nan':
+                    new_columns.append(year+'-'+str(col[1]).strip())
+                elif bool(re.match(r'^[0-9]{4}$', str(col[0]))):
+                    new_columns.append(str(int(col[0])))
                 else:
-                    SeriesID = str(dex[0]).strip()
-                new_index.append(tuple([sector, SeriesID]))
-            INTLINE_temp.index = pd.MultiIndex.from_tuples(new_index)
-            INTLINE_temp = INTLINE_temp.sort_index()
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+            INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        else:
+            QUARTER = {'jan':'Q1','apr':'Q2','jul':'Q3','oct':'Q4'}
+            new_columns = []
+            for col in INTLINE_temp.columns:
+                if bool(re.search(r'[0-9]{4}$', str(col))):
+                    year = str(int(re.sub(r'.*?([0-9]{4})$', r"\1", str(col))))
+                if str(col).strip()[:3].lower() in QUARTER:
+                    new_columns.append(year+'-'+QUARTER[str(col).strip()[:3].lower()])
+                elif type(col) == datetime:
+                    new_columns.append(col.strftime('%Y-%m'))
+                elif bool(re.search(r'^[0-9]{4}$', str(col))):
+                    new_columns.append(year)
+                else:
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+            INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        if type(INTLINE_temp.index) == pd.core.indexes.multi.MultiIndex:
+                new_index = []
+                sector = ''
+                SeriesID = ''
+                for dex in INTLINE_temp.index:
+                    if str(dex[0]).find('Unnamed') < 0 and str(dex[0]).find('nan') < 0:
+                        sector = str(dex[0]).strip()
+                    if str(dex[1]).find('Unnamed') < 0 and str(dex[1]).find('nan') < 0 and str(dex[1]).find('Excluding') < 0:
+                        SeriesID = str(dex[1]).strip()
+                    elif str(dex[2]).find('Unnamed') < 0 and str(dex[2]).find('nan') < 0:
+                        SeriesID = str(dex[2]).strip()
+                    else:
+                        SeriesID = str(dex[0]).strip()
+                    new_index.append(tuple([sector, SeriesID]))
+                INTLINE_temp.index = pd.MultiIndex.from_tuples(new_index)
+                INTLINE_temp = INTLINE_temp.sort_index()
     for ind in range(Series[freq].shape[0]):
         sys.stdout.write("\rLoading...("+str(round((ind+1)*100/Series[freq].shape[0], 1))+"%)*")
         sys.stdout.flush()
