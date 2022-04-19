@@ -397,6 +397,7 @@ def INTLINE_DATASETS(chrome, data_path, country, address, fname, sname, freq, Se
             file_path = file_path.replace('.xls'+excel,'.xlsx')
             excel = 'x'
     present_file_existed = INTLINE_PRESENT(file_path)
+    # present_file_existed = False
     if present_file_existed == False and address.find('DEUSTATIS') >= 0:
         if INTLINE_PRESENT(re.sub(r'\.[csvxlzip]+', "", file_path)+'_Notes.csv'):
             logging.info('Getting Data from Different Year Ranges.\n')
@@ -404,7 +405,7 @@ def INTLINE_DATASETS(chrome, data_path, country, address, fname, sname, freq, Se
             if False not in [INTLINE_PRESENT(data_path+str(country)+'/'+address+str(file_name)+' - '+str(yr)+'.xls'+excel) for yr in time_units]:
                 present_file_existed = True
     if str(fname).find('http') >= 0 and present_file_existed == False:
-        if tables == ['None']:
+        if address.find('COMM') >= 0:
             INTLINE_temp = INTLINE_WEB_TRADE(chrome, country, address, fname, sname, freq=freq, header=head, index_col=index_col, skiprows=skip, start_year=dealing_start_year)
         else:
             INTLINE_temp, webnote = INTLINE_WEB(chrome, country, address, fname, sname, freq=freq, tables=tables, header=head, index_col=index_col, skiprows=skip, usecols=usecols, nrows=nrows, csv=csv, encode=encode, renote=True, Series=Series, Table=Table, start_year=dealing_start_year, previous=previous_data, output=output, Zip=Zip, file_name=Name, specific_time_unit=specific_time_unit, interval=interval)
@@ -590,7 +591,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             else:
                 base_year = re.sub(r'.+?([0-9]{4}).+', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[1]).replace('\n',''))
     elif address.find('COMM') >= 0 and file_name.find('Index') >= 0:
-        base_year = readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=0, acceptNoFile=False).iloc[0].iloc[0][:4]
+        base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(readFile(data_path+str(country)+'/'+address+'historical_data/'+file_name[0]+'-'+str(datetime.today().year-1)+'.csv', header_='infer', acceptNoFile=False).iloc[0]).replace('\n',''))
     elif address.find('METI') >= 0:
         base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0]))
         if address.find('WTRS') >= 0:
@@ -2068,7 +2069,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             note_content = re.sub(r'\-+.*', "", chrome.find_element_by_xpath('.//div[@id="mainContents"]/h2[position()='+str(SNA+1)+']').text).strip()
                         bulletList[SNA].find_element_by_xpath('.//li[position()='+str(li)+']/a').click()
                         p = 1
-                        if str(sname).find('kdef') >= 0 or str(sname).find('kgaku') >= 0:
+                        if str(sname).find('kdef') >= 0 or str(sname).find('kgaku') >= 0: #The First preliminary Estimates的資料不完備，必須採用The Second preliminary Estimates
                             targets = chrome.find_elements_by_xpath('.//div[@id="mainContents"]/table/tbody/tr')
                             position_found = False
                             for t in range(len(targets)):
@@ -2112,6 +2113,13 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 chrome.close()
                 chrome.switch_to.window(chrome.window_handles[0])
                 chrome.refresh()
+            elif address.find('COMM') >= 0:
+                try:
+                    target = chrome.find_element_by_xpath('.//div[@class="stat-cycle_sheet"]/ul[contains(., "'+str(sname[-4:])+'")]')
+                except NoSuchElementException:
+                    return pd.DataFrame()
+                link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='stat-search')
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='CSV', text_match=True)
             elif address.find('FSA') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='March', text_match=True)
                 target = chrome.find_element_by_xpath('.//tr[td/text()="'+str(sname)+'"]')
@@ -3860,20 +3868,41 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
 
 def INTLINE_WEB_TRADE(chrome, country, address, fname, sname, freq=None, header=None, index_col=None, skiprows=None, start_year=None):
     
-    chrome.get(fname)
+    INTLINE_temp = {}
+    start_year = 2003
+    start_from_last_year = False
+    if sname.find('Index') >= 0:
+        old_base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(readFile(data_path+str(country)+'/'+address+'historical_data/T-2003.csv', header_='infer', acceptNoFile=False).iloc[0]).replace('\n',''))
+    else:
+        start_year = 2009
+        start_from_last_year = True
+    for year in list(range(datetime.today().year, start_year-1, -1)):
+        year_path = data_path+str(country)+'/'+address+'historical_data/'+sname[0]+'-'+str(year)+'.csv'
+        if INTLINE_PRESENT(year_path) or (start_from_last_year and os.path.isfile(year_path) and year < datetime.today().year-1):
+            IN_t = readFile(year_path, header_=header, index_col_=index_col, skiprows_=skiprows, acceptNoFile=False)
+        else:
+            IN_t = INTLINE_WEB(chrome, country, address+'historical_data/', fname, sname[0]+'-'+str(year), freq=freq, tables=[0], header=header, index_col=index_col, skiprows=skiprows, csv=True)
+            if sname.find('Index') >= 0 and IN_t.empty == False and start_from_last_year == False:
+                new_base_year = re.sub(r'.*?([0-9]{4}).*', r"\1", str(IN_t.iloc[0]).replace('\n',''))
+                if new_base_year == old_base_year:
+                    start_from_last_year = True
+        if IN_t.empty == False:
+            INTLINE_temp[year] = IN_t
+    
+    return INTLINE_temp
+
+    """chrome.get(fname)
     try:
         xl = win32.gencache.EnsureDispatch('Excel.Application')
     except:
         xl = win32.DispatchEx('Excel.Application')
     xl.DisplayAlerts=False
-    xl.Visible = 1
-    path = data_path+str(country)+'/'+address+sname+'.xlsx'
+    xl.Visible = 0
+    
     archive_path = data_path+str(country)+'/'+address+'old/'+sname+'.xlsx'
     old_base_year = readExcelFile(data_path+str(country)+'/'+address+sname+'.xlsx', sheet_name_=0, acceptNoFile=False).iloc[0].iloc[0][:4]
     shutil.copy(path, archive_path)
     ExcelFile = xl.Workbooks.Open(Filename=os.path.realpath(path))
-    if sname.find('Index') < 0:
-        start_year = datetime.today().year - 1
     
     link_list_temp = chrome.find_elements_by_xpath('.//div[@class="stat-cycle_sheet"]/ul')
     for l in range(len(link_list_temp)):
@@ -3924,11 +3953,7 @@ def INTLINE_WEB_TRADE(chrome, country, address, fname, sname, freq=None, header=
     sys.stdout.write("\n\n")
     ExcelFile.Save()
     ExcelFile.Close()
-    xl.Quit()
-    
-    INTLINE_temp = readExcelFile(path, header_=header, index_col_=index_col, skiprows_=skiprows, sheet_name_=None, acceptNoFile=False)
-    
-    return INTLINE_temp
+    xl.Quit()"""
 
 def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, Series, Countries, freq, head=None, index_col=None, transpose=True, Table=None, base_year=0, INTLINE_previous=pd.DataFrame(), FREQLISTW=None, find_unknown=True, note=[], footnote=[]):
     QUAR = ['03','06','09','12']
@@ -5634,6 +5659,7 @@ def INTLINE_MULTIKEYS(INTLINE_temp, data_path, country, address, fname, sname, S
     elif address.find('TRADE') >= 0:
         if address.find('COMM') >= 0:
             INTLINE_temp = INTLINE_TRADE(INTLINE_temp, fname, transpose=transpose)
+            INTLINE_temp.to_excel(data_path+str(country)+'/'+address+fname+'_archive.xlsx', sheet_name=fname[:6])
         elif address.find('COUN') >= 0:
             INTLINE_temp = INTLINE_temp.loc[:,INTLINE_temp.columns.dropna()]
             if str(fname) == 'World':
@@ -6618,11 +6644,12 @@ def INTLINE_LTPLR(chrome, data_path, country, address, fname, sname, freq, start
 def INTLINE_TRADE(INTLINE_temp, fname, transpose=True):
     INTLINE_t = pd.DataFrame()
     for year in INTLINE_temp:
-        sys.stdout.write("\rLoading Data From Year "+year+" ")
+        sys.stdout.write("\rLoading Data From Year "+str(year)+" ")
         sys.stdout.flush()
         new_columns = []
         new_index = []
         IN = INTLINE_temp[year]
+        year = str(year)
         #if transpose == True:
         #    IN = IN.T
         if fname.find('Index') >= 0:
@@ -6649,7 +6676,10 @@ def INTLINE_TRADE(INTLINE_temp, fname, transpose=True):
                     new_columns.append('drop')
             IN.columns = new_columns
             IN = IN.drop(columns=['drop'])
+            subject = ''
             for dex in IN.index:
+                if str(dex[0]).find('Unnamed') < 0:
+                    subject = str(dex[0]).strip(' *()')
                 Unit = str(dex[1]).strip(' *()')
                 if len(Unit) >= 3 and Unit[0] == 'T':
                     Unit = 'Thousand Volume'
@@ -6657,13 +6687,17 @@ def INTLINE_TRADE(INTLINE_temp, fname, transpose=True):
                     Unit = 'Million Volume'
                 elif Unit != 'Value':
                     Unit = 'Volume'
-                new_index.append([str(dex[0]).strip(' *()'), Unit])
+                new_index.append([subject, Unit])
             IN.index = pd.MultiIndex.from_tuples(new_index)
         INTLINE_t = pd.concat([INTLINE_t, IN], axis=1)
     sys.stdout.write("\n\n")
     if fname.find('Index') < 0:
-        INTLINE_t.loc[pd.IndexSlice[:,['Value']], :] = INTLINE_t.loc[pd.IndexSlice[:,['Value']], :].apply(lambda x: x/1000000)
-        INTLINE_t.loc[pd.IndexSlice[:,['Volume']], :] = INTLINE_t.loc[pd.IndexSlice[:,['Volume']], :].apply(lambda x: x/1000)
+        INTLINE_t.loc[pd.IndexSlice[:,['Value']], :] = INTLINE_t.loc[pd.IndexSlice[:,['Value']], :].applymap(lambda x: float(x)/1000000)
+        try:
+            INTLINE_t.loc[pd.IndexSlice[:,['Volume']], :] = INTLINE_t.loc[pd.IndexSlice[:,['Volume']], :].applymap(lambda x: float(x)/1000)
+        except TypeError:
+            print(INTLINE_t.loc[pd.IndexSlice[:,['Volume']], :])
+            ERROR('')
     if INTLINE_t.empty:
         print(INTLINE_t)
         ERROR('Empty Table')
