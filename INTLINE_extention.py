@@ -537,8 +537,7 @@ def INTLINE_WEBDRIVER(chrome, country, address, sname, tables=None, header=None,
             print(file_path)
             ERROR(str(err))
         else:
-            if address.find('GACC/CAT') < 0:
-                sys.stdout.write('\nDownload Complete\n\n')
+            sys.stdout.write('\nDownload Complete\n\n')
             if os.path.isfile((Path.home() / "Downloads" / new_file_name)) and excel_file != new_file_name:
                 os.remove((Path.home() / "Downloads" / new_file_name))
             os.rename((Path.home() / "Downloads" / excel_file), (Path.home() / "Downloads" / new_file_name))
@@ -1893,7 +1892,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         INTLINE_temp = pd.DataFrame.from_dict(pd.read_json(json_data).loc['records','result']).set_index('end_of_month')
         INTLINE_temp = INTLINE_temp.sort_index(axis=0)
         done = True
-    elif (address.find('RBI') >= 0 or address.find('ISTAT') >= 0 or (address.find('BCB') >= 0 and str(sname).find('general government debt') >= 0) or address.find('COMEX') >= 0) \
+    elif (address.find('RBI') >= 0 or address.find('ISTAT') >= 0 or (address.find('BCB') >= 0 and str(sname).find('general government debt') >= 0) or address.find('COMEX') >= 0 or address.find('GACC') >= 0) \
         and re.sub(r'#[0-9]+', "", str(chrome.current_url)) != re.sub(r'#[0-9]+', "", str(fname)):
         count = 0
         time_limit = 20
@@ -2288,7 +2287,57 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     chrome.get(fname)
             elif address.find('GACC/SUM') >= 0:
                 target = chrome.find_element_by_xpath('.//tr[contains(., "Summary of Imports and Exports") and contains(., "Monthly")]')
-                target.find_elements_by_xpath('.//*[@href]')[-1].click()
+                count = 0
+                try:
+                    target.find_elements_by_xpath('.//*[@href]')[-1].click()
+                except TimeoutException:
+                    while True:
+                        try:
+                            chrome.find_element_by_tag_name('div')
+                        except NoSuchElementException:
+                            if count > 3:
+                                input('加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                            count += 1
+                            time.sleep(1)
+                        else:
+                            break
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
+            elif address.find('GACC/CAT') >= 0:
+                sname_t = re.split(r' \- ', str(sname))[0]
+                dateinfo = re.split(r' \- ', str(sname))[1]
+                yr = dateinfo[:4]
+                mth = datetime.strptime(dateinfo[-2:], '%m').strftime('%b')
+                count = 0
+                try:
+                    Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.ID, 'monthlysel')))).select_by_value(str(yr))
+                except (TimeoutException, NoSuchElementException):
+                    while True:
+                        try:
+                            chrome.find_element_by_id('monthlysel')
+                        except NoSuchElementException:
+                            if count > 3:
+                                input(str(chrome.current_url)+'加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                            count += 1
+                            time.sleep(1)
+                        else:
+                            break
+                target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname_t)+'")]')
+                count = 0
+                try:
+                    link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword=str(mth), text_match=True)
+                    if link_found == False and link_meassage.find('Link Not Found in key') >= 0:
+                        return pd.DataFrame()
+                except TimeoutException:
+                    while True:
+                        try:
+                            chrome.find_element_by_tag_name('div')
+                        except NoSuchElementException:
+                            if count > 3:
+                                input(str(chrome.current_url)+'加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                            count += 1
+                            time.sleep(1)
+                        else:
+                            break
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             elif address.find('HKCSD') >= 0:
                 if str(fname).find('web_table') >= 0:
@@ -4165,8 +4214,10 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp = INTLINE_temp.loc[:, INTLINE_temp.columns.dropna()]
             if address.find('GACC/SUM') >= 0:
                 INTLINE_temp = pd.concat([INTLINE_temp.loc[['Balance']], INTLINE_temp.loc[['Export','Import']].applymap(lambda x: float(x)/100)])
-            INTLINE_temp = pd.concat([IN_his, INTLINE_temp], axis=1)
+            INTLINE_temp = pd.concat([INTLINE_temp, IN_his], axis=1)
             INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+            INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+            INTLINE_temp = INTLINE_temp.applymap(lambda x: float(x) if str(x)[-1].isnumeric() else None)
             INTLINE_temp.to_excel(file_path, sheet_name='Monthly')
     elif address.find('HKMA') >= 0:
         if str(fname).find('Money supply') >= 0 or str(fname).find('Residential mortgage survey results') >= 0:
@@ -7002,30 +7053,38 @@ def INTLINE_GACC(chrome, data_path, country, address, fname, sname, freq, skip=N
         return IHS
     start_year = datetime.today().year - 1
     
-    chrome.get(fname)
+    # chrome.get(fname)
     for yr in range(start_year, datetime.today().year+1):
-        Select(chrome.find_element_by_id("monthlysel")).select_by_value(str(yr))
-        target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname)+'")]')
-        month_list_temp = target.find_elements_by_xpath('.//*[@href]')
-        for mth in range(len(month_list_temp)):
-            target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname)+'")]')
-            month_list = target.find_elements_by_xpath('.//*[@href]')
-            month = month_list[mth].text.strip()
-            month_path = data_path+str(country)+'/'+address+'historical data/'+sname+' - '+str(yr)+datetime.strptime(month[:3],'%b').strftime('%m')+'.xls'
+        # Select(chrome.find_element_by_id("monthlysel")).select_by_value(str(yr))
+        # target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname)+'")]')
+        # month_list_temp = target.find_elements_by_xpath('.//*[@href]')
+        if yr != datetime.today().year:
+            month_list_temp = [i for i in range(1, 13)]
+        else:
+            month_list_temp = [i for i in range(1, datetime.today().month)]
+        for mth in month_list_temp:
+            # target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname)+'")]')
+            # month_list = target.find_elements_by_xpath('.//*[@href]')
+            # month = month_list[mth].text.strip()
+            month = datetime.strptime(str(mth).rjust(2, "0"), '%m').strftime('%b')
+            month_path = data_path+str(country)+'/'+address+'historical data/'+sname+' - '+str(yr)+str(mth).rjust(2, "0")+'.xls'
             if INTLINE_PRESENT(month_path):
                 IN_t = readExcelFile(month_path, skiprows_=skip, header_=head, index_col_=index_col, sheet_name_=0)
             else:
-                sys.stdout.write("\rDownloading historical data: "+str(yr)+"-"+datetime.strptime(month[:3],'%b').strftime('%m')+" ")
-                sys.stdout.flush()
-                month_list[mth].click()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
-                if link_found == False:
-                    ERROR(link_meassage)
-                time.sleep(5)
-                IN_t = INTLINE_WEBDRIVER(chrome, country, address+'historical data/', sname+' - '+str(yr)+datetime.strptime(month[:3],'%b').strftime('%m'), tables=[0], header=head, index_col=index_col, skiprows=skip, csv=False)
-                time.sleep(1)
-                chrome.back()
-                time.sleep(1)
+                IN_t = INTLINE_WEB(chrome, country, address+'historical data/', fname, sname+' - '+str(yr)+str(mth).rjust(2, "0"), freq=freq, tables=[0], header=head, index_col=index_col, skiprows=skip, csv=False)
+                # sys.stdout.write("\rDownloading historical data: "+str(yr)+"-"+datetime.strptime(month[:3],'%b').strftime('%m')+" ")
+                # sys.stdout.flush()
+                # month_list[mth].click()
+                # link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
+                # if link_found == False:
+                #     ERROR(link_meassage)
+                # time.sleep(5)
+                # IN_t = INTLINE_WEBDRIVER(chrome, country, address+'historical data/', sname+' - '+str(yr)+datetime.strptime(month[:3],'%b').strftime('%m'), tables=[0], header=head, index_col=index_col, skiprows=skip, csv=False)
+                # time.sleep(1)
+                # chrome.back()
+                # time.sleep(1)
+            if IN_t.empty:
+                continue
             if str(sname).find('Export') >= 0 and str(sname).find('Import') >= 0:
                 IN_t.index = [re.sub(r'[:，]|China|[0-9]+\.*', "", str(dex[1])).replace(', ',',').strip() for dex in IN_t.index]
                 if str(IN_t.columns[0][0]).strip() != 'Exports' and str(IN_t.columns[0][0]).strip() != 'Imports' and str(IN_t.columns[0][0]).strip() != 'Total':
@@ -7071,8 +7130,8 @@ def INTLINE_GACC(chrome, data_path, country, address, fname, sname, freq, skip=N
                     #print(str(IN_t.index[0]).strip())
                     #print(bool(re.search(r'^[A-Za-z]{2,}', str(IN_t.index[0]).strip())))
                     ERROR('Incorrect column was used as index column. Please modify your program!')
-    sys.stdout.write("\n\n")
-    sys.stdout.write('\nDownload Complete\n\n')
+    # sys.stdout.write("\n\n")
+    # sys.stdout.write('\nDownload Complete\n\n')
     
     if str(sname).find('Export') >= 0 and str(sname).find('Import') >= 0:
         for trade in ['Exports','Imports']:
