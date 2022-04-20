@@ -1,160 +1,644 @@
-﻿2022-04-19 04:51:48 PM excel_suffix: test
+﻿2022-04-20 11:16:18 AM excel_suffix: test
 
-2022-04-19 04:51:48 PM data_processing: True
+2022-04-20 11:16:18 AM data_processing: True
 
-2022-04-19 04:51:48 PM find_unknown: False
+2022-04-20 11:16:18 AM find_unknown: False
 
-2022-04-19 04:51:48 PM dealing_start_year: 1901
+2022-04-20 11:16:18 AM dealing_start_year: 1901
 
-2022-04-19 04:51:52 PM Data Processing
+2022-04-20 11:16:24 AM Data Processing
 
-2022-04-19 04:51:52 PM Reading table: Country, Time: 4s
+2022-04-20 11:16:24 AM Reading table: Country, Time: 6s
 
-2022-04-19 04:51:53 PM Reading table: TABLES, Time: 4 s
+2022-04-20 11:16:24 AM Reading table: TABLES, Time: 6 s
 
-2022-04-19 04:51:55 PM Reading file: country_series, Time: 7 s
+2022-04-20 11:16:26 AM Reading file: country_series, Time: 8 s
 
-2022-04-19 04:51:55 PM Reading file: 158datasets, Time: 7 s
+2022-04-20 11:16:26 AM Reading file: 158datasets, Time: 8 s
 
-2022-04-19 04:51:55 PM 
+2022-04-20 11:16:27 AM 
 
-2022-04-19 04:51:55 PM ====== WebDriver manager ======
-2022-04-19 04:51:56 PM Current google-chrome version is 100.0.4896
-2022-04-19 04:51:56 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-19 04:51:56 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-19 04:52:04 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-19 04:52:05 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 17s
+2022-04-20 11:16:27 AM ====== WebDriver manager ======
+2022-04-20 11:16:27 AM Current google-chrome version is 100.0.4896
+2022-04-20 11:16:27 AM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-20 11:16:27 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-20 11:16:30 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-20 11:16:32 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#1, sheet: def-cy, frequency: A, Time: 14s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:34 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Total New Items Found: 0 Time: 17 s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#2, sheet: gaku-jcy, frequency: A, Time: 17s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Total New Items Found: 0 Time: 17 s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#3, sheet: gaku-mcy, frequency: A, Time: 17s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:35 AM Total New Items Found: 0 Time: 17 s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#4, sheet: kdef-cy, frequency: A, Time: 18s
 
-2022-04-19 04:52:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#5, sheet: kgaku-jcy, frequency: A, Time: 18s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#6, sheet: kgaku-mcy, frequency: A, Time: 18s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:36 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#1, sheet: s11dn_en, frequency: A, Time: 19s
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:12 PM Total Items: 21 Time: 24s
+2022-04-20 11:16:37 AM Total New Items Found: 0 Time: 19 s
 
-2022-04-19 04:52:13 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 25s
+2022-04-20 11:16:37 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#2, sheet: s11n_en, frequency: A, Time: 19s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Total New Items Found: 0 Time: 19 s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#3, sheet: s11rn_en, frequency: A, Time: 19s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:37 AM Total New Items Found: 0 Time: 19 s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#4, sheet: s14n_en, frequency: A, Time: 20s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#5, sheet: s14rn_en, frequency: A, Time: 20s
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:14 PM Total Items: 50 Time: 26s
+2022-04-20 11:16:38 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-19 04:52:16 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 28s
+2022-04-20 11:16:38 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#7, sheet: def-qg, frequency: Q, Time: 20s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#8, sheet: gaku-jg, frequency: Q, Time: 20s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#9, sheet: gaku-jk, frequency: Q, Time: 21s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#10, sheet: gaku-mg, frequency: Q, Time: 21s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:39 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:40 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#11, sheet: gaku-mk, frequency: Q, Time: 22s
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:40 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-20 11:16:40 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-19 04:52:17 PM Total Items: 49 Time: 29s
+2022-04-20 11:16:40 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#12, sheet: kdef-q, frequency: Q, Time: 22s
 
-2022-04-19 04:52:31 PM Reading file: INTLINE_database?, Time: 43 s
+2022-04-20 11:16:40 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:31 PM Concating file: INTLINE_key?, Time: 43 s
+2022-04-20 11:16:40 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-19 04:52:31 PM Concating file: INTLINE_database?, Time: 43 s
+2022-04-20 11:16:40 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#13, sheet: kgaku-jg, frequency: Q, Time: 22s
 
-2022-04-19 04:52:31 PM Time: 43 s
+2022-04-20 11:16:40 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-19 04:52:31 PM Setting new files, Time: 43 s
+2022-04-20 11:16:40 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-19 04:52:31 PM Concating new files: INTLINE_database, Time: 43 s
+2022-04-20 11:16:41 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#14, sheet: kgaku-jk, frequency: Q, Time: 23s
 
-2022-04-19 04:52:31 PM     databank              name   db_table  db_code                                             desc_e country  ...                      unit                                    type  snl                      source             form_e                   form_c
-0    INTLINE  M158MOFTNI0005.M  DB_M_0001  data001  Japan Trade Statistics, Merchandise Trade, Exp...   Japan  ...       Thousands of Number  Machineries, Equipment and Spare Parts    1  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-1    INTLINE  M158MOFTNI0006.M  DB_M_0001  data002  Japan Trade Statistics, Merchandise Trade, Exp...   Japan  ...       Thousands of Number  Machineries, Equipment and Spare Parts    2  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-2    INTLINE  M158MOFTNI0007.M  DB_M_0001  data003  Japan Trade Statistics, Merchandise Trade, Exp...   Japan  ...         Thousands of Unit  Machineries, Equipment and Spare Parts    3  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-3    INTLINE  M158MOFTNI0008.M  DB_M_0001  data004  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...         Thousands of Unit  Machineries, Equipment and Spare Parts    4  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-4    INTLINE  M158MOFTRI0001.M  DB_M_0001  data005  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...           Index: 2015=100                           Import Volume    5  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-..       ...               ...        ...      ...                                                ...     ...  ...                       ...                                     ...  ...                         ...                ...                      ...
-115  INTLINE   M158MOFVT0098.M  DB_M_0001  data116  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...  Billions of Japanese Yen          Other Aggregated Manufacturing  116  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-116  INTLINE   M158MOFVT0099.M  DB_M_0001  data117  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...  Billions of Japanese Yen  Machineries, Equipment and Spare Parts  117  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-117  INTLINE   M158MOFVT0100.M  DB_M_0001  data118  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...  Billions of Japanese Yen          Other Aggregated Manufacturing  118  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-118  INTLINE   M158MOFVT0101.M  DB_M_0001  data119  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...  Billions of Japanese Yen                     Other Manufacturing  119  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
-119  INTLINE   M158MOFVT0102.M  DB_M_0001  data120  Japan Trade Statistics, Merchandise Trade, Imp...   Japan  ...  Billions of Japanese Yen                     Other Manufacturing  120  Ministry of Finance, Japan  Merchandise Trade  Not Seasonally Adjusted
+2022-04-20 11:16:41 AM Present File Exists. Reading Data From Default Path.
 
-[120 rows x 15 columns]
-2022-04-19 04:52:31 PM Total Items: 120
+2022-04-20 11:16:41 AM Total New Items Found: 0 Time: 23 s
+
+2022-04-20 11:16:41 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#15, sheet: kgaku-mg, frequency: Q, Time: 23s
+
+2022-04-20 11:16:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:41 AM Total New Items Found: 0 Time: 23 s
+
+2022-04-20 11:16:41 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#16, sheet: kgaku-mk, frequency: Q, Time: 23s
+
+2022-04-20 11:16:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:42 AM Total New Items Found: 0 Time: 24 s
+
+2022-04-20 11:16:42 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#17, sheet: kshotoku-cy, frequency: A, Time: 24s
+
+2022-04-20 11:16:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:42 AM Total New Items Found: 0 Time: 24 s
+
+2022-04-20 11:16:42 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#18, sheet: kshotoku-q, frequency: Q, Time: 24s
+
+2022-04-20 11:16:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:42 AM Total New Items Found: 0 Time: 24 s
+
+2022-04-20 11:16:42 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/stat/di/di-e.html, sheet: Indexes of Business Conditions, frequency: M, Time: 24s
+
+2022-04-20 11:16:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:43 AM Total New Items Found: 0 Time: 25 s
+
+2022-04-20 11:16:43 AM Country: Japan, Reading file or url: https://www5.cao.go.jp/keizai3/getsurei-e/index-e.html, sheet: shouhi, frequency: M, Time: 25s
+
+2022-04-20 11:16:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:43 AM Total New Items Found: 0 Time: 25 s
+
+2022-04-20 11:16:44 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#1, sheet: BOJA, frequency: A, Time: 26s
+
+2022-04-20 11:16:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:44 AM Total New Items Found: 0 Time: 26 s
+
+2022-04-20 11:16:44 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: M, Time: 26s
+
+2022-04-20 11:16:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:48 AM Total New Items Found: 0 Time: 30 s
+
+2022-04-20 11:16:48 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: Q, Time: 30s
+
+2022-04-20 11:16:49 AM Total New Items Found: 0 Time: 31 s
+
+2022-04-20 11:16:49 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#3, sheet: BOJD, frequency: D, Time: 31s
+
+2022-04-20 11:16:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:50 AM Total New Items Found: 0 Time: 32 s
+
+2022-04-20 11:16:50 AM Country: Japan, Reading file or url: https://www.boj.or.jp/en/statistics/dl/loan/prime/index.htm, sheet: LTPLR, frequency: M, Time: 32s
+
+2022-04-20 11:16:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:50 AM Total New Items Found: 0 Time: 32 s
+
+2022-04-20 11:16:50 AM Country: Japan, Reading file or url: https://www.investing.com/economic-calendar/interest-rate-decision-165, sheet: PR, frequency: M, Time: 32s
+
+2022-04-20 11:16:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:50 AM Total New Items Found: 0 Time: 32 s
+
+2022-04-20 11:16:51 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: M, Time: 33s
+
+2022-04-20 11:16:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:53 AM Total New Items Found: 0 Time: 35 s
+
+2022-04-20 11:16:53 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: A, Time: 35s
+
+2022-04-20 11:16:54 AM Total New Items Found: 0 Time: 36 s
+
+2022-04-20 11:16:54 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 36s
+
+2022-04-20 11:16:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:16:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:02 AM Total New Items Found: 0 Time: 44 s
+
+2022-04-20 11:17:02 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 44s
+
+2022-04-20 11:17:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-20 11:17:04 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 46s
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:05 AM Total New Items Found: 0 Time: 47 s
+
+2022-04-20 11:17:06 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv, sheet: World, frequency: M, Time: 48s
+
+2022-04-20 11:17:06 AM Total New Items Found: 0 Time: 48 s
+
+2022-04-20 11:17:06 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma001.csv, sheet: Asia, frequency: M, Time: 48s
+
+2022-04-20 11:17:08 AM Total New Items Found: 0 Time: 50 s
+
+2022-04-20 11:17:08 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma002.csv, sheet: Oceania, frequency: M, Time: 50s
+
+2022-04-20 11:17:09 AM Total New Items Found: 0 Time: 51 s
+
+2022-04-20 11:17:09 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma003.csv, sheet: North America, frequency: M, Time: 51s
+
+2022-04-20 11:17:10 AM Total New Items Found: 0 Time: 52 s
+
+2022-04-20 11:17:10 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma004.csv, sheet: Middle and South America, frequency: M, Time: 52s
+
+2022-04-20 11:17:12 AM Total New Items Found: 0 Time: 54 s
+
+2022-04-20 11:17:12 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma005.csv, sheet: Western Europe, frequency: M, Time: 54s
+
+2022-04-20 11:17:13 AM Total New Items Found: 0 Time: 55 s
+
+2022-04-20 11:17:13 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma006.csv, sheet: Central and Eastern Europe, frequency: M, Time: 55s
+
+2022-04-20 11:17:15 AM Total New Items Found: 0 Time: 57 s
+
+2022-04-20 11:17:15 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma007.csv, sheet: Middle East, frequency: M, Time: 57s
+
+2022-04-20 11:17:16 AM Total New Items Found: 0 Time: 58 s
+
+2022-04-20 11:17:16 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma008.csv, sheet: Africa, frequency: M, Time: 58s
+
+2022-04-20 11:17:18 AM Total New Items Found: 0 Time: 60 s
+
+2022-04-20 11:17:18 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma010.csv, sheet: EU, frequency: M, Time: 60s
+
+2022-04-20 11:17:19 AM Total New Items Found: 0 Time: 61 s
+
+2022-04-20 11:17:20 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma012.csv, sheet: ASEAN, frequency: M, Time: 62s
+
+2022-04-20 11:17:21 AM Total New Items Found: 0 Time: 63 s
+
+2022-04-20 11:17:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:22 AM Country: Japan, Reading file or url: JP, sheet: Monthly, frequency: M, Time: 64s
+
+2022-04-20 11:17:22 AM Total New Items Found: 0 Time: 64 s
+
+2022-04-20 11:17:22 AM Country: Japan, Reading file or url: TIBOR, sheet: 0, frequency: M, Time: 64s
+
+2022-04-20 11:17:23 AM Total New Items Found: 0 Time: 65 s
+
+2022-04-20 11:17:24 AM Country: Japan, Reading file or url: https://www.jpc-net.jp/research/rd/db/#anc-01, sheet: koukougyo_LP, frequency: M, Time: 65s
+
+2022-04-20 11:17:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:24 AM Latest Base Year Received.
+
+2022-04-20 11:17:24 AM Total New Items Found: 0 Time: 66 s
+
+2022-04-20 11:17:25 AM Country: Japan, Reading file or url: https://www.fsa.go.jp/en/regulated/npl/index.html, sheet: Table-6, frequency: A, Time: 67s
+
+2022-04-20 11:17:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:25 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:25 AM Total New Items Found: 0 Time: 67 s
+
+2022-04-20 11:17:25 AM Country: Japan, Reading file or url: Nationwide_historical, sheet: 0, frequency: S, Time: 67s
+
+2022-04-20 11:17:25 AM Total New Items Found: 0 Time: 67 s
+
+2022-04-20 11:17:25 AM Country: Japan, Reading file or url: Six Large City Areas_historical, sheet: 0, frequency: S, Time: 67s
+
+2022-04-20 11:17:25 AM Total New Items Found: 0 Time: 67 s
+
+2022-04-20 11:17:26 AM Country: Japan, Reading file or url: NESLCA_historical, sheet: 0, frequency: S, Time: 68s
+
+2022-04-20 11:17:26 AM Total New Items Found: 0 Time: 68 s
+
+2022-04-20 11:17:26 AM Reading file: 158datasets, Time: 68 s
+
+2022-04-20 11:17:26 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#1, sheet: gom1e, frequency: M, Time: 68s
+
+2022-04-20 11:17:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:28 AM Total New Items Found: 0 Time: 70 s
+
+2022-04-20 11:17:28 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#2, sheet: gsm1e, frequency: M, Time: 70s
+
+2022-04-20 11:17:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:30 AM Total New Items Found: 0 Time: 72 s
+
+2022-04-20 11:17:30 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#3, sheet: zom1e, frequency: M, Time: 72s
+
+2022-04-20 11:17:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:31 AM Total New Items Found: 0 Time: 73 s
+
+2022-04-20 11:17:31 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#4, sheet: zsm1e, frequency: M, Time: 73s
+
+2022-04-20 11:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:31 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:32 AM Total New Items Found: 0 Time: 74 s
+
+2022-04-20 11:17:32 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#5, sheet: ngsm1e, frequency: M, Time: 74s
+
+2022-04-20 11:17:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:33 AM Total New Items Found: 0 Time: 75 s
+
+2022-04-20 11:17:33 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#1, sheet: kome, frequency: M, Time: 75s
+
+2022-04-20 11:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:34 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:34 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:35 AM Total New Items Found: 0 Time: 77 s
+
+2022-04-20 11:17:35 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#2, sheet: ksme, frequency: M, Time: 77s
+
+2022-04-20 11:17:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:36 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:37 AM Total New Items Found: 0 Time: 79 s
+
+2022-04-20 11:17:38 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/syoudou_kakuho/index.html, sheet: h2slt51j, frequency: M, Time: 80s
+
+2022-04-20 11:17:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:38 AM Total New Items Found: 0 Time: 80 s
+
+2022-04-20 11:17:39 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913616&tclass3val=0, sheet: hon-maikin-k-jissu, frequency: M, Time: 81s
+
+2022-04-20 11:17:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:44 AM Total New Items Found: 0 Time: 86 s
+
+2022-04-20 11:17:44 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913617&tclass3val=0, sheet: hon-maikin-k-sisu, frequency: M, Time: 86s
+
+2022-04-20 11:17:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:51 AM Total New Items Found: 0 Time: 93 s
+
+2022-04-20 11:17:51 AM Reading file: 158datasets, Time: 93 s
+
+2022-04-20 11:17:52 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#1, sheet: zmis, frequency: M, Time: 94s
+
+2022-04-20 11:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:52 AM Total New Items Found: 0 Time: 94 s
+
+2022-04-20 11:17:52 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#2, sheet: zmir, frequency: M, Time: 94s
+
+2022-04-20 11:17:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:53 AM Total New Items Found: 0 Time: 95 s
+
+2022-04-20 11:17:53 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#3, sheet: zmic, frequency: M, Time: 95s
+
+2022-04-20 11:17:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:53 AM Total New Items Found: 0 Time: 95 s
+
+2022-04-20 11:17:53 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#4, sheet: zmib, frequency: M, Time: 95s
+
+2022-04-20 11:17:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:53 AM Total New Items Found: 0 Time: 95 s
+
+2022-04-20 11:17:53 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#5, sheet: tmis, frequency: M, Time: 95s
+
+2022-04-20 11:17:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:54 AM Total New Items Found: 0 Time: 96 s
+
+2022-04-20 11:17:54 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#6, sheet: tmir, frequency: M, Time: 96s
+
+2022-04-20 11:17:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:54 AM Total New Items Found: 0 Time: 96 s
+
+2022-04-20 11:17:54 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#7, sheet: tmic, frequency: M, Time: 96s
+
+2022-04-20 11:17:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:54 AM Total New Items Found: 0 Time: 96 s
+
+2022-04-20 11:17:55 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#8, sheet: tmib, frequency: M, Time: 97s
+
+2022-04-20 11:17:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:55 AM Total New Items Found: 0 Time: 97 s
+
+2022-04-20 11:17:55 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&query=Employed%20person%20by%20major%20industry&layout=dataset&stat_infid=000031831374, sheet: lt01-c30, frequency: M, Time: 97s
+
+2022-04-20 11:17:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:55 AM Total New Items Found: 0 Time: 97 s
+
+2022-04-20 11:17:56 AM Country: Japan, Reading file or url: https://www.stat.go.jp/english/data/kakei/156.html, sheet: season-k, frequency: M, Time: 98s
+
+2022-04-20 11:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:56 AM Total New Items Found: 0 Time: 98 s
+
+2022-04-20 11:17:56 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200571&bunya_l=07&tstat=000000680001&cycle=1&tclass1val=0, sheet: RPKT, frequency: M, Time: 98s
+
+2022-04-20 11:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:57 AM Total New Items Found: 0 Time: 99 s
+
+2022-04-20 11:17:57 AM Reading file: Datasets, Time: 99 s
+
+2022-04-20 11:17:57 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: M, Time: 99s
+
+2022-04-20 11:17:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:57 AM Total New Items Found: 0 Time: 99 s
+
+2022-04-20 11:17:57 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: W, Time: 99s
+
+2022-04-20 11:17:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:57 AM Total New Items Found: 0 Time: 99 s
+
+2022-04-20 11:17:57 AM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: D, Time: 99s
+
+2022-04-20 11:17:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:58 AM Total New Items Found: 0 Time: 100 s
+
+2022-04-20 11:17:59 AM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: D, Time: 101s
+
+2022-04-20 11:17:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:17:59 AM Total New Items Found: 0 Time: 101 s
+
+2022-04-20 11:17:59 AM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: W, Time: 101s
+
+2022-04-20 11:17:59 AM Total New Items Found: 0 Time: 101 s
+
+2022-04-20 11:17:59 AM Reading file: Datasets, Time: 101 s
+
+2022-04-20 11:17:59 AM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 101s
+
+2022-04-20 11:17:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-20 11:18:00 AM Total New Items Found: 0 Time: 102 s
+
+2022-04-20 11:18:10 AM = ! = No new items were found.
