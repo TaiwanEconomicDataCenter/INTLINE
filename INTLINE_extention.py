@@ -682,27 +682,38 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
         base_yr = re.split(r'[^0-9]+', base_temp)[-2:]
         base_year = base_yr[0]+'.'+datetime.strptime(base_mth[0],'%B').strftime('%m')+'-'+base_yr[1]+'.'+datetime.strptime(base_mth[1],'%B').strftime('%m')
     elif address.find('DOS') >= 0 and address.find('API') < 0:
-        file_path = data_path+str(country)+'/'+address+'base_year.csv'
-        base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
-        try:
-            latest = INTLINE_PRESENT(file_path, check_latest_update=True, latest_update=base_year_list.loc[file_name, 'last updated'])
-        except KeyError:
-            return base_year, INTLINE_temp, Series, repl, is_period
-        if file_name == 'M212261':
-            is_period = True
-        if latest == True:
-            base_year = str(base_year_list.loc[file_name, 'base year'])
-        else:
-            chrome.get(website)
-            time.sleep(3)
-            if bool(re.search(r'=\s*100', chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)):
-                if file_name == 'M212261':
-                    base_temp = re.sub(r'.+?\((.+?)\s*=\s*100.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
-                    base_year = base_temp[-4:]+'-Q'+base_temp[0]
-                else:
-                    base_year = re.sub(r'.+?([0-9]{4})\s*=\s*100.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
-            elif bool(re.search(r'Base Year', chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)):
-                base_year = re.sub(r'.+?([0-9]{4})\s*As Base Year.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
+        first_column = readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).loc[:, 0].apply(lambda x: str(x))
+        base_text = str(first_column.loc[first_column.str.contains('Title', case=False)].iloc[0]).replace('\n','')
+        if bool(re.search(r'=\s*100', base_text)):
+            if file_name.find('M212261') >= 0:
+                is_period = True
+                base_temp = re.sub(r'.+?\((.+?)\s*=\s*100.*', r"\1", base_text)
+                base_year = base_temp[-4:]+'-Q'+base_temp[0]
+            else:
+                base_year = re.sub(r'.+?([0-9]{4})\s*=\s*100.*', r"\1", base_text)
+        elif bool(re.search(r'Base Year', base_text)):
+            base_year = re.sub(r'.+?([0-9]{4})\s*As Base Year.*', r"\1", base_text)
+        # file_path = data_path+str(country)+'/'+address+'base_year.csv'
+        # base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
+        # try:
+        #     latest = INTLINE_PRESENT(file_path, check_latest_update=True, latest_update=base_year_list.loc[file_name, 'last updated'])
+        # except KeyError:
+        #     return base_year, INTLINE_temp, Series, repl, is_period
+        # if file_name == 'M212261':
+        #     is_period = True
+        # if latest == True:
+        #     base_year = str(base_year_list.loc[file_name, 'base year'])
+        # else:
+        #     chrome.get(website)
+        #     time.sleep(3)
+        #     if bool(re.search(r'=\s*100', chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)):
+        #         if file_name == 'M212261':
+        #             base_temp = re.sub(r'.+?\((.+?)\s*=\s*100.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
+        #             base_year = base_temp[-4:]+'-Q'+base_temp[0]
+        #         else:
+        #             base_year = re.sub(r'.+?([0-9]{4})\s*=\s*100.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
+        #     elif bool(re.search(r'Base Year', chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)):
+        #         base_year = re.sub(r'.+?([0-9]{4})\s*As Base Year.*', r"\1", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text)
     elif address.find('KOSTAT') >= 0 and freq == 'M':
         Meta_data = readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_='Meta Data', index_col_=0, acceptNoFile=False).squeeze()
         for dex in Meta_data.index:
@@ -1879,6 +1890,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         date = chrome.find_element_by_xpath('.//a[@data-track-action="content_item 1"]').text.lower().replace(' ','-')
         chrome.get(fname+'-'+date)
     elif address.find('HKMA') >= 0:
+        # urllib.error.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1129)>
         ssl._create_default_https_context = ssl._create_unverified_context
         INTLINE_temp = pd.DataFrame.from_dict(pd.read_json(fname).loc['records','result']).set_index('end_of_month')
         INTLINE_temp = INTLINE_temp.sort_index(axis=0)
@@ -1938,7 +1950,16 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         done = True
     else:
         chrome.set_page_load_timeout(60)
-        chrome.get(fname)
+        count = 0
+        while True:
+            try:
+                chrome.get(fname)
+            except TimeoutException:
+                if count > 3:
+                    input('加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                count +=1
+            else:
+                break
         if address.find('MEASTF') >= 0:
             time.sleep(2)
     y = 0
@@ -2324,6 +2345,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 target = chrome.find_element_by_xpath('.//tr[contains(., "'+str(sname_t)+'")]')
                 count = 0
                 try:
+                    time.sleep(5)
                     link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword=str(mth), text_match=True)
                     if link_found == False and link_meassage.find('Link Not Found in key') >= 0:
                         return pd.DataFrame()
@@ -2333,7 +2355,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             chrome.find_element_by_tag_name('div')
                         except NoSuchElementException:
                             if count > 3:
-                                input(str(chrome.current_url)+'加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                                input(str(chrome.current_url)+'加載時間過長，請返回上一頁後按Enter鍵繼續:')
                             count += 1
                             time.sleep(1)
                         else:
@@ -2341,6 +2363,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             elif address.find('HKCSD') >= 0:
                 if str(fname).find('web_table') >= 0:
+                    time.sleep(2)
                     while True:
                         try:
                             WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'full_series_button'))).click()
@@ -2361,20 +2384,49 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 target = WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "E501 ")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xlsx')
             elif address.find('DOS') >= 0:
-                if address.find('API') >= 0:
-                    keywords = re.split(r', ', str(file_name))
-                    target = WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/input[@aria-label="search-keywords"]')))
-                    ActionChains(chrome).click(target).send_keys(Keys.BACKSPACE).send_keys(keywords[0]).perform()
-                    ActionChains(chrome).send_keys(Keys.ENTER).perform()
-                    WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/a[contains(., "'+keywords[0]+'")][contains(., "'+keywords[1]+'")][contains(., "'+keywords[2]+'")]'))).click()
-                    chrome.close()
-                    chrome.switch_to.window(chrome.window_handles[0])
-                target = chrome.find_element_by_id('TableContainerDiv').get_attribute('outerHTML')
-                INTLINE_temp = pd.read_html(target, skiprows=skiprows, header=header, index_col=index_col)[0]
-                note_content = re.sub(r'.+?(In Chained.+?Dollars).*|.+?(SSIC.+?)\).*|.+?\((At.+?Prices)\).*', r"\1, \2, \3", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text).strip(', ')
-                if note_content != ''and note_content.find(str(sname)) < 0:
-                    note.append(['Note', re.sub(r'\s+', " ", note_content)])
+                # if address.find('API') >= 0:
+                #     keywords = re.split(r', ', str(file_name))
+                #     target = WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/input[@aria-label="search-keywords"]')))
+                #     ActionChains(chrome).click(target).send_keys(Keys.BACKSPACE).send_keys(keywords[0]).perform()
+                #     ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                #     WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/a[contains(., "'+keywords[0]+'")][contains(., "'+keywords[1]+'")][contains(., "'+keywords[2]+'")]'))).click()
+                #     chrome.close()
+                #     chrome.switch_to.window(chrome.window_handles[0])
+                # target = chrome.find_element_by_id('TableContainerDiv').get_attribute('outerHTML')
+                # INTLINE_temp = pd.read_html(target, skiprows=skiprows, header=header, index_col=index_col)[0]
+                # note_content = re.sub(r'.+?(In Chained.+?Dollars).*|.+?(SSIC.+?)\).*|.+?\((At.+?Prices)\).*', r"\1, \2, \3", chrome.find_element_by_xpath('.//td[a[@class="metadata"]]').text).strip(', ')
+                # if note_content != ''and note_content.find(str(sname)) < 0:
+                #     note.append(['Note', re.sub(r'\s+', " ", note_content)])
+                chrome.set_window_size(1080,1020)
+                try:
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Continue")]'))).click()
+                except:
+                    time.sleep(0)
+                try:
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Skip Tutorial")]'))).click()
+                except:
+                    time.sleep(0)
+                try:
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/button[@title="Close"][contains(., "Got it")]'))).click()
+                except:
+                    time.sleep(0)
+                if str(sname).find('M700011') >= 0:
+                    count = 0
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/div[contains(., "Time Period")]')))
+                        except TimeoutException:
+                            if count > 3:
+                                input('加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                            count += 1
+                        else:
+                            break
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Download data")]'))).click()
+                target = WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/section[contains(., "Download Data")]')))
+                WebDriverWait(target, 10).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="XLSX"]'))).click()
+                WebDriverWait(target, 10).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Download")]'))).click()
                 link_found = True
+                time.sleep(8)
             elif address.find('MAS/SGSY') >= 0:
                 Select(chrome.find_element_by_id('ContentPlaceHolder1_StartYearDropDownList')).select_by_index(0)
                 Select(chrome.find_element_by_id('ContentPlaceHolder1_StartMonthDropDownList')).select_by_index(0)
@@ -5892,13 +5944,20 @@ def INTLINE_MULTIKEYS(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.sort_index(axis=0)
         INTLINE_temp['note'] = ['nan' for dex in INTLINE_temp.index]
     elif address.find('DOS') >= 0:
+        first_column = readExcelFile(data_path+str(country)+'/'+address+fname+'.xlsx', sheet_name_=sname, acceptNoFile=False).loc[:, 0].apply(lambda x: str(x))
+        note_text = str(first_column.loc[first_column.str.contains('Title', case=False)].iloc[0]).replace('\n','')
+        note_content = re.sub(r'.+?(In Chained.+?Dollars).*|.+?(SSIC.+?)\).*|.+?\((At.+?Prices)\).*', r"\1, \2, \3", note_text).strip(', ')
+        if note_content != ''and note_content.find('Title') < 0:
+            note.append(['Note', re.sub(r'\s+', " ", note_content)])
+        if freq == 'A':
+            INTLINE_temp.columns = [str(col).strip()[:4] if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
         if freq == 'Q':
-            INTLINE_temp.columns = [str(col)[:4]+'-'+str(col)[-1]+str(col)[-2] for col in INTLINE_temp.columns]
+            INTLINE_temp.columns = [str(col).strip()[:4]+'-'+str(col).strip()[-1]+str(col).strip()[-2] for col in INTLINE_temp.columns]
         elif freq == 'M':
-            INTLINE_temp.columns = [datetime.strptime(str(col), '%Y %b').strftime('%Y-%m') for col in INTLINE_temp.columns]
+            INTLINE_temp.columns = [datetime.strptime(str(col).strip(), '%Y %b').strftime('%Y-%m') for col in INTLINE_temp.columns]
         INTLINE_temp.index = [re.sub(r'\s+|.+?:', "", str(dex)) for dex in INTLINE_temp.index]
         ADDPREFIX = ['M060171','M212881','M212882','M451001','M451002','M451391']
-        if str(fname) in ADDPREFIX:
+        if True in [str(fname).find(key) >= 0 for key in ADDPREFIX]:
             new_index = []
             prefix = ''
             for dex in INTLINE_temp.index:
@@ -5906,12 +5965,14 @@ def INTLINE_MULTIKEYS(INTLINE_temp, data_path, country, address, fname, sname, S
                     prefix = str(dex)
                 elif str(dex).find('Total') == 0:
                     prefix = str(dex)[:str(dex).find(',')]
-                elif str(dex).find('Food') == 0 and str(dex) != 'Food' and str(fname).find('M21288') == 0:
+                elif str(dex).find('Food') == 0 and str(dex) != 'Food' and str(fname).find('M21288') >= 0:
                     prefix = str(dex).replace('Food','')
-                elif str(dex).find('OtherBusinessServices') >= 0 or str(fname).find('M21288') == 0:
+                elif str(dex).find('OtherBusinessServices') >= 0 or str(fname).find('M21288') >= 0:
                     prefix = ''
                 new_index.append(prefix+str(dex))
             INTLINE_temp.index = new_index
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna()]
+        INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
         if INTLINE_previous.empty == False:
             INTLINE_previous.columns = [str(col) for col in INTLINE_previous.columns]
             INTLINE_temp = pd.concat([INTLINE_previous, INTLINE_temp], axis=1)

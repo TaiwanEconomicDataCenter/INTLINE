@@ -1,280 +1,37 @@
-﻿2022-04-01 03:32:56 PM Checking Identities: 528 s
+﻿2022-04-22 03:40:04 PM Checking Identities: 49 s
 
-2022-04-01 03:32:56 PM Index A576DOSVN0003.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0004.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0005.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0006.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0008.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0010.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0012.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0013.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0014.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0018.A desc_e updated
-2022-04-01 03:32:56 PM Index A576DOSVN0019.A desc_e updated
-2022-04-01 03:32:56 PM Index M158MHLEI1.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI1.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI13.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI13.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI15.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI15.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI25.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI25.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI27.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI27.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI3.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI3.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI5.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI5.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLEI7.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLEI7.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLHWI3.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLHWI3.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLHWI4.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLHWI4.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLRWI1.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLRWI1.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLRWI3.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLRWI3.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLSAI9.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLSAI9.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI1.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI1.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI13.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI13.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI25.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI25.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI3.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI3.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI5.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI5.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM Index M158MHLWI7.M desc_e: base updated
-2022-04-01 03:32:56 PM Index M158MHLWI7.M unit inconsistent
-2022-04-01 03:32:56 PM DF_KEY = Index: 2021=100
-2022-04-01 03:32:56 PM df_key = Index: 2015=100
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTNI0005.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTNI0006.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTNI0007.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTNI0008.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0001.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0002.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0003.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0004.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0005.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0006.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0007.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0008.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0009.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0010.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0011.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0012.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0013.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0014.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0015.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0016.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0017.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0018.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0019.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0020.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFTRI0021.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0002.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0003.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0004.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0005.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0006.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0007.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0008.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0009.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0010.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0011.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0012.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0013.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0014.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0015.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0016.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0017.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0018.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0019.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0020.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0021.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0022.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0023.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0024.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0025.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0026.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0027.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0028.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0029.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0030.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0032.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0033.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0035.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0036.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0037.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0038.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0039.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0040.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0041.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0042.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0043.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0044.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0045.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0046.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0047.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0048.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0049.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0050.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0053.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0054.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0056.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0057.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0058.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0059.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0060.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0061.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0062.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0063.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0064.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0065.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0066.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0067.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0068.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0069.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0070.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0071.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0072.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0073.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0074.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0075.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0076.M
-2022-04-01 03:32:56 PM The program did not fetch the latest data for: M158MOFVT0077.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0078.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0079.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0080.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0081.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0082.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0083.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0084.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0085.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0086.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0087.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0088.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0089.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0091.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0092.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0093.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0094.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0095.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0096.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0097.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0098.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0099.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0100.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0101.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M158MOFVT0102.M
-2022-04-01 03:32:57 PM Index M532HKCPT0002.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M532HKCPT0002.M unit: base updated
-2022-04-01 03:32:57 PM Index M532HKCPT0011.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M532HKCPT0011.M unit: base updated
-2022-04-01 03:32:57 PM Index M532HKCPT0013.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M532HKCPT0013.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR1.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR1.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR147.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR147.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR161.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR161.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR2.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR2.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR212.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR212.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR243.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR243.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR345.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR345.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR388.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR388.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR39.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR39.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR48.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR48.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR487.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR487.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR519.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR519.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR567.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR567.M unit: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR69.M desc_e: base updated
-2022-04-01 03:32:57 PM Index M542BOKPR69.M unit: base updated
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0001.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0002.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0004.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0005.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0006.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0007.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0008.M
-2022-04-01 03:32:57 PM The program did not fetch the latest data for: M924NBSCPI0009.M
-2022-04-01 03:32:57 PM Index Q576DOSPL0003.Q desc_e inconsistent
-2022-04-01 03:32:57 PM df_key(not equal part) = , Note: (1)M183741 - Unit Labour Cost Index (2015 = 100), Quarterly
-2022-04-01 03:32:57 PM Index Q576DOSVN0003.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0004.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0005.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0006.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0008.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0010.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0012.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0013.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0014.Q desc_e updated
-2022-04-01 03:32:57 PM Index Q576DOSVN0017.Q desc_e updated
-2022-04-01 03:32:57 PM unknown: 0
-2022-04-01 03:32:57 PM name too long: 0
-2022-04-01 03:32:57 PM inconsistent: 20
-2022-04-01 03:32:57 PM Total desc_e inconsistent: 1
-2022-04-01 03:32:57 PM Total country inconsistent: 0
-2022-04-01 03:32:57 PM Total freq inconsistent: 0
-2022-04-01 03:32:57 PM Total unit inconsistent: 19
-2022-04-01 03:32:57 PM Total type inconsistent: 0
-2022-04-01 03:32:57 PM Total source inconsistent: 0
-2022-04-01 03:32:57 PM Total form_e inconsistent: 0
-2022-04-01 03:32:57 PM Total form_c inconsistent: 0
-2022-04-01 03:32:57 PM inconsistent earliest: 1952
-2022-04-01 03:32:57 PM base updated: 17
-2022-04-01 03:32:57 PM data updated: 1930
-2022-04-01 03:32:57 PM including weekly: True
-2022-04-01 03:32:57 PM including daily: True
-2022-04-01 03:32:57 PM too many months: True
+2022-04-22 03:40:04 PM Index M576DOSVM0001.M desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M3, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M3, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM Index M576DOSVM0002.M desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M2, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M2, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM Index M576DOSVM0003.M desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M1, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M1, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM Index M576DOSVM0004.M desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M1, Currency in Active Circulation, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M1, Currency in Active Circulation, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM Index M576DOSVM0006.M desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M2, Quasi Money, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M2, Quasi Money, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM Index Q576DOSPL0003.Q desc_e inconsistent
+2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Labour Market, Unit Labour Cost of Manufacturing, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Department of Statistics Singapore, Note: (1)M183741 - Unit Labour Cost Index (2015 = 100), Quarterly
+2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Labour Market, Unit Labour Cost of Manufacturing, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Department of Statistics Singapore
+2022-04-22 03:40:04 PM unknown: 0
+2022-04-22 03:40:04 PM name too long: 0
+2022-04-22 03:40:04 PM inconsistent: 6
+2022-04-22 03:40:04 PM Total desc_e inconsistent: 6
+2022-04-22 03:40:04 PM Total country inconsistent: 0
+2022-04-22 03:40:04 PM Total freq inconsistent: 0
+2022-04-22 03:40:04 PM Total unit inconsistent: 0
+2022-04-22 03:40:04 PM Total type inconsistent: 0
+2022-04-22 03:40:04 PM Total source inconsistent: 0
+2022-04-22 03:40:04 PM Total form_e inconsistent: 0
+2022-04-22 03:40:04 PM Total form_c inconsistent: 0
+2022-04-22 03:40:04 PM inconsistent earliest: 1980
+2022-04-22 03:40:04 PM base updated: 0
+2022-04-22 03:40:04 PM data updated: 41
+2022-04-22 03:40:04 PM including weekly: False
+2022-04-22 03:40:04 PM including daily: False
+2022-04-22 03:40:04 PM too many months: False
