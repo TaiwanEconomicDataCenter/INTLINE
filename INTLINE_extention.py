@@ -3938,7 +3938,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             ERROR('Table was not correctly loaded from the web.')
         INTLINE_temp.to_excel(data_path+str(country)+'/'+address+sname+'.xlsx', sheet_name=address[:3])
         print('Download Complete\n')
-    elif INTLINE_temp == None:
+    elif address.find('MAS/OFRV') < 0 and INTLINE_temp == None:
         if address.find('RBI') >= 0 and str(sname).find('WPI') >= 0:
             time.sleep(100)
         elif address.find('RBI') >= 0 or address.find('DEUSTATIS') >= 0:
