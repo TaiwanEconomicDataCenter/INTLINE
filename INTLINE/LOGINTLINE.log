@@ -1,316 +1,320 @@
-﻿2022-04-22 05:27:45 PM excel_suffix: test
+﻿2022-04-25 11:32:23 AM excel_suffix: test
 
-2022-04-22 05:27:45 PM data_processing: True
+2022-04-25 11:32:23 AM data_processing: True
 
-2022-04-22 05:27:45 PM find_unknown: False
+2022-04-25 11:32:23 AM find_unknown: False
 
-2022-04-22 05:27:45 PM dealing_start_year: 1901
+2022-04-25 11:32:23 AM dealing_start_year: 1901
 
-2022-04-22 05:27:48 PM Data Processing
+2022-04-25 11:32:26 AM Data Processing
 
-2022-04-22 05:27:48 PM Reading table: Country, Time: 3s
+2022-04-25 11:32:26 AM Reading table: Country, Time: 3s
 
-2022-04-22 05:27:49 PM Reading table: TABLES, Time: 3 s
+2022-04-25 11:32:27 AM Reading table: TABLES, Time: 3 s
 
-2022-04-22 05:27:53 PM Reading file: country_series, Time: 7 s
+2022-04-25 11:32:32 AM Reading file: country_series, Time: 8 s
 
-2022-04-22 05:27:53 PM Reading file: 576datasets, Time: 7 s
+2022-04-25 11:32:32 AM Reading file: 576datasets, Time: 8 s
 
-2022-04-22 05:27:53 PM 
+2022-04-25 11:32:32 AM 
 
-2022-04-22 05:27:53 PM ====== WebDriver manager ======
-2022-04-22 05:27:54 PM Current google-chrome version is 100.0.4896
-2022-04-22 05:27:54 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-22 05:27:54 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-22 05:27:56 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-22 05:27:58 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014811, sheet: M014811 - Expenditure On Gross Domestic Product In Chained Dollars Quarterly, frequency: Q, Time: 12s
+2022-04-25 11:32:32 AM ====== WebDriver manager ======
+2022-04-25 11:32:32 AM Current google-chrome version is 100.0.4896
+2022-04-25 11:32:32 AM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-25 11:32:33 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-25 11:32:39 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-25 11:32:43 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014811, sheet: M014811 - Expenditure On Gross Domestic Product In Chained Dollars Quarterly, frequency: Q, Time: 19s
 
-2022-04-22 05:27:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:43 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:43 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:58 PM Total New Items Found: 0 Time: 12 s
+2022-04-25 11:32:43 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-22 05:27:58 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014911, sheet: M014911 - Expenditure On Gross Domestic Product In Chained Dollars Annual, frequency: A, Time: 12s
+2022-04-25 11:32:43 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014911, sheet: M014911 - Expenditure On Gross Domestic Product In Chained Dollars Annual, frequency: A, Time: 20s
 
-2022-04-22 05:27:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:43 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:43 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:58 PM Total New Items Found: 0 Time: 13 s
+2022-04-25 11:32:43 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-22 05:27:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014921, sheet: M014921 - Expenditure On Gross Domestic Product Deflators Annual, frequency: A, Time: 13s
+2022-04-25 11:32:44 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014921, sheet: M014921 - Expenditure On Gross Domestic Product Deflators Annual, frequency: A, Time: 20s
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Total New Items Found: 0 Time: 13 s
+2022-04-25 11:32:44 AM Total New Items Found: 0 Time: 20 s
 
-2022-04-22 05:27:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015021, sheet: M015021 - Expenditure On Gross Domestic Product At Current Prices Annual, frequency: A, Time: 13s
+2022-04-25 11:32:44 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015021, sheet: M015021 - Expenditure On Gross Domestic Product At Current Prices Annual, frequency: A, Time: 20s
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Total New Items Found: 0 Time: 13 s
+2022-04-25 11:32:44 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-22 05:27:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015651, sheet: M015651 - Gross Domestic Product At Current Prices By Industry Quarterly, frequency: Q, Time: 13s
+2022-04-25 11:32:44 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015651, sheet: M015651 - Gross Domestic Product At Current Prices By Industry Quarterly, frequency: Q, Time: 21s
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Total New Items Found: 0 Time: 14 s
+2022-04-25 11:32:44 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-22 05:27:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015661, sheet: M015661 - Gross Domestic Product In Chained Dollars By Industry Quarterly, frequency: Q, Time: 14s
+2022-04-25 11:32:45 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015661, sheet: M015661 - Gross Domestic Product In Chained Dollars By Industry Quarterly, frequency: Q, Time: 21s
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:27:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Total New Items Found: 0 Time: 14 s
+2022-04-25 11:32:45 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-22 05:28:00 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015721, sheet: M015721 - Gross Domestic Product In Chained Dollars By Industry Annual, frequency: A, Time: 14s
+2022-04-25 11:32:45 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015721, sheet: M015721 - Gross Domestic Product In Chained Dollars By Industry Annual, frequency: A, Time: 22s
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Total New Items Found: 0 Time: 14 s
+2022-04-25 11:32:45 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-22 05:28:00 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015731, sheet: M015731 - Gross Domestic Product At Current Prices By Industry Annual, frequency: A, Time: 14s
+2022-04-25 11:32:45 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015731, sheet: M015731 - Gross Domestic Product At Current Prices By Industry Annual, frequency: A, Time: 22s
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:45 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Total New Items Found: 0 Time: 14 s
+2022-04-25 11:32:45 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-22 05:28:00 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M060171, sheet: M060171 - Balance Of Payments BPM6 Format Quarterly, frequency: Q, Time: 15s
+2022-04-25 11:32:46 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M060171, sheet: M060171 - Balance Of Payments BPM6 Format Quarterly, frequency: Q, Time: 22s
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Total New Items Found: 0 Time: 15 s
+2022-04-25 11:32:46 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-22 05:28:01 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182331, sheet: M182331 - Labour Force Aged 15 Years And Over End June Annual, frequency: A, Time: 15s
+2022-04-25 11:32:46 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182331, sheet: M182331 - Labour Force Aged 15 Years And Over End June Annual, frequency: A, Time: 23s
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:46 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Total New Items Found: 0 Time: 15 s
+2022-04-25 11:32:46 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-22 05:28:01 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182941, sheet: M182941 - Average Monthly Nominal Earnings Per Employee Annual, frequency: A, Time: 15s
+2022-04-25 11:32:47 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182941, sheet: M182941 - Average Monthly Nominal Earnings Per Employee Annual, frequency: A, Time: 23s
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Total New Items Found: 0 Time: 15 s
+2022-04-25 11:32:47 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-22 05:28:01 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M183741, sheet: M183591 - Unit Labour Cost Index Quarterly, frequency: Q, Time: 16s
+2022-04-25 11:32:47 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M183741, sheet: M183591 - Unit Labour Cost Index Quarterly, frequency: Q, Time: 23s
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:01 PM Total New Items Found: 0 Time: 16 s
+2022-04-25 11:32:47 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-22 05:28:02 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212261, sheet: M212261 - Private Residential Property Price Index By Type Of Property Quarterly, frequency: Q, Time: 16s
+2022-04-25 11:32:47 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212261, sheet: M212261 - Private Residential Property Price Index By Type Of Property Quarterly, frequency: Q, Time: 24s
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:02 PM Total New Items Found: 0 Time: 16 s
+2022-04-25 11:32:47 AM Total New Items Found: 0 Time: 24 s
 
-2022-04-22 05:28:02 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212701, sheet: M212701 - Domestic Supply Price Index By Commodity Section 1-Digit Level Monthly, frequency: M, Time: 16s
+2022-04-25 11:32:47 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212701, sheet: M212701 - Domestic Supply Price Index By Commodity Section 1-Digit Level Monthly, frequency: M, Time: 24s
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:47 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:02 PM Total New Items Found: 0 Time: 16 s
+2022-04-25 11:32:48 AM Total New Items Found: 0 Time: 24 s
 
-2022-04-22 05:28:02 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212881, sheet: M212881 - Consumer Price Index Monthly, frequency: M, Time: 17s
+2022-04-25 11:32:48 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212881, sheet: M212881 - Consumer Price Index Monthly, frequency: M, Time: 24s
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:48 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:48 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:05 PM Total New Items Found: 0 Time: 19 s
+2022-04-25 11:32:51 AM Total New Items Found: 0 Time: 27 s
 
-2022-04-22 05:28:05 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212882, sheet: M212882 - Consumer Price Index Monthly Seasonally Adjusted, frequency: M, Time: 19s
+2022-04-25 11:32:51 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212882, sheet: M212882 - Consumer Price Index Monthly Seasonally Adjusted, frequency: M, Time: 27s
 
-2022-04-22 05:28:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:06 PM Total New Items Found: 0 Time: 20 s
+2022-04-25 11:32:52 AM Total New Items Found: 0 Time: 28 s
 
-2022-04-22 05:28:06 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212931, sheet: M212931 - Consumer Price Index Annual, frequency: A, Time: 21s
+2022-04-25 11:32:52 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212931, sheet: M212931 - Consumer Price Index Annual, frequency: A, Time: 29s
 
-2022-04-22 05:28:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:52 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:52 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:07 PM Total New Items Found: 0 Time: 21 s
+2022-04-25 11:32:52 AM Total New Items Found: 0 Time: 29 s
 
-2022-04-22 05:28:07 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355271, sheet: M355271 - Index Of Industrial Production Monthly, frequency: M, Time: 21s
+2022-04-25 11:32:53 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355271, sheet: M355271 - Index Of Industrial Production Monthly, frequency: M, Time: 29s
 
-2022-04-22 05:28:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:53 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:53 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:07 PM Total New Items Found: 0 Time: 21 s
+2022-04-25 11:32:53 AM Total New Items Found: 0 Time: 29 s
 
-2022-04-22 05:28:07 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355301, sheet: M355301 - Index Of Industrial Production By Industry Cluster Monthly, frequency: M, Time: 21s
+2022-04-25 11:32:53 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355301, sheet: M355301 - Index Of Industrial Production By Industry Cluster Monthly, frequency: M, Time: 30s
 
-2022-04-22 05:28:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:53 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:53 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:08 PM Total New Items Found: 0 Time: 22 s
+2022-04-25 11:32:54 AM Total New Items Found: 0 Time: 30 s
 
-2022-04-22 05:28:08 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355302, sheet: M355302 - Index Of Industrial Production By Industry Cluster Monthly Seasonally Adjusted, frequency: M, Time: 22s
+2022-04-25 11:32:54 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355302, sheet: M355302 - Index Of Industrial Production By Industry Cluster Monthly Seasonally Adjusted, frequency: M, Time: 30s
 
-2022-04-22 05:28:08 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:08 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:08 PM Total New Items Found: 0 Time: 22 s
+2022-04-25 11:32:54 AM Total New Items Found: 0 Time: 31 s
 
-2022-04-22 05:28:08 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450081, sheet: M450081 - Merchandise Imports By Region Market Monthly, frequency: M, Time: 23s
+2022-04-25 11:32:54 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450081, sheet: M450081 - Merchandise Imports By Region Market Monthly, frequency: M, Time: 31s
 
-2022-04-22 05:28:08 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:08 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:10 PM Total New Items Found: 0 Time: 24 s
+2022-04-25 11:32:56 AM Total New Items Found: 0 Time: 32 s
 
-2022-04-22 05:28:10 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450091, sheet: M450091 - Merchandise Exports By Region Market Monthly, frequency: M, Time: 24s
+2022-04-25 11:32:56 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450091, sheet: M450091 - Merchandise Exports By Region Market Monthly, frequency: M, Time: 32s
 
-2022-04-22 05:28:10 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:10 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:11 PM Total New Items Found: 0 Time: 25 s
+2022-04-25 11:32:57 AM Total New Items Found: 0 Time: 34 s
 
-2022-04-22 05:28:11 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451001, sheet: M451001 - Merchandise Trade By Commodity Section At Current Prices Monthly, frequency: M, Time: 25s
+2022-04-25 11:32:57 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451001, sheet: M451001 - Merchandise Trade By Commodity Section At Current Prices Monthly, frequency: M, Time: 34s
 
-2022-04-22 05:28:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:12 PM Total New Items Found: 0 Time: 27 s
+2022-04-25 11:32:58 AM Total New Items Found: 0 Time: 35 s
 
-2022-04-22 05:28:13 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451002, sheet: M451002 - Merchandise Trade By Commodity Section At Current Prices Monthly Seasonally Adjusted, frequency: M, Time: 27s
+2022-04-25 11:32:59 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451002, sheet: M451002 - Merchandise Trade By Commodity Section At Current Prices Monthly Seasonally Adjusted, frequency: M, Time: 35s
 
-2022-04-22 05:28:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:13 PM Total New Items Found: 0 Time: 27 s
+2022-04-25 11:32:59 AM Total New Items Found: 0 Time: 36 s
 
-2022-04-22 05:28:13 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451031, sheet: M451031 - Merchandise Exports By Commodity Division Monthly, frequency: M, Time: 27s
+2022-04-25 11:32:59 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451031, sheet: M451031 - Merchandise Exports By Commodity Division Monthly, frequency: M, Time: 36s
 
-2022-04-22 05:28:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:32:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Total New Items Found: 0 Time: 28 s
+2022-04-25 11:33:00 AM Total New Items Found: 0 Time: 36 s
 
-2022-04-22 05:28:14 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451082, sheet: M451082 - Selected Merchandise Trade At Current Market Prices Monthly Seasonally Adjusted, frequency: M, Time: 28s
+2022-04-25 11:33:00 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451082, sheet: M451082 - Selected Merchandise Trade At Current Market Prices Monthly Seasonally Adjusted, frequency: M, Time: 37s
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Total New Items Found: 0 Time: 28 s
+2022-04-25 11:33:00 AM Total New Items Found: 0 Time: 37 s
 
-2022-04-22 05:28:14 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451111, sheet: M451111 - Merchandise Imports Of Machinery And Equipment Monthly, frequency: M, Time: 28s
+2022-04-25 11:33:00 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451111, sheet: M451111 - Merchandise Imports Of Machinery And Equipment Monthly, frequency: M, Time: 37s
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Total New Items Found: 0 Time: 28 s
+2022-04-25 11:33:01 AM Total New Items Found: 0 Time: 37 s
 
-2022-04-22 05:28:14 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451121, sheet: M451121 - Merchandise Exports Of Machinery And Equipment Monthly, frequency: M, Time: 29s
+2022-04-25 11:33:01 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451121, sheet: M451121 - Merchandise Exports Of Machinery And Equipment Monthly, frequency: M, Time: 37s
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:01 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:01 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:15 PM Total New Items Found: 0 Time: 29 s
+2022-04-25 11:33:01 AM Total New Items Found: 0 Time: 37 s
 
-2022-04-22 05:28:15 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451391, sheet: M451391 - Merchandise Trade By Commodity Section Monthly, frequency: M, Time: 29s
+2022-04-25 11:33:01 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451391, sheet: M451391 - Merchandise Trade By Commodity Section Monthly, frequency: M, Time: 38s
 
-2022-04-22 05:28:15 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:01 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:15 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:01 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:16 PM Total New Items Found: 0 Time: 30 s
+2022-04-25 11:33:02 AM Total New Items Found: 0 Time: 39 s
 
-2022-04-22 05:28:16 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M700001, sheet: M700001 - Currency In Circulation End Of Period Monthly, frequency: M, Time: 30s
+2022-04-25 11:33:02 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M700001, sheet: M700001 - Currency In Circulation End Of Period Monthly, frequency: M, Time: 39s
 
-2022-04-22 05:28:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:02 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:02 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:16 PM Total New Items Found: 0 Time: 30 s
+2022-04-25 11:33:03 AM Total New Items Found: 0 Time: 39 s
 
-2022-04-22 05:28:16 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M701111, sheet: M700011 - Money Supply End Of Period Monthly, frequency: M, Time: 30s
+2022-04-25 11:33:03 AM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M701111, sheet: M700011 - Money Supply End Of Period Monthly, frequency: M, Time: 39s
 
-2022-04-22 05:28:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:03 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:03 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:16 PM Total New Items Found: 0 Time: 30 s
+2022-04-25 11:33:03 AM Total New Items Found: 0 Time: 39 s
 
-2022-04-22 05:28:17 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=5f2b18a8-0883-4769-a635-879c63d3caac, sheet: Interest Rates of Banks and Finance Companies, frequency: M, Time: 31s
+2022-04-25 11:33:04 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=5f2b18a8-0883-4769-a635-879c63d3caac, sheet: Interest Rates of Banks and Finance Companies, frequency: M, Time: 40s
 
-2022-04-22 05:28:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:04 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 11:33:04 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:17 PM Total New Items Found: 0 Time: 31 s
+2022-04-25 11:33:04 AM Total New Items Found: 0 Time: 40 s
 
-2022-04-22 05:28:17 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=a8fab653-feeb-4c7a-a036-b544dca9bf1a, sheet: Official Foreign Reserves, frequency: M, Time: 31s
+2022-04-25 11:33:04 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=a8fab653-feeb-4c7a-a036-b544dca9bf1a, sheet: Official Foreign Reserves, frequency: M, Time: 41s
 
-2022-04-22 05:28:17 PM Downloading file: Official Foreign Reserves
+2022-04-25 11:33:04 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:18 PM Getting Data From Website
+2022-04-25 11:33:04 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:21 PM Total New Items Found: 0 Time: 35 s
+2022-04-25 11:33:04 AM Total New Items Found: 0 Time: 41 s
 
-2022-04-22 05:28:21 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/statistics/fdanet/BenchmarkPricesAndYields.aspx, sheet: SGSY, frequency: M, Time: 35s
+2022-04-25 11:33:05 AM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/statistics/fdanet/BenchmarkPricesAndYields.aspx, sheet: SGSY, frequency: M, Time: 41s
 
-2022-04-22 05:28:21 PM Downloading file: SGSY
+2022-04-25 11:33:05 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:23 PM Getting Data From Website
+2022-04-25 11:33:05 AM Total New Items Found: 0 Time: 41 s
 
-2022-04-22 05:28:32 PM Total New Items Found: 0 Time: 46 s
+2022-04-25 11:33:05 AM Country: Singapore, Reading file or url: https://www.cpf.gov.sg/Members/AboutUs/about-us-info/cpf-interest-rates, sheet: CPF, frequency: M, Time: 42s
 
-2022-04-22 05:28:32 PM Country: Singapore, Reading file or url: https://www.cpf.gov.sg/Members/AboutUs/about-us-info/cpf-interest-rates, sheet: CPF, frequency: M, Time: 47s
+2022-04-25 11:33:05 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:32 PM Total New Items Found: 0 Time: 47 s
+2022-04-25 11:33:05 AM Total New Items Found: 0 Time: 42 s
 
-2022-04-22 05:28:33 PM Reading file: Datasets, Time: 47 s
+2022-04-25 11:33:05 AM Reading file: Datasets, Time: 42 s
 
-2022-04-22 05:28:33 PM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0, sheet: Straits Times Index, frequency: D, Time: 47s
+2022-04-25 11:33:06 AM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0, sheet: Straits Times Index, frequency: D, Time: 42s
 
-2022-04-22 05:28:43 PM Total New Items Found: 0 Time: 57 s
+2022-04-25 11:33:06 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-22 05:28:43 PM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0&i=w, sheet: Straits Times Index, frequency: W, Time: 57s
+2022-04-25 11:33:07 AM Total New Items Found: 0 Time: 43 s
 
-2022-04-22 05:28:50 PM Total New Items Found: 0 Time: 64 s
+2022-04-25 11:33:07 AM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0&i=w, sheet: Straits Times Index, frequency: W, Time: 43s
 
-2022-04-22 05:29:00 PM = ! = No new items were found.
+2022-04-25 11:33:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 11:33:07 AM Total New Items Found: 0 Time: 43 s
+
+2022-04-25 11:33:16 AM = ! = No new items were found.
