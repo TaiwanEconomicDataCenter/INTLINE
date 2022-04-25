@@ -2535,6 +2535,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     Attributes.extend(re.split(r', ', str(Series[freq].loc[Series[freq][key_suffix+'DataSet'] == str(sname)].iloc[k]['keyword'])))
                 Attributes = list(set(Attributes))
                 if new_version:
+                    time.sleep(2)
                     chrome.close()
                     chrome.switch_to.window(chrome.window_handles[0])
                     chrome.switch_to.frame('iframe_rightMenu')
@@ -2647,11 +2648,16 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 if freq == 'Q' and previous == False:
                     note.append(['Note', re.sub(r'\s+', " ", note_content)])
             elif address.find('KERI') >= 0:
+                key_name = '기업경기'
                 file_month = file_name[-3:].replace('-0','-').replace('-','')
                 page = 1
+                # WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="search_keyword"]'))).send_keys(key_name)
+                # WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"]'))).click()
                 while True:
                     try:
-                        WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+file_month+'월")][contains(., "'+file_name[:4]+'.")]//a[@class="download"]'))).click()
+                        # WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+file_month+'월")][contains(., "'+file_name[:4]+'.")]//a[@class="download"]'))).click()
+                        target = WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/li[contains(., "'+file_month+'월")][contains(., "BSI")]')))
+                        link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='BSI', text_match=True)
                     except TimeoutException:
                         page+=1
                         try:
@@ -2662,10 +2668,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             return pd.DataFrame()
                     else:
                         break
-                chrome.switch_to.window(chrome.window_handles[-1])
+                # chrome.switch_to.window(chrome.window_handles[-1])
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='xlsx', text_match=True)
-                chrome.close()
-                chrome.switch_to.window(chrome.window_handles[0])
+                # chrome.close()
+                # chrome.switch_to.window(chrome.window_handles[0])
             elif address.find('RBA') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname)+'.')
                 try:
