@@ -1,166 +1,676 @@
-﻿2022-04-25 03:40:32 PM excel_suffix: test
+﻿2022-04-25 04:31:07 PM excel_suffix: test
 
-2022-04-25 03:40:32 PM data_processing: True
+2022-04-25 04:31:07 PM data_processing: True
 
-2022-04-25 03:40:32 PM find_unknown: False
+2022-04-25 04:31:07 PM find_unknown: False
 
-2022-04-25 03:40:32 PM dealing_start_year: 1901
+2022-04-25 04:31:07 PM dealing_start_year: 1901
 
-2022-04-25 03:40:38 PM Data Processing
+2022-04-25 04:31:09 PM Data Processing
 
-2022-04-25 03:40:38 PM Reading table: Country, Time: 5s
+2022-04-25 04:31:09 PM Reading table: Country, Time: 1s
 
-2022-04-25 03:40:38 PM Reading table: TABLES, Time: 5 s
+2022-04-25 04:31:09 PM Reading table: TABLES, Time: 2 s
 
-2022-04-25 03:40:43 PM Reading file: country_series, Time: 10 s
+2022-04-25 04:31:14 PM Reading file: country_series, Time: 7 s
 
-2022-04-25 03:40:43 PM Reading file: 542datasets, Time: 10 s
+2022-04-25 04:31:14 PM Reading file: 193datasets, Time: 7 s
 
-2022-04-25 03:40:43 PM 
+2022-04-25 04:31:15 PM 
 
-2022-04-25 03:40:43 PM ====== WebDriver manager ======
-2022-04-25 03:40:44 PM Current google-chrome version is 100.0.4896
-2022-04-25 03:40:44 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-25 03:40:44 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-25 03:40:47 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-25 03:40:49 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#1, sheet: Annual, frequency: A, Time: 16s
+2022-04-25 04:31:15 PM ====== WebDriver manager ======
+2022-04-25 04:31:15 PM Current google-chrome version is 100.0.4896
+2022-04-25 04:31:15 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-25 04:31:15 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-25 04:31:18 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-25 04:31:20 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#house-bus-fin, sheet: e01hist, frequency: Q, Time: 13s
 
-2022-04-25 03:40:49 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:20 PM Downloading file: e01hist
 
-2022-04-25 03:40:49 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:27 PM Getting Data From Website
 
-2022-04-25 03:40:49 PM Total New Items Found: 0 Time: 16 s
+2022-04-25 04:31:37 PM Total New Items Found: 0 Time: 30 s
 
-2022-04-25 03:40:49 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#2, sheet: Quarterly_Nominal_SA, frequency: Q, Time: 17s
+2022-04-25 04:31:37 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#inflation-expectations, sheet: g01hist, frequency: Q, Time: 30s
 
-2022-04-25 03:40:49 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:37 PM Downloading file: g01hist
 
-2022-04-25 03:40:49 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:37 PM Getting Data From Website
 
-2022-04-25 03:40:50 PM Total New Items Found: 0 Time: 17 s
+2022-04-25 04:31:48 PM Total New Items Found: 0 Time: 41 s
 
-2022-04-25 03:40:50 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#3, sheet: Quarterly_Real_SA, frequency: Q, Time: 17s
+2022-04-25 04:31:48 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#intl-trade-ext-fin, sheet: i02hist, frequency: M, Time: 41s
 
-2022-04-25 03:40:50 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:48 PM Downloading file: i02hist
 
-2022-04-25 03:40:50 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:48 PM Getting Data From Website
 
-2022-04-25 03:40:50 PM Total New Items Found: 0 Time: 17 s
+2022-04-25 04:31:59 PM Total New Items Found: 0 Time: 52 s
 
-2022-04-25 03:40:50 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#4, sheet: Quarterly_Nominal_NSA, frequency: Q, Time: 18s
+2022-04-25 04:31:59 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#1, sheet: f01hist, frequency: M, Time: 52s
 
-2022-04-25 03:40:50 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:50 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:31:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:51 PM Total New Items Found: 0 Time: 18 s
+2022-04-25 04:31:59 PM Total New Items Found: 0 Time: 52 s
 
-2022-04-25 03:40:51 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#5, sheet: Quarterly_Real_NSA, frequency: Q, Time: 18s
+2022-04-25 04:31:59 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#1, sheet: f01hist, frequency: A, Time: 52s
 
-2022-04-25 03:40:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Total New Items Found: 0 Time: 53 s
 
-2022-04-25 03:40:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#2, sheet: f02hist, frequency: M, Time: 53s
 
-2022-04-25 03:40:51 PM Total New Items Found: 0 Time: 18 s
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:51 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#6, sheet: Monthly_NA1, frequency: M, Time: 18s
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:51 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:52 PM Total New Items Found: 0 Time: 19 s
+2022-04-25 04:32:00 PM Total New Items Found: 0 Time: 53 s
 
-2022-04-25 03:40:52 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#7, sheet: Monthly_NA2, frequency: M, Time: 19s
+2022-04-25 04:32:00 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#2, sheet: f02hist, frequency: A, Time: 53s
 
-2022-04-25 03:40:52 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Total New Items Found: 0 Time: 53 s
 
-2022-04-25 03:40:52 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:00 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/tables/?#interest-rates#5, sheet: f05hist, frequency: M, Time: 53s
 
-2022-04-25 03:40:52 PM Total New Items Found: 0 Time: 19 s
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#8, sheet: Credit to Households, frequency: Q, Time: 20s
+2022-04-25 04:32:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:01 PM Total New Items Found: 0 Time: 54 s
 
-2022-04-25 03:40:53 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:01 PM Country: Australia, Reading file or url: https://www.rba.gov.au/statistics/historical-data.html#exchange-rates, sheet: f11hist, frequency: M, Time: 54s
 
-2022-04-25 03:40:53 PM Total New Items Found: 0 Time: 20 s
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/flex/ClassSearch_e.jsp#9, sheet: Monthly_FS, frequency: M, Time: 20s
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:53 PM Total New Items Found: 0 Time: 20 s
+2022-04-25 04:32:01 PM Total New Items Found: 0 Time: 54 s
 
-2022-04-25 03:40:54 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#1, sheet: Quarterly_KOS, frequency: Q, Time: 21s
+2022-04-25 04:32:01 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/average-weekly-earnings-australia#1, sheet: 6302003, frequency: S, Time: 54s
 
-2022-04-25 03:40:54 PM Downloading file: Quarterly_previous
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:40:57 PM Getting Data From Website
+2022-04-25 04:32:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:41:51 PM Downloading file: Quarterly_KOS
+2022-04-25 04:32:02 PM Total New Items Found: 0 Time: 55 s
 
-2022-04-25 03:41:52 PM Getting Data From Website
+2022-04-25 04:32:02 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/average-weekly-earnings-australia#2, sheet: 6302006, frequency: S, Time: 55s
 
-2022-04-25 03:42:30 PM Total New Items Found: 0 Time: 117 s
+2022-04-25 04:32:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:42:31 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#2, sheet: Monthly_KOS, frequency: M, Time: 118s
+2022-04-25 04:32:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:42:31 PM Downloading file: Monthly_KOS
+2022-04-25 04:32:02 PM Total New Items Found: 0 Time: 55 s
 
-2022-04-25 03:42:31 PM Getting Data From Website
+2022-04-25 04:32:02 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-finance-and-wealth, sheet: 5232034, frequency: Q, Time: 55s
 
-2022-04-25 03:43:16 PM Total New Items Found: 0 Time: 163 s
+2022-04-25 04:32:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:16 PM Reading file: Datasets, Time: 163 s
+2022-04-25 04:32:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Country: South Korea, Reading file or url: https://www.fki.or.kr/fkiact/promotion/report/List.aspx?search_type=1&search_keyword=%B1%E2%BE%F7%B0%E6%B1%E2, sheet: BSI, frequency: M, Time: 164s
+2022-04-25 04:32:03 PM Total New Items Found: 0 Time: 56 s
 
-2022-04-25 03:43:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:03 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#1, sheet: 87520037, frequency: Q, Time: 56s
 
-2022-04-25 03:43:17 PM Total New Items Found: 0 Time: 164 s
+2022-04-25 04:32:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Reading file: Datasets, Time: 164 s
+2022-04-25 04:32:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: M, Time: 164s
+2022-04-25 04:32:03 PM Total New Items Found: 0 Time: 56 s
 
-2022-04-25 03:43:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:03 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#2, sheet: 87520049, frequency: Q, Time: 56s
 
-2022-04-25 03:43:17 PM Total New Items Found: 0 Time: 164 s
+2022-04-25 04:32:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: Q, Time: 164s
+2022-04-25 04:32:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:04 PM Total New Items Found: 0 Time: 57 s
 
-2022-04-25 03:43:17 PM Total New Items Found: 0 Time: 164 s
+2022-04-25 04:32:05 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#3, sheet: 87520075, frequency: Q, Time: 58s
 
-2022-04-25 03:43:17 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: A, Time: 164s
+2022-04-25 04:32:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:17 PM Total New Items Found: 0 Time: 165 s
+2022-04-25 04:32:05 PM Total New Items Found: 0 Time: 58 s
 
-2022-04-25 03:43:17 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: W, Time: 165s
+2022-04-25 04:32:05 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#4, sheet: 87520076, frequency: Q, Time: 58s
 
-2022-04-25 03:43:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:18 PM Total New Items Found: 0 Time: 165 s
+2022-04-25 04:32:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:18 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: D, Time: 165s
+2022-04-25 04:32:06 PM Total New Items Found: 0 Time: 59 s
 
-2022-04-25 03:43:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:06 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#1, sheet: 06_volume_measures_original_capex, frequency: Q, Time: 59s
 
-2022-04-25 03:43:18 PM Total New Items Found: 0 Time: 165 s
+2022-04-25 04:32:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:18 PM Reading file: Datasets, Time: 166 s
+2022-04-25 04:32:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:19 PM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 166s
+2022-04-25 04:32:06 PM Total New Items Found: 0 Time: 59 s
 
-2022-04-25 03:43:19 PM Present File Exists. Reading Data From Default Path.
+2022-04-25 04:32:06 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#2, sheet: 07_volume_measures_seasonally_adjusted_capex, frequency: Q, Time: 59s
 
-2022-04-25 03:43:19 PM Total New Items Found: 0 Time: 167 s
+2022-04-25 04:32:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-25 03:43:29 PM = ! = No new items were found.
+2022-04-25 04:32:06 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:07 PM Total New Items Found: 0 Time: 60 s
+
+2022-04-25 04:32:07 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#3, sheet: 08_volume_measures_trend_capex, frequency: Q, Time: 60s
+
+2022-04-25 04:32:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:07 PM Total New Items Found: 0 Time: 60 s
+
+2022-04-25 04:32:07 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/private-new-capital-expenditure-and-expected-expenditure-australia#4, sheet: 04_current_prices_seasonally_adjusted_capex, frequency: Q, Time: 60s
+
+2022-04-25 04:32:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:08 PM Total New Items Found: 0 Time: 61 s
+
+2022-04-25 04:32:08 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#1, sheet: 530202, frequency: Q, Time: 61s
+
+2022-04-25 04:32:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:08 PM Total New Items Found: 0 Time: 61 s
+
+2022-04-25 04:32:08 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#2, sheet: 530201, frequency: Q, Time: 61s
+
+2022-04-25 04:32:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:09 PM Total New Items Found: 0 Time: 62 s
+
+2022-04-25 04:32:09 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#3, sheet: 530204, frequency: Q, Time: 62s
+
+2022-04-25 04:32:09 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:09 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:09 PM Total New Items Found: 0 Time: 62 s
+
+2022-04-25 04:32:10 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#4, sheet: 530206, frequency: Q, Time: 63s
+
+2022-04-25 04:32:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:10 PM Total New Items Found: 0 Time: 63 s
+
+2022-04-25 04:32:10 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/balance-payments-and-international-investment-position-australia#5, sheet: 530207, frequency: Q, Time: 63s
+
+2022-04-25 04:32:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:11 PM Total New Items Found: 0 Time: 64 s
+
+2022-04-25 04:32:11 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia#1, sheet: 640101, frequency: Q, Time: 64s
+
+2022-04-25 04:32:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:11 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:13 PM Total New Items Found: 0 Time: 66 s
+
+2022-04-25 04:32:14 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia#2, sheet: 640107, frequency: Q, Time: 67s
+
+2022-04-25 04:32:14 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:14 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:18 PM Total New Items Found: 0 Time: 71 s
+
+2022-04-25 04:32:18 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia#3, sheet: 640102, frequency: Q, Time: 71s
+
+2022-04-25 04:32:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:21 PM Total New Items Found: 0 Time: 74 s
+
+2022-04-25 04:32:21 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/construction-work-done-australia-preliminary, sheet: 8755001, frequency: Q, Time: 74s
+
+2022-04-25 04:32:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:21 PM Total New Items Found: 0 Time: 74 s
+
+2022-04-25 04:32:21 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia#5, sheet: 87520033, frequency: Q, Time: 74s
+
+2022-04-25 04:32:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:22 PM Total New Items Found: 0 Time: 75 s
+
+2022-04-25 04:32:22 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities#1, sheet: 641602, frequency: Q, Time: 75s
+
+2022-04-25 04:32:22 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:22 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:24 PM Total New Items Found: 0 Time: 77 s
+
+2022-04-25 04:32:25 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/residential-property-price-indexes-eight-capital-cities#2, sheet: 641601, frequency: Q, Time: 78s
+
+2022-04-25 04:32:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:26 PM Total New Items Found: 0 Time: 79 s
+
+2022-04-25 04:32:26 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/earnings-and-work-hours/industrial-disputes-australia, sheet: 6321055001Table1, frequency: Q, Time: 79s
+
+2022-04-25 04:32:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:26 PM Total New Items Found: 0 Time: 79 s
+
+2022-04-25 04:32:26 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#1, sheet: 5206041_Industry_Indexes, frequency: Q, Time: 79s
+
+2022-04-25 04:32:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:27 PM Total New Items Found: 0 Time: 80 s
+
+2022-04-25 04:32:27 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#2, sheet: 5206042_Unit_Labour_Costs, frequency: Q, Time: 80s
+
+2022-04-25 04:32:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:27 PM Total New Items Found: 0 Time: 80 s
+
+2022-04-25 04:32:27 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/job-vacancies-australia, sheet: 6354001, frequency: Q, Time: 80s
+
+2022-04-25 04:32:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:27 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:28 PM Total New Items Found: 0 Time: 81 s
+
+2022-04-25 04:32:28 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#3, sheet: 5206003_Expenditure_Current_Price, frequency: Q, Time: 81s
+
+2022-04-25 04:32:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:29 PM Total New Items Found: 0 Time: 82 s
+
+2022-04-25 04:32:29 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#4, sheet: 5206006_Industry_GVA, frequency: Q, Time: 82s
+
+2022-04-25 04:32:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:30 PM Total New Items Found: 0 Time: 83 s
+
+2022-04-25 04:32:30 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#5, sheet: 5206007_Income_From_GDP, frequency: Q, Time: 83s
+
+2022-04-25 04:32:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:30 PM Total New Items Found: 0 Time: 83 s
+
+2022-04-25 04:32:31 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#6, sheet: 5206001_Key_Aggregates, frequency: Q, Time: 84s
+
+2022-04-25 04:32:31 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:31 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:31 PM Total New Items Found: 0 Time: 84 s
+
+2022-04-25 04:32:32 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#7, sheet: 5206020_Household_Income, frequency: Q, Time: 85s
+
+2022-04-25 04:32:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:32 PM Total New Items Found: 0 Time: 85 s
+
+2022-04-25 04:32:32 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product#8, sheet: 5206002_Expenditure_Volume_Measures, frequency: Q, Time: 85s
+
+2022-04-25 04:32:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:33 PM Total New Items Found: 0 Time: 86 s
+
+2022-04-25 04:32:33 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population, sheet: 310101, frequency: Q, Time: 86s
+
+2022-04-25 04:32:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:34 PM Total New Items Found: 0 Time: 87 s
+
+2022-04-25 04:32:34 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/producer-price-indexes-australia#1, sheet: 642701, frequency: Q, Time: 87s
+
+2022-04-25 04:32:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:36 PM Total New Items Found: 0 Time: 89 s
+
+2022-04-25 04:32:36 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/producer-price-indexes-australia#2, sheet: 6427012, frequency: Q, Time: 89s
+
+2022-04-25 04:32:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:39 PM Total New Items Found: 0 Time: 92 s
+
+2022-04-25 04:32:39 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/producer-price-indexes-australia#3, sheet: 6427013, frequency: Q, Time: 92s
+
+2022-04-25 04:32:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:42 PM Total New Items Found: 0 Time: 95 s
+
+2022-04-25 04:32:42 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/producer-price-indexes-australia#4, sheet: 6427018, frequency: Q, Time: 95s
+
+2022-04-25 04:32:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:45 PM Total New Items Found: 0 Time: 98 s
+
+2022-04-25 04:32:45 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#export, sheet: 5368031, frequency: Q, Time: 98s
+
+2022-04-25 04:32:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:45 PM Total New Items Found: 0 Time: 98 s
+
+2022-04-25 04:32:46 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/business-indicators-australia#1, sheet: 5676009, frequency: Q, Time: 99s
+
+2022-04-25 04:32:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:46 PM Total New Items Found: 0 Time: 99 s
+
+2022-04-25 04:32:46 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/business-indicators/business-indicators-australia#2, sheet: 56760011, frequency: Q, Time: 99s
+
+2022-04-25 04:32:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:46 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:47 PM Total New Items Found: 0 Time: 100 s
+
+2022-04-25 04:32:47 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/international-trade-price-indexes-australia#1, sheet: 645701, frequency: Q, Time: 100s
+
+2022-04-25 04:32:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:49 PM Total New Items Found: 0 Time: 102 s
+
+2022-04-25 04:32:49 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/international-trade-price-indexes-australia#2, sheet: 645704, frequency: Q, Time: 102s
+
+2022-04-25 04:32:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:52 PM Total New Items Found: 0 Time: 105 s
+
+2022-04-25 04:32:52 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/wage-price-index-australia, sheet: 634501, frequency: Q, Time: 105s
+
+2022-04-25 04:32:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:55 PM Total New Items Found: 0 Time: 108 s
+
+2022-04-25 04:32:55 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia#1, sheet: 8731006, frequency: M, Time: 108s
+
+2022-04-25 04:32:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:55 PM Total New Items Found: 0 Time: 108 s
+
+2022-04-25 04:32:55 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia/apr-2020#data-download#1, sheet: 8731006_Trend, frequency: M, Time: 108s
+
+2022-04-25 04:32:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:56 PM Total New Items Found: 0 Time: 109 s
+
+2022-04-25 04:32:56 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia#2, sheet: 87310011, frequency: M, Time: 109s
+
+2022-04-25 04:32:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:56 PM Total New Items Found: 0 Time: 109 s
+
+2022-04-25 04:32:56 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia#3, sheet: 87310020, frequency: M, Time: 109s
+
+2022-04-25 04:32:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:56 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:57 PM Total New Items Found: 0 Time: 110 s
+
+2022-04-25 04:32:57 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia#4, sheet: 87310038, frequency: M, Time: 110s
+
+2022-04-25 04:32:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:57 PM Total New Items Found: 0 Time: 110 s
+
+2022-04-25 04:32:57 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia/apr-2020#data-download#2, sheet: 87310038_Trend, frequency: M, Time: 110s
+
+2022-04-25 04:32:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:57 PM Total New Items Found: 0 Time: 110 s
+
+2022-04-25 04:32:58 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia#5, sheet: 87310040, frequency: M, Time: 111s
+
+2022-04-25 04:32:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:58 PM Total New Items Found: 0 Time: 111 s
+
+2022-04-25 04:32:58 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/building-and-construction/building-approvals-australia/apr-2020#data-download#3, sheet: 87310040_Trend, frequency: M, Time: 111s
+
+2022-04-25 04:32:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:58 PM Total New Items Found: 0 Time: 111 s
+
+2022-04-25 04:32:59 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/finance/lending-indicators, sheet: 560103, frequency: M, Time: 112s
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:59 PM Total New Items Found: 0 Time: 112 s
+
+2022-04-25 04:32:59 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/finance/lending-indicators/feb-2020#data-download, sheet: 560103_Trend, frequency: M, Time: 112s
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:59 PM Total New Items Found: 0 Time: 112 s
+
+2022-04-25 04:32:59 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#1, sheet: 5368013a, frequency: M, Time: 112s
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:32:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:00 PM Total New Items Found: 0 Time: 113 s
+
+2022-04-25 04:33:00 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#2, sheet: 5368014b, frequency: M, Time: 113s
+
+2022-04-25 04:33:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:00 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:01 PM Total New Items Found: 0 Time: 114 s
+
+2022-04-25 04:33:02 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#3, sheet: 536801, frequency: M, Time: 115s
+
+2022-04-25 04:33:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:02 PM Total New Items Found: 0 Time: 115 s
+
+2022-04-25 04:33:02 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#4, sheet: 536802, frequency: M, Time: 115s
+
+2022-04-25 04:33:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:02 PM Total New Items Found: 0 Time: 115 s
+
+2022-04-25 04:33:03 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#5, sheet: 5368014a, frequency: M, Time: 116s
+
+2022-04-25 04:33:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:03 PM Total New Items Found: 0 Time: 116 s
+
+2022-04-25 04:33:04 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/economy/international-trade/international-trade-goods-and-services-australia#6, sheet: 5368012a, frequency: M, Time: 117s
+
+2022-04-25 04:33:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:04 PM Total New Items Found: 0 Time: 117 s
+
+2022-04-25 04:33:04 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia, sheet: 6202001, frequency: M, Time: 117s
+
+2022-04-25 04:33:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:05 PM Total New Items Found: 0 Time: 118 s
+
+2022-04-25 04:33:05 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/mar-2020#data-download, sheet: 6202001_Trend, frequency: M, Time: 118s
+
+2022-04-25 04:33:05 PM Downloading file: 6202001_Trend
+
+2022-04-25 04:33:08 PM Getting Data From Website
+
+2022-04-25 04:33:19 PM Total New Items Found: 0 Time: 131 s
+
+2022-04-25 04:33:19 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/industry/retail-and-wholesale-trade/retail-trade-australia, sheet: 850101, frequency: M, Time: 132s
+
+2022-04-25 04:33:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:19 PM Total New Items Found: 0 Time: 132 s
+
+2022-04-25 04:33:19 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed, sheet: 6291014b, frequency: M, Time: 132s
+
+2022-04-25 04:33:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:19 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:20 PM Total New Items Found: 0 Time: 133 s
+
+2022-04-25 04:33:20 PM Country: Australia, Reading file or url: https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2020#data-download, sheet: 6291014b_Trend, frequency: M, Time: 133s
+
+2022-04-25 04:33:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:20 PM Total New Items Found: 0 Time: 133 s
+
+2022-04-25 04:33:20 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:21 PM Country: Australia, Reading file or url: AUS, sheet: Monthly, frequency: M, Time: 134s
+
+2022-04-25 04:33:21 PM Total New Items Found: 0 Time: 134 s
+
+2022-04-25 04:33:21 PM Country: Australia, Reading file or url: https://www.dese.gov.au/employment-research-and-statistics/resources/leading-indicator-employment-data, sheet: LIOE, frequency: M, Time: 134s
+
+2022-04-25 04:33:21 PM Downloading file: LIOE
+
+2022-04-25 04:33:30 PM Getting Data From Website
+
+2022-04-25 04:33:40 PM Total New Items Found: 0 Time: 153 s
+
+2022-04-25 04:33:40 PM Reading file: Datasets, Time: 153 s
+
+2022-04-25 04:33:41 PM Country: Australia, Reading file or url: https://www.investing.com/indices/all-ordinaries-historical-data, sheet: Australian Index, frequency: M, Time: 154s
+
+2022-04-25 04:33:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:41 PM Total New Items Found: 0 Time: 154 s
+
+2022-04-25 04:33:41 PM Country: Australia, Reading file or url: https://www.investing.com/indices/all-ordinaries-historical-data, sheet: Australian Index, frequency: W, Time: 154s
+
+2022-04-25 04:33:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:41 PM Total New Items Found: 0 Time: 154 s
+
+2022-04-25 04:33:41 PM Country: Australia, Reading file or url: https://www.investing.com/indices/all-ordinaries-historical-data, sheet: Australian Index, frequency: D, Time: 154s
+
+2022-04-25 04:33:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:42 PM Total New Items Found: 0 Time: 155 s
+
+2022-04-25 04:33:42 PM Country: Australia, Reading file or url: https://www.investing.com/indices/aus-200-historical-data, sheet: Australian Index, frequency: M, Time: 155s
+
+2022-04-25 04:33:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:42 PM Total New Items Found: 0 Time: 155 s
+
+2022-04-25 04:33:42 PM Country: Australia, Reading file or url: https://www.investing.com/indices/aus-200-historical-data, sheet: Australian Index, frequency: W, Time: 155s
+
+2022-04-25 04:33:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:42 PM Total New Items Found: 0 Time: 155 s
+
+2022-04-25 04:33:42 PM Country: Australia, Reading file or url: https://www.investing.com/indices/aus-200-historical-data, sheet: Australian Index, frequency: D, Time: 155s
+
+2022-04-25 04:33:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-04-25 04:33:43 PM Total New Items Found: 0 Time: 156 s
+
+2022-04-25 04:33:43 PM Reading file: Datasets, Time: 156 s
+
+2022-04-25 04:33:52 PM = ! = No new items were found.
