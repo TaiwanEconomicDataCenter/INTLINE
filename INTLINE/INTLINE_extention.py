@@ -2721,13 +2721,14 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel', text_match=True)
             elif address.find('SCB') >= 0:
                 try:
+                    #檢查基準年是否變更
                     WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="breadcrumb_container"][contains(., "Old tables not updated")]')))
                 except TimeoutException:
                     time.sleep(0)
                 else:
                     if str(sname).find('2005') < 0:
                         ERROR('The base year of Index has been modified. Please find the table with the latest Index and do the modification on tableINT.')
-                note_content = re.sub(r'.*?\((.+?)\).*', r"\1", chrome.find_element_by_xpath('.//span[@class="hierarchical_tableinformation_title"]').text)
+                # note_content = re.sub(r'.*?\((.+?)\).*', r"\1", chrome.find_element_by_xpath('.//span[@class="hierarchical_tableinformation_title"]').text)
                 # target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_saveas_dropdownlist"]')))
                 # Select(target).select_by_visible_text('Excel (xlsx)')
                 # ActionChains(chrome).send_keys(Keys.ENTER).perform()
@@ -2742,8 +2743,8 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'SaveAsBody')))
                 WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Save"]'))).click()
                 link_found = True
-                if note_content.find('ESA') >= 0:
-                    note.append(['Note', re.sub(r'\s+', " ", note_content)])
+                # if note_content.find('ESA') >= 0:
+                #     note.append(['Note', re.sub(r'\s+', " ", note_content)])
             elif address.find('RKB') >= 0:
                 try:
                     WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/a[@class="button js-accept-cookies"]'))).click()
@@ -2798,8 +2799,8 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.ID, 'edit-main-cat')))).select_by_value('All')
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.ID, 'edit-combine'))).send_keys('National Accounts Statistics')
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.ID, 'edit-submit-statistical-publications'))).click()
-                    time.sleep(2)
-                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/table/tbody/tr//a'))).click()
+                    time.sleep(5)
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="view-content"]/table/tbody/tr//a[contains(., "National Accounts Statistics")]'))).click()
                     chrome.switch_to.window(chrome.window_handles[-1])
                     target = WebDriverWait(chrome, 20).until(EC.presence_of_element_located((By.XPATH, './/tr[contains(., "'+str(file_name)+'")]')))
                     link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xlsx')
@@ -6001,6 +6002,10 @@ def INTLINE_MULTIKEYS(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.columns = [str(col).strip()[:4] if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
         INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated(), INTLINE_temp.columns.dropna()]
     elif address.find('SCB') >= 0:
+        note_text = str(readExcelFile(data_path+str(country)+'/'+address+fname+'.xlsx', sheet_name_=sname, acceptNoFile=False).iloc[0].iloc[0]).replace('\n','')
+        note_content = re.sub(r'.*?\((.+?)\).*', r"\1", note_text)
+        if note_content.find('ESA') >= 0:
+            note.append(['Note', re.sub(r'\s+', " ", note_content)])
         if index_col == 0 or index_col == None:
             if index_col == None:
                 INTLINE_temp.index = [fname]

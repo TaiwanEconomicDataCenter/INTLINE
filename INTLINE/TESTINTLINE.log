@@ -1,10 +1,11 @@
-﻿2022-04-22 04:38:28 PM Checking Identities: 992 s
+﻿2022-04-27 10:10:23 AM Checking Identities: 124 s
 
-2022-04-22 04:38:28 PM unknown: 0
-2022-04-22 04:38:28 PM name too long: 0
-2022-04-22 04:38:28 PM inconsistent: 0
-2022-04-22 04:38:28 PM base updated: 0
-2022-04-22 04:38:28 PM data updated: 0
-2022-04-22 04:38:28 PM including weekly: False
-2022-04-22 04:38:28 PM including daily: False
-2022-04-22 04:38:28 PM too many months: False
+2022-04-27 10:10:24 AM unknown: 0
+2022-04-27 10:10:24 AM name too long: 0
+2022-04-27 10:10:24 AM inconsistent: 0
+2022-04-27 10:10:24 AM base updated: 0
+2022-04-27 10:10:24 AM data updated: 100
+2022-04-27 10:10:24 AM including weekly: True
+2022-04-27 10:10:24 AM including daily: True
+2022-04-27 10:10:24 AM too many months: False
+2022-04-27 10:10:24 AM unfound: 13331
