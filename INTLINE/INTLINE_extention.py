@@ -3541,7 +3541,17 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                                     chrome.close()
                                     chrome.switch_to.window(chrome.window_handles[0])
                 else:
-                    WebDriverWait(chrome, 120).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]')))
+                    count = 0
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 30).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]')))
+                        except TimeoutException:
+                            if count > 3:
+                                input('加載時間過長，請手動重新整理後按Enter鍵繼續:')
+                            chrome.refresh()
+                            count += 1
+                        else:
+                            break
                     while True:
                         time.sleep(5)
                         WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/td[@class="Custom PPTextBoxSideContainer"]/div/div[@id="RibbonButton2220"]'))).click()
