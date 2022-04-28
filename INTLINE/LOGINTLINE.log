@@ -1,242 +1,1242 @@
-﻿2022-04-27 05:34:40 PM excel_suffix: test
+﻿2022-04-28 10:46:32 AM excel_suffix: test
 
-2022-04-27 05:34:40 PM data_processing: True
+2022-04-28 10:46:32 AM data_processing: True
 
-2022-04-27 05:34:40 PM find_unknown: False
+2022-04-28 10:46:32 AM find_unknown: False
 
-2022-04-27 05:34:40 PM dealing_start_year: 1901
+2022-04-28 10:46:32 AM dealing_start_year: 1901
 
-2022-04-27 05:34:44 PM Data Processing
+2022-04-28 10:46:36 AM Data Processing
 
-2022-04-27 05:34:44 PM Reading table: Country, Time: 3s
+2022-04-28 10:46:36 AM Reading table: Country, Time: 3s
 
-2022-04-27 05:34:44 PM Reading table: TABLES, Time: 3 s
+2022-04-28 10:46:36 AM Reading table: TABLES, Time: 3 s
 
-2022-04-27 05:34:50 PM Reading file: country_series, Time: 10 s
+2022-04-28 10:46:44 AM Reading file: country_series, Time: 11 s
 
-2022-04-27 05:34:50 PM Reading file: 534datasets, Time: 10 s
+2022-04-28 10:46:44 AM Reading file: 134datasets, Time: 12 s
 
-2022-04-27 05:34:51 PM 
+2022-04-28 10:46:45 AM 
 
-2022-04-27 05:34:51 PM ====== WebDriver manager ======
-2022-04-27 05:34:51 PM Current google-chrome version is 100.0.4896
-2022-04-27 05:34:51 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-27 05:34:51 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-27 05:34:54 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-27 05:34:56 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Trends+in+Production+of+Primary+Sources+of+Conventional+Energy, sheet: TPPSCE, frequency: A, Time: 16s
+2022-04-28 10:46:45 AM ====== WebDriver manager ======
+2022-04-28 10:46:45 AM Current google-chrome version is 100.0.4896
+2022-04-28 10:46:45 AM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-28 10:46:45 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-28 10:46:48 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-28 10:46:50 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0001&bypass=true&levelindex=0&levelid=1630027162304#abreadcrumb, sheet: Consumer price index years, frequency: A, Time: 17s
 
-2022-04-27 05:34:56 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:50 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:57 PM Total New Items Found: 0 Time: 16 s
+2022-04-28 10:46:50 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:57 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Availability+of+Primary+Sources+of+Energy, sheet: TAPSCE, frequency: A, Time: 16s
+2022-04-28 10:46:50 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-27 05:34:57 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:50 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0011&bypass=true&levelindex=0&levelid=1630044362548#abreadcrumb, sheet: National accounts - Population and employment, frequency: A, Time: 18s
 
-2022-04-27 05:34:57 PM Total New Items Found: 0 Time: 16 s
+2022-04-28 10:46:50 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:57 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Trends+in+Availability+of+Electricity+Net+Electricity+Available+for+Supply, sheet: TAE, frequency: A, Time: 17s
+2022-04-28 10:46:50 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:57 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:51 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-27 05:34:57 PM Total New Items Found: 0 Time: 17 s
+2022-04-28 10:46:51 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0013&bypass=true&levelindex=0&levelid=1630045505364#abreadcrumb, sheet: National accounts - Gross value added years, frequency: A, Time: 18s
 
-2022-04-27 05:34:58 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=6.1+Trends+in+Consumption+of+Conventional+Sources+of+Energy, sheet: TCCSE, frequency: A, Time: 17s
+2022-04-28 10:46:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:58 PM Total New Items Found: 0 Time: 17 s
+2022-04-28 10:46:51 AM Total New Items Found: 0 Time: 18 s
 
-2022-04-27 05:34:58 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=6.6+Trends+in+Consumption+of+Petroleum+Products, sheet: TCPP, frequency: A, Time: 17s
+2022-04-28 10:46:51 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0015&bypass=true&levelindex=0&levelid=1630047868609#abreadcrumb, sheet: National accounts - Employment years, frequency: A, Time: 19s
 
-2022-04-27 05:34:58 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:58 PM Total New Items Found: 0 Time: 18 s
+2022-04-28 10:46:51 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:34:59 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/india-population-projection-2001-20261/export/?disjunctive.region_name&disjunctive.age_group_name&sort=date&refine.age_group_name=All+Age&q=Both+Sex, sheet: India Population Projection, frequency: A, Time: 18s
+2022-04-28 10:46:53 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-27 05:34:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:54 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0005&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - national disposable income years, frequency: A, Time: 21s
 
-2022-04-27 05:34:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:00 PM Total New Items Found: 0 Time: 19 s
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:00 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/india-mortality-database-2001-2008/export/?disjunctive.region_name&disjunctive.variable_name&sort=date&refine.region_name=India, sheet: Mortality, frequency: A, Time: 19s
+2022-04-28 10:46:54 AM Total New Items Found: 0 Time: 21 s
 
-2022-04-27 05:35:00 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:54 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0007&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Compensation of employees(national concept) years, frequency: A, Time: 21s
 
-2022-04-27 05:35:00 PM Total New Items Found: 0 Time: 20 s
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:01 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#1, sheet: AQEGConstant_A, frequency: A, Time: 20s
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:54 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-27 05:35:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:54 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0003&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Gross national income years, frequency: A, Time: 22s
 
-2022-04-27 05:35:01 PM Total New Items Found: 0 Time: 20 s
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:01 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#2, sheet: AQEGConstant_Q, frequency: Q, Time: 21s
+2022-04-28 10:46:54 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-27 05:35:01 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0009&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - saving of households years, frequency: A, Time: 22s
 
-2022-04-27 05:35:02 PM Total New Items Found: 0 Time: 21 s
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#3, sheet: AQEGCurrent_A, frequency: A, Time: 21s
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Total New Items Found: 0 Time: 22 s
 
-2022-04-27 05:35:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0001&bypass=true&levelindex=2&levelid=1630055815966#abreadcrumb, sheet: National accounts - GDP years, frequency: A, Time: 23s
 
-2022-04-27 05:35:02 PM Total New Items Found: 0 Time: 21 s
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#4, sheet: AQEGCurrent_Q, frequency: Q, Time: 21s
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:55 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:02 PM Total New Items Found: 0 Time: 22 s
+2022-04-28 10:46:56 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-27 05:35:03 PM Country: India, Reading file or url: http://164.100.161.63/download-reports?main_cat=NzI2&cat=All&sub_category=All#1, sheet: PCIPFC, frequency: A, Time: 22s
+2022-04-28 10:46:56 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0019&bypass=true&levelindex=0&levelid=1630056471068#abreadcrumb, sheet: National accounts - Use of the gross domestic product years, frequency: A, Time: 23s
 
-2022-04-27 05:35:03 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:03 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:03 PM Total New Items Found: 0 Time: 22 s
+2022-04-28 10:46:56 AM Total New Items Found: 0 Time: 23 s
 
-2022-04-27 05:35:03 PM Country: India, Reading file or url: http://164.100.161.63/download-reports?main_cat=NzI2&cat=All&sub_category=All#2, sheet: KEYAGG, frequency: A, Time: 23s
+2022-04-28 10:46:56 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0023&bypass=true&levelindex=0&levelid=1630057607388#abreadcrumb, sheet: National accounts - Gross fixed capital formation years, frequency: A, Time: 24s
 
-2022-04-27 05:35:03 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:03 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:56 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:04 PM Total New Items Found: 0 Time: 23 s
+2022-04-28 10:46:57 AM Total New Items Found: 0 Time: 24 s
 
-2022-04-27 05:35:04 PM Country: India, Reading file or url: http://164.100.161.63/publication/statistical-year-book-india, sheet: TOURISM, frequency: A, Time: 23s
+2022-04-28 10:46:57 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0027&bypass=true&levelindex=0&levelid=1630058218452#abreadcrumb, sheet: National accounts - Exports and imports years, frequency: A, Time: 24s
 
-2022-04-27 05:35:04 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:04 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:04 PM Total New Items Found: 0 Time: 24 s
+2022-04-28 10:46:57 AM Total New Items Found: 0 Time: 24 s
 
-2022-04-27 05:35:05 PM Country: India, Reading file or url: http://164.100.161.63/iip#1, sheet: IIPNIC, frequency: M, Time: 24s
+2022-04-28 10:46:57 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0031&bypass=true&levelindex=1&levelid=1630061439665#abreadcrumb, sheet: National accounts - general government years, frequency: A, Time: 25s
 
-2022-04-27 05:35:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:57 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:05 PM Total New Items Found: 0 Time: 25 s
+2022-04-28 10:46:57 AM Total New Items Found: 0 Time: 25 s
 
-2022-04-27 05:35:05 PM Country: India, Reading file or url: http://164.100.161.63/iip#2, sheet: IIPUBC, frequency: M, Time: 25s
+2022-04-28 10:46:58 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0033&bypass=true&levelindex=0&levelid=1630059281052#abreadcrumb, sheet: National accounts - Deflators, frequency: A, Time: 25s
 
-2022-04-27 05:35:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:58 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:05 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:58 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:06 PM Total New Items Found: 0 Time: 25 s
+2022-04-28 10:46:58 AM Total New Items Found: 0 Time: 25 s
 
-2022-04-27 05:35:06 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1004, sheet: Indian Production of Jowar, frequency: A, Time: 26s
+2022-04-28 10:46:58 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=31121-0001&bypass=true&levelindex=1&levelid=1630292272785#abreadcrumb, sheet: Construction work completed in structural engineering years, frequency: A, Time: 25s
 
-2022-04-27 05:35:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:58 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:06 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:58 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:06 PM Total New Items Found: 0 Time: 26 s
+2022-04-28 10:46:58 AM Total New Items Found: 0 Time: 26 s
 
-2022-04-27 05:35:07 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1002, sheet: Indian Production of Bajra, frequency: A, Time: 26s
+2022-04-28 10:46:59 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0005&bypass=true&levelindex=0&levelid=1630306980011#abreadcrumb, sheet: Construction price indices by maintenance of residential buildings years, frequency: A, Time: 26s
 
-2022-04-27 05:35:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:07 PM Total New Items Found: 0 Time: 26 s
+2022-04-28 10:46:59 AM Total New Items Found: 0 Time: 26 s
 
-2022-04-27 05:35:07 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1009, sheet: Indian Production of Maize, frequency: A, Time: 26s
+2022-04-28 10:46:59 AM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Society-Environment/Population/Current-Population/Tables/lrbev03.html, sheet: Population by area, frequency: A, Time: 26s
 
-2022-04-27 05:35:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:07 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:07 PM Total New Items Found: 0 Time: 27 s
+2022-04-28 10:46:59 AM Total New Items Found: 0 Time: 27 s
 
-2022-04-27 05:35:11 PM Country: India, Reading file or url: https://tradestat.commerce.gov.in/eidb/ergnq.asp, sheet: Merchandise_Trade_Exports, frequency: A, Time: 30s
+2022-04-28 10:46:59 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0001&bypass=true&levelindex=0&levelid=1630311619053#abreadcrumb, sheet: Population - reference date, frequency: A, Time: 27s
 
-2022-04-27 05:35:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:46:59 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:11 PM Total New Items Found: 0 Time: 30 s
+2022-04-28 10:47:00 AM Total New Items Found: 0 Time: 27 s
 
-2022-04-27 05:35:11 PM Country: India, Reading file or url: https://tradestat.commerce.gov.in/eidb/irgnq.asp, sheet: Merchandise_Trade_Imports, frequency: A, Time: 30s
+2022-04-28 10:47:00 AM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Construction-Industry/pgw710.html, sheet: Volume index of stock of orders, frequency: Q, Time: 27s
 
-2022-04-27 05:35:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:11 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:00 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:11 PM Total New Items Found: 0 Time: 30 s
+2022-04-28 10:47:07 AM Total New Items Found: 0 Time: 35 s
 
-2022-04-27 05:35:12 PM Country: India, Reading file or url: Central Government Borrowings, sheet: 0, frequency: Q, Time: 31s
+2022-04-28 10:47:08 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62221-0002&bypass=true&levelindex=0&levelid=1630489264401#abreadcrumb, sheet: Indices of agreed earnings weekly working hours, frequency: Q, Time: 35s
 
-2022-04-27 05:35:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:08 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:08 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Total New Items Found: 0 Time: 31 s
+2022-04-28 10:47:09 AM Total New Items Found: 0 Time: 37 s
 
-2022-04-27 05:35:12 PM Reading file: Datasets, Time: 31 s
+2022-04-28 10:47:09 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#1, sheet: Indices of labour costs - Index of labour costs per hour worked, frequency: Q, Time: 37s
 
-2022-04-27 05:35:12 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: M, Time: 32s
+2022-04-28 10:47:09 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:09 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Total New Items Found: 0 Time: 32 s
+2022-04-28 10:47:10 AM Total New Items Found: 0 Time: 37 s
 
-2022-04-27 05:35:12 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: Q, Time: 32s
+2022-04-28 10:47:10 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#2, sheet: Indices of labour costs - Index of gross earnings per hour worked, frequency: Q, Time: 38s
 
-2022-04-27 05:35:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:10 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Total New Items Found: 0 Time: 32 s
+2022-04-28 10:47:10 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: A, Time: 32s
+2022-04-28 10:47:12 AM Total New Items Found: 0 Time: 39 s
 
-2022-04-27 05:35:12 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:12 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#3, sheet: Indices of labour costs - Index of non-wage labour costs per hour worked, frequency: Q, Time: 39s
 
-2022-04-27 05:35:12 PM Total New Items Found: 0 Time: 32 s
+2022-04-28 10:47:12 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:12 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: W, Time: 32s
+2022-04-28 10:47:12 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:12 AM Total New Items Found: 0 Time: 40 s
 
-2022-04-27 05:35:13 PM Total New Items Found: 0 Time: 32 s
+2022-04-28 10:47:13 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0012&bypass=true&levelindex=0&levelid=1630575593888#abreadcrumb, sheet: National accounts - Population and employment quarters, frequency: Q, Time: 40s
 
-2022-04-27 05:35:13 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: D, Time: 32s
+2022-04-28 10:47:13 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:13 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:13 PM Total New Items Found: 0 Time: 32 s
+2022-04-28 10:47:13 AM Total New Items Found: 0 Time: 40 s
 
-2022-04-27 05:35:13 PM Country: India, Reading file or url: https://www.investing.com/indices/sensex-historical-data, sheet: BSE Index, frequency: W, Time: 33s
+2022-04-28 10:47:13 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0014&bypass=true&levelindex=0&levelid=1630576406736#abreadcrumb, sheet: National accounts - Gross value added quarters, frequency: Q, Time: 41s
 
-2022-04-27 05:35:13 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:13 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:13 PM Total New Items Found: 0 Time: 33 s
+2022-04-28 10:47:13 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:13 PM Country: India, Reading file or url: https://www.investing.com/indices/sensex-historical-data, sheet: BSE Index, frequency: D, Time: 33s
+2022-04-28 10:47:14 AM Total New Items Found: 0 Time: 41 s
 
-2022-04-27 05:35:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:14 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0016&bypass=true&levelindex=0&levelid=1630634212246#abreadcrumb, sheet: National accounts - Employment quarters, frequency: Q, Time: 42s
 
-2022-04-27 05:35:14 PM Total New Items Found: 0 Time: 33 s
+2022-04-28 10:47:14 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:14 PM Reading file: Datasets, Time: 33 s
+2022-04-28 10:47:14 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:14 PM Country: India, Reading file or url: WSA, sheet: 0, frequency: M, Time: 34s
+2022-04-28 10:47:15 AM Total New Items Found: 0 Time: 43 s
 
-2022-04-27 05:35:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-28 10:47:15 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0006&bypass=true&levelindex=0&levelid=1630635870559#abreadcrumb, sheet: National accounts - national disposable income quarters, frequency: Q, Time: 43s
 
-2022-04-27 05:35:15 PM Total New Items Found: 0 Time: 34 s
+2022-04-28 10:47:15 AM Present File Exists. Reading Data From Default Path.
 
-2022-04-27 05:35:22 PM = ! = No new items were found.
+2022-04-28 10:47:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:16 AM Total New Items Found: 0 Time: 43 s
+
+2022-04-28 10:47:16 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0008&bypass=true&levelindex=0&levelid=1630637532330#abreadcrumb, sheet: National accounts - Compensation of employees(national concept) quarters, frequency: Q, Time: 43s
+
+2022-04-28 10:47:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:17 AM Total New Items Found: 0 Time: 44 s
+
+2022-04-28 10:47:17 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0004&bypass=true&levelindex=0&levelid=1630638440780#abreadcrumb, sheet: National accounts - Gross national income quarters, frequency: Q, Time: 44s
+
+2022-04-28 10:47:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:17 AM Total New Items Found: 0 Time: 44 s
+
+2022-04-28 10:47:17 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0010&bypass=true&levelindex=0&levelid=1630640086746#abreadcrumb, sheet: National accounts - saving of households quarters, frequency: Q, Time: 45s
+
+2022-04-28 10:47:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:18 AM Total New Items Found: 0 Time: 45 s
+
+2022-04-28 10:47:18 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0002&bypass=true&levelindex=0&levelid=1630640465917#abreadcrumb, sheet: National accounts - GDP quarters, frequency: Q, Time: 45s
+
+2022-04-28 10:47:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:19 AM Total New Items Found: 0 Time: 46 s
+
+2022-04-28 10:47:19 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0020&bypass=true&levelindex=0&levelid=1630648337219#abreadcrumb, sheet: National accounts - Use of the gross domestic product quarters, frequency: Q, Time: 46s
+
+2022-04-28 10:47:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:20 AM Total New Items Found: 0 Time: 47 s
+
+2022-04-28 10:47:20 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0024&bypass=true&levelindex=0&levelid=1630651004644#abreadcrumb, sheet: National accounts - Gross fixed capital formation quarters, frequency: Q, Time: 47s
+
+2022-04-28 10:47:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:20 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:21 AM Total New Items Found: 0 Time: 48 s
+
+2022-04-28 10:47:21 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0028&bypass=true&levelindex=0&levelid=1630652197401#abreadcrumb, sheet: National accounts - Exports and imports quarters, frequency: Q, Time: 48s
+
+2022-04-28 10:47:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:21 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:21 AM Total New Items Found: 0 Time: 49 s
+
+2022-04-28 10:47:22 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0030&bypass=true&levelindex=0&levelid=1630654099717#abreadcrumb, sheet: National accounts - Growth contributions to price-adjusted GDP quarters, frequency: Q, Time: 49s
+
+2022-04-28 10:47:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:22 AM Total New Items Found: 0 Time: 49 s
+
+2022-04-28 10:47:22 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0018&bypass=true&levelindex=1&levelid=1630654682303#abreadcrumb, sheet: National accounts - Productivity, frequency: Q, Time: 50s
+
+2022-04-28 10:47:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:22 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:23 AM Total New Items Found: 0 Time: 50 s
+
+2022-04-28 10:47:23 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0034&bypass=true&levelindex=0&levelid=1630658393678#abreadcrumb, sheet: National accounts - Deflators quarters, frequency: Q, Time: 50s
+
+2022-04-28 10:47:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:23 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:23 AM Total New Items Found: 0 Time: 51 s
+
+2022-04-28 10:47:24 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0002&bypass=true&levelindex=0&levelid=1630664104973#abreadcrumb, sheet: Construction price indices by types of buildings quarters, frequency: Q, Time: 51s
+
+2022-04-28 10:47:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:47:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:12 AM Total New Items Found: 0 Time: 99 s
+
+2022-04-28 10:48:12 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0004&bypass=true&levelindex=0&levelid=1630893679168#abreadcrumb, sheet: Construction price indices by civil engineering quarters, frequency: Q, Time: 100s
+
+2022-04-28 10:48:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:38 AM Total New Items Found: 0 Time: 126 s
+
+2022-04-28 10:48:38 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0006&bypass=true&levelindex=0&levelid=1630893679168#abreadcrumb, sheet: Construction price indices by maintenance of residential buildings quarters, frequency: Q, Time: 126s
+
+2022-04-28 10:48:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:57 AM Total New Items Found: 0 Time: 145 s
+
+2022-04-28 10:48:57 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42111-0002&bypass=true&levelindex=0&levelid=1630899499215#abreadcrumb, sheet: Persons employed and turnover of local units in manufacturing, frequency: M, Time: 145s
+
+2022-04-28 10:48:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:57 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:58 AM Total New Items Found: 0 Time: 146 s
+
+2022-04-28 10:48:58 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42151-0001&bypass=true&levelindex=0&levelid=1630908999803#abreadcrumb, sheet: New orders in manufacturing (value index), frequency: M, Time: 146s
+
+2022-04-28 10:48:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:58 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:48:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:48:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:00 AM Total New Items Found: 0 Time: 148 s
+
+2022-04-28 10:49:00 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42151-0004&bypass=true&levelindex=0&levelid=1630979009079#abreadcrumb, sheet: New orders in manufacturing (volume index), frequency: M, Time: 148s
+
+2022-04-28 10:49:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:00 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:02 AM Total New Items Found: 0 Time: 149 s
+
+2022-04-28 10:49:02 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42153-0001&bypass=true&levelindex=2&levelid=1630999870876#abreadcrumb, sheet: Index of production in manufacturing (main groups and aggregates), frequency: M, Time: 150s
+
+2022-04-28 10:49:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:02 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:04 AM Total New Items Found: 0 Time: 151 s
+
+2022-04-28 10:49:04 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42153-0002&bypass=true&levelindex=2&levelid=1631001964599#abreadcrumb, sheet: Index of production in manufacturing (2-3-4-digit codes), frequency: M, Time: 151s
+
+2022-04-28 10:49:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:05 AM Total New Items Found: 0 Time: 152 s
+
+2022-04-28 10:49:05 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=44111-0009&bypass=true&levelindex=1&levelid=1630982193435#abreadcrumb, sheet: New orders (value and volume index) in the main construction industry, frequency: M, Time: 152s
+
+2022-04-28 10:49:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:05 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:06 AM Total New Items Found: 0 Time: 154 s
+
+2022-04-28 10:49:06 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45211-0002&bypass=true&levelindex=1&levelid=1630985097246#abreadcrumb, sheet: Persons employed in wholesale trade, frequency: M, Time: 154s
+
+2022-04-28 10:49:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:07 AM Total New Items Found: 0 Time: 155 s
+
+2022-04-28 10:49:07 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45211-0005&bypass=true&levelindex=1&levelid=1630994025555#abreadcrumb, sheet: Turnover in wholesale trade, frequency: M, Time: 155s
+
+2022-04-28 10:49:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:09 AM Total New Items Found: 0 Time: 156 s
+
+2022-04-28 10:49:09 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45212-0002&bypass=true&levelindex=1&levelid=1630996684989#abreadcrumb, sheet: Persons employed in retail trade, frequency: M, Time: 156s
+
+2022-04-28 10:49:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:10 AM Total New Items Found: 0 Time: 157 s
+
+2022-04-28 10:49:10 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45212-0005&bypass=true&levelindex=1&levelid=1631008198095#abreadcrumb, sheet: Turnover in retail trade, frequency: M, Time: 157s
+
+2022-04-28 10:49:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:10 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:11 AM Total New Items Found: 0 Time: 159 s
+
+2022-04-28 10:49:12 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45213-0002&bypass=true&levelindex=0&levelid=1631011034718#abreadcrumb, sheet: Persons employed in accommodation and food services, frequency: M, Time: 159s
+
+2022-04-28 10:49:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:13 AM Total New Items Found: 0 Time: 160 s
+
+2022-04-28 10:49:13 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45213-0005&bypass=true&levelindex=0&levelid=1631011034718#abreadcrumb, sheet: Turnover from accommodation and food services, frequency: M, Time: 160s
+
+2022-04-28 10:49:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:14 AM Total New Items Found: 0 Time: 162 s
+
+2022-04-28 10:49:14 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0002&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb, sheet: Foreign trade - total, frequency: M, Time: 162s
+
+2022-04-28 10:49:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:16 AM Total New Items Found: 0 Time: 163 s
+
+2022-04-28 10:49:16 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0004&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#2, sheet: Foreign trade - countries, frequency: M, Time: 163s
+
+2022-04-28 10:49:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:17 AM Total New Items Found: 0 Time: 164 s
+
+2022-04-28 10:49:17 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0006&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#1, sheet: Foreign trade - EGW1 codes, frequency: M, Time: 164s
+
+2022-04-28 10:49:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:17 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:18 AM Total New Items Found: 0 Time: 165 s
+
+2022-04-28 10:49:18 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0006&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#2, sheet: Foreign trade - SITC2 codes, frequency: M, Time: 165s
+
+2022-04-28 10:49:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:18 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:19 AM Total New Items Found: 0 Time: 166 s
+
+2022-04-28 10:49:19 AM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Foreign-Trade/ahl310a.html, sheet: Foreign trade - Value Index, frequency: M, Time: 166s
+
+2022-04-28 10:49:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:19 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Total New Items Found: 0 Time: 171 s
+
+2022-04-28 10:49:24 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0004&bypass=true&levelindex=0&levelid=1631092866532#abreadcrumb, sheet: Consumer price index months, frequency: M, Time: 171s
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:27 AM Total New Items Found: 0 Time: 174 s
+
+2022-04-28 10:49:27 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61121-0004&bypass=true&levelindex=1&levelid=1631156183961#abreadcrumb, sheet: Harmonised index of consumer prices, frequency: M, Time: 174s
+
+2022-04-28 10:49:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:27 AM Total New Items Found: 0 Time: 175 s
+
+2022-04-28 10:49:28 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61131-0002&bypass=true&levelindex=0&levelid=1631158750694#abreadcrumb, sheet: Retail price index, frequency: M, Time: 175s
+
+2022-04-28 10:49:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:28 AM Total New Items Found: 0 Time: 176 s
+
+2022-04-28 10:49:28 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0002&bypass=true&levelindex=0&levelid=1631168815292#abreadcrumb, sheet: Producer price index for industrial products - total, frequency: M, Time: 176s
+
+2022-04-28 10:49:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:28 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:29 AM Total New Items Found: 0 Time: 176 s
+
+2022-04-28 10:49:29 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#1, sheet: Producer price index for industrial products - GP2 codes, frequency: M, Time: 176s
+
+2022-04-28 10:49:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Total New Items Found: 0 Time: 178 s
+
+2022-04-28 10:49:30 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#2, sheet: Producer price index for industrial products - GP3 codes, frequency: M, Time: 178s
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:30 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Total New Items Found: 0 Time: 179 s
+
+2022-04-28 10:49:32 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#3, sheet: Producer price index for industrial products - GP4 codes, frequency: M, Time: 179s
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:32 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Total New Items Found: 0 Time: 182 s
+
+2022-04-28 10:49:35 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#4, sheet: Producer price index for industrial products - GPS codes, frequency: M, Time: 182s
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Getting Data from Different Year Ranges.
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:35 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:36 AM Total New Items Found: 0 Time: 184 s
+
+2022-04-28 10:49:37 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#5, sheet: Producer price index for industrial products - GP9 codes, frequency: M, Time: 184s
+
+2022-04-28 10:49:37 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:37 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:37 AM Total New Items Found: 0 Time: 185 s
+
+2022-04-28 10:49:38 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61281-0002&bypass=true&levelindex=0&levelid=1631238676756#abreadcrumb, sheet: Index of wholesale prices - total, frequency: M, Time: 185s
+
+2022-04-28 10:49:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:38 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:39 AM Total New Items Found: 0 Time: 186 s
+
+2022-04-28 10:49:39 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61281-0004&bypass=true&levelindex=1&levelid=1631182648032#abreadcrumb, sheet: Index of wholesale prices - WZ, frequency: M, Time: 186s
+
+2022-04-28 10:49:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:40 AM Total New Items Found: 0 Time: 187 s
+
+2022-04-28 10:49:40 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61411-0002&bypass=true&levelindex=1&levelid=1631240384381#abreadcrumb, sheet: Import price index - total, frequency: M, Time: 187s
+
+2022-04-28 10:49:40 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:40 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:40 AM Total New Items Found: 0 Time: 188 s
+
+2022-04-28 10:49:41 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61411-0004&bypass=true&levelindex=1&levelid=1631240384381#abreadcrumb, sheet: Import price index - GP9 codes, frequency: M, Time: 188s
+
+2022-04-28 10:49:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:42 AM Total New Items Found: 0 Time: 189 s
+
+2022-04-28 10:49:42 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61421-0002&bypass=true&levelindex=1&levelid=1631243044396#abreadcrumb, sheet: Export price index - total, frequency: M, Time: 189s
+
+2022-04-28 10:49:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:42 AM Total New Items Found: 0 Time: 190 s
+
+2022-04-28 10:49:43 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=44111-0004&bypass=true&levelindex=1&levelid=1631252279715#abreadcrumb, sheet: Local units - construction, frequency: M, Time: 190s
+
+2022-04-28 10:49:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:43 AM Total New Items Found: 0 Time: 191 s
+
+2022-04-28 10:49:43 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=13211-0006&bypass=true&levelindex=0&levelid=1631247220437#abreadcrumb, sheet: Unemployment as a percentage of the civilian labour force, frequency: M, Time: 191s
+
+2022-04-28 10:49:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:43 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:44 AM Total New Items Found: 0 Time: 191 s
+
+2022-04-28 10:49:44 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45412-0014&bypass=true&levelindex=1&levelid=1631261112324#abreadcrumb, sheet: Arrivals and overnight stays in accommodation establishments, frequency: M, Time: 192s
+
+2022-04-28 10:49:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:45 AM Total New Items Found: 0 Time: 192 s
+
+2022-04-28 10:49:46 AM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=46251-0005&bypass=true&levelindex=0&levelid=1631896740759#abreadcrumb, sheet: First registrations and changes in ownership of motor vehicles and trailers, frequency: M, Time: 193s
+
+2022-04-28 10:49:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:46 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:47 AM Total New Items Found: 0 Time: 194 s
+
+2022-04-28 10:49:47 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v27_web012_11a, sheet: Budgetary developments in Germany (national accounts), frequency: A, Time: 194s
+
+2022-04-28 10:49:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:47 AM Total New Items Found: 0 Time: 195 s
+
+2022-04-28 10:49:47 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v27_web011_22a&treeAnchor=FINANZEN, sheet: General government debt as defined in the Maastricht Treaty, frequency: A, Time: 195s
+
+2022-04-28 10:49:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:48 AM Total New Items Found: 0 Time: 195 s
+
+2022-04-28 10:49:48 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR, sheet: Pay rates on a hourly basis years, frequency: A, Time: 195s
+
+2022-04-28 10:49:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:48 AM Total New Items Found: 0 Time: 195 s
+
+2022-04-28 10:49:48 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR, sheet: Pay rates on a monthly basis years, frequency: A, Time: 196s
+
+2022-04-28 10:49:48 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:48 AM Total New Items Found: 0 Time: 196 s
+
+2022-04-28 10:49:49 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: A, Time: 196s
+
+2022-04-28 10:49:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:49 AM Total New Items Found: 0 Time: 197 s
+
+2022-04-28 10:49:49 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: M, Time: 197s
+
+2022-04-28 10:49:50 AM Total New Items Found: 0 Time: 197 s
+
+2022-04-28 10:49:50 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: A, Time: 197s
+
+2022-04-28 10:49:50 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:50 AM Total New Items Found: 0 Time: 197 s
+
+2022-04-28 10:49:50 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: Q, Time: 197s
+
+2022-04-28 10:49:50 AM Total New Items Found: 0 Time: 198 s
+
+2022-04-28 10:49:50 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: M, Time: 198s
+
+2022-04-28 10:49:50 AM Total New Items Found: 0 Time: 198 s
+
+2022-04-28 10:49:51 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a hourly basis quarters, frequency: Q, Time: 198s
+
+2022-04-28 10:49:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:51 AM Total New Items Found: 0 Time: 198 s
+
+2022-04-28 10:49:51 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a monthly basis quarters, frequency: Q, Time: 198s
+
+2022-04-28 10:49:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:51 AM Total New Items Found: 0 Time: 199 s
+
+2022-04-28 10:49:51 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2014_effektmon&treeAnchor=KONJUNKTUR, sheet: Wages and salaries per employee, frequency: Q, Time: 199s
+
+2022-04-28 10:49:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:52 AM Total New Items Found: 0 Time: 199 s
+
+2022-04-28 10:49:52 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_prod_lohnkost, sheet: Productivity and labour costs in the economy as a whole, frequency: Q, Time: 199s
+
+2022-04-28 10:49:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:52 AM Total New Items Found: 0 Time: 199 s
+
+2022-04-28 10:49:52 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_lohnstueckkst, sheet: Unit labour costs in selected economic sectors, frequency: Q, Time: 200s
+
+2022-04-28 10:49:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:52 AM Total New Items Found: 0 Time: 200 s
+
+2022-04-28 10:49:53 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_ek_prhh, sheet: Households income - SA, frequency: Q, Time: 200s
+
+2022-04-28 10:49:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:53 AM Total New Items Found: 0 Time: 200 s
+
+2022-04-28 10:49:53 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v36_2014_ph, sheet: Households income - NSA, frequency: Q, Time: 200s
+
+2022-04-28 10:49:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:53 AM Total New Items Found: 0 Time: 201 s
+
+2022-04-28 10:49:53 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_bip, sheet: Gross domestic product, frequency: Q, Time: 201s
+
+2022-04-28 10:49:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:54 AM Total New Items Found: 0 Time: 201 s
+
+2022-04-28 10:49:54 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_verwend_nom, sheet: GDP expenditure components, frequency: Q, Time: 201s
+
+2022-04-28 10:49:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:54 AM Total New Items Found: 0 Time: 201 s
+
+2022-04-28 10:49:54 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_lb, sheet: Current account of the Federal Republic of Germany, frequency: Q, Time: 202s
+
+2022-04-28 10:49:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:54 AM Total New Items Found: 0 Time: 202 s
+
+2022-04-28 10:49:55 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_siws_mb09_07c&treeAnchor=KONJUNKTUR, sheet: Price indicators for the construction sector, frequency: Q, Time: 202s
+
+2022-04-28 10:49:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:55 AM Total New Items Found: 0 Time: 202 s
+
+2022-04-28 10:49:55 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_vpi, sheet: Consumer price index SA, frequency: M, Time: 202s
+
+2022-04-28 10:49:55 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:55 AM Total New Items Found: 0 Time: 203 s
+
+2022-04-28 10:49:56 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07a, sheet: Consumer price index NSA, frequency: M, Time: 203s
+
+2022-04-28 10:49:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:56 AM Total New Items Found: 0 Time: 203 s
+
+2022-04-28 10:49:56 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_vpi, sheet: Consumer price index Long term time series, frequency: M, Time: 203s
+
+2022-04-28 10:49:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:58 AM Total New Items Found: 0 Time: 206 s
+
+2022-04-28 10:49:59 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_erzeuger, sheet: Producer price index SA, frequency: M, Time: 206s
+
+2022-04-28 10:49:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:59 AM Total New Items Found: 0 Time: 206 s
+
+2022-04-28 10:49:59 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07d, sheet: Producer price index NSA, frequency: M, Time: 206s
+
+2022-04-28 10:49:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:49:59 AM Total New Items Found: 0 Time: 207 s
+
+2022-04-28 10:50:00 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_pr, sheet: Producer price index Long term time series, frequency: M, Time: 207s
+
+2022-04-28 10:50:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:00 AM Total New Items Found: 0 Time: 207 s
+
+2022-04-28 10:50:00 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pra, sheet: Prices and unit values in foreign trade, frequency: M, Time: 207s
+
+2022-04-28 10:50:00 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:00 AM Total New Items Found: 0 Time: 208 s
+
+2022-04-28 10:50:01 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a hourly basis months, frequency: M, Time: 208s
+
+2022-04-28 10:50:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:01 AM Total New Items Found: 0 Time: 208 s
+
+2022-04-28 10:50:01 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a monthly basis months, frequency: M, Time: 208s
+
+2022-04-28 10:50:01 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:01 AM Total New Items Found: 0 Time: 209 s
+
+2022-04-28 10:50:02 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_am_ofs, sheet: Reported vacancies SA, frequency: M, Time: 209s
+
+2022-04-28 10:50:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:02 AM Total New Items Found: 0 Time: 209 s
+
+2022-04-28 10:50:02 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_06d, sheet: Reported vacancies NSA, frequency: M, Time: 209s
+
+2022-04-28 10:50:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:02 AM Total New Items Found: 0 Time: 210 s
+
+2022-04-28 10:50:03 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_bb, sheet: Employment labour costs and turnover in the construction sector, frequency: M, Time: 210s
+
+2022-04-28 10:50:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:03 AM Total New Items Found: 0 Time: 210 s
+
+2022-04-28 10:50:03 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ib, sheet: Productivity and labour costs in industry, frequency: M, Time: 210s
+
+2022-04-28 10:50:03 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:03 AM Total New Items Found: 0 Time: 211 s
+
+2022-04-28 10:50:04 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw2d3_1a, sheet: External position of the Deutsche Bundesbank, frequency: M, Time: 211s
+
+2022-04-28 10:50:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:04 AM Total New Items Found: 0 Time: 211 s
+
+2022-04-28 10:50:04 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d2_2a, sheet: Current account - Goods, frequency: M, Time: 211s
+
+2022-04-28 10:50:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:04 AM Total New Items Found: 0 Time: 212 s
+
+2022-04-28 10:50:05 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d2_3a, sheet: Current account - Services, frequency: M, Time: 212s
+
+2022-04-28 10:50:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:05 AM Total New Items Found: 0 Time: 212 s
+
+2022-04-28 10:50:05 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d2_4a, sheet: Current account - Primary Income, frequency: M, Time: 213s
+
+2022-04-28 10:50:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:06 AM Total New Items Found: 0 Time: 213 s
+
+2022-04-28 10:50:06 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d2_5a, sheet: Current account - Secondary Income, frequency: M, Time: 213s
+
+2022-04-28 10:50:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:06 AM Total New Items Found: 0 Time: 213 s
+
+2022-04-28 10:50:06 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_dl_ek, sheet: Current account - Service transactions and primary income, frequency: M, Time: 214s
+
+2022-04-28 10:50:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:07 AM Total New Items Found: 0 Time: 214 s
+
+2022-04-28 10:50:07 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d4_1a, sheet: Financial account - Overall, frequency: M, Time: 214s
+
+2022-04-28 10:50:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:07 AM Total New Items Found: 0 Time: 214 s
+
+2022-04-28 10:50:07 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d4_1d, sheet: Financial account - Other investment, frequency: M, Time: 215s
+
+2022-04-28 10:50:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:08 AM Total New Items Found: 0 Time: 215 s
+
+2022-04-28 10:50:08 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_s201_aw1d1_1a, sheet: Major items of the balance of payments, frequency: M, Time: 215s
+
+2022-04-28 10:50:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:08 AM Total New Items Found: 0 Time: 215 s
+
+2022-04-28 10:50:08 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_ah, sheet: Foreign trade Long term time series, frequency: M, Time: 215s
+
+2022-04-28 10:50:08 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:08 AM Total New Items Found: 0 Time: 216 s
+
+2022-04-28 10:50:09 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_b3013c, sheet: Foreign trade (special trade), frequency: M, Time: 216s
+
+2022-04-28 10:50:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:09 AM Total New Items Found: 0 Time: 216 s
+
+2022-04-28 10:50:09 AM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/banks/no-05-lending-by-banks-mfis-in-germany-to-domestic-non-banks-non-mfis--651134, sheet: Lending by banks (MFIs) in Germany to domestic non-banks (non-MFIs), frequency: M, Time: 216s
+
+2022-04-28 10:50:09 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:09 AM Total New Items Found: 0 Time: 217 s
+
+2022-04-28 10:50:10 AM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/mfi-interest-rate-statistics-amounts-outstanding-new-business--651536, sheet: MFI interest rate statistics, frequency: M, Time: 217s
+
+2022-04-28 10:50:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:10 AM Total New Items Found: 0 Time: 217 s
+
+2022-04-28 10:50:10 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_mi_komponenten, sheet: German contribution to the monetary aggregate M3 and its components in the euro area, frequency: M, Time: 218s
+
+2022-04-28 10:50:10 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:11 AM Total New Items Found: 0 Time: 218 s
+
+2022-04-28 10:50:11 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_aeb_wert, sheet: Orders received by the construction sector - Value, frequency: M, Time: 218s
+
+2022-04-28 10:50:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:11 AM Total New Items Found: 0 Time: 218 s
+
+2022-04-28 10:50:11 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_aeb_vol, sheet: Orders received by the construction sector - Volume, frequency: M, Time: 219s
+
+2022-04-28 10:50:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:12 AM Total New Items Found: 0 Time: 219 s
+
+2022-04-28 10:50:12 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_mb_aeb, sheet: Orders received by the construction sector - adjusted for working-day variations, frequency: M, Time: 219s
+
+2022-04-28 10:50:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:12 AM Total New Items Found: 0 Time: 219 s
+
+2022-04-28 10:50:12 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_ssb_b4_bg&treeAnchor=KONJUNKTUR, sheet: Building permits granted for structural engineering work, frequency: M, Time: 220s
+
+2022-04-28 10:50:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:13 AM Total New Items Found: 0 Time: 220 s
+
+2022-04-28 10:50:13 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_aus_wa_gp2009, sheet: Exports by category of goods, frequency: M, Time: 220s
+
+2022-04-28 10:50:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:13 AM Total New Items Found: 0 Time: 220 s
+
+2022-04-28 10:50:13 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_ein_wa_gp2009, sheet: Imports by category of goods, frequency: M, Time: 221s
+
+2022-04-28 10:50:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:14 AM Total New Items Found: 0 Time: 221 s
+
+2022-04-28 10:50:14 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_wahandel, sheet: Exports and imports of goods and its components, frequency: M, Time: 221s
+
+2022-04-28 10:50:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:14 AM Total New Items Found: 0 Time: 221 s
+
+2022-04-28 10:50:14 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sewk_b01013_3a, sheet: Effective exchange rates of the euro, frequency: M, Time: 222s
+
+2022-04-28 10:50:14 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:15 AM Total New Items Found: 0 Time: 222 s
+
+2022-04-28 10:50:15 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_mb05&treeAnchor=GELD, sheet: Securities issues, frequency: M, Time: 222s
+
+2022-04-28 10:50:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:15 AM Total New Items Found: 0 Time: 222 s
+
+2022-04-28 10:50:15 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sgeldmkt_gd, sheet: Money market rates, frequency: M, Time: 223s
+
+2022-04-28 10:50:15 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:16 AM Total New Items Found: 0 Time: 223 s
+
+2022-04-28 10:50:16 AM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07f&treeAnchor=KONJUNKTUR, sheet: Commodity prices, frequency: M, Time: 223s
+
+2022-04-28 10:50:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:16 AM Total New Items Found: 0 Time: 223 s
+
+2022-04-28 10:50:16 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:17 AM Country: Germany, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 224s
+
+2022-04-28 10:50:17 AM Total New Items Found: 0 Time: 224 s
+
+2022-04-28 10:50:17 AM Country: Germany, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 225s
+
+2022-04-28 10:50:24 AM Total New Items Found: 0 Time: 231 s
+
+2022-04-28 10:50:24 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:24 AM Country: Germany, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 232s
+
+2022-04-28 10:50:25 AM Total New Items Found: 0 Time: 232 s
+
+2022-04-28 10:50:25 AM Country: Germany, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 232s
+
+2022-04-28 10:50:26 AM Total New Items Found: 0 Time: 233 s
+
+2022-04-28 10:50:26 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:26 AM Country: Germany, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 234s
+
+2022-04-28 10:50:27 AM Total New Items Found: 0 Time: 234 s
+
+2022-04-28 10:50:27 AM Country: Germany, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 234s
+
+2022-04-28 10:50:29 AM Total New Items Found: 0 Time: 236 s
+
+2022-04-28 10:50:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:29 AM Country: Germany, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 236s
+
+2022-04-28 10:50:30 AM Total New Items Found: 0 Time: 237 s
+
+2022-04-28 10:50:30 AM Country: Germany, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 237s
+
+2022-04-28 10:50:33 AM Total New Items Found: 0 Time: 241 s
+
+2022-04-28 10:50:33 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:34 AM Country: Germany, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 241s
+
+2022-04-28 10:50:37 AM Total New Items Found: 0 Time: 245 s
+
+2022-04-28 10:50:37 AM Country: Germany, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 245s
+
+2022-04-28 10:50:39 AM Total New Items Found: 0 Time: 246 s
+
+2022-04-28 10:50:39 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:39 AM Country: Germany, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 246s
+
+2022-04-28 10:50:42 AM Total New Items Found: 0 Time: 250 s
+
+2022-04-28 10:50:43 AM Country: Germany, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 250s
+
+2022-04-28 10:50:44 AM Total New Items Found: 0 Time: 251 s
+
+2022-04-28 10:50:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:48 AM Country: Germany, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 255s
+
+2022-04-28 10:50:51 AM Total New Items Found: 0 Time: 258 s
+
+2022-04-28 10:50:51 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:51 AM Country: Germany, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 258s
+
+2022-04-28 10:50:53 AM Total New Items Found: 0 Time: 260 s
+
+2022-04-28 10:50:53 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:53 AM Country: Germany, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 260s
+
+2022-04-28 10:50:54 AM Total New Items Found: 0 Time: 262 s
+
+2022-04-28 10:50:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:55 AM Country: Germany, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 262s
+
+2022-04-28 10:50:55 AM Total New Items Found: 0 Time: 262 s
+
+2022-04-28 10:50:55 AM Country: Germany, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 263s
+
+2022-04-28 10:50:56 AM Total New Items Found: 0 Time: 264 s
+
+2022-04-28 10:50:56 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:56 AM Country: Germany, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 264s
+
+2022-04-28 10:50:57 AM Total New Items Found: 0 Time: 264 s
+
+2022-04-28 10:50:57 AM Country: Germany, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 264s
+
+2022-04-28 10:50:58 AM Total New Items Found: 0 Time: 265 s
+
+2022-04-28 10:50:58 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:50:59 AM Country: Germany, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 266s
+
+2022-04-28 10:51:02 AM Total New Items Found: 0 Time: 269 s
+
+2022-04-28 10:51:02 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:02 AM Country: Germany, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 269s
+
+2022-04-28 10:51:03 AM Total New Items Found: 0 Time: 271 s
+
+2022-04-28 10:51:04 AM Country: Germany, Reading file or url: https://www.ifo.de/en/umfragen/time-series#1, sheet: ifo Employment Barometer for Germany, frequency: M, Time: 271s
+
+2022-04-28 10:51:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:04 AM Total New Items Found: 0 Time: 271 s
+
+2022-04-28 10:51:04 AM Country: Germany, Reading file or url: https://www.ifo.de/en/umfragen/time-series#2, sheet: ifo Export Expectations, frequency: M, Time: 272s
+
+2022-04-28 10:51:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:04 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:05 AM Total New Items Found: 0 Time: 272 s
+
+2022-04-28 10:51:05 AM Country: Germany, Reading file or url: https://www.ifo.de/en/umfragen/time-series#3, sheet: ifo Business Climate, frequency: M, Time: 272s
+
+2022-04-28 10:51:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:05 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:06 AM Total New Items Found: 0 Time: 273 s
+
+2022-04-28 10:51:06 AM Country: Germany, Reading file or url: https://www.oenb.at/isaweb/report.do;jsessionid=A4719B73373B299DBDF7EBCE490CA154?report=6.9, sheet: World commodity prices, frequency: M, Time: 273s
+
+2022-04-28 10:51:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:06 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:06 AM Total New Items Found: 0 Time: 274 s
+
+2022-04-28 10:51:07 AM Country: Germany, Reading file or url: https://statistik.arbeitsagentur.de/SiteGlobals/Forms/Suche/Einzelheftsuche_Formular.html?nn=627730&topic_f=saisonbereinigte-zeitreihen, sheet: Obligatory Social Insurance, frequency: M, Time: 274s
+
+2022-04-28 10:51:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:07 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:10 AM Total New Items Found: 0 Time: 278 s
+
+2022-04-28 10:51:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:11 AM Reading file: Datasets, Time: 278 s
+
+2022-04-28 10:51:11 AM Country: Germany, Reading file or url: https://www.investing.com/indices/germany-30-historical-data, sheet: DAX 30 Index, frequency: M, Time: 279s
+
+2022-04-28 10:51:11 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:11 AM Total New Items Found: 0 Time: 279 s
+
+2022-04-28 10:51:11 AM Country: Germany, Reading file or url: https://www.investing.com/indices/germany-30-historical-data, sheet: DAX 30 Index, frequency: W, Time: 279s
+
+2022-04-28 10:51:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:12 AM Total New Items Found: 0 Time: 279 s
+
+2022-04-28 10:51:12 AM Country: Germany, Reading file or url: https://www.investing.com/indices/germany-30-historical-data, sheet: DAX 30 Index, frequency: D, Time: 279s
+
+2022-04-28 10:51:12 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:12 AM Total New Items Found: 0 Time: 280 s
+
+2022-04-28 10:51:13 AM Reading file: Datasets, Time: 280 s
+
+2022-04-28 10:51:13 AM Country: Germany, Reading file or url: WSA, sheet: 0, frequency: M, Time: 280s
+
+2022-04-28 10:51:13 AM Present File Exists. Reading Data From Default Path.
+
+2022-04-28 10:51:13 AM Total New Items Found: 0 Time: 281 s
+
+2022-04-28 10:51:19 AM = ! = No new items were found.
