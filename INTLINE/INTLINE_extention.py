@@ -1969,9 +1969,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
     except TimeoutException:
         height = 1500
     while True:
-        logging.info("Getting Data From Website\n")
         if done == True:
             break
+        logging.info("Getting Data From Website\n")
         try:
             chrome.execute_script("window.scrollTo(0,"+str(y)+")")
             if address.find('DOE') >= 0 or address.find('EUC') >= 0:
@@ -3640,6 +3640,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 chrome.close()
                 chrome.switch_to.window(chrome.window_handles[0])
             elif address.find('MLF') >= 0:
+                link_found, link_message = INTLINE_WEB_LINK(chrome, fname, keyword='Données mensuelles', text_match=True)
+                for i in range(30):
+                    ActionChains(chrome).send_keys(Keys.DOWN).perform()
                 link_found, link_message = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), get_attribute='title')
             elif address.find('ISTAT') >= 0:
                 try:
