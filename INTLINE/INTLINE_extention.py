@@ -1177,6 +1177,7 @@ def UPDATE(original_file, updated_file, key_list, NAME, data_path, orig_suf, up_
     original_file = original_file.reset_index()
     original_file = original_file.reindex(key_list, axis='columns')
     logging.info('updated: '+str(updated)+'\n')
+    logging.info('Time: '+str(int(time.time() - tStart))+' s'+'\n')
 
     return original_file, original_database
 
@@ -3821,19 +3822,21 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "English")]'))).click()
                     except TimeoutException:
                         time.sleep(0)
+                    # for code in re.split(r', ', str(file_name).replace('.0','')):
+                    target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'txCodigo')))
+                    ActionChains(chrome).click(target).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).perform()
+                    # target.send_keys(code)
+                    target.send_keys(str(file_name).replace('.0',''))
+                    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[span[contains(., "By code")]]//img'))).click()
+                    WebDriverWait(chrome, 3).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'iCorpo')))
                     for code in re.split(r', ', str(file_name).replace('.0','')):
-                        target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'txCodigo')))
-                        ActionChains(chrome).click(target).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).perform()
-                        target.send_keys(code)
-                        WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[span[contains(., "By code")]]//img'))).click()
-                        WebDriverWait(chrome, 3).until(EC.frame_to_be_available_and_switch_to_it((By.ID, 'iCorpo')))
                         WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="'+code+'"]'))).click()
                         try:
                             ActionChains(chrome).send_keys(Keys.ENTER).perform()
                         except UnexpectedAlertPresentException:
                             ActionChains(chrome).send_keys(Keys.ENTER).perform()
-                        chrome.switch_to.default_content()
-                        WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Add series"]'))).click()
+                    chrome.switch_to.default_content()
+                    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Add series"]'))).click()
                     WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Search series"]'))).click()
                     Select(WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.ID, 'lbTipoArq')))).select_by_visible_text('CSV in english')
                     target = chrome.find_element_by_id('dataInicio')
@@ -3874,26 +3877,28 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('FGV') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='SÉRIES INSTITUCIONAIS', text_match=True)
-                for item in re.split(r', ', str(file_name)):
-                    listed = False
-                    while True:
-                        try:
-                            target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]')))
-                            if target.text.find(item) >= 0:
-                                listed = True
-                        except TimeoutException:
-                            time.sleep(0)
-                        if listed == False:
-                            WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'txtBuscarSeries'))).click()
-                            ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(item).send_keys(Keys.ENTER).perform()
-                            WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnSelecionarTodas'))).click()
-                            time.sleep(3)
-                            WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'butBuscarSeriesOK'))).click()
-                            time.sleep(2)
-                            if WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]'))).text.find(item) >= 0:
-                                break
-                        else:
-                            break
+                # for item in re.split(r', ', str(file_name)):
+                #     listed = False
+                #     while True:
+                #         try:
+                #             target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]')))
+                #             if target.text.find(item) >= 0:
+                #                 listed = True
+                #         except TimeoutException:
+                #             time.sleep(0)
+                #         if listed == False:
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'txtBuscarSeries'))).click()
+                # ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(item).send_keys(Keys.ENTER).perform()
+                ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(str(file_name)).send_keys(Keys.ENTER).perform()
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnSelecionarTodas'))).click()
+                time.sleep(3)
+                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'butBuscarSeriesOK'))).click()
+                time.sleep(2)
+                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]')))
+                # if WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]'))).text.find(item) >= 0:
+                #     break
+                # else:
+                #     break
                 while WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'cphConsulta_chkFerramenta2'))).get_attribute('checked') != 'true':
                     WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'cphConsulta_chkFerramenta2'))).click()
                     time.sleep(2)

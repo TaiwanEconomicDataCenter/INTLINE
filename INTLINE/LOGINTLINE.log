@@ -1,552 +1,368 @@
-﻿2022-04-29 12:00:48 PM excel_suffix: test
+﻿2022-04-29 04:44:47 PM excel_suffix: test
 
-2022-04-29 12:00:48 PM data_processing: True
+2022-04-29 04:44:47 PM data_processing: True
 
-2022-04-29 12:00:48 PM find_unknown: False
+2022-04-29 04:44:47 PM find_unknown: False
 
-2022-04-29 12:00:48 PM dealing_start_year: 1901
+2022-04-29 04:44:47 PM dealing_start_year: 1901
 
-2022-04-29 12:00:59 PM Data Processing
+2022-04-29 04:44:59 PM Data Processing
 
-2022-04-29 12:00:59 PM Reading table: Country, Time: 10s
+2022-04-29 04:44:59 PM Reading table: Country, Time: 12s
 
-2022-04-29 12:00:59 PM Reading table: TABLES, Time: 11 s
+2022-04-29 04:44:59 PM Reading table: TABLES, Time: 12 s
 
-2022-04-29 12:01:09 PM Reading file: country_series, Time: 20 s
+2022-04-29 04:45:10 PM Reading file: country_series, Time: 23 s
 
-2022-04-29 12:01:09 PM Reading file: 132datasets, Time: 20 s
+2022-04-29 04:45:10 PM Reading file: 142datasets, Time: 23 s
 
-2022-04-29 12:01:09 PM 
+2022-04-29 04:45:11 PM 
 
-2022-04-29 12:01:09 PM ====== WebDriver manager ======
-2022-04-29 12:01:09 PM Current google-chrome version is 100.0.4896
-2022-04-29 12:01:09 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-04-29 12:01:09 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-04-29 12:01:12 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-04-29 12:01:14 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#1, sheet: Gross domestic product and its components at current prices (Billions euros), frequency: A, Time: 25s
+2022-04-29 04:45:11 PM ====== WebDriver manager ======
+2022-04-29 04:45:11 PM Current google-chrome version is 100.0.4896
+2022-04-29 04:45:11 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
+2022-04-29 04:45:11 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
+2022-04-29 04:45:14 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
+2022-04-29 04:45:16 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 29s
 
-2022-04-29 12:01:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:14 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:15 PM Total New Items Found: 0 Time: 26 s
+2022-04-29 04:45:17 PM Total New Items Found: 0 Time: 29 s
 
-2022-04-29 12:01:15 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#2, sheet: Gross domestic product and its components in volume at linked prices (Billions euros, frequency: A, Time: 26s
+2022-04-29 04:45:17 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 30s
 
-2022-04-29 12:01:15 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:15 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:15 PM Total New Items Found: 0 Time: 27 s
+2022-04-29 04:45:17 PM Total New Items Found: 0 Time: 30 s
 
-2022-04-29 12:01:16 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#3, sheet: Gross domestic product and its components price indexes (Base 100, frequency: A, Time: 27s
+2022-04-29 04:45:18 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 30s
 
-2022-04-29 12:01:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:16 PM Latest Base Year Received.
+2022-04-29 04:45:18 PM Total New Items Found: 0 Time: 31 s
 
-2022-04-29 12:01:16 PM Total New Items Found: 0 Time: 28 s
+2022-04-29 04:45:18 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 31s
 
-2022-04-29 12:01:16 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#4, sheet: Gross domestic product the three approaches at current prices (Billions euros), frequency: A, Time: 28s
+2022-04-29 04:45:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:16 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:19 PM Total New Items Found: 0 Time: 31 s
 
-2022-04-29 12:01:17 PM Total New Items Found: 0 Time: 28 s
+2022-04-29 04:45:19 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 31s
 
-2022-04-29 12:01:17 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#5, sheet: Gross value added by institutional sector at current prices (Billions euros), frequency: A, Time: 28s
+2022-04-29 04:45:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:19 PM Total New Items Found: 0 Time: 32 s
 
-2022-04-29 12:01:18 PM Total New Items Found: 0 Time: 29 s
+2022-04-29 04:45:19 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 32s
 
-2022-04-29 12:01:18 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#6, sheet: Gross value added by origin at current prices (Billions euros), frequency: A, Time: 29s
+2022-04-29 04:45:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:20 PM Total New Items Found: 0 Time: 32 s
 
-2022-04-29 12:01:18 PM Total New Items Found: 0 Time: 30 s
+2022-04-29 04:45:20 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 32s
 
-2022-04-29 12:01:18 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+Value+Added&taille=100&debut=0&categorie=5, sheet: Gross value added by industry in volume at linked prices (Billions euros, frequency: A, Time: 30s
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:19 PM Total New Items Found: 0 Time: 30 s
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:19 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Non-financial+corporations+and+unincorporated+enterprises&debut=0&categorie=5, sheet: Elements of the operating account of non-financial corporations and unincorporated enterprises (Billions euros), frequency: A, Time: 31s
+2022-04-29 04:45:20 PM Total New Items Found: 0 Time: 33 s
 
-2022-04-29 12:01:19 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:20 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 33s
 
-2022-04-29 12:01:19 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:20 PM Total New Items Found: 0 Time: 31 s
+2022-04-29 04:45:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:20 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Households+in&debut=0&categorie=5, sheet: Households account, frequency: A, Time: 31s
+2022-04-29 04:45:20 PM Total New Items Found: 0 Time: 33 s
 
-2022-04-29 12:01:20 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 33s
 
-2022-04-29 12:01:20 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:20 PM Total New Items Found: 0 Time: 32 s
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:21 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=The+gross+domestic+product+(GDP)%20and+its+components&taille=100&debut=0&categorie=5#1, sheet: Supply and use at current prices GDP, frequency: Q, Time: 32s
+2022-04-29 04:45:21 PM Total New Items Found: 0 Time: 33 s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 34s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:21 PM Total New Items Found: 0 Time: 32 s
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:21 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=The+gross+domestic+product+(GDP)%20and+its+components&taille=100&debut=0&categorie=5#2, sheet: Supply and use in chain-linked volumes GDP, frequency: Q, Time: 32s
+2022-04-29 04:45:21 PM Total New Items Found: 0 Time: 34 s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 34s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:21 PM Total New Items Found: 0 Time: 33 s
+2022-04-29 04:45:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:21 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#1, sheet: Supply and use in chain-linked volumes Goods, frequency: Q, Time: 33s
+2022-04-29 04:45:22 PM Total New Items Found: 0 Time: 34 s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:22 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 34s
 
-2022-04-29 12:01:21 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:22 PM Total New Items Found: 0 Time: 33 s
+2022-04-29 04:45:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:22 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#2, sheet: Supply and use in chain-linked volumes Construction, frequency: Q, Time: 33s
+2022-04-29 04:45:22 PM Total New Items Found: 0 Time: 35 s
 
-2022-04-29 12:01:22 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:22 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 35s
 
-2022-04-29 12:01:22 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:22 PM Total New Items Found: 0 Time: 33 s
+2022-04-29 04:45:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:22 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#3, sheet: Supply and use in chain-linked volumes Services, frequency: Q, Time: 34s
+2022-04-29 04:45:22 PM Total New Items Found: 0 Time: 35 s
 
-2022-04-29 12:01:22 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:23 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 35s
 
-2022-04-29 12:01:22 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:22 PM Total New Items Found: 0 Time: 34 s
+2022-04-29 04:45:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:23 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Activities&taille=100&debut=0&categorie=5#1, sheet: Activities - Current prices, frequency: Q, Time: 34s
+2022-04-29 04:45:24 PM Total New Items Found: 0 Time: 36 s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:24 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060823, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Main industries), frequency: Q, Time: 36s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:23 PM Total New Items Found: 0 Time: 34 s
+2022-04-29 04:45:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:23 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Activities&taille=100&debut=0&categorie=5#2, sheet: Activities - Chain-linked volumes, frequency: Q, Time: 34s
+2022-04-29 04:45:24 PM Total New Items Found: 0 Time: 37 s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:24 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060824, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Asset type), frequency: Q, Time: 37s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:23 PM Total New Items Found: 0 Time: 34 s
+2022-04-29 04:45:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:23 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#1, sheet: Exports - Goods - Values at current prices, frequency: A, Time: 35s
+2022-04-29 04:45:24 PM Total New Items Found: 0 Time: 37 s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060826, sheet: 10740 Financial account, frequency: Q, Time: 37s
 
-2022-04-29 12:01:23 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:24 PM Total New Items Found: 0 Time: 35 s
+2022-04-29 04:45:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:24 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#1, sheet: Exports - Goods - Values at current prices, frequency: Q, Time: 35s
+2022-04-29 04:45:25 PM Total New Items Found: 0 Time: 38 s
 
-2022-04-29 12:01:24 PM Total New Items Found: 0 Time: 35 s
+2022-04-29 04:45:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060827, sheet: 09672 Current and capital account (Exports), frequency: Q, Time: 38s
 
-2022-04-29 12:01:24 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#2, sheet: Exports - Goods - Volumes chained at previous year prices, frequency: A, Time: 35s
+2022-04-29 04:45:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:24 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:24 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:25 PM Total New Items Found: 0 Time: 38 s
 
-2022-04-29 12:01:24 PM Total New Items Found: 0 Time: 36 s
+2022-04-29 04:45:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060828, sheet: 09672 Current and capital account (Imports), frequency: Q, Time: 38s
 
-2022-04-29 12:01:24 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#2, sheet: Exports - Goods - Volumes chained at previous year prices, frequency: Q, Time: 36s
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:24 PM Total New Items Found: 0 Time: 36 s
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#3, sheet: Imports - Goods - Values at current prices, frequency: A, Time: 36s
+2022-04-29 04:45:26 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-29 12:01:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060830, sheet: 09672 Current and capital account (Balance From abroad), frequency: Q, Time: 39s
 
-2022-04-29 12:01:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Total New Items Found: 0 Time: 36 s
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#3, sheet: Imports - Goods - Values at current prices, frequency: Q, Time: 36s
+2022-04-29 04:45:26 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-29 12:01:25 PM Total New Items Found: 0 Time: 36 s
+2022-04-29 04:45:26 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060831, sheet: 09672 Current and capital account (Balance To abroad), frequency: Q, Time: 39s
 
-2022-04-29 12:01:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#4, sheet: Imports - Goods - Volumes chained at previous year prices, frequency: A, Time: 36s
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:27 PM Total New Items Found: 0 Time: 39 s
 
-2022-04-29 12:01:25 PM Total New Items Found: 0 Time: 37 s
+2022-04-29 04:45:27 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060832, sheet: 07221 Price for existing dwellings, frequency: Q, Time: 40s
 
-2022-04-29 12:01:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#4, sheet: Imports - Goods - Volumes chained at previous year prices, frequency: Q, Time: 37s
+2022-04-29 04:45:27 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:25 PM Total New Items Found: 0 Time: 37 s
+2022-04-29 04:45:27 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Branch%20accounts&taille=100&debut=0&categorie=10, sheet: Value added of branches - Services - Volumes chained at previous year prices, frequency: Q, Time: 37s
+2022-04-29 04:45:37 PM Total New Items Found: 0 Time: 50 s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:38 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060946, sheet: 08792 External trade in goods main figures, frequency: M, Time: 50s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Total New Items Found: 0 Time: 37 s
+2022-04-29 04:45:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+balance&taille=100&debut=0&categorie=10, sheet: Total final domestic demand excluding stocks - Volumes chained at previous year prices, frequency: Q, Time: 37s
+2022-04-29 04:45:38 PM Total New Items Found: 0 Time: 51 s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:38 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060947, sheet: 08864 External Trade in goods main figures seasonal adjusted, frequency: M, Time: 51s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Total New Items Found: 0 Time: 38 s
+2022-04-29 04:45:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Quarterly+wages+indices+in+the+private+sector&taille=100&debut=0&categorie=10, sheet: Hourly wage rate indice for labourers - All non-agricultural sectors, frequency: Q, Time: 38s
+2022-04-29 04:45:38 PM Total New Items Found: 0 Time: 51 s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:39 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060948, sheet: 03013 Consumer Price Index by Divisions, frequency: M, Time: 51s
 
-2022-04-29 12:01:26 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:26 PM Latest Base Year Received.
+2022-04-29 04:45:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:27 PM Total New Items Found: 0 Time: 38 s
+2022-04-29 04:45:42 PM Total New Items Found: 0 Time: 55 s
 
-2022-04-29 12:01:27 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Consumer+price+index&taille=50&debut=0&categorie=10, sheet: All households - France - Services, frequency: Q, Time: 38s
+2022-04-29 04:45:42 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060950, sheet: 08183 Consumer Price Index, frequency: M, Time: 55s
 
-2022-04-29 12:01:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:42 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:42 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:27 PM Latest Base Year Received.
+2022-04-29 04:45:46 PM Total New Items Found: 0 Time: 58 s
 
-2022-04-29 12:01:27 PM Total New Items Found: 0 Time: 38 s
+2022-04-29 04:45:46 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060951, sheet: 03700 Harmonized index of consumer prices, frequency: M, Time: 59s
 
-2022-04-29 12:01:27 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Price+indices+of+the+new+housing+and+indicate+Solicitors-Insee&taille=100&debut=0&categorie=10, sheet: Price index of second-hand dwellings - Metropolitan France - All items, frequency: Q, Time: 39s
+2022-04-29 04:45:46 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:46 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:27 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:49 PM Total New Items Found: 0 Time: 62 s
 
-2022-04-29 12:01:27 PM Latest Base Year Received.
+2022-04-29 04:45:49 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060952, sheet: 08651 Construction cost index for residential buildings, frequency: M, Time: 62s
 
-2022-04-29 12:01:27 PM Total New Items Found: 0 Time: 39 s
+2022-04-29 04:45:49 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:28 PM Country: France, Reading file or url: Unemployment and unemployment rate and halo by sex and age (ILO), sheet: quarterly_values, frequency: Q, Time: 39s
+2022-04-29 04:45:49 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:52 PM Total New Items Found: 0 Time: 65 s
 
-2022-04-29 12:01:28 PM Total New Items Found: 0 Time: 39 s
+2022-04-29 04:45:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060953, sheet: 13332 Employment and unemployment for persons aged 15-74, frequency: M, Time: 65s
 
-2022-04-29 12:01:28 PM Country: France, Reading file or url: Employment and activity and underemployment by business sector (ILO concept), sheet: quarterly_values, frequency: Q, Time: 40s
+2022-04-29 04:45:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:28 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:28 PM Total New Items Found: 0 Time: 40 s
+2022-04-29 04:45:52 PM Total New Items Found: 0 Time: 65 s
 
-2022-04-29 12:01:29 PM Country: France, Reading file or url: Estimates of salaried employment by business sector, sheet: quarterly_values, frequency: Q, Time: 40s
+2022-04-29 04:45:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060956, sheet: 07095 Index of production by Main Industrial Groupring, frequency: M, Time: 65s
 
-2022-04-29 12:01:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:29 PM Total New Items Found: 0 Time: 40 s
+2022-04-29 04:45:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:29 PM Country: France, Reading file or url: Outlook survey in goods-producing industries, sheet: quarterly_values, frequency: Q, Time: 41s
+2022-04-29 04:45:56 PM Total New Items Found: 0 Time: 69 s
 
-2022-04-29 12:01:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:56 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060957, sheet: 07095 Index of production by Industry, frequency: M, Time: 69s
 
-2022-04-29 12:01:30 PM Total New Items Found: 0 Time: 42 s
+2022-04-29 04:45:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:31 PM Country: France, Reading file or url: Industrial production index, sheet: monthly_values, frequency: M, Time: 42s
+2022-04-29 04:45:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:31 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:59 PM Total New Items Found: 0 Time: 72 s
 
-2022-04-29 12:01:31 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:45:59 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060958, sheet: 07095 Index of production by contents Total, frequency: M, Time: 72s
 
-2022-04-29 12:01:33 PM Latest Base Year Received.
+2022-04-29 04:45:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:34 PM Total New Items Found: 0 Time: 45 s
+2022-04-29 04:45:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:34 PM Country: France, Reading file or url: Consumer price index, sheet: monthly_values, frequency: M, Time: 46s
+2022-04-29 04:46:02 PM Total New Items Found: 0 Time: 75 s
 
-2022-04-29 12:01:34 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060959, sheet: 12462 Producer price index, frequency: M, Time: 75s
 
-2022-04-29 12:01:35 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:59 PM Total New Items Found: 0 Time: 70 s
+2022-04-29 04:46:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:59 PM Country: France, Reading file or url: Households' consumption expenditure on goods, sheet: monthly_values, frequency: M, Time: 70s
+2022-04-29 04:46:06 PM Total New Items Found: 0 Time: 79 s
 
-2022-04-29 12:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:06 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060963, sheet: 12462 Producer price index Industry combined, frequency: M, Time: 79s
 
-2022-04-29 12:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:59 PM Total New Items Found: 0 Time: 71 s
+2022-04-29 04:46:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:01:59 PM Country: France, Reading file or url: Turnover index in wholesale and retail trade, sheet: monthly_values, frequency: M, Time: 71s
+2022-04-29 04:46:09 PM Total New Items Found: 0 Time: 82 s
 
-2022-04-29 12:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060960, sheet: 07129 The Index of wholesale and retail trade, frequency: M, Time: 82s
 
-2022-04-29 12:01:59 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:09 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:17 PM Total New Items Found: 0 Time: 89 s
+2022-04-29 04:46:09 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:17 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Consumer+confidence+survey&taille=100&debut=0&categorie=10, sheet: Monthly consumer confidence survey - Summary indicator of households' confidence (first factor among the opinion survey balances), frequency: M, Time: 89s
+2022-04-29 04:46:12 PM Total New Items Found: 0 Time: 85 s
 
-2022-04-29 12:02:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:12 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060962, sheet: 10947 Monetary aggregate M3 by financial instrument, frequency: M, Time: 85s
 
-2022-04-29 12:02:17 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:18 PM Total New Items Found: 0 Time: 89 s
+2022-04-29 04:46:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:18 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:12 PM Total New Items Found: 0 Time: 85 s
 
-2022-04-29 12:02:18 PM Country: France, Reading file or url: FRA, sheet: Annual, frequency: A, Time: 90s
+2022-04-29 04:46:13 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060968, sheet: 10336 First time registered private cars, frequency: M, Time: 85s
 
-2022-04-29 12:02:18 PM Total New Items Found: 0 Time: 90 s
+2022-04-29 04:46:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:18 PM Country: France, Reading file or url: FRA, sheet: Monthly, frequency: M, Time: 90s
+2022-04-29 04:46:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:18 PM Total New Items Found: 0 Time: 90 s
+2022-04-29 04:46:13 PM Total New Items Found: 0 Time: 86 s
 
-2022-04-29 12:02:19 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#1, sheet: Bank Lending Survey, frequency: Q, Time: 90s
+2022-04-29 04:46:14 PM Country: Norway, Reading file or url: https://www.nima.no/norsk-pmi/, sheet: Purchasing Managers Index, frequency: M, Time: 86s
 
-2022-04-29 12:02:19 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:19 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:19 PM Total New Items Found: 0 Time: 91 s
+2022-04-29 04:46:14 PM Total New Items Found: 0 Time: 86 s
 
-2022-04-29 12:02:20 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#2, sheet: Short-Term Surveys National, frequency: M, Time: 91s
+2022-04-29 04:46:14 PM Country: Norway, Reading file or url: https://www.nav.no/en/home/work-and-stay-in-norway/relatert-informasjon/labour-market-information-in-english, sheet: Labour Market Statistics, frequency: M, Time: 87s
 
-2022-04-29 12:02:20 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:20 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:29 PM Total New Items Found: 0 Time: 100 s
+2022-04-29 04:46:15 PM Total New Items Found: 0 Time: 88 s
 
-2022-04-29 12:02:29 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#3, sheet: Monetary Statistics, frequency: M, Time: 100s
+2022-04-29 04:46:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:16 PM Country: Norway, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 89s
 
-2022-04-29 12:02:29 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:19 PM Total New Items Found: 0 Time: 92 s
 
-2022-04-29 12:02:45 PM Total New Items Found: 0 Time: 117 s
+2022-04-29 04:46:19 PM Reading file: Datasets, Time: 92 s
 
-2022-04-29 12:02:46 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:19 PM Country: Norway, Reading file or url: https://www.investing.com/indices/oslo-all-share-historical-data, sheet: Oslo All Share Index, frequency: W, Time: 92s
 
-2022-04-29 12:02:46 PM Country: France, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 118s
+2022-04-29 04:46:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:47 PM Total New Items Found: 0 Time: 118 s
+2022-04-29 04:46:20 PM Total New Items Found: 0 Time: 92 s
 
-2022-04-29 12:02:47 PM Country: France, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 118s
+2022-04-29 04:46:20 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: W, Time: 93s
 
-2022-04-29 12:02:55 PM Total New Items Found: 0 Time: 126 s
+2022-04-29 04:46:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:55 PM Present File Exists. Reading Data From Default Path.
+2022-04-29 04:46:20 PM Total New Items Found: 0 Time: 93 s
 
-2022-04-29 12:02:55 PM Country: France, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 126s
+2022-04-29 04:46:20 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: D, Time: 93s
 
-2022-04-29 12:02:55 PM Total New Items Found: 0 Time: 127 s
+2022-04-29 04:46:20 PM Present File Exists. Reading Data From Default Path.
 
-2022-04-29 12:02:55 PM Country: France, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 127s
+2022-04-29 04:46:20 PM Total New Items Found: 0 Time: 93 s
 
-2022-04-29 12:02:57 PM Total New Items Found: 0 Time: 128 s
-
-2022-04-29 12:02:57 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:02:57 PM Country: France, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 129s
-
-2022-04-29 12:02:58 PM Total New Items Found: 0 Time: 129 s
-
-2022-04-29 12:02:58 PM Country: France, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 129s
-
-2022-04-29 12:03:00 PM Total New Items Found: 0 Time: 131 s
-
-2022-04-29 12:03:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:00 PM Country: France, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 131s
-
-2022-04-29 12:03:01 PM Total New Items Found: 0 Time: 132 s
-
-2022-04-29 12:03:01 PM Country: France, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 133s
-
-2022-04-29 12:03:05 PM Total New Items Found: 0 Time: 136 s
-
-2022-04-29 12:03:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:05 PM Country: France, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 137s
-
-2022-04-29 12:03:09 PM Total New Items Found: 0 Time: 141 s
-
-2022-04-29 12:03:09 PM Country: France, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 141s
-
-2022-04-29 12:03:11 PM Total New Items Found: 0 Time: 142 s
-
-2022-04-29 12:03:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:11 PM Country: France, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 142s
-
-2022-04-29 12:03:15 PM Total New Items Found: 0 Time: 147 s
-
-2022-04-29 12:03:15 PM Country: France, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 147s
-
-2022-04-29 12:03:16 PM Total New Items Found: 0 Time: 148 s
-
-2022-04-29 12:03:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:21 PM Country: France, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 152s
-
-2022-04-29 12:03:24 PM Total New Items Found: 0 Time: 155 s
-
-2022-04-29 12:03:24 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:24 PM Country: France, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 156s
-
-2022-04-29 12:03:26 PM Total New Items Found: 0 Time: 157 s
-
-2022-04-29 12:03:26 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:26 PM Country: France, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 158s
-
-2022-04-29 12:03:28 PM Total New Items Found: 0 Time: 159 s
-
-2022-04-29 12:03:28 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:28 PM Country: France, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 159s
-
-2022-04-29 12:03:28 PM Total New Items Found: 0 Time: 160 s
-
-2022-04-29 12:03:29 PM Country: France, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 160s
-
-2022-04-29 12:03:30 PM Total New Items Found: 0 Time: 161 s
-
-2022-04-29 12:03:30 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:30 PM Country: France, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 161s
-
-2022-04-29 12:03:30 PM Total New Items Found: 0 Time: 162 s
-
-2022-04-29 12:03:30 PM Country: France, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 162s
-
-2022-04-29 12:03:31 PM Total New Items Found: 0 Time: 163 s
-
-2022-04-29 12:03:32 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:32 PM Country: France, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 163s
-
-2022-04-29 12:03:35 PM Total New Items Found: 0 Time: 166 s
-
-2022-04-29 12:03:35 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:35 PM Country: France, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 167s
-
-2022-04-29 12:03:37 PM Total New Items Found: 0 Time: 168 s
-
-2022-04-29 12:03:37 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:37 PM Country: France, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 168s
-
-2022-04-29 12:03:40 PM Total New Items Found: 0 Time: 171 s
-
-2022-04-29 12:03:40 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:40 PM Country: France, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 171s
-
-2022-04-29 12:03:42 PM Total New Items Found: 0 Time: 174 s
-
-2022-04-29 12:03:43 PM Country: France, Reading file or url: Merchandise Trade SA, sheet: 0, frequency: M, Time: 174s
-
-2022-04-29 12:03:43 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:43 PM Total New Items Found: 0 Time: 175 s
-
-2022-04-29 12:03:44 PM Country: France, Reading file or url: Merchandise Trade NSA, sheet: 0, frequency: M, Time: 175s
-
-2022-04-29 12:03:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:44 PM Total New Items Found: 0 Time: 175 s
-
-2022-04-29 12:03:44 PM Country: France, Reading file or url: http://developpement-durable.bsocom.fr/Statistiques/TableViewer/tableView.aspx?ReportId=44027, sheet: Accommodation authorized by type and by municipality, frequency: M, Time: 176s
-
-2022-04-29 12:03:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:45 PM Total New Items Found: 0 Time: 176 s
-
-2022-04-29 12:03:45 PM Country: France, Reading file or url: http://developpement-durable.bsocom.fr/Statistiques/TableViewer/tableView.aspx?ReportId=44028, sheet: Housing started by type and by municipality, frequency: M, Time: 177s
-
-2022-04-29 12:03:45 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:45 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:45 PM Total New Items Found: 0 Time: 177 s
-
-2022-04-29 12:03:46 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-demandeurs-demploi-inscrits-pole-emploi-France-metro#1, sheet: Job seekers registered SWDA, frequency: M, Time: 177s
-
-2022-04-29 12:03:46 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:46 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:47 PM Total New Items Found: 0 Time: 178 s
-
-2022-04-29 12:03:47 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-demandeurs-demploi-inscrits-pole-emploi-France-metro#2, sheet: Job seekers registered NSA, frequency: M, Time: 178s
-
-2022-04-29 12:03:47 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:47 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:53 PM Total New Items Found: 0 Time: 184 s
-
-2022-04-29 12:03:53 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-offres-collectees-et-satisfaites-par-pole-emploi, sheet: Offers collected, frequency: M, Time: 184s
-
-2022-04-29 12:03:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:53 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:55 PM Total New Items Found: 0 Time: 186 s
-
-2022-04-29 12:03:55 PM Reading file: Datasets, Time: 186 s
-
-2022-04-29 12:03:55 PM Country: France, Reading file or url: https://www.investing.com/indices/france-40-historical-data, sheet: CAC 40 Price Index, frequency: W, Time: 186s
-
-2022-04-29 12:03:55 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:55 PM Total New Items Found: 0 Time: 187 s
-
-2022-04-29 12:03:55 PM Country: France, Reading file or url: https://www.investing.com/indices/france-40-historical-data, sheet: CAC 40 Price Index, frequency: D, Time: 187s
-
-2022-04-29 12:03:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:56 PM Total New Items Found: 0 Time: 187 s
-
-2022-04-29 12:03:56 PM Country: France, Reading file or url: https://www.investing.com/indices/sbf-120-historical-data, sheet: SBF 120 Index, frequency: W, Time: 187s
-
-2022-04-29 12:03:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:56 PM Total New Items Found: 0 Time: 187 s
-
-2022-04-29 12:03:56 PM Country: France, Reading file or url: https://www.investing.com/indices/sbf-120-historical-data, sheet: SBF 120 Index, frequency: D, Time: 187s
-
-2022-04-29 12:03:56 PM Present File Exists. Reading Data From Default Path.
-
-2022-04-29 12:03:57 PM Total New Items Found: 0 Time: 188 s
-
-2022-04-29 12:03:57 PM Reading file: Datasets, Time: 188 s
-
-2022-04-29 12:04:01 PM = ! = No new items were found.
+2022-04-29 04:46:22 PM = ! = No new items were found.
