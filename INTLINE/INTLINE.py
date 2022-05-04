@@ -862,9 +862,9 @@ for country in COUNTRY(TABLES):
             zip_list = []
             Zip = False
             US_address = None
-            if 'from US' in list(TABLES.loc[TABLES['Source'] == source]['keyword']):
-                if source == 'Bureau of Economic Analysis':
-                    Zip = True
+            if country == 111 or 'from US' in list(TABLES.loc[TABLES['Source'] == source]['keyword']):
+                # if source == 'Bureau of Economic Analysis':
+                #     Zip = True
                 # with open(data_path+str(country)+'/'+address+'US_address.txt','r',encoding='ANSI') as f:
                 #     US_address = Path(os.path.realpath(data_path).replace(databank, 'US')).as_posix()+f.read()
                 US_address = data_path+str(country)+'/'+address
@@ -881,13 +881,13 @@ for country in COUNTRY(TABLES):
                         logging.info('Reading file: Datasets, Time: '+str(int(time.time() - tStart))+' s'+'\n')
                         Table = readExcelFile(data_path+'tablesINT.xlsx', header_ = 0, index_col_=0, sheet_name_='OTHERdatasets').to_dict()
                     else:
-                        if source == 'European Commission' or source == 'Eurostat':
-                            Zip = True
+                        # if source == 'European Commission' or source == 'Eurostat':
+                        #     Zip = True
                         Table = None
                 Titles = readExcelFile(data_path+'tablesINT.xlsx', header_=[0], index_col_=1, sheet_name_='titles').to_dict()
             else:
-                if source == 'Federal Reserve Economic Data':
-                    Zip = True
+                # if source == 'Federal Reserve Economic Data':
+                #     Zip = True
                 Series, Table, Titles = INTLINE_KEY(country, address, key=re.sub(r'FTD', "FTDE", address).replace('/',''), US_address=US_address, country_datasets=country_datasets)
             for fname in FILE_NAME(country, source, address):
                 if make_discontinued == False and fname.find('discontinued') >= 0:
@@ -900,6 +900,8 @@ for country in COUNTRY(TABLES):
                     options.add_experimental_option("excludeSwitches", ["enable-logging"])
                     chrome = webdriver.Chrome(ChromeDriverManager().install(), options=options)
                     chrome.set_window_position(980,0)
+                if fname in Zip_table.index and address.find('INSEE') < 0 and address.find('DOUANES') < 0: 
+                    Zip = True
                 if Zip == True:
                     zip_country = country
                     if source == 'European Commission' or source == 'Eurostat':

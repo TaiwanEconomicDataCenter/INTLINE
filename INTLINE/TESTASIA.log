@@ -1,37 +1,10 @@
-﻿2022-04-22 03:40:04 PM Checking Identities: 49 s
+﻿2022-05-04 11:17:25 AM Checking Identities: 495 s
 
-2022-04-22 03:40:04 PM Index M576DOSVM0001.M desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M3, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M3, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM Index M576DOSVM0002.M desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M2, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M2, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM Index M576DOSVM0003.M desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M1, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M1, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM Index M576DOSVM0004.M desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M1, Currency in Active Circulation, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M1, Currency in Active Circulation, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM Index M576DOSVM0006.M desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Money and Banking, Money Supply, M2, Quasi Money, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore, Note: (1)M701111 - Money Supply (End Of Period), Monthly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Money and Banking, Money Supply, M2, Quasi Money, Domestic Banking Unit, Not Seasonally Adjusted, Unit: Millions of Singapore Dollar, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM Index Q576DOSPL0003.Q desc_e inconsistent
-2022-04-22 03:40:04 PM DF_KEY = Singapore National Statistics, Labour Market, Unit Labour Cost of Manufacturing, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Department of Statistics Singapore, Note: (1)M183741 - Unit Labour Cost Index (2015 = 100), Quarterly
-2022-04-22 03:40:04 PM df_key = Singapore National Statistics, Labour Market, Unit Labour Cost of Manufacturing, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Department of Statistics Singapore
-2022-04-22 03:40:04 PM unknown: 0
-2022-04-22 03:40:04 PM name too long: 0
-2022-04-22 03:40:04 PM inconsistent: 6
-2022-04-22 03:40:04 PM Total desc_e inconsistent: 6
-2022-04-22 03:40:04 PM Total country inconsistent: 0
-2022-04-22 03:40:04 PM Total freq inconsistent: 0
-2022-04-22 03:40:04 PM Total unit inconsistent: 0
-2022-04-22 03:40:04 PM Total type inconsistent: 0
-2022-04-22 03:40:04 PM Total source inconsistent: 0
-2022-04-22 03:40:04 PM Total form_e inconsistent: 0
-2022-04-22 03:40:04 PM Total form_c inconsistent: 0
-2022-04-22 03:40:04 PM inconsistent earliest: 1980
-2022-04-22 03:40:04 PM base updated: 0
-2022-04-22 03:40:04 PM data updated: 41
-2022-04-22 03:40:04 PM including weekly: False
-2022-04-22 03:40:04 PM including daily: False
-2022-04-22 03:40:04 PM too many months: False
+2022-05-04 11:17:26 AM unknown: 0
+2022-05-04 11:17:26 AM name too long: 0
+2022-05-04 11:17:26 AM inconsistent: 0
+2022-05-04 11:17:26 AM base updated: 0
+2022-05-04 11:17:26 AM data updated: 1004
+2022-05-04 11:17:26 AM including weekly: True
+2022-05-04 11:17:26 AM including daily: True
+2022-05-04 11:17:26 AM too many months: True

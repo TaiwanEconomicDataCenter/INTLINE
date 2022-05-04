@@ -1,22 +1,24 @@
-﻿2022-04-22 04:15:31 PM excel_suffix: mysql
+﻿2022-05-04 11:22:24 AM excel_suffix: mysql
 
-2022-04-22 04:15:31 PM data_processing: False
+2022-05-04 11:22:24 AM data_processing: False
 
-2022-04-22 04:15:31 PM find_unknown: False
+2022-05-04 11:22:24 AM find_unknown: False
 
-2022-04-22 04:15:31 PM dealing_start_year: 1901
+2022-05-04 11:22:24 AM dealing_start_year: 1901
 
-2022-04-22 04:15:42 PM Process: File Updating
+2022-05-04 11:22:41 AM Process: File Updating
 
-2022-04-22 04:15:42 PM Reading main key: ASIA_keytest.xlsx, Time: 11 s
+2022-05-04 11:22:41 AM Reading main key: ASIA_keyUP.xlsx, Time: 16 s
 
-2022-04-22 04:15:43 PM Reading main database: ASIA_databasetest.xlsx, Time: 11 s
+2022-05-04 11:22:41 AM Reading main database: ASIA_databaseUP.xlsx, Time: 17 s
 
-2022-04-22 04:15:43 PM Updating file: 0 s
+2022-05-04 11:23:00 AM Updating file: 0 s
 
-2022-04-22 04:15:56 PM updated: 41
+2022-05-04 11:26:40 AM updated: 1004
 
-2022-04-22 04:16:43 PM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
+2022-05-04 11:26:40 AM Time: 220 s
+
+2022-05-04 11:27:35 AM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
 0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  Japan National Statistics, National Accounts, ...  ...                              Currency and Deposits     1            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  Japan National Statistics, National Accounts, ...  ...         Equity and Investment Fund Shares or Units     2            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  Japan National Statistics, National Accounts, ...  ...  Insurance, Pension and Standardised Guarantee ...     3            Bank of Japan                   National Accounts  Not Seasonally Adjusted
@@ -30,4 +32,4 @@
 3213     ASIA     W924SZSEB.W  DB_W_0001  data014  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, B Share In...  3214   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
 [3214 rows x 15 columns]
-2022-04-22 04:16:43 PM Total Items: 3214
+2022-05-04 11:27:35 AM Total Items: 3214
