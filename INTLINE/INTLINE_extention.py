@@ -3928,6 +3928,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('NAV') >= 0:
                 WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/li[contains(., "Registered Unemployed")]/a[contains(., "xls")]'))).click()
                 link_found = True
+            elif address.find('BNM') >= 0:
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='monthly-highlights-statistics')
+                target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
+                link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5583,10 +5587,43 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=fname)  
+    elif address.find('BNM') >= 0:
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        if freq == 'A':
+            INTLINE_his.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else col for col in INTLINE_his.columns]
+            INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+        new_index = []
+        subject = ''
+        for dex in INTLINE_temp.index:
+            if str(dex[0]).replace('n.i.e.','').strip() in KEYS:
+                new_index.append(str(dex[0]).replace('n.i.e.','').strip())
+            elif str(dex[1]).replace('n.i.e.','').strip() in KEYS:
+                new_index.append(str(dex[1]).replace('n.i.e.','').strip())
+            elif str(dex[0]).find('Credit') >= 0 or str(dex[1]).find('Credit') >= 0:
+                new_index.append(subject+'Credit')
+                continue
+            elif str(dex[0]).find('Debit') >= 0 or str(dex[1]).find('Debit') >= 0:
+                new_index.append(subject+'Debit')
+                continue
+            else:
+                new_index.append(None)
+            if str(dex[0]).find('Unnamed') < 0:
+                subject = str(dex[0]).replace('n.i.e.','').strip()
+        INTLINE_temp.index = new_index
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+        if freq == 'A':
+            INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
-    #print(INTLINE_temp)
-    #ERROR('')
+    print(INTLINE_temp)
+    # ERROR('')
     
     #################################################################################################################################################################################################################
     for ind in range(Series[freq].shape[0]):
@@ -6078,6 +6115,9 @@ def INTLINE_MULTIKEYS(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.columns = [str(col).strip()[:3]+str(col).strip()[-2:] if str(col).strip()[-2:].isnumeric() else None for col in INTLINE_temp.columns]
         INTLINE_temp.columns = [datetime.strptime(col, '%b%y').strftime('%Y-%m') if str(col)[-2:].isnumeric() else None for col in INTLINE_temp.columns]
         INTLINE_temp.index = pd.MultiIndex.from_tuples([[str(d).strip() if str(d).find('excluding energy') < 0 else 'Excluding energy' for d in dex] for dex in INTLINE_temp.index])
+    
+    # print(INTLINE_temp)
+    # ERROR('')
     
     #################################################################################################################################################################################################################
     for ind in range(Series[freq].shape[0]):
