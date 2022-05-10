@@ -3930,7 +3930,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('BNM') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='monthly-highlights-statistics')
-                target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
+                if file_name != None:
+                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")][contains(., "'+str(file_name)+'")]')))
+                else:
+                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
             if link_found == False:
                 print(link_message)
@@ -5588,32 +5591,57 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=fname)  
     elif address.find('BNM') >= 0:
-        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        file_path = data_path+str(country)+'/'+address+str(dataset)+freq+'_historical.xlsx'
         INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
         KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
         if freq == 'A':
             INTLINE_his.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else col for col in INTLINE_his.columns]
-            INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+            if isinstance(INTLINE_temp.columns, pd.MultiIndex):
+                INTLINE_temp.columns = [int(str(col[0]).strip()[:4]) if str(col[0]).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+            else:
+                INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+        if freq == 'Q':
+            INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
+            yr = ''
+            for col in INTLINE_temp.columns:
+                if str(col[0]).strip().isnumeric():
+                    yr = str(col[0]).strip()
+                if bool(re.match(r'[1-4]Q', str(col[1]).strip())):
+                    new_columns.append(yr+'-Q'+str(col[1]).strip()[0])
+                else:
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         new_index = []
         subject = ''
-        for dex in INTLINE_temp.index:
-            if str(dex[0]).replace('n.i.e.','').strip() in KEYS:
-                new_index.append(str(dex[0]).replace('n.i.e.','').strip())
-            elif str(dex[1]).replace('n.i.e.','').strip() in KEYS:
-                new_index.append(str(dex[1]).replace('n.i.e.','').strip())
-            elif str(dex[0]).find('Credit') >= 0 or str(dex[1]).find('Credit') >= 0:
-                new_index.append(subject+'Credit')
-                continue
-            elif str(dex[0]).find('Debit') >= 0 or str(dex[1]).find('Debit') >= 0:
-                new_index.append(subject+'Debit')
-                continue
-            else:
-                new_index.append(None)
-            if str(dex[0]).find('Unnamed') < 0:
-                subject = str(dex[0]).replace('n.i.e.','').strip()
+        if str(fname).find('Balance of Payments') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).replace('n.i.e.','').strip() in KEYS:
+                    new_index.append(str(dex[0]).replace('n.i.e.','').strip())
+                elif str(dex[1]).replace('n.i.e.','').strip() in KEYS:
+                    new_index.append(str(dex[1]).replace('n.i.e.','').strip())
+                elif str(dex[0]).find('Credit') >= 0 or str(dex[1]).find('Credit') >= 0:
+                    new_index.append(subject+'Credit')
+                    continue
+                elif str(dex[0]).find('Debit') >= 0 or str(dex[1]).find('Debit') >= 0:
+                    new_index.append(subject+'Debit')
+                    continue
+                else:
+                    new_index.append(None)
+                if str(dex[0]).find('Unnamed') < 0:
+                    subject = str(dex[0]).replace('n.i.e.','').strip()
+        else:
+            for dex in INTLINE_temp.index:
+                if str(dex[1]).find('RM million') >= 0:
+                    subject = 'RM'
+                elif str(dex[1]).find('change') >= 0:
+                    subject = '%'
+                new_index.append(re.sub(r'\s+', " ", re.sub(r'[0-9]|.*?:', "", str(dex[0]))).strip()+subject)
         INTLINE_temp.index = new_index
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        # print(INTLINE_temp)
+        # ERROR('')
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)

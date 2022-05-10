@@ -1,67 +1,89 @@
-﻿2022-05-09 05:35:32 PM excel_suffix: test
+﻿2022-05-10 11:15:07 AM excel_suffix: test
 
-2022-05-09 05:35:32 PM data_processing: True
+2022-05-10 11:15:07 AM data_processing: True
 
-2022-05-09 05:35:32 PM find_unknown: False
+2022-05-10 11:15:07 AM find_unknown: False
 
-2022-05-09 05:35:32 PM dealing_start_year: 1901
+2022-05-10 11:15:07 AM dealing_start_year: 1901
 
-2022-05-09 05:35:34 PM Data Processing
+2022-05-10 11:15:09 AM Data Processing
 
-2022-05-09 05:35:34 PM Reading table: Country, Time: 2s
+2022-05-10 11:15:09 AM Reading table: Country, Time: 2s
 
-2022-05-09 05:35:34 PM Reading table: TABLES, Time: 2 s
+2022-05-10 11:15:09 AM Reading table: TABLES, Time: 2 s
 
-2022-05-09 05:35:46 PM Reading file: country_series, Time: 14 s
+2022-05-10 11:15:21 AM Reading file: country_series, Time: 14 s
 
-2022-05-09 05:35:46 PM Reading file: 548datasets, Time: 14 s
+2022-05-10 11:15:21 AM Reading file: 548datasets, Time: 14 s
 
-2022-05-09 05:35:47 PM 
+2022-05-10 11:15:21 AM 
 
-2022-05-09 05:35:47 PM ====== WebDriver manager ======
-2022-05-09 05:35:47 PM Current google-chrome version is 100.0.4896
-2022-05-09 05:35:47 PM Get LATEST chromedriver version for 100.0.4896 google-chrome
-2022-05-09 05:35:47 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/100.0.4896.60/chromedriver_win32.zip
-2022-05-09 05:35:52 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\100.0.4896.60]
-2022-05-09 05:35:54 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#1, sheet: Balance of Payments (Detailed breakdown, frequency: A, Time: 22s
+2022-05-10 11:15:21 AM ====== WebDriver manager ======
+2022-05-10 11:15:21 AM Current google-chrome version is 101.0.4951
+2022-05-10 11:15:21 AM Get LATEST chromedriver version for 101.0.4951 google-chrome
+2022-05-10 11:15:21 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
+2022-05-10 11:15:25 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
+2022-05-10 11:15:27 AM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#1, sheet: Balance of Payments (Detailed breakdown, frequency: A, Time: 20s
 
-2022-05-09 05:35:54 PM Present File Exists. Reading Data From Default Path.
+2022-05-10 11:15:27 AM Present File Exists. Reading Data From Default Path.
 
-2022-05-09 05:35:54 PM Present File Exists. Reading Data From Default Path.
+2022-05-10 11:15:27 AM Present File Exists. Reading Data From Default Path.
 
-2022-05-09 05:35:55 PM Total New Items Found: 18 Time: 23 s
+2022-05-10 11:15:28 AM Total New Items Found: 18 Time: 20 s
 
-2022-05-09 05:35:57 PM Reading file: INTLINE_database?, Time: 25 s
+2022-05-10 11:15:28 AM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#2, sheet: Gross Domestic Product by Kind of Economic Activity at Constant, frequency: A, Time: 21s
 
-2022-05-09 05:35:57 PM Concating file: INTLINE_key?, Time: 25 s
+2022-05-10 11:15:28 AM Present File Exists. Reading Data From Default Path.
 
-2022-05-09 05:35:57 PM Concating file: INTLINE_database?, Time: 25 s
+2022-05-10 11:15:28 AM Present File Exists. Reading Data From Default Path.
 
-2022-05-09 05:35:57 PM Time: 25 s
+2022-05-10 11:15:28 AM Total New Items Found: 37 Time: 21 s
 
-2022-05-09 05:35:57 PM Setting new files, Time: 25 s
+2022-05-10 11:15:28 AM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#2, sheet: Gross Domestic Product by Kind of Economic Activity at Constant, frequency: Q, Time: 21s
 
-2022-05-09 05:35:57 PM Concating new files: INTLINE_database, Time: 25 s
+2022-05-10 11:15:29 AM Total New Items Found: 56 Time: 22 s
 
-2022-05-09 05:35:57 PM    databank            name   db_table  db_code                                             desc_e  ...                         type snl                              source           form_e                   form_c
-0   INTLINE   A548BNMBOP1.A  DB_A_0001  data001  Malaysia National Statistics, External Sector,...  ...                        Goods   1  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-1   INTLINE  A548BNMBOP11.A  DB_A_0001  data002  Malaysia National Statistics, External Sector,...  ...            Investment Income   2  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-2   INTLINE  A548BNMBOP14.A  DB_A_0001  data003  Malaysia National Statistics, External Sector,...  ...             Secondary Income   3  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-3   INTLINE  A548BNMBOP15.A  DB_A_0001  data004  Malaysia National Statistics, External Sector,...  ...              Current Account   4  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-4   INTLINE   A548BNMBOP2.A  DB_A_0001  data005  Malaysia National Statistics, External Sector,...  ...                     Services   5  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-5   INTLINE  A548BNMBOP28.A  DB_A_0001  data006  Malaysia National Statistics, External Sector,...  ...         Errors and Omissions   6  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-6   INTLINE   A548BNMBOP3.A  DB_A_0001  data007  Malaysia National Statistics, External Sector,...  ...                     Services   7  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-7   INTLINE  A548BNMBOP31.A  DB_A_0001  data008  Malaysia National Statistics, External Sector,...  ...               Reserve Assets   8  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-8   INTLINE  A548BNMBOP32.A  DB_A_0001  data009  Malaysia National Statistics, External Sector,...  ...       Special Drawing Rights   9  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-9   INTLINE  A548BNMBOP33.A  DB_A_0001  data010  Malaysia National Statistics, External Sector,...  ...  Reserve Position in the IMF  10  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-10  INTLINE  A548BNMBOP34.A  DB_A_0001  data011  Malaysia National Statistics, External Sector,...  ...               Reserve Assets  11  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-11  INTLINE   A548BNMBOP4.A  DB_A_0001  data012  Malaysia National Statistics, External Sector,...  ...                     Services  12  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-12  INTLINE  A548BNMBOP41.A  DB_A_0001  data013  Malaysia National Statistics, External Sector,...  ...                       Credit  13  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-13  INTLINE  A548BNMBOP46.A  DB_A_0001  data014  Malaysia National Statistics, External Sector,...  ...                       Credit  14  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-14  INTLINE  A548BNMBOP55.A  DB_A_0001  data015  Malaysia National Statistics, External Sector,...  ...                        Debit  15  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-15  INTLINE   A548BNMBOP6.A  DB_A_0001  data016  Malaysia National Statistics, External Sector,...  ...                     Services  16  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-16  INTLINE  A548BNMBOP61.A  DB_A_0001  data017  Malaysia National Statistics, External Sector,...  ...                        Debit  17  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
-17  INTLINE   A548BNMBOP8.A  DB_A_0001  data018  Malaysia National Statistics, External Sector,...  ...               Primary Income  18  Department of Statistics, Malaysia  External Sector  Not Seasonally Adjusted
+2022-05-10 11:15:29 AM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#3, sheet: Gross Domestic Product by Kind of Economic Activity at Current, frequency: A, Time: 22s
 
-[18 rows x 15 columns]
-2022-05-09 05:35:57 PM Total Items: 18
+2022-05-10 11:15:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-05-10 11:15:29 AM Present File Exists. Reading Data From Default Path.
+
+2022-05-10 11:15:30 AM Total New Items Found: 75 Time: 23 s
+
+2022-05-10 11:15:30 AM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#3, sheet: Gross Domestic Product by Kind of Economic Activity at Current, frequency: Q, Time: 23s
+
+2022-05-10 11:15:30 AM Total New Items Found: 94 Time: 23 s
+
+2022-05-10 11:15:33 AM Reading file: INTLINE_database?, Time: 25 s
+
+2022-05-10 11:15:33 AM Concating file: INTLINE_key?, Time: 25 s
+
+2022-05-10 11:15:33 AM Concating file: INTLINE_database?, Time: 25 s
+
+2022-05-10 11:15:33 AM Time: 25 s
+
+2022-05-10 11:15:33 AM Setting new files, Time: 25 s
+
+2022-05-10 11:15:33 AM Concating new files: INTLINE_database, Time: 26 s
+
+2022-05-10 11:15:33 AM    databank            name   db_table  db_code                                             desc_e   country freq  ...     last                           unit                              type snl                source             form_e                   form_c
+0   INTLINE   A548BNMBOP1.A  DB_A_0001  data001  Malaysia National Statistics, External Sector,...  Malaysia    A  ...     2021  Millions of Malaysian Ringgit                             Goods   1  Bank Negara Malaysia    External Sector  Not Seasonally Adjusted
+1   INTLINE  A548BNMBOP11.A  DB_A_0001  data002  Malaysia National Statistics, External Sector,...  Malaysia    A  ...     2021  Millions of Malaysian Ringgit                 Investment Income   2  Bank Negara Malaysia    External Sector  Not Seasonally Adjusted
+2   INTLINE  A548BNMBOP14.A  DB_A_0001  data003  Malaysia National Statistics, External Sector,...  Malaysia    A  ...     2021  Millions of Malaysian Ringgit                  Secondary Income   3  Bank Negara Malaysia    External Sector  Not Seasonally Adjusted
+3   INTLINE  A548BNMBOP15.A  DB_A_0001  data004  Malaysia National Statistics, External Sector,...  Malaysia    A  ...     2021  Millions of Malaysian Ringgit                   Current Account   4  Bank Negara Malaysia    External Sector  Not Seasonally Adjusted
+4   INTLINE   A548BNMBOP2.A  DB_A_0001  data005  Malaysia National Statistics, External Sector,...  Malaysia    A  ...     2021  Millions of Malaysian Ringgit                          Services   5  Bank Negara Malaysia    External Sector  Not Seasonally Adjusted
+..      ...             ...        ...      ...                                                ...       ...  ...  ...      ...                            ...                               ...  ..                   ...                ...                      ...
+89  INTLINE   Q548BNMVN3a.Q  DB_Q_0001  data034  Malaysia National Statistics, National Account...  Malaysia    Q  ...  2021-Q4  Millions of Malaysian Ringgit        Electricity, Gas and Water  90  Bank Negara Malaysia  National Accounts  Not Seasonally Adjusted
+90  INTLINE    Q548BNMVN4.Q  DB_Q_0001  data035  Malaysia National Statistics, National Account...  Malaysia    Q  ...  2021-Q4  Millions of Malaysian Ringgit                     Manufacturing  91  Bank Negara Malaysia  National Accounts  Not Seasonally Adjusted
+91  INTLINE    Q548BNMVN5.Q  DB_Q_0001  data036  Malaysia National Statistics, National Account...  Malaysia    Q  ...  2021-Q4  Millions of Malaysian Ringgit                      Construction  92  Bank Negara Malaysia  National Accounts  Not Seasonally Adjusted
+92  INTLINE    Q548BNMVN6.Q  DB_Q_0001  data037  Malaysia National Statistics, National Account...  Malaysia    Q  ...  2021-Q4  Millions of Malaysian Ringgit                          Services  93  Bank Negara Malaysia  National Accounts  Not Seasonally Adjusted
+93  INTLINE    Q548BNMVN8.Q  DB_Q_0001  data038  Malaysia National Statistics, National Account...  Malaysia    Q  ...  2021-Q4  Millions of Malaysian Ringgit  Taxes less Subsidies on Products  94  Bank Negara Malaysia  National Accounts  Not Seasonally Adjusted
+
+[94 rows x 15 columns]
+2022-05-10 11:15:33 AM Total Items: 94
+2022-05-10 11:15:34 AM New items were found
+2022-05-10 11:15:34 AM                                                                                               Country Address                Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
+Sheet                                              File                                                                                                                                                       
+Gross Domestic Product by Kind of Economic Acti... https://www.bnm.gov.my/rates-statistics#2      548    BNM/  Bank Negara Malaysia      A, Q  web crawler/manually      19         NaN        NaN          38
+Gross Domestic Product by Kind of Economic Acti... https://www.bnm.gov.my/rates-statistics#3      548    BNM/  Bank Negara Malaysia      A, Q  web crawler/manually      19         NaN        NaN          38
