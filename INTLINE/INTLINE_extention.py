@@ -3935,6 +3935,16 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 else:
                     target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
+            elif address.find('DSM') >= 0:
+                try:
+                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
+                except:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Free Download', text_match=True)
+                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
+                target.send_keys('Labour Force')
+                ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Monthly Principal Statistics of Labour Force', text_match=True)
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Publication Table LFR', text_match=True)
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5614,7 +5624,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         new_index = []
         subject = ''
-        if str(fname).find('Balance of Payments') >= 0:
+        if str(fname).find('Balance of Payments') >= 0 and freq == 'A':
             for dex in INTLINE_temp.index:
                 if str(dex[0]).replace('n.i.e.','').strip() in KEYS:
                     new_index.append(str(dex[0]).replace('n.i.e.','').strip())
@@ -5630,6 +5640,28 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     new_index.append(None)
                 if str(dex[0]).find('Unnamed') < 0:
                     subject = str(dex[0]).replace('n.i.e.','').strip()
+        elif str(fname).find('Balance of Payments') >= 0 and freq == 'Q':
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Current Account') >= 0 and str(dex[1]).strip() == 'Total':
+                    new_index.append('Current Account')
+                else:
+                    new_index.append(None)
+        elif str(fname).find('Gross National Income') >= 0:
+            price = ''
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Constant') >= 0:
+                    price = 'Constant'
+                elif str(dex[0]).find('Current') >= 0:
+                    price = 'Current'
+                elif str(dex[0]).find('%') >= 0:
+                    price = '%'
+                if str(dex[1]).find('Final consumption expenditure') >= 0:
+                    subject = 'Final consumption expenditure'
+                elif str(dex[1]).find('Gross fixed capital formation') >= 0:
+                    subject = 'Gross fixed capital formation'
+                elif str(dex[2]).find('Total') < 0 and str(dex[2]).find('Private sector') < 0 and str(dex[2]).find('Public sector') < 0:
+                    subject = ''
+                new_index.append(price+subject+re.sub(r'\(.+?\)', "", str(dex[2])).strip())
         else:
             for dex in INTLINE_temp.index:
                 if str(dex[1]).find('RM million') >= 0:
@@ -5640,14 +5672,18 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.index = new_index
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
-        # print(INTLINE_temp)
-        # ERROR('')
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
         if freq == 'A':
             INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
+    elif address.find('DSM') >= 0:
+        INTLINE_temp.columns = [str(col).strip()[:4] if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+        INTLINE_temp.index = [str(dex).replace('\n',' ').strip() for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        # print(INTLINE_temp)
+        # ERROR('')
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
     print(INTLINE_temp)
