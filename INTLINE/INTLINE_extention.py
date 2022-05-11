@@ -5662,6 +5662,16 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                 elif str(dex[2]).find('Total') < 0 and str(dex[2]).find('Private sector') < 0 and str(dex[2]).find('Public sector') < 0:
                     subject = ''
                 new_index.append(price+subject+re.sub(r'\(.+?\)', "", str(dex[2])).strip())
+        elif str(fname).find('Federal Government Operating Expenditure') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Debt service charges') >= 0:
+                    subject = 'Debt service charges'
+                elif str(dex[1]).find('Unnamed') >= 0:
+                    subject = ''
+                if subject == 'Debt service charges':
+                    new_index.append(str(dex[1]).strip())
+                else:
+                    new_index.append(None)
         else:
             for dex in INTLINE_temp.index:
                 if str(dex[1]).find('RM million') >= 0:
