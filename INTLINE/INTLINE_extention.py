@@ -3929,12 +3929,16 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/li[contains(., "Registered Unemployed")]/a[contains(., "xls")]'))).click()
                 link_found = True
             elif address.find('BNM') >= 0:
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='monthly-highlights-statistics')
-                if file_name != None:
-                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")][contains(., "'+str(file_name)+'")]')))
-                else:
+                if str(sname).find('Public Sector Operations') >= 0:
                     target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
-                link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
+                    link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='Download', text_match=True)
+                else:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='monthly-highlights-statistics')
+                    if file_name != None:
+                        target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")][contains(., "'+str(file_name)+'")]')))
+                    else:
+                        target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
+                    link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
             elif address.find('DSM') >= 0:
                 try:
                     target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
@@ -5672,6 +5676,38 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     new_index.append(str(dex[1]).strip())
                 else:
                     new_index.append(None)
+        elif str(fname).find('Federal Government Finance') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Current budget') >= 0:
+                    subject = 'Current budget'
+                elif str(dex[1]).find('Unnamed') >= 0:
+                    subject = ''
+                if subject == 'Current budget':
+                    new_index.append(re.sub(r'[0-9]', "", str(dex[1])).strip())
+                else:
+                    new_index.append(None)
+        elif str(fname).find('Federal Government Debt') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Domestic debt') >= 0 and str(dex[1]).strip() == 'Sub-total':
+                    new_index.append('Domestic debt')
+                elif str(dex[0]).find('External debt') >= 0 and str(dex[1]).strip() == 'Sub-total':
+                    new_index.append('External debt')
+                elif str(dex[1]).strip() == 'Total':
+                    new_index.append('Total')
+                else:
+                    new_index.append(None)
+        elif str(fname).find('Federal Government Revenue') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Indirect taxes') >= 0:
+                    subject = 'Indirect taxes'
+                elif str(dex[0]).find('Unnamed') < 0:
+                    subject = str(dex[0])
+                if subject == 'Indirect taxes' and str(dex[1]).find('Sales tax') >= 0:
+                    new_index.append('Sales tax')
+                else:
+                    new_index.append(None)
+        elif str(fname).find('Public Sector Operations') >= 0:
+            new_index = [str(dex).strip() for dex in INTLINE_temp.index]
         else:
             for dex in INTLINE_temp.index:
                 if str(dex[1]).find('RM million') >= 0:
