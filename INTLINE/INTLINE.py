@@ -1003,7 +1003,7 @@ for country in COUNTRY(TABLES):
                                     website = str(Table.loc[fname, 'website'])
                                 except KeyError:
                                     website = None
-                            base_year, INTLINE_temp, Series, repl, is_period = INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=website)
+                            base_year, INTLINE_temp, Series, repl, is_period = INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=website, skiprows=skip, header=head, index_col=index_col)
                             if tables == sheet_list:
                                 if single_key == True:
                                     INTLINE_t, label, note, footnote = INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, Series, Countries, freq, head=head, index_col=index_col, transpose=trans, Table=Table, base_year=base_year, INTLINE_previous=INTLINE_previous, FREQLISTW=pd.date_range(start = '1901-01-01',end=update,freq='W-SAT').strftime('%Y-%m-%d'), find_unknown=find_unknown)

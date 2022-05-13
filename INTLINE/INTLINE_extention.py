@@ -578,7 +578,7 @@ def INTLINE_COPY_FILE(destination, new_file_name, old_file_name):
                 shutil.move(destination+new_file_name, destination+'old/'+new_file_name)
         shutil.copyfile(destination+old_file_name, destination+new_file_name)
 
-def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=None):
+def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=None, skiprows=None, header=None, index_col=None):
     base_year = 0
     src = file_name
     is_period = False
@@ -919,6 +919,13 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Choose variables")]'))).click()
             target = chrome.find_element_by_xpath('.//div[@id="table-title"]')
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", target.text.replace('\n',''))
+    elif address.find('BNM') >= 0 and str(file_name).lower().find('index') >= 0:
+        base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, skiprows_=skiprows, acceptNoFile=False).iloc[0].iloc[0])
+    elif address.find('DSM') >= 0 and (str(file_name).lower().find('ind') >= 0 or str(file_name).lower().find('tab1') >= 0):
+        if str(file_name).find('Malaysian Economic Indicators') >= 0:
+            base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, skiprows_=skiprows, acceptNoFile=False).iloc[:5]).replace('\n',''))
+        else:
+            base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0])
     if (str(base_year).isnumeric() == False and is_period == False) or (str(base_year)[:4].isnumeric() == False and is_period == True):
         ERROR('Base Year Not Found in source: '+src)
     if base_year_list.empty == False:
@@ -3940,15 +3947,19 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(sname)+'")]')))
                     link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xls')
             elif address.find('DSM') >= 0:
-                try:
-                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
-                except:
-                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Free Download', text_match=True)
-                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
-                target.send_keys('Labour Force')
-                ActionChains(chrome).send_keys(Keys.ENTER).perform()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Monthly Principal Statistics of Labour Force', text_match=True)
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Publication Table LFR', text_match=True)
+                if str(sname).find('Malaysian Economic Indicators') >= 0:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='.xls')
+                else:
+                    try:
+                        target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
+                    except:
+                        link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Free Download', text_match=True)
+                        target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
+                    target.send_keys(str(file_name))
+                    ActionChains(chrome).send_keys(Keys.ENTER).perform()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5614,7 +5625,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                 INTLINE_temp.columns = [int(str(col[0]).strip()[:4]) if str(col[0]).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
             else:
                 INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
-        if freq == 'Q':
+        elif freq == 'Q':
             INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
             yr = ''
             for col in INTLINE_temp.columns:
@@ -5622,6 +5633,29 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     yr = str(col[0]).strip()
                 if bool(re.match(r'[1-4]Q', str(col[1]).strip())):
                     new_columns.append(yr+'-Q'+str(col[1]).strip()[0])
+                else:
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+        elif freq == 'M':
+            INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+            if str(fname).find('Index') >= 0:
+                base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
+                base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
+                if re.sub(r'\.0$', "", str(base_year_list.loc[fname, 'base year'])) != str(base_year):
+                    print('Modifying Data with new base year')
+                    for ind in INTLINE_his.index:
+                        new_base = sum([INTLINE_his.loc[ind, str(base_year)+'-'+str(num).rjust(2,'0')] for num in range(1,13)])/12
+                        multiplier = 100/new_base
+                        for col in INTLINE_his.columns:
+                            INTLINE_his.loc[ind, col] = float(INTLINE_his.loc[ind, col])*multiplier
+                    base_year_list.loc[fname, 'base year'] = base_year
+                    base_year_list.to_csv(base_path)
+            yr = ''
+            for col in INTLINE_temp.columns:
+                if str(col[0]).strip().isnumeric():
+                    yr = str(col[0]).strip()
+                if yr.isnumeric() and str(col[1]).strip().isnumeric():
+                    new_columns.append(yr+'-'+str(col[1]).strip().rjust(2, "0"))
                 else:
                     new_columns.append(None)
             INTLINE_temp.columns = new_columns
@@ -5706,15 +5740,15 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     new_index.append('Sales tax')
                 else:
                     new_index.append(None)
-        elif str(fname).find('Public Sector Operations') >= 0:
-            new_index = [str(dex).strip() for dex in INTLINE_temp.index]
-        else:
+        elif str(fname).find('Gross Domestic Product') >= 0:
             for dex in INTLINE_temp.index:
                 if str(dex[1]).find('RM million') >= 0:
                     subject = 'RM'
                 elif str(dex[1]).find('change') >= 0:
                     subject = '%'
                 new_index.append(re.sub(r'\s+', " ", re.sub(r'[0-9]|.*?:', "", str(dex[0]))).strip()+subject)
+        else:
+            new_index = [re.sub(r'[0-9]', "", re.sub(r'\s+', " ", str(dex))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = new_index
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
@@ -5725,11 +5759,74 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         if freq == 'A':
             INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
     elif address.find('DSM') >= 0:
-        INTLINE_temp.columns = [str(col).strip()[:4] if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
-        INTLINE_temp.index = [str(dex).replace('\n',' ').strip() for dex in INTLINE_temp.index]
-        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
-        # print(INTLINE_temp)
-        # ERROR('')
+        if freq == 'A':
+            INTLINE_temp.columns = [str(col).strip()[:4] if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+            INTLINE_temp.index = [str(dex).replace('\n',' ').strip() for dex in INTLINE_temp.index]
+            INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        elif freq == 'M':
+            file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+            INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+            KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+            INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+            if str(fname).find('Ind') >= 0:
+                base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
+                base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
+                if re.sub(r'\.0$', "", str(base_year_list.loc[fname, 'base year'])) != str(base_year):
+                    print('Modifying Data with new base year')
+                    for ind in INTLINE_his.index:
+                        new_base = sum([INTLINE_his.loc[ind, str(base_year)+'-'+str(num).rjust(2,'0')] for num in range(1,13)])/12
+                        multiplier = 100/new_base
+                        for col in INTLINE_his.columns:
+                            INTLINE_his.loc[ind, col] = float(INTLINE_his.loc[ind, col])*multiplier
+                    base_year_list.loc[fname, 'base year'] = base_year
+                    base_year_list.to_csv(base_path)
+            if str(fname).find('Malaysian Economic Indicators') >= 0:
+                INTLINE_temp.columns = [str(col).replace(':','-').replace("'",'').strip() if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+                new_index = []
+                subject_found = False
+                unit_found = False
+                for dex in INTLINE_temp.index:
+                    if str(dex[0]).find('Composite Index') >= 0:
+                        subject_found = True
+                    elif str(dex[0]).find('Unnamed') < 0:
+                        subject_found = False
+                    if str(dex[2]).find('=100') >= 0:
+                        unit_found = True
+                    else:
+                        unit_found = False
+                    if subject_found and unit_found and str(dex[1]).strip() in KEYS:
+                        new_index.append(str(dex[1]).strip())
+                    else:
+                        new_index.append(None)
+                INTLINE_temp.index = new_index
+            else:
+                yr = ''
+                MONTH = {'JAN':'01','FEB':'02','MAC':'03','APR':'04','MEI':'05','JUN':'06','JUL':'07','OGO':'08','SEP':'09','OKT':'10','NOV':'11','DIS':'12'}
+                for col in INTLINE_temp.columns:
+                    if str(col[0]).strip().isnumeric():
+                        yr = str(col[0]).strip()
+                    if yr.isnumeric() and str(col[1]).strip() in MONTH:
+                        new_columns.append(yr+'-'+MONTH[str(col[1]).strip()])
+                    else:
+                        new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+                new_index = []
+                for dex in INTLINE_temp.index:
+                    index_found = False
+                    for key in KEYS:
+                        if str(dex).find(' '+key) >= 0:
+                            new_index.append(key)
+                            index_found = True
+                            break
+                    if index_found == False:
+                        new_index.append(None)
+                INTLINE_temp.index = new_index
+            INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+            INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+            INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+            INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+            INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+            INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
     print(INTLINE_temp)
