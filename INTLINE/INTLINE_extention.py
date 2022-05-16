@@ -925,7 +925,7 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
         else:
             line = 0
         base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, skiprows_=skiprows, acceptNoFile=False).iloc[line].iloc[line])
-    elif address.find('DSM') >= 0 and (str(file_name).lower().find('ind') >= 0 or freq == 'M'):
+    elif address.find('DSM') >= 0 and bool(re.search(r'tab1|Indicator|IPP', str(file_name))):
         if str(file_name).find('Malaysian Economic Indicators') >= 0:
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, skiprows_=skiprows, acceptNoFile=False).iloc[:5]).replace('\n',''))
         else:
@@ -5659,6 +5659,8 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                 for col in INTLINE_temp.columns:
                     if str(col[0]).strip().isnumeric():
                         yr = str(col[0]).strip()
+                    elif str(fname).find('Interbank Money Market') >= 0 and str(col[0]).strip().isnumeric() == False:
+                        yr = ''
                     if yr.isnumeric() and str(col[1]).strip().isnumeric():
                         new_columns.append(yr+'-'+str(col[1]).strip().rjust(2, "0"))
                     else:
@@ -5788,8 +5790,29 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     M3_found = True
                 else:
                     new_index.append(None)
+        elif str(fname).find('Treasury Bills and Bank Negara Bills') >= 0:
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Average discount rate on Treasury bills') >= 0 and str(dex[1]).find('3') >= 0:
+                    new_index.append('Average discount rate on Treasury bills3')
+                else:
+                    new_index.append(None)
+        elif str(fname).find('Interbank Money Market') >= 0:
+            period = ''
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Weighted average interbank rates') >= 0:
+                    subject = 'Weighted average interbank rates'
+                elif str(dex[0]).find('Unnamed') < 0:
+                    subject = ''
+                if str(dex[1]).find('Overnight money') >= 0:
+                    period = 'Overnight money'
+                elif str(dex[1]).find('Unnamed') < 0:
+                    period = ''
+                if str(dex[2]).find('Avg') >= 0:
+                    new_index.append(subject+period+'Avg')
+                else:
+                    new_index.append(None)
         else:
-            new_index = [re.sub(r'[0-9]', "", re.sub(r'\s+', " ", str(dex))).strip() for dex in INTLINE_temp.index]
+            new_index = [re.sub(r'[0-9]|\^', "", re.sub(r'\s+', " ", str(dex))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = new_index
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
@@ -5809,17 +5832,18 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
             KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
             INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
-            base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
-            base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
-            if re.sub(r'\.0$', "", str(base_year_list.loc[fname, 'base year'])) != str(base_year):
-                print('Modifying Data with new base year')
-                for ind in INTLINE_his.index:
-                    new_base = sum([INTLINE_his.loc[ind, str(base_year)+'-'+str(num).rjust(2,'0')] for num in range(1,13)])/12
-                    multiplier = 100/new_base
-                    for col in INTLINE_his.columns:
-                        INTLINE_his.loc[ind, col] = float(INTLINE_his.loc[ind, col])*multiplier
-                base_year_list.loc[fname, 'base year'] = base_year
-                base_year_list.to_csv(base_path)
+            if str(fname).find('Employment') < 0:
+                base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
+                base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
+                if re.sub(r'\.0$', "", str(base_year_list.loc[fname, 'base year'])) != str(base_year):
+                    print('Modifying Data with new base year')
+                    for ind in INTLINE_his.index:
+                        new_base = sum([INTLINE_his.loc[ind, str(base_year)+'-'+str(num).rjust(2,'0')] for num in range(1,13)])/12
+                        multiplier = 100/new_base
+                        for col in INTLINE_his.columns:
+                            INTLINE_his.loc[ind, col] = float(INTLINE_his.loc[ind, col])*multiplier
+                    base_year_list.loc[fname, 'base year'] = base_year
+                    base_year_list.to_csv(base_path)
             if str(fname).find('Malaysian Economic Indicators') >= 0:
                 INTLINE_temp.columns = [str(col).replace(':','-').replace("'",'').strip() if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
                 new_index = []
@@ -5845,8 +5869,8 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                 for col in INTLINE_temp.columns:
                     if str(col[0]).strip().isnumeric():
                         yr = str(col[0]).strip()
-                    if yr.isnumeric() and str(col[1]).strip() in MONTH:
-                        new_columns.append(yr+'-'+MONTH[str(col[1]).strip()])
+                    if yr.isnumeric() and str(col[1]).upper().strip()[:3] in MONTH and str(col[1]).find('-') < 0:
+                        new_columns.append(yr+'-'+MONTH[str(col[1]).upper().strip()[:3]])
                     elif yr.isnumeric():
                         try:
                             new_columns.append(yr+'-'+datetime.strptime(str(col[1]).strip(), "%b.").strftime('%m'))
@@ -5856,10 +5880,19 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                         new_columns.append(None)
                 INTLINE_temp.columns = new_columns
                 new_index = []
-                if isinstance(INTLINE_temp.index, pd.MultiIndex):
+                if str(fname).find('Jadual IPP') >= 0:
                     for dex in INTLINE_temp.index:
                         if str(dex[0]).find('Index') >= 0:
                             new_index.append(str(dex[1]).strip())
+                        else:
+                            new_index.append(None)
+                elif str(fname).find('GUNA TENAGA_Employment_MALAYSIA') >= 0:
+                    for d in range(len(INTLINE_temp.index)):
+                        if str(INTLINE_temp.index[d][2]).replace('.0','').strip() == '1':
+                            if str(INTLINE_temp.index[d+1][1]).find('extraterritorial') >= 0:
+                                new_index.append('extraterritorial')
+                            else:
+                                new_index.append(str(INTLINE_temp.index[d+1][0]).replace(',','').strip())
                         else:
                             new_index.append(None)
                 else:
