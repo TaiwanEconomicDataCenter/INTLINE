@@ -3964,6 +3964,21 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     ActionChains(chrome).send_keys(Keys.ENTER).perform()
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
+            elif address.find('PHSA') >= 0:
+                variable_list = WebDriverWait(chrome, 5).until(EC.presence_of_all_elements_located((By.XPATH, './/div[@class="variableselector_valuesselect_box ui-resizable"]')))
+                for variable in variable_list:
+                    try:
+                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Type of Valuation")]')))
+                    except:
+                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Select all"]'))).click()
+                    else:
+                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/option[contains(., "'+str(file_name)+'")]'))).click()
+                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
+                Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_function_dropdownlist"]')))).select_by_value("changeDecimal")
+                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@class="commandbar_changedecimal_selectvalue_textbox"]'))).send_keys('6')
+                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
+                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5912,9 +5927,25 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
             INTLINE_temp = INTLINE_temp.sort_index(axis=1)
             INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+    elif address.find('PHSA') >= 0:
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        if freq == 'A':
+            INTLINE_his.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else col for col in INTLINE_his.columns]
+            INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+        INTLINE_temp.index = [re.sub(r'\.+', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+        if freq == 'A':
+            INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
-    # print(INTLINE_temp)
+    print(INTLINE_temp)
     # ERROR('')
     
     #################################################################################################################################################################################################################

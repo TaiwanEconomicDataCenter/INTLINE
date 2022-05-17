@@ -1,43 +1,66 @@
-﻿2022-05-16 05:41:29 PM excel_suffix: mysql
+﻿2022-05-17 05:23:38 PM excel_suffix: test
 
-2022-05-16 05:41:29 PM data_processing: False
+2022-05-17 05:23:38 PM data_processing: True
 
-2022-05-16 05:41:29 PM find_unknown: False
+2022-05-17 05:23:38 PM find_unknown: False
 
-2022-05-16 05:41:29 PM dealing_start_year: 1901
+2022-05-17 05:23:38 PM dealing_start_year: 1901
 
-2022-05-16 05:41:56 PM Process: File Merging
+2022-05-17 05:23:43 PM Data Processing
 
-2022-05-16 05:41:56 PM Reading main key: INTLINE_keytest.xlsx, Time: 26 s
+2022-05-17 05:23:43 PM Reading table: Country, Time: 5s
 
-2022-05-16 05:41:56 PM Reading main database: INTLINE_databasetest.xlsx, Time: 27 s
+2022-05-17 05:23:44 PM Reading table: TABLES, Time: 5 s
 
-2022-05-16 05:41:57 PM Merging File, Time: 27 s
+2022-05-17 05:23:56 PM Reading file: country_series, Time: 17 s
 
-2022-05-16 05:41:57 PM Setting files, Time: 28 s
+2022-05-17 05:23:56 PM Reading file: 566datasets, Time: 17 s
 
-2022-05-16 05:41:58 PM Concating file: INTLINE_key?, Time: 28 s
+2022-05-17 05:23:57 PM 
 
-2022-05-16 05:41:58 PM Concating file: INTLINE_database?, Time: 28 s
+2022-05-17 05:23:57 PM ====== WebDriver manager ======
+2022-05-17 05:23:57 PM Current google-chrome version is 101.0.4951
+2022-05-17 05:23:57 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
+2022-05-17 05:23:57 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
+2022-05-17 05:24:00 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
+2022-05-17 05:24:02 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices, frequency: A, Time: 23s
 
-2022-05-16 05:41:58 PM Time: 28 s
+2022-05-17 05:24:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-16 05:42:03 PM Setting new files, Time: 34 s
+2022-05-17 05:24:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-16 05:42:29 PM Concating new files: INTLINE_database, Time: 60 s
+2022-05-17 05:24:02 PM Total New Items Found: 13 Time: 24 s
 
-2022-05-16 05:42:59 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
-0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
-1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
-2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
-4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
-13879  INTLINE     W576STI.W  DB_W_0001  data025  ...  13880           Singapore Exchange                           Singapore Stock Exchange  Not Seasonally Adjusted
-13880  INTLINE    W924SSEA.W  DB_W_0001  data026  ...  13881      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13881  INTLINE    W924SSEB.W  DB_W_0001  data027  ...  13882      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-13882  INTLINE   W924SZSEA.W  DB_W_0001  data028  ...  13883       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-13883  INTLINE   W924SZSEB.W  DB_W_0001  data029  ...  13884       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+2022-05-17 05:24:05 PM Reading file: INTLINE_database?, Time: 26 s
 
-[13884 rows x 15 columns]
-2022-05-16 05:42:59 PM Total Items: 13884
+2022-05-17 05:24:05 PM Concating file: INTLINE_key?, Time: 26 s
+
+2022-05-17 05:24:05 PM Concating file: INTLINE_database?, Time: 26 s
+
+2022-05-17 05:24:05 PM Time: 26 s
+
+2022-05-17 05:24:05 PM Setting new files, Time: 26 s
+
+2022-05-17 05:24:05 PM Concating new files: INTLINE_database, Time: 26 s
+
+2022-05-17 05:24:05 PM    databank            name   db_table  db_code                                             desc_e  ...                                              type snl                           source             form_e                   form_c
+0   INTLINE   A566PHSNIA1.A  DB_A_0001  data001  Philippines National Statistics, National Acco...  ...                                        Households   1  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+1   INTLINE  A566PHSNIA11.A  DB_A_0001  data002  Philippines National Statistics, National Acco...  ...                           Statistical Discrepancy   2  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+2   INTLINE  A566PHSNIA12.A  DB_A_0001  data003  Philippines National Statistics, National Acco...  ...                            Gross Domestic Product   3  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+3   INTLINE  A566PHSNIA13.A  DB_A_0001  data004  Philippines National Statistics, National Acco...  ...     Net Primary Income with the Rest of the World   4  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+4   INTLINE  A566PHSNIA14.A  DB_A_0001  data005  Philippines National Statistics, National Acco...  ...                             Gross National Income   5  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+5   INTLINE  A566PHSNIA1a.A  DB_A_0001  data006  Philippines National Statistics, National Acco...  ...                     Imports of Goods and Services   6  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+6   INTLINE   A566PHSNIA2.A  DB_A_0001  data007  Philippines National Statistics, National Acco...  ...                            Government Consumption   7  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+7   INTLINE   A566PHSNIA4.A  DB_A_0001  data008  Philippines National Statistics, National Acco...  ...  Gross Fixed Capital Formation (Fixed Investment)   8  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+8   INTLINE   A566PHSNIA5.A  DB_A_0001  data009  Philippines National Statistics, National Acco...  ...                                      Construction   9  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+9   INTLINE   A566PHSNIA6.A  DB_A_0001  data010  Philippines National Statistics, National Acco...  ...                           Machinery and Equipment  10  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+10  INTLINE   A566PHSNIA7.A  DB_A_0001  data011  Philippines National Statistics, National Acco...  ...                   Cultivated Biological Resources  11  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+11  INTLINE   A566PHSNIA8.A  DB_A_0001  data012  Philippines National Statistics, National Acco...  ...                            Changes in Inventories  12  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+12  INTLINE   A566PHSNIA9.A  DB_A_0001  data013  Philippines National Statistics, National Acco...  ...                     Exports of Goods and Services  13  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+
+[13 rows x 15 columns]
+2022-05-17 05:24:05 PM Total Items: 13
+2022-05-17 05:24:05 PM New items were found
+2022-05-17 05:24:05 PM                                                                                                        Country Address                           Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
+Sheet                                              File                                                                                                                                                                           
+Gross National Income and Gross Domestic Produc... https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/D...      566   PHSA/  Philippine Statistics Authority         A  web crawler/manually     NaN         NaN        NaN          13
