@@ -1,66 +1,85 @@
-﻿2022-05-17 05:23:38 PM excel_suffix: test
+﻿2022-05-17 06:23:49 PM excel_suffix: test
 
-2022-05-17 05:23:38 PM data_processing: True
+2022-05-17 06:23:49 PM data_processing: True
 
-2022-05-17 05:23:38 PM find_unknown: False
+2022-05-17 06:23:49 PM find_unknown: False
 
-2022-05-17 05:23:38 PM dealing_start_year: 1901
+2022-05-17 06:23:49 PM dealing_start_year: 1901
 
-2022-05-17 05:23:43 PM Data Processing
+2022-05-17 06:23:53 PM Data Processing
 
-2022-05-17 05:23:43 PM Reading table: Country, Time: 5s
+2022-05-17 06:23:53 PM Reading table: Country, Time: 3s
 
-2022-05-17 05:23:44 PM Reading table: TABLES, Time: 5 s
+2022-05-17 06:23:53 PM Reading table: TABLES, Time: 4 s
 
-2022-05-17 05:23:56 PM Reading file: country_series, Time: 17 s
+2022-05-17 06:24:06 PM Reading file: country_series, Time: 17 s
 
-2022-05-17 05:23:56 PM Reading file: 566datasets, Time: 17 s
+2022-05-17 06:24:06 PM Reading file: 566datasets, Time: 17 s
 
-2022-05-17 05:23:57 PM 
+2022-05-17 06:24:07 PM 
 
-2022-05-17 05:23:57 PM ====== WebDriver manager ======
-2022-05-17 05:23:57 PM Current google-chrome version is 101.0.4951
-2022-05-17 05:23:57 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
-2022-05-17 05:23:57 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
-2022-05-17 05:24:00 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
-2022-05-17 05:24:02 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices, frequency: A, Time: 23s
+2022-05-17 06:24:07 PM ====== WebDriver manager ======
+2022-05-17 06:24:07 PM Current google-chrome version is 101.0.4951
+2022-05-17 06:24:07 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
+2022-05-17 06:24:07 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
+2022-05-17 06:24:10 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
+2022-05-17 06:24:12 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices, frequency: A, Time: 22s
 
-2022-05-17 05:24:02 PM Present File Exists. Reading Data From Default Path.
+2022-05-17 06:24:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-17 05:24:02 PM Present File Exists. Reading Data From Default Path.
+2022-05-17 06:24:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-17 05:24:02 PM Total New Items Found: 13 Time: 24 s
+2022-05-17 06:24:13 PM Total New Items Found: 13 Time: 23 s
 
-2022-05-17 05:24:05 PM Reading file: INTLINE_database?, Time: 26 s
+2022-05-17 06:24:13 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#2, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices, frequency: A, Time: 23s
 
-2022-05-17 05:24:05 PM Concating file: INTLINE_key?, Time: 26 s
+2022-05-17 06:24:13 PM Downloading file: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices
 
-2022-05-17 05:24:05 PM Concating file: INTLINE_database?, Time: 26 s
+2022-05-17 06:24:18 PM Getting Data From Website
 
-2022-05-17 05:24:05 PM Time: 26 s
+2022-05-17 06:24:33 PM Total New Items Found: 24 Time: 43 s
 
-2022-05-17 05:24:05 PM Setting new files, Time: 26 s
+2022-05-17 06:24:35 PM Reading file: INTLINE_database?, Time: 45 s
 
-2022-05-17 05:24:05 PM Concating new files: INTLINE_database, Time: 26 s
+2022-05-17 06:24:35 PM Concating file: INTLINE_key?, Time: 45 s
 
-2022-05-17 05:24:05 PM    databank            name   db_table  db_code                                             desc_e  ...                                              type snl                           source             form_e                   form_c
+2022-05-17 06:24:35 PM Concating file: INTLINE_database?, Time: 45 s
+
+2022-05-17 06:24:35 PM Time: 45 s
+
+2022-05-17 06:24:35 PM Setting new files, Time: 45 s
+
+2022-05-17 06:24:35 PM Concating new files: INTLINE_database, Time: 45 s
+
+2022-05-17 06:24:35 PM    databank            name   db_table  db_code                                             desc_e  ...                                              type snl                           source             form_e                   form_c
 0   INTLINE   A566PHSNIA1.A  DB_A_0001  data001  Philippines National Statistics, National Acco...  ...                                        Households   1  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
 1   INTLINE  A566PHSNIA11.A  DB_A_0001  data002  Philippines National Statistics, National Acco...  ...                           Statistical Discrepancy   2  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
 2   INTLINE  A566PHSNIA12.A  DB_A_0001  data003  Philippines National Statistics, National Acco...  ...                            Gross Domestic Product   3  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
 3   INTLINE  A566PHSNIA13.A  DB_A_0001  data004  Philippines National Statistics, National Acco...  ...     Net Primary Income with the Rest of the World   4  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
 4   INTLINE  A566PHSNIA14.A  DB_A_0001  data005  Philippines National Statistics, National Acco...  ...                             Gross National Income   5  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-5   INTLINE  A566PHSNIA1a.A  DB_A_0001  data006  Philippines National Statistics, National Acco...  ...                     Imports of Goods and Services   6  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-6   INTLINE   A566PHSNIA2.A  DB_A_0001  data007  Philippines National Statistics, National Acco...  ...                            Government Consumption   7  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-7   INTLINE   A566PHSNIA4.A  DB_A_0001  data008  Philippines National Statistics, National Acco...  ...  Gross Fixed Capital Formation (Fixed Investment)   8  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-8   INTLINE   A566PHSNIA5.A  DB_A_0001  data009  Philippines National Statistics, National Acco...  ...                                      Construction   9  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-9   INTLINE   A566PHSNIA6.A  DB_A_0001  data010  Philippines National Statistics, National Acco...  ...                           Machinery and Equipment  10  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-10  INTLINE   A566PHSNIA7.A  DB_A_0001  data011  Philippines National Statistics, National Acco...  ...                   Cultivated Biological Resources  11  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-11  INTLINE   A566PHSNIA8.A  DB_A_0001  data012  Philippines National Statistics, National Acco...  ...                            Changes in Inventories  12  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
-12  INTLINE   A566PHSNIA9.A  DB_A_0001  data013  Philippines National Statistics, National Acco...  ...                     Exports of Goods and Services  13  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+5   INTLINE  A566PHSNIA15.A  DB_A_0001  data006  Philippines National Statistics, National Acco...  ...                                        Households   6  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+6   INTLINE  A566PHSNIA16.A  DB_A_0001  data007  Philippines National Statistics, National Acco...  ...                            Government Consumption   7  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+7   INTLINE  A566PHSNIA18.A  DB_A_0001  data008  Philippines National Statistics, National Acco...  ...  Gross Fixed Capital Formation (Fixed Investment)   8  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+8   INTLINE  A566PHSNIA19.A  DB_A_0001  data009  Philippines National Statistics, National Acco...  ...                                      Construction   9  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+9   INTLINE  A566PHSNIA1a.A  DB_A_0001  data010  Philippines National Statistics, National Acco...  ...                     Imports of Goods and Services  10  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+10  INTLINE   A566PHSNIA2.A  DB_A_0001  data011  Philippines National Statistics, National Acco...  ...                            Government Consumption  11  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+11  INTLINE  A566PHSNIA21.A  DB_A_0001  data012  Philippines National Statistics, National Acco...  ...                   Cultivated Biological Resources  12  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+12  INTLINE  A566PHSNIA22.A  DB_A_0001  data013  Philippines National Statistics, National Acco...  ...                            Changes in Inventories  13  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+13  INTLINE  A566PHSNIA23.A  DB_A_0001  data014  Philippines National Statistics, National Acco...  ...                     Exports of Goods and Services  14  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+14  INTLINE  A566PHSNIA25.A  DB_A_0001  data015  Philippines National Statistics, National Acco...  ...                           Statistical Discrepancy  15  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+15  INTLINE  A566PHSNIA26.A  DB_A_0001  data016  Philippines National Statistics, National Acco...  ...                            Gross Domestic Product  16  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+16  INTLINE  A566PHSNIA27.A  DB_A_0001  data017  Philippines National Statistics, National Acco...  ...     Net Primary Income with the Rest of the World  17  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+17  INTLINE  A566PHSNIA2a.A  DB_A_0001  data018  Philippines National Statistics, National Acco...  ...                           Machinery and Equipment  18  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+18  INTLINE   A566PHSNIA4.A  DB_A_0001  data019  Philippines National Statistics, National Acco...  ...  Gross Fixed Capital Formation (Fixed Investment)  19  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+19  INTLINE   A566PHSNIA5.A  DB_A_0001  data020  Philippines National Statistics, National Acco...  ...                                      Construction  20  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+20  INTLINE   A566PHSNIA6.A  DB_A_0001  data021  Philippines National Statistics, National Acco...  ...                           Machinery and Equipment  21  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+21  INTLINE   A566PHSNIA7.A  DB_A_0001  data022  Philippines National Statistics, National Acco...  ...                   Cultivated Biological Resources  22  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+22  INTLINE   A566PHSNIA8.A  DB_A_0001  data023  Philippines National Statistics, National Acco...  ...                            Changes in Inventories  23  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
+23  INTLINE   A566PHSNIA9.A  DB_A_0001  data024  Philippines National Statistics, National Acco...  ...                     Exports of Goods and Services  24  Philippine Statistics Authority  National Accounts  Not Seasonally Adjusted
 
-[13 rows x 15 columns]
-2022-05-17 05:24:05 PM Total Items: 13
-2022-05-17 05:24:05 PM New items were found
-2022-05-17 05:24:05 PM                                                                                                        Country Address                           Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
+[24 rows x 15 columns]
+2022-05-17 06:24:36 PM Total Items: 24
+2022-05-17 06:24:36 PM New items were found
+2022-05-17 06:24:36 PM                                                                                                        Country Address                           Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
 Sheet                                              File                                                                                                                                                                           
-Gross National Income and Gross Domestic Produc... https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/D...      566   PHSA/  Philippine Statistics Authority         A  web crawler/manually     NaN         NaN        NaN          13
+Gross National Income and Gross Domestic Produc... https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/D...      566   PHSA/  Philippine Statistics Authority         A  web crawler/manually     NaN         NaN        NaN          11
