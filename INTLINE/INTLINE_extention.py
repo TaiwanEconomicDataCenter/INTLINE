@@ -3972,6 +3972,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     except:
                         WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Select all"]'))).click()
                     else:
+                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Deselect all"]'))).click()
                         WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/option[contains(., "'+str(file_name)+'")]'))).click()
                 WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
                 Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_function_dropdownlist"]')))).select_by_value("changeDecimal")
