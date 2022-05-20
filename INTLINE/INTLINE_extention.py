@@ -5935,7 +5935,18 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         if freq == 'A':
             INTLINE_his.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else col for col in INTLINE_his.columns]
             INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
-        INTLINE_temp.index = [re.sub(r'\.+', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        elif freq == 'Q':
+            INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
+            yr = ''
+            for col in INTLINE_temp.columns:
+                if str(col[0]).strip().isnumeric():
+                    yr = str(col[0]).strip()
+                if bool(re.match(r'Q[1-4]', str(col[1]).strip())):
+                    new_columns.append(yr+'-'+str(col[1]).strip())
+                else:
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+        INTLINE_temp.index = [re.sub(r'(at\s+constant)\s+[0-9]+?\s+(prices)', r"\1 \2", re.sub(r'\.+', "", str(dex))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
