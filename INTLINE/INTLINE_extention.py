@@ -3969,6 +3969,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('PHSA') >= 0:
                 if address.find('MISSI') >= 0:
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
+                elif address.find('FOREIGN') >= 0:
+                    target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/div[contains(@class, "views-row")][contains(., "'+str(sname)+'")]')))
+                    link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='Statistical Tables', text_match=True)
                 else:
                     if str(sname).find('Price Index') >= 0:
                         if str(sname).find('Consumer Price Index') >= 0:
@@ -4001,6 +4004,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
+            elif address.find('BSP') >= 0:
+                target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(file_name)+'")]')))
+                link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='.xls')
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5951,8 +5957,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
     elif address.find('PHSA') >= 0:
         if address.find('MISSI') >= 0:
-            print(INTLINE_temp)
-            ERROR('')
+            INTLINE_temp = INTLINE_MISSI(INTLINE_temp)
         file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
         INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
         KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
@@ -5972,15 +5977,29 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp.columns = new_columns
         elif freq == 'M':
             INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
-            yr = ''
-            for col in INTLINE_temp.columns:
-                if str(col[0]).strip().isnumeric():
-                    yr = str(col[0]).strip()
-                try:
-                    new_columns.append(yr+'-'+datetime.strptime(str(col[1]).strip(), '%b').strftime('%m'))
-                except:
-                    new_columns.append(None)
-            INTLINE_temp.columns = new_columns
+            if isinstance(INTLINE_temp.columns, pd.MultiIndex):
+                yr = ''
+                for col in INTLINE_temp.columns:
+                    if str(col[0]).strip().isnumeric():
+                        yr = str(col[0]).strip()
+                    try:
+                        new_columns.append(yr+'-'+datetime.strptime(str(col[1]).strip(), '%b').strftime('%m'))
+                    except:
+                        new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+            elif str(fname).find('Highlights of the Philippine Export and Import Statistics') >= 0:
+                mth = ''
+                for col in INTLINE_temp.columns:
+                    try:
+                        mth = datetime.strptime(str(col).strip(), '%B').strftime('%m')
+                    except:
+                        time.sleep(0)
+                    if re.sub(r'[^0-9]', "", str(col)).strip().isnumeric():
+                        new_columns.append(re.sub(r'[^0-9]', "", str(col)).strip()+'-'+mth)
+                    else:
+                        new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+                INTLINE_temp = INTLINE_temp.applymap(lambda x: float(x)/1000000 if str(x)[-1].isnumeric() else None)
             if str(fname).find('Index') >= 0:
                 base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
                 base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
@@ -6018,6 +6037,20 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
         if freq == 'A':
             INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
+    elif address.find('BSP') >= 0:
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        if freq == 'Q':
+            INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
+            INTLINE_temp.columns = [str(col[1]).strip()+'-Q'+pd.Period(str(col[0]).strip(), freq='Q').strftime('%q') for col in INTLINE_temp.columns]
+        INTLINE_temp.index = [re.sub(r'\.+', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
     # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
     print(INTLINE_temp)
@@ -8105,6 +8138,34 @@ def INTLINE_DEUSTATIS(INTLINE_tem, data_path, country, address, fname, sname, Se
     INTLINE_tem = INTLINE_tem.loc[~INTLINE_tem.index.duplicated()]
 
     return INTLINE_tem
+
+def INTLINE_MISSI(INTLINE_temp):
+    INTLINE_t = pd.DataFrame()
+    for i in range(INTLINE_temp.shape[0]):
+        if str(INTLINE_temp.index[i]).find('Year/Month') >= 0:
+            table_head = i
+            for j in range(i+1, INTLINE_temp.shape[0]):
+                if str(INTLINE_temp.index[j]).find('Year/Month') >= 0:
+                    table_tail = j
+                    break
+            IN_t = INTLINE_temp.iloc[i:j]
+            IN_t.columns = pd.MultiIndex.from_frame(IN_t.iloc[:2].T)
+            IN_t.columns = [str(col[0]).strip() if str(col[1]).find('INDEX') >= 0 else None for col in IN_t.columns]
+            new_index = []
+            yr = ''
+            for dex in IN_t.index:
+                if str(dex).strip().isnumeric():
+                    yr = str(dex).strip()
+                try:
+                    new_index.append(yr+'-'+datetime.strptime(str(dex).strip(), '%b').strftime('%m'))
+                except:
+                    new_index.append(None)
+            IN_t.index = new_index
+            IN_t = IN_t.loc[IN_t.index.dropna(), IN_t.columns.dropna()]
+            INTLINE_t = pd.concat([INTLINE_t, IN_t.T])
+    
+    return INTLINE_t
+
 #INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='Index of Export Price', data_year=2015, multiplier=1, check_long_label=False)
 def INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key, data_year, multiplier=1, check_long_label=False, allow_duplicates=True, multiple=True):
     FREQ = {'A':'Annual','Q':'Quarterly','M':'Monthly'}
