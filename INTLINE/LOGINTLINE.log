@@ -1,172 +1,32 @@
-﻿2022-05-20 04:39:43 PM excel_suffix: test
+﻿2022-05-24 12:27:16 PM excel_suffix: test
 
-2022-05-20 04:39:43 PM data_processing: True
+2022-05-24 12:27:16 PM data_processing: True
 
-2022-05-20 04:39:43 PM find_unknown: False
+2022-05-24 12:27:16 PM find_unknown: False
 
-2022-05-20 04:39:43 PM dealing_start_year: 1901
+2022-05-24 12:27:16 PM dealing_start_year: 1901
 
-2022-05-20 04:39:46 PM Data Processing
+2022-05-24 12:27:19 PM Data Processing
 
-2022-05-20 04:39:46 PM Reading table: Country, Time: 2s
+2022-05-24 12:27:19 PM Reading table: Country, Time: 2s
 
-2022-05-20 04:39:46 PM Reading table: TABLES, Time: 3 s
+2022-05-24 12:27:19 PM Reading table: TABLES, Time: 2 s
 
-2022-05-20 04:39:59 PM Reading file: country_series, Time: 16 s
+2022-05-24 12:27:32 PM Reading file: country_series, Time: 15 s
 
-2022-05-20 04:39:59 PM Reading file: 566datasets, Time: 16 s
+2022-05-24 12:27:32 PM Reading file: 566datasets, Time: 15 s
 
-2022-05-20 04:39:59 PM Reading file: Datasets, Time: 16 s
+2022-05-24 12:27:32 PM 
 
-2022-05-20 04:39:59 PM 
+2022-05-24 12:27:32 PM ====== WebDriver manager ======
+2022-05-24 12:27:33 PM Current google-chrome version is 101.0.4951
+2022-05-24 12:27:33 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
+2022-05-24 12:27:33 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
+2022-05-24 12:27:35 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
+2022-05-24 12:27:38 PM Country: Philippines, Reading file or url: https://psa.gov.ph/manufacturing/missi-table#1, sheet: Value of Production Index, frequency: M, Time: 21s
 
-2022-05-20 04:39:59 PM ====== WebDriver manager ======
-2022-05-20 04:40:00 PM Current google-chrome version is 101.0.4951
-2022-05-20 04:40:00 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
-2022-05-20 04:40:00 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
-2022-05-20 04:40:03 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
-2022-05-20 04:40:05 PM Country: Philippines, Reading file or url: https://www.investing.com/indices/psei-composite-historical-data, sheet: Philippine Composite Index, frequency: M, Time: 22s
+2022-05-24 12:27:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-20 04:40:05 PM Present File Exists. Reading Data From Default Path.
+2022-05-24 12:27:38 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-20 04:40:05 PM Total New Items Found: 1 Time: 22 s
-
-2022-05-20 04:40:05 PM Country: Philippines, Reading file or url: https://www.investing.com/indices/psei-composite-historical-data, sheet: Philippine Composite Index, frequency: Q, Time: 22s
-
-2022-05-20 04:40:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:05 PM Total New Items Found: 2 Time: 22 s
-
-2022-05-20 04:40:05 PM Country: Philippines, Reading file or url: https://www.investing.com/indices/psei-composite-historical-data, sheet: Philippine Composite Index, frequency: A, Time: 22s
-
-2022-05-20 04:40:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:05 PM Total New Items Found: 3 Time: 22 s
-
-2022-05-20 04:40:05 PM Country: Philippines, Reading file or url: https://www.investing.com/indices/psei-composite-historical-data, sheet: Philippine Composite Index, frequency: W, Time: 22s
-
-2022-05-20 04:40:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:05 PM Total New Items Found: 4 Time: 22 s
-
-2022-05-20 04:40:05 PM Country: Philippines, Reading file or url: https://www.investing.com/indices/psei-composite-historical-data, sheet: Philippine Composite Index, frequency: D, Time: 22s
-
-2022-05-20 04:40:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:07 PM Total New Items Found: 5 Time: 23 s
-
-2022-05-20 04:40:07 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices, frequency: A, Time: 24s
-
-2022-05-20 04:40:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:08 PM Total New Items Found: 18 Time: 24 s
-
-2022-05-20 04:40:08 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#2, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices, frequency: A, Time: 24s
-
-2022-05-20 04:40:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:08 PM Total New Items Found: 29 Time: 25 s
-
-2022-05-20 04:40:09 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0052B5CPRA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Industry At Current Prices, frequency: A, Time: 25s
-
-2022-05-20 04:40:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:09 PM Total New Items Found: 36 Time: 26 s
-
-2022-05-20 04:40:09 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0052B5CPRA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#2, sheet: Gross National Income and Gross Domestic Product by Industry At Constant Prices, frequency: A, Time: 26s
-
-2022-05-20 04:40:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:10 PM Total New Items Found: 43 Time: 26 s
-
-2022-05-20 04:40:10 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0012B5CEXQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices Q, frequency: Q, Time: 26s
-
-2022-05-20 04:40:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:11 PM Total New Items Found: 57 Time: 27 s
-
-2022-05-20 04:40:11 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0012B5CEXQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#2, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices Q, frequency: Q, Time: 28s
-
-2022-05-20 04:40:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:12 PM Total New Items Found: 71 Time: 29 s
-
-2022-05-20 04:40:12 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0052B5CPRQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#1, sheet: Gross National Income and Gross Domestic Product by Industry At Current Prices Q, frequency: Q, Time: 29s
-
-2022-05-20 04:40:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:12 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:13 PM Total New Items Found: 81 Time: 30 s
-
-2022-05-20 04:40:13 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0052B5CPRQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#2, sheet: Gross National Income and Gross Domestic Product by Industry At Constant Prices Q, frequency: Q, Time: 30s
-
-2022-05-20 04:40:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:13 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:14 PM Total New Items Found: 91 Time: 31 s
-
-2022-05-20 04:40:14 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__8AFF/0382B5CAFQ1.px/?rxid=b2e970b5-cada-4d67-8389-8c2a95317626#1, sheet: Gross Value Added in Agriculture Forestry and Fishing At Current Prices Q, frequency: Q, Time: 31s
-
-2022-05-20 04:40:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:14 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:15 PM Total New Items Found: 102 Time: 32 s
-
-2022-05-20 04:40:15 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__8AFF/0382B5CAFQ1.px/?rxid=b2e970b5-cada-4d67-8389-8c2a95317626#2, sheet: Gross Value Added in Agriculture Forestry and Fishing At Constant Prices Q, frequency: Q, Time: 32s
-
-2022-05-20 04:40:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:15 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:16 PM Total New Items Found: 113 Time: 33 s
-
-2022-05-20 04:40:16 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0122B5CPCQ1.px/?rxid=961639f9-ee6c-4124-9328-53b146464ef0, sheet: Per Capita Gross Domestic Product Gross National Income and Household Final Consumption Expenditure Q, frequency: Q, Time: 33s
-
-2022-05-20 04:40:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:16 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-20 04:40:17 PM Total New Items Found: 119 Time: 34 s
-
-2022-05-20 04:40:19 PM Reading file: INTLINE_database?, Time: 36 s
-
-2022-05-20 04:40:19 PM Concating file: INTLINE_key?, Time: 36 s
-
-2022-05-20 04:40:19 PM Concating file: INTLINE_database?, Time: 36 s
-
-2022-05-20 04:40:19 PM Time: 36 s
-
-2022-05-20 04:40:19 PM Setting new files, Time: 36 s
-
-2022-05-20 04:40:19 PM Concating new files: INTLINE_database, Time: 36 s
-
-2022-05-20 04:40:20 PM     databank            name   db_table  db_code                                             desc_e  ...                                           type  snl                           source                     form_e                   form_c
-0    INTLINE   A566PHSNIA1.A  DB_A_0001  data001  Philippines National Statistics, National Acco...  ...                                     Households    1  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-1    INTLINE  A566PHSNIA11.A  DB_A_0001  data002  Philippines National Statistics, National Acco...  ...                        Statistical Discrepancy    2  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-2    INTLINE  A566PHSNIA12.A  DB_A_0001  data003  Philippines National Statistics, National Acco...  ...                         Gross Domestic Product    3  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-3    INTLINE  A566PHSNIA13.A  DB_A_0001  data004  Philippines National Statistics, National Acco...  ...  Net Primary Income with the Rest of the World    4  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-4    INTLINE  A566PHSNIA14.A  DB_A_0001  data005  Philippines National Statistics, National Acco...  ...                          Gross National Income    5  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-..       ...             ...        ...      ...                                                ...  ...                                            ...  ...                              ...                        ...                      ...
-114  INTLINE  Q566PHSNIA82.Q  DB_Q_0001  data074  Philippines National Statistics, National Acco...  ...                         Changes in Inventories  115  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-115  INTLINE  Q566PHSNIA8a.Q  DB_Q_0001  data075  Philippines National Statistics, National Acco...  ...                        Machinery and Equipment  116  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-116  INTLINE   Q566PHSNIA9.Q  DB_Q_0001  data076  Philippines National Statistics, National Acco...  ...                                       Services  117  Philippine Statistics Authority          National Accounts  Not Seasonally Adjusted
-117  INTLINE       Q566PSI.Q  DB_Q_0001  data077  Philippines Share Prices and Stock Indexes, Co...  ...                   Composite Index, Close Price  118        Philippine Stock Exchange  Philippine Stock Exchange  Not Seasonally Adjusted
-118  INTLINE       W566PSI.W  DB_W_0001  data001  Philippines Share Prices and Stock Indexes, Co...  ...                   Composite Index, Close Price  119        Philippine Stock Exchange  Philippine Stock Exchange  Not Seasonally Adjusted
-
-[119 rows x 15 columns]
-2022-05-20 04:40:20 PM Total Items: 119
+2022-05-24 12:27:38 PM = ! = 

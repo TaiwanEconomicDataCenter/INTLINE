@@ -930,6 +930,8 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, skiprows_=skiprows, acceptNoFile=False).iloc[:5]).replace('\n',''))
         else:
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[1].iloc[0])
+    elif address.find('PHSA') >= 0 and str(file_name).find('Index') >= 0:
+        base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0]).replace('\n',''))
     if (str(base_year).isnumeric() == False and is_period == False) or (str(base_year)[:4].isnumeric() == False and is_period == True):
         ERROR('Base Year Not Found in source: '+src)
     if base_year_list.empty == False:
@@ -3965,21 +3967,40 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
             elif address.find('PHSA') >= 0:
-                variable_list = WebDriverWait(chrome, 5).until(EC.presence_of_all_elements_located((By.XPATH, './/div[@class="variableselector_valuesselect_box ui-resizable"]')))
-                for variable in variable_list:
-                    try:
-                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Type of Valuation")]')))
-                    except:
-                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Select all"]'))).click()
-                    else:
-                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Deselect all"]'))).click()
-                        WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/option[contains(., "'+str(file_name)+'")]'))).click()
-                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
-                Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_function_dropdownlist"]')))).select_by_value("changeDecimal")
-                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@class="commandbar_changedecimal_selectvalue_textbox"]'))).send_keys('6')
-                WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
-                WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
+                if address.find('MISSI') >= 0:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
+                else:
+                    if str(sname).find('Price Index') >= 0:
+                        if str(sname).find('Consumer Price Index') >= 0:
+                            link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='PI__CPI')
+                        link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
+                    variable_list = WebDriverWait(chrome, 5).until(EC.presence_of_all_elements_located((By.XPATH, './/div[@class="variableselector_valuesselect_box ui-resizable"]')))
+                    for variable in variable_list:
+                        select_all = True
+                        try:
+                            WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "Type of Valuation")]')))
+                        except:
+                            time.sleep(0)
+                        else:
+                            select_all = False
+                        try:
+                            WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(., "location")]')))
+                        except:
+                            time.sleep(0)
+                        else:
+                            select_all = False
+                        if select_all:
+                            WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Select all"]'))).click()
+                        else:
+                            WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Deselect all"]'))).click()
+                            for item in re.split(r', ', str(file_name)):
+                                WebDriverWait(variable, 2).until(EC.element_to_be_clickable((By.XPATH, './/option[contains(., "'+str(item)+'")]'))).click()
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
+                    Select(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/select[@class="commandbar_function_dropdownlist"]')))).select_by_value("changeDecimal")
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@class="commandbar_changedecimal_selectvalue_textbox"]'))).send_keys('6')
+                    WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Continue"]'))).click()
+                    WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -5929,6 +5950,9 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp = INTLINE_temp.sort_index(axis=1)
             INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
     elif address.find('PHSA') >= 0:
+        if address.find('MISSI') >= 0:
+            print(INTLINE_temp)
+            ERROR('')
         file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
         INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
         KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
@@ -5946,7 +5970,46 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                 else:
                     new_columns.append(None)
             INTLINE_temp.columns = new_columns
-        INTLINE_temp.index = [re.sub(r'(at\s+constant)\s+[0-9]+?\s+(prices)', r"\1 \2", re.sub(r'\.+', "", str(dex))).strip() for dex in INTLINE_temp.index]
+        elif freq == 'M':
+            INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+            yr = ''
+            for col in INTLINE_temp.columns:
+                if str(col[0]).strip().isnumeric():
+                    yr = str(col[0]).strip()
+                try:
+                    new_columns.append(yr+'-'+datetime.strptime(str(col[1]).strip(), '%b').strftime('%m'))
+                except:
+                    new_columns.append(None)
+            INTLINE_temp.columns = new_columns
+            if str(fname).find('Index') >= 0:
+                base_path = data_path+str(country)+'/'+address+'base_year_archive.csv'
+                base_year_list = readFile(base_path, header_=[0], index_col_=0, acceptNoFile=False)
+                if re.sub(r'\.0$', "", str(base_year_list.loc[fname, 'base year'])) != str(base_year):
+                    print('Modifying Data with new base year')
+                    for ind in INTLINE_his.index:
+                        new_base = sum([INTLINE_his.loc[ind, str(base_year)+'-'+str(num).rjust(2,'0')] for num in range(1,13)])/12
+                        multiplier = 100/new_base
+                        for col in INTLINE_his.columns:
+                            INTLINE_his.loc[ind, col] = float(INTLINE_his.loc[ind, col])*multiplier
+                    base_year_list.loc[fname, 'base year'] = base_year
+                    base_year_list.to_csv(base_path)
+        if str(fname).find('Consumer Price Index') >= 0:
+            new_index = []
+            location = ''
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('PHILIPPINES') >= 0:
+                    location = 'PHILIPPINES'
+                elif str(dex[0]).find('National Capital Region') >= 0:
+                    location = 'NCR'
+                if str(dex[1]).find('ALL ITEMS') >= 0:
+                    new_index.append(location+'ALL ITEMS')
+                elif str(dex[1]).find('NON-FOOD') >= 0:
+                    new_index.append(location+'NON-FOOD')
+                else:
+                    new_index.append(None)
+            INTLINE_temp.index = new_index
+        else:
+            INTLINE_temp.index = [re.sub(r'(at\s+constant)\s+[0-9]+?\s+(prices)', r"\1 \2", re.sub(r'\.+', "", str(dex))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
