@@ -1025,6 +1025,15 @@ for country in COUNTRY(TABLES):
                                     if csv == False and tables[0] != 0 and tables[0] != 'None':
                                         if tables[0] == '-1':
                                             INTLINE_temp2 = INTLINE_temp[list(INTLINE_temp.keys())[-1]].copy()
+                                        elif tables[0] == 'present':
+                                            present_found = False
+                                            for key in INTLINE_temp.keys():
+                                                if key.find('present') >= 0:
+                                                    INTLINE_temp2 = INTLINE_temp[key].copy()
+                                                    present_found = True
+                                                    break
+                                            if present_found == False:
+                                                ERROR('present sheet not found in file: '+str(file_name))
                                         elif address.find('ANFIA') >= 0:
                                             yr_change = False
                                             try:

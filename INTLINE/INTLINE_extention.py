@@ -4005,7 +4005,13 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             elif address.find('BSP') >= 0:
-                target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(file_name)+'")]')))
+                # if str(sname).find('INTERNATIONAL RESERVES') >= 0:
+                #     ActionChains(chrome).move_to_element(WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(., "International Investment Position")]')))).perform()
+                #     time.sleep(2)
+                #     ActionChains(chrome).move_to_element(WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(., "International Reserves")]')))).perform()
+                #     time.sleep(2)
+                #     ActionChains(chrome).click().perform()
+                target = WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr[contains(., "'+str(file_name)+'")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='.xls')
             if link_found == False:
                 print(link_message)
@@ -6044,7 +6050,35 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         if freq == 'Q':
             INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
             INTLINE_temp.columns = [str(col[1]).strip()+'-Q'+pd.Period(str(col[0]).strip(), freq='Q').strftime('%q') for col in INTLINE_temp.columns]
-        INTLINE_temp.index = [re.sub(r'\.+', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        elif freq == 'M':
+            INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+            if isinstance(INTLINE_temp.columns, pd.MultiIndex):
+                yr = ''
+                for col in INTLINE_temp.columns:
+                    if str(col[0]).replace(' ','').strip().isnumeric():
+                        yr = str(col[0]).replace(' ','').strip()
+                    elif str(col[1]).replace(' ','').strip().isnumeric():
+                        yr = str(col[1]).replace(' ','').strip()
+                    try:
+                        new_columns.append(yr+'-'+datetime.strptime(str(col[2]).strip()[:3], '%b').strftime('%m'))
+                    except:
+                        new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+            else:
+                INTLINE_temp.columns = [datetime.strptime(str(col).strip(), '%Y%b').strftime('%Y-%m') if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+            if str(fname).find('A.1.bop6 PHILIPPINES BALANCE OF PAYMENTS') >= 0:
+                INTLINE_temp.index = [dex[1] for dex in INTLINE_temp.index]
+        if str(fname).find('INTERNATIONAL RESERVES') >= 0:
+            INTLINE_temp.index = [str(dex[1]).strip() if str(dex[1]) != 'nan' else str(dex[0]).strip() for dex in INTLINE_temp.index]
+            INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated(), INTLINE_temp.columns.dropna()]
+            for key in KEYS:
+                if key != 'GIR':
+                    IN_t = INTLINE_temp.loc['GIR'].mul(INTLINE_temp.loc[key]).mul(0.01)
+                    IN_t.name = key
+                    INTLINE_temp = pd.concat([pd.DataFrame(IN_t).T, INTLINE_temp])
+                    INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
+        else:
+            INTLINE_temp.index = [re.sub(r'\*', "", str(dex)).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)

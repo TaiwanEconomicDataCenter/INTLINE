@@ -1,53 +1,99 @@
-﻿2022-05-24 06:12:22 PM excel_suffix: test
+﻿2022-05-27 05:33:38 PM excel_suffix: test
 
-2022-05-24 06:12:22 PM data_processing: True
+2022-05-27 05:33:38 PM data_processing: True
 
-2022-05-24 06:12:22 PM find_unknown: False
+2022-05-27 05:33:38 PM find_unknown: False
 
-2022-05-24 06:12:22 PM dealing_start_year: 1901
+2022-05-27 05:33:38 PM dealing_start_year: 1901
 
-2022-05-24 06:12:28 PM Data Processing
+2022-05-27 05:33:40 PM Data Processing
 
-2022-05-24 06:12:28 PM Reading table: Country, Time: 5s
+2022-05-27 05:33:40 PM Reading table: Country, Time: 2s
 
-2022-05-24 06:12:28 PM Reading table: TABLES, Time: 6 s
+2022-05-27 05:33:41 PM Reading table: TABLES, Time: 2 s
 
-2022-05-24 06:12:41 PM Reading file: country_series, Time: 19 s
+2022-05-27 05:33:53 PM Reading file: country_series, Time: 15 s
 
-2022-05-24 06:12:41 PM Reading file: 566datasets, Time: 19 s
+2022-05-27 05:33:53 PM Reading file: 566datasets, Time: 15 s
 
-2022-05-24 06:12:41 PM 
+2022-05-27 05:33:54 PM 
 
-2022-05-24 06:12:41 PM ====== WebDriver manager ======
-2022-05-24 06:12:42 PM Current google-chrome version is 101.0.4951
-2022-05-24 06:12:42 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
-2022-05-24 06:12:42 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
-2022-05-24 06:12:44 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
-2022-05-24 06:12:46 PM Country: Philippines, Reading file or url: https://www.bsp.gov.ph/SitePages/Statistics/External.aspx?TabId=5, sheet: extdebt, frequency: Q, Time: 24s
+2022-05-27 05:33:54 PM ====== WebDriver manager ======
+2022-05-27 05:33:54 PM Current google-chrome version is 101.0.4951
+2022-05-27 05:33:54 PM Get LATEST chromedriver version for 101.0.4951 google-chrome
+2022-05-27 05:33:54 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/101.0.4951.41/chromedriver_win32.zip
+2022-05-27 05:33:57 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\101.0.4951.41]
+2022-05-27 05:33:59 PM Country: Philippines, Reading file or url: https://www.bsp.gov.ph/SitePages/Statistics/External.aspx?TabId=5, sheet: extdebt, frequency: Q, Time: 20s
 
-2022-05-24 06:12:46 PM Present File Exists. Reading Data From Default Path.
+2022-05-27 05:33:59 PM Downloading file: extdebt
 
-2022-05-24 06:12:46 PM Present File Exists. Reading Data From Default Path.
+2022-05-27 05:34:07 PM Getting Data From Website
 
-2022-05-24 06:12:47 PM Total New Items Found: 4 Time: 24 s
+2022-05-27 05:34:15 PM Total New Items Found: 4 Time: 36 s
 
-2022-05-24 06:12:49 PM Reading file: INTLINE_database?, Time: 27 s
+2022-05-27 05:34:15 PM Country: Philippines, Reading file or url: https://www.bsp.gov.ph/SitePages/Statistics/External.aspx?TabId=1, sheet: A.1.bop6 PHILIPPINES BALANCE OF PAYMENTS, frequency: M, Time: 36s
 
-2022-05-24 06:12:49 PM Concating file: INTLINE_key?, Time: 27 s
+2022-05-27 05:34:15 PM Downloading file: A.1.bop6 PHILIPPINES BALANCE OF PAYMENTS
 
-2022-05-24 06:12:49 PM Concating file: INTLINE_database?, Time: 27 s
+2022-05-27 05:34:16 PM Getting Data From Website
 
-2022-05-24 06:12:49 PM Time: 27 s
+2022-05-27 05:34:26 PM Total New Items Found: 29 Time: 48 s
 
-2022-05-24 06:12:49 PM Setting new files, Time: 27 s
+2022-05-27 05:34:26 PM Country: Philippines, Reading file or url: https://www.bsp.gov.ph/SitePages/Statistics/External.aspx?TabId=4, sheet: INTERNATIONAL RESERVES, frequency: M, Time: 48s
 
-2022-05-24 06:12:49 PM Concating new files: INTLINE_database, Time: 27 s
+2022-05-27 05:34:26 PM Downloading file: INTERNATIONAL RESERVES
 
-2022-05-24 06:12:49 PM   databank            name   db_table  db_code                                             desc_e      country freq  ...     last                     unit        type snl                           source           form_e                   form_c
-0  INTLINE  Q566BSPGVDX1.Q  DB_Q_0001  data001  Philippines Financial Statistics, External Sec...  Philippines    Q  ...  2021-Q4  Millions of U.S. Dollar       Total   1  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
-1  INTLINE  Q566BSPGVDX2.Q  DB_Q_0001  data002  Philippines Financial Statistics, External Sec...  Philippines    Q  ...  2021-Q4  Millions of U.S. Dollar   Long-Term   2  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
-2  INTLINE  Q566BSPGVDX3.Q  DB_Q_0001  data003  Philippines Financial Statistics, External Sec...  Philippines    Q  ...  2021-Q4  Millions of U.S. Dollar  Short-Term   3  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
-3  INTLINE  Q566BSPGVDX5.Q  DB_Q_0001  data004  Philippines Financial Statistics, External Sec...  Philippines    Q  ...  2021-Q4  Millions of U.S. Dollar  Short-Term   4  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+2022-05-27 05:34:33 PM Getting Data From Website
 
-[4 rows x 15 columns]
-2022-05-24 06:12:49 PM Total Items: 4
+2022-05-27 05:34:42 PM Total New Items Found: 34 Time: 63 s
+
+2022-05-27 05:34:44 PM Reading file: INTLINE_database?, Time: 65 s
+
+2022-05-27 05:34:44 PM Concating file: INTLINE_key?, Time: 65 s
+
+2022-05-27 05:34:44 PM Concating file: INTLINE_database?, Time: 65 s
+
+2022-05-27 05:34:44 PM Time: 65 s
+
+2022-05-27 05:34:44 PM Setting new files, Time: 65 s
+
+2022-05-27 05:34:44 PM Concating new files: INTLINE_database, Time: 65 s
+
+2022-05-27 05:34:44 PM    databank            name   db_table  db_code                                             desc_e  ...                                 type snl                           source           form_e                   form_c
+0   INTLINE   M566BSPBOP1.M  DB_M_0001  data001  Philippines Financial Statistics, External Sec...  ...                      Current Account   1  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+1   INTLINE  M566BSPBOP11.M  DB_M_0001  data002  Philippines Financial Statistics, External Sec...  ...                       Primary Income   2  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+2   INTLINE  M566BSPBOP12.M  DB_M_0001  data003  Philippines Financial Statistics, External Sec...  ...                               Credit   3  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+3   INTLINE  M566BSPBOP13.M  DB_M_0001  data004  Philippines Financial Statistics, External Sec...  ...                                Debit   4  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+4   INTLINE  M566BSPBOP14.M  DB_M_0001  data005  Philippines Financial Statistics, External Sec...  ...                     Secondary Income   5  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+5   INTLINE  M566BSPBOP15.M  DB_M_0001  data006  Philippines Financial Statistics, External Sec...  ...                               Credit   6  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+6   INTLINE  M566BSPBOP16.M  DB_M_0001  data007  Philippines Financial Statistics, External Sec...  ...                                Debit   7  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+7   INTLINE  M566BSPBOP18.M  DB_M_0001  data008  Philippines Financial Statistics, External Sec...  ...                      Capital Account   8  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+8   INTLINE  M566BSPBOP19.M  DB_M_0001  data009  Philippines Financial Statistics, External Sec...  ...                      Capital Account   9  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+9   INTLINE  M566BSPBOP1a.M  DB_M_0001  data010  Philippines Financial Statistics, External Sec...  ...                                Debit  10  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+10  INTLINE   M566BSPBOP2.M  DB_M_0001  data011  Philippines Financial Statistics, External Sec...  ...                   Goods and Services  11  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+11  INTLINE  M566BSPBOP21.M  DB_M_0001  data012  Philippines Financial Statistics, External Sec...  ...                    Financial Account  12  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+12  INTLINE  M566BSPBOP22.M  DB_M_0001  data013  Philippines Financial Statistics, External Sec...  ...                    Direct Investment  13  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+13  INTLINE  M566BSPBOP23.M  DB_M_0001  data014  Philippines Financial Statistics, External Sec...  ...  Net Acquisition of Financial Assets  14  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+14  INTLINE  M566BSPBOP24.M  DB_M_0001  data015  Philippines Financial Statistics, External Sec...  ...        Net Incurrence of Liabilities  15  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+15  INTLINE  M566BSPBOP2a.M  DB_M_0001  data016  Philippines Financial Statistics, External Sec...  ...                      Capital Account  16  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+16  INTLINE   M566BSPBOP3.M  DB_M_0001  data017  Philippines Financial Statistics, External Sec...  ...                               Credit  17  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+17  INTLINE  M566BSPBOP35.M  DB_M_0001  data018  Philippines Financial Statistics, External Sec...  ...                      Overall Balance  18  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+18  INTLINE   M566BSPBOP4.M  DB_M_0001  data019  Philippines Financial Statistics, External Sec...  ...                                Debit  19  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+19  INTLINE  M566BSPBOP42.M  DB_M_0001  data020  Philippines Financial Statistics, External Sec...  ...                   Personal Transfers  20  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+20  INTLINE   M566BSPBOP5.M  DB_M_0001  data021  Philippines Financial Statistics, External Sec...  ...                                Goods  21  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+21  INTLINE   M566BSPBOP6.M  DB_M_0001  data022  Philippines Financial Statistics, External Sec...  ...                               Credit  22  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+22  INTLINE   M566BSPBOP7.M  DB_M_0001  data023  Philippines Financial Statistics, External Sec...  ...                                Debit  23  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+23  INTLINE   M566BSPBOP8.M  DB_M_0001  data024  Philippines Financial Statistics, External Sec...  ...                             Services  24  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+24  INTLINE   M566BSPBOP9.M  DB_M_0001  data025  Philippines Financial Statistics, External Sec...  ...                               Credit  25  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+25  INTLINE   M566BSPRES1.M  DB_M_0001  data026  Philippines Financial Statistics, External Sec...  ...               Offical Reserve Assets  26  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+26  INTLINE   M566BSPRES3.M  DB_M_0001  data027  Philippines Financial Statistics, External Sec...  ...                                 Gold  27  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+27  INTLINE   M566BSPRES4.M  DB_M_0001  data028  Philippines Financial Statistics, External Sec...  ...               Special Drawing Rights  28  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+28  INTLINE   M566BSPRES5.M  DB_M_0001  data029  Philippines Financial Statistics, External Sec...  ...            Foreign Currency Reserves  29  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+29  INTLINE   M566BSPRES6.M  DB_M_0001  data030  Philippines Financial Statistics, External Sec...  ...            Foreign Currency Reserves  30  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+30  INTLINE  Q566BSPGVDX1.Q  DB_Q_0001  data001  Philippines Financial Statistics, External Sec...  ...                                Total  31  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+31  INTLINE  Q566BSPGVDX2.Q  DB_Q_0001  data002  Philippines Financial Statistics, External Sec...  ...                            Long-Term  32  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+32  INTLINE  Q566BSPGVDX3.Q  DB_Q_0001  data003  Philippines Financial Statistics, External Sec...  ...                           Short-Term  33  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+33  INTLINE  Q566BSPGVDX5.Q  DB_Q_0001  data004  Philippines Financial Statistics, External Sec...  ...                           Short-Term  34  Central Bank of the Philippines  External Sector  Not Seasonally Adjusted
+
+[34 rows x 15 columns]
+2022-05-27 05:34:44 PM Total Items: 34
