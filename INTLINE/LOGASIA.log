@@ -1,43 +1,43 @@
-﻿2022-05-16 06:12:07 PM excel_suffix: mysql
+﻿2022-05-31 02:38:53 PM excel_suffix: mysql
 
-2022-05-16 06:12:07 PM data_processing: False
+2022-05-31 02:38:53 PM data_processing: False
 
-2022-05-16 06:12:07 PM find_unknown: False
+2022-05-31 02:38:53 PM find_unknown: False
 
-2022-05-16 06:12:07 PM dealing_start_year: 1901
+2022-05-31 02:38:53 PM dealing_start_year: 1901
 
-2022-05-16 06:12:21 PM Process: File Merging
+2022-05-31 02:39:41 PM Process: File Merging
 
-2022-05-16 06:12:21 PM Reading main key: ASIA_keytest.xlsx, Time: 14 s
+2022-05-31 02:39:41 PM Reading main key: ASIA_key566.xlsx, Time: 47 s
 
-2022-05-16 06:12:21 PM Reading main database: ASIA_databasetest.xlsx, Time: 14 s
+2022-05-31 02:39:41 PM Reading main database: ASIA_database566.xlsx, Time: 48 s
 
-2022-05-16 06:12:22 PM Merging File, Time: 15 s
+2022-05-31 02:39:43 PM Merging File, Time: 49 s
 
-2022-05-16 06:12:22 PM Setting files, Time: 15 s
+2022-05-31 02:39:43 PM Setting files, Time: 50 s
 
-2022-05-16 06:12:22 PM Concating file: ASIA_key?, Time: 15 s
+2022-05-31 02:39:44 PM Concating file: ASIA_key?, Time: 50 s
 
-2022-05-16 06:12:22 PM Concating file: ASIA_database?, Time: 15 s
+2022-05-31 02:39:44 PM Concating file: ASIA_database?, Time: 50 s
 
-2022-05-16 06:12:23 PM Time: 15 s
+2022-05-31 02:39:44 PM Time: 50 s
 
-2022-05-16 06:12:24 PM Setting new files, Time: 17 s
+2022-05-31 02:39:46 PM Setting new files, Time: 52 s
 
-2022-05-16 06:12:31 PM Concating new files: ASIA_database, Time: 23 s
+2022-05-31 02:39:54 PM Concating new files: ASIA_database, Time: 60 s
 
-2022-05-16 06:12:44 PM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
+2022-05-31 02:40:00 PM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
 0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  Japan National Statistics, National Accounts, ...  ...                              Currency and Deposits     1            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  Japan National Statistics, National Accounts, ...  ...         Equity and Investment Fund Shares or Units     2            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  Japan National Statistics, National Accounts, ...  ...  Insurance, Pension and Standardised Guarantee ...     3            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 3        ASIA  A158BOJFOF29.A  DB_A_0001  data004  Japan National Statistics, National Accounts, ...  ...                  Other Accounts Receivable/Payable     4            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 4        ASIA   A158BOJFOF9.A  DB_A_0001  data005  Japan National Statistics, National Accounts, ...  ...                                    Debt Securities     5            Bank of Japan                   National Accounts  Not Seasonally Adjusted
 ...       ...             ...        ...      ...                                                ...  ...                                                ...   ...                      ...                                 ...                      ...
-3429     ASIA       W576STI.W  DB_W_0001  data010  Singapore Share Prices and Stock Indexes, Stra...  ...                   Straits Times Index, Close Price  3430       Singapore Exchange            Singapore Stock Exchange  Not Seasonally Adjusted
-3430     ASIA      W924SSEA.W  DB_W_0001  data011  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, A Share In...  3431  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-3431     ASIA      W924SSEB.W  DB_W_0001  data012  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, B Share In...  3432  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-3432     ASIA     W924SZSEA.W  DB_W_0001  data013  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, A Share In...  3433   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-3433     ASIA     W924SZSEB.W  DB_W_0001  data014  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, B Share In...  3434   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+3647     ASIA       W576STI.W  DB_W_0001  data011  Singapore Share Prices and Stock Indexes, Stra...  ...                   Straits Times Index, Close Price  3648       Singapore Exchange            Singapore Stock Exchange  Not Seasonally Adjusted
+3648     ASIA      W924SSEA.W  DB_W_0001  data012  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, A Share In...  3649  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3649     ASIA      W924SSEB.W  DB_W_0001  data013  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, B Share In...  3650  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3650     ASIA     W924SZSEA.W  DB_W_0001  data014  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, A Share In...  3651   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+3651     ASIA     W924SZSEB.W  DB_W_0001  data015  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, B Share In...  3652   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
-[3434 rows x 15 columns]
-2022-05-16 06:12:44 PM Total Items: 3434
+[3652 rows x 15 columns]
+2022-05-31 02:40:00 PM Total Items: 3652

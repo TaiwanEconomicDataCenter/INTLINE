@@ -4005,14 +4005,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/input[@title="Excel (xlsx)"]'))).click()
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Excel')
             elif address.find('BSP') >= 0:
-                # if str(sname).find('INTERNATIONAL RESERVES') >= 0:
-                #     ActionChains(chrome).move_to_element(WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(., "International Investment Position")]')))).perform()
-                #     time.sleep(2)
-                #     ActionChains(chrome).move_to_element(WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(., "International Reserves")]')))).perform()
-                #     time.sleep(2)
-                #     ActionChains(chrome).click().perform()
                 target = WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr[contains(., "'+str(file_name)+'")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='.xls')
+            elif address.find('BTP') >= 0:
+                target = WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr[contains(., "'+str(file_name)+'")]')))
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname))
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -6064,6 +6061,31 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     except:
                         new_columns.append(None)
                 INTLINE_temp.columns = new_columns
+            elif str(fname).find('DEPOSITORY CORPORATIONS SURVEY') >= 0:
+                for col in INTLINE_temp.columns:
+                    if type(col) == str:
+                        try:
+                            new_columns.append(datetime.strptime(str(col).strip()[:6], '%b %y').strftime('%Y-%m'))
+                        except:
+                            new_columns.append(None)
+                    else:
+                        try:
+                            new_columns.append(col.strftime('%Y-%m'))
+                        except:
+                            new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+            elif str(fname).find('Selected Domestic Interest Rates') >= 0:
+                yr = ''
+                for col in INTLINE_temp.columns:
+                    if str(col).replace(' ','').strip().isnumeric():
+                        yr = str(col).replace(' ','').strip()
+                        new_columns.append(None)
+                        continue
+                    try:
+                        new_columns.append(yr+'-'+datetime.strptime(str(col).strip()[:3], '%b').strftime('%m'))
+                    except:
+                        new_columns.append(None)
+                INTLINE_temp.columns = new_columns
             else:
                 INTLINE_temp.columns = [datetime.strptime(str(col).strip(), '%Y%b').strftime('%Y-%m') if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
             if str(fname).find('A.1.bop6 PHILIPPINES BALANCE OF PAYMENTS') >= 0:
@@ -6077,10 +6099,85 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                     IN_t.name = key
                     INTLINE_temp = pd.concat([pd.DataFrame(IN_t).T, INTLINE_temp])
                     INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
+        elif str(fname).find('DEPOSITORY CORPORATIONS SURVEY') >= 0:
+            new_index = []
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Broad Money') >= 0:
+                    new_index.append(re.sub(r'[\s0-9\.a-z]+([A-Z]+.+)', r"\1", str(dex[0])).strip())
+                elif bool(re.search(r'M[1-3]', str(dex[1]))):
+                    new_index.append(re.sub(r'(.+?)\(.+\).*', r"\1", str(dex[1])).strip())
+                else:
+                    new_index.append(None)
+            INTLINE_temp.index = new_index
+            INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
+        elif str(fname).find('Selected Domestic Interest Rates') >= 0:
+            new_index = []
+            subject = ''
+            for dex in INTLINE_temp.index:
+                if str(dex[0]).find('Treasury Bill Rate') >= 0:
+                    subject = 'TBR'
+                elif str(dex[0]).find('Unnamed') < 0:
+                    subject = ''
+                if subject == 'TBR':
+                    new_index.append(subject+re.sub(r'.*?([0-9]+)\-day.*', r"\1", str(dex[1])).strip())
+                elif str(dex[0]).find('Bank Average Lending Rate') >= 0:
+                    new_index.append('BALR')
+                elif str(dex[0]).find('RRP Rate') >= 0 and str(dex[1]).find('Overnight') >= 0: 
+                    new_index.append('RRPRO')
+                elif str(dex[0]).find('RP Rate') >= 0 and str(dex[1]).find('Overnight') >= 0: 
+                    new_index.append('RPRO')
+                else:
+                    new_index.append(None)
+            INTLINE_temp.index = new_index
+            INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
         else:
             INTLINE_temp.index = [re.sub(r'\*', "", str(dex)).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+    elif address.find('BTP') >= 0:
+        MONTH = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+        if INTLINE_previous.empty == False:
+            previous_path = data_path+str(country)+'/'+address+str(dataset)+'_Monthly.xlsx'
+            previous_year = re.sub(r'.*?CY\s+([0-9]{4}).*', r"\1", str(readExcelFile(previous_path, sheet_name_=0).T.iloc[0].iloc[:3]).replace('\n',''))
+            if previous_year.isnumeric() == False:
+                ERROR('Year Not Found: '+previous_path)
+            INTLINE_previous.columns = [previous_year+'-'+datetime.strptime(str(col).strip()[:3], '%b').strftime('%m') if str(col).strip()[:3] in MONTH else None for col in INTLINE_previous.columns]
+            INTLINE_previous.index = [re.sub(r'\*', "", str(dex)).strip() for dex in INTLINE_previous.index]
+            INTLINE_previous.index = [dex if dex in KEYS else None for dex in INTLINE_previous.index]
+            INTLINE_previous = INTLINE_previous.loc[INTLINE_previous.index.dropna(), INTLINE_previous.columns.dropna()]
+        present_path = data_path+str(country)+'/'+address+str(dataset)+'.xlsx'
+        present_year = re.sub(r'.*?\s+([0-9]{4}).*', r"\1", str(readExcelFile(present_path, sheet_name_=0).T.iloc[0].iloc[:3]).replace('\n',' '))
+        if present_year.isnumeric() == False:
+            ERROR('Year Not Found: '+present_path)
+        INTLINE_temp.columns = [present_year+'-'+datetime.strptime(str(col).strip()[:3], '%b').strftime('%m') if str(col).strip()[:3] in MONTH else None for col in INTLINE_temp.columns]
+        if isinstance(INTLINE_temp.index, pd.MultiIndex):
+            new_index = []
+            subject = ''
+            for dex in INTLINE_temp.index:
+                if subject == 'External Debt' and str(dex[1]).find('Debt Securities') >= 0:
+                    new_index.append('Debt Securities')
+                else:
+                    new_index.append(None)
+                if str(dex[0]).find('External Debt') >= 0:
+                    subject = 'External Debt'
+                elif str(dex[0]).find('Unnamed') < 0:
+                    subject = ''
+            INTLINE_temp.index = new_index
+            INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
+        else:
+            INTLINE_temp.index = [re.sub(r'\*', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        if INTLINE_previous.empty == False:
+            INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_previous], axis=1)
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
