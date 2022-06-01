@@ -1,162 +1,90 @@
-﻿2022-05-31 02:50:21 PM excel_suffix: WSA
+﻿2022-06-01 06:08:53 PM excel_suffix: test
 
-2022-05-31 02:50:21 PM data_processing: True
+2022-06-01 06:08:53 PM data_processing: True
 
-2022-05-31 02:50:21 PM find_unknown: False
+2022-06-01 06:08:53 PM find_unknown: False
 
-2022-05-31 02:50:21 PM dealing_start_year: 1901
+2022-06-01 06:08:53 PM dealing_start_year: 1901
 
-2022-05-31 02:50:26 PM Data Processing
+2022-06-01 06:08:55 PM Data Processing
 
-2022-05-31 02:50:26 PM Reading table: Country, Time: 5s
+2022-06-01 06:08:55 PM Reading table: Country, Time: 2s
 
-2022-05-31 02:50:26 PM Reading table: TABLES, Time: 5 s
+2022-06-01 06:08:56 PM Reading table: TABLES, Time: 2 s
 
-2022-05-31 02:50:33 PM Reading file: Datasets, Time: 12 s
+2022-06-01 06:09:09 PM Reading file: country_series, Time: 15 s
 
-2022-05-31 02:50:33 PM 
+2022-06-01 06:09:09 PM Reading file: 578datasets, Time: 15 s
 
-2022-05-31 02:50:33 PM ====== WebDriver manager ======
-2022-05-31 02:50:35 PM Current google-chrome version is 102.0.5005
-2022-05-31 02:50:35 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-05-31 02:50:35 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-05-31 02:50:38 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-05-31 02:50:40 PM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 18s
+2022-06-01 06:09:09 PM 
 
-2022-05-31 02:50:40 PM Downloading file: WorldCrudeSteelProduction
+2022-06-01 06:09:09 PM ====== WebDriver manager ======
+2022-06-01 06:09:09 PM Current google-chrome version is 102.0.5005
+2022-06-01 06:09:09 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-01 06:09:09 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-01 06:09:12 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-01 06:09:14 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 20s
 
-2022-05-31 02:50:47 PM Getting Data From Website
+2022-06-01 06:09:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:50:55 PM Total Items: 1 Time: 34s
+2022-06-01 06:09:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:50:56 PM Reading file: country_series, Time: 35 s
+2022-06-01 06:09:28 PM Total New Items Found: 11 Time: 35 s
 
-2022-05-31 02:50:56 PM Reading file: 112datasets, Time: 35 s
+2022-06-01 06:09:28 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 35s
 
-2022-05-31 02:50:56 PM Reading file: Datasets, Time: 35 s
+2022-06-01 06:09:29 PM Total New Items Found: 24 Time: 36 s
 
-2022-05-31 02:50:58 PM Reading file: country_series, Time: 37 s
+2022-06-01 06:09:29 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 36s
 
-2022-05-31 02:50:58 PM Reading file: 158datasets, Time: 37 s
+2022-06-01 06:09:29 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:50:58 PM Reading file: Datasets, Time: 37 s
+2022-06-01 06:09:29 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:50:59 PM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 38s
+2022-06-01 06:09:44 PM Total New Items Found: 53 Time: 51 s
 
-2022-05-31 02:50:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-01 06:09:44 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 51s
 
-2022-05-31 02:50:59 PM Total Items: 1 Time: 38s
+2022-06-01 06:09:45 PM Total New Items Found: 69 Time: 52 s
 
-2022-05-31 02:51:00 PM Reading file: country_series, Time: 39 s
+2022-06-01 06:09:45 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#3, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 52s
 
-2022-05-31 02:51:00 PM Reading file: 924datasets, Time: 39 s
+2022-06-01 06:09:45 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:51:01 PM Reading file: Datasets, Time: 39 s
+2022-06-01 06:09:45 PM Present File Exists. Reading Data From Default Path.
 
-2022-05-31 02:51:01 PM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 40s
+2022-06-01 06:10:01 PM Total New Items Found: 96 Time: 67 s
 
-2022-05-31 02:51:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-01 06:10:03 PM Reading file: INTLINE_database?, Time: 69 s
 
-2022-05-31 02:51:01 PM Total Items: 1 Time: 40s
+2022-06-01 06:10:03 PM Concating file: INTLINE_key?, Time: 69 s
 
-2022-05-31 02:51:02 PM Reading file: country_series, Time: 41 s
+2022-06-01 06:10:03 PM Concating file: INTLINE_database?, Time: 69 s
 
-2022-05-31 02:51:03 PM Reading file: 542datasets, Time: 41 s
+2022-06-01 06:10:03 PM Time: 69 s
 
-2022-05-31 02:51:03 PM Reading file: Datasets, Time: 41 s
+2022-06-01 06:10:03 PM Setting new files, Time: 69 s
 
-2022-05-31 02:51:03 PM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 42s
+2022-06-01 06:10:03 PM Concating new files: INTLINE_database, Time: 69 s
 
-2022-05-31 02:51:03 PM Present File Exists. Reading Data From Default Path.
+2022-06-01 06:10:04 PM    databank             name   db_table  db_code                                             desc_e  ...                                               type snl                                             source             form_e                   form_c
+0   INTLINE    A578NESQGDP.A  DB_A_0001  data001  Thailand National Statistics, National Account...  ...                             Gross Domestic Product   1  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
+1   INTLINE   A578NESQGDP1.A  DB_A_0001  data002  Thailand National Statistics, National Account...  ...        Private Consumption (Households and NPiSHs)   2  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
+2   INTLINE   A578NESQGDP2.A  DB_A_0001  data003  Thailand National Statistics, National Account...  ...                             Government Consumption   3  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
+3   INTLINE   A578NESQGDP3.A  DB_A_0001  data004  Thailand National Statistics, National Account...  ...   Gross Fixed Capital Formation (Fixed Investment)   4  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
+4   INTLINE   A578NESQGDP4.A  DB_A_0001  data005  Thailand National Statistics, National Account...  ...                             Changes in Inventories   5  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
+..      ...              ...        ...      ...                                                ...  ...                                                ...  ..                                                ...                ...                      ...
+91  INTLINE  Q578NESVGNPA4.Q  DB_Q_0001  data052  Thailand National Statistics, National Account...  ...                          Other Aggregated Services  92  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
+92  INTLINE  Q578NESVGNPA5.Q  DB_Q_0001  data053  Thailand National Statistics, National Account...  ...                               Mining and Quarrying  93  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
+93  INTLINE  Q578NESVGNPA6.Q  DB_Q_0001  data054  Thailand National Statistics, National Account...  ...                                      Manufacturing  94  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
+94  INTLINE  Q578NESVGNPA8.Q  DB_Q_0001  data055  Thailand National Statistics, National Account...  ...                                       Construction  95  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
+95  INTLINE  Q578NESVGNPA9.Q  DB_Q_0001  data056  Thailand National Statistics, National Account...  ...  Wholesale and Retail Trade, Repair of Motor Ve...  96  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
 
-2022-05-31 02:51:03 PM Total Items: 1 Time: 42s
-
-2022-05-31 02:51:04 PM Reading file: country_series, Time: 43 s
-
-2022-05-31 02:51:04 PM Reading file: 193datasets, Time: 43 s
-
-2022-05-31 02:51:04 PM Reading file: Datasets, Time: 43 s
-
-2022-05-31 02:51:06 PM Reading file: country_series, Time: 45 s
-
-2022-05-31 02:51:06 PM Reading file: 144datasets, Time: 45 s
-
-2022-05-31 02:51:06 PM Reading file: Datasets, Time: 45 s
-
-2022-05-31 02:51:07 PM Reading file: country_series, Time: 46 s
-
-2022-05-31 02:51:07 PM Reading file: 534datasets, Time: 46 s
-
-2022-05-31 02:51:07 PM Reading file: Datasets, Time: 46 s
-
-2022-05-31 02:51:08 PM Country: India, Reading file or url: WSA, sheet: 0, frequency: M, Time: 47s
-
-2022-05-31 02:51:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-31 02:51:08 PM Total Items: 1 Time: 47s
-
-2022-05-31 02:51:09 PM Reading file: country_series, Time: 47 s
-
-2022-05-31 02:51:09 PM Reading file: 156datasets, Time: 47 s
-
-2022-05-31 02:51:09 PM Reading file: Datasets, Time: 48 s
-
-2022-05-31 02:51:10 PM Reading file: country_series, Time: 49 s
-
-2022-05-31 02:51:11 PM Reading file: 134datasets, Time: 50 s
-
-2022-05-31 02:51:11 PM Reading file: Datasets, Time: 50 s
-
-2022-05-31 02:51:11 PM Country: Germany, Reading file or url: WSA, sheet: 0, frequency: M, Time: 50s
-
-2022-05-31 02:51:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-31 02:51:12 PM Total Items: 1 Time: 51s
-
-2022-05-31 02:51:13 PM Reading file: country_series, Time: 52 s
-
-2022-05-31 02:51:14 PM Reading file: 132datasets, Time: 52 s
-
-2022-05-31 02:51:14 PM Reading file: Datasets, Time: 53 s
-
-2022-05-31 02:51:15 PM Reading file: country_series, Time: 54 s
-
-2022-05-31 02:51:16 PM Reading file: 136datasets, Time: 54 s
-
-2022-05-31 02:51:16 PM Reading file: Datasets, Time: 55 s
-
-2022-05-31 02:51:17 PM Reading file: country_series, Time: 56 s
-
-2022-05-31 02:51:17 PM Reading file: 223datasets, Time: 56 s
-
-2022-05-31 02:51:17 PM Reading file: Datasets, Time: 56 s
-
-2022-05-31 02:51:17 PM Country: Brazil, Reading file or url: WSA, sheet: 0, frequency: M, Time: 56s
-
-2022-05-31 02:51:17 PM Present File Exists. Reading Data From Default Path.
-
-2022-05-31 02:51:18 PM Total Items: 1 Time: 56s
-
-2022-05-31 02:51:21 PM Reading file: INTLINE_database?, Time: 60 s
-
-2022-05-31 02:51:21 PM Concating file: INTLINE_key?, Time: 60 s
-
-2022-05-31 02:51:21 PM Concating file: INTLINE_database?, Time: 60 s
-
-2022-05-31 02:51:21 PM Time: 60 s
-
-2022-05-31 02:51:21 PM Setting new files, Time: 60 s
-
-2022-05-31 02:51:21 PM Concating new files: INTLINE_database, Time: 60 s
-
-2022-05-31 02:51:21 PM   databank            name   db_table  db_code                                             desc_e  ...                       type snl                   source                      form_e                   form_c
-0  INTLINE  M111IPST0001.M  DB_M_0001  data001  United States Industrial Output, Production of...  ...  Production of Crude Steel   1  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-1  INTLINE  M134IPST0001.M  DB_M_0001  data002  Germany Industrial Output, Production of Crude...  ...  Production of Crude Steel   2  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-2  INTLINE  M158IPST0001.M  DB_M_0001  data003  Japan Industrial Output, Production of Crude S...  ...  Production of Crude Steel   3  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-3  INTLINE  M223IPST0001.M  DB_M_0001  data004  Brazil Industrial Output, Production of Crude ...  ...  Production of Crude Steel   4  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-4  INTLINE  M534IPST0001.M  DB_M_0001  data005  India Industrial Output, Production of Crude S...  ...  Production of Crude Steel   5  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-5  INTLINE  M542IPST0001.M  DB_M_0001  data006  South Korea Industrial Output, Production of C...  ...  Production of Crude Steel   6  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-6  INTLINE  M924IPST0001.M  DB_M_0001  data007  China Industrial Output, Production of Crude S...  ...  Production of Crude Steel   7  World Steel Association  Monthly Crude Steel Output  Not Seasonally Adjusted
-
-[7 rows x 15 columns]
-2022-05-31 02:51:21 PM Total Items: 7
+[96 rows x 15 columns]
+2022-06-01 06:10:04 PM Total Items: 96
+2022-06-01 06:10:04 PM New items were found
+2022-06-01 06:10:04 PM                                                                                                  Country      Address                                             Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
+Sheet                                        File                                                                                                                                                                                                  
+Gross Domestic Product Chain Volume Measures https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...      A, Q  web crawler/manually     NaN         NaN        NaN          24
+                                             https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...      A, Q  web crawler/manually     NaN         NaN        NaN          45
+                                             https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...         Q  web crawler/manually     NaN         NaN        NaN          27

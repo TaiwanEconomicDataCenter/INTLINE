@@ -4010,6 +4010,18 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('BTP') >= 0:
                 target = WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr[contains(., "'+str(file_name)+'")]')))
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname))
+            elif address.find('NESDC') >= 0:
+                if address.find('QGDP') >= 0:
+                    target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/tbody[tr[td[span[contains(., "Quarterly Gross Domestic Product (QGDP)")]]]]')))
+                    WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr/td[a[contains(@href, "ewt_news")][contains(@href, "filename=national_account")]]/a'))).click()
+                    chrome.switch_to.window(chrome.window_handles[-1])
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='xlsx')
+                    chrome.close()
+                    chrome.switch_to.window(chrome.window_handles[0])
+                else:
+                    target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/tbody[tr[td[span[contains(., "National Income of Thailand")]]]]')))
+                    WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/tbody/tr/td[a[contains(@href, "ewt_dl_link")][contains(@href, "filename=national_account")]]/a'))).click()
+                    link_found = True
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -6182,7 +6194,54 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
-    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, data_key='', data_year=2018, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
+    elif address.find('NESDC') >= 0:
+        dataset = sname
+        if address.find('QGDP') >= 0:
+            file_path = data_path+str(country)+'/'+address+str(dataset)+freq+'_historical.xlsx'
+            INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+            KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+            if freq == 'A':
+                INTLINE_his.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else col for col in INTLINE_his.columns]
+                INTLINE_temp.columns = [int(str(col).strip()[:4]) if str(col).strip()[:4].isnumeric() else None for col in INTLINE_temp.columns]
+            elif freq == 'Q':
+                INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
+                yr = ''
+                if isinstance(INTLINE_temp.columns, pd.MultiIndex):
+                    for col in INTLINE_temp.columns:
+                        if str(col[0]).strip()[:4].isnumeric():
+                            yr = str(col[0]).strip()[:4]
+                        if bool(re.match(r'Q[1-4]', str(col[1]).strip()[:2])):
+                            new_columns.append(yr+'-'+str(col[1]).strip()[:2])
+                        else:
+                            new_columns.append(None)
+                else:
+                    for col in INTLINE_temp.columns:
+                        if str(col).strip()[:4].isnumeric():
+                            yr = str(col).strip()[:4]
+                            new_columns.append(None)
+                            continue
+                        if bool(re.match(r'Q[1-4]', str(col).strip()[:2])):
+                            new_columns.append(yr+'-'+str(col).strip()[:2])
+                        else:
+                            new_columns.append(None)
+                INTLINE_temp.columns = new_columns
+            new_index= []
+            for dex in INTLINE_temp.index:
+                new_ind = ''
+                for d in dex:
+                    if str(d).find('Unnamed') < 0 and str(d) != 'nan':
+                        new_ind=new_ind+' '+str(d).strip()
+                new_index.append(new_ind.strip())
+            INTLINE_temp.index = new_index
+            INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+            INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+            INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+            INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+            INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+            INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+            if freq == 'A':
+                INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
+    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='National Accounts', data_year=2000, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=True)
     # return 'testing', False, False, False
     print(INTLINE_temp)
     # ERROR('')
@@ -8314,7 +8373,7 @@ def INTLINE_keywords(INTLINE_temp, data_path, country, address, fname, freq, dat
     elif freq == 'M':
         time_range = [str(data_year)+'-'+str(k).rjust(2, '0') for k in range(1,13)]
         IHS.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in IHS.columns]
-    INDEX_path = data_path+str(country)+'/'+address+'INDEX.xlsx'
+    INDEX_path = data_path+str(country)+'/'+address+'INDEX_'+freq+'.xlsx'
     if os.path.isfile(INDEX_path):
         INDEX = readExcelFile(INDEX_path, header_=[0], index_col_=0, sheet_name_=0)
         INDEX_temp = pd.DataFrame(index=IHS.index, columns=['DataSet','keyword'])
