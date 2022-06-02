@@ -1,90 +1,108 @@
-﻿2022-06-01 06:08:53 PM excel_suffix: test
+﻿2022-06-02 05:44:36 PM excel_suffix: test
 
-2022-06-01 06:08:53 PM data_processing: True
+2022-06-02 05:44:36 PM data_processing: True
 
-2022-06-01 06:08:53 PM find_unknown: False
+2022-06-02 05:44:36 PM find_unknown: False
 
-2022-06-01 06:08:53 PM dealing_start_year: 1901
+2022-06-02 05:44:36 PM dealing_start_year: 1901
 
-2022-06-01 06:08:55 PM Data Processing
+2022-06-02 05:44:38 PM Data Processing
 
-2022-06-01 06:08:55 PM Reading table: Country, Time: 2s
+2022-06-02 05:44:38 PM Reading table: Country, Time: 1s
 
-2022-06-01 06:08:56 PM Reading table: TABLES, Time: 2 s
+2022-06-02 05:44:38 PM Reading table: TABLES, Time: 2 s
 
-2022-06-01 06:09:09 PM Reading file: country_series, Time: 15 s
+2022-06-02 05:44:51 PM Reading file: country_series, Time: 15 s
 
-2022-06-01 06:09:09 PM Reading file: 578datasets, Time: 15 s
+2022-06-02 05:44:51 PM Reading file: 578datasets, Time: 15 s
 
-2022-06-01 06:09:09 PM 
+2022-06-02 05:44:52 PM 
 
-2022-06-01 06:09:09 PM ====== WebDriver manager ======
-2022-06-01 06:09:09 PM Current google-chrome version is 102.0.5005
-2022-06-01 06:09:09 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-01 06:09:09 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-01 06:09:12 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-01 06:09:14 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 20s
+2022-06-02 05:44:52 PM ====== WebDriver manager ======
+2022-06-02 05:44:52 PM Current google-chrome version is 102.0.5005
+2022-06-02 05:44:52 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-02 05:44:52 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-02 05:44:55 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-02 05:44:56 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatMacroEconomicIndicators.aspx, sheet: Thailand's Macro Economic Indicators, frequency: A, Time: 20s
 
-2022-06-01 06:09:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:44:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:44:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:28 PM Total New Items Found: 11 Time: 35 s
+2022-06-02 05:44:57 PM Total New Items Found: 1 Time: 20 s
 
-2022-06-01 06:09:28 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 35s
+2022-06-02 05:44:57 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/RealSector/Pages/Index.aspx, sheet: Labour Force Survey (New Series ISIC Rev.4), frequency: A, Time: 20s
 
-2022-06-01 06:09:29 PM Total New Items Found: 24 Time: 36 s
+2022-06-02 05:44:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:29 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 36s
+2022-06-02 05:44:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:44:57 PM Total New Items Found: 6 Time: 21 s
 
-2022-06-01 06:09:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:44:57 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatBalanceofPayments.aspx, sheet: Balance of Payments, frequency: Q, Time: 21s
 
-2022-06-01 06:09:44 PM Total New Items Found: 53 Time: 51 s
+2022-06-02 05:44:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:44 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 51s
+2022-06-02 05:44:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-01 06:09:45 PM Total New Items Found: 69 Time: 52 s
+2022-06-02 05:44:59 PM Total New Items Found: 38 Time: 23 s
 
-2022-06-01 06:09:45 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#3, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 52s
+2022-06-02 05:45:01 PM Reading file: INTLINE_database?, Time: 25 s
 
-2022-06-01 06:09:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:45:01 PM Concating file: INTLINE_key?, Time: 25 s
 
-2022-06-01 06:09:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-02 05:45:01 PM Concating file: INTLINE_database?, Time: 25 s
 
-2022-06-01 06:10:01 PM Total New Items Found: 96 Time: 67 s
+2022-06-02 05:45:01 PM Time: 25 s
 
-2022-06-01 06:10:03 PM Reading file: INTLINE_database?, Time: 69 s
+2022-06-02 05:45:01 PM Setting new files, Time: 25 s
 
-2022-06-01 06:10:03 PM Concating file: INTLINE_key?, Time: 69 s
+2022-06-02 05:45:01 PM Concating new files: INTLINE_database, Time: 25 s
 
-2022-06-01 06:10:03 PM Concating file: INTLINE_database?, Time: 69 s
+2022-06-02 05:45:02 PM    databank             name   db_table  db_code                                             desc_e   country freq  ...     last                   unit                                 type snl            source                  form_e                   form_c
+0   INTLINE    A578BOTLFS1.A  DB_A_0001  data001  Thailand National Statistics, Demographic Indi...  Thailand    A  ...     2020   Thousands of Persons                           Population   1  Bank of Thailand  Demographic Indicators  Not Seasonally Adjusted
+1   INTLINE   A578BOTLFS11.A  DB_A_0001  data002  Thailand National Statistics, Labour Market, E...  Thailand    A  ...     2021   Thousands of Persons                        Manufacturing   2  Bank of Thailand           Labour Market  Not Seasonally Adjusted
+2   INTLINE   A578BOTLFS25.A  DB_A_0001  data003  Thailand National Statistics, Labour Market, U...  Thailand    A  ...     2021   Thousands of Persons                                Total   3  Bank of Thailand           Labour Market  Not Seasonally Adjusted
+3   INTLINE    A578BOTLFS4.A  DB_A_0001  data004  Thailand National Statistics, Labour Market, L...  Thailand    A  ...     2021   Thousands of Persons                                Total   4  Bank of Thailand           Labour Market  Not Seasonally Adjusted
+4   INTLINE    A578BOTLFS5.A  DB_A_0001  data005  Thailand National Statistics, Labour Market, E...  Thailand    A  ...     2021   Thousands of Persons                                Total   5  Bank of Thailand           Labour Market  Not Seasonally Adjusted
+5   INTLINE    A578BOTLFS7.A  DB_A_0001  data006  Thailand National Statistics, Labour Market, E...  Thailand    A  ...     2021   Thousands of Persons    Agriculture, Forestry and Fishing   6  Bank of Thailand           Labour Market  Not Seasonally Adjusted
+6   INTLINE    Q578BOTBOP1.Q  DB_Q_0001  data001  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                      Current Account   7  Bank of Thailand         External Sector  Not Seasonally Adjusted
+7   INTLINE   Q578BOTBOP13.Q  DB_Q_0001  data002  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit   8  Bank of Thailand         External Sector  Not Seasonally Adjusted
+8   INTLINE  Q578BOTBOP1a1.Q  DB_Q_0001  data003  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                 Errors and Omissions   9  Bank of Thailand         External Sector  Not Seasonally Adjusted
+9   INTLINE  Q578BOTBOP1a2.Q  DB_Q_0001  data004  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                      Overall Balance  10  Bank of Thailand         External Sector  Not Seasonally Adjusted
+10  INTLINE  Q578BOTBOP1a3.Q  DB_Q_0001  data005  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                       Reserve Assets  11  Bank of Thailand         External Sector  Not Seasonally Adjusted
+11  INTLINE  Q578BOTBOP1a4.Q  DB_Q_0001  data006  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht          Reserve Position in the IMF  12  Bank of Thailand         External Sector  Not Seasonally Adjusted
+12  INTLINE  Q578BOTBOP1a5.Q  DB_Q_0001  data007  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                 Other Reserve Assets  13  Bank of Thailand         External Sector  Not Seasonally Adjusted
+13  INTLINE  Q578BOTBOP1a6.Q  DB_Q_0001  data008  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                        Monetary Gold  14  Bank of Thailand         External Sector  Not Seasonally Adjusted
+14  INTLINE  Q578BOTBOP1a7.Q  DB_Q_0001  data009  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht               Special Drawing Rights  15  Bank of Thailand         External Sector  Not Seasonally Adjusted
+15  INTLINE    Q578BOTBOP2.Q  DB_Q_0001  data010  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                   Goods and Services  16  Bank of Thailand         External Sector  Not Seasonally Adjusted
+16  INTLINE   Q578BOTBOP21.Q  DB_Q_0001  data011  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  17  Bank of Thailand         External Sector  Not Seasonally Adjusted
+17  INTLINE   Q578BOTBOP22.Q  DB_Q_0001  data012  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  18  Bank of Thailand         External Sector  Not Seasonally Adjusted
+18  INTLINE   Q578BOTBOP26.Q  DB_Q_0001  data013  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  19  Bank of Thailand         External Sector  Not Seasonally Adjusted
+19  INTLINE    Q578BOTBOP3.Q  DB_Q_0001  data014  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Goods  20  Bank of Thailand         External Sector  Not Seasonally Adjusted
+20  INTLINE   Q578BOTBOP34.Q  DB_Q_0001  data015  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                       Primary Income  21  Bank of Thailand         External Sector  Not Seasonally Adjusted
+21  INTLINE   Q578BOTBOP35.Q  DB_Q_0001  data016  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  22  Bank of Thailand         External Sector  Not Seasonally Adjusted
+22  INTLINE   Q578BOTBOP36.Q  DB_Q_0001  data017  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  23  Bank of Thailand         External Sector  Not Seasonally Adjusted
+23  INTLINE   Q578BOTBOP37.Q  DB_Q_0001  data018  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  24  Bank of Thailand         External Sector  Not Seasonally Adjusted
+24  INTLINE   Q578BOTBOP39.Q  DB_Q_0001  data019  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  25  Bank of Thailand         External Sector  Not Seasonally Adjusted
+25  INTLINE    Q578BOTBOP4.Q  DB_Q_0001  data020  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  26  Bank of Thailand         External Sector  Not Seasonally Adjusted
+26  INTLINE   Q578BOTBOP41.Q  DB_Q_0001  data021  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  27  Bank of Thailand         External Sector  Not Seasonally Adjusted
+27  INTLINE   Q578BOTBOP42.Q  DB_Q_0001  data022  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                                Debit  28  Bank of Thailand         External Sector  Not Seasonally Adjusted
+28  INTLINE   Q578BOTBOP43.Q  DB_Q_0001  data023  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                     Secondary Income  29  Bank of Thailand         External Sector  Not Seasonally Adjusted
+29  INTLINE   Q578BOTBOP46.Q  DB_Q_0001  data024  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht        Capital and Financial Account  30  Bank of Thailand         External Sector  Not Seasonally Adjusted
+30  INTLINE   Q578BOTBOP49.Q  DB_Q_0001  data025  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                    Direct Investment  31  Bank of Thailand         External Sector  Not Seasonally Adjusted
+31  INTLINE   Q578BOTBOP51.Q  DB_Q_0001  data026  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht        Net Incurrence of Liabilities  32  Bank of Thailand         External Sector  Not Seasonally Adjusted
+32  INTLINE   Q578BOTBOP52.Q  DB_Q_0001  data027  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                 Portfolio Investment  33  Bank of Thailand         External Sector  Not Seasonally Adjusted
+33  INTLINE   Q578BOTBOP5a.Q  DB_Q_0001  data028  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht  Net Acquisition of Financial Assets  34  Bank of Thailand         External Sector  Not Seasonally Adjusted
+34  INTLINE    Q578BOTBOP7.Q  DB_Q_0001  data029  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                             Services  35  Bank of Thailand         External Sector  Not Seasonally Adjusted
+35  INTLINE   Q578BOTBOP71.Q  DB_Q_0001  data030  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                     Other Investment  36  Bank of Thailand         External Sector  Not Seasonally Adjusted
+36  INTLINE    Q578BOTBOP8.Q  DB_Q_0001  data031  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  37  Bank of Thailand         External Sector  Not Seasonally Adjusted
+37  INTLINE    Q578BOTBOP9.Q  DB_Q_0001  data032  Thailand National Statistics, External Sector,...  Thailand    Q  ...  2021-Q4  Millions of Thai Baht                               Credit  38  Bank of Thailand         External Sector  Not Seasonally Adjusted
 
-2022-06-01 06:10:03 PM Time: 69 s
-
-2022-06-01 06:10:03 PM Setting new files, Time: 69 s
-
-2022-06-01 06:10:03 PM Concating new files: INTLINE_database, Time: 69 s
-
-2022-06-01 06:10:04 PM    databank             name   db_table  db_code                                             desc_e  ...                                               type snl                                             source             form_e                   form_c
-0   INTLINE    A578NESQGDP.A  DB_A_0001  data001  Thailand National Statistics, National Account...  ...                             Gross Domestic Product   1  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
-1   INTLINE   A578NESQGDP1.A  DB_A_0001  data002  Thailand National Statistics, National Account...  ...        Private Consumption (Households and NPiSHs)   2  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
-2   INTLINE   A578NESQGDP2.A  DB_A_0001  data003  Thailand National Statistics, National Account...  ...                             Government Consumption   3  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
-3   INTLINE   A578NESQGDP3.A  DB_A_0001  data004  Thailand National Statistics, National Account...  ...   Gross Fixed Capital Formation (Fixed Investment)   4  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
-4   INTLINE   A578NESQGDP4.A  DB_A_0001  data005  Thailand National Statistics, National Account...  ...                             Changes in Inventories   5  Office of the National Economic and Social Dev...  National Accounts  Not Seasonally Adjusted
-..      ...              ...        ...      ...                                                ...  ...                                                ...  ..                                                ...                ...                      ...
-91  INTLINE  Q578NESVGNPA4.Q  DB_Q_0001  data052  Thailand National Statistics, National Account...  ...                          Other Aggregated Services  92  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
-92  INTLINE  Q578NESVGNPA5.Q  DB_Q_0001  data053  Thailand National Statistics, National Account...  ...                               Mining and Quarrying  93  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
-93  INTLINE  Q578NESVGNPA6.Q  DB_Q_0001  data054  Thailand National Statistics, National Account...  ...                                      Manufacturing  94  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
-94  INTLINE  Q578NESVGNPA8.Q  DB_Q_0001  data055  Thailand National Statistics, National Account...  ...                                       Construction  95  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
-95  INTLINE  Q578NESVGNPA9.Q  DB_Q_0001  data056  Thailand National Statistics, National Account...  ...  Wholesale and Retail Trade, Repair of Motor Ve...  96  Office of the National Economic and Social Dev...  National Accounts      Seasonally Adjusted
-
-[96 rows x 15 columns]
-2022-06-01 06:10:04 PM Total Items: 96
-2022-06-01 06:10:04 PM New items were found
-2022-06-01 06:10:04 PM                                                                                                  Country      Address                                             Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
-Sheet                                        File                                                                                                                                                                                                  
-Gross Domestic Product Chain Volume Measures https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...      A, Q  web crawler/manually     NaN         NaN        NaN          24
-                                             https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...      A, Q  web crawler/manually     NaN         NaN        NaN          45
-                                             https://www.nesdc.go.th/nesdb_en/main.php?filen...      578  NESDC/QGDP/  Office of the National Economic and Social Dev...         Q  web crawler/manually     NaN         NaN        NaN          27
+[38 rows x 15 columns]
+2022-06-02 05:45:02 PM Total Items: 38
+2022-06-02 05:45:02 PM New items were found
+2022-06-02 05:45:02 PM                                                                                                 Country Address            Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
+Sheet                                       File                                                                                                                                                            
+Balance of Payments                         https://www.bot.or.th/English/Statistics/Econom...      578    BOT/  Bank of Thailand         Q  web crawler/manually     NaN         NaN        NaN          32
+Labour Force Survey (New Series ISIC Rev.4) https://www.bot.or.th/English/Statistics/Econom...      578    BOT/  Bank of Thailand         A  web crawler/manually     NaN         NaN        NaN           5
