@@ -484,7 +484,7 @@ def INTLINE_ADDNOTE(attri, NOTE, note, note_num, note_part, specific=False, alph
 
     return note, note_num, note_part, note_suffix
 
-NonValue = ['nan','.....','ND','None','(S)','(NA)','N','NA','-','','(-)','n.a.','(*)','(D)','U','.','*','--','Not Available','Not Applicable',':','X','***','－','---','N.A.','na','\xa0','..','...','x','N.D.','(O)','…']
+NonValue = ['nan','.....','ND','None','(S)','(NA)','N','NA','-','','(-)','n.a.','(*)','(D)','U','.','*','--','Not Available','Not Applicable',':','X','***','－','---','N.A.','na','\xa0','..','...','x','N.D.','(O)','…','....']
 
 def INTLINE_DATA(ind, name, INTLINE_t, country, address, file_name, sheet_name, value, index, code_num, table_num, KEY_DATA, DATA_BASE, db_table_t, DB_name, snl, source, freqlist, frequency, UNIT='nan', LABEL=pd.DataFrame(), label_level=[], NOTE=[], FOOTNOTE=[], series=None, table=None, titles=None, repl=None, repl2=None, QUAR=None, RAUQ=None, country_series=False):
     freqlen = len(freqlist)

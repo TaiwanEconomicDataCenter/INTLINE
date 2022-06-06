@@ -6279,7 +6279,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         elif freq == 'Q':
             INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
             INTLINE_temp.columns = [str(col).strip()[:7][-4:]+'-'+str(col).strip()[:7][:2] for col in INTLINE_temp.columns]
-        INTLINE_temp.index = [str(dex[0]).strip()+re.sub(r'\s+', " ", re.sub(r'^\s*[0-9a-z]+\.[0-9\.]*|\([0-9\.\+\s]+\)|[0-9]+\)|[0-9]+/\s*$', "", str(dex[1]))).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [str(dex[0]).strip()+re.sub(r'\s+', " ", re.sub(r'^\s*[0-9a-z]+\.[0-9\.]*|\([0-9\.\+\s%]+\)|[0-9]+\)|[0-9]+/\s*$', "", str(dex[1]))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
         if str(fname).find("Thailand's Macro Economic Indicators") >= 0:
@@ -6290,7 +6290,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
         if freq == 'A':
             INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
-    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='External Sector', data_year=2011, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
+    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Labour Market', data_year=2011, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
     # return 'testing', False, False, False
     print(INTLINE_temp)
     # ERROR('')
