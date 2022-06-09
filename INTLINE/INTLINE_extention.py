@@ -932,6 +932,21 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[1].iloc[0])
     elif address.find('PHSA') >= 0 and str(file_name).find('Index') >= 0:
         base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0]).replace('\n',''))
+    elif address.find('BTEIT') >= 0:
+        file_path = data_path+str(country)+'/'+address+'base_year.csv'
+        base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
+        try:
+            latest = INTLINE_PRESENT(file_path, check_latest_update=True, latest_update=base_year_list.loc[file_name, 'last updated'])
+        except KeyError:
+            ERROR('File Name Not Found in base_year.csv: '+file_name)
+        if latest == True:
+            base_year = re.sub(r'\.0$', "", str(base_year_list.loc[file_name, 'base year']))
+        else:
+            chrome.get(website)
+            if str(file_name).find('Consumer Price Index') >= 0:
+                base_year = int(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="year_base"]/option[@value="1"]'))).text) - 543
+            else:
+                base_year = int(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(text(), "Year base")]/following-sibling::span'))).text)
     if (str(base_year).isnumeric() == False and is_period == False) or (str(base_year)[:4].isnumeric() == False and is_period == True):
         ERROR('Base Year Not Found in source: '+src)
     if base_year_list.empty == False:
@@ -4025,6 +4040,36 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('BOT') >= 0:
                 target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(@href, "' + str(file_name) + '_ENG_ALL.XLSX")]'))).location_once_scrolled_into_view
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name)+'_ENG_ALL.XLSX')
+            elif address.find('BTEIT') >= 0:
+                MONTH = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+                INTLINE_temp = pd.DataFrame()
+                if str(sname).find('Consumer Price Index') >= 0:
+                    Select(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="year_base"]')))).select_by_value('1')
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"]'))).click()
+                    chrome.switch_to.window(chrome.window_handles[-1])
+                    target = WebDriverWait(chrome, 30).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="nyear"]')))
+                    for yr in range(datetime.today().year-1, datetime.today().year+1):
+                        thai_yr = yr + 543
+                        target_url = re.sub(r'(nyear=)[0-9]*', r"\1", str(chrome.current_url)).replace('nyear=', 'nyear='+str(thai_yr))
+                        chrome.get(target_url)
+                        target_table = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/table[contains(., "DESCRIPTION")]')))
+                        IN_t = pd.read_html(target_table.get_attribute('outerHTML'), skiprows=[0], header=[0], index_col=[2])[0]
+                        IN_t.columns = [str(yr)+'-'+datetime.strptime(str(col).strip()[:3], '%b').strftime('%m') if str(col).strip()[:3].capitalize() in MONTH else None for col in IN_t.columns]
+                        IN_t = IN_t.loc[:, IN_t.columns.dropna()]
+                        INTLINE_temp = pd.concat([INTLINE_temp, IN_t], axis=1)
+                    chrome.close()
+                    chrome.switch_to.window(chrome.window_handles[0])
+                else:
+                    for yr in range(datetime.today().year-1, datetime.today().year+1):
+                        thai_yr = yr + 543
+                        Select(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="DDYear"]')))).select_by_value(str(thai_yr))
+                        WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"]'))).click()
+                        target_table = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/table[contains(., "Description")]')))
+                        IN_t = pd.read_html(target_table.get_attribute('outerHTML'), header=[0], index_col=[1])[0]
+                        IN_t.columns = [str(yr)+'-'+datetime.strptime(str(col).strip()[:3], '%b').strftime('%m') if str(col).strip()[:3].capitalize() in MONTH else None for col in IN_t.columns]
+                        IN_t = IN_t.loc[:, IN_t.columns.dropna()]
+                        INTLINE_temp = pd.concat([INTLINE_temp, IN_t], axis=1)
+                link_found = True
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -6279,9 +6324,13 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         elif freq == 'Q':
             INTLINE_his.columns = [pd.Period(col, freq='Q').strftime('%Y-Q%q') if type(col) != str else col for col in INTLINE_his.columns]
             INTLINE_temp.columns = [str(col).strip()[:7][-4:]+'-'+str(col).strip()[:7][:2] for col in INTLINE_temp.columns]
+        elif freq == 'M':
+            INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+            INTLINE_temp.columns = [datetime.strptime(str(col)[:8].strip(), '%b %Y').strftime('%Y-%m') if str(col)[:8].strip()[-4:].isnumeric() else None for col in INTLINE_temp.columns]
         INTLINE_temp.index = [str(dex[0]).strip()+re.sub(r'\s+', " ", re.sub(r'^\s*[0-9a-z]+\.[0-9\.]*|\([0-9\.\+\s%]+\)|[0-9]+\)|[0-9]+/\s*$', "", str(dex[1]))).strip() for dex in INTLINE_temp.index]
         INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = INTLINE_temp.loc[~INTLINE_temp.index.duplicated()]
         if str(fname).find("Thailand's Macro Economic Indicators") >= 0:
             INTLINE_temp = INTLINE_temp.applymap(lambda x: float(x)*1000 if str(x)[0].isnumeric() else None)
         INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
@@ -6290,7 +6339,19 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
         if freq == 'A':
             INTLINE_temp.columns = [str(col)[:4] for col in INTLINE_temp.columns]
-    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Labour Market', data_year=2011, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
+    elif address.find('BTEIT') >= 0:
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
+        INTLINE_temp.index = [re.sub(r'\*', "", str(dex)).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Price Index', data_year=2021, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
     # return 'testing', False, False, False
     print(INTLINE_temp)
     # ERROR('')
@@ -6347,7 +6408,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                  str(Series[freq].iloc[ind]['Short Label']).replace(Countries.loc[country, 'Country_Name'],'')).strip(' ,').replace(Countries.loc[country, 'Country_Name'].lower(),Countries.loc[country, 'Country_Name'])+suffix
             if str(Series[freq].iloc[ind]['Scale']) != 'nan' and str(Series[freq].iloc[ind]['Scale']) != 'Unit':
                 unit = str(Series[freq].iloc[ind]['Scale'])+' of '+str(Series[freq].iloc[ind]['Unit'])
-            elif str(Series[freq].iloc[ind]['Unit']) == 'Index' and (address.find('PPI') < 0 and address.find('CFIB') < 0 and str(dataset).find('5206') != 0 and address.find('CNI') < 0):
+            elif str(Series[freq].iloc[ind]['Unit']) == 'Index' and (address.find('PPI') < 0 and address.find('CFIB') < 0 and str(dataset).find('5206') != 0 and address.find('CNI') < 0 and address.find('BOT') < 0):
                 if base_year != 0 :
                     base = base_year
                 elif address.find('NIKK') >= 0:
