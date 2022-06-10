@@ -1,95 +1,32 @@
-﻿2022-06-09 05:56:18 PM excel_suffix: test
+﻿2022-06-10 05:48:05 PM excel_suffix: test
 
-2022-06-09 05:56:18 PM data_processing: True
+2022-06-10 05:48:05 PM data_processing: True
 
-2022-06-09 05:56:18 PM find_unknown: False
+2022-06-10 05:48:05 PM find_unknown: False
 
-2022-06-09 05:56:18 PM dealing_start_year: 1901
+2022-06-10 05:48:05 PM dealing_start_year: 1901
 
-2022-06-09 05:56:21 PM Data Processing
+2022-06-10 05:48:10 PM Data Processing
 
-2022-06-09 05:56:21 PM Reading table: Country, Time: 3s
+2022-06-10 05:48:10 PM Reading table: Country, Time: 5s
 
-2022-06-09 05:56:21 PM Reading table: TABLES, Time: 3 s
+2022-06-10 05:48:11 PM Reading table: TABLES, Time: 5 s
 
-2022-06-09 05:56:34 PM Reading file: country_series, Time: 16 s
+2022-06-10 05:48:24 PM Reading file: country_series, Time: 18 s
 
-2022-06-09 05:56:34 PM Reading file: 578datasets, Time: 16 s
+2022-06-10 05:48:24 PM Reading file: 578datasets, Time: 18 s
 
-2022-06-09 05:56:35 PM 
+2022-06-10 05:48:24 PM 
 
-2022-06-09 05:56:35 PM ====== WebDriver manager ======
-2022-06-09 05:56:35 PM Current google-chrome version is 102.0.5005
-2022-06-09 05:56:35 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-09 05:56:35 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-09 05:56:38 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-09 05:56:39 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/SelectProvinceIndexG_region.asp?type_code=g&check_f=i&region_code=5, sheet: Consumer Price Index, frequency: M, Time: 21s
+2022-06-10 05:48:24 PM ====== WebDriver manager ======
+2022-06-10 05:48:25 PM Current google-chrome version is 102.0.5005
+2022-06-10 05:48:25 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-10 05:48:25 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-10 05:48:27 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-10 05:48:29 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-09 05:56:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-10 05:48:29 PM Country: Thailand, Reading file or url: Production Index (Value added Weight), sheet: 0, frequency: M, Time: 23s
 
-2022-06-09 05:56:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-10 05:48:29 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-09 05:56:39 PM Latest Base Year Received.
-
-2022-06-09 05:56:41 PM Total New Items Found: 9 Time: 22 s
-
-2022-06-09 05:56:41 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/tableIndexPpiCpa_bot.asp, sheet: Producer Price Index by Product Group, frequency: M, Time: 23s
-
-2022-06-09 05:56:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-09 05:56:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-09 05:56:41 PM Latest Base Year Received.
-
-2022-06-09 05:56:42 PM Total New Items Found: 15 Time: 23 s
-
-2022-06-09 05:56:42 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/tableIndexPpiSop_bot.asp, sheet: Producer Price Index by Stage of Processing, frequency: M, Time: 24s
-
-2022-06-09 05:56:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-09 05:56:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-09 05:56:42 PM Latest Base Year Received.
-
-2022-06-09 05:56:43 PM Total New Items Found: 18 Time: 24 s
-
-2022-06-09 05:56:45 PM Reading file: INTLINE_database?, Time: 26 s
-
-2022-06-09 05:56:45 PM Concating file: INTLINE_key?, Time: 26 s
-
-2022-06-09 05:56:45 PM Concating file: INTLINE_database?, Time: 26 s
-
-2022-06-09 05:56:45 PM Time: 26 s
-
-2022-06-09 05:56:45 PM Setting new files, Time: 26 s
-
-2022-06-09 05:56:45 PM Concating new files: INTLINE_database, Time: 26 s
-
-2022-06-09 05:56:45 PM    databank             name   db_table  db_code                                             desc_e  ...                                               type snl                                            source  form_e                   form_c
-0   INTLINE    M578BTECPI1.M  DB_M_0001  data001  Thailand Price Statistics, Prices, Consumer Pr...  ...                                              Total   1  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-1   INTLINE   M578BTECPI11.M  DB_M_0001  data002  Thailand Price Statistics, Prices, Consumer Pr...  ...                              Clothing and Footwear   2  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-2   INTLINE   M578BTECPI12.M  DB_M_0001  data003  Thailand Price Statistics, Prices, Consumer Pr...  ...   Housing, Water, Electricity, Gas and Other Fuels   3  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-3   INTLINE   M578BTECPI13.M  DB_M_0001  data004  Thailand Price Statistics, Prices, Consumer Pr...  ...                                             Health   4  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-4   INTLINE   M578BTECPI14.M  DB_M_0001  data005  Thailand Price Statistics, Prices, Consumer Pr...  ...                                          Transport   5  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-5   INTLINE   M578BTECPI15.M  DB_M_0001  data006  Thailand Price Statistics, Prices, Consumer Pr...  ...                             Recreation and Culture   6  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-6   INTLINE   M578BTECPI16.M  DB_M_0001  data007  Thailand Price Statistics, Prices, Consumer Pr...  ...         Alcoholic Beverages, Tobacco and Narcotics   7  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-7   INTLINE   M578BTECPI17.M  DB_M_0001  data008  Thailand Price Statistics, Prices, Consumer Pr...  ...                                               Food   8  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-8   INTLINE    M578BTECPI2.M  DB_M_0001  data009  Thailand Price Statistics, Prices, Consumer Pr...  ...                   Food and Non-Alcoholic Beverages   9  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-9   INTLINE    M578BTEPPI1.M  DB_M_0001  data010  Thailand Price Statistics, Prices, Producer Pr...  ...                                              Total  10  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-10  INTLINE  M578BTEPPI141.M  DB_M_0001  data011  Thailand Price Statistics, Prices, Producer Pr...  ...                         Refined Petroleum Products  11  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-11  INTLINE    M578BTEPPI2.M  DB_M_0001  data012  Thailand Price Statistics, Prices, Producer Pr...  ...  Crop and Animal Production, Hunting and Relate...  12  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-12  INTLINE  M578BTEPPI217.M  DB_M_0001  data013  Thailand Price Statistics, Prices, Producer Pr...  ...                               Electrical Equipment  13  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-13  INTLINE  M578BTEPPI261.M  DB_M_0001  data014  Thailand Price Statistics, Prices, Producer Pr...  ...                                     Finished Goods  14  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-14  INTLINE  M578BTEPPI339.M  DB_M_0001  data015  Thailand Price Statistics, Prices, Producer Pr...  ...                                     Finished Goods  15  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-15  INTLINE   M578BTEPPI37.M  DB_M_0001  data016  Thailand Price Statistics, Prices, Producer Pr...  ...                               Mining and Quarrying  16  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-16  INTLINE  M578BTEPPI416.M  DB_M_0001  data017  Thailand Price Statistics, Prices, Producer Pr...  ...                                      Raw Materials  17  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-17  INTLINE   M578BTEPPI51.M  DB_M_0001  data018  Thailand Price Statistics, Prices, Producer Pr...  ...                                      Manufacturing  18  Bureau of Trade and Economic Indices of Thailand  Prices  Not Seasonally Adjusted
-
-[18 rows x 15 columns]
-2022-06-09 05:56:45 PM Total Items: 18
-2022-06-09 05:56:45 PM New items were found
-2022-06-09 05:56:45 PM                                                                                                 Country Address                                            Source Frequency               keyword  counts  Unnamed: 8 Unnamed: 9  new_counts
-Sheet                                       File                                                                                                                                                                                            
-Consumer Price Index                        http://www.indexpr.moc.go.th/price_present/Sele...      578  BTEIT/  Bureau of Trade and Economic Indices of Thailand         M  web crawler/manually     NaN         NaN        NaN           9
-Producer Price Index by Product Group       http://www.indexpr.moc.go.th/price_present/tabl...      578  BTEIT/  Bureau of Trade and Economic Indices of Thailand         M  web crawler/manually     NaN         NaN        NaN           6
-Producer Price Index by Stage of Processing http://www.indexpr.moc.go.th/price_present/tabl...      578  BTEIT/  Bureau of Trade and Economic Indices of Thailand         M  web crawler/manually     NaN         NaN        NaN           3
+2022-06-10 05:48:37 PM = ! = 

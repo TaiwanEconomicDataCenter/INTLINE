@@ -578,7 +578,7 @@ def INTLINE_COPY_FILE(destination, new_file_name, old_file_name):
                 shutil.move(destination+new_file_name, destination+'old/'+new_file_name)
         shutil.copyfile(destination+old_file_name, destination+new_file_name)
 
-def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=None, skiprows=None, header=None, index_col=None):
+def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_name, freq, Series, csv, encode, sheet_name, excel, repl, Name, website=None, skiprows=None, header=None, index_col=None, zf=None):
     base_year = 0
     src = file_name
     is_period = False
@@ -947,6 +947,8 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
                 base_year = int(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/select[@name="year_base"]/option[@value="1"]'))).text) - 543
             else:
                 base_year = int(WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/span[contains(text(), "Year base")]/following-sibling::span'))).text)
+    elif address.find('OIE') >= 0:
+        base_year = re.sub(r'.*?([0-9]{4}).+?base\smonth.*', r"\1", str(readExcelFile(zf.open(Name), sheet_name_=0, acceptNoFile=False).iloc[skiprows[-1]].iloc[0]).replace('\n',''))
     if (str(base_year).isnumeric() == False and is_period == False) or (str(base_year)[:4].isnumeric() == False and is_period == True):
         ERROR('Base Year Not Found in source: '+src)
     if base_year_list.empty == False:
@@ -4070,6 +4072,8 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         IN_t = IN_t.loc[:, IN_t.columns.dropna()]
                         INTLINE_temp = pd.concat([INTLINE_temp, IN_t], axis=1)
                 link_found = True
+            elif address.find('OIE') >= 0:
+                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
             if link_found == False:
                 print(link_message)
                 raise FileNotFoundError
@@ -6351,8 +6355,19 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
-    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Price Index', data_year=2021, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
-    # return 'testing', False, False, False
+    elif address.find('OIE') >= 0:
+        yr = ''
+        for col in INTLINE_temp.columns:
+            if str(col[0]).strip()[:4].isnumeric():
+                yr = str(col[0]).strip()[:4]
+            try:
+                new_columns.append(yr+'-'+datetime.strptime(str(col[1]).strip()[:3], '%b').strftime('%m'))
+            except:
+                new_columns.append(None)
+        INTLINE_temp.columns = new_columns
+        INTLINE_temp.index = [str(dex[1]).strip() for dex in INTLINE_temp.index]
+    INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Industry', data_year=2021, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
+    return 'testing', False, False, False
     print(INTLINE_temp)
     # ERROR('')
     
