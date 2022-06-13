@@ -1,43 +1,43 @@
-﻿2022-05-31 02:38:53 PM excel_suffix: mysql
+﻿2022-06-13 03:12:22 PM excel_suffix: mysql
 
-2022-05-31 02:38:53 PM data_processing: False
+2022-06-13 03:12:22 PM data_processing: False
 
-2022-05-31 02:38:53 PM find_unknown: False
+2022-06-13 03:12:22 PM find_unknown: False
 
-2022-05-31 02:38:53 PM dealing_start_year: 1901
+2022-06-13 03:12:22 PM dealing_start_year: 1901
 
-2022-05-31 02:39:41 PM Process: File Merging
+2022-06-13 03:12:44 PM Process: File Merging
 
-2022-05-31 02:39:41 PM Reading main key: ASIA_key566.xlsx, Time: 47 s
+2022-06-13 03:12:44 PM Reading main key: ASIA_key578.xlsx, Time: 22 s
 
-2022-05-31 02:39:41 PM Reading main database: ASIA_database566.xlsx, Time: 48 s
+2022-06-13 03:12:44 PM Reading main database: ASIA_database578.xlsx, Time: 22 s
 
-2022-05-31 02:39:43 PM Merging File, Time: 49 s
+2022-06-13 03:12:46 PM Merging File, Time: 24 s
 
-2022-05-31 02:39:43 PM Setting files, Time: 50 s
+2022-06-13 03:12:46 PM Setting files, Time: 24 s
 
-2022-05-31 02:39:44 PM Concating file: ASIA_key?, Time: 50 s
+2022-06-13 03:12:47 PM Concating file: ASIA_key?, Time: 25 s
 
-2022-05-31 02:39:44 PM Concating file: ASIA_database?, Time: 50 s
+2022-06-13 03:12:47 PM Concating file: ASIA_database?, Time: 25 s
 
-2022-05-31 02:39:44 PM Time: 50 s
+2022-06-13 03:12:47 PM Time: 25 s
 
-2022-05-31 02:39:46 PM Setting new files, Time: 52 s
+2022-06-13 03:12:48 PM Setting new files, Time: 26 s
 
-2022-05-31 02:39:54 PM Concating new files: ASIA_database, Time: 60 s
+2022-06-13 03:12:56 PM Concating new files: ASIA_database, Time: 34 s
 
-2022-05-31 02:40:00 PM      databank            name   db_table  db_code                                             desc_e  ...                                               type   snl                   source                              form_e                   form_c
-0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  Japan National Statistics, National Accounts, ...  ...                              Currency and Deposits     1            Bank of Japan                   National Accounts  Not Seasonally Adjusted
-1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  Japan National Statistics, National Accounts, ...  ...         Equity and Investment Fund Shares or Units     2            Bank of Japan                   National Accounts  Not Seasonally Adjusted
-2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  Japan National Statistics, National Accounts, ...  ...  Insurance, Pension and Standardised Guarantee ...     3            Bank of Japan                   National Accounts  Not Seasonally Adjusted
-3        ASIA  A158BOJFOF29.A  DB_A_0001  data004  Japan National Statistics, National Accounts, ...  ...                  Other Accounts Receivable/Payable     4            Bank of Japan                   National Accounts  Not Seasonally Adjusted
-4        ASIA   A158BOJFOF9.A  DB_A_0001  data005  Japan National Statistics, National Accounts, ...  ...                                    Debt Securities     5            Bank of Japan                   National Accounts  Not Seasonally Adjusted
-...       ...             ...        ...      ...                                                ...  ...                                                ...   ...                      ...                                 ...                      ...
-3647     ASIA       W576STI.W  DB_W_0001  data011  Singapore Share Prices and Stock Indexes, Stra...  ...                   Straits Times Index, Close Price  3648       Singapore Exchange            Singapore Stock Exchange  Not Seasonally Adjusted
-3648     ASIA      W924SSEA.W  DB_W_0001  data012  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, A Share In...  3649  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-3649     ASIA      W924SSEB.W  DB_W_0001  data013  China Share Prices and Stock Indexes, Shanghai...  ...  Shanghai Stock Exchange Main Board, B Share In...  3650  Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-3650     ASIA     W924SZSEA.W  DB_W_0001  data014  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, A Share In...  3651   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-3651     ASIA     W924SZSEB.W  DB_W_0001  data015  China Share Prices and Stock Indexes, Shenzhen...  ...  Shenzhen Stock Exchange Main Board, B Share In...  3652   Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+2022-06-13 03:13:03 PM      databank            name   db_table  db_code  ...   snl                      source                              form_e                   form_c
+0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  ...     1               Bank of Japan                   National Accounts  Not Seasonally Adjusted
+1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  ...     2               Bank of Japan                   National Accounts  Not Seasonally Adjusted
+2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  ...     3               Bank of Japan                   National Accounts  Not Seasonally Adjusted
+3        ASIA  A158BOJFOF29.A  DB_A_0001  data004  ...     4               Bank of Japan                   National Accounts  Not Seasonally Adjusted
+4        ASIA   A158BOJFOF9.A  DB_A_0001  data005  ...     5               Bank of Japan                   National Accounts  Not Seasonally Adjusted
+...       ...             ...        ...      ...  ...   ...                         ...                                 ...                      ...
+3969     ASIA      W578SETI.W  DB_W_0001  data012  ...  3970  Stock Exchange of Thailand              Thailand General Index  Not Seasonally Adjusted
+3970     ASIA      W924SSEA.W  DB_W_0001  data013  ...  3971     Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3971     ASIA      W924SSEB.W  DB_W_0001  data014  ...  3972     Shanghai Stock Exchange  Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+3972     ASIA     W924SZSEA.W  DB_W_0001  data015  ...  3973      Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+3973     ASIA     W924SZSEB.W  DB_W_0001  data016  ...  3974      Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
-[3652 rows x 15 columns]
-2022-05-31 02:40:00 PM Total Items: 3652
+[3974 rows x 15 columns]
+2022-06-13 03:13:03 PM Total Items: 3974
