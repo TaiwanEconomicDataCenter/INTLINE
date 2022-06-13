@@ -6356,6 +6356,10 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         INTLINE_temp = INTLINE_temp.sort_index(axis=1)
         INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
     elif address.find('OIE') >= 0:
+        file_path = data_path+str(country)+'/'+address+str(dataset)+'_historical.xlsx'
+        INTLINE_his = readExcelFile(file_path, header_=[0], index_col_=0, sheet_name_=0)
+        KEYS = list(Series[freq].loc[Series[freq]['DataSet']==str(dataset)]['keyword'])
+        INTLINE_his.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_his.columns]
         yr = ''
         for col in INTLINE_temp.columns:
             if str(col[0]).strip()[:4].isnumeric():
@@ -6365,10 +6369,21 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             except:
                 new_columns.append(None)
         INTLINE_temp.columns = new_columns
-        INTLINE_temp.index = [str(dex[1]).strip() for dex in INTLINE_temp.index]
-    INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Industry', data_year=2021, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
-    return 'testing', False, False, False
-    print(INTLINE_temp)
+        if str(fname).find('Production Index') >= 0:
+            INTLINE_temp.index = [str(dex[1]).strip() for dex in INTLINE_temp.index]
+        else:
+            INTLINE_temp.index = [str(dex).strip() for dex in INTLINE_temp.index]
+        INTLINE_temp.index = [dex if dex in KEYS else None for dex in INTLINE_temp.index]
+        INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna(), INTLINE_temp.columns.dropna()]
+        INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
+        INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=str(dataset)[:30])
+    elif address.find('UTCC') >= 0:
+        INTLINE_temp.columns = [col.strftime('%Y-%m') if type(col) != str else col for col in INTLINE_temp.columns]
+    # INTLINE_keywords(INTLINE_temp, data_path, country, address, fname=dataset, freq=freq, data_key='Industry', data_year=2021, multiplier=1, check_long_label=False, allow_duplicates=False, multiple=False)
+    # return 'testing', False, False, False
+    # print(INTLINE_temp)
     # ERROR('')
     
     #################################################################################################################################################################################################################
@@ -6423,7 +6438,7 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
                  str(Series[freq].iloc[ind]['Short Label']).replace(Countries.loc[country, 'Country_Name'],'')).strip(' ,').replace(Countries.loc[country, 'Country_Name'].lower(),Countries.loc[country, 'Country_Name'])+suffix
             if str(Series[freq].iloc[ind]['Scale']) != 'nan' and str(Series[freq].iloc[ind]['Scale']) != 'Unit':
                 unit = str(Series[freq].iloc[ind]['Scale'])+' of '+str(Series[freq].iloc[ind]['Unit'])
-            elif str(Series[freq].iloc[ind]['Unit']) == 'Index' and (address.find('PPI') < 0 and address.find('CFIB') < 0 and str(dataset).find('5206') != 0 and address.find('CNI') < 0 and address.find('BOT') < 0):
+            elif str(Series[freq].iloc[ind]['Unit']) == 'Index' and (address.find('PPI') < 0 and address.find('CFIB') < 0 and str(dataset).find('5206') != 0 and address.find('CNI') < 0 and address.find('BOT') < 0 and address.find('UTCC') < 0):
                 if base_year != 0 :
                     base = base_year
                 elif address.find('NIKK') >= 0:

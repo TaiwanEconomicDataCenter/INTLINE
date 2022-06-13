@@ -1,32 +1,292 @@
-﻿2022-06-10 05:48:05 PM excel_suffix: test
+﻿2022-06-13 02:58:07 PM excel_suffix: test
 
-2022-06-10 05:48:05 PM data_processing: True
+2022-06-13 02:58:07 PM data_processing: True
 
-2022-06-10 05:48:05 PM find_unknown: False
+2022-06-13 02:58:07 PM find_unknown: False
 
-2022-06-10 05:48:05 PM dealing_start_year: 1901
+2022-06-13 02:58:07 PM dealing_start_year: 1901
 
-2022-06-10 05:48:10 PM Data Processing
+2022-06-13 02:58:11 PM Data Processing
 
-2022-06-10 05:48:10 PM Reading table: Country, Time: 5s
+2022-06-13 02:58:11 PM Reading table: Country, Time: 4s
 
-2022-06-10 05:48:11 PM Reading table: TABLES, Time: 5 s
+2022-06-13 02:58:11 PM Reading table: TABLES, Time: 4 s
 
-2022-06-10 05:48:24 PM Reading file: country_series, Time: 18 s
+2022-06-13 02:58:24 PM Reading file: country_series, Time: 17 s
 
-2022-06-10 05:48:24 PM Reading file: 578datasets, Time: 18 s
+2022-06-13 02:58:25 PM Reading file: 578datasets, Time: 17 s
 
-2022-06-10 05:48:24 PM 
+2022-06-13 02:58:25 PM 
 
-2022-06-10 05:48:24 PM ====== WebDriver manager ======
-2022-06-10 05:48:25 PM Current google-chrome version is 102.0.5005
-2022-06-10 05:48:25 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-10 05:48:25 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-10 05:48:27 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-10 05:48:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-13 02:58:25 PM ====== WebDriver manager ======
+2022-06-13 02:58:25 PM Current google-chrome version is 102.0.5005
+2022-06-13 02:58:25 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-13 02:58:25 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-13 02:58:28 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-13 02:58:30 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 23s
 
-2022-06-10 05:48:29 PM Country: Thailand, Reading file or url: Production Index (Value added Weight), sheet: 0, frequency: M, Time: 23s
+2022-06-13 02:58:30 PM Downloading file: Gross Domestic Product Chain Volume Measures
 
-2022-06-10 05:48:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-13 02:58:38 PM Getting Data From Website
 
-2022-06-10 05:48:37 PM = ! = 
+2022-06-13 02:59:01 PM Total New Items Found: 11 Time: 54 s
+
+2022-06-13 02:59:01 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#1, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 54s
+
+2022-06-13 02:59:02 PM Total New Items Found: 24 Time: 55 s
+
+2022-06-13 02:59:02 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: A, Time: 55s
+
+2022-06-13 02:59:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:16 PM Total New Items Found: 53 Time: 69 s
+
+2022-06-13 02:59:16 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#2, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 69s
+
+2022-06-13 02:59:17 PM Total New Items Found: 69 Time: 70 s
+
+2022-06-13 02:59:17 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#3, sheet: Gross Domestic Product Chain Volume Measures, frequency: Q, Time: 70s
+
+2022-06-13 02:59:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:32 PM Total New Items Found: 96 Time: 85 s
+
+2022-06-13 02:59:33 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#4, sheet: National Income of Thailand Chain Volume Measures, frequency: A, Time: 85s
+
+2022-06-13 02:59:33 PM Downloading file: National Income of Thailand Chain Volume Measures
+
+2022-06-13 02:59:33 PM Getting Data From Website
+
+2022-06-13 02:59:42 PM Total New Items Found: 134 Time: 95 s
+
+2022-06-13 02:59:42 PM Country: Thailand, Reading file or url: https://www.nesdc.go.th/nesdb_en/main.php?filename=national_account#5, sheet: National Income of Thailand Chain Volume Measures, frequency: A, Time: 95s
+
+2022-06-13 02:59:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 02:59:43 PM Total New Items Found: 135 Time: 96 s
+
+2022-06-13 02:59:44 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatMacroEconomicIndicators.aspx, sheet: Thailand's Macro Economic Indicators, frequency: A, Time: 97s
+
+2022-06-13 02:59:44 PM Downloading file: Thailand's Macro Economic Indicators
+
+2022-06-13 02:59:48 PM Getting Data From Website
+
+2022-06-13 02:59:58 PM Total New Items Found: 136 Time: 110 s
+
+2022-06-13 02:59:58 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/RealSector/Pages/Index.aspx, sheet: Labour Force Survey (New Series ISIC Rev.4), frequency: A, Time: 111s
+
+2022-06-13 02:59:58 PM Downloading file: Labour Force Survey (New Series ISIC Rev.4)
+
+2022-06-13 02:59:59 PM Getting Data From Website
+
+2022-06-13 03:00:09 PM Total New Items Found: 141 Time: 122 s
+
+2022-06-13 03:00:09 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatBalanceofPayments.aspx, sheet: Balance of Payments, frequency: Q, Time: 122s
+
+2022-06-13 03:00:09 PM Downloading file: Balance of Payments
+
+2022-06-13 03:00:10 PM Getting Data From Website
+
+2022-06-13 03:00:22 PM Total New Items Found: 173 Time: 135 s
+
+2022-06-13 03:00:23 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatExternalDebt.aspx, sheet: External Debt, frequency: Q, Time: 135s
+
+2022-06-13 03:00:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:23 PM Total New Items Found: 182 Time: 136 s
+
+2022-06-13 03:00:23 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/RealSector/Pages/index.aspx#2, sheet: Average wage classified by industry (ISIC Rev.4), frequency: Q, Time: 136s
+
+2022-06-13 03:00:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:24 PM Total New Items Found: 183 Time: 137 s
+
+2022-06-13 03:00:24 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatEconomicIndices.aspx#1, sheet: Business Sentiment Index by components, frequency: M, Time: 137s
+
+2022-06-13 03:00:24 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:24 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:25 PM Total New Items Found: 197 Time: 138 s
+
+2022-06-13 03:00:25 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatInternationalTrade.aspx#1, sheet: Trade Classified by Commodity Group, frequency: M, Time: 138s
+
+2022-06-13 03:00:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:29 PM Total New Items Found: 216 Time: 142 s
+
+2022-06-13 03:00:29 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatInternationalTrade.aspx#2, sheet: Imports Classified by Economic Classification, frequency: M, Time: 142s
+
+2022-06-13 03:00:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:29 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:30 PM Total New Items Found: 219 Time: 143 s
+
+2022-06-13 03:00:30 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatInternationalTrade.aspx#3, sheet: Total Value and Quantity of Exports Classified by Product Group, frequency: M, Time: 143s
+
+2022-06-13 03:00:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:32 PM Total New Items Found: 228 Time: 145 s
+
+2022-06-13 03:00:32 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatInternationalReserves.aspx, sheet: International Reserves, frequency: M, Time: 145s
+
+2022-06-13 03:00:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:33 PM Total New Items Found: 233 Time: 146 s
+
+2022-06-13 03:00:34 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/PublicFinance/Pages/default.aspx, sheet: Government Domestic and External Debt Outstanding, frequency: M, Time: 146s
+
+2022-06-13 03:00:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:34 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:34 PM Total New Items Found: 236 Time: 147 s
+
+2022-06-13 03:00:35 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatMFSSurvey.aspx, sheet: Monetary Aggregates and Components, frequency: M, Time: 147s
+
+2022-06-13 03:00:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:35 PM Total New Items Found: 238 Time: 148 s
+
+2022-06-13 03:00:35 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatEconomicIndices.aspx#2, sheet: Leading Economic Index and Components (Seasonally Adjusted), frequency: M, Time: 148s
+
+2022-06-13 03:00:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:36 PM Total New Items Found: 239 Time: 149 s
+
+2022-06-13 03:00:36 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatEconomicIndices.aspx#3, sheet: PII and Components (Seasonally Adjusted), frequency: M, Time: 149s
+
+2022-06-13 03:00:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:37 PM Total New Items Found: 241 Time: 150 s
+
+2022-06-13 03:00:37 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatEconomicIndices.aspx#4, sheet: Private Consumption Index and Components (Seasonally Adjusted), frequency: M, Time: 150s
+
+2022-06-13 03:00:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:37 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:38 PM Total New Items Found: 242 Time: 150 s
+
+2022-06-13 03:00:38 PM Country: Thailand, Reading file or url: https://www.bot.or.th/English/Statistics/EconomicAndFinancial/Pages/StatPropertyIndicators.aspx, sheet: Property Indicators, frequency: M, Time: 151s
+
+2022-06-13 03:00:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:38 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:38 PM Total New Items Found: 243 Time: 151 s
+
+2022-06-13 03:00:39 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/SelectProvinceIndexG_region.asp?type_code=g&check_f=i&region_code=5, sheet: Consumer Price Index, frequency: M, Time: 151s
+
+2022-06-13 03:00:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:39 PM Latest Base Year Received.
+
+2022-06-13 03:00:41 PM Total New Items Found: 252 Time: 153 s
+
+2022-06-13 03:00:41 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/tableIndexPpiCpa_bot.asp, sheet: Producer Price Index by Product Group, frequency: M, Time: 154s
+
+2022-06-13 03:00:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:41 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:41 PM Latest Base Year Received.
+
+2022-06-13 03:00:42 PM Total New Items Found: 258 Time: 155 s
+
+2022-06-13 03:00:42 PM Country: Thailand, Reading file or url: http://www.indexpr.moc.go.th/price_present/tableIndexPpiSop_bot.asp, sheet: Producer Price Index by Stage of Processing, frequency: M, Time: 155s
+
+2022-06-13 03:00:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:42 PM Latest Base Year Received.
+
+2022-06-13 03:00:43 PM Total New Items Found: 261 Time: 156 s
+
+2022-06-13 03:00:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:43 PM Country: Thailand, Reading file or url: Production Index (Value added Weight), sheet: 0, frequency: M, Time: 156s
+
+2022-06-13 03:00:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:49 PM Total New Items Found: 316 Time: 162 s
+
+2022-06-13 03:00:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:49 PM Country: Thailand, Reading file or url: Capacity Utilization Rate, sheet: 0, frequency: M, Time: 162s
+
+2022-06-13 03:00:49 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:50 PM Total New Items Found: 317 Time: 162 s
+
+2022-06-13 03:00:50 PM Country: Thailand, Reading file or url: Consumer Confidence Index Historical Data, sheet: 0, frequency: M, Time: 163s
+
+2022-06-13 03:00:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-13 03:00:51 PM Total New Items Found: 320 Time: 164 s
+
+2022-06-13 03:00:51 PM Reading file: Datasets, Time: 164 s
+
+2022-06-13 03:00:51 PM Country: Thailand, Reading file or url: https://www.investing.com/indices/thailand-set-historical-data, sheet: Thailand General Index, frequency: W, Time: 164s
+
+2022-06-13 03:01:01 PM Total New Items Found: 321 Time: 174 s
+
+2022-06-13 03:01:01 PM Country: Thailand, Reading file or url: https://www.investing.com/indices/thailand-set-historical-data, sheet: Thailand General Index, frequency: D, Time: 174s
+
+2022-06-13 03:01:05 PM Total New Items Found: 322 Time: 177 s
+
+2022-06-13 03:01:08 PM Reading file: INTLINE_database?, Time: 180 s
+
+2022-06-13 03:01:08 PM Concating file: INTLINE_key?, Time: 180 s
+
+2022-06-13 03:01:08 PM Concating file: INTLINE_database?, Time: 180 s
+
+2022-06-13 03:01:08 PM Time: 180 s
+
+2022-06-13 03:01:08 PM Setting new files, Time: 180 s
+
+2022-06-13 03:01:08 PM Concating new files: INTLINE_database, Time: 181 s
+
+2022-06-13 03:01:09 PM     databank             name   db_table  db_code                                             desc_e  ...                                               type  snl                                             source                  form_e                   form_c
+0    INTLINE    A578BOTLFS1.A  DB_A_0001  data001  Thailand National Statistics, Demographic Indi...  ...                                         Population    1                                   Bank of Thailand  Demographic Indicators  Not Seasonally Adjusted
+1    INTLINE   A578BOTLFS11.A  DB_A_0001  data002  Thailand National Statistics, Labour Market, E...  ...                                      Manufacturing    2                                   Bank of Thailand           Labour Market  Not Seasonally Adjusted
+2    INTLINE   A578BOTLFS25.A  DB_A_0001  data003  Thailand National Statistics, Labour Market, U...  ...                                              Total    3                                   Bank of Thailand           Labour Market  Not Seasonally Adjusted
+3    INTLINE    A578BOTLFS4.A  DB_A_0001  data004  Thailand National Statistics, Labour Market, L...  ...                                              Total    4                                   Bank of Thailand           Labour Market  Not Seasonally Adjusted
+4    INTLINE    A578BOTLFS5.A  DB_A_0001  data005  Thailand National Statistics, Labour Market, E...  ...                                              Total    5                                   Bank of Thailand           Labour Market  Not Seasonally Adjusted
+..       ...              ...        ...      ...                                                ...  ...                                                ...  ...                                                ...                     ...                      ...
+317  INTLINE  Q578NESVGNPA5.Q  DB_Q_0001  data095  Thailand National Statistics, National Account...  ...                               Mining and Quarrying  318  Office of the National Economic and Social Dev...       National Accounts      Seasonally Adjusted
+318  INTLINE  Q578NESVGNPA6.Q  DB_Q_0001  data096  Thailand National Statistics, National Account...  ...                                      Manufacturing  319  Office of the National Economic and Social Dev...       National Accounts      Seasonally Adjusted
+319  INTLINE  Q578NESVGNPA8.Q  DB_Q_0001  data097  Thailand National Statistics, National Account...  ...                                       Construction  320  Office of the National Economic and Social Dev...       National Accounts      Seasonally Adjusted
+320  INTLINE  Q578NESVGNPA9.Q  DB_Q_0001  data098  Thailand National Statistics, National Account...  ...  Wholesale and Retail Trade, Repair of Motor Ve...  321  Office of the National Economic and Social Dev...       National Accounts      Seasonally Adjusted
+321  INTLINE       W578SETI.W  DB_W_0001  data001  Thailand Share Prices and Stock Indexes, Gener...  ...                         General Index, Close Price  322                         Stock Exchange of Thailand  Thailand General Index  Not Seasonally Adjusted
+
+[322 rows x 15 columns]
+2022-06-13 03:01:09 PM Total Items: 322

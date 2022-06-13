@@ -1397,7 +1397,7 @@ if data_processing and find_unknown == True:
     if new_tables.empty == False:
         logging.info('New items were found')
         logging.info(new_tables)
-        if 1<0:#bool(int(input('Update the table file (1/0): '))):
+        if bool(int(input('Update the table file (1/0): '))):
             new_tables['New Total Counts'] = new_tables['counts'].apply(lambda x: 0 if str(x) == 'nan' else x)+new_tables['new_counts']
             try:
                 xl = win32.gencache.EnsureDispatch('Excel.Application')
