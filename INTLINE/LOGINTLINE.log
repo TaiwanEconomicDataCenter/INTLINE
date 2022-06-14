@@ -1,32 +1,31 @@
-﻿2022-06-14 07:16:24 PM excel_suffix: test
+﻿2022-06-14 09:45:41 PM excel_suffix: test
 
-2022-06-14 07:16:24 PM data_processing: True
+2022-06-14 09:45:41 PM data_processing: True
 
-2022-06-14 07:16:24 PM find_unknown: False
+2022-06-14 09:45:41 PM find_unknown: False
 
-2022-06-14 07:16:24 PM dealing_start_year: 1901
+2022-06-14 09:45:41 PM dealing_start_year: 1901
 
-2022-06-14 07:16:27 PM Data Processing
+2022-06-14 09:45:49 PM Data Processing
 
-2022-06-14 07:16:27 PM Reading table: Country, Time: 3s
+2022-06-14 09:45:49 PM Reading table: Country, Time: 8s
 
-2022-06-14 07:16:28 PM Reading table: TABLES, Time: 3 s
+2022-06-14 09:45:49 PM Reading table: TABLES, Time: 8 s
 
-2022-06-14 07:16:31 PM Reading file: country_series, Time: 7 s
+2022-06-14 09:45:56 PM Reading file: country_series, Time: 15 s
 
-2022-06-14 07:16:31 PM Reading file: 542datasets, Time: 7 s
+2022-06-14 09:45:56 PM Reading file: 542datasets, Time: 15 s
 
-2022-06-14 07:16:32 PM 
+2022-06-14 09:45:57 PM ====== WebDriver manager ======
+2022-06-14 09:45:57 PM Current google-chrome version is 102.0.5005
+2022-06-14 09:45:57 PM Get LATEST driver version for 102.0.5005
+2022-06-14 09:45:58 PM Driver [C:\Users\lawre\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-14 09:46:00 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/4db399, sheet: Annual, frequency: A, Time: 19s
 
-2022-06-14 07:16:32 PM ====== WebDriver manager ======
-2022-06-14 07:16:32 PM Current google-chrome version is 102.0.5005
-2022-06-14 07:16:32 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-14 07:16:32 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-14 07:16:35 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-14 07:16:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/SearchStat#1, sheet: Annual, frequency: A, Time: 12s
+2022-06-14 09:46:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-14 07:16:36 PM Downloading file: Annual
+2022-06-14 09:46:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-14 07:16:40 PM Getting Data From Website
+2022-06-14 09:46:00 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-14 07:17:57 PM = ! = The file was not properly downloaded
+2022-06-14 09:46:27 PM = ! = No new items were found.

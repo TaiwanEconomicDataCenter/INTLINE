@@ -2484,73 +2484,73 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('BOK') >= 0:
                 FREQ = {'A':['Yearly','1953'], 'Q':['Quarterly','1960'], 'M':['Monthly','1960']}
-                # Routes = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes'])) for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
-                if str(sname).find('_NA2') >= 0:
-                    Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-2] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
-                else:
-                    Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-1] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
-                Routes = []
-                for r in Routes_t:
-                    if r not in Routes:
-                        Routes.append(r)
-                max_count = 0
-                chrome.set_window_size(1280,1020)
-                try:
-                    ActionChains(chrome).click(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/a[text()="English"]')))).perform()
-                except:
-                    time.sleep(0)
-                time.sleep(3)
-                while True:
-                    try:
-                        # WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="form-group-circle"][contains(., "Cycle")]/div'))).click()
-                        # chrome.find_element_by_xpath('.//div[@role="option"][contains(., "'+FREQ[freq][0]+'")]').click()
-                        for route in Routes:
-                            target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Table Select")]//table')
-                            section_change = False
-                            same_route = True
-                            for item in route:
-                                sys.stdout.write("\rGetting Route Item: "+str(item)+" "*100)
-                                sys.stdout.flush()
-                                print(same_route)
-                                if WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-expanded' and section_change == False:
-                                    continue
-                                elif WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-leaf':
-                                    section_change = True
-                                intercept_count = 0
-                                while True:
-                                    try:
-                                        # WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div'))).click()
-                                        ActionChains(chrome).click(WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div')))).perform()
-                                    except ElementClickInterceptedException:
-                                        intercept_count += 1
-                                        if intercept_count > 3:
-                                            raise ElementNotInteractableException
-                                    else:
-                                        break
-                                same_route = False
-                                time.sleep(3)
-                                if section_change == True:
-                                    # target = chrome.find_element_by_xpath('.//section[@store-domain="classSearch"]')
-                                    # target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Item Select")]//table')
-                                    break
-                            if same_route == True:
-                                continue
-                            # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-1])+'")]/div/div[@role="checkbox"]'))).click()
-                            # if str(sname).find('_NA2') >= 0:
-                                # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-2])+'")]/div/div[@role="checkbox"]'))).click()
-                            # chrome.find_element_by_xpath('.//button[@class="add"]').click()
-                            chrome.find_element_by_xpath('.//label[contains(., "Select All")]').click()
-                            chrome.find_element_by_xpath('.//button[contains(., "Add to List")]').click()
-                            sys.stdout.write('\n\n')
-                    except (TimeoutException, StaleElementReferenceException):
-                        max_count += 1
-                        if max_count > 3:
-                            raise ElementNotInteractableException
-                        chrome.refresh()
+                if str(fname).find('Short') < 0:
+                    # Routes = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes'])) for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
+                    if str(sname).find('_NA2') >= 0:
+                        Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-2] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
                     else:
-                        break
-                chrome.find_element_by_xpath('.//button[contains(., "View List")]').click()
-                time.sleep(2)
+                        Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-1] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
+                    Routes = []
+                    for r in Routes_t:
+                        if r not in Routes:
+                            Routes.append(r)
+                    max_count = 0
+                    chrome.set_window_size(1280,1020)
+                    try:
+                        ActionChains(chrome).click(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/a[text()="English"]')))).perform()
+                    except:
+                        time.sleep(0)
+                    time.sleep(3)
+                    while True:
+                        try:
+                            # WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="form-group-circle"][contains(., "Cycle")]/div'))).click()
+                            # chrome.find_element_by_xpath('.//div[@role="option"][contains(., "'+FREQ[freq][0]+'")]').click()
+                            for route in Routes:
+                                target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Table Select")]//table')
+                                section_change = False
+                                same_route = True
+                                for item in route:
+                                    sys.stdout.write("\rGetting Route Item: "+str(item)+" "*100)
+                                    sys.stdout.flush()
+                                    if WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-expanded' and section_change == False:
+                                        continue
+                                    elif WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-leaf':
+                                        section_change = True
+                                    intercept_count = 0
+                                    while True:
+                                        try:
+                                            # WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div'))).click()
+                                            ActionChains(chrome).click(WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div')))).perform()
+                                        except ElementClickInterceptedException:
+                                            intercept_count += 1
+                                            if intercept_count > 3:
+                                                raise ElementNotInteractableException
+                                        else:
+                                            break
+                                    same_route = False
+                                    time.sleep(3)
+                                    if section_change == True:
+                                        # target = chrome.find_element_by_xpath('.//section[@store-domain="classSearch"]')
+                                        # target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Item Select")]//table')
+                                        break
+                                if same_route == True:
+                                    continue
+                                # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-1])+'")]/div/div[@role="checkbox"]'))).click()
+                                # if str(sname).find('_NA2') >= 0:
+                                    # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-2])+'")]/div/div[@role="checkbox"]'))).click()
+                                # chrome.find_element_by_xpath('.//button[@class="add"]').click()
+                                chrome.find_element_by_xpath('.//label[contains(., "Select All")]').click()
+                                chrome.find_element_by_xpath('.//button[contains(., "Add to List")]').click()
+                                sys.stdout.write('\n\n')
+                        except (TimeoutException, StaleElementReferenceException):
+                            max_count += 1
+                            if max_count > 3:
+                                raise ElementNotInteractableException
+                            chrome.refresh()
+                        else:
+                            break
+                    chrome.find_element_by_xpath('.//button[contains(., "View List")]').click()
+                    time.sleep(2)
                 max_count = 0
                 while True:
                     try:
@@ -2585,8 +2585,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 # chrome.find_element_by_xpath('.//a[contains(., "Download")]').click()
                 # chrome.switch_to.window(chrome.window_handles[0])
                 link_found = True
-                time.sleep(5)
-                chrome.refresh()
+                # chrome.refresh()
             elif address.find('KOSTAT') >= 0:
                 FREQ = {'Q':'Quarterly', 'M':'Monthly'}
                 key_suffix = ''
