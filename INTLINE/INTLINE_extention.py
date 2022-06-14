@@ -153,7 +153,7 @@ def Reading_Excel(file_path, tables, header, index_col, skiprows, usecols=None, 
         #ERROR(str(e))
         raise SystemExit
     except Exception as e:
-        #print(e)
+        # print(e)
         INTLINE_t = pd.DataFrame()
     if type(INTLINE_t) != dict and INTLINE_t.empty == True:
         h = None
@@ -174,7 +174,8 @@ def Reading_Excel(file_path, tables, header, index_col, skiprows, usecols=None, 
                         INTLINE_t[sheet].columns = pd.MultiIndex.from_frame(INTLINE_t[sheet].iloc[header].T)
                     if i == None and index_col != None:
                         INTLINE_t[sheet].index = pd.MultiIndex.from_frame(INTLINE_t[sheet].T.iloc[index_col].T)
-            except:
+            except Exception as e:
+                # print(e)
                 if h == None and i == None:
                     print(file_path)
                     print('The header and index of the dataframe are not correct.')
@@ -508,6 +509,25 @@ def INTLINE_WEBDRIVER(chrome, country, address, sname, tables=None, header=None,
         ExcelFile.Close()
         os.remove(path)
         os.rename(path.replace('.xls','.xlsx'), path)
+    elif address.find('BOK') >= 0:
+        path = (Path.home() / "Downloads" / excel_file).as_posix()
+        timeStart = time.time()
+        while os.path.isfile(path) == False:
+            time.sleep(0)
+            if int(time.time() - timeStart) > 60:
+                ERROR('File Download Error')
+        try:
+            xl = win32.gencache.EnsureDispatch('Excel.Application')
+        except:
+            xl = win32.DispatchEx('Excel.Application')
+        xl.DisplayAlerts=False
+        xl.Visible = 0
+        ExcelFile = xl.Workbooks.Open(path)
+        path_t = path.replace('.xlsx','1.xlsx')
+        ExcelFile.SaveCopyAs(path_t)
+        ExcelFile.Close()
+        os.remove(path)
+        os.rename(path_t, path)
     new_file_name = str(sname)+re.sub(r'.+?(\.[csvxlszipmCSVXLSXZIP]+)$', r"\1", excel_file)
     if new_file_name.find(':') >= 0:
         ERROR('File name should not contain ":" for file "'+str(new_file_name)+'"')
@@ -613,22 +633,6 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
             if base_found == False:
                 ERROR('Base Year Not Found in file: '+str(file_name))
         INTLINE_temp = INTLINE_temp.loc[INTLINE_temp['月'] != 'CY']
-    elif address.find('BOJ') >= 0 and freq == 'M':
-        for ind in range(Series[freq].shape[0]):
-            if Series[freq].iloc[ind]['DataSet'] == str(file_name) and bool(re.match(r'PR', str(Series[freq].iloc[ind]['keyword']))):
-                key = str(Series[freq].iloc[ind]['keyword'])
-                if key.find('PRCG') >= 0:
-                    url = 'https://www.boj.or.jp/en/statistics/pi/cgpi_release/index.htm/'
-                elif key.find('PRCS') >= 0:
-                    url = 'https://www.boj.or.jp/en/statistics/pi/cspi_release/index.htm/'
-                response = rq.get(url)
-                search = BeautifulSoup(response.text, "html.parser")
-                try:
-                    result = search.find_all("ul", class_="page-link")[0]
-                    idb = re.sub(r'.*?([0-9]{4}).+', r"\1", result.text.replace('\n',''), 1)[-2:]
-                    Series[freq].loc[Series[freq].index[ind], 'keyword'] = key.replace('15', idb)
-                except IndexError:
-                    ERROR('Index Base Not Found for item: '+str(key))
     elif address.find('JPC') >= 0:
         file_path = data_path+str(country)+'/'+address+'base_year.csv'
         base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
@@ -2329,9 +2333,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     except NoSuchElementException:
                         chrome.find_element_by_xpath('.//a[contains(text(), "回购交易")]').click()
                     chrome.switch_to.window(chrome.window_handles[-1])
-                    IN_t = pd.read_html(chrome.page_source, skiprows=skiprows, header=header, index_col=index_col)[0]
+                    time.sleep(1)
+                    IN_t = pd.read_html(chrome.page_source, skiprows=list(range(5)), header=[0,2], index_col=0)[0]
                     IN_t.columns = [str(col[0]).strip() if str(col[1]).find('加权平均利率') >= 0 else None for col in IN_t.columns]
-                    IN_t = IN_t.loc[:, IN_t.columns.dropna()]
+                    IN_t = IN_t.loc[IN_t.index.dropna(), IN_t.columns.dropna()]
                     INTLINE_temp = pd.concat([INTLINE_temp, IN_t])
                     INTLINE_temp = INTLINE_temp.loc[INTLINE_temp.index.dropna()]
                     chrome.close()
@@ -2412,8 +2417,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     time.sleep(2)
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='xlsx')
             elif address.find('HKCPI') >= 0:
-                target = WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "E501 ")]')))
+                target = WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "E501 ")]')))
+                target.click()
                 link_found, link_meassage = INTLINE_WEB_LINK(target, fname, keyword='xlsx')
+                time.sleep(3)
             elif address.find('DOS') >= 0:
                 # if address.find('API') >= 0:
                 #     keywords = re.split(r', ', str(file_name))
@@ -2477,56 +2484,108 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('BOK') >= 0:
                 FREQ = {'A':['Yearly','1953'], 'Q':['Quarterly','1960'], 'M':['Monthly','1960']}
-                Routes = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes'])) for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
-                count = 0
+                # Routes = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes'])) for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
+                if str(sname).find('_NA2') >= 0:
+                    Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-2] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
+                else:
+                    Routes_t = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes']))[:-1] for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
+                Routes = []
+                for r in Routes_t:
+                    if r not in Routes:
+                        Routes.append(r)
+                max_count = 0
+                chrome.set_window_size(1280,1020)
+                try:
+                    ActionChains(chrome).click(WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/a[text()="English"]')))).perform()
+                except:
+                    time.sleep(0)
+                time.sleep(3)
                 while True:
                     try:
-                        WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="form-group-circle"][contains(., "Cycle")]/div'))).click()
-                        chrome.find_element_by_xpath('.//div[@role="option"][contains(., "'+FREQ[freq][0]+'")]').click()
+                        # WebDriverWait(chrome, 20).until(EC.element_to_be_clickable((By.XPATH, './/div[@class="form-group-circle"][contains(., "Cycle")]/div'))).click()
+                        # chrome.find_element_by_xpath('.//div[@role="option"][contains(., "'+FREQ[freq][0]+'")]').click()
                         for route in Routes:
-                            target = chrome
+                            target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Table Select")]//table')
                             section_change = False
+                            same_route = True
                             for item in route:
                                 sys.stdout.write("\rGetting Route Item: "+str(item)+" "*100)
                                 sys.stdout.flush()
-                                if WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]'))).get_attribute('aria-expanded') == 'true':
+                                print(same_route)
+                                if WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-expanded' and section_change == False:
                                     continue
-                                elif WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]'))).get_attribute('aria-expanded') == None:
+                                elif WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]//span'))).get_attribute('class') == 'rg-tree-leaf':
                                     section_change = True
-                                WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]'))).click()
-                                time.sleep(1)
+                                intercept_count = 0
+                                while True:
+                                    try:
+                                        # WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div'))).click()
+                                        ActionChains(chrome).click(WebDriverWait(target, 20).until(EC.element_to_be_clickable((By.XPATH, './/tr[contains(., "'+str(item)+'")]/td/div')))).perform()
+                                    except ElementClickInterceptedException:
+                                        intercept_count += 1
+                                        if intercept_count > 3:
+                                            raise ElementNotInteractableException
+                                    else:
+                                        break
+                                same_route = False
+                                time.sleep(3)
                                 if section_change == True:
-                                    target = chrome.find_element_by_xpath('.//section[@store-domain="classSearch"]')
-                            WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-1])+'")]/div/div[@role="checkbox"]'))).click()
-                            if str(sname).find('_NA2') >= 0:
-                                WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-2])+'")]/div/div[@role="checkbox"]'))).click()
-                            chrome.find_element_by_xpath('.//button[@class="add"]').click()
+                                    # target = chrome.find_element_by_xpath('.//section[@store-domain="classSearch"]')
+                                    # target = chrome.find_element_by_xpath('.//div[@class="box-sh-item"][contains(., "Item Select")]//table')
+                                    break
+                            if same_route == True:
+                                continue
+                            # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-1])+'")]/div/div[@role="checkbox"]'))).click()
+                            # if str(sname).find('_NA2') >= 0:
+                                # WebDriverWait(target, 3).until(EC.element_to_be_clickable((By.XPATH, './/td[contains(., "'+str(route[-2])+'")]/div/div[@role="checkbox"]'))).click()
+                            # chrome.find_element_by_xpath('.//button[@class="add"]').click()
+                            chrome.find_element_by_xpath('.//label[contains(., "Select All")]').click()
+                            chrome.find_element_by_xpath('.//button[contains(., "Add to List")]').click()
                             sys.stdout.write('\n\n')
                     except (TimeoutException, StaleElementReferenceException):
-                        count += 1
-                        if count > 3:
+                        max_count += 1
+                        if max_count > 3:
                             raise ElementNotInteractableException
                         chrome.refresh()
                     else:
                         break
+                chrome.find_element_by_xpath('.//button[contains(., "View List")]').click()
+                time.sleep(2)
+                max_count = 0
                 while True:
                     try:
-                        chrome.find_element_by_xpath('.//div[@class="form-group"][contains(., "Order")]/div').click()
-                        chrome.find_element_by_xpath('.//div[@role="option"][contains(., "Asc.")]').click()
-                        chrome.find_element_by_xpath('.//div[@class="calendar"]//div[@class="dx-texteditor-container"]').click()
-                        ActionChains(chrome).send_keys(Keys.BACKSPACE).send_keys(FREQ[freq][1]).send_keys(Keys.ENTER).perform()
-                        #if freq != 'M':
-                        chrome.find_element_by_xpath('.//div[@role="checkbox"][contains(., "So far")]').click()
-                        chrome.find_element_by_xpath('.//span[contains(., "Download")]').click()
+                        # chrome.find_element_by_xpath('.//div[@class="form-group"][contains(., "Order")]/div').click()
+                        # chrome.find_element_by_xpath('.//div[@role="option"][contains(., "Asc.")]').click()
+                        # chrome.find_element_by_xpath('.//div[@class="calendar"]//div[@class="dx-texteditor-container"]').click()
+                        # ActionChains(chrome).send_keys(Keys.BACKSPACE).send_keys(FREQ[freq][1]).send_keys(Keys.ENTER).perform()
+                        # #if freq != 'M':
+                        # chrome.find_element_by_xpath('.//div[@role="checkbox"][contains(., "So far")]').click()
+                        # chrome.find_element_by_xpath('.//span[contains(., "Download")]').click()
+                        frequency_list = WebDriverWait(chrome, 10).until(EC.presence_of_all_elements_located((By.XPATH, './/div[contains(@class, "form-box-sh")]//div[input[@type="checkbox"]]')))
+                        for f in frequency_list:
+                            if WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('id') != freq and WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('checked') == 'true':
+                                WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './label'))).click()
+                            elif WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('id') == freq:
+                                if WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('checked') != 'true':
+                                    WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './label'))).click()
+                                chrome.find_element_by_xpath('.//input[@autocomplete="off"][@min="'+FREQ[freq][1]+'"]').click()
+                                ActionChains(chrome).send_keys(FREQ[freq][1]).send_keys(Keys.ENTER).perform()
+                        chrome.find_element_by_xpath('.//button[contains(., "search")]').click()
+                        Select(chrome.find_element_by_xpath('.//select[option[contains(., "Decimal Point Basic")]]')).select_by_value('5')
+                        chrome.find_element_by_xpath('.//button[contains(., "Original Data Download")]').click()
+                        chrome.find_element_by_xpath('.//button[@class="btn btn-popup positive"][contains(., "Download")]').click()
                     except ElementClickInterceptedException:
-                        time.sleep(0)
+                        max_count += 1
+                        if max_count > 3:
+                            raise ElementNotInteractableException
                     else:
                         break
-                time.sleep(3)
-                chrome.switch_to.window(chrome.window_handles[-1])
-                chrome.find_element_by_xpath('.//a[contains(., "Download")]').click()
-                chrome.switch_to.window(chrome.window_handles[0])
+                # time.sleep(3)
+                # chrome.switch_to.window(chrome.window_handles[-1])
+                # chrome.find_element_by_xpath('.//a[contains(., "Download")]').click()
+                # chrome.switch_to.window(chrome.window_handles[0])
                 link_found = True
+                time.sleep(5)
                 chrome.refresh()
             elif address.find('KOSTAT') >= 0:
                 FREQ = {'Q':'Quarterly', 'M':'Monthly'}
@@ -4081,7 +4140,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             sys.stdout.write('\n')
             #if str(e.__class__.__name__) != 'ElementClickInterceptedException':
             #   print(traceback.format_exc())
-            print(str(traceback.format_exc())[:1000])
+            print(str(traceback.format_exc())[:1500])
             y+=500
             if y > height and link_found == False:
                 print(traceback.format_exc())

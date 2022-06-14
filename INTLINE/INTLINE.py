@@ -994,6 +994,22 @@ for country in COUNTRY(TABLES):
                                 INTLINE_temp, note_temp = INTLINE_WEB(chrome, country, address, fname, sname, freq=freq, tables=[0], header=head, index_col=0, skiprows=skip, usecols=use, renote=True, output=True)
                             INTLINE_t, label, note, footnote = INTLINE_BOE(INTLINE_temp, note_temp, address, sname, freq)
                         elif country_datasets == True:
+                            if address.find('BOJ') >= 0 and freq == 'M':
+                                for ind in range(Series[freq].shape[0]):
+                                    if Series[freq].iloc[ind]['DataSet'] == str(sname) and bool(re.match(r'PR', str(Series[freq].iloc[ind]['keyword']))):
+                                        key = str(Series[freq].iloc[ind]['keyword'])
+                                        if key.find('PRCG') >= 0:
+                                            url = 'https://www.boj.or.jp/en/statistics/pi/cgpi_release/index.htm/'
+                                        elif key.find('PRCS') >= 0:
+                                            url = 'https://www.boj.or.jp/en/statistics/pi/cspi_release/index.htm/'
+                                        response = rq.get(url)
+                                        search = BeautifulSoup(response.text, "html.parser")
+                                        try:
+                                            result = search.find_all("ul", class_="page-link")[0]
+                                            idb = re.sub(r'.*?([0-9]{4}).+', r"\1", result.text.replace('\n',''), 1)[-2:]
+                                            Series[freq].loc[Series[freq].index[ind], 'keyword'] = key.replace('15', idb)
+                                        except IndexError:
+                                            ERROR('Index Base Not Found for item: '+str(key))
                             if datasets_read == False:
                                 INTLINE_temp, csv, encode, webnote, Table, tables, skip, head, index_col, trans, excel, CDID, file_name, sheet_name, INTLINE_previous, Name = \
                                     INTLINE_DATASETS(chrome, data_path, country, address, fname, sname, freq, Series, Table, dealing_start_year, Zip_table=Zip_table)

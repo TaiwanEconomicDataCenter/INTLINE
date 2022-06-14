@@ -1,43 +1,32 @@
-﻿2022-06-13 03:04:25 PM excel_suffix: mysql
+﻿2022-06-14 07:16:24 PM excel_suffix: test
 
-2022-06-13 03:04:25 PM data_processing: False
+2022-06-14 07:16:24 PM data_processing: True
 
-2022-06-13 03:04:25 PM find_unknown: False
+2022-06-14 07:16:24 PM find_unknown: False
 
-2022-06-13 03:04:25 PM dealing_start_year: 1901
+2022-06-14 07:16:24 PM dealing_start_year: 1901
 
-2022-06-13 03:04:54 PM Process: File Merging
+2022-06-14 07:16:27 PM Data Processing
 
-2022-06-13 03:04:54 PM Reading main key: INTLINE_key578.xlsx, Time: 29 s
+2022-06-14 07:16:27 PM Reading table: Country, Time: 3s
 
-2022-06-13 03:04:54 PM Reading main database: INTLINE_database578.xlsx, Time: 29 s
+2022-06-14 07:16:28 PM Reading table: TABLES, Time: 3 s
 
-2022-06-13 03:04:56 PM Merging File, Time: 31 s
+2022-06-14 07:16:31 PM Reading file: country_series, Time: 7 s
 
-2022-06-13 03:04:57 PM Setting files, Time: 32 s
+2022-06-14 07:16:31 PM Reading file: 542datasets, Time: 7 s
 
-2022-06-13 03:04:57 PM Concating file: INTLINE_key?, Time: 32 s
+2022-06-14 07:16:32 PM 
 
-2022-06-13 03:04:57 PM Concating file: INTLINE_database?, Time: 32 s
+2022-06-14 07:16:32 PM ====== WebDriver manager ======
+2022-06-14 07:16:32 PM Current google-chrome version is 102.0.5005
+2022-06-14 07:16:32 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-14 07:16:32 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-14 07:16:35 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-14 07:16:36 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/SearchStat#1, sheet: Annual, frequency: A, Time: 12s
 
-2022-06-13 03:04:57 PM Time: 32 s
+2022-06-14 07:16:36 PM Downloading file: Annual
 
-2022-06-13 03:05:03 PM Setting new files, Time: 38 s
+2022-06-14 07:16:40 PM Getting Data From Website
 
-2022-06-13 03:05:32 PM Concating new files: INTLINE_database, Time: 67 s
-
-2022-06-13 03:05:38 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
-0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
-1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
-2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
-4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
-14419  INTLINE    W578SETI.W  DB_W_0001  data027  ...  14420   Stock Exchange of Thailand                             Thailand General Index  Not Seasonally Adjusted
-14420  INTLINE    W924SSEA.W  DB_W_0001  data028  ...  14421      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-14421  INTLINE    W924SSEB.W  DB_W_0001  data029  ...  14422      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-14422  INTLINE   W924SZSEA.W  DB_W_0001  data030  ...  14423       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-14423  INTLINE   W924SZSEB.W  DB_W_0001  data031  ...  14424       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-
-[14424 rows x 15 columns]
-2022-06-13 03:05:38 PM Total Items: 14424
+2022-06-14 07:17:57 PM = ! = The file was not properly downloaded
