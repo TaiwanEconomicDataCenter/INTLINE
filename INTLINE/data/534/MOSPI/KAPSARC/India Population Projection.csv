@@ -1134,416 +1134,6 @@ KN.AG1;Annual;2023;Puducherry;All Age;IN-PY;1646.0;KN.A1;Projected Population;IN
 KN.AG1;Annual;2036;Puducherry;All Age;IN-PY;2184.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
 KN.AG1;Annual;2012;Puducherry;All Age;IN-PY;876.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
 KN.AG1;Annual;2020;Puducherry;All Age;IN-PY;1073.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2021;North-East States (Excluding Assam);All Age;NES;16142.0;KN.A1;Projected Population;NES;KN.TTL;Both Sex
-KN.AG1;Annual;2012;India;All Age;IN;1226731.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2015;India;All Age;IN;1274359.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2030;India;All Age;IN;1465102.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2036;India;All Age;IN;1518288.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2016;India;All Age;IN;423718.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;India;All Age;IN;441934.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2020;India;All Age;IN;460507.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2022;India;All Age;IN;478814.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Andhra Pradesh;All Age;IN-AP;50295.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Andhra Pradesh;All Age;IN-AP;51012.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Andhra Pradesh;All Age;IN-AP;52221.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Andhra Pradesh;All Age;IN-AP;52504.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Andhra Pradesh;All Age;IN-AP;52972.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Andhra Pradesh;All Age;IN-AP;53802.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Andhra Pradesh;All Age;IN-AP;54206.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Andhra Pradesh;All Age;IN-AP;54221.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Andhra Pradesh;All Age;IN-AP;16198.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Andhra Pradesh;All Age;IN-AP;17001.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Andhra Pradesh;All Age;IN-AP;18206.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Andhra Pradesh;All Age;IN-AP;19778.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Arunachal Pradesh;All Age;IN-AR;1384.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Arunachal Pradesh;All Age;IN-AR;1429.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Arunachal Pradesh;All Age;IN-AR;1459.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Arunachal Pradesh;All Age;IN-AR;1474.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Arunachal Pradesh;All Age;IN-AR;1519.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Arunachal Pradesh;All Age;IN-AR;1719.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Arunachal Pradesh;All Age;IN-AR;372.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Arunachal Pradesh;All Age;IN-AR;386.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Arunachal Pradesh;All Age;IN-AR;400.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Arunachal Pradesh;All Age;IN-AR;422.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Arunachal Pradesh;All Age;IN-AR;485.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Assam;All Age;IN-AS;38437.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Assam;All Age;IN-AS;38677.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Assam;All Age;IN-AS;39399.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Assam;All Age;IN-AS;4399.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Assam;All Age;IN-AS;4781.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Assam;All Age;IN-AS;5462.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Assam;All Age;IN-AS;6033.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Assam;All Age;IN-AS;6405.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Assam;All Age;IN-AS;6582.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Bihar;All Age;IN-BR;104099.0;KN.A1;Projected Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Bihar;All Age;IN-BR;142548.0;KN.A1;Projected Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Bihar;All Age;IN-BR;12076.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Bihar;All Age;IN-BR;12397.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Bihar;All Age;IN-BR;13375.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Bihar;All Age;IN-BR;13678.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Bihar;All Age;IN-BR;15240.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Bihar;All Age;IN-BR;17534.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Bihar;All Age;IN-BR;18809.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Bihar;All Age;IN-BR;19741.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Chhattisgarh;All Age;IN-CG;25545.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Chhattisgarh;All Age;IN-CG;26761.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Chhattisgarh;All Age;IN-CG;29109.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Chhattisgarh;All Age;IN-CG;30524.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Chhattisgarh;All Age;IN-CG;6117.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Chhattisgarh;All Age;IN-CG;7996.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Chhattisgarh;All Age;IN-CG;8763.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Chhattisgarh;All Age;IN-CG;10083.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Goa;All Age;IN-GA;1459.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Goa;All Age;IN-GA;1469.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Goa;All Age;IN-GA;1521.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Goa;All Age;IN-GA;1531.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Goa;All Age;IN-GA;1567.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Goa;All Age;IN-GA;1583.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Goa;All Age;IN-GA;1599.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Goa;All Age;IN-GA;1626.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Goa;All Age;IN-GA;1651.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Goa;All Age;IN-GA;1239.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Goa;All Age;IN-GA;1262.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Goa;All Age;IN-GA;1327.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Gujarat;All Age;IN-GJ;63271.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Gujarat;All Age;IN-GJ;67936.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Gujarat;All Age;IN-GJ;70648.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Gujarat;All Age;IN-GJ;74855.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Gujarat;All Age;IN-GJ;77162.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Gujarat;All Age;IN-GJ;77931.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Gujarat;All Age;IN-GJ;80639.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Gujarat;All Age;IN-GJ;32529.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Gujarat;All Age;IN-GJ;39460.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Gujarat;All Age;IN-GJ;41002.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Gujarat;All Age;IN-GJ;42472.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Gujarat;All Age;IN-GJ;43963.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Haryana;All Age;IN-HR;26614.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Haryana;All Age;IN-HR;27034.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Haryana;All Age;IN-HR;30573.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Haryana;All Age;IN-HR;31629.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Haryana;All Age;IN-HR;9459.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Haryana;All Age;IN-HR;12717.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Haryana;All Age;IN-HR;14382.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Haryana;All Age;IN-HR;15397.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Haryana;All Age;IN-HR;16066.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Haryana;All Age;IN-HR;17094.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Himachal Pradesh;All Age;IN-HP;6923.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Himachal Pradesh;All Age;IN-HP;7041.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Himachal Pradesh;All Age;IN-HP;7206.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Himachal Pradesh;All Age;IN-HP;7468.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Himachal Pradesh;All Age;IN-HP;7542.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Himachal Pradesh;All Age;IN-HP;7632.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Himachal Pradesh;All Age;IN-HP;7659.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Himachal Pradesh;All Age;IN-HP;7685.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Himachal Pradesh;All Age;IN-HP;7712.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Himachal Pradesh;All Age;IN-HP;7770.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Himachal Pradesh;All Age;IN-HP;711.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Himachal Pradesh;All Age;IN-HP;719.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Himachal Pradesh;All Age;IN-HP;746.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Himachal Pradesh;All Age;IN-HP;770.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Himachal Pradesh;All Age;IN-HP;796.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Himachal Pradesh;All Age;IN-HP;817.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Himachal Pradesh;All Age;IN-HP;824.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Jharkhand;All Age;IN-JH;34113.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Jharkhand;All Age;IN-JH;39466.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Jharkhand;All Age;IN-JH;41858.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Jharkhand;All Age;IN-JH;7933.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Jharkhand;All Age;IN-JH;8933.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Jharkhand;All Age;IN-JH;9131.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Jharkhand;All Age;IN-JH;9531.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Jharkhand;All Age;IN-JH;9734.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Jharkhand;All Age;IN-JH;9938.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Jharkhand;All Age;IN-JH;10932.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Jharkhand;All Age;IN-JH;11315.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Jharkhand;All Age;IN-JH;11508.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Jharkhand;All Age;IN-JH;12262.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Jharkhand;All Age;IN-JH;12630.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Karnataka;All Age;IN-KA;65798.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Karnataka;All Age;IN-KA;67268.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Karnataka;All Age;IN-KA;70911.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Karnataka;All Age;IN-KA;71429.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Karnataka;All Age;IN-KA;29550.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Karnataka;All Age;IN-KA;30576.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Karnataka;All Age;IN-KA;31620.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Karnataka;All Age;IN-KA;36511.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Kerala;All Age;IN-KL;33406.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Kerala;All Age;IN-KL;34344.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Kerala;All Age;IN-KL;34578.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Kerala;All Age;IN-KL;35633.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Kerala;All Age;IN-KL;36499.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Kerala;All Age;IN-KL;36796.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Kerala;All Age;IN-KL;18709.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Kerala;All Age;IN-KL;24287.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Kerala;All Age;IN-KL;26947.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Kerala;All Age;IN-KL;30232.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Madhya Pradesh;All Age;IN-MP;82232.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Madhya Pradesh;All Age;IN-MP;83374.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Madhya Pradesh;All Age;IN-MP;91426.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Madhya Pradesh;All Age;IN-MP;92303.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Madhya Pradesh;All Age;IN-MP;93180.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Madhya Pradesh;All Age;IN-MP;95556.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Madhya Pradesh;All Age;IN-MP;97804.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Madhya Pradesh;All Age;IN-MP;24318.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Madhya Pradesh;All Age;IN-MP;27723.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Madhya Pradesh;All Age;IN-MP;29067.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Madhya Pradesh;All Age;IN-MP;29730.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Maharashtra;All Age;IN-MH;112374.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Maharashtra;All Age;IN-MH;125411.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Maharashtra;All Age;IN-MH;133451.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Maharashtra;All Age;IN-MH;134776.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Maharashtra;All Age;IN-MH;52610.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Maharashtra;All Age;IN-MH;58826.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Maharashtra;All Age;IN-MH;59710.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Maharashtra;All Age;IN-MH;65339.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Maharashtra;All Age;IN-MH;67671.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Manipur;All Age;IN-MN;3042.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Manipur;All Age;IN-MN;3073.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Manipur;All Age;IN-MN;3194.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Manipur;All Age;IN-MN;3282.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Manipur;All Age;IN-MN;3465.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Manipur;All Age;IN-MN;955.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Manipur;All Age;IN-MN;991.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Manipur;All Age;IN-MN;1009.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Manipur;All Age;IN-MN;1045.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Manipur;All Age;IN-MN;1136.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Manipur;All Age;IN-MN;1257.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Meghalaya;All Age;IN-ML;3192.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Meghalaya;All Age;IN-ML;3224.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Meghalaya;All Age;IN-ML;3256.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Meghalaya;All Age;IN-ML;3288.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Meghalaya;All Age;IN-ML;595.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Meghalaya;All Age;IN-ML;652.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Meghalaya;All Age;IN-ML;660.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Meghalaya;All Age;IN-ML;668.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Meghalaya;All Age;IN-ML;707.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Meghalaya;All Age;IN-ML;737.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Mizoram;All Age;IN-MZ;1133.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Mizoram;All Age;IN-MZ;1192.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Mizoram;All Age;IN-MZ;1216.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Mizoram;All Age;IN-MZ;1331.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Mizoram;All Age;IN-MZ;1347.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Mizoram;All Age;IN-MZ;590.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Mizoram;All Age;IN-MZ;654.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Mizoram;All Age;IN-MZ;700.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Mizoram;All Age;IN-MZ;726.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Mizoram;All Age;IN-MZ;753.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Mizoram;All Age;IN-MZ;784.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Nagaland;All Age;IN-NL;2000.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Nagaland;All Age;IN-NL;2065.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Nagaland;All Age;IN-NL;2192.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Nagaland;All Age;IN-NL;2386.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Nagaland;All Age;IN-NL;901.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Nagaland;All Age;IN-NL;1193.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Nagaland;All Age;IN-NL;1323.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Nagaland;All Age;IN-NL;1495.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Nagaland;All Age;IN-NL;1538.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Nagaland;All Age;IN-NL;1581.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Odisha;All Age;IN-OR;41974.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Odisha;All Age;IN-OR;43490.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Odisha;All Age;IN-OR;44033.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Odisha;All Age;IN-OR;44162.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Odisha;All Age;IN-OR;44677.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Odisha;All Age;IN-OR;44743.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Odisha;All Age;IN-OR;45012.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Odisha;All Age;IN-OR;45015.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Odisha;All Age;IN-OR;8898.0;KN.A2;Projected Urban Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Odisha;All Age;IN-OR;9589.0;KN.A2;Projected Urban Population;IN-OR;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Punjab;All Age;IN-PB;29140.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Punjab;All Age;IN-PB;29619.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Punjab;All Age;IN-PB;30099.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Punjab;All Age;IN-PB;30339.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Punjab;All Age;IN-PB;31472.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Punjab;All Age;IN-PB;31779.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Punjab;All Age;IN-PB;31933.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Punjab;All Age;IN-PB;32087.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Punjab;All Age;IN-PB;32658.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Punjab;All Age;IN-PB;11650.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Punjab;All Age;IN-PB;13047.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Punjab;All Age;IN-PB;14703.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Rajasthan;All Age;IN-RJ;70825.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Rajasthan;All Age;IN-RJ;74240.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Rajasthan;All Age;IN-RJ;79281.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Rajasthan;All Age;IN-RJ;81025.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Rajasthan;All Age;IN-RJ;81897.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Rajasthan;All Age;IN-RJ;89890.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Rajasthan;All Age;IN-RJ;17048.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Rajasthan;All Age;IN-RJ;18219.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Rajasthan;All Age;IN-RJ;19013.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Rajasthan;All Age;IN-RJ;19380.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Rajasthan;All Age;IN-RJ;19750.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Rajasthan;All Age;IN-RJ;20874.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Rajasthan;All Age;IN-RJ;21564.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Rajasthan;All Age;IN-RJ;22262.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Rajasthan;All Age;IN-RJ;23555.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Rajasthan;All Age;IN-RJ;24815.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Rajasthan;All Age;IN-RJ;25765.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Sikkim;All Age;IN-SK;650.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Sikkim;All Age;IN-SK;714.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Sikkim;All Age;IN-SK;719.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Sikkim;All Age;IN-SK;731.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Sikkim;All Age;IN-SK;741.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Sikkim;All Age;IN-SK;750.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Sikkim;All Age;IN-SK;355.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Sikkim;All Age;IN-SK;373.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Sikkim;All Age;IN-SK;391.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Sikkim;All Age;IN-SK;408.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Sikkim;All Age;IN-SK;532.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Sikkim;All Age;IN-SK;549.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Tamil Nadu;All Age;IN-TN;74137.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Tamil Nadu;All Age;IN-TN;76631.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Tamil Nadu;All Age;IN-TN;77546.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2027;Tamil Nadu;All Age;IN-TN;77653.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Tamil Nadu;All Age;IN-TN;78082.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Tamil Nadu;All Age;IN-TN;37180.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Tamil Nadu;All Age;IN-TN;38265.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Tamil Nadu;All Age;IN-TN;38776.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Tamil Nadu;All Age;IN-TN;39292.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Tamil Nadu;All Age;IN-TN;40334.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Tamil Nadu;All Age;IN-TN;42196.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Tamil Nadu;All Age;IN-TN;46554.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Telangana;All Age;IN-TE;36714.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Telangana;All Age;IN-TE;37220.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Telangana;All Age;IN-TE;38272.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Telangana;All Age;IN-TE;38636.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Telangana;All Age;IN-TE;39092.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Telangana;All Age;IN-TE;39363.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Telangana;All Age;IN-TE;39467.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Telangana;All Age;IN-TE;17135.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Telangana;All Age;IN-TE;20041.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Telangana;All Age;IN-TE;20392.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Telangana;All Age;IN-TE;21415.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Tripura;All Age;IN-TR;3953.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Tripura;All Age;IN-TR;4032.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2022;Tripura;All Age;IN-TR;4109.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Tripura;All Age;IN-TR;4511.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Tripura;All Age;IN-TR;1061.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Tripura;All Age;IN-TR;2136.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Tripura;All Age;IN-TR;2328.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Uttar Pradesh;All Age;IN-UP;224979.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Uttar Pradesh;All Age;IN-UP;227943.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Uttar Pradesh;All Age;IN-UP;246500.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Uttar Pradesh;All Age;IN-UP;253369.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Uttar Pradesh;All Age;IN-UP;50731.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Uttar Pradesh;All Age;IN-UP;51742.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Uttar Pradesh;All Age;IN-UP;57543.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Uttar Pradesh;All Age;IN-UP;60991.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Uttar Pradesh;All Age;IN-UP;64875.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Uttarakhand;All Age;IN-UT;11270.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Uttarakhand;All Age;IN-UT;12205.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Uttarakhand;All Age;IN-UT;12524.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Uttarakhand;All Age;IN-UT;12794.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Uttarakhand;All Age;IN-UT;3790.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Uttarakhand;All Age;IN-UT;3887.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2023;Uttarakhand;All Age;IN-UT;4177.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Uttarakhand;All Age;IN-UT;4274.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Uttarakhand;All Age;IN-UT;4373.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Uttarakhand;All Age;IN-UT;4965.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Uttarakhand;All Age;IN-UT;5449.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
-KN.AG1;Annual;2013;West Bengal;All Age;IN-WB;92797.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2019;West Bengal;All Age;IN-WB;96906.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2020;West Bengal;All Age;IN-WB;97516.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2023;West Bengal;All Age;IN-WB;99084.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2024;West Bengal;All Age;IN-WB;99563.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2028;West Bengal;All Age;IN-WB;101180.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2029;West Bengal;All Age;IN-WB;101509.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2031;West Bengal;All Age;IN-WB;102167.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2023;West Bengal;All Age;IN-WB;36449.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2024;West Bengal;All Age;IN-WB;37043.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2025;West Bengal;All Age;IN-WB;37642.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2026;West Bengal;All Age;IN-WB;38247.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2030;West Bengal;All Age;IN-WB;40493.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Andaman & Nicobar Islands;All Age;IN-AN;381.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Andaman & Nicobar Islands;All Age;IN-AN;387.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Andaman & Nicobar Islands;All Age;IN-AN;390.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Andaman & Nicobar Islands;All Age;IN-AN;392.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Andaman & Nicobar Islands;All Age;IN-AN;395.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Andaman & Nicobar Islands;All Age;IN-AN;399.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Andaman & Nicobar Islands;All Age;IN-AN;411.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Andaman & Nicobar Islands;All Age;IN-AN;413.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Andaman & Nicobar Islands;All Age;IN-AN;413.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Andaman & Nicobar Islands;All Age;IN-AN;143.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2016;Andaman & Nicobar Islands;All Age;IN-AN;158.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Andaman & Nicobar Islands;All Age;IN-AN;161.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Andaman & Nicobar Islands;All Age;IN-AN;172.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Andaman & Nicobar Islands;All Age;IN-AN;183.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Andaman & Nicobar Islands;All Age;IN-AN;205.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Andaman & Nicobar Islands;All Age;IN-AN;208.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Andaman & Nicobar Islands;All Age;IN-AN;210.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Chandigarh;All Age;IN-CH;1055.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Chandigarh;All Age;IN-CH;1151.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Chandigarh;All Age;IN-CH;1179.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Chandigarh;All Age;IN-CH;1255.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Chandigarh;All Age;IN-CH;1326.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Chandigarh;All Age;IN-CH;1343.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Chandigarh;All Age;IN-CH;1140.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Chandigarh;All Age;IN-CH;1287.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Chandigarh;All Age;IN-CH;1318.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Daman & Diu;All Age;IN-DD;278.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Daman & Diu;All Age;IN-DD;611.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Daman & Diu;All Age;IN-DD;1051.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2013;Daman & Diu;All Age;IN-DD;224.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Daman & Diu;All Age;IN-DD;245.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Daman & Diu;All Age;IN-DD;318.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Daman & Diu;All Age;IN-DD;636.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Daman & Diu;All Age;IN-DD;686.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Daman & Diu;All Age;IN-DD;860.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Dadra & Nagar Haveli;All Age;IN-DN;515.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Dadra & Nagar Haveli;All Age;IN-DN;608.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Dadra & Nagar Haveli;All Age;IN-DN;1109.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Dadra & Nagar Haveli;All Age;IN-DN;242.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Dadra & Nagar Haveli;All Age;IN-DN;529.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Dadra & Nagar Haveli;All Age;IN-DN;854.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Dadra & Nagar Haveli;All Age;IN-DN;1374.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Jammu & Kashmir;All Age;IN-JK;13701.0;KN.A1;Projected Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Jammu & Kashmir;All Age;IN-JK;3897.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Jammu & Kashmir;All Age;IN-JK;3961.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Jammu & Kashmir;All Age;IN-JK;4026.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2024;Jammu & Kashmir;All Age;IN-JK;4220.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Jammu & Kashmir;All Age;IN-JK;4549.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Jammu & Kashmir;All Age;IN-JK;4747.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Jammu & Kashmir;All Age;IN-JK;4811.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Jammu & Kashmir;All Age;IN-JK;4875.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
-KN.AG1;Annual;2017;Ladakh;All Age;IN-LA;289.0;KN.A1;Projected Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Ladakh;All Age;IN-LA;308.0;KN.A1;Projected Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2012;Ladakh;All Age;IN-LA;64.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Ladakh;All Age;IN-LA;88.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Ladakh;All Age;IN-LA;107.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Ladakh;All Age;IN-LA;110.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Ladakh;All Age;IN-LA;118.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2034;Ladakh;All Age;IN-LA;124.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Lakshadweep;All Age;IN-LD;66.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Lakshadweep;All Age;IN-LD;67.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Lakshadweep;All Age;IN-LD;70.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2028;Lakshadweep;All Age;IN-LD;70.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Lakshadweep;All Age;IN-LD;65.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Lakshadweep;All Age;IN-LD;66.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2025;Lakshadweep;All Age;IN-LD;69.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2030;Lakshadweep;All Age;IN-LD;70.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2031;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2033;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2035;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2036;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
-KN.AG1;Annual;2013;NCT of Delhi;All Age;IN-DL;17544.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2020;NCT of Delhi;All Age;IN-DL;20193.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2027;NCT of Delhi;All Age;IN-DL;22942.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2034;NCT of Delhi;All Age;IN-DL;25775.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2011;NCT of Delhi;All Age;IN-DL;16369.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2023;NCT of Delhi;All Age;IN-DL;21266.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2025;NCT of Delhi;All Age;IN-DL;22087.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2032;NCT of Delhi;All Age;IN-DL;24960.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2033;NCT of Delhi;All Age;IN-DL;25368.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
-KN.AG1;Annual;2011;Puducherry;All Age;IN-PY;1248.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Puducherry;All Age;IN-PY;1371.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2018;Puducherry;All Age;IN-PY;1470.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2020;Puducherry;All Age;IN-PY;1537.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Puducherry;All Age;IN-PY;1571.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2026;Puducherry;All Age;IN-PY;1757.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2032;Puducherry;All Age;IN-PY;2005.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2014;Puducherry;All Age;IN-PY;923.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2015;Puducherry;All Age;IN-PY;946.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2019;Puducherry;All Age;IN-PY;1047.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2021;Puducherry;All Age;IN-PY;1098.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
-KN.AG1;Annual;2029;Puducherry;All Age;IN-PY;1334.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
 KN.AG1;Annual;2016;North-East States (Excluding Assam);All Age;NES;15362.0;KN.A1;Projected Population;NES;KN.TTL;Both Sex
 KN.AG1;Annual;2036;North-East States (Excluding Assam);All Age;NES;18098.0;KN.A1;Projected Population;NES;KN.TTL;Both Sex
 KN.AG1;Annual;2011;India;All Age;IN;1210855.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
@@ -1981,3 +1571,413 @@ KN.AG1;Annual;2024;Puducherry;All Age;IN-PY;1184.0;KN.A2;Projected Urban Populat
 KN.AG1;Annual;2025;Puducherry;All Age;IN-PY;1212.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
 KN.AG1;Annual;2028;Puducherry;All Age;IN-PY;1303.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
 KN.AG1;Annual;2033;Puducherry;All Age;IN-PY;1465.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2021;North-East States (Excluding Assam);All Age;NES;16142.0;KN.A1;Projected Population;NES;KN.TTL;Both Sex
+KN.AG1;Annual;2012;India;All Age;IN;1226731.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2015;India;All Age;IN;1274359.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2030;India;All Age;IN;1465102.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2036;India;All Age;IN;1518288.0;KN.A1;Projected Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2016;India;All Age;IN;423718.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;India;All Age;IN;441934.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2020;India;All Age;IN;460507.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2022;India;All Age;IN;478814.0;KN.A2;Projected Urban Population;IN;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Andhra Pradesh;All Age;IN-AP;50295.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Andhra Pradesh;All Age;IN-AP;51012.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Andhra Pradesh;All Age;IN-AP;52221.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Andhra Pradesh;All Age;IN-AP;52504.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Andhra Pradesh;All Age;IN-AP;52972.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Andhra Pradesh;All Age;IN-AP;53802.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Andhra Pradesh;All Age;IN-AP;54206.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Andhra Pradesh;All Age;IN-AP;54221.0;KN.A1;Projected Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Andhra Pradesh;All Age;IN-AP;16198.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Andhra Pradesh;All Age;IN-AP;17001.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Andhra Pradesh;All Age;IN-AP;18206.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Andhra Pradesh;All Age;IN-AP;19778.0;KN.A2;Projected Urban Population;IN-AP;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Arunachal Pradesh;All Age;IN-AR;1384.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Arunachal Pradesh;All Age;IN-AR;1429.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Arunachal Pradesh;All Age;IN-AR;1459.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Arunachal Pradesh;All Age;IN-AR;1474.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Arunachal Pradesh;All Age;IN-AR;1519.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Arunachal Pradesh;All Age;IN-AR;1719.0;KN.A1;Projected Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Arunachal Pradesh;All Age;IN-AR;372.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Arunachal Pradesh;All Age;IN-AR;386.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Arunachal Pradesh;All Age;IN-AR;400.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Arunachal Pradesh;All Age;IN-AR;422.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Arunachal Pradesh;All Age;IN-AR;485.0;KN.A2;Projected Urban Population;IN-AR;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Assam;All Age;IN-AS;38437.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Assam;All Age;IN-AS;38677.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Assam;All Age;IN-AS;39399.0;KN.A1;Projected Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Assam;All Age;IN-AS;4399.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Assam;All Age;IN-AS;4781.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Assam;All Age;IN-AS;5462.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Assam;All Age;IN-AS;6033.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Assam;All Age;IN-AS;6405.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Assam;All Age;IN-AS;6582.0;KN.A2;Projected Urban Population;IN-AS;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Bihar;All Age;IN-BR;104099.0;KN.A1;Projected Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Bihar;All Age;IN-BR;142548.0;KN.A1;Projected Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Bihar;All Age;IN-BR;12076.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Bihar;All Age;IN-BR;12397.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Bihar;All Age;IN-BR;13375.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Bihar;All Age;IN-BR;13678.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Bihar;All Age;IN-BR;15240.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Bihar;All Age;IN-BR;17534.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Bihar;All Age;IN-BR;18809.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Bihar;All Age;IN-BR;19741.0;KN.A2;Projected Urban Population;IN-BR;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Chhattisgarh;All Age;IN-CG;25545.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Chhattisgarh;All Age;IN-CG;26761.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Chhattisgarh;All Age;IN-CG;29109.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Chhattisgarh;All Age;IN-CG;30524.0;KN.A1;Projected Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Chhattisgarh;All Age;IN-CG;6117.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Chhattisgarh;All Age;IN-CG;7996.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Chhattisgarh;All Age;IN-CG;8763.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Chhattisgarh;All Age;IN-CG;10083.0;KN.A2;Projected Urban Population;IN-CG;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Goa;All Age;IN-GA;1459.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Goa;All Age;IN-GA;1469.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Goa;All Age;IN-GA;1521.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Goa;All Age;IN-GA;1531.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Goa;All Age;IN-GA;1567.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Goa;All Age;IN-GA;1583.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Goa;All Age;IN-GA;1599.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Goa;All Age;IN-GA;1626.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Goa;All Age;IN-GA;1651.0;KN.A1;Projected Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Goa;All Age;IN-GA;1239.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Goa;All Age;IN-GA;1262.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Goa;All Age;IN-GA;1327.0;KN.A2;Projected Urban Population;IN-GA;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Gujarat;All Age;IN-GJ;63271.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Gujarat;All Age;IN-GJ;67936.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Gujarat;All Age;IN-GJ;70648.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Gujarat;All Age;IN-GJ;74855.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Gujarat;All Age;IN-GJ;77162.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Gujarat;All Age;IN-GJ;77931.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Gujarat;All Age;IN-GJ;80639.0;KN.A1;Projected Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Gujarat;All Age;IN-GJ;32529.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Gujarat;All Age;IN-GJ;39460.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Gujarat;All Age;IN-GJ;41002.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Gujarat;All Age;IN-GJ;42472.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Gujarat;All Age;IN-GJ;43963.0;KN.A2;Projected Urban Population;IN-GJ;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Haryana;All Age;IN-HR;26614.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Haryana;All Age;IN-HR;27034.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Haryana;All Age;IN-HR;30573.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Haryana;All Age;IN-HR;31629.0;KN.A1;Projected Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Haryana;All Age;IN-HR;9459.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Haryana;All Age;IN-HR;12717.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Haryana;All Age;IN-HR;14382.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Haryana;All Age;IN-HR;15397.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Haryana;All Age;IN-HR;16066.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Haryana;All Age;IN-HR;17094.0;KN.A2;Projected Urban Population;IN-HR;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Himachal Pradesh;All Age;IN-HP;6923.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Himachal Pradesh;All Age;IN-HP;7041.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Himachal Pradesh;All Age;IN-HP;7206.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Himachal Pradesh;All Age;IN-HP;7468.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Himachal Pradesh;All Age;IN-HP;7542.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Himachal Pradesh;All Age;IN-HP;7632.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Himachal Pradesh;All Age;IN-HP;7659.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Himachal Pradesh;All Age;IN-HP;7685.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Himachal Pradesh;All Age;IN-HP;7712.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Himachal Pradesh;All Age;IN-HP;7770.0;KN.A1;Projected Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Himachal Pradesh;All Age;IN-HP;711.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Himachal Pradesh;All Age;IN-HP;719.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Himachal Pradesh;All Age;IN-HP;746.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Himachal Pradesh;All Age;IN-HP;770.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Himachal Pradesh;All Age;IN-HP;796.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Himachal Pradesh;All Age;IN-HP;817.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Himachal Pradesh;All Age;IN-HP;824.0;KN.A2;Projected Urban Population;IN-HP;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Jharkhand;All Age;IN-JH;34113.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Jharkhand;All Age;IN-JH;39466.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Jharkhand;All Age;IN-JH;41858.0;KN.A1;Projected Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Jharkhand;All Age;IN-JH;7933.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Jharkhand;All Age;IN-JH;8933.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Jharkhand;All Age;IN-JH;9131.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Jharkhand;All Age;IN-JH;9531.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Jharkhand;All Age;IN-JH;9734.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Jharkhand;All Age;IN-JH;9938.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Jharkhand;All Age;IN-JH;10932.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Jharkhand;All Age;IN-JH;11315.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Jharkhand;All Age;IN-JH;11508.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Jharkhand;All Age;IN-JH;12262.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Jharkhand;All Age;IN-JH;12630.0;KN.A2;Projected Urban Population;IN-JH;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Karnataka;All Age;IN-KA;65798.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Karnataka;All Age;IN-KA;67268.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Karnataka;All Age;IN-KA;70911.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Karnataka;All Age;IN-KA;71429.0;KN.A1;Projected Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Karnataka;All Age;IN-KA;29550.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Karnataka;All Age;IN-KA;30576.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Karnataka;All Age;IN-KA;31620.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Karnataka;All Age;IN-KA;36511.0;KN.A2;Projected Urban Population;IN-KA;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Kerala;All Age;IN-KL;33406.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Kerala;All Age;IN-KL;34344.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Kerala;All Age;IN-KL;34578.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Kerala;All Age;IN-KL;35633.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Kerala;All Age;IN-KL;36499.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Kerala;All Age;IN-KL;36796.0;KN.A1;Projected Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Kerala;All Age;IN-KL;18709.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Kerala;All Age;IN-KL;24287.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Kerala;All Age;IN-KL;26947.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Kerala;All Age;IN-KL;30232.0;KN.A2;Projected Urban Population;IN-KL;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Madhya Pradesh;All Age;IN-MP;82232.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Madhya Pradesh;All Age;IN-MP;83374.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Madhya Pradesh;All Age;IN-MP;91426.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Madhya Pradesh;All Age;IN-MP;92303.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Madhya Pradesh;All Age;IN-MP;93180.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Madhya Pradesh;All Age;IN-MP;95556.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Madhya Pradesh;All Age;IN-MP;97804.0;KN.A1;Projected Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Madhya Pradesh;All Age;IN-MP;24318.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Madhya Pradesh;All Age;IN-MP;27723.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Madhya Pradesh;All Age;IN-MP;29067.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Madhya Pradesh;All Age;IN-MP;29730.0;KN.A2;Projected Urban Population;IN-MP;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Maharashtra;All Age;IN-MH;112374.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Maharashtra;All Age;IN-MH;125411.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Maharashtra;All Age;IN-MH;133451.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Maharashtra;All Age;IN-MH;134776.0;KN.A1;Projected Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Maharashtra;All Age;IN-MH;52610.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Maharashtra;All Age;IN-MH;58826.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Maharashtra;All Age;IN-MH;59710.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Maharashtra;All Age;IN-MH;65339.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Maharashtra;All Age;IN-MH;67671.0;KN.A2;Projected Urban Population;IN-MH;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Manipur;All Age;IN-MN;3042.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Manipur;All Age;IN-MN;3073.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Manipur;All Age;IN-MN;3194.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Manipur;All Age;IN-MN;3282.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Manipur;All Age;IN-MN;3465.0;KN.A1;Projected Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Manipur;All Age;IN-MN;955.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Manipur;All Age;IN-MN;991.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Manipur;All Age;IN-MN;1009.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Manipur;All Age;IN-MN;1045.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Manipur;All Age;IN-MN;1136.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Manipur;All Age;IN-MN;1257.0;KN.A2;Projected Urban Population;IN-MN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Meghalaya;All Age;IN-ML;3192.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Meghalaya;All Age;IN-ML;3224.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Meghalaya;All Age;IN-ML;3256.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Meghalaya;All Age;IN-ML;3288.0;KN.A1;Projected Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Meghalaya;All Age;IN-ML;595.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Meghalaya;All Age;IN-ML;652.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Meghalaya;All Age;IN-ML;660.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Meghalaya;All Age;IN-ML;668.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Meghalaya;All Age;IN-ML;707.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Meghalaya;All Age;IN-ML;737.0;KN.A2;Projected Urban Population;IN-ML;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Mizoram;All Age;IN-MZ;1133.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Mizoram;All Age;IN-MZ;1192.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Mizoram;All Age;IN-MZ;1216.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Mizoram;All Age;IN-MZ;1331.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Mizoram;All Age;IN-MZ;1347.0;KN.A1;Projected Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Mizoram;All Age;IN-MZ;590.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Mizoram;All Age;IN-MZ;654.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Mizoram;All Age;IN-MZ;700.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Mizoram;All Age;IN-MZ;726.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Mizoram;All Age;IN-MZ;753.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Mizoram;All Age;IN-MZ;784.0;KN.A2;Projected Urban Population;IN-MZ;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Nagaland;All Age;IN-NL;2000.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Nagaland;All Age;IN-NL;2065.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Nagaland;All Age;IN-NL;2192.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Nagaland;All Age;IN-NL;2386.0;KN.A1;Projected Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Nagaland;All Age;IN-NL;901.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Nagaland;All Age;IN-NL;1193.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Nagaland;All Age;IN-NL;1323.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Nagaland;All Age;IN-NL;1495.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Nagaland;All Age;IN-NL;1538.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Nagaland;All Age;IN-NL;1581.0;KN.A2;Projected Urban Population;IN-NL;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Odisha;All Age;IN-OR;41974.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Odisha;All Age;IN-OR;43490.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Odisha;All Age;IN-OR;44033.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Odisha;All Age;IN-OR;44162.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Odisha;All Age;IN-OR;44677.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Odisha;All Age;IN-OR;44743.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Odisha;All Age;IN-OR;45012.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Odisha;All Age;IN-OR;45015.0;KN.A1;Projected Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Odisha;All Age;IN-OR;8898.0;KN.A2;Projected Urban Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Odisha;All Age;IN-OR;9589.0;KN.A2;Projected Urban Population;IN-OR;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Punjab;All Age;IN-PB;29140.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Punjab;All Age;IN-PB;29619.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Punjab;All Age;IN-PB;30099.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Punjab;All Age;IN-PB;30339.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Punjab;All Age;IN-PB;31472.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Punjab;All Age;IN-PB;31779.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Punjab;All Age;IN-PB;31933.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Punjab;All Age;IN-PB;32087.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Punjab;All Age;IN-PB;32658.0;KN.A1;Projected Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Punjab;All Age;IN-PB;11650.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Punjab;All Age;IN-PB;13047.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Punjab;All Age;IN-PB;14703.0;KN.A2;Projected Urban Population;IN-PB;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Rajasthan;All Age;IN-RJ;70825.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Rajasthan;All Age;IN-RJ;74240.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Rajasthan;All Age;IN-RJ;79281.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Rajasthan;All Age;IN-RJ;81025.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Rajasthan;All Age;IN-RJ;81897.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Rajasthan;All Age;IN-RJ;89890.0;KN.A1;Projected Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Rajasthan;All Age;IN-RJ;17048.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Rajasthan;All Age;IN-RJ;18219.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Rajasthan;All Age;IN-RJ;19013.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Rajasthan;All Age;IN-RJ;19380.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Rajasthan;All Age;IN-RJ;19750.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Rajasthan;All Age;IN-RJ;20874.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Rajasthan;All Age;IN-RJ;21564.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Rajasthan;All Age;IN-RJ;22262.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Rajasthan;All Age;IN-RJ;23555.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Rajasthan;All Age;IN-RJ;24815.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Rajasthan;All Age;IN-RJ;25765.0;KN.A2;Projected Urban Population;IN-RJ;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Sikkim;All Age;IN-SK;650.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Sikkim;All Age;IN-SK;714.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Sikkim;All Age;IN-SK;719.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Sikkim;All Age;IN-SK;731.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Sikkim;All Age;IN-SK;741.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Sikkim;All Age;IN-SK;750.0;KN.A1;Projected Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Sikkim;All Age;IN-SK;355.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Sikkim;All Age;IN-SK;373.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Sikkim;All Age;IN-SK;391.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Sikkim;All Age;IN-SK;408.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Sikkim;All Age;IN-SK;532.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Sikkim;All Age;IN-SK;549.0;KN.A2;Projected Urban Population;IN-SK;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Tamil Nadu;All Age;IN-TN;74137.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Tamil Nadu;All Age;IN-TN;76631.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Tamil Nadu;All Age;IN-TN;77546.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2027;Tamil Nadu;All Age;IN-TN;77653.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Tamil Nadu;All Age;IN-TN;78082.0;KN.A1;Projected Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Tamil Nadu;All Age;IN-TN;37180.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Tamil Nadu;All Age;IN-TN;38265.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Tamil Nadu;All Age;IN-TN;38776.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Tamil Nadu;All Age;IN-TN;39292.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Tamil Nadu;All Age;IN-TN;40334.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Tamil Nadu;All Age;IN-TN;42196.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Tamil Nadu;All Age;IN-TN;46554.0;KN.A2;Projected Urban Population;IN-TN;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Telangana;All Age;IN-TE;36714.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Telangana;All Age;IN-TE;37220.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Telangana;All Age;IN-TE;38272.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Telangana;All Age;IN-TE;38636.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Telangana;All Age;IN-TE;39092.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Telangana;All Age;IN-TE;39363.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Telangana;All Age;IN-TE;39467.0;KN.A1;Projected Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Telangana;All Age;IN-TE;17135.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Telangana;All Age;IN-TE;20041.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Telangana;All Age;IN-TE;20392.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Telangana;All Age;IN-TE;21415.0;KN.A2;Projected Urban Population;IN-TE;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Tripura;All Age;IN-TR;3953.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Tripura;All Age;IN-TR;4032.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2022;Tripura;All Age;IN-TR;4109.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Tripura;All Age;IN-TR;4511.0;KN.A1;Projected Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Tripura;All Age;IN-TR;1061.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Tripura;All Age;IN-TR;2136.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Tripura;All Age;IN-TR;2328.0;KN.A2;Projected Urban Population;IN-TR;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Uttar Pradesh;All Age;IN-UP;224979.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Uttar Pradesh;All Age;IN-UP;227943.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Uttar Pradesh;All Age;IN-UP;246500.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Uttar Pradesh;All Age;IN-UP;253369.0;KN.A1;Projected Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Uttar Pradesh;All Age;IN-UP;50731.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Uttar Pradesh;All Age;IN-UP;51742.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Uttar Pradesh;All Age;IN-UP;57543.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Uttar Pradesh;All Age;IN-UP;60991.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Uttar Pradesh;All Age;IN-UP;64875.0;KN.A2;Projected Urban Population;IN-UP;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Uttarakhand;All Age;IN-UT;11270.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Uttarakhand;All Age;IN-UT;12205.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Uttarakhand;All Age;IN-UT;12524.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Uttarakhand;All Age;IN-UT;12794.0;KN.A1;Projected Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Uttarakhand;All Age;IN-UT;3790.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Uttarakhand;All Age;IN-UT;3887.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2023;Uttarakhand;All Age;IN-UT;4177.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Uttarakhand;All Age;IN-UT;4274.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Uttarakhand;All Age;IN-UT;4373.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Uttarakhand;All Age;IN-UT;4965.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Uttarakhand;All Age;IN-UT;5449.0;KN.A2;Projected Urban Population;IN-UT;KN.TTL;Both Sex
+KN.AG1;Annual;2013;West Bengal;All Age;IN-WB;92797.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2019;West Bengal;All Age;IN-WB;96906.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2020;West Bengal;All Age;IN-WB;97516.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2023;West Bengal;All Age;IN-WB;99084.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2024;West Bengal;All Age;IN-WB;99563.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2028;West Bengal;All Age;IN-WB;101180.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2029;West Bengal;All Age;IN-WB;101509.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2031;West Bengal;All Age;IN-WB;102167.0;KN.A1;Projected Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2023;West Bengal;All Age;IN-WB;36449.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2024;West Bengal;All Age;IN-WB;37043.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2025;West Bengal;All Age;IN-WB;37642.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2026;West Bengal;All Age;IN-WB;38247.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2030;West Bengal;All Age;IN-WB;40493.0;KN.A2;Projected Urban Population;IN-WB;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Andaman & Nicobar Islands;All Age;IN-AN;381.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Andaman & Nicobar Islands;All Age;IN-AN;387.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Andaman & Nicobar Islands;All Age;IN-AN;390.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Andaman & Nicobar Islands;All Age;IN-AN;392.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Andaman & Nicobar Islands;All Age;IN-AN;395.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Andaman & Nicobar Islands;All Age;IN-AN;399.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Andaman & Nicobar Islands;All Age;IN-AN;411.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Andaman & Nicobar Islands;All Age;IN-AN;413.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Andaman & Nicobar Islands;All Age;IN-AN;413.0;KN.A1;Projected Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Andaman & Nicobar Islands;All Age;IN-AN;143.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2016;Andaman & Nicobar Islands;All Age;IN-AN;158.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Andaman & Nicobar Islands;All Age;IN-AN;161.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Andaman & Nicobar Islands;All Age;IN-AN;172.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Andaman & Nicobar Islands;All Age;IN-AN;183.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Andaman & Nicobar Islands;All Age;IN-AN;205.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Andaman & Nicobar Islands;All Age;IN-AN;208.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Andaman & Nicobar Islands;All Age;IN-AN;210.0;KN.A2;Projected Urban Population;IN-AN;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Chandigarh;All Age;IN-CH;1055.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Chandigarh;All Age;IN-CH;1151.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Chandigarh;All Age;IN-CH;1179.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Chandigarh;All Age;IN-CH;1255.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Chandigarh;All Age;IN-CH;1326.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Chandigarh;All Age;IN-CH;1343.0;KN.A1;Projected Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Chandigarh;All Age;IN-CH;1140.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Chandigarh;All Age;IN-CH;1287.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Chandigarh;All Age;IN-CH;1318.0;KN.A2;Projected Urban Population;IN-CH;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Daman & Diu;All Age;IN-DD;278.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Daman & Diu;All Age;IN-DD;611.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Daman & Diu;All Age;IN-DD;1051.0;KN.A1;Projected Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2013;Daman & Diu;All Age;IN-DD;224.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Daman & Diu;All Age;IN-DD;245.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Daman & Diu;All Age;IN-DD;318.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Daman & Diu;All Age;IN-DD;636.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Daman & Diu;All Age;IN-DD;686.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Daman & Diu;All Age;IN-DD;860.0;KN.A2;Projected Urban Population;IN-DD;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Dadra & Nagar Haveli;All Age;IN-DN;515.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Dadra & Nagar Haveli;All Age;IN-DN;608.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Dadra & Nagar Haveli;All Age;IN-DN;1109.0;KN.A1;Projected Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Dadra & Nagar Haveli;All Age;IN-DN;242.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Dadra & Nagar Haveli;All Age;IN-DN;529.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Dadra & Nagar Haveli;All Age;IN-DN;854.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Dadra & Nagar Haveli;All Age;IN-DN;1374.0;KN.A2;Projected Urban Population;IN-DN;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Jammu & Kashmir;All Age;IN-JK;13701.0;KN.A1;Projected Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Jammu & Kashmir;All Age;IN-JK;3897.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Jammu & Kashmir;All Age;IN-JK;3961.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Jammu & Kashmir;All Age;IN-JK;4026.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2024;Jammu & Kashmir;All Age;IN-JK;4220.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Jammu & Kashmir;All Age;IN-JK;4549.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Jammu & Kashmir;All Age;IN-JK;4747.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Jammu & Kashmir;All Age;IN-JK;4811.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Jammu & Kashmir;All Age;IN-JK;4875.0;KN.A2;Projected Urban Population;IN-JK;KN.TTL;Both Sex
+KN.AG1;Annual;2017;Ladakh;All Age;IN-LA;289.0;KN.A1;Projected Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Ladakh;All Age;IN-LA;308.0;KN.A1;Projected Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2012;Ladakh;All Age;IN-LA;64.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Ladakh;All Age;IN-LA;88.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Ladakh;All Age;IN-LA;107.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Ladakh;All Age;IN-LA;110.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Ladakh;All Age;IN-LA;118.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2034;Ladakh;All Age;IN-LA;124.0;KN.A2;Projected Urban Population;IN-LA;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Lakshadweep;All Age;IN-LD;66.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Lakshadweep;All Age;IN-LD;67.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Lakshadweep;All Age;IN-LD;70.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2028;Lakshadweep;All Age;IN-LD;70.0;KN.A1;Projected Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Lakshadweep;All Age;IN-LD;65.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Lakshadweep;All Age;IN-LD;66.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2025;Lakshadweep;All Age;IN-LD;69.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2030;Lakshadweep;All Age;IN-LD;70.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2031;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2033;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2035;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2036;Lakshadweep;All Age;IN-LD;71.0;KN.A2;Projected Urban Population;IN-LD;KN.TTL;Both Sex
+KN.AG1;Annual;2013;NCT of Delhi;All Age;IN-DL;17544.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2020;NCT of Delhi;All Age;IN-DL;20193.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2027;NCT of Delhi;All Age;IN-DL;22942.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2034;NCT of Delhi;All Age;IN-DL;25775.0;KN.A1;Projected Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2011;NCT of Delhi;All Age;IN-DL;16369.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2023;NCT of Delhi;All Age;IN-DL;21266.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2025;NCT of Delhi;All Age;IN-DL;22087.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2032;NCT of Delhi;All Age;IN-DL;24960.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2033;NCT of Delhi;All Age;IN-DL;25368.0;KN.A2;Projected Urban Population;IN-DL;KN.TTL;Both Sex
+KN.AG1;Annual;2011;Puducherry;All Age;IN-PY;1248.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Puducherry;All Age;IN-PY;1371.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2018;Puducherry;All Age;IN-PY;1470.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2020;Puducherry;All Age;IN-PY;1537.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Puducherry;All Age;IN-PY;1571.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2026;Puducherry;All Age;IN-PY;1757.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2032;Puducherry;All Age;IN-PY;2005.0;KN.A1;Projected Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2014;Puducherry;All Age;IN-PY;923.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2015;Puducherry;All Age;IN-PY;946.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2019;Puducherry;All Age;IN-PY;1047.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2021;Puducherry;All Age;IN-PY;1098.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex
+KN.AG1;Annual;2029;Puducherry;All Age;IN-PY;1334.0;KN.A2;Projected Urban Population;IN-PY;KN.TTL;Both Sex

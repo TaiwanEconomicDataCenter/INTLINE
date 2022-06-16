@@ -1882,13 +1882,13 @@ def INTLINE_STEEL(data_path, country, address, fname, INTLINE_steel, Countries, 
     INTLINE_t.to_excel(data_path+str(country)+'/'+address+fname+'.xlsx', sheet_name='Monthly')
     return INTLINE_t, label, note, footnote
 
-def INTLINE_WEB_LINK(chrome, fname, keyword, get_attribute='href', text_match=False, driver=None):
+def INTLINE_WEB_LINK(chrome, fname, keyword, get_attribute='href', text_match=False, driver=None, ignore_match=False, ignore_text=''):
     
     link_list = WebDriverWait(chrome, 5).until(EC.presence_of_all_elements_located((By.XPATH, './/*[@href]')))
     link_found = False
     error_count = 0
     for link in link_list:
-        if (text_match == True and link.text.find(keyword) >= 0) or (text_match == False and link.get_attribute(get_attribute).find(keyword) >= 0):
+        if (text_match == True and link.text.find(keyword) >= 0 and (ignore_match == False or ignore_match == True and link.text.find(ignore_text) < 0)) or (text_match == False and link.get_attribute(get_attribute).find(keyword) >= 0):
             while True:
                 try:
                     link.click()
@@ -2483,7 +2483,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         break
                 link_found = True
             elif address.find('BOK') >= 0:
-                FREQ = {'A':['Yearly','1953'], 'Q':['Quarterly','1960'], 'M':['Monthly','1960']}
+                FREQ = {'A':['Yearly','1953'], 'Q':['Quarterly','1960'], 'M':['Monthly','1965']}
                 if str(fname).find('Short') < 0:
                     # Routes = [re.split(r'//', str(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].iloc[k]['Routes'])) for k in range(Series[freq].loc[Series[freq]['DataSet'] == str(sname)].shape[0])]
                     if str(sname).find('_NA2') >= 0:
@@ -2568,8 +2568,13 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                             elif WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('id') == freq:
                                 if WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './input'))).get_attribute('checked') != 'true':
                                     WebDriverWait(f, 3).until(EC.presence_of_element_located((By.XPATH, './label'))).click()
-                                chrome.find_element_by_xpath('.//input[@autocomplete="off"][@min="'+FREQ[freq][1]+'"]').click()
-                                ActionChains(chrome).send_keys(FREQ[freq][1]).send_keys(Keys.ENTER).perform()
+                                # chrome.find_element_by_xpath('.//input[@autocomplete="off"][@min="'+FREQ[freq][1]+'"]').click()
+                                # ActionChains(chrome).send_keys(FREQ[freq][1]).send_keys(Keys.ENTER).perform()
+                        frequency_date = WebDriverWait(chrome, 10).until(EC.presence_of_all_elements_located((By.XPATH, './/div[contains(@class, "form-box-content")][//option[@value="'+str(freq)+'"]]//span[@class="dash"]/following-sibling::div//input[@autocomplete="off"]')))
+                        for d in frequency_date:
+                            if d.get_attribute('value') != d.get_attribute('max'):
+                                d.click()
+                                ActionChains(chrome).send_keys(d.get_attribute('max')).send_keys(Keys.ENTER).perform()
                         chrome.find_element_by_xpath('.//button[contains(., "search")]').click()
                         Select(chrome.find_element_by_xpath('.//select[option[contains(., "Decimal Point Basic")]]')).select_by_value('5')
                         chrome.find_element_by_xpath('.//button[contains(., "Original Data Download")]').click()
@@ -3407,7 +3412,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 time.sleep(3)
                 for route in Routes:
                     chrome.execute_script("window.scrollTo(0,0)")
-                    Select(WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'subject')))).select_by_visible_text(str(route[0]))
+                    Select(WebDriverWait(chrome, 30).until(EC.visibility_of_element_located((By.ID, 'subject')))).select_by_visible_text(str(route[0]))
                     try:
                         ActionChains(chrome).drag_and_drop_by_offset(WebDriverWait(chrome, 0.5).until(EC.visibility_of_element_located((By.ID, 'jqxScrollThumbverticalScrollBarVariabel'))),0,-200).perform()
                     except TimeoutException:
@@ -3551,9 +3556,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 while True:
                     try:
                         chrome.switch_to.window(chrome.window_handles[-1])
-                        WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.ID, 'tableLeftUp')))
-                        WebDriverWait(chrome, 2).until(EC.visibility_of_element_located((By.XPATH, './/td[contains(., "Download Data")]'))).click()
-                        WebDriverWait(chrome, 2).until(EC.visibility_of_element_located((By.ID, 'xlsBtn'))).click()
+                        time.sleep(10)
+                        WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.ID, 'tableLeftUp')))
+                        WebDriverWait(chrome, 20).until(EC.visibility_of_element_located((By.XPATH, './/td[contains(., "Download Data")]'))).click()
+                        WebDriverWait(chrome, 20).until(EC.visibility_of_element_located((By.ID, 'xlsBtn'))).click()
                         chrome.close()
                         chrome.switch_to.window(chrome.window_handles[0])
                     except TimeoutException:
@@ -4039,7 +4045,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         target = WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/input[@name="formId:j_id260"]')))
                     target.send_keys(str(file_name))
                     ActionChains(chrome).send_keys(Keys.ENTER).perform()
-                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True, ignore_match=True, ignore_text='Annual')
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(sname), text_match=True)
             elif address.find('PHSA') >= 0:
                 if address.find('MISSI') >= 0:
@@ -4538,6 +4544,16 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
             INTLINE_temp.index = [re.sub(r'\s+', "" , str(''.join(dex))).strip() for dex in INTLINE_temp.index]
         else:
             INTLINE_temp.index = [re.sub(r'\s+', "" , str(dex)).strip() for dex in INTLINE_temp.index]
+            if str(fname).find('Monthly_FS') >= 0:
+                new_index = []
+                for d in range(INTLINE_temp.shape[0]):
+                    if str(INTLINE_temp.index[d]).find('M1') >= 0 and str(INTLINE_temp.iloc[d]['StatisticalTable']).find('End') >= 0:
+                        new_index.append(str(INTLINE_temp.index[d])+'(EndOf)')
+                    elif str(INTLINE_temp.index[d]).find('M1') >= 0 and str(INTLINE_temp.iloc[d]['StatisticalTable']).find('Average') >= 0:
+                        new_index.append(str(INTLINE_temp.index[d])+'(Average)')
+                    else:
+                        new_index.append(INTLINE_temp.index[d])
+                INTLINE_temp.index = new_index
         new_note = []
         for i in range(INTLINE_temp.shape[0]):
             if bool(re.search(r'\(.*?year.*?\)', str(INTLINE_temp.iloc[i]['StatisticalTable']))):
@@ -4713,10 +4729,10 @@ def INTLINE_SINGLEKEY(INTLINE_temp, data_path, country, address, fname, sname, S
         if address.find('KAPSARC') < 0:
             INTLINE_temp = pd.concat([INTLINE_temp, INTLINE_his], axis=1)
             INTLINE_temp = INTLINE_temp.loc[:, ~INTLINE_temp.columns.duplicated()]
-        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
-        INTLINE_temp.to_excel(file_path, sheet_name=fname)
         if freq == 'A':
             INTLINE_temp.columns = [str(col).replace('.0','') for col in INTLINE_temp.columns]
+        INTLINE_temp = INTLINE_temp.sort_index(axis=1)
+        INTLINE_temp.to_excel(file_path, sheet_name=fname)
         if str(fname).find('PCIPFC') >= 0:
             INTLINE_temp['Notes'] = [note_content for i in range(INTLINE_temp.shape[0])]
     elif address.find('RBI') >= 0:

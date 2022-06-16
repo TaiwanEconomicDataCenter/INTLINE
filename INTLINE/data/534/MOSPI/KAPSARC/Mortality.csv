@@ -31,13 +31,6 @@ DATE;FREQUENCY;REGION_ID;REGION_NAME;VARIABLE_NAME;VALUE;VARIABLE_UNIT;VARIABLE_
 2007;Annual;KN.IND;India;Death Rate, Total;7.4;deaths per 1,000 population;KN.DT
 2002;Annual;KN.IND;India;Infant Mortality Rate(IMR), Total;63.0;deaths per 1,000 live births;KN.IT
 2005;Annual;KN.IND;India;Infant Mortality Rate(IMR), Rural;64.0;deaths per 1,000 live births;KN.IR
-2004;Annual;KN.IND;India;Birth Rate, Total;24.1;births per 100 women;KN.BT
-2005;Annual;KN.IND;India;Birth Rate, Total;23.8;births per 100 women;KN.BT
-2004;Annual;KN.IND;India;Birth Rate, Urban;19.0;births per 100 women;KN.BU
-2005;Annual;KN.IND;India;Birth Rate, Urban;19.1;births per 100 women;KN.BU
-2007;Annual;KN.IND;India;Birth Rate, Urban;18.6;births per 100 women;KN.BU
-2006;Annual;KN.IND;India;Infant Mortality Rate(IMR), Rural;62.0;deaths per 1,000 live births;KN.IR
-2002;Annual;KN.IND;India;Infant Mortality Rate(IMR), Urban;40.0;deaths per 1,000 live births;KN.IU
 2006;Annual;KN.IND;India;Birth Rate, Rural;25.2;births per 100 women;KN.BR
 2007;Annual;KN.IND;India;Birth Rate, Rural;24.7;births per 100 women;KN.BR
 2003;Annual;KN.IND;India;Birth Rate, Urban;19.8;births per 100 women;KN.BU
@@ -52,6 +45,13 @@ DATE;FREQUENCY;REGION_ID;REGION_NAME;VARIABLE_NAME;VALUE;VARIABLE_UNIT;VARIABLE_
 2004;Annual;KN.IND;India;Infant Mortality Rate(IMR), Rural;64.0;deaths per 1,000 live births;KN.IR
 2004;Annual;KN.IND;India;Infant Mortality Rate(IMR), Urban;40.0;deaths per 1,000 live births;KN.IU
 2008;Annual;KN.IND;India;Infant Mortality Rate(IMR), Urban;36.0;deaths per 1,000 live births;KN.IU
+2004;Annual;KN.IND;India;Birth Rate, Total;24.1;births per 100 women;KN.BT
+2005;Annual;KN.IND;India;Birth Rate, Total;23.8;births per 100 women;KN.BT
+2004;Annual;KN.IND;India;Birth Rate, Urban;19.0;births per 100 women;KN.BU
+2005;Annual;KN.IND;India;Birth Rate, Urban;19.1;births per 100 women;KN.BU
+2007;Annual;KN.IND;India;Birth Rate, Urban;18.6;births per 100 women;KN.BU
+2006;Annual;KN.IND;India;Infant Mortality Rate(IMR), Rural;62.0;deaths per 1,000 live births;KN.IR
+2002;Annual;KN.IND;India;Infant Mortality Rate(IMR), Urban;40.0;deaths per 1,000 live births;KN.IU
 2001;Annual;KN.IND;India;Infant Mortality Rate(IMR), Total;66.0;deaths per 1,000 live births;KN.IT
 2001;Annual;KN.IND;India;Infant Mortality Rate(IMR), Urban;42.0;deaths per 1,000 live births;KN.IU
 2003;Annual;KN.IND;India;Death Rate, Total;8.0;deaths per 1,000 population;KN.DT
