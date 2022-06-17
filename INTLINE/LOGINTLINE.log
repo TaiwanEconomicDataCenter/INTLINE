@@ -1,327 +1,383 @@
-﻿2022-06-17 02:28:51 PM excel_suffix: test
+﻿2022-06-17 02:37:56 PM excel_suffix: test
 
-2022-06-17 02:28:51 PM data_processing: True
+2022-06-17 02:37:56 PM data_processing: True
 
-2022-06-17 02:28:51 PM find_unknown: False
+2022-06-17 02:37:56 PM find_unknown: False
 
-2022-06-17 02:28:51 PM dealing_start_year: 1901
+2022-06-17 02:37:56 PM dealing_start_year: 1901
 
-2022-06-17 02:28:57 PM Data Processing
+2022-06-17 02:38:00 PM Data Processing
 
-2022-06-17 02:28:57 PM Reading table: Country, Time: 5s
+2022-06-17 02:38:00 PM Reading table: Country, Time: 4s
 
-2022-06-17 02:28:58 PM Reading table: TABLES, Time: 6 s
+2022-06-17 02:38:00 PM Reading table: TABLES, Time: 4 s
 
-2022-06-17 02:29:06 PM Reading file: country_series, Time: 14 s
+2022-06-17 02:38:10 PM Reading file: country_series, Time: 14 s
 
-2022-06-17 02:29:06 PM Reading file: 144datasets, Time: 14 s
+2022-06-17 02:38:10 PM Reading file: 156datasets, Time: 14 s
 
-2022-06-17 02:29:06 PM 
+2022-06-17 02:38:10 PM 
 
-2022-06-17 02:29:06 PM ====== WebDriver manager ======
-2022-06-17 02:29:06 PM Current google-chrome version is 102.0.5005
-2022-06-17 02:29:06 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-17 02:29:06 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-17 02:29:09 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-17 02:29:11 PM Country: Sweden, Reading file or url: https://www.riksgalden.se/en/statistics/statistics-on-central-government-borrowing/net-borrowing-requirement, sheet: Net borrowing requirement, frequency: A, Time: 19s
+2022-06-17 02:38:10 PM ====== WebDriver manager ======
+2022-06-17 02:38:10 PM Current google-chrome version is 102.0.5005
+2022-06-17 02:38:10 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-17 02:38:11 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-17 02:38:15 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-17 02:38:17 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1810020501&pickMembers%5B0%5D=1.1&referencePeriods=19810101%2C19811201, sheet: New housing price index, frequency: M, Time: 21s
 
-2022-06-17 02:29:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:11 PM Total New Items Found: 0 Time: 19 s
+2022-06-17 02:38:18 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111095, sheet: FM0001FinansBKv, frequency: Q, Time: 20s
+2022-06-17 02:38:18 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=3410006601&selectedNodeIds=1D1,2D4,2D7,2D15,2D33,2D36,2D49,2D73,4D1,5D1,5D2&checkedLevels=1D1,2D1&refPeriods=20110101,20111201&dimensionLayouts=layout2,layout3,layout2,layout2,layout3,layout2&vectorDisplay=false, sheet: Building permits by type of structure and type of work, frequency: M, Time: 22s
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:12 PM Total New Items Found: 0 Time: 20 s
+2022-06-17 02:38:18 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111097, sheet: FM0001BytBKv, frequency: Q, Time: 20s
+2022-06-17 02:38:18 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1210001101&selectedNodeIds=2D3,3D2,4D2,5D2,5D3,5D4,5D13&checkedLevels=0D1,4D1&refPeriods=19970101,19971201&dimensionLayouts=layout2,layout2,layout2,layout2,layout3,layout2&vectorDisplay=false, sheet: International merchandise trade, frequency: M, Time: 22s
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:12 PM Total New Items Found: 0 Time: 20 s
+2022-06-17 02:38:18 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111098, sheet: NR0103ENS2010T01Kv, frequency: Q, Time: 21s
+2022-06-17 02:38:18 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1010012501&selectedNodeIds=2D3&checkedLevels=0D1&refPeriods=19560101,19561201&dimensionLayouts=layout2,layout3,layout2&vectorDisplay=false, sheet: Toronto Stock Exchange statistics, frequency: M, Time: 22s
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 02:38:18 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111099, sheet: NR0103ENS2010T10SKv, frequency: Q, Time: 21s
+2022-06-17 02:38:19 PM Country: Canada, Reading file or url: https://www150.statcan.gc.ca/t1/tbl1/en/cv!recreate.action?pid=1010012201&selectedNodeIds=2D2,2D23,2D24,2D26,2D47&checkedLevels=0D1&refPeriods=19340101,19341201&dimensionLayouts=layout2,layout3,layout2&vectorDisplay=false, sheet: Financial market statistics last Wednesday unless otherwise stated, frequency: M, Time: 23s
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 02:38:19 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111100, sheet: NR0103ENS2010T06Kv, frequency: Q, Time: 21s
+2022-06-17 02:38:19 PM Country: Canada, Reading file or url: https://www.cfib-fcei.ca/en/research-economic-analysis/business-barometer, sheet: business-barometer-data-donnes, frequency: M, Time: 23s
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:19 PM Downloading file: business-barometer-data-donnes
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:29 PM Getting Data From Website
 
-2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 02:38:44 PM Total New Items Found: 0 Time: 48 s
 
-2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111101, sheet: NR0103ENS2010T12Kv, frequency: Q, Time: 22s
+2022-06-17 02:38:44 PM Reading file: Datasets, Time: 48 s
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:44 PM Reading file: country_series, Time: 48 s
 
-2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:45 PM Reading file: 134datasets, Time: 49 s
 
-2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 02:38:45 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0001&bypass=true&levelindex=0&levelid=1630027162304#abreadcrumb, sheet: Consumer price index years, frequency: A, Time: 49s
 
-2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111102, sheet: NR0103ENS2010T07Kv, frequency: Q, Time: 22s
+2022-06-17 02:38:45 PM Downloading file: Consumer price index years
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:38:52 PM Getting Data From Website
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:39:17 PM Total New Items Found: 0 Time: 81 s
 
-2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 02:39:18 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0011&bypass=true&levelindex=0&levelid=1630044362548#abreadcrumb, sheet: National accounts - Population and employment, frequency: A, Time: 82s
 
-2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111103, sheet: IndKaputnSNI07Kv, frequency: Q, Time: 22s
+2022-06-17 02:39:18 PM Downloading file: National accounts - Population and employment
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:39:21 PM Getting Data From Website
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:39:49 PM Total New Items Found: 0 Time: 112 s
 
-2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 02:39:49 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0013&bypass=true&levelindex=0&levelid=1630045505364#abreadcrumb, sheet: National accounts - Gross value added years, frequency: A, Time: 113s
 
-2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111105, sheet: SnabbStatAM0401, frequency: M, Time: 22s
+2022-06-17 02:39:49 PM Downloading file: National accounts - Gross value added years
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:39:50 PM Getting Data From Website
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:40:17 PM Total New Items Found: 0 Time: 141 s
 
-2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 02:40:17 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0015&bypass=true&levelindex=0&levelid=1630047868609#abreadcrumb, sheet: National accounts - Employment years, frequency: A, Time: 141s
 
-2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111106, sheet: Detoms07, frequency: M, Time: 23s
+2022-06-17 02:40:17 PM Downloading file: National accounts - Employment years
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:40:20 PM Getting Data From Website
 
-2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:40:50 PM Total New Items Found: 0 Time: 174 s
 
-2022-06-17 02:29:15 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 02:40:50 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0005&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - national disposable income years, frequency: A, Time: 174s
 
-2022-06-17 02:29:15 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111107, sheet: Detoms2005, frequency: M, Time: 23s
+2022-06-17 02:40:50 PM Downloading file: National accounts - national disposable income years
 
-2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:40:52 PM Getting Data From Website
 
-2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:41:19 PM Total New Items Found: 0 Time: 203 s
 
-2022-06-17 02:29:15 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 02:41:19 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0007&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Compensation of employees(national concept) years, frequency: A, Time: 203s
 
-2022-06-17 02:29:15 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111110, sheet: IPI2010KedjM, frequency: M, Time: 24s
+2022-06-17 02:41:19 PM Downloading file: National accounts - Compensation of employees(national concept) years
 
-2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:41:21 PM Getting Data From Website
 
-2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:41:48 PM Total New Items Found: 0 Time: 232 s
 
-2022-06-17 02:29:16 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 02:41:48 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0003&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - Gross national income years, frequency: A, Time: 232s
 
-2022-06-17 02:29:16 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111111, sheet: IndLev2010M, frequency: M, Time: 24s
+2022-06-17 02:41:48 PM Downloading file: National accounts - Gross national income years
 
-2022-06-17 02:29:16 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:41:49 PM Getting Data From Website
 
-2022-06-17 02:29:16 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:42:17 PM Total New Items Found: 0 Time: 261 s
 
-2022-06-17 02:29:16 PM Total New Items Found: 0 Time: 25 s
+2022-06-17 02:42:17 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0009&bypass=true&levelindex=0&levelid=1630052290035#abreadcrumb, sheet: National accounts - saving of households years, frequency: A, Time: 261s
 
-2022-06-17 02:29:17 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111112, sheet: IndOrd2010M, frequency: M, Time: 25s
+2022-06-17 02:42:17 PM Downloading file: National accounts - saving of households years
 
-2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:42:19 PM Getting Data From Website
 
-2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:42:46 PM Total New Items Found: 0 Time: 290 s
 
-2022-06-17 02:29:17 PM Total New Items Found: 0 Time: 25 s
+2022-06-17 02:42:46 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0001&bypass=true&levelindex=2&levelid=1630055815966#abreadcrumb, sheet: National accounts - GDP years, frequency: A, Time: 290s
 
-2022-06-17 02:29:17 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111113, sheet: IndLev2005M, frequency: M, Time: 26s
+2022-06-17 02:42:46 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:42:46 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:42:46 PM Downloading file: National accounts - GDP years
 
-2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 02:42:47 PM Getting Data From Website
 
-2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111114, sheet: IndOrd2005M, frequency: M, Time: 26s
+2022-06-17 02:43:52 PM Getting Data From Website
 
-2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:44:20 PM Total New Items Found: 0 Time: 384 s
 
-2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:44:20 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0019&bypass=true&levelindex=0&levelid=1630056471068#abreadcrumb, sheet: National accounts - Use of the gross domestic product years, frequency: A, Time: 384s
 
-2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 02:44:20 PM Downloading file: National accounts - Use of the gross domestic product years
 
-2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111115, sheet: HIKPIND22015, frequency: M, Time: 26s
+2022-06-17 02:44:23 PM Getting Data From Website
 
-2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:44:54 PM Total New Items Found: 0 Time: 418 s
 
-2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:44:54 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0023&bypass=true&levelindex=0&levelid=1630057607388#abreadcrumb, sheet: National accounts - Gross fixed capital formation years, frequency: A, Time: 418s
 
-2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 02:44:54 PM Downloading file: National accounts - Gross fixed capital formation years
 
-2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/123729, sheet: PPI2015M, frequency: M, Time: 27s
+2022-06-17 02:44:55 PM Getting Data From Website
 
-2022-06-17 02:29:18 PM Downloading file: PPI2015M
+2022-06-17 02:45:23 PM Total New Items Found: 0 Time: 447 s
 
-2022-06-17 02:29:23 PM Getting Data From Website
+2022-06-17 02:45:23 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0027&bypass=true&levelindex=0&levelid=1630058218452#abreadcrumb, sheet: National accounts - Exports and imports years, frequency: A, Time: 447s
 
-2022-06-17 02:29:39 PM Total New Items Found: 0 Time: 47 s
+2022-06-17 02:45:23 PM Downloading file: National accounts - Exports and imports years
 
-2022-06-17 02:29:39 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111117, sheet: ImportExportSnabbM, frequency: M, Time: 47s
+2022-06-17 02:45:24 PM Getting Data From Website
 
-2022-06-17 02:29:39 PM Downloading file: ImportExportSnabbM
+2022-06-17 02:45:52 PM Total New Items Found: 0 Time: 476 s
 
-2022-06-17 02:29:41 PM Getting Data From Website
+2022-06-17 02:45:52 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0031&bypass=true&levelindex=1&levelid=1630061439665#abreadcrumb, sheet: National accounts - general government years, frequency: A, Time: 476s
 
-2022-06-17 02:29:56 PM Total New Items Found: 0 Time: 65 s
+2022-06-17 02:45:52 PM Downloading file: National accounts - general government years
 
-2022-06-17 02:29:57 PM Country: Sweden, Reading file or url: https://www.riksbank.se/en-gb/statistics/search-interest--exchange-rates/, sheet: RKB, frequency: M, Time: 65s
+2022-06-17 02:45:54 PM Getting Data From Website
 
-2022-06-17 02:29:57 PM Downloading file: RKB
+2022-06-17 02:46:20 PM Total New Items Found: 0 Time: 504 s
 
-2022-06-17 02:30:04 PM Getting Data From Website
+2022-06-17 02:46:20 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0033&bypass=true&levelindex=0&levelid=1630059281052#abreadcrumb, sheet: National accounts - Deflators, frequency: A, Time: 504s
 
-2022-06-17 02:30:45 PM Total New Items Found: 0 Time: 113 s
+2022-06-17 02:46:20 PM Downloading file: National accounts - Deflators
 
-2022-06-17 02:30:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:46:22 PM Getting Data From Website
 
-2022-06-17 02:30:45 PM Country: Sweden, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 114s
+2022-06-17 02:46:48 PM Total New Items Found: 0 Time: 531 s
 
-2022-06-17 02:30:46 PM Total New Items Found: 0 Time: 114 s
+2022-06-17 02:46:48 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=31121-0001&bypass=true&levelindex=1&levelid=1630292272785#abreadcrumb, sheet: Construction work completed in structural engineering years, frequency: A, Time: 532s
 
-2022-06-17 02:30:46 PM Country: Sweden, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 114s
+2022-06-17 02:46:48 PM Downloading file: Construction work completed in structural engineering years
 
-2022-06-17 02:30:53 PM Total New Items Found: 0 Time: 121 s
+2022-06-17 02:46:59 PM Getting Data From Website
 
-2022-06-17 02:30:53 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:47:31 PM Total New Items Found: 0 Time: 575 s
 
-2022-06-17 02:30:53 PM Country: Sweden, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 122s
+2022-06-17 02:47:31 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61261-0005&bypass=true&levelindex=0&levelid=1630306980011#abreadcrumb, sheet: Construction price indices by maintenance of residential buildings years, frequency: A, Time: 575s
 
-2022-06-17 02:30:54 PM Total New Items Found: 0 Time: 122 s
+2022-06-17 02:47:31 PM Downloading file: Construction price indices by maintenance of residential buildings years
 
-2022-06-17 02:30:54 PM Country: Sweden, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 122s
+2022-06-17 02:47:33 PM Getting Data From Website
 
-2022-06-17 02:30:55 PM Total New Items Found: 0 Time: 124 s
+2022-06-17 02:48:02 PM Total New Items Found: 0 Time: 606 s
 
-2022-06-17 02:30:55 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:48:02 PM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Society-Environment/Population/Current-Population/Tables/lrbev03.html, sheet: Population by area, frequency: A, Time: 606s
 
-2022-06-17 02:30:56 PM Country: Sweden, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 124s
+2022-06-17 02:48:02 PM Downloading file: Population by area
 
-2022-06-17 02:30:56 PM Total New Items Found: 0 Time: 124 s
+2022-06-17 02:48:07 PM Getting Data From Website
 
-2022-06-17 02:30:56 PM Country: Sweden, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 124s
+2022-06-17 02:48:14 PM Total New Items Found: 0 Time: 618 s
 
-2022-06-17 02:30:58 PM Total New Items Found: 0 Time: 126 s
+2022-06-17 02:48:14 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0001&bypass=true&levelindex=0&levelid=1630311619053#abreadcrumb, sheet: Population - reference date, frequency: A, Time: 618s
 
-2022-06-17 02:30:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:48:14 PM Downloading file: Population - reference date
 
-2022-06-17 02:30:58 PM Country: Sweden, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 127s
+2022-06-17 02:48:16 PM Getting Data From Website
 
-2022-06-17 02:30:59 PM Total New Items Found: 0 Time: 128 s
+2022-06-17 02:48:39 PM Total New Items Found: 0 Time: 643 s
 
-2022-06-17 02:31:00 PM Country: Sweden, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 128s
+2022-06-17 02:48:39 PM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Construction-Industry/pgw710.html, sheet: Volume index of stock of orders, frequency: Q, Time: 643s
 
-2022-06-17 02:31:03 PM Total New Items Found: 0 Time: 132 s
+2022-06-17 02:48:39 PM Downloading file: Volume index of stock of orders
 
-2022-06-17 02:31:03 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:48:45 PM Getting Data From Website
 
-2022-06-17 02:31:04 PM Country: Sweden, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 132s
+2022-06-17 02:48:54 PM Total New Items Found: 0 Time: 658 s
 
-2022-06-17 02:31:07 PM Total New Items Found: 0 Time: 136 s
+2022-06-17 02:48:55 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62221-0002&bypass=true&levelindex=0&levelid=1630489264401#abreadcrumb, sheet: Indices of agreed earnings weekly working hours, frequency: Q, Time: 658s
 
-2022-06-17 02:31:08 PM Country: Sweden, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 136s
+2022-06-17 02:48:55 PM Downloading file: Indices of agreed earnings weekly working hours
 
-2022-06-17 02:31:09 PM Total New Items Found: 0 Time: 137 s
+2022-06-17 02:48:56 PM Getting Data From Website
 
-2022-06-17 02:31:09 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:49:29 PM Total New Items Found: 0 Time: 692 s
 
-2022-06-17 02:31:09 PM Country: Sweden, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 137s
+2022-06-17 02:49:29 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#1, sheet: Indices of labour costs - Index of labour costs per hour worked, frequency: Q, Time: 693s
 
-2022-06-17 02:31:13 PM Total New Items Found: 0 Time: 141 s
+2022-06-17 02:49:29 PM Downloading file: Indices of labour costs - Index of labour costs per hour worked
 
-2022-06-17 02:31:13 PM Country: Sweden, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 141s
+2022-06-17 02:49:30 PM Getting Data From Website
 
-2022-06-17 02:31:14 PM Total New Items Found: 0 Time: 143 s
+2022-06-17 02:50:00 PM Total New Items Found: 0 Time: 724 s
 
-2022-06-17 02:31:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:50:00 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#2, sheet: Indices of labour costs - Index of gross earnings per hour worked, frequency: Q, Time: 724s
 
-2022-06-17 02:31:19 PM Country: Sweden, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 147s
+2022-06-17 02:50:00 PM Downloading file: Indices of labour costs - Index of gross earnings per hour worked
 
-2022-06-17 02:31:21 PM Total New Items Found: 0 Time: 150 s
+2022-06-17 02:50:01 PM Getting Data From Website
 
-2022-06-17 02:31:21 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:50:32 PM Total New Items Found: 0 Time: 756 s
 
-2022-06-17 02:31:22 PM Country: Sweden, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 150s
+2022-06-17 02:50:32 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=62421-0001&bypass=true&levelindex=0&levelid=1630571840454#abreadcrumb#3, sheet: Indices of labour costs - Index of non-wage labour costs per hour worked, frequency: Q, Time: 756s
 
-2022-06-17 02:31:23 PM Total New Items Found: 0 Time: 151 s
+2022-06-17 02:50:32 PM Downloading file: Indices of labour costs - Index of non-wage labour costs per hour worked
 
-2022-06-17 02:31:23 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:50:33 PM Getting Data From Website
 
-2022-06-17 02:31:23 PM Country: Sweden, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 152s
+2022-06-17 02:51:04 PM Total New Items Found: 0 Time: 788 s
 
-2022-06-17 02:31:25 PM Total New Items Found: 0 Time: 153 s
+2022-06-17 02:51:04 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0012&bypass=true&levelindex=0&levelid=1630575593888#abreadcrumb, sheet: National accounts - Population and employment quarters, frequency: Q, Time: 788s
 
-2022-06-17 02:31:25 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:51:04 PM Downloading file: National accounts - Population and employment quarters
 
-2022-06-17 02:31:25 PM Country: Sweden, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 153s
+2022-06-17 02:51:16 PM Getting Data From Website
 
-2022-06-17 02:31:25 PM Total New Items Found: 0 Time: 154 s
+2022-06-17 02:51:47 PM Total New Items Found: 0 Time: 831 s
 
-2022-06-17 02:31:25 PM Country: Sweden, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 154s
+2022-06-17 02:51:47 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0014&bypass=true&levelindex=0&levelid=1630576406736#abreadcrumb, sheet: National accounts - Gross value added quarters, frequency: Q, Time: 831s
 
-2022-06-17 02:31:26 PM Total New Items Found: 0 Time: 155 s
+2022-06-17 02:51:47 PM Downloading file: National accounts - Gross value added quarters
 
-2022-06-17 02:31:26 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:51:48 PM Getting Data From Website
 
-2022-06-17 02:31:27 PM Country: Sweden, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 155s
+2022-06-17 02:52:21 PM Total New Items Found: 0 Time: 864 s
 
-2022-06-17 02:31:27 PM Total New Items Found: 0 Time: 155 s
+2022-06-17 02:52:21 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0016&bypass=true&levelindex=0&levelid=1630634212246#abreadcrumb, sheet: National accounts - Employment quarters, frequency: Q, Time: 865s
 
-2022-06-17 02:31:27 PM Country: Sweden, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 155s
+2022-06-17 02:52:21 PM Downloading file: National accounts - Employment quarters
 
-2022-06-17 02:31:28 PM Total New Items Found: 0 Time: 156 s
+2022-06-17 02:52:24 PM Getting Data From Website
 
-2022-06-17 02:31:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:52:59 PM Total New Items Found: 0 Time: 903 s
 
-2022-06-17 02:31:29 PM Country: Sweden, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 157s
+2022-06-17 02:52:59 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0006&bypass=true&levelindex=0&levelid=1630635870559#abreadcrumb, sheet: National accounts - national disposable income quarters, frequency: Q, Time: 903s
 
-2022-06-17 02:31:32 PM Total New Items Found: 0 Time: 160 s
+2022-06-17 02:52:59 PM Downloading file: National accounts - national disposable income quarters
 
-2022-06-17 02:31:32 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:53:03 PM Getting Data From Website
 
-2022-06-17 02:31:32 PM Country: Sweden, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 160s
+2022-06-17 02:53:33 PM Total New Items Found: 0 Time: 937 s
 
-2022-06-17 02:31:33 PM Total New Items Found: 0 Time: 162 s
+2022-06-17 02:53:33 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0008&bypass=true&levelindex=0&levelid=1630637532330#abreadcrumb, sheet: National accounts - Compensation of employees(national concept) quarters, frequency: Q, Time: 937s
 
-2022-06-17 02:31:33 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:53:33 PM Downloading file: National accounts - Compensation of employees(national concept) quarters
 
-2022-06-17 02:31:34 PM Country: Sweden, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 162s
+2022-06-17 02:53:37 PM Getting Data From Website
 
-2022-06-17 02:31:36 PM Total New Items Found: 0 Time: 164 s
+2022-06-17 02:54:06 PM Total New Items Found: 0 Time: 970 s
 
-2022-06-17 02:31:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:54:07 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0004&bypass=true&levelindex=0&levelid=1630638440780#abreadcrumb, sheet: National accounts - Gross national income quarters, frequency: Q, Time: 971s
 
-2022-06-17 02:31:36 PM Country: Sweden, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 165s
+2022-06-17 02:54:07 PM Downloading file: National accounts - Gross national income quarters
 
-2022-06-17 02:31:39 PM Total New Items Found: 0 Time: 167 s
+2022-06-17 02:54:14 PM Getting Data From Website
 
-2022-06-17 02:31:39 PM Downloading file: SWE_xls
+2022-06-17 02:54:46 PM Total New Items Found: 0 Time: 1009 s
 
-2022-06-17 02:31:46 PM Getting Data From Website
+2022-06-17 02:54:46 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0010&bypass=true&levelindex=0&levelid=1630640086746#abreadcrumb, sheet: National accounts - saving of households quarters, frequency: Q, Time: 1010s
 
-2022-06-17 02:32:16 PM Country: Sweden, Reading file or url: SWE, sheet: Monthly, frequency: M, Time: 204s
+2022-06-17 02:54:46 PM Downloading file: National accounts - saving of households quarters
 
-2022-06-17 02:32:16 PM Total New Items Found: 0 Time: 204 s
+2022-06-17 02:54:49 PM Getting Data From Website
 
-2022-06-17 02:32:16 PM Reading file: Datasets, Time: 204 s
+2022-06-17 02:55:24 PM Total New Items Found: 0 Time: 1048 s
 
-2022-06-17 02:32:16 PM Country: Sweden, Reading file or url: https://www.investing.com/indices/omx-stockholm-30-historical-data, sheet: OMX Index, frequency: W, Time: 205s
+2022-06-17 02:55:25 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0002&bypass=true&levelindex=0&levelid=1630640465917#abreadcrumb, sheet: National accounts - GDP quarters, frequency: Q, Time: 1048s
+
+2022-06-17 02:55:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:55:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:55:25 PM Downloading file: National accounts - GDP quarters
+
+2022-06-17 02:55:28 PM Getting Data From Website
+
+2022-06-17 02:56:05 PM Total New Items Found: 0 Time: 1089 s
+
+2022-06-17 02:56:05 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0020&bypass=true&levelindex=0&levelid=1630648337219#abreadcrumb, sheet: National accounts - Use of the gross domestic product quarters, frequency: Q, Time: 1089s
+
+2022-06-17 02:56:05 PM Downloading file: National accounts - Use of the gross domestic product quarters
+
+2022-06-17 02:56:18 PM Getting Data From Website
+
+2022-06-17 02:56:58 PM Total New Items Found: 0 Time: 1142 s
+
+2022-06-17 02:56:58 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0024&bypass=true&levelindex=0&levelid=1630651004644#abreadcrumb, sheet: National accounts - Gross fixed capital formation quarters, frequency: Q, Time: 1142s
+
+2022-06-17 02:56:58 PM Downloading file: National accounts - Gross fixed capital formation quarters
+
+2022-06-17 02:57:01 PM Getting Data From Website
+
+2022-06-17 02:57:35 PM Total New Items Found: 0 Time: 1179 s
+
+2022-06-17 02:57:36 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0028&bypass=true&levelindex=0&levelid=1630652197401#abreadcrumb, sheet: National accounts - Exports and imports quarters, frequency: Q, Time: 1179s
+
+2022-06-17 02:57:36 PM Downloading file: National accounts - Exports and imports quarters
+
+2022-06-17 02:57:38 PM Getting Data From Website
+
+2022-06-17 02:58:26 PM Total New Items Found: 0 Time: 1230 s
+
+2022-06-17 02:58:26 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0030&bypass=true&levelindex=0&levelid=1630654099717#abreadcrumb, sheet: National accounts - Growth contributions to price-adjusted GDP quarters, frequency: Q, Time: 1230s
+
+2022-06-17 02:58:26 PM Downloading file: National accounts - Growth contributions to price-adjusted GDP quarters
+
+2022-06-17 02:58:28 PM Getting Data From Website
+
+2022-06-17 02:59:06 PM Total New Items Found: 0 Time: 1270 s
+
+2022-06-17 02:59:06 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0018&bypass=true&levelindex=1&levelid=1630654682303#abreadcrumb, sheet: National accounts - Productivity, frequency: Q, Time: 1270s
+
+2022-06-17 02:59:06 PM Downloading file: National accounts - Productivity
+
+2022-06-17 02:59:10 PM Getting Data From Website
+
+2022-06-17 02:59:58 PM Total New Items Found: 0 Time: 1321 s
+
+2022-06-17 02:59:58 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=81000-0034&bypass=true&levelindex=0&levelid=1630658393678#abreadcrumb, sheet: National accounts - Deflators quarters, frequency: Q, Time: 1322s
+
+2022-06-17 02:59:58 PM Downloading file: National accounts - Deflators quarters
+
+2022-06-17 03:00:00 PM Getting Data From Website
 
