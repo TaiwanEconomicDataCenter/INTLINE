@@ -492,3 +492,503 @@
 
 2022-06-17 05:37:14 PM Getting Data From Website
 
+2022-06-17 05:37:23 PM Total New Items Found: 0 Time: 1341 s
+
+2022-06-17 05:37:23 PM Country: France, Reading file or url: Merchandise Trade NSA, sheet: 0, frequency: M, Time: 1341s
+
+2022-06-17 05:37:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:37:24 PM Total New Items Found: 0 Time: 1342 s
+
+2022-06-17 05:37:24 PM Country: France, Reading file or url: http://developpement-durable.bsocom.fr/Statistiques/TableViewer/tableView.aspx?ReportId=44027, sheet: Accommodation authorized by type and by municipality, frequency: M, Time: 1342s
+
+2022-06-17 05:37:24 PM Downloading file: Accommodation authorized by type and by municipality
+
+2022-06-17 05:37:30 PM Getting Data From Website
+
+2022-06-17 05:37:51 PM Total New Items Found: 0 Time: 1369 s
+
+2022-06-17 05:37:52 PM Country: France, Reading file or url: http://developpement-durable.bsocom.fr/Statistiques/TableViewer/tableView.aspx?ReportId=44028, sheet: Housing started by type and by municipality, frequency: M, Time: 1370s
+
+2022-06-17 05:37:52 PM Downloading file: Housing started by type and by municipality
+
+2022-06-17 05:37:54 PM Getting Data From Website
+
+2022-06-17 05:38:09 PM Total New Items Found: 0 Time: 1387 s
+
+2022-06-17 05:38:10 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-demandeurs-demploi-inscrits-pole-emploi-France-metro#1, sheet: Job seekers registered SWDA, frequency: M, Time: 1388s
+
+2022-06-17 05:38:10 PM Downloading file: Job seekers registered SWDA
+
+2022-06-17 05:38:22 PM Getting Data From Website
+
+2022-06-17 05:38:32 PM Total New Items Found: 0 Time: 1410 s
+
+2022-06-17 05:38:32 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-demandeurs-demploi-inscrits-pole-emploi-France-metro#2, sheet: Job seekers registered NSA, frequency: M, Time: 1410s
+
+2022-06-17 05:38:32 PM Downloading file: Job seekers registered NSA
+
+2022-06-17 05:38:32 PM Getting Data From Website
+
+2022-06-17 05:38:53 PM Total New Items Found: 0 Time: 1431 s
+
+2022-06-17 05:38:53 PM Country: France, Reading file or url: https://dares.travail-emploi.gouv.fr/donnees/les-offres-collectees-et-satisfaites-par-pole-emploi, sheet: Offers collected, frequency: M, Time: 1431s
+
+2022-06-17 05:38:53 PM Downloading file: Offers collected
+
+2022-06-17 05:38:54 PM Getting Data From Website
+
+2022-06-17 05:39:05 PM Total New Items Found: 0 Time: 1443 s
+
+2022-06-17 05:39:05 PM Reading file: Datasets, Time: 1443 s
+
+2022-06-17 05:39:06 PM Country: France, Reading file or url: https://www.investing.com/indices/france-40-historical-data, sheet: CAC 40 Price Index, frequency: W, Time: 1444s
+
+2022-06-17 05:39:22 PM Total New Items Found: 0 Time: 1460 s
+
+2022-06-17 05:39:22 PM Country: France, Reading file or url: https://www.investing.com/indices/france-40-historical-data, sheet: CAC 40 Price Index, frequency: D, Time: 1460s
+
+2022-06-17 05:39:28 PM Total New Items Found: 0 Time: 1466 s
+
+2022-06-17 05:39:28 PM Country: France, Reading file or url: https://www.investing.com/indices/sbf-120-historical-data, sheet: SBF 120 Index, frequency: W, Time: 1466s
+
+2022-06-17 05:39:43 PM Total New Items Found: 0 Time: 1481 s
+
+2022-06-17 05:39:43 PM Country: France, Reading file or url: https://www.investing.com/indices/sbf-120-historical-data, sheet: SBF 120 Index, frequency: D, Time: 1481s
+
+2022-06-17 05:39:49 PM Total New Items Found: 0 Time: 1487 s
+
+2022-06-17 05:39:49 PM Reading file: Datasets, Time: 1487 s
+
+2022-06-17 05:39:49 PM Reading file: country_series, Time: 1487 s
+
+2022-06-17 05:39:50 PM Reading file: 136datasets, Time: 1488 s
+
+2022-06-17 05:39:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 1488s
+
+2022-06-17 05:39:50 PM Downloading file: Sequence of accounts current prices
+
+2022-06-17 05:40:10 PM Getting Data From Website
+
+2022-06-17 05:40:33 PM Total New Items Found: 0 Time: 1531 s
+
+2022-06-17 05:40:34 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 1532s
+
+2022-06-17 05:40:34 PM Downloading file: Sequence of accounts chain linked
+
+2022-06-17 05:40:40 PM Getting Data From Website
+
+2022-06-17 05:40:56 PM Total New Items Found: 0 Time: 1554 s
+
+2022-06-17 05:40:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 1554s
+
+2022-06-17 05:40:56 PM Downloading file: Output and value added by industry basic prices current prices
+
+2022-06-17 05:41:05 PM Getting Data From Website
+
+2022-06-17 05:41:21 PM Total New Items Found: 0 Time: 1579 s
+
+2022-06-17 05:41:21 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54760, sheet: Output and value added by industry basic prices chain linked, frequency: A, Time: 1579s
+
+2022-06-17 05:41:21 PM Downloading file: Output and value added by industry basic prices chain linked
+
+2022-06-17 05:41:41 PM Getting Data From Website
+
+2022-06-17 05:41:58 PM Total New Items Found: 0 Time: 1616 s
+
+2022-06-17 05:41:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54761, sheet: Output and value added by industry factor cost current prices, frequency: A, Time: 1616s
+
+2022-06-17 05:41:58 PM Downloading file: Output and value added by industry factor cost current prices
+
+2022-06-17 05:42:18 PM Getting Data From Website
+
+2022-06-17 05:42:36 PM Total New Items Found: 0 Time: 1654 s
+
+2022-06-17 05:42:36 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54762, sheet: Output and value added by industry factor cost chain linked, frequency: A, Time: 1654s
+
+2022-06-17 05:42:36 PM Downloading file: Output and value added by industry factor cost chain linked
+
+2022-06-17 05:42:56 PM Getting Data From Website
+
+2022-06-17 05:43:13 PM Total New Items Found: 0 Time: 1691 s
+
+2022-06-17 05:43:13 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54763, sheet: Output and value added by industry basic prices in previous year prices, frequency: A, Time: 1691s
+
+2022-06-17 05:43:13 PM Downloading file: Output and value added by industry basic prices in previous year prices
+
+2022-06-17 05:43:33 PM Getting Data From Website
+
+2022-06-17 05:43:51 PM Total New Items Found: 0 Time: 1729 s
+
+2022-06-17 05:43:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54764, sheet: Output and value added by industry factor cost in previous year prices, frequency: A, Time: 1729s
+
+2022-06-17 05:43:51 PM Downloading file: Output and value added by industry factor cost in previous year prices
+
+2022-06-17 05:44:11 PM Getting Data From Website
+
+2022-06-17 05:44:28 PM Total New Items Found: 0 Time: 1766 s
+
+2022-06-17 05:44:28 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54765, sheet: Compensation of employees, frequency: A, Time: 1766s
+
+2022-06-17 05:44:28 PM Downloading file: Compensation of employees
+
+2022-06-17 05:44:36 PM Getting Data From Website
+
+2022-06-17 05:44:53 PM Total New Items Found: 0 Time: 1791 s
+
+2022-06-17 05:44:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54766, sheet: Wages and Salaries, frequency: A, Time: 1791s
+
+2022-06-17 05:44:53 PM Downloading file: Wages and Salaries
+
+2022-06-17 05:45:14 PM Getting Data From Website
+
+2022-06-17 05:45:37 PM Total New Items Found: 0 Time: 1836 s
+
+2022-06-17 05:45:38 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54767, sheet: Employers' Social Contributions, frequency: A, Time: 1836s
+
+2022-06-17 05:45:38 PM Downloading file: Employers' Social Contributions
+
+2022-06-17 05:45:58 PM Getting Data From Website
+
+2022-06-17 05:46:14 PM Total New Items Found: 0 Time: 1872 s
+
+2022-06-17 05:46:14 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54768, sheet: Gross fixed capital formation total current prices, frequency: A, Time: 1872s
+
+2022-06-17 05:46:14 PM Downloading file: Gross fixed capital formation total current prices
+
+2022-06-17 05:46:22 PM Getting Data From Website
+
+2022-06-17 05:46:37 PM Total New Items Found: 0 Time: 1895 s
+
+2022-06-17 05:46:37 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54769, sheet: Gross fixed capital formation total chain linked, frequency: A, Time: 1895s
+
+2022-06-17 05:46:37 PM Downloading file: Gross fixed capital formation total chain linked
+
+2022-06-17 05:46:45 PM Getting Data From Website
+
+2022-06-17 05:47:01 PM Total New Items Found: 0 Time: 1919 s
+
+2022-06-17 05:47:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54770, sheet: Gross fixed capital formation agriculture current prices, frequency: A, Time: 1919s
+
+2022-06-17 05:47:01 PM Downloading file: Gross fixed capital formation agriculture current prices
+
+2022-06-17 05:47:09 PM Getting Data From Website
+
+2022-06-17 05:47:25 PM Total New Items Found: 0 Time: 1943 s
+
+2022-06-17 05:47:25 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54771, sheet: Gross fixed capital formation agriculture chain linked, frequency: A, Time: 1943s
+
+2022-06-17 05:47:25 PM Downloading file: Gross fixed capital formation agriculture chain linked
+
+2022-06-17 05:47:33 PM Getting Data From Website
+
+2022-06-17 05:48:03 PM Total New Items Found: 0 Time: 1981 s
+
+2022-06-17 05:48:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54772, sheet: Gross fixed capital formation industry current prices, frequency: A, Time: 1981s
+
+2022-06-17 05:48:03 PM Downloading file: Gross fixed capital formation industry current prices
+
+2022-06-17 05:48:09 PM Getting Data From Website
+
+2022-06-17 05:48:26 PM Total New Items Found: 0 Time: 2004 s
+
+2022-06-17 05:48:26 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54773, sheet: Gross fixed capital formation industry chain linked, frequency: A, Time: 2004s
+
+2022-06-17 05:48:26 PM Downloading file: Gross fixed capital formation industry chain linked
+
+2022-06-17 05:48:46 PM Getting Data From Website
+
+2022-06-17 05:49:02 PM Total New Items Found: 0 Time: 2040 s
+
+2022-06-17 05:49:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54774, sheet: Gross fixed capital formation construction current prices, frequency: A, Time: 2040s
+
+2022-06-17 05:49:02 PM Downloading file: Gross fixed capital formation construction current prices
+
+2022-06-17 05:49:07 PM Getting Data From Website
+
+2022-06-17 05:49:23 PM Total New Items Found: 0 Time: 2061 s
+
+2022-06-17 05:49:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54775, sheet: Gross fixed capital formation construction chain linked, frequency: A, Time: 2062s
+
+2022-06-17 05:49:23 PM Downloading file: Gross fixed capital formation construction chain linked
+
+2022-06-17 05:49:33 PM Getting Data From Website
+
+2022-06-17 05:49:48 PM Total New Items Found: 0 Time: 2086 s
+
+2022-06-17 05:49:48 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54776, sheet: Gross fixed capital formation wholesale current prices, frequency: A, Time: 2086s
+
+2022-06-17 05:49:48 PM Downloading file: Gross fixed capital formation wholesale current prices
+
+2022-06-17 05:49:56 PM Getting Data From Website
+
+2022-06-17 05:50:12 PM Total New Items Found: 0 Time: 2110 s
+
+2022-06-17 05:50:12 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54777, sheet: Gross fixed capital formation wholesale chain linked, frequency: A, Time: 2110s
+
+2022-06-17 05:50:12 PM Downloading file: Gross fixed capital formation wholesale chain linked
+
+2022-06-17 05:50:19 PM Getting Data From Website
+
+2022-06-17 05:50:34 PM Total New Items Found: 0 Time: 2132 s
+
+2022-06-17 05:50:35 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54778, sheet: Gross fixed capital formation financial current prices, frequency: A, Time: 2133s
+
+2022-06-17 05:50:35 PM Downloading file: Gross fixed capital formation financial current prices
+
+2022-06-17 05:50:55 PM Getting Data From Website
+
+2022-06-17 05:51:11 PM Total New Items Found: 0 Time: 2169 s
+
+2022-06-17 05:51:11 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54779, sheet: Gross fixed capital formation financial chain linked, frequency: A, Time: 2169s
+
+2022-06-17 05:51:11 PM Downloading file: Gross fixed capital formation financial chain linked
+
+2022-06-17 05:51:31 PM Getting Data From Website
+
+2022-06-17 05:51:47 PM Total New Items Found: 0 Time: 2205 s
+
+2022-06-17 05:51:47 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54780, sheet: Gross fixed capital formation other current prices, frequency: A, Time: 2205s
+
+2022-06-17 05:51:47 PM Downloading file: Gross fixed capital formation other current prices
+
+2022-06-17 05:51:56 PM Getting Data From Website
+
+2022-06-17 05:52:12 PM Total New Items Found: 0 Time: 2230 s
+
+2022-06-17 05:52:12 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54781, sheet: Gross fixed capital formation other chain linked, frequency: A, Time: 2230s
+
+2022-06-17 05:52:12 PM Downloading file: Gross fixed capital formation other chain linked
+
+2022-06-17 05:52:21 PM Getting Data From Website
+
+2022-06-17 05:52:36 PM Total New Items Found: 0 Time: 2254 s
+
+2022-06-17 05:52:36 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54782, sheet: Stocks of fixed assets total chain linked, frequency: A, Time: 2254s
+
+2022-06-17 05:52:36 PM Downloading file: Stocks of fixed assets total chain linked
+
+2022-06-17 05:52:56 PM Getting Data From Website
+
+2022-06-17 05:53:13 PM Total New Items Found: 0 Time: 2291 s
+
+2022-06-17 05:53:13 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54783, sheet: Stocks of fixed assets construction chain linked, frequency: A, Time: 2292s
+
+2022-06-17 05:53:13 PM Downloading file: Stocks of fixed assets construction chain linked
+
+2022-06-17 05:53:54 PM Getting Data From Website
+
+2022-06-17 05:54:11 PM Total New Items Found: 0 Time: 2349 s
+
+2022-06-17 05:54:11 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54784, sheet: Stocks of fixed assets transport chain linked, frequency: A, Time: 2350s
+
+2022-06-17 05:54:12 PM Downloading file: Stocks of fixed assets transport chain linked
+
+2022-06-17 05:54:19 PM Getting Data From Website
+
+2022-06-17 05:54:35 PM Total New Items Found: 0 Time: 2373 s
+
+2022-06-17 05:54:35 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54785, sheet: Stocks of fixed assets other machinery chain linked, frequency: A, Time: 2373s
+
+2022-06-17 05:54:35 PM Downloading file: Stocks of fixed assets other machinery chain linked
+
+2022-06-17 05:54:42 PM Getting Data From Website
+
+2022-06-17 05:54:59 PM Total New Items Found: 0 Time: 2397 s
+
+2022-06-17 05:54:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54786, sheet: Employment in full time equivalent employed, frequency: A, Time: 2397s
+
+2022-06-17 05:54:59 PM Downloading file: Employment in full time equivalent employed
+
+2022-06-17 05:55:19 PM Getting Data From Website
+
+2022-06-17 05:55:36 PM Total New Items Found: 0 Time: 2434 s
+
+2022-06-17 05:55:36 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54787, sheet: Employment in full time equivalent employees, frequency: A, Time: 2434s
+
+2022-06-17 05:55:36 PM Downloading file: Employment in full time equivalent employees
+
+2022-06-17 05:55:46 PM Getting Data From Website
+
+2022-06-17 05:56:03 PM Total New Items Found: 0 Time: 2461 s
+
+2022-06-17 05:56:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54788, sheet: Population, frequency: A, Time: 2461s
+
+2022-06-17 05:56:03 PM Downloading file: Population
+
+2022-06-17 05:56:10 PM Getting Data From Website
+
+2022-06-17 05:56:27 PM Total New Items Found: 0 Time: 2485 s
+
+2022-06-17 05:56:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54789, sheet: Economic account general government, frequency: A, Time: 2485s
+
+2022-06-17 05:56:27 PM Downloading file: Economic account general government
+
+2022-06-17 05:56:47 PM Getting Data From Website
+
+2022-06-17 05:57:03 PM Total New Items Found: 0 Time: 2521 s
+
+2022-06-17 05:57:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54815, sheet: Economic account central government, frequency: A, Time: 2521s
+
+2022-06-17 05:57:03 PM Downloading file: Economic account central government
+
+2022-06-17 05:57:23 PM Getting Data From Website
+
+2022-06-17 05:57:46 PM Total New Items Found: 0 Time: 2564 s
+
+2022-06-17 05:57:46 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54816, sheet: Economic account local government, frequency: A, Time: 2564s
+
+2022-06-17 05:57:46 PM Downloading file: Economic account local government
+
+2022-06-17 05:58:06 PM Getting Data From Website
+
+2022-06-17 05:58:29 PM Total New Items Found: 0 Time: 2607 s
+
+2022-06-17 05:58:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54817, sheet: Economic account social security funds, frequency: A, Time: 2607s
+
+2022-06-17 05:58:29 PM Downloading file: Economic account social security funds
+
+2022-06-17 05:58:38 PM Getting Data From Website
+
+2022-06-17 05:59:00 PM Total New Items Found: 0 Time: 2638 s
+
+2022-06-17 05:59:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54818, sheet: Sequence of accounts and stock of non-financial assets by institutional sector, frequency: A, Time: 2638s
+
+2022-06-17 05:59:00 PM Downloading file: Sequence of accounts and stock of non-financial assets by institutional sector
+
+2022-06-17 05:59:20 PM Getting Data From Website
+
+2022-06-17 05:59:50 PM Total New Items Found: 0 Time: 2688 s
+
+2022-06-17 05:59:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54819, sheet: Social protection accounts health, frequency: A, Time: 2688s
+
+2022-06-17 05:59:50 PM Downloading file: Social protection accounts health
+
+2022-06-17 06:00:10 PM Getting Data From Website
+
+2022-06-17 06:00:27 PM Total New Items Found: 0 Time: 2725 s
+
+2022-06-17 06:00:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54820, sheet: Social protection accounts social security, frequency: A, Time: 2725s
+
+2022-06-17 06:00:27 PM Downloading file: Social protection accounts social security
+
+2022-06-17 06:00:34 PM Getting Data From Website
+
+2022-06-17 06:00:50 PM Total New Items Found: 0 Time: 2748 s
+
+2022-06-17 06:00:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54821, sheet: Social protection accounts social assistance, frequency: A, Time: 2748s
+
+2022-06-17 06:00:50 PM Downloading file: Social protection accounts social assistance
+
+2022-06-17 06:00:56 PM Getting Data From Website
+
+2022-06-17 06:01:12 PM Total New Items Found: 0 Time: 2770 s
+
+2022-06-17 06:01:12 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54822, sheet: Gross domestic product and expenditure components chain linked, frequency: Q, Time: 2770s
+
+2022-06-17 06:01:12 PM Downloading file: Gross domestic product and expenditure components current prices
+
+2022-06-17 06:01:20 PM Getting Data From Website
+
+2022-06-17 06:01:36 PM Downloading file: Gross domestic product and expenditure components chain linked
+
+2022-06-17 06:01:45 PM Getting Data From Website
+
+2022-06-17 06:02:07 PM Total New Items Found: 0 Time: 2825 s
+
+2022-06-17 06:02:08 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54823, sheet: Gross domestic product and expenditure components current prices, frequency: Q, Time: 2826s
+
+2022-06-17 06:02:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:02:08 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:02:08 PM Total New Items Found: 0 Time: 2826 s
+
+2022-06-17 06:02:08 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54824, sheet: National Accounts quarterly main aggregates Value added by industry current prices, frequency: Q, Time: 2826s
+
+2022-06-17 06:02:08 PM Downloading file: National Accounts quarterly main aggregates Value added by industry current prices
+
+2022-06-17 06:02:20 PM Getting Data From Website
+
+2022-06-17 06:02:39 PM Total New Items Found: 0 Time: 2857 s
+
+2022-06-17 06:02:39 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54825, sheet: National Accounts quarterly main aggregates Value added by industry chain linked, frequency: Q, Time: 2857s
+
+2022-06-17 06:02:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:02:39 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:02:39 PM Downloading file: National Accounts quarterly main aggregates Value added by industry chain linked
+
+2022-06-17 06:02:59 PM Getting Data From Website
+
+2022-06-17 06:03:36 PM Total New Items Found: 0 Time: 2914 s
+
+2022-06-17 06:03:36 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54826, sheet: Gross Domestic Product and main components current prices, frequency: Q, Time: 2915s
+
+2022-06-17 06:03:36 PM Downloading file: Gross Domestic Product and main components current prices
+
+2022-06-17 06:03:48 PM Getting Data From Website
+
+2022-06-17 06:04:04 PM Total New Items Found: 0 Time: 2942 s
+
+2022-06-17 06:04:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54827, sheet: Gross Domestic Product and main components chain linked, frequency: Q, Time: 2942s
+
+2022-06-17 06:04:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:04:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:04:04 PM Downloading file: Gross Domestic Product and main components chain linked
+
+2022-06-17 06:04:11 PM Getting Data From Website
+
+2022-06-17 06:04:33 PM Total New Items Found: 0 Time: 2971 s
+
+2022-06-17 06:04:33 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54828, sheet: Gross fixed capital formation by asset chain linked, frequency: Q, Time: 2971s
+
+2022-06-17 06:04:33 PM Downloading file: Gross fixed capital formation by asset current prices
+
+2022-06-17 06:04:42 PM Getting Data From Website
+
+2022-06-17 06:04:57 PM Downloading file: Gross fixed capital formation by asset chain linked
+
+2022-06-17 06:05:04 PM Getting Data From Website
+
+2022-06-17 06:05:26 PM Total New Items Found: 0 Time: 3024 s
+
+2022-06-17 06:05:26 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54829, sheet: Gross fixed capital formation by asset current prices, frequency: Q, Time: 3024s
+
+2022-06-17 06:05:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:05:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 06:05:27 PM Total New Items Found: 0 Time: 3025 s
+
+2022-06-17 06:05:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54830, sheet: National Accounts quarterly main aggregates domestic compensation of employees, frequency: Q, Time: 3025s
+
+2022-06-17 06:05:27 PM Downloading file: National Accounts quarterly main aggregates domestic compensation of employees
+
+2022-06-17 06:05:39 PM Getting Data From Website
+
+2022-06-17 06:05:55 PM Total New Items Found: 0 Time: 3053 s
+
+2022-06-17 06:05:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54831, sheet: National Accounts quarterly main aggregates domestic wages and salaries, frequency: Q, Time: 3054s
+
+2022-06-17 06:05:55 PM Downloading file: National Accounts quarterly main aggregates domestic wages and salaries
+
+2022-06-17 06:06:03 PM Getting Data From Website
+
+2022-06-17 06:06:20 PM Total New Items Found: 0 Time: 3078 s
+
+2022-06-17 06:06:20 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54847, sheet: Economic account quarterly general government, frequency: Q, Time: 3078s
+
+2022-06-17 06:06:20 PM Downloading file: Economic account quarterly general government
+
+2022-06-17 06:06:40 PM Getting Data From Website
+
+2022-06-17 06:06:57 PM Total New Items Found: 0 Time: 3115 s
+
+2022-06-17 06:06:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56680, sheet: Employed SA, frequency: Q, Time: 3116s
+
+2022-06-17 06:06:58 PM Downloading file: Employed SA
+

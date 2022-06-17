@@ -3767,7 +3767,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     time.sleep(0)
                 else:
                     while True:
-                        print('dex: '+str(dex))
+                        # print('dex: '+str(dex))
                         time.sleep(3)
                         try:
                             target = chrome.find_element_by_xpath('.//table[@class="DataTable"]/tbody')
