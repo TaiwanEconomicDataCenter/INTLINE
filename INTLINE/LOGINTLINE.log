@@ -992,3 +992,107 @@
 
 2022-06-17 06:06:58 PM Downloading file: Employed SA
 
+2022-06-17 06:07:05 PM Getting Data From Website
+
+2022-06-17 06:07:23 PM Total New Items Found: 0 Time: 3141 s
+
+2022-06-17 06:07:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56681, sheet: Unemployed SA, frequency: Q, Time: 3141s
+
+2022-06-17 06:07:23 PM Downloading file: Unemployed SA
+
+2022-06-17 06:07:30 PM Getting Data From Website
+
+2022-06-17 06:07:47 PM Total New Items Found: 0 Time: 3165 s
+
+2022-06-17 06:07:47 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56682, sheet: Unemployment rate SA, frequency: Q, Time: 3165s
+
+2022-06-17 06:07:47 PM Downloading file: Unemployment rate SA
+
+2022-06-17 06:07:54 PM Getting Data From Website
+
+2022-06-17 06:08:11 PM Total New Items Found: 0 Time: 3189 s
+
+2022-06-17 06:08:12 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54871, sheet: Employment in full time equivalent employed quarterly, frequency: Q, Time: 3190s
+
+2022-06-17 06:08:12 PM Downloading file: Employment in full time equivalent employed quarterly
+
+2022-06-17 06:08:19 PM Getting Data From Website
+
+2022-06-17 06:08:36 PM Total New Items Found: 0 Time: 3214 s
+
+2022-06-17 06:08:36 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54872, sheet: Employment in full time equivalent employees quarterly, frequency: Q, Time: 3214s
+
+2022-06-17 06:08:36 PM Downloading file: Employment in full time equivalent employees quarterly
+
+2022-06-17 06:08:42 PM Getting Data From Website
+
+2022-06-17 06:08:58 PM Total New Items Found: 0 Time: 3236 s
+
+2022-06-17 06:08:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56683, sheet: Labour force SA, frequency: Q, Time: 3236s
+
+2022-06-17 06:08:58 PM Downloading file: Labour force SA
+
+2022-06-17 06:09:05 PM Getting Data From Website
+
+2022-06-17 06:09:23 PM Total New Items Found: 0 Time: 3261 s
+
+2022-06-17 06:09:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54875, sheet: Index of production in construction, frequency: Q, Time: 3261s
+
+2022-06-17 06:09:23 PM Downloading file: Index of production in construction
+
+2022-06-17 06:09:30 PM Getting Data From Website
+
+2022-06-17 06:09:51 PM Total New Items Found: 0 Time: 3289 s
+
+2022-06-17 06:09:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54878, sheet: Consumer Price Index, frequency: M, Time: 3289s
+
+2022-06-17 06:09:51 PM Downloading file: Consumer Price Index
+
+2022-06-17 06:10:21 PM Getting Data From Website
+
+2022-06-17 06:11:00 PM Total New Items Found: 0 Time: 3358 s
+
+2022-06-17 06:11:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54879, sheet: Consumer Price Index of Blue- and White-Collar Families, frequency: M, Time: 3358s
+
+2022-06-17 06:11:00 PM Downloading file: Consumer Price Index of Blue- and White-Collar Families
+
+2022-06-17 06:11:05 PM Getting Data From Website
+
+2022-06-17 06:11:29 PM Total New Items Found: 0 Time: 3387 s
+
+2022-06-17 06:11:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54880, sheet: Harmonized CPI, frequency: M, Time: 3387s
+
+2022-06-17 06:11:29 PM Downloading file: Harmonized CPI
+
+2022-06-17 06:11:37 PM Getting Data From Website
+
+2022-06-17 06:11:54 PM Total New Items Found: 0 Time: 3412 s
+
+2022-06-17 06:11:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54881, sheet: Industrial Producer Price Index, frequency: M, Time: 3412s
+
+2022-06-17 06:11:54 PM Downloading file: Industrial Producer Price Index
+
+2022-06-17 06:12:02 PM Getting Data From Website
+
+2022-06-17 06:15:04 PM Total New Items Found: 0 Time: 3602 s
+
+2022-06-17 06:15:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54896, sheet: Industrial Production Index SA, frequency: M, Time: 3602s
+
+2022-06-17 06:15:04 PM Downloading file: Industrial Production Index SA
+
+2022-06-17 06:15:18 PM Getting Data From Website
+
+2022-06-17 06:15:49 PM Total New Items Found: 0 Time: 3647 s
+
+2022-06-17 06:15:49 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54897, sheet: Industrial Production Index CA, frequency: M, Time: 3647s
+
+2022-06-17 06:15:49 PM Downloading file: Industrial Production Index CA
+
+2022-06-17 06:16:00 PM Getting Data From Website
+
+2022-06-17 06:16:35 PM Total New Items Found: 0 Time: 3693 s
+
+2022-06-17 06:16:35 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54898, sheet: Industrial Production Index NSA1, frequency: M, Time: 3693s
+
+2022-06-17 06:16:35 PM Downloading file: Industrial Production Index NSA1
+
