@@ -1,336 +1,143 @@
-﻿2022-06-16 06:06:15 PM excel_suffix: test
+﻿2022-06-17 09:59:37 AM excel_suffix: test
 
-2022-06-16 06:06:15 PM data_processing: True
+2022-06-17 09:59:37 AM data_processing: True
 
-2022-06-16 06:06:15 PM find_unknown: False
+2022-06-17 09:59:37 AM find_unknown: False
 
-2022-06-16 06:06:15 PM dealing_start_year: 1901
+2022-06-17 09:59:37 AM dealing_start_year: 1901
 
-2022-06-16 06:06:22 PM Data Processing
+2022-06-17 09:59:43 AM Data Processing
 
-2022-06-16 06:06:22 PM Reading table: Country, Time: 7s
+2022-06-17 09:59:43 AM Reading table: Country, Time: 5s
 
-2022-06-16 06:06:23 PM Reading table: TABLES, Time: 7 s
+2022-06-17 09:59:43 AM Reading table: TABLES, Time: 6 s
 
-2022-06-16 06:06:28 PM Reading file: country_series, Time: 13 s
+2022-06-17 09:59:50 AM Reading file: BEA TablesRegister, Time: 12 s
 
-2022-06-16 06:06:29 PM Reading file: 548datasets, Time: 13 s
+2022-06-17 09:59:51 AM Reading file: BEA SeriesRegister, Time: 14 s
 
-2022-06-16 06:06:29 PM 
+2022-06-17 09:59:54 AM 
 
-2022-06-16 06:06:29 PM ====== WebDriver manager ======
-2022-06-16 06:06:29 PM Current google-chrome version is 102.0.5005
-2022-06-16 06:06:29 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-16 06:06:29 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-16 06:06:33 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-16 06:06:35 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#1, sheet: Balance of Payments (Detailed breakdown, frequency: A, Time: 19s
+2022-06-17 09:59:54 AM ====== WebDriver manager ======
+2022-06-17 09:59:54 AM Current google-chrome version is 102.0.5005
+2022-06-17 09:59:54 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-17 09:59:54 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-17 09:59:57 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-17 09:59:59 AM Downloading file: Survey
 
-2022-06-16 06:06:35 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:04 AM Getting Data From Website
 
-2022-06-16 06:06:35 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:22 AM Reading source file, Time: 44 s
 
-2022-06-16 06:06:35 PM Total New Items Found: 0 Time: 19 s
+2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 53s
 
-2022-06-16 06:06:35 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#2, sheet: Gross Domestic Product by Kind of Economic Activity at Constant, frequency: A, Time: 19s
+2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 53 s
 
-2022-06-16 06:06:35 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 53s
 
-2022-06-16 06:06:35 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:35 PM Total New Items Found: 0 Time: 20 s
+2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 54s
 
-2022-06-16 06:06:35 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#2, sheet: Gross Domestic Product by Kind of Economic Activity at Constant, frequency: Q, Time: 20s
+2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:35 PM Total New Items Found: 0 Time: 20 s
+2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 54s
 
-2022-06-16 06:06:36 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#3, sheet: Gross Domestic Product by Kind of Economic Activity at Current, frequency: A, Time: 20s
+2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 54s
 
-2022-06-16 06:06:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:36 PM Total New Items Found: 0 Time: 20 s
+2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 54s
 
-2022-06-16 06:06:36 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#3, sheet: Gross Domestic Product by Kind of Economic Activity at Current, frequency: Q, Time: 20s
+2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:36 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 54s
 
-2022-06-16 06:06:36 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#4, sheet: Gross National Income (GNI) by Expenditure Components in Constant, frequency: A, Time: 21s
+2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 54s
 
-2022-06-16 06:06:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
 
-2022-06-16 06:06:37 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 10:00:32 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-16 06:06:37 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#4, sheet: Gross National Income (GNI) by Expenditure Components in Constant, frequency: Q, Time: 21s
+2022-06-17 10:00:32 AM Reading source file, Time: 54 s
 
-2022-06-16 06:06:37 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 10:00:37 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 59s
 
-2022-06-16 06:06:37 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#5, sheet: Balance of Payments (BPM6), frequency: Q, Time: 21s
+2022-06-17 10:00:37 AM Total New Items Found: 0 Time: 59 s
 
-2022-06-16 06:06:37 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:37 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 59s
 
-2022-06-16 06:06:37 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:37 AM Total New Items Found: 0 Time: 59 s
 
-2022-06-16 06:06:37 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 10:00:37 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-16 06:06:37 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#6, sheet: Federal Government Operating Expenditure by Object, frequency: A, Time: 22s
+2022-06-17 10:00:37 AM Reading source file, Time: 59 s
 
-2022-06-16 06:06:37 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:43 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 65s
 
-2022-06-16 06:06:37 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:43 AM Total New Items Found: 0 Time: 65 s
 
-2022-06-16 06:06:38 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 10:00:43 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 65s
 
-2022-06-16 06:06:38 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#6, sheet: Federal Government Operating Expenditure by Object, frequency: Q, Time: 22s
+2022-06-17 10:00:43 AM Total New Items Found: 0 Time: 65 s
 
-2022-06-16 06:06:38 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 66s
 
-2022-06-16 06:06:38 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#7, sheet: Federal Government Finance, frequency: Q, Time: 22s
+2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
 
-2022-06-16 06:06:38 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 66s
 
-2022-06-16 06:06:38 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
 
-2022-06-16 06:06:38 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 66s
 
-2022-06-16 06:06:38 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#8, sheet: Federal Government Debt, frequency: A, Time: 23s
+2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
 
-2022-06-16 06:06:38 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:44 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-16 06:06:38 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:44 AM Reading source file, Time: 66 s
 
-2022-06-16 06:06:38 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 10:00:46 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 68s
 
-2022-06-16 06:06:38 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#8, sheet: Federal Government Debt, frequency: Q, Time: 23s
+2022-06-17 10:00:46 AM Total New Items Found: 0 Time: 68 s
 
-2022-06-16 06:06:39 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 10:00:46 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 68s
 
-2022-06-16 06:06:39 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#9, sheet: Federal Government Revenue, frequency: A, Time: 23s
+2022-06-17 10:00:46 AM Total New Items Found: 0 Time: 68 s
 
-2022-06-16 06:06:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:46 AM Downloading file: Underlying
 
-2022-06-16 06:06:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:00:48 AM Getting Data From Website
 
-2022-06-16 06:06:39 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 10:01:20 AM Reading source file, Time: 102 s
 
-2022-06-16 06:06:39 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#10, sheet: Consumer Price Index, frequency: M, Time: 24s
+2022-06-17 10:01:21 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 104s
 
-2022-06-16 06:06:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:21 AM Total New Items Found: 0 Time: 104 s
 
-2022-06-16 06:06:39 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 104s
 
-2022-06-16 06:06:40 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
 
-2022-06-16 06:06:40 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#11, sheet: External Trade, frequency: M, Time: 24s
+2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 104s
 
-2022-06-16 06:06:40 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
 
-2022-06-16 06:06:40 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 104s
 
-2022-06-16 06:06:40 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
 
-2022-06-16 06:06:40 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#12, sheet: Industrial Production Index, frequency: M, Time: 25s
+2022-06-17 10:01:22 AM Reading file: BLS_series, Time: 104 s
 
-2022-06-16 06:06:40 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:28 AM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 110s
 
-2022-06-16 06:06:40 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 10:01:34 AM Total New Items Found: 0 Time: 116 s
 
-2022-06-16 06:06:41 PM Total New Items Found: 0 Time: 25 s
+2022-06-17 10:01:34 AM Reading file: BLS_series, Time: 116 s
 
-2022-06-16 06:06:41 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#13, sheet: Monetary Aggregates, frequency: M, Time: 25s
+2022-06-17 10:02:23 AM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 165s
 
-2022-06-16 06:06:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:41 PM Total New Items Found: 0 Time: 25 s
-
-2022-06-16 06:06:41 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#14, sheet: Currency in Circulation by Denomination, frequency: M, Time: 26s
-
-2022-06-16 06:06:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:41 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:41 PM Total New Items Found: 0 Time: 26 s
-
-2022-06-16 06:06:42 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#15, sheet: Treasury Bills and Bank Negara Bills, frequency: M, Time: 26s
-
-2022-06-16 06:06:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:42 PM Total New Items Found: 0 Time: 26 s
-
-2022-06-16 06:06:42 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#16, sheet: Interbank Money Market, frequency: M, Time: 27s
-
-2022-06-16 06:06:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:42 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:43 PM Total New Items Found: 0 Time: 27 s
-
-2022-06-16 06:06:43 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/rates-statistics#17, sheet: External Reserves, frequency: M, Time: 27s
-
-2022-06-16 06:06:43 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:43 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:43 PM Total New Items Found: 0 Time: 27 s
-
-2022-06-16 06:06:43 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/national-summary-data-page-for-malaysia#1, sheet: Public Sector Operations, frequency: A, Time: 28s
-
-2022-06-16 06:06:43 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:43 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:43 PM Total New Items Found: 0 Time: 28 s
-
-2022-06-16 06:06:44 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/national-summary-data-page-for-malaysia#2, sheet: Producer Price Index - Local Production, frequency: M, Time: 28s
-
-2022-06-16 06:06:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:44 PM Total New Items Found: 0 Time: 28 s
-
-2022-06-16 06:06:44 PM Country: Malaysia, Reading file or url: https://www.bnm.gov.my/national-summary-data-page-for-malaysia#3, sheet: Central Government Operations, frequency: M, Time: 28s
-
-2022-06-16 06:06:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:44 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:44 PM Total New Items Found: 0 Time: 29 s
-
-2022-06-16 06:06:45 PM Country: Malaysia, Reading file or url: https://newss.statistics.gov.my/newss-portalx/ep/epProductFreeDownloadSearch.seam#1, sheet: Publication Table LFR, frequency: A, Time: 29s
-
-2022-06-16 06:06:45 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:45 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-16 06:06:45 PM Total New Items Found: 0 Time: 29 s
-
-2022-06-16 06:06:45 PM Country: Malaysia, Reading file or url: https://newss.statistics.gov.my/newss-portalx/ep/epProductFreeDownloadSearch.seam#2, sheet: tab1Msia, frequency: M, Time: 29s
-
-2022-06-16 06:06:45 PM Downloading file: tab1Msia
-
-2022-06-16 06:06:46 PM Getting Data From Website
-
-2022-06-16 06:06:58 PM Total New Items Found: 0 Time: 42 s
-
-2022-06-16 06:06:58 PM Country: Malaysia, Reading file or url: https://newss.statistics.gov.my/newss-portalx/ep/epProductFreeDownloadSearch.seam#3, sheet: Jadual IPP, frequency: M, Time: 42s
-
-2022-06-16 06:06:58 PM Downloading file: Jadual IPP
-
-2022-06-16 06:06:58 PM Getting Data From Website
-
-2022-06-16 06:07:09 PM Total New Items Found: 0 Time: 54 s
-
-2022-06-16 06:07:10 PM Country: Malaysia, Reading file or url: https://www.dosm.gov.my/v1/index.php?r=column/ctwoByCat&parent_id=80&menu_id=YmJrMEFKT0p0WUIxbDl1bzZydW9JQT09, sheet: Malaysian Economic Indicators, frequency: M, Time: 54s
-
-2022-06-16 06:07:10 PM Downloading file: Malaysian Economic Indicators
-
-2022-06-16 06:07:12 PM Getting Data From Website
-
-2022-06-16 06:07:24 PM Total New Items Found: 0 Time: 68 s
-
-2022-06-16 06:07:24 PM Country: Malaysia, Reading file or url: https://newss.statistics.gov.my/newss-portalx/ep/epProductFreeDownloadSearch.seam#4, sheet: GUNA TENAGA_Employment_MALAYSIA, frequency: M, Time: 68s
-
-2022-06-16 06:07:24 PM Downloading file: GUNA TENAGA_Employment_MALAYSIA
-
-2022-06-16 06:07:24 PM Getting Data From Website
-
-2022-06-16 06:07:34 PM Total New Items Found: 0 Time: 78 s
-
-2022-06-16 06:07:34 PM Reading file: country_series, Time: 78 s
-
-2022-06-16 06:07:34 PM Reading file: 566datasets, Time: 78 s
-
-2022-06-16 06:07:34 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices, frequency: A, Time: 79s
-
-2022-06-16 06:07:34 PM Downloading file: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices
-
-2022-06-16 06:07:48 PM Getting Data From Website
-
-2022-06-16 06:08:15 PM Total New Items Found: 0 Time: 120 s
-
-2022-06-16 06:08:16 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0012B5CEXA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#2, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices, frequency: A, Time: 120s
-
-2022-06-16 06:08:16 PM Downloading file: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices
-
-2022-06-16 06:08:21 PM Getting Data From Website
-
-2022-06-16 06:08:50 PM Total New Items Found: 0 Time: 154 s
-
-2022-06-16 06:08:50 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0052B5CPRA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#1, sheet: Gross National Income and Gross Domestic Product by Industry At Current Prices, frequency: A, Time: 154s
-
-2022-06-16 06:08:50 PM Downloading file: Gross National Income and Gross Domestic Product by Industry At Current Prices
-
-2022-06-16 06:08:52 PM Getting Data From Website
-
-2022-06-16 06:09:16 PM Total New Items Found: 0 Time: 180 s
-
-2022-06-16 06:09:16 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__AN__1SUM/0052B5CPRA1.px/?rxid=3ad0a0a7-de5e-436c-b243-b82b22ffea97#2, sheet: Gross National Income and Gross Domestic Product by Industry At Constant Prices, frequency: A, Time: 180s
-
-2022-06-16 06:09:16 PM Downloading file: Gross National Income and Gross Domestic Product by Industry At Constant Prices
-
-2022-06-16 06:09:18 PM Getting Data From Website
-
-2022-06-16 06:09:42 PM Total New Items Found: 0 Time: 206 s
-
-2022-06-16 06:09:42 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0012B5CEXQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#1, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices Q, frequency: Q, Time: 206s
-
-2022-06-16 06:09:42 PM Downloading file: Gross National Income and Gross Domestic Product by Expenditure Shares At Current Prices Q
-
-2022-06-16 06:09:44 PM Getting Data From Website
-
-2022-06-16 06:10:13 PM Total New Items Found: 0 Time: 238 s
-
-2022-06-16 06:10:13 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0012B5CEXQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#2, sheet: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices Q, frequency: Q, Time: 238s
-
-2022-06-16 06:10:13 PM Downloading file: Gross National Income and Gross Domestic Product by Expenditure Shares At Constant Prices Q
-
-2022-06-16 06:10:16 PM Getting Data From Website
-
-2022-06-16 06:10:51 PM Total New Items Found: 0 Time: 275 s
-
-2022-06-16 06:10:51 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0052B5CPRQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#1, sheet: Gross National Income and Gross Domestic Product by Industry At Current Prices Q, frequency: Q, Time: 275s
-
-2022-06-16 06:10:51 PM Downloading file: Gross National Income and Gross Domestic Product by Industry At Current Prices Q
-
-2022-06-16 06:10:55 PM Getting Data From Website
-
-2022-06-16 06:11:27 PM Total New Items Found: 0 Time: 311 s
-
-2022-06-16 06:11:27 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0052B5CPRQ1.px/?rxid=0c903f88-2f6e-4c3d-a18b-2c8cc6b3deaf#2, sheet: Gross National Income and Gross Domestic Product by Industry At Constant Prices Q, frequency: Q, Time: 311s
-
-2022-06-16 06:11:27 PM Downloading file: Gross National Income and Gross Domestic Product by Industry At Constant Prices Q
-
-2022-06-16 06:11:30 PM Getting Data From Website
-
-2022-06-16 06:11:59 PM Total New Items Found: 0 Time: 344 s
-
-2022-06-16 06:12:00 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__8AFF/0382B5CAFQ1.px/?rxid=b2e970b5-cada-4d67-8389-8c2a95317626#1, sheet: Gross Value Added in Agriculture Forestry and Fishing At Current Prices Q, frequency: Q, Time: 344s
-
-2022-06-16 06:12:00 PM Downloading file: Gross Value Added in Agriculture Forestry and Fishing At Current Prices Q
-
-2022-06-16 06:12:01 PM Getting Data From Website
-
-2022-06-16 06:12:32 PM Total New Items Found: 0 Time: 377 s
-
-2022-06-16 06:12:32 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__8AFF/0382B5CAFQ1.px/?rxid=b2e970b5-cada-4d67-8389-8c2a95317626#2, sheet: Gross Value Added in Agriculture Forestry and Fishing At Constant Prices Q, frequency: Q, Time: 377s
-
-2022-06-16 06:12:32 PM Downloading file: Gross Value Added in Agriculture Forestry and Fishing At Constant Prices Q
-
-2022-06-16 06:12:34 PM Getting Data From Website
-
-2022-06-16 06:13:13 PM Total New Items Found: 0 Time: 418 s
-
-2022-06-16 06:13:13 PM Country: Philippines, Reading file or url: https://openstat.psa.gov.ph/PXWeb/pxweb/en/DB/DB__2B__NA__QT__1SUM/0122B5CPCQ1.px/?rxid=961639f9-ee6c-4124-9328-53b146464ef0, sheet: Per Capita Gross Domestic Product Gross National Income and Household Final Consumption Expenditure Q, frequency: Q, Time: 418s
-
-2022-06-16 06:13:13 PM Downloading file: Per Capita Gross Domestic Product Gross National Income and Household Final Consumption Expenditure Q
-
-2022-06-16 06:13:15 PM Getting Data From Website
-
-2022-06-16 06:13:39 PM = ! = The file was not properly downloaded

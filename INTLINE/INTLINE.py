@@ -320,10 +320,19 @@ def INTLINE_KEY(country, address, key=None, US_address=None, country_datasets=Fa
         return Series, Datasets, Titles
     elif address.find('BEA') >= 0:
         BEA_datasets = readExcelFile(data_path+'tablesINT.xlsx', header_ = 0, index_col_=0, sheet_name_='BEAdatasets')
-        logging.info('Reading file: BEA TablesRegister, Time: '+str(int(time.time() - tStart))+' s'+'\n')
-        BEA_table = readFile(BEA_datasets.loc[address, 'Table'], header_ = 0, index_col_='TableId')
-        logging.info('Reading file: BEA SeriesRegister, Time: '+str(int(time.time() - tStart))+' s'+'\n')
-        BEA_series = readFile(BEA_datasets.loc[address, 'Series'], header_ = 0, index_col_='%SeriesCode')
+        max_count = 0
+        while True:
+            try:
+                logging.info('Reading file: BEA TablesRegister, Time: '+str(int(time.time() - tStart))+' s'+'\n')
+                BEA_table = readFile(BEA_datasets.loc[address, 'Table'], header_ = 0, index_col_='TableId', wait=True)
+                logging.info('Reading file: BEA SeriesRegister, Time: '+str(int(time.time() - tStart))+' s'+'\n')
+                BEA_series = readFile(BEA_datasets.loc[address, 'Series'], header_ = 0, index_col_='%SeriesCode', wait=True)
+            except Exception as e:
+                if max_count >= 3:
+                    ERROR(str(e))
+                max_count += 1
+            else:
+                break
         return BEA_series, BEA_table, Titles
         """elif address.find('STL') >= 0:
         logging.info('Reading file: '+key+'_series, Time: '+str(int(time.time() - tStart))+' s'+'\n')

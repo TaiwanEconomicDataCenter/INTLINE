@@ -935,7 +935,9 @@ def INTLINE_BASE_YEAR(INTLINE_temp, chrome, data_path, country, address, file_na
         else:
             base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[1].iloc[0])
     elif address.find('PHSA') >= 0 and str(file_name).find('Index') >= 0:
-        base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0]).replace('\n',''))
+        base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[:2].T.iloc[0]).replace('\n',''))
+        if str(base_year).isnumeric() == False:
+            base_year = re.sub(r'.*?([0-9]{4})\s*=\s*100.*', r"\1", str(readExcelFile(data_path+str(country)+'/'+address+file_name+'.xls'+excel, sheet_name_=sheet_name, acceptNoFile=False).iloc[0].iloc[0]).replace('\n',''))
     elif address.find('BTEIT') >= 0:
         file_path = data_path+str(country)+'/'+address+'base_year.csv'
         base_year_list = readFile(file_path, header_=[0], index_col_=0, acceptNoFile=False)
