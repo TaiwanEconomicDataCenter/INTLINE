@@ -3708,7 +3708,11 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         link_found = True
                 else:
                     if freq == 'A':
-                        link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
+                        if str(sname).find('Households account') >= 0:
+                            WebDriverWait(chrome, 5).until(EC.visibility_of_element_located((By.XPATH, './/a[contains(., "'+str(file_name)+'")][contains(., "National accounts")]'))).click()
+                            link_found = True
+                        else:
+                            link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name), text_match=True)
                         if link_found == False:
                             ERROR('Link Not Found: '+str(file_name))
                         try:

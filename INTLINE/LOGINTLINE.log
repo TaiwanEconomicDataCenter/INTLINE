@@ -1,313 +1,494 @@
-﻿2022-06-17 04:38:50 PM excel_suffix: test
+﻿2022-06-17 05:15:01 PM excel_suffix: test
 
-2022-06-17 04:38:50 PM data_processing: True
+2022-06-17 05:15:01 PM data_processing: True
 
-2022-06-17 04:38:50 PM find_unknown: False
+2022-06-17 05:15:01 PM find_unknown: False
 
-2022-06-17 04:38:50 PM dealing_start_year: 1901
+2022-06-17 05:15:01 PM dealing_start_year: 1901
 
-2022-06-17 04:38:56 PM Data Processing
+2022-06-17 05:15:05 PM Data Processing
 
-2022-06-17 04:38:56 PM Reading table: Country, Time: 6s
+2022-06-17 05:15:05 PM Reading table: Country, Time: 3s
 
-2022-06-17 04:38:56 PM Reading table: TABLES, Time: 6 s
+2022-06-17 05:15:05 PM Reading table: TABLES, Time: 3 s
 
-2022-06-17 04:39:06 PM Reading file: country_series, Time: 16 s
+2022-06-17 05:15:16 PM Reading file: country_series, Time: 14 s
 
-2022-06-17 04:39:06 PM Reading file: 134datasets, Time: 16 s
+2022-06-17 05:15:16 PM Reading file: 132datasets, Time: 14 s
 
-2022-06-17 04:39:06 PM 
+2022-06-17 05:15:16 PM 
 
-2022-06-17 04:39:06 PM ====== WebDriver manager ======
-2022-06-17 04:39:07 PM Current google-chrome version is 102.0.5005
-2022-06-17 04:39:07 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-17 04:39:07 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-17 04:39:10 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-17 04:39:11 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v27_web012_11a, sheet: Budgetary developments in Germany (national accounts), frequency: A, Time: 21s
+2022-06-17 05:15:16 PM ====== WebDriver manager ======
+2022-06-17 05:15:17 PM Current google-chrome version is 102.0.5005
+2022-06-17 05:15:17 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-17 05:15:17 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-17 05:15:20 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-17 05:15:21 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#1, sheet: Gross domestic product and its components at current prices (Billions euros), frequency: A, Time: 19s
 
-2022-06-17 04:39:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:11 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 05:15:21 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:11 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v27_web011_22a&treeAnchor=FINANZEN, sheet: General government debt as defined in the Maastricht Treaty, frequency: A, Time: 21s
+2022-06-17 05:15:22 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-17 04:39:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:22 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#2, sheet: Gross domestic product and its components in volume at linked prices (Billions euros, frequency: A, Time: 20s
 
-2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 21 s
+2022-06-17 05:15:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR, sheet: Pay rates on a hourly basis years, frequency: A, Time: 22s
+2022-06-17 05:15:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:22 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 05:15:23 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#3, sheet: Gross domestic product and its components price indexes (Base 100, frequency: A, Time: 21s
 
-2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR, sheet: Pay rates on a monthly basis years, frequency: A, Time: 22s
+2022-06-17 05:15:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 22 s
+2022-06-17 05:15:23 PM Latest Base Year Received.
 
-2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: A, Time: 22s
+2022-06-17 05:15:23 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:23 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#4, sheet: Gross domestic product the three approaches at current prices (Billions euros), frequency: A, Time: 21s
 
-2022-06-17 04:39:13 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 05:15:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:13 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: M, Time: 23s
+2022-06-17 05:15:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:13 PM Total New Items Found: 0 Time: 23 s
+2022-06-17 05:15:24 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 04:39:13 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: A, Time: 23s
+2022-06-17 05:15:24 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#5, sheet: Gross value added by institutional sector at current prices (Billions euros), frequency: A, Time: 22s
 
-2022-06-17 04:39:13 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 05:15:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: Q, Time: 24s
+2022-06-17 05:15:25 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 05:15:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+(GDP)%20and+main+economic+aggregates&taille=100&debut=0&categorie=5#6, sheet: Gross value added by origin at current prices (Billions euros), frequency: A, Time: 23s
 
-2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: M, Time: 24s
+2022-06-17 05:15:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 05:15:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a hourly basis quarters, frequency: Q, Time: 24s
+2022-06-17 05:15:25 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 04:39:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:25 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+Value+Added&taille=100&debut=0&categorie=5, sheet: Gross value added by industry in volume at linked prices (Billions euros, frequency: A, Time: 23s
 
-2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
+2022-06-17 05:15:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a monthly basis quarters, frequency: Q, Time: 25s
+2022-06-17 05:15:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:26 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 04:39:15 PM Total New Items Found: 0 Time: 25 s
+2022-06-17 05:15:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Non-financial+corporations+and+unincorporated+enterprises&debut=0&categorie=5, sheet: Elements of the operating account of non-financial corporations and unincorporated enterprises (Billions euros), frequency: A, Time: 24s
 
-2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2014_effektmon&treeAnchor=KONJUNKTUR, sheet: Wages and salaries per employee, frequency: Q, Time: 25s
+2022-06-17 05:15:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:39:15 PM Total New Items Found: 0 Time: 25 s
+2022-06-17 05:15:27 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_prod_lohnkost, sheet: Productivity and labour costs in the economy as a whole, frequency: Q, Time: 25s
+2022-06-17 05:15:27 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Households+in&debut=0&categorie=5, sheet: Households account, frequency: A, Time: 25s
 
-2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:27 PM Downloading file: Households account
 
-2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 05:15:32 PM Getting Data From Website
 
-2022-06-17 04:39:16 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_lohnstueckkst, sheet: Unit labour costs in selected economic sectors, frequency: Q, Time: 26s
+2022-06-17 05:15:52 PM Total New Items Found: 0 Time: 50 s
 
-2022-06-17 04:39:16 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:15:52 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=The+gross+domestic+product+(GDP)%20and+its+components&taille=100&debut=0&categorie=5#1, sheet: Supply and use at current prices GDP, frequency: Q, Time: 50s
 
-2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 05:15:52 PM Downloading file: Supply and use at current prices GDP
 
-2022-06-17 04:39:16 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_ek_prhh, sheet: Households income - SA, frequency: Q, Time: 26s
+2022-06-17 05:15:58 PM Getting Data From Website
 
-2022-06-17 04:39:16 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:16:24 PM Total New Items Found: 0 Time: 82 s
 
-2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
+2022-06-17 05:16:24 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=The+gross+domestic+product+(GDP)%20and+its+components&taille=100&debut=0&categorie=5#2, sheet: Supply and use in chain-linked volumes GDP, frequency: Q, Time: 82s
 
-2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v36_2014_ph, sheet: Households income - NSA, frequency: Q, Time: 26s
+2022-06-17 05:16:24 PM Downloading file: Supply and use in chain-linked volumes GDP
 
-2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:16:29 PM Getting Data From Website
 
-2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
+2022-06-17 05:16:54 PM Total New Items Found: 0 Time: 112 s
 
-2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_bip, sheet: Gross domestic product, frequency: Q, Time: 27s
+2022-06-17 05:16:54 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#1, sheet: Supply and use in chain-linked volumes Goods, frequency: Q, Time: 112s
 
-2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:16:54 PM Downloading file: Supply and use in chain-linked volumes Goods
 
-2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
+2022-06-17 05:17:00 PM Getting Data From Website
 
-2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_verwend_nom, sheet: GDP expenditure components, frequency: Q, Time: 27s
+2022-06-17 05:17:26 PM Total New Items Found: 0 Time: 144 s
 
-2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:17:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#2, sheet: Supply and use in chain-linked volumes Construction, frequency: Q, Time: 144s
 
-2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
+2022-06-17 05:17:26 PM Downloading file: Supply and use in chain-linked volumes Construction
 
-2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_lb, sheet: Current account of the Federal Republic of Germany, frequency: Q, Time: 28s
+2022-06-17 05:17:31 PM Getting Data From Website
 
-2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:17:57 PM Total New Items Found: 0 Time: 175 s
 
-2022-06-17 04:39:18 PM Total New Items Found: 0 Time: 28 s
+2022-06-17 05:17:57 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Goods+and+services&taille=100&debut=0&categorie=5#3, sheet: Supply and use in chain-linked volumes Services, frequency: Q, Time: 175s
 
-2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_siws_mb09_07c&treeAnchor=KONJUNKTUR, sheet: Price indicators for the construction sector, frequency: Q, Time: 28s
+2022-06-17 05:17:57 PM Downloading file: Supply and use in chain-linked volumes Services
 
-2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:18:03 PM Getting Data From Website
 
-2022-06-17 04:39:18 PM Total New Items Found: 0 Time: 28 s
+2022-06-17 05:18:27 PM Total New Items Found: 0 Time: 205 s
 
-2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_vpi, sheet: Consumer price index SA, frequency: M, Time: 28s
+2022-06-17 05:18:28 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Activities&taille=100&debut=0&categorie=5#1, sheet: Activities - Current prices, frequency: Q, Time: 206s
 
-2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:18:28 PM Downloading file: Activities - Current prices
 
-2022-06-17 04:39:19 PM Total New Items Found: 0 Time: 29 s
+2022-06-17 05:18:32 PM Getting Data From Website
 
-2022-06-17 04:39:19 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07a, sheet: Consumer price index NSA, frequency: M, Time: 29s
+2022-06-17 05:18:58 PM Total New Items Found: 0 Time: 236 s
 
-2022-06-17 04:39:19 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:18:58 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Activities&taille=100&debut=0&categorie=5#2, sheet: Activities - Chain-linked volumes, frequency: Q, Time: 236s
 
-2022-06-17 04:39:19 PM Total New Items Found: 0 Time: 29 s
+2022-06-17 05:18:58 PM Downloading file: Activities - Chain-linked volumes
 
-2022-06-17 04:39:19 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_vpi, sheet: Consumer price index Long term time series, frequency: M, Time: 29s
+2022-06-17 05:19:02 PM Getting Data From Website
 
-2022-06-17 04:39:19 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:19:29 PM Total New Items Found: 0 Time: 267 s
 
-2022-06-17 04:39:22 PM Total New Items Found: 0 Time: 32 s
+2022-06-17 05:19:29 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#1, sheet: Exports - Goods - Values at current prices, frequency: A, Time: 267s
 
-2022-06-17 04:39:22 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_erzeuger, sheet: Producer price index SA, frequency: M, Time: 32s
+2022-06-17 05:19:29 PM Downloading file: Exports - Goods - Values at current prices
 
-2022-06-17 04:39:22 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:19:33 PM Getting Data From Website
 
-2022-06-17 04:39:22 PM Total New Items Found: 0 Time: 32 s
+2022-06-17 05:20:14 PM Total New Items Found: 0 Time: 312 s
 
-2022-06-17 04:39:22 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07d, sheet: Producer price index NSA, frequency: M, Time: 32s
+2022-06-17 05:20:14 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#1, sheet: Exports - Goods - Values at current prices, frequency: Q, Time: 312s
 
-2022-06-17 04:39:22 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:20:14 PM Total New Items Found: 0 Time: 312 s
 
-2022-06-17 04:39:23 PM Total New Items Found: 0 Time: 33 s
+2022-06-17 05:20:14 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#2, sheet: Exports - Goods - Volumes chained at previous year prices, frequency: A, Time: 312s
 
-2022-06-17 04:39:23 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_pr, sheet: Producer price index Long term time series, frequency: M, Time: 33s
+2022-06-17 05:20:14 PM Downloading file: Exports - Goods - Volumes chained at previous year prices
 
-2022-06-17 04:39:23 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:20:19 PM Getting Data From Website
 
-2022-06-17 04:39:23 PM Total New Items Found: 0 Time: 33 s
+2022-06-17 05:20:52 PM Total New Items Found: 0 Time: 350 s
 
-2022-06-17 04:39:23 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pra, sheet: Prices and unit values in foreign trade, frequency: M, Time: 33s
+2022-06-17 05:20:52 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#2, sheet: Exports - Goods - Volumes chained at previous year prices, frequency: Q, Time: 350s
 
-2022-06-17 04:39:23 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:20:52 PM Total New Items Found: 0 Time: 350 s
 
-2022-06-17 04:39:24 PM Total New Items Found: 0 Time: 34 s
+2022-06-17 05:20:52 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#3, sheet: Imports - Goods - Values at current prices, frequency: A, Time: 350s
 
-2022-06-17 04:39:24 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a hourly basis months, frequency: M, Time: 34s
+2022-06-17 05:20:52 PM Downloading file: Imports - Goods - Values at current prices
 
-2022-06-17 04:39:24 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:20:57 PM Getting Data From Website
 
-2022-06-17 04:39:24 PM Total New Items Found: 0 Time: 34 s
+2022-06-17 05:21:32 PM Total New Items Found: 0 Time: 390 s
 
-2022-06-17 04:39:24 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a monthly basis months, frequency: M, Time: 34s
+2022-06-17 05:21:32 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#3, sheet: Imports - Goods - Values at current prices, frequency: Q, Time: 390s
 
-2022-06-17 04:39:24 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:21:32 PM Total New Items Found: 0 Time: 390 s
 
-2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 34 s
+2022-06-17 05:21:32 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#4, sheet: Imports - Goods - Volumes chained at previous year prices, frequency: A, Time: 390s
 
-2022-06-17 04:39:25 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_am_ofs, sheet: Reported vacancies SA, frequency: M, Time: 35s
+2022-06-17 05:21:32 PM Downloading file: Imports - Goods - Volumes chained at previous year prices
 
-2022-06-17 04:39:25 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:21:35 PM Getting Data From Website
 
-2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 35 s
+2022-06-17 05:22:13 PM Total New Items Found: 0 Time: 431 s
 
-2022-06-17 04:39:25 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_06d, sheet: Reported vacancies NSA, frequency: M, Time: 35s
+2022-06-17 05:22:13 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Operations+on+goods+and+services&taille=100&debut=0&categorie=10#4, sheet: Imports - Goods - Volumes chained at previous year prices, frequency: Q, Time: 431s
 
-2022-06-17 04:39:25 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:22:13 PM Total New Items Found: 0 Time: 431 s
 
-2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 35 s
+2022-06-17 05:22:13 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Branch%20accounts&taille=100&debut=0&categorie=10, sheet: Value added of branches - Services - Volumes chained at previous year prices, frequency: Q, Time: 431s
 
-2022-06-17 04:39:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_bb, sheet: Employment labour costs and turnover in the construction sector, frequency: M, Time: 36s
+2022-06-17 05:22:13 PM Downloading file: Value added of branches - Services - Volumes chained at previous year prices
 
-2022-06-17 04:39:26 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:22:18 PM Getting Data From Website
 
-2022-06-17 04:39:26 PM Total New Items Found: 0 Time: 36 s
+2022-06-17 05:22:49 PM Total New Items Found: 0 Time: 467 s
 
-2022-06-17 04:39:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ib, sheet: Productivity and labour costs in industry, frequency: M, Time: 36s
+2022-06-17 05:22:49 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Gross+domestic+product+balance&taille=100&debut=0&categorie=10, sheet: Total final domestic demand excluding stocks - Volumes chained at previous year prices, frequency: Q, Time: 467s
 
-2022-06-17 04:39:26 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:22:49 PM Downloading file: Total final domestic demand excluding stocks - Volumes chained at previous year prices
 
-2022-06-17 04:39:26 PM Total New Items Found: 0 Time: 36 s
+2022-06-17 05:22:54 PM Getting Data From Website
 
-2022-06-17 04:39:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw2d3_1a, sheet: External position of the Deutsche Bundesbank, frequency: M, Time: 37s
+2022-06-17 05:23:26 PM Total New Items Found: 0 Time: 504 s
 
-2022-06-17 04:39:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:23:26 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Quarterly+wages+indices+in+the+private+sector&taille=100&debut=0&categorie=10, sheet: Hourly wage rate indice for labourers - All non-agricultural sectors, frequency: Q, Time: 504s
 
-2022-06-17 04:39:27 PM Total New Items Found: 0 Time: 37 s
+2022-06-17 05:23:26 PM Downloading file: Hourly wage rate indice for labourers - All non-agricultural sectors
 
-2022-06-17 04:39:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_2a, sheet: Current account - Goods, frequency: M, Time: 37s
+2022-06-17 05:23:31 PM Getting Data From Website
 
-2022-06-17 04:39:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:24:37 PM Total New Items Found: 0 Time: 575 s
 
-2022-06-17 04:39:27 PM Total New Items Found: 0 Time: 37 s
+2022-06-17 05:24:38 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Consumer+price+index&taille=50&debut=0&categorie=10, sheet: All households - France - Services, frequency: Q, Time: 576s
 
-2022-06-17 04:39:28 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_3a, sheet: Current account - Services, frequency: M, Time: 37s
+2022-06-17 05:24:38 PM Downloading file: All households - France - Services
 
-2022-06-17 04:39:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 05:24:41 PM Getting Data From Website
 
-2022-06-17 04:39:28 PM Total New Items Found: 0 Time: 38 s
+2022-06-17 05:25:40 PM Total New Items Found: 0 Time: 638 s
 
-2022-06-17 04:39:28 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_4a, sheet: Current account - Primary Income, frequency: M, Time: 38s
+2022-06-17 05:25:40 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Price+indices+of+the+new+housing+and+indicate+Solicitors-Insee&taille=100&debut=0&categorie=10, sheet: Price index of second-hand dwellings - Metropolitan France - All items, frequency: Q, Time: 638s
 
-2022-06-17 04:39:28 PM Downloading file: Current account - Primary Income
+2022-06-17 05:25:40 PM Downloading file: Price index of second-hand dwellings - Metropolitan France - All items
 
-2022-06-17 04:39:34 PM Getting Data From Website
+2022-06-17 05:25:45 PM Getting Data From Website
 
-2022-06-17 04:40:03 PM Total New Items Found: 0 Time: 73 s
+2022-06-17 05:26:45 PM Total New Items Found: 0 Time: 703 s
 
-2022-06-17 04:40:03 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_5a, sheet: Current account - Secondary Income, frequency: M, Time: 73s
+2022-06-17 05:26:45 PM Country: France, Reading file or url: Unemployment and unemployment rate and halo by sex and age (ILO), sheet: quarterly_values, frequency: Q, Time: 703s
 
-2022-06-17 04:40:03 PM Downloading file: Current account - Secondary Income
+2022-06-17 05:26:45 PM Downloading file: Unemployment and unemployment rate and halo by sex and age (ILO)
 
-2022-06-17 04:40:05 PM Getting Data From Website
+2022-06-17 05:26:49 PM Getting Data From Website
 
-2022-06-17 04:40:33 PM Total New Items Found: 0 Time: 103 s
+2022-06-17 05:27:24 PM Total New Items Found: 0 Time: 742 s
 
-2022-06-17 04:40:33 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_dl_ek, sheet: Current account - Service transactions and primary income, frequency: M, Time: 103s
+2022-06-17 05:27:25 PM Country: France, Reading file or url: Employment and activity and underemployment by business sector (ILO concept), sheet: quarterly_values, frequency: Q, Time: 743s
 
-2022-06-17 04:40:33 PM Downloading file: Current account - Service transactions and primary income
+2022-06-17 05:27:25 PM Downloading file: Employment and activity and underemployment by business sector (ILO concept)
 
-2022-06-17 04:40:34 PM Getting Data From Website
+2022-06-17 05:27:30 PM Getting Data From Website
 
-2022-06-17 04:41:02 PM Total New Items Found: 0 Time: 132 s
+2022-06-17 05:28:01 PM Total New Items Found: 0 Time: 779 s
 
-2022-06-17 04:41:02 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d4_1a, sheet: Financial account - Overall, frequency: M, Time: 132s
+2022-06-17 05:28:01 PM Country: France, Reading file or url: Estimates of salaried employment by business sector, sheet: quarterly_values, frequency: Q, Time: 779s
 
-2022-06-17 04:41:02 PM Downloading file: Financial account - Overall
+2022-06-17 05:28:01 PM Downloading file: Estimates of salaried employment by business sector
 
-2022-06-17 04:41:03 PM Getting Data From Website
+2022-06-17 05:28:05 PM Getting Data From Website
 
-2022-06-17 04:41:30 PM Total New Items Found: 0 Time: 160 s
+2022-06-17 05:28:35 PM Total New Items Found: 0 Time: 813 s
 
-2022-06-17 04:41:30 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d4_1d, sheet: Financial account - Other investment, frequency: M, Time: 160s
+2022-06-17 05:28:35 PM Country: France, Reading file or url: Outlook survey in goods-producing industries, sheet: quarterly_values, frequency: Q, Time: 813s
 
-2022-06-17 04:41:30 PM Downloading file: Financial account - Other investment
+2022-06-17 05:28:35 PM Downloading file: Outlook survey in goods-producing industries
 
-2022-06-17 04:41:32 PM Getting Data From Website
+2022-06-17 05:28:38 PM Getting Data From Website
 
-2022-06-17 04:41:58 PM Total New Items Found: 0 Time: 188 s
+2022-06-17 05:29:09 PM Total New Items Found: 0 Time: 847 s
 
-2022-06-17 04:41:58 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d1_1a, sheet: Major items of the balance of payments, frequency: M, Time: 188s
+2022-06-17 05:29:09 PM Country: France, Reading file or url: Industrial production index, sheet: monthly_values, frequency: M, Time: 847s
 
-2022-06-17 04:41:58 PM Downloading file: Major items of the balance of payments
+2022-06-17 05:29:09 PM Downloading file: Industrial production index
 
-2022-06-17 04:41:59 PM Getting Data From Website
+2022-06-17 05:29:13 PM Getting Data From Website
 
-2022-06-17 04:42:27 PM Total New Items Found: 0 Time: 217 s
+2022-06-17 05:29:43 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:42:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_ah, sheet: Foreign trade Long term time series, frequency: M, Time: 217s
+2022-06-17 05:30:07 PM Total New Items Found: 0 Time: 905 s
 
-2022-06-17 04:42:27 PM Downloading file: Foreign trade Long term time series
+2022-06-17 05:30:08 PM Country: France, Reading file or url: Industrial producer and import price indices, sheet: monthly_values, frequency: M, Time: 906s
 
-2022-06-17 04:42:28 PM Getting Data From Website
+2022-06-17 05:30:08 PM Downloading file: Industrial producer and import price indices
 
-2022-06-17 04:42:56 PM Total New Items Found: 0 Time: 246 s
+2022-06-17 05:30:10 PM Getting Data From Website
 
-2022-06-17 04:42:56 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_b3013c, sheet: Foreign trade (special trade), frequency: M, Time: 246s
+2022-06-17 05:30:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:42:56 PM Downloading file: Foreign trade (special trade)
+2022-06-17 05:31:06 PM Total New Items Found: 0 Time: 964 s
 
-2022-06-17 04:42:59 PM Getting Data From Website
+2022-06-17 05:31:06 PM Country: France, Reading file or url: Consumer price index, sheet: monthly_values, frequency: M, Time: 964s
 
-2022-06-17 04:43:52 PM Total New Items Found: 0 Time: 302 s
+2022-06-17 05:31:06 PM Downloading file: Consumer price index
 
-2022-06-17 04:43:52 PM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/banks/no-05-lending-by-banks-mfis-in-germany-to-domestic-non-banks-non-mfis--651134, sheet: Lending by banks (MFIs) in Germany to domestic non-banks (non-MFIs), frequency: M, Time: 302s
+2022-06-17 05:31:09 PM Getting Data From Website
 
-2022-06-17 04:43:52 PM Downloading file: Lending by banks (MFIs) in Germany to domestic non-banks (non-MFIs)
+2022-06-17 05:31:39 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 04:43:55 PM Getting Data From Website
+2022-06-17 05:32:01 PM Total New Items Found: 0 Time: 1019 s
 
-2022-06-17 04:44:32 PM Total New Items Found: 0 Time: 342 s
+2022-06-17 05:32:01 PM Country: France, Reading file or url: Households' consumption expenditure on goods, sheet: monthly_values, frequency: M, Time: 1019s
 
-2022-06-17 04:44:32 PM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/mfi-interest-rate-statistics-amounts-outstanding-new-business--651536, sheet: MFI interest rate statistics, frequency: M, Time: 342s
+2022-06-17 05:32:01 PM Downloading file: Households' consumption expenditure on goods
 
-2022-06-17 04:44:32 PM Downloading file: MFI interest rate statistics
+2022-06-17 05:32:05 PM Getting Data From Website
 
-2022-06-17 04:44:35 PM Getting Data From Website
+2022-06-17 05:32:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:32:33 PM Total New Items Found: 0 Time: 1051 s
+
+2022-06-17 05:32:33 PM Country: France, Reading file or url: Turnover index in wholesale and retail trade, sheet: monthly_values, frequency: M, Time: 1051s
+
+2022-06-17 05:32:33 PM Downloading file: Turnover index in wholesale and retail trade
+
+2022-06-17 05:32:36 PM Getting Data From Website
+
+2022-06-17 05:33:10 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:33:30 PM Total New Items Found: 0 Time: 1108 s
+
+2022-06-17 05:33:31 PM Country: France, Reading file or url: https://www.insee.fr/en/recherche/recherche-statistiques?q=Consumer+confidence+survey&taille=100&debut=0&categorie=10, sheet: Monthly consumer confidence survey - Summary indicator of households' confidence (first factor among the opinion survey balances), frequency: M, Time: 1109s
+
+2022-06-17 05:33:31 PM Downloading file: Monthly consumer confidence survey - Summary indicator of households' confidence (first factor among the opinion survey balances)
+
+2022-06-17 05:33:36 PM Getting Data From Website
+
+2022-06-17 05:34:09 PM Total New Items Found: 0 Time: 1147 s
+
+2022-06-17 05:34:09 PM Downloading file: FRA_xls
+
+2022-06-17 05:34:12 PM Getting Data From Website
+
+2022-06-17 05:34:34 PM Country: France, Reading file or url: FRA, sheet: Annual, frequency: A, Time: 1172s
+
+2022-06-17 05:34:34 PM Total New Items Found: 0 Time: 1172 s
+
+2022-06-17 05:34:34 PM Country: France, Reading file or url: FRA, sheet: Monthly, frequency: M, Time: 1172s
+
+2022-06-17 05:34:34 PM Total New Items Found: 0 Time: 1172 s
+
+2022-06-17 05:34:35 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#1, sheet: Bank Lending Survey, frequency: Q, Time: 1173s
+
+2022-06-17 05:34:35 PM Downloading file: Bank Lending Survey
+
+2022-06-17 05:34:36 PM Reading Data from API
+2022-06-17 05:34:41 PM Total New Items Found: 0 Time: 1179 s
+
+2022-06-17 05:34:42 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#2, sheet: Short-Term Surveys National, frequency: M, Time: 1180s
+
+2022-06-17 05:34:42 PM Downloading file: Short-Term Surveys National
+
+2022-06-17 05:34:42 PM Reading Data from API
+2022-06-17 05:35:15 PM Total New Items Found: 0 Time: 1213 s
+
+2022-06-17 05:35:15 PM Country: France, Reading file or url: https://developer.webstat.banque-france.fr/node/297#3, sheet: Monetary Statistics, frequency: M, Time: 1213s
+
+2022-06-17 05:35:15 PM Downloading file: Monetary Statistics
+
+2022-06-17 05:35:16 PM Reading Data from API
+2022-06-17 05:36:18 PM Total New Items Found: 0 Time: 1276 s
+
+2022-06-17 05:36:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:19 PM Country: France, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1277s
+
+2022-06-17 05:36:19 PM Total New Items Found: 0 Time: 1277 s
+
+2022-06-17 05:36:19 PM Country: France, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1277s
+
+2022-06-17 05:36:26 PM Total New Items Found: 0 Time: 1284 s
+
+2022-06-17 05:36:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:26 PM Country: France, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1284s
+
+2022-06-17 05:36:26 PM Total New Items Found: 0 Time: 1284 s
+
+2022-06-17 05:36:26 PM Country: France, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1284s
+
+2022-06-17 05:36:28 PM Total New Items Found: 0 Time: 1286 s
+
+2022-06-17 05:36:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:28 PM Country: France, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1286s
+
+2022-06-17 05:36:29 PM Total New Items Found: 0 Time: 1287 s
+
+2022-06-17 05:36:29 PM Country: France, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1287s
+
+2022-06-17 05:36:30 PM Total New Items Found: 0 Time: 1288 s
+
+2022-06-17 05:36:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:31 PM Country: France, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1289s
+
+2022-06-17 05:36:32 PM Total New Items Found: 0 Time: 1290 s
+
+2022-06-17 05:36:32 PM Country: France, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1290s
+
+2022-06-17 05:36:35 PM Total New Items Found: 0 Time: 1293 s
+
+2022-06-17 05:36:35 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:35 PM Country: France, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1293s
+
+2022-06-17 05:36:39 PM Total New Items Found: 0 Time: 1297 s
+
+2022-06-17 05:36:39 PM Country: France, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1297s
+
+2022-06-17 05:36:40 PM Total New Items Found: 0 Time: 1298 s
+
+2022-06-17 05:36:40 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:41 PM Country: France, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1299s
+
+2022-06-17 05:36:44 PM Total New Items Found: 0 Time: 1302 s
+
+2022-06-17 05:36:44 PM Country: France, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1302s
+
+2022-06-17 05:36:45 PM Total New Items Found: 0 Time: 1303 s
+
+2022-06-17 05:36:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:49 PM Country: France, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 1308s
+
+2022-06-17 05:36:52 PM Total New Items Found: 0 Time: 1310 s
+
+2022-06-17 05:36:52 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:52 PM Country: France, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1310s
+
+2022-06-17 05:36:54 PM Total New Items Found: 0 Time: 1312 s
+
+2022-06-17 05:36:54 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:54 PM Country: France, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1312s
+
+2022-06-17 05:36:55 PM Total New Items Found: 0 Time: 1313 s
+
+2022-06-17 05:36:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:56 PM Country: France, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1314s
+
+2022-06-17 05:36:56 PM Total New Items Found: 0 Time: 1314 s
+
+2022-06-17 05:36:56 PM Country: France, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1314s
+
+2022-06-17 05:36:57 PM Total New Items Found: 0 Time: 1315 s
+
+2022-06-17 05:36:57 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:57 PM Country: France, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1315s
+
+2022-06-17 05:36:58 PM Total New Items Found: 0 Time: 1316 s
+
+2022-06-17 05:36:58 PM Country: France, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1316s
+
+2022-06-17 05:36:59 PM Total New Items Found: 0 Time: 1317 s
+
+2022-06-17 05:36:59 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:36:59 PM Country: France, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 1317s
+
+2022-06-17 05:37:02 PM Total New Items Found: 0 Time: 1320 s
+
+2022-06-17 05:37:02 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:37:02 PM Country: France, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 1320s
+
+2022-06-17 05:37:04 PM Total New Items Found: 0 Time: 1322 s
+
+2022-06-17 05:37:04 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:37:04 PM Country: France, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 1322s
+
+2022-06-17 05:37:07 PM Total New Items Found: 0 Time: 1325 s
+
+2022-06-17 05:37:07 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 05:37:07 PM Country: France, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 1325s
+
+2022-06-17 05:37:09 PM Total New Items Found: 0 Time: 1327 s
+
+2022-06-17 05:37:10 PM Country: France, Reading file or url: Merchandise Trade SA, sheet: 0, frequency: M, Time: 1328s
+
+2022-06-17 05:37:10 PM Downloading file: Merchandise Trade
+
+2022-06-17 05:37:14 PM Getting Data From Website
 
