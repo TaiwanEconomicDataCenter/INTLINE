@@ -2776,7 +2776,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     time.sleep(0)
             elif address.find('ABS') >= 0:
                 if str(fname).find('data-download') < 0:
-                    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/div[@id="content"]//div[contains(., "Latest release")]//a'))).click()
+                    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/div[@id="content"]//div[span[contains(., "Latest release")]]//a'))).click()
                 download_area = 'series spreadsheets'
                 if str(fname).find('labour-force-australia-detailed') >= 0:
                     download_area = 'Unemployment'
@@ -2835,9 +2835,21 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/h2[contains(., "Tools")]'))).click()
                 for i in range(10):
                     ActionChains(chrome).send_keys(Keys.DOWN).perform()
-                WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel (xlsx)")]'))).click()
-                target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'SaveAsBody')))
-                WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Save"]'))).click()
+                time.sleep(2)
+                count = 0
+                while True:
+                    target = WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/label[text()="Excel (xlsx)"]')))
+                    if bool(re.search(r'^\s*Excel\s+\(xlsx\)\s*$', target.text)):
+                        target.click()
+                        break
+                    else:
+                        count += 1
+                        if count >= 3:
+                            ERROR('Option not found: Excel (xlsx)')
+                # target = WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsBody')))
+                # WebDriverWait(target, 5).until(EC.element_to_be_clickable((By.XPATH, './/input[@value="Save"]'))).click()
+                time.sleep(2)
+                ActionChains(chrome).click(WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/div[@id="SaveAsBody"]/input[@value="Save"]')))).perform()
                 link_found = True
                 # if note_content.find('ESA') >= 0:
                 #     note.append(['Note', re.sub(r'\s+', " ", note_content)])
@@ -7155,6 +7167,11 @@ def INTLINE_ONS(INTLINE_temp, data_path, country, address, fname, sname, Series,
                     new_index.append(tuple([sector, SeriesID]))
                 INTLINE_temp.index = pd.MultiIndex.from_tuples(new_index)
                 INTLINE_temp = INTLINE_temp.sort_index()
+        elif str(fname).find('noci') >= 0:
+            INTLINE_temp.index = [str(dex).replace('\n',' ').strip() for dex in INTLINE_temp.index]
+    # print(table)
+    # print(INTLINE_temp)
+    
     for ind in range(Series[freq].shape[0]):
         sys.stdout.write("\rLoading...("+str(round((ind+1)*100/Series[freq].shape[0], 1))+"%)*")
         sys.stdout.flush()
@@ -7166,7 +7183,8 @@ def INTLINE_ONS(INTLINE_temp, data_path, country, address, fname, sname, Series,
                     code = str(Series[freq].iloc[ind]['SeriesID'])
             else:
                 if Series[freq].iloc[ind]['Table'] == table:
-                    code = tuple([Series[freq].iloc[ind]['Sector'], Series[freq].iloc[ind]['SeriesID']])
+                    # code = tuple([Series[freq].iloc[ind]['Sector'], Series[freq].iloc[ind]['SeriesID']])
+                    code = str(Series[freq].iloc[ind]['SeriesID'])
                 else:
                     continue
             try:
