@@ -1,143 +1,327 @@
-﻿2022-06-17 09:59:37 AM excel_suffix: test
+﻿2022-06-17 02:28:51 PM excel_suffix: test
 
-2022-06-17 09:59:37 AM data_processing: True
+2022-06-17 02:28:51 PM data_processing: True
 
-2022-06-17 09:59:37 AM find_unknown: False
+2022-06-17 02:28:51 PM find_unknown: False
 
-2022-06-17 09:59:37 AM dealing_start_year: 1901
+2022-06-17 02:28:51 PM dealing_start_year: 1901
 
-2022-06-17 09:59:43 AM Data Processing
+2022-06-17 02:28:57 PM Data Processing
 
-2022-06-17 09:59:43 AM Reading table: Country, Time: 5s
+2022-06-17 02:28:57 PM Reading table: Country, Time: 5s
 
-2022-06-17 09:59:43 AM Reading table: TABLES, Time: 6 s
+2022-06-17 02:28:58 PM Reading table: TABLES, Time: 6 s
 
-2022-06-17 09:59:50 AM Reading file: BEA TablesRegister, Time: 12 s
+2022-06-17 02:29:06 PM Reading file: country_series, Time: 14 s
 
-2022-06-17 09:59:51 AM Reading file: BEA SeriesRegister, Time: 14 s
+2022-06-17 02:29:06 PM Reading file: 144datasets, Time: 14 s
 
-2022-06-17 09:59:54 AM 
+2022-06-17 02:29:06 PM 
 
-2022-06-17 09:59:54 AM ====== WebDriver manager ======
-2022-06-17 09:59:54 AM Current google-chrome version is 102.0.5005
-2022-06-17 09:59:54 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-17 09:59:54 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-17 09:59:57 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-17 09:59:59 AM Downloading file: Survey
+2022-06-17 02:29:06 PM ====== WebDriver manager ======
+2022-06-17 02:29:06 PM Current google-chrome version is 102.0.5005
+2022-06-17 02:29:06 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-17 02:29:06 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-17 02:29:09 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-17 02:29:11 PM Country: Sweden, Reading file or url: https://www.riksgalden.se/en/statistics/statistics-on-central-government-borrowing/net-borrowing-requirement, sheet: Net borrowing requirement, frequency: A, Time: 19s
 
-2022-06-17 10:00:04 AM Getting Data From Website
+2022-06-17 02:29:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:22 AM Reading source file, Time: 44 s
+2022-06-17 02:29:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 53s
+2022-06-17 02:29:11 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 53 s
+2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111095, sheet: FM0001FinansBKv, frequency: Q, Time: 20s
 
-2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 53s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:31 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 54s
+2022-06-17 02:29:12 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-17 10:00:31 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111097, sheet: FM0001BytBKv, frequency: Q, Time: 20s
 
-2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 54s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 54s
+2022-06-17 02:29:12 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:12 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111098, sheet: NR0103ENS2010T01Kv, frequency: Q, Time: 21s
 
-2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 54s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 54s
+2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111099, sheet: NR0103ENS2010T10SKv, frequency: Q, Time: 21s
 
-2022-06-17 10:00:32 AM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 54s
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Total New Items Found: 0 Time: 54 s
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:32 AM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 10:00:32 AM Reading source file, Time: 54 s
+2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111100, sheet: NR0103ENS2010T06Kv, frequency: Q, Time: 21s
 
-2022-06-17 10:00:37 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 59s
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:37 AM Total New Items Found: 0 Time: 59 s
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:37 AM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 59s
+2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 10:00:37 AM Total New Items Found: 0 Time: 59 s
+2022-06-17 02:29:13 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111101, sheet: NR0103ENS2010T12Kv, frequency: Q, Time: 22s
 
-2022-06-17 10:00:37 AM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:37 AM Reading source file, Time: 59 s
+2022-06-17 02:29:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:43 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 65s
+2022-06-17 02:29:13 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 10:00:43 AM Total New Items Found: 0 Time: 65 s
+2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111102, sheet: NR0103ENS2010T07Kv, frequency: Q, Time: 22s
 
-2022-06-17 10:00:43 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 65s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:43 AM Total New Items Found: 0 Time: 65 s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 66s
+2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
+2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111103, sheet: IndKaputnSNI07Kv, frequency: Q, Time: 22s
 
-2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 66s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:44 AM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 66s
+2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 10:00:44 AM Total New Items Found: 0 Time: 66 s
+2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111105, sheet: SnabbStatAM0401, frequency: M, Time: 22s
 
-2022-06-17 10:00:44 AM Present File Exists. Reading Data From Default Path.
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:44 AM Reading source file, Time: 66 s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:46 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 68s
+2022-06-17 02:29:14 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 10:00:46 AM Total New Items Found: 0 Time: 68 s
+2022-06-17 02:29:14 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111106, sheet: Detoms07, frequency: M, Time: 23s
 
-2022-06-17 10:00:46 AM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 68s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:46 AM Total New Items Found: 0 Time: 68 s
+2022-06-17 02:29:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:00:46 AM Downloading file: Underlying
+2022-06-17 02:29:15 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 10:00:48 AM Getting Data From Website
+2022-06-17 02:29:15 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111107, sheet: Detoms2005, frequency: M, Time: 23s
 
-2022-06-17 10:01:20 AM Reading source file, Time: 102 s
+2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:21 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 104s
+2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:21 AM Total New Items Found: 0 Time: 104 s
+2022-06-17 02:29:15 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 104s
+2022-06-17 02:29:15 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111110, sheet: IPI2010KedjM, frequency: M, Time: 24s
 
-2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
+2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 104s
+2022-06-17 02:29:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
+2022-06-17 02:29:16 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 10:01:22 AM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 104s
+2022-06-17 02:29:16 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111111, sheet: IndLev2010M, frequency: M, Time: 24s
 
-2022-06-17 10:01:22 AM Total New Items Found: 0 Time: 104 s
+2022-06-17 02:29:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:22 AM Reading file: BLS_series, Time: 104 s
+2022-06-17 02:29:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:01:28 AM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 110s
+2022-06-17 02:29:16 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-17 10:01:34 AM Total New Items Found: 0 Time: 116 s
+2022-06-17 02:29:17 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111112, sheet: IndOrd2010M, frequency: M, Time: 25s
 
-2022-06-17 10:01:34 AM Reading file: BLS_series, Time: 116 s
+2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 10:02:23 AM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 165s
+2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:17 PM Total New Items Found: 0 Time: 25 s
+
+2022-06-17 02:29:17 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111113, sheet: IndLev2005M, frequency: M, Time: 26s
+
+2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:17 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+
+2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111114, sheet: IndOrd2005M, frequency: M, Time: 26s
+
+2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+
+2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111115, sheet: HIKPIND22015, frequency: M, Time: 26s
+
+2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:18 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:29:18 PM Total New Items Found: 0 Time: 26 s
+
+2022-06-17 02:29:18 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/123729, sheet: PPI2015M, frequency: M, Time: 27s
+
+2022-06-17 02:29:18 PM Downloading file: PPI2015M
+
+2022-06-17 02:29:23 PM Getting Data From Website
+
+2022-06-17 02:29:39 PM Total New Items Found: 0 Time: 47 s
+
+2022-06-17 02:29:39 PM Country: Sweden, Reading file or url: https://www.statistikdatabasen.scb.se/sq/111117, sheet: ImportExportSnabbM, frequency: M, Time: 47s
+
+2022-06-17 02:29:39 PM Downloading file: ImportExportSnabbM
+
+2022-06-17 02:29:41 PM Getting Data From Website
+
+2022-06-17 02:29:56 PM Total New Items Found: 0 Time: 65 s
+
+2022-06-17 02:29:57 PM Country: Sweden, Reading file or url: https://www.riksbank.se/en-gb/statistics/search-interest--exchange-rates/, sheet: RKB, frequency: M, Time: 65s
+
+2022-06-17 02:29:57 PM Downloading file: RKB
+
+2022-06-17 02:30:04 PM Getting Data From Website
+
+2022-06-17 02:30:45 PM Total New Items Found: 0 Time: 113 s
+
+2022-06-17 02:30:45 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:30:45 PM Country: Sweden, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 114s
+
+2022-06-17 02:30:46 PM Total New Items Found: 0 Time: 114 s
+
+2022-06-17 02:30:46 PM Country: Sweden, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 114s
+
+2022-06-17 02:30:53 PM Total New Items Found: 0 Time: 121 s
+
+2022-06-17 02:30:53 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:30:53 PM Country: Sweden, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 122s
+
+2022-06-17 02:30:54 PM Total New Items Found: 0 Time: 122 s
+
+2022-06-17 02:30:54 PM Country: Sweden, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 122s
+
+2022-06-17 02:30:55 PM Total New Items Found: 0 Time: 124 s
+
+2022-06-17 02:30:55 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:30:56 PM Country: Sweden, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 124s
+
+2022-06-17 02:30:56 PM Total New Items Found: 0 Time: 124 s
+
+2022-06-17 02:30:56 PM Country: Sweden, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 124s
+
+2022-06-17 02:30:58 PM Total New Items Found: 0 Time: 126 s
+
+2022-06-17 02:30:58 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:30:58 PM Country: Sweden, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 127s
+
+2022-06-17 02:30:59 PM Total New Items Found: 0 Time: 128 s
+
+2022-06-17 02:31:00 PM Country: Sweden, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 128s
+
+2022-06-17 02:31:03 PM Total New Items Found: 0 Time: 132 s
+
+2022-06-17 02:31:03 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:04 PM Country: Sweden, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 132s
+
+2022-06-17 02:31:07 PM Total New Items Found: 0 Time: 136 s
+
+2022-06-17 02:31:08 PM Country: Sweden, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 136s
+
+2022-06-17 02:31:09 PM Total New Items Found: 0 Time: 137 s
+
+2022-06-17 02:31:09 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:09 PM Country: Sweden, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 137s
+
+2022-06-17 02:31:13 PM Total New Items Found: 0 Time: 141 s
+
+2022-06-17 02:31:13 PM Country: Sweden, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 141s
+
+2022-06-17 02:31:14 PM Total New Items Found: 0 Time: 143 s
+
+2022-06-17 02:31:14 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:19 PM Country: Sweden, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 147s
+
+2022-06-17 02:31:21 PM Total New Items Found: 0 Time: 150 s
+
+2022-06-17 02:31:21 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:22 PM Country: Sweden, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 150s
+
+2022-06-17 02:31:23 PM Total New Items Found: 0 Time: 151 s
+
+2022-06-17 02:31:23 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:23 PM Country: Sweden, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 152s
+
+2022-06-17 02:31:25 PM Total New Items Found: 0 Time: 153 s
+
+2022-06-17 02:31:25 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:25 PM Country: Sweden, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 153s
+
+2022-06-17 02:31:25 PM Total New Items Found: 0 Time: 154 s
+
+2022-06-17 02:31:25 PM Country: Sweden, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 154s
+
+2022-06-17 02:31:26 PM Total New Items Found: 0 Time: 155 s
+
+2022-06-17 02:31:26 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:27 PM Country: Sweden, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 155s
+
+2022-06-17 02:31:27 PM Total New Items Found: 0 Time: 155 s
+
+2022-06-17 02:31:27 PM Country: Sweden, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 155s
+
+2022-06-17 02:31:28 PM Total New Items Found: 0 Time: 156 s
+
+2022-06-17 02:31:28 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:29 PM Country: Sweden, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 157s
+
+2022-06-17 02:31:32 PM Total New Items Found: 0 Time: 160 s
+
+2022-06-17 02:31:32 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:32 PM Country: Sweden, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 160s
+
+2022-06-17 02:31:33 PM Total New Items Found: 0 Time: 162 s
+
+2022-06-17 02:31:33 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:34 PM Country: Sweden, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 162s
+
+2022-06-17 02:31:36 PM Total New Items Found: 0 Time: 164 s
+
+2022-06-17 02:31:36 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-17 02:31:36 PM Country: Sweden, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 165s
+
+2022-06-17 02:31:39 PM Total New Items Found: 0 Time: 167 s
+
+2022-06-17 02:31:39 PM Downloading file: SWE_xls
+
+2022-06-17 02:31:46 PM Getting Data From Website
+
+2022-06-17 02:32:16 PM Country: Sweden, Reading file or url: SWE, sheet: Monthly, frequency: M, Time: 204s
+
+2022-06-17 02:32:16 PM Total New Items Found: 0 Time: 204 s
+
+2022-06-17 02:32:16 PM Reading file: Datasets, Time: 204 s
+
+2022-06-17 02:32:16 PM Country: Sweden, Reading file or url: https://www.investing.com/indices/omx-stockholm-30-historical-data, sheet: OMX Index, frequency: W, Time: 205s
 
