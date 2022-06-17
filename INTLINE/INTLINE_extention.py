@@ -3360,6 +3360,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                         break
                 chrome.execute_script("window.scrollTo(0,200)")
                 ActionChains(chrome).move_to_element(WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/input[@name="its_from"]')))).send_keys(str(start_year)).send_keys(Keys.RIGHT).send_keys('01').perform()
+                time.sleep(2)
                 chrome.find_element_by_xpath('.//span[text()="English"]').click()
                 chrome.refresh()
                 chrome.execute_script("window.scrollTo(0,0)")
