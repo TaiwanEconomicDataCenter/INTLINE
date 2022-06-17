@@ -1,11 +1,86 @@
-﻿2022-06-13 03:19:56 PM Checking Identities: 454 s
+﻿2022-06-17 12:32:11 PM Checking Identities: 384 s
 
-2022-06-13 03:19:57 PM unknown: 322
-2022-06-13 03:19:57 PM unknown earliest: 1948
-2022-06-13 03:19:57 PM name too long: 0
-2022-06-13 03:19:57 PM inconsistent: 0
-2022-06-13 03:19:57 PM base updated: 0
-2022-06-13 03:19:57 PM data updated: 0
-2022-06-13 03:19:57 PM including weekly: True
-2022-06-13 03:19:57 PM including daily: True
-2022-06-13 03:19:57 PM too many months: True
+2022-06-17 12:32:11 PM Index A532HKCQN0001.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0002.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0003.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0004.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0005.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0006.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0007.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0008.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0009.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0010.A desc_e updated
+2022-06-17 12:32:11 PM Index A532HKCQN0032.A desc_e updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI1.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, All Commodities, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:746, Weights:1000
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, All Commodities, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:515, Weights:1000
+2022-06-17 12:32:11 PM Index M158BOJCGPI1.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI11.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Iron and Steel, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:37, Weights:51.7
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Iron and Steel, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:24, Weights:50.6
+2022-06-17 12:32:11 PM Index M158BOJCGPI11.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI2.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Manufacturing Industry Products, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:703, Weights:888.3
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Manufacturing Industry Products, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:491, Weights:892.3
+2022-06-17 12:32:11 PM Index M158BOJCGPI2.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI3.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Beverages and Foods, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:109, Weights:141.6
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Beverages and Foods, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:85, Weights:144.6
+2022-06-17 12:32:11 PM Index M158BOJCGPI3.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI4.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Textile Products, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:31, Weights:9.6
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Textile Products, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:11, Weights:9.4
+2022-06-17 12:32:11 PM Index M158BOJCGPI4.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI7.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Chemicals and Related Products, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:111, Weights:89.2
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Chemicals and Related Products, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:50, Weights:86.1
+2022-06-17 12:32:11 PM Index M158BOJCGPI7.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJCGPI8.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Petroleum and Coal Products, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:12, Weights:59.5
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Producer Price Index, PPI: Domestic Corporate Goods Price Index, Petroleum and Coal Products, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:12, Weights:52.8
+2022-06-17 12:32:11 PM Index M158BOJCGPI8.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJEII1.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Export Price Index, Yen Basis, All Commodities, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:209, Weights:1000
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Export Price Index, Yen Basis, All Commodities, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:184, Weights:1000
+2022-06-17 12:32:11 PM Index M158BOJEII1.M unit: base updated
+2022-06-17 12:32:11 PM Index M158BOJEII19.M desc_e inconsistent
+2022-06-17 12:32:11 PM DF_KEY = Japan National Statistics, Prices, Import Price Index, Yen Basis, All Commodities, Not Seasonally Adjusted, Unit: Index: 2015=100, Source: Bank of Japan, Note: (1)Number of Commodity:258, Weights:1000
+2022-06-17 12:32:11 PM df_key = Japan National Statistics, Prices, Import Price Index, Yen Basis, All Commodities, Not Seasonally Adjusted, Unit: Index: 2020=100, Source: Bank of Japan, Note: (1)Number of Commodity:210, Weights:1000
+2022-06-17 12:32:11 PM Index M158BOJEII19.M unit: base updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0001.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0002.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0003.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0004.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0005.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0006.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0007.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0008.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0009.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0012.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0014.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0015.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0017.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0018.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0021.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0024.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0025.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0027.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0028.Q desc_e updated
+2022-06-17 12:32:12 PM Index Q532HKCQN0030.Q desc_e updated
+2022-06-17 12:32:12 PM unknown: 0
+2022-06-17 12:32:12 PM name too long: 0
+2022-06-17 12:32:12 PM inconsistent: 9
+2022-06-17 12:32:12 PM Total desc_e inconsistent: 9
+2022-06-17 12:32:12 PM Total country inconsistent: 0
+2022-06-17 12:32:12 PM Total freq inconsistent: 0
+2022-06-17 12:32:12 PM Total unit inconsistent: 0
+2022-06-17 12:32:12 PM Total type inconsistent: 0
+2022-06-17 12:32:12 PM Total source inconsistent: 0
+2022-06-17 12:32:12 PM Total form_e inconsistent: 0
+2022-06-17 12:32:12 PM Total form_c inconsistent: 0
+2022-06-17 12:32:12 PM inconsistent earliest: 1960
+2022-06-17 12:32:12 PM base updated: 9
+2022-06-17 12:32:12 PM data updated: 2038
+2022-06-17 12:32:12 PM including weekly: True
+2022-06-17 12:32:12 PM including daily: True
+2022-06-17 12:32:12 PM too many months: True

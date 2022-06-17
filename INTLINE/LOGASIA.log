@@ -1,32 +1,24 @@
-﻿2022-06-13 03:12:22 PM excel_suffix: mysql
+﻿2022-06-17 12:41:08 PM excel_suffix: mysql
 
-2022-06-13 03:12:22 PM data_processing: False
+2022-06-17 12:41:08 PM data_processing: False
 
-2022-06-13 03:12:22 PM find_unknown: False
+2022-06-17 12:41:08 PM find_unknown: False
 
-2022-06-13 03:12:22 PM dealing_start_year: 1901
+2022-06-17 12:41:08 PM dealing_start_year: 1901
 
-2022-06-13 03:12:44 PM Process: File Merging
+2022-06-17 12:41:48 PM Process: File Updating
 
-2022-06-13 03:12:44 PM Reading main key: ASIA_key578.xlsx, Time: 22 s
+2022-06-17 12:41:48 PM Reading main key: ASIA_keyUP.xlsx, Time: 40 s
 
-2022-06-13 03:12:44 PM Reading main database: ASIA_database578.xlsx, Time: 22 s
+2022-06-17 12:41:49 PM Reading main database: ASIA_databaseUP.xlsx, Time: 41 s
 
-2022-06-13 03:12:46 PM Merging File, Time: 24 s
+2022-06-17 12:42:02 PM Updating file: 0 s
 
-2022-06-13 03:12:46 PM Setting files, Time: 24 s
+2022-06-17 12:44:25 PM updated: 2108
 
-2022-06-13 03:12:47 PM Concating file: ASIA_key?, Time: 25 s
+2022-06-17 12:44:25 PM Time: 142 s
 
-2022-06-13 03:12:47 PM Concating file: ASIA_database?, Time: 25 s
-
-2022-06-13 03:12:47 PM Time: 25 s
-
-2022-06-13 03:12:48 PM Setting new files, Time: 26 s
-
-2022-06-13 03:12:56 PM Concating new files: ASIA_database, Time: 34 s
-
-2022-06-13 03:13:03 PM      databank            name   db_table  db_code  ...   snl                      source                              form_e                   form_c
+2022-06-17 01:37:02 PM      databank            name   db_table  db_code  ...   snl                      source                              form_e                   form_c
 0        ASIA   A158BOJFOF1.A  DB_A_0001  data001  ...     1               Bank of Japan                   National Accounts  Not Seasonally Adjusted
 1        ASIA  A158BOJFOF19.A  DB_A_0001  data002  ...     2               Bank of Japan                   National Accounts  Not Seasonally Adjusted
 2        ASIA  A158BOJFOF23.A  DB_A_0001  data003  ...     3               Bank of Japan                   National Accounts  Not Seasonally Adjusted
@@ -40,4 +32,4 @@
 3973     ASIA     W924SZSEB.W  DB_W_0001  data016  ...  3974      Shenzen Stock Exchange  Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
 [3974 rows x 15 columns]
-2022-06-13 03:13:03 PM Total Items: 3974
+2022-06-17 01:37:02 PM Total Items: 3974
