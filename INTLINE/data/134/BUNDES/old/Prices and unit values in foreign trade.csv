@@ -1,8 +1,8 @@
 ﻿"",BBDP1.M.DE.Y.APA1.G.GP09SA000000.I15.A,BBDP1.M.DE.Y.APA1.G.GP09SA000000.I15.A_FLAGS,BBDP1.M.DE.Y.APA1.G.GP09SA002000.I15.A,BBDP1.M.DE.Y.APA1.G.GP09SA002000.I15.A_FLAGS,BBDP1.M.DE.Y.APE1.G.GP09SA000000.I15.A,BBDP1.M.DE.Y.APE1.G.GP09SA000000.I15.A_FLAGS,BBDP1.M.DE.Y.APE1.G.GP09SA002000.I15.A,BBDP1.M.DE.Y.APE1.G.GP09SA002000.I15.A_FLAGS,BBDP1.M.DE.Y.APT1.G.GP09SA000000.I15.A,BBDP1.M.DE.Y.APT1.G.GP09SA000000.I15.A_FLAGS,BBDP1.M.DE.Y.APT1.G.GP09SA002000.I15.A,BBDP1.M.DE.Y.APT1.G.GP09SA002000.I15.A_FLAGS
 "","Indices of foreign trade prices - exports, total / Germany / Calendar and seasonally adjusted / Total",,"Indices of foreign trade prices - exports, total / Germany / Calendar and seasonally adjusted / Total excluding energy",,"Indices of foreign trade prices - imports, total / Germany / Calendar and seasonally adjusted / Total",,"Indices of foreign trade prices - imports, total / Germany / Calendar and seasonally adjusted / Total excluding energy",,Terms of trade / Germany / Calendar and seasonally adjusted / Total,,Terms of trade / Germany / Calendar and seasonally adjusted /  Total excluding energy,
-unit,2015=100 (hypothetically euro-based),,2015=100 (hypothetically euro-based),,2015=100 (hypothetically euro-based),,2015=100 (hypothetically euro-based),,2015=100 (hypothetically euro-based),,2015=100 (hypothetically euro-based),
+unit,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,
 unit multiplier,one,,one,,one,,one,,one,,one,
-last update,2021-12-23 08:10:14,,2021-12-23 08:10:15,,2021-12-23 08:10:15,,2021-12-23 08:10:16,,2021-12-23 08:10:17,,2021-12-23 08:10:17,
+last update,2022-03-29 08:12:20,,2022-03-29 08:12:21,,2022-03-29 08:12:21,,2022-03-29 08:12:22,,2022-03-29 08:12:22,,2022-03-29 08:12:23,
 1970-01,40.6,,,,43.2,,54.6,,94.0,,,
 1970-02,40.7,,,,43.3,,54.4,,94.2,,,
 1970-03,40.7,,,,43.4,,54.5,,93.9,,,
@@ -626,3 +626,6 @@ last update,2021-12-23 08:10:14,,2021-12-23 08:10:15,,2021-12-23 08:10:15,,2021-
 2021-09,109.6,,108.2,,114.1,,109.8,,96.1,,98.5,
 2021-10,111.2,,109.1,,118.5,,111.0,,93.8,,98.3,
 2021-11,112.1,,109.9,,121.9,,112.2,,92.0,,98.0,
+2021-12,113.2,,110.5,,122.1,,113.2,,92.7,,97.6,
+2022-01,115.0,,112.7,,127.1,,115.7,,90.5,,97.4,
+2022-02,116.2,,113.7,,128.5,,116.9,,90.4,,97.3,

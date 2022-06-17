@@ -1,922 +1,313 @@
-﻿2022-06-17 03:03:36 PM excel_suffix: test
+﻿2022-06-17 04:38:50 PM excel_suffix: test
 
-2022-06-17 03:03:36 PM data_processing: True
+2022-06-17 04:38:50 PM data_processing: True
 
-2022-06-17 03:03:36 PM find_unknown: False
+2022-06-17 04:38:50 PM find_unknown: False
 
-2022-06-17 03:03:36 PM dealing_start_year: 1901
+2022-06-17 04:38:50 PM dealing_start_year: 1901
 
-2022-06-17 03:03:38 PM Data Processing
+2022-06-17 04:38:56 PM Data Processing
 
-2022-06-17 03:03:38 PM Reading table: Country, Time: 2s
+2022-06-17 04:38:56 PM Reading table: Country, Time: 6s
 
-2022-06-17 03:03:39 PM Reading table: TABLES, Time: 2 s
+2022-06-17 04:38:56 PM Reading table: TABLES, Time: 6 s
 
-2022-06-17 03:03:45 PM Reading file: BEA TablesRegister, Time: 9 s
+2022-06-17 04:39:06 PM Reading file: country_series, Time: 16 s
 
-2022-06-17 03:03:48 PM Reading file: BEA SeriesRegister, Time: 11 s
+2022-06-17 04:39:06 PM Reading file: 134datasets, Time: 16 s
 
-2022-06-17 03:03:51 PM 
+2022-06-17 04:39:06 PM 
 
-2022-06-17 03:03:51 PM ====== WebDriver manager ======
-2022-06-17 03:03:51 PM Current google-chrome version is 102.0.5005
-2022-06-17 03:03:51 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-17 03:03:51 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-17 03:03:54 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-17 03:03:56 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:06 PM ====== WebDriver manager ======
+2022-06-17 04:39:07 PM Current google-chrome version is 102.0.5005
+2022-06-17 04:39:07 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-17 04:39:07 PM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-17 04:39:10 PM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-17 04:39:11 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v27_web012_11a, sheet: Budgetary developments in Germany (national accounts), frequency: A, Time: 21s
 
-2022-06-17 03:03:56 PM Reading source file, Time: 19 s
+2022-06-17 04:39:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:06 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-A, frequency: A, Time: 30s
+2022-06-17 04:39:11 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 03:04:06 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:11 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v27_web011_22a&treeAnchor=FINANZEN, sheet: General government debt as defined in the Maastricht Treaty, frequency: A, Time: 21s
 
-2022-06-17 03:04:06 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10105-Q, frequency: Q, Time: 30s
+2022-06-17 04:39:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:06 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-17 03:04:06 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-A, frequency: A, Time: 30s
+2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR, sheet: Pay rates on a hourly basis years, frequency: A, Time: 22s
 
-2022-06-17 03:04:06 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:07 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10106-Q, frequency: Q, Time: 30s
+2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 03:04:07 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR, sheet: Pay rates on a monthly basis years, frequency: A, Time: 22s
 
-2022-06-17 03:04:07 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-A, frequency: A, Time: 30s
+2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:07 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:12 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-17 03:04:07 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10705-Q, frequency: Q, Time: 30s
+2022-06-17 04:39:12 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: A, Time: 22s
 
-2022-06-17 03:04:07 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:07 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-A, frequency: A, Time: 30s
+2022-06-17 04:39:13 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 03:04:07 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:13 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: M, Time: 23s
 
-2022-06-17 03:04:07 PM Country: United States, Reading file or url: Section1all_xls, sheet: T10706-Q, frequency: Q, Time: 30s
+2022-06-17 04:39:13 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-17 03:04:07 PM Total New Items Found: 0 Time: 30 s
+2022-06-17 04:39:13 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: A, Time: 23s
 
-2022-06-17 03:04:07 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:07 PM Reading source file, Time: 30 s
+2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 03:04:12 PM Country: United States, Reading file or url: Section2all_xls, sheet: T20100-Q, frequency: Q, Time: 35s
+2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: Q, Time: 24s
 
-2022-06-17 03:04:12 PM Total New Items Found: 0 Time: 35 s
+2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 03:04:12 PM Country: United States, Reading file or url: Section2all_xls, sheet: T20600-M, frequency: M, Time: 35s
+2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: M, Time: 24s
 
-2022-06-17 03:04:12 PM Total New Items Found: 0 Time: 35 s
+2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 03:04:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:14 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a hourly basis quarters, frequency: Q, Time: 24s
 
-2022-06-17 03:04:12 PM Reading source file, Time: 35 s
+2022-06-17 04:39:14 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:18 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30100-Q, frequency: Q, Time: 42s
+2022-06-17 04:39:14 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-17 03:04:18 PM Total New Items Found: 0 Time: 42 s
+2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a monthly basis quarters, frequency: Q, Time: 25s
 
-2022-06-17 03:04:19 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30200-Q, frequency: Q, Time: 42s
+2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:19 PM Total New Items Found: 0 Time: 42 s
+2022-06-17 04:39:15 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-17 03:04:19 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30300-Q, frequency: Q, Time: 42s
+2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2014_effektmon&treeAnchor=KONJUNKTUR, sheet: Wages and salaries per employee, frequency: Q, Time: 25s
 
-2022-06-17 03:04:19 PM Total New Items Found: 0 Time: 42 s
+2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:19 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30905-Q, frequency: Q, Time: 42s
+2022-06-17 04:39:15 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-17 03:04:19 PM Total New Items Found: 0 Time: 42 s
+2022-06-17 04:39:15 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_prod_lohnkost, sheet: Productivity and labour costs in the economy as a whole, frequency: Q, Time: 25s
 
-2022-06-17 03:04:19 PM Country: United States, Reading file or url: Section3all_xls, sheet: T30906-Q, frequency: Q, Time: 43s
+2022-06-17 04:39:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:19 PM Total New Items Found: 0 Time: 43 s
+2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-17 03:04:19 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:16 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_lohnstueckkst, sheet: Unit labour costs in selected economic sectors, frequency: Q, Time: 26s
 
-2022-06-17 03:04:19 PM Reading source file, Time: 43 s
+2022-06-17 04:39:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:21 PM Country: United States, Reading file or url: Section4all_xls, sheet: T40205-Q, frequency: Q, Time: 45s
+2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-17 03:04:21 PM Total New Items Found: 0 Time: 45 s
+2022-06-17 04:39:16 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_ek_prhh, sheet: Households income - SA, frequency: Q, Time: 26s
 
-2022-06-17 03:04:22 PM Country: United States, Reading file or url: Section4all_xls, sheet: T40206-Q, frequency: Q, Time: 45s
+2022-06-17 04:39:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:22 PM Total New Items Found: 0 Time: 45 s
+2022-06-17 04:39:16 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-17 03:04:22 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v36_2014_ph, sheet: Households income - NSA, frequency: Q, Time: 26s
 
-2022-06-17 03:04:22 PM Reading source file, Time: 45 s
+2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:23 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70204-Q, frequency: Q, Time: 47s
+2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-17 03:04:23 PM Total New Items Found: 0 Time: 47 s
+2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_bip, sheet: Gross domestic product, frequency: Q, Time: 27s
 
-2022-06-17 03:04:24 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70205-Q, frequency: Q, Time: 47s
+2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:24 PM Total New Items Found: 0 Time: 47 s
+2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-17 03:04:24 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70205S-M, frequency: M, Time: 47s
+2022-06-17 04:39:17 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_verwend_nom, sheet: GDP expenditure components, frequency: Q, Time: 27s
 
-2022-06-17 03:04:24 PM Total New Items Found: 0 Time: 47 s
+2022-06-17 04:39:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:24 PM Country: United States, Reading file or url: Section7all_xls, sheet: U70206-Q, frequency: Q, Time: 47s
+2022-06-17 04:39:17 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-17 03:04:24 PM Total New Items Found: 0 Time: 47 s
+2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_lb, sheet: Current account of the Federal Republic of Germany, frequency: Q, Time: 28s
 
-2022-06-17 03:04:24 PM Reading file: BLS_series, Time: 47 s
+2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:24 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:18 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-17 03:04:28 PM Country: United States, Reading file or url: pr.data.1.AllData, sheet: 0, frequency: Q, Time: 51s
+2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_siws_mb09_07c&treeAnchor=KONJUNKTUR, sheet: Price indicators for the construction sector, frequency: Q, Time: 28s
 
-2022-06-17 03:04:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:31 PM Total New Items Found: 0 Time: 54 s
+2022-06-17 04:39:18 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-17 03:04:31 PM Reading file: BLS_series, Time: 54 s
+2022-06-17 04:39:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_vpi, sheet: Consumer price index SA, frequency: M, Time: 28s
 
-2022-06-17 03:04:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:18 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:04:45 PM Country: United States, Reading file or url: ln.data.1.AllData, sheet: 0, frequency: M, Time: 68s
+2022-06-17 04:39:19 PM Total New Items Found: 0 Time: 29 s
 
-2022-06-17 03:04:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:19 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07a, sheet: Consumer price index NSA, frequency: M, Time: 29s
 
-2022-06-17 03:05:26 PM Total New Items Found: 0 Time: 109 s
+2022-06-17 04:39:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:26 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:19 PM Total New Items Found: 0 Time: 29 s
 
-2022-06-17 03:05:27 PM Country: United States, Reading file or url: IRBY, sheet: 1, frequency: M, Time: 110s
+2022-06-17 04:39:19 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_vpi, sheet: Consumer price index Long term time series, frequency: M, Time: 29s
 
-2022-06-17 03:05:27 PM Total New Items Found: 0 Time: 110 s
+2022-06-17 04:39:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:22 PM Total New Items Found: 0 Time: 32 s
 
-2022-06-17 03:05:27 PM Country: United States, Reading file or url: DowJones, sheet: 1, frequency: D, Time: 111s
+2022-06-17 04:39:22 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_erzeuger, sheet: Producer price index SA, frequency: M, Time: 32s
 
-2022-06-17 03:05:28 PM Total New Items Found: 0 Time: 111 s
+2022-06-17 04:39:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:22 PM Total New Items Found: 0 Time: 32 s
 
-2022-06-17 03:05:30 PM Country: United States, Reading file or url: NASDAQ, sheet: 1, frequency: D, Time: 113s
+2022-06-17 04:39:22 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_07d, sheet: Producer price index NSA, frequency: M, Time: 32s
 
-2022-06-17 03:05:30 PM Total New Items Found: 0 Time: 113 s
+2022-06-17 04:39:22 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:30 PM Reading file: Datasets, Time: 113 s
+2022-06-17 04:39:23 PM Total New Items Found: 0 Time: 33 s
 
-2022-06-17 03:05:30 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: M, Time: 114s
+2022-06-17 04:39:23 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_pr, sheet: Producer price index Long term time series, frequency: M, Time: 33s
 
-2022-06-17 03:05:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:30 PM Total New Items Found: 0 Time: 114 s
+2022-06-17 04:39:23 PM Total New Items Found: 0 Time: 33 s
 
-2022-06-17 03:05:30 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: W, Time: 114s
+2022-06-17 04:39:23 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pra, sheet: Prices and unit values in foreign trade, frequency: M, Time: 33s
 
-2022-06-17 03:05:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:23 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:31 PM Total New Items Found: 0 Time: 115 s
+2022-06-17 04:39:24 PM Total New Items Found: 0 Time: 34 s
 
-2022-06-17 03:05:31 PM Country: United States, Reading file or url: https://www.investing.com/indices/nyse-composite-historical-data, sheet: NYSE Composite, frequency: D, Time: 115s
+2022-06-17 04:39:24 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a hourly basis months, frequency: M, Time: 34s
 
-2022-06-17 03:05:32 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:32 PM Total New Items Found: 0 Time: 115 s
+2022-06-17 04:39:24 PM Total New Items Found: 0 Time: 34 s
 
-2022-06-17 03:05:32 PM Reading file: FTD_datasets, Time: 115 s
+2022-06-17 04:39:24 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#M, sheet: Pay rates on a monthly basis months, frequency: M, Time: 34s
 
-2022-06-17 03:05:32 PM Reading file: FTDE_series, Time: 115 s
+2022-06-17 04:39:24 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:32 PM Country: United States, Reading file or url: AGDSCSB, sheet: 0, frequency: M, Time: 116s
+2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 34 s
 
-2022-06-17 03:05:33 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:25 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_am_ofs, sheet: Reported vacancies SA, frequency: M, Time: 35s
 
-2022-06-17 03:05:33 PM Total New Items Found: 0 Time: 116 s
+2022-06-17 04:39:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:33 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#1, sheet: NSAEXP, frequency: M, Time: 116s
+2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 35 s
 
-2022-06-17 03:05:33 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:25 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_mb09_06d, sheet: Reported vacancies NSA, frequency: M, Time: 35s
 
-2022-06-17 03:05:33 PM Total New Items Found: 0 Time: 117 s
+2022-06-17 04:39:25 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:33 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#2, sheet: NSAIMP, frequency: M, Time: 117s
+2022-06-17 04:39:25 PM Total New Items Found: 0 Time: 35 s
 
-2022-06-17 03:05:33 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_bb, sheet: Employment labour costs and turnover in the construction sector, frequency: M, Time: 36s
 
-2022-06-17 03:05:34 PM Total New Items Found: 0 Time: 117 s
+2022-06-17 04:39:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:34 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#3, sheet: SAEXP, frequency: M, Time: 117s
+2022-06-17 04:39:26 PM Total New Items Found: 0 Time: 36 s
 
-2022-06-17 03:05:34 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ib, sheet: Productivity and labour costs in industry, frequency: M, Time: 36s
 
-2022-06-17 03:05:35 PM Total New Items Found: 0 Time: 118 s
+2022-06-17 04:39:26 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:35 PM Country: United States, Reading file or url: https://www.census.gov/foreign-trade/statistics/historical/index.html#4, sheet: SAIMP, frequency: M, Time: 118s
+2022-06-17 04:39:26 PM Total New Items Found: 0 Time: 36 s
 
-2022-06-17 03:05:35 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw2d3_1a, sheet: External position of the Deutsche Bundesbank, frequency: M, Time: 37s
 
-2022-06-17 03:05:35 PM Total New Items Found: 0 Time: 119 s
+2022-06-17 04:39:27 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:36 PM Country: United States, Reading file or url: UGDSCSB, sheet: 0, frequency: M, Time: 119s
+2022-06-17 04:39:27 PM Total New Items Found: 0 Time: 37 s
 
-2022-06-17 03:05:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_2a, sheet: Current account - Goods, frequency: M, Time: 37s
 
-2022-06-17 03:05:36 PM Total New Items Found: 0 Time: 119 s
+2022-06-17 04:39:27 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:36 PM Reading file: Datasets, Time: 119 s
+2022-06-17 04:39:27 PM Total New Items Found: 0 Time: 37 s
 
-2022-06-17 03:05:36 PM Country: United States, Reading file or url: https://www.eia.gov/dnav/pet/pet_move_imp_dc_NUS-Z00_mbbl_m.htm, sheet: PET_MOVE_IMP_DC_NUS-Z00_MBBL_M, frequency: M, Time: 120s
+2022-06-17 04:39:28 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_3a, sheet: Current account - Services, frequency: M, Time: 37s
 
-2022-06-17 03:05:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:28 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-17 03:05:36 PM Total New Items Found: 0 Time: 120 s
+2022-06-17 04:39:28 PM Total New Items Found: 0 Time: 38 s
 
-2022-06-17 03:05:37 PM Reading file: Datasets, Time: 120 s
+2022-06-17 04:39:28 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_4a, sheet: Current account - Primary Income, frequency: M, Time: 38s
 
-2022-06-17 03:05:37 PM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 120s
+2022-06-17 04:39:28 PM Downloading file: Current account - Primary Income
 
-2022-06-17 03:05:37 PM Present File Exists. Reading Data From Default Path.
+2022-06-17 04:39:34 PM Getting Data From Website
 
-2022-06-17 03:05:37 PM Total New Items Found: 0 Time: 121 s
+2022-06-17 04:40:03 PM Total New Items Found: 0 Time: 73 s
 
-2022-06-17 03:05:46 PM = ! = No new items were found.
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2022-06-17 03:03:42 PM Total New Items Found: 0 Time: 1546 s
+2022-06-17 04:40:03 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d2_5a, sheet: Current account - Secondary Income, frequency: M, Time: 73s
 
-2022-06-17 03:03:43 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42111-0002&bypass=true&levelindex=0&levelid=1630899499215#abreadcrumb, sheet: Persons employed and turnover of local units in manufacturing, frequency: M, Time: 1547s
+2022-06-17 04:40:03 PM Downloading file: Current account - Secondary Income
 
-2022-06-17 03:03:43 PM Downloading file: Persons employed and turnover of local units in manufacturing
+2022-06-17 04:40:05 PM Getting Data From Website
 
-2022-06-17 03:03:45 PM Getting Data From Website
+2022-06-17 04:40:33 PM Total New Items Found: 0 Time: 103 s
 
-2022-06-17 03:04:21 PM Total New Items Found: 0 Time: 1584 s
+2022-06-17 04:40:33 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_dl_ek, sheet: Current account - Service transactions and primary income, frequency: M, Time: 103s
 
-2022-06-17 03:04:21 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42151-0001&bypass=true&levelindex=0&levelid=1630908999803#abreadcrumb, sheet: New orders in manufacturing (value index), frequency: M, Time: 1585s
+2022-06-17 04:40:33 PM Downloading file: Current account - Service transactions and primary income
 
-2022-06-17 03:04:21 PM Downloading file: New orders in manufacturing (value index)
+2022-06-17 04:40:34 PM Getting Data From Website
 
-2022-06-17 03:04:22 PM Getting Data From Website
+2022-06-17 04:41:02 PM Total New Items Found: 0 Time: 132 s
 
-2022-06-17 03:04:30 PM Getting Data from Different Year Ranges.
+2022-06-17 04:41:02 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d4_1a, sheet: Financial account - Overall, frequency: M, Time: 132s
 
-2022-06-17 03:04:30 PM Downloading file: New orders in manufacturing (value index) - 1991
+2022-06-17 04:41:02 PM Downloading file: Financial account - Overall
 
-2022-06-17 03:04:31 PM Getting Data From Website
+2022-06-17 04:41:03 PM Getting Data From Website
 
-2022-06-17 03:05:07 PM Downloading file: New orders in manufacturing (value index) - 2001
+2022-06-17 04:41:30 PM Total New Items Found: 0 Time: 160 s
 
-2022-06-17 03:05:09 PM Getting Data From Website
+2022-06-17 04:41:30 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d4_1d, sheet: Financial account - Other investment, frequency: M, Time: 160s
 
-2022-06-17 03:05:44 PM Downloading file: New orders in manufacturing (value index) - 2011
+2022-06-17 04:41:30 PM Downloading file: Financial account - Other investment
 
-2022-06-17 03:05:46 PM Getting Data From Website
+2022-06-17 04:41:32 PM Getting Data From Website
 
-2022-06-17 03:06:20 PM Downloading file: New orders in manufacturing (value index) - 2021
+2022-06-17 04:41:58 PM Total New Items Found: 0 Time: 188 s
 
-2022-06-17 03:06:22 PM Getting Data From Website
+2022-06-17 04:41:58 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_sesbop_aw1d1_1a, sheet: Major items of the balance of payments, frequency: M, Time: 188s
 
-2022-06-17 03:06:57 PM Total New Items Found: 0 Time: 1741 s
+2022-06-17 04:41:58 PM Downloading file: Major items of the balance of payments
 
-2022-06-17 03:06:57 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42151-0004&bypass=true&levelindex=0&levelid=1630979009079#abreadcrumb, sheet: New orders in manufacturing (volume index), frequency: M, Time: 1741s
+2022-06-17 04:41:59 PM Getting Data From Website
 
-2022-06-17 03:06:57 PM Downloading file: New orders in manufacturing (volume index)
+2022-06-17 04:42:27 PM Total New Items Found: 0 Time: 217 s
 
-2022-06-17 03:07:00 PM Getting Data From Website
+2022-06-17 04:42:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_lr_ah, sheet: Foreign trade Long term time series, frequency: M, Time: 217s
 
-2022-06-17 03:07:07 PM Getting Data from Different Year Ranges.
+2022-06-17 04:42:27 PM Downloading file: Foreign trade Long term time series
 
-2022-06-17 03:07:07 PM Downloading file: New orders in manufacturing (volume index) - 1991
+2022-06-17 04:42:28 PM Getting Data From Website
 
-2022-06-17 03:07:09 PM Getting Data From Website
+2022-06-17 04:42:56 PM Total New Items Found: 0 Time: 246 s
 
-2022-06-17 03:07:44 PM Downloading file: New orders in manufacturing (volume index) - 2001
+2022-06-17 04:42:56 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_siws_b3013c, sheet: Foreign trade (special trade), frequency: M, Time: 246s
 
-2022-06-17 03:07:45 PM Getting Data From Website
+2022-06-17 04:42:56 PM Downloading file: Foreign trade (special trade)
 
-2022-06-17 03:08:20 PM Downloading file: New orders in manufacturing (volume index) - 2011
+2022-06-17 04:42:59 PM Getting Data From Website
 
-2022-06-17 03:08:21 PM Getting Data From Website
+2022-06-17 04:43:52 PM Total New Items Found: 0 Time: 302 s
 
-2022-06-17 03:09:14 PM Downloading file: New orders in manufacturing (volume index) - 2021
+2022-06-17 04:43:52 PM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/banks-and-other-financial-corporations/banks/no-05-lending-by-banks-mfis-in-germany-to-domestic-non-banks-non-mfis--651134, sheet: Lending by banks (MFIs) in Germany to domestic non-banks (non-MFIs), frequency: M, Time: 302s
 
-2022-06-17 03:09:15 PM Getting Data From Website
+2022-06-17 04:43:52 PM Downloading file: Lending by banks (MFIs) in Germany to domestic non-banks (non-MFIs)
 
-2022-06-17 03:09:53 PM Total New Items Found: 0 Time: 1917 s
+2022-06-17 04:43:55 PM Getting Data From Website
 
-2022-06-17 03:09:53 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42153-0001&bypass=true&levelindex=2&levelid=1630999870876#abreadcrumb, sheet: Index of production in manufacturing (main groups and aggregates), frequency: M, Time: 1917s
+2022-06-17 04:44:32 PM Total New Items Found: 0 Time: 342 s
 
-2022-06-17 03:09:53 PM Downloading file: Index of production in manufacturing (main groups and aggregates)
+2022-06-17 04:44:32 PM Country: Germany, Reading file or url: https://www.bundesbank.de/en/statistics/money-and-capital-markets/interest-rates-and-yields/mfi-interest-rate-statistics-amounts-outstanding-new-business--651536, sheet: MFI interest rate statistics, frequency: M, Time: 342s
 
-2022-06-17 03:09:55 PM Getting Data From Website
+2022-06-17 04:44:32 PM Downloading file: MFI interest rate statistics
 
-2022-06-17 03:10:05 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:10:05 PM Downloading file: Index of production in manufacturing (main groups and aggregates) - 1991
-
-2022-06-17 03:10:07 PM Getting Data From Website
-
-2022-06-17 03:10:43 PM Downloading file: Index of production in manufacturing (main groups and aggregates) - 2001
-
-2022-06-17 03:10:45 PM Getting Data From Website
-
-2022-06-17 03:11:23 PM Downloading file: Index of production in manufacturing (main groups and aggregates) - 2011
-
-2022-06-17 03:11:24 PM Getting Data From Website
-
-2022-06-17 03:12:10 PM Downloading file: Index of production in manufacturing (main groups and aggregates) - 2021
-
-2022-06-17 03:12:11 PM Getting Data From Website
-
-2022-06-17 03:12:51 PM Total New Items Found: 0 Time: 2095 s
-
-2022-06-17 03:12:51 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=42153-0002&bypass=true&levelindex=2&levelid=1631001964599#abreadcrumb, sheet: Index of production in manufacturing (2-3-4-digit codes), frequency: M, Time: 2095s
-
-2022-06-17 03:12:51 PM Downloading file: Index of production in manufacturing (2-3-4-digit codes)
-
-2022-06-17 03:12:53 PM Getting Data From Website
-
-2022-06-17 03:13:30 PM Total New Items Found: 0 Time: 2134 s
-
-2022-06-17 03:13:30 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=44111-0009&bypass=true&levelindex=1&levelid=1630982193435#abreadcrumb, sheet: New orders (value and volume index) in the main construction industry, frequency: M, Time: 2134s
-
-2022-06-17 03:13:30 PM Downloading file: New orders (value and volume index) in the main construction industry
-
-2022-06-17 03:13:33 PM Getting Data From Website
-
-2022-06-17 03:13:39 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:13:39 PM Downloading file: New orders (value and volume index) in the main construction industry - 1991
-
-2022-06-17 03:13:40 PM Getting Data From Website
-
-2022-06-17 03:14:12 PM Downloading file: New orders (value and volume index) in the main construction industry - 2001
-
-2022-06-17 03:14:13 PM Getting Data From Website
-
-2022-06-17 03:14:45 PM Downloading file: New orders (value and volume index) in the main construction industry - 2011
-
-2022-06-17 03:14:46 PM Getting Data From Website
-
-2022-06-17 03:15:18 PM Downloading file: New orders (value and volume index) in the main construction industry - 2021
-
-2022-06-17 03:15:21 PM Getting Data From Website
-
-2022-06-17 03:15:54 PM Total New Items Found: 0 Time: 2278 s
-
-2022-06-17 03:15:54 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45211-0002&bypass=true&levelindex=1&levelid=1630985097246#abreadcrumb, sheet: Persons employed in wholesale trade, frequency: M, Time: 2278s
-
-2022-06-17 03:15:54 PM Downloading file: Persons employed in wholesale trade
-
-2022-06-17 03:15:56 PM Getting Data From Website
-
-2022-06-17 03:16:45 PM Total New Items Found: 0 Time: 2329 s
-
-2022-06-17 03:16:46 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45211-0005&bypass=true&levelindex=1&levelid=1630994025555#abreadcrumb, sheet: Turnover in wholesale trade, frequency: M, Time: 2329s
-
-2022-06-17 03:16:46 PM Downloading file: Turnover in wholesale trade
-
-2022-06-17 03:16:47 PM Getting Data From Website
-
-2022-06-17 03:17:30 PM Total New Items Found: 0 Time: 2374 s
-
-2022-06-17 03:17:31 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45212-0002&bypass=true&levelindex=1&levelid=1630996684989#abreadcrumb, sheet: Persons employed in retail trade, frequency: M, Time: 2375s
-
-2022-06-17 03:17:31 PM Downloading file: Persons employed in retail trade
-
-2022-06-17 03:17:32 PM Getting Data From Website
-
-2022-06-17 03:18:27 PM Total New Items Found: 0 Time: 2431 s
-
-2022-06-17 03:18:27 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45212-0005&bypass=true&levelindex=1&levelid=1631008198095#abreadcrumb, sheet: Turnover in retail trade, frequency: M, Time: 2431s
-
-2022-06-17 03:18:27 PM Downloading file: Turnover in retail trade
-
-2022-06-17 03:18:29 PM Getting Data From Website
-
-2022-06-17 03:18:40 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:18:40 PM Downloading file: Turnover in retail trade - 1994
-
-2022-06-17 03:18:41 PM Getting Data From Website
-
-2022-06-17 03:19:38 PM Downloading file: Turnover in retail trade - 2004
-
-2022-06-17 03:19:40 PM Getting Data From Website
-
-2022-06-17 03:20:35 PM Downloading file: Turnover in retail trade - 2014
-
-2022-06-17 03:20:37 PM Getting Data From Website
-
-2022-06-17 03:21:36 PM Total New Items Found: 0 Time: 2620 s
-
-2022-06-17 03:21:36 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45213-0002&bypass=true&levelindex=0&levelid=1631011034718#abreadcrumb, sheet: Persons employed in accommodation and food services, frequency: M, Time: 2620s
-
-2022-06-17 03:21:36 PM Downloading file: Persons employed in accommodation and food services
-
-2022-06-17 03:21:39 PM Getting Data From Website
-
-2022-06-17 03:22:35 PM Total New Items Found: 0 Time: 2679 s
-
-2022-06-17 03:22:35 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45213-0005&bypass=true&levelindex=0&levelid=1631011034718#abreadcrumb, sheet: Turnover from accommodation and food services, frequency: M, Time: 2679s
-
-2022-06-17 03:22:35 PM Downloading file: Turnover from accommodation and food services
-
-2022-06-17 03:22:37 PM Getting Data From Website
-
-2022-06-17 03:23:17 PM Total New Items Found: 0 Time: 2721 s
-
-2022-06-17 03:23:17 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0002&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb, sheet: Foreign trade - total, frequency: M, Time: 2721s
-
-2022-06-17 03:23:17 PM Downloading file: Foreign trade - EU
-
-2022-06-17 03:23:21 PM Getting Data From Website
-
-2022-06-17 03:24:19 PM Downloading file: Foreign trade - total
-
-2022-06-17 03:24:24 PM Getting Data From Website
-
-2022-06-17 03:25:10 PM Total New Items Found: 0 Time: 2834 s
-
-2022-06-17 03:25:10 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0004&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#2, sheet: Foreign trade - countries, frequency: M, Time: 2834s
-
-2022-06-17 03:25:10 PM Downloading file: Foreign trade - countries
-
-2022-06-17 03:25:13 PM Getting Data From Website
-
-2022-06-17 03:26:18 PM Total New Items Found: 0 Time: 2902 s
-
-2022-06-17 03:26:18 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0006&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#1, sheet: Foreign trade - EGW1 codes, frequency: M, Time: 2902s
-
-2022-06-17 03:26:18 PM Downloading file: Foreign trade - EGW1 codes
-
-2022-06-17 03:26:20 PM Getting Data From Website
-
-2022-06-17 03:26:55 PM Total New Items Found: 0 Time: 2939 s
-
-2022-06-17 03:26:55 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=51000-0006&bypass=true&levelindex=0&levelid=1631064203409#abreadcrumb#2, sheet: Foreign trade - SITC2 codes, frequency: M, Time: 2939s
-
-2022-06-17 03:26:55 PM Downloading file: Foreign trade - SITC2 codes
-
-2022-06-17 03:26:57 PM Getting Data From Website
-
-2022-06-17 03:27:34 PM Total New Items Found: 0 Time: 2978 s
-
-2022-06-17 03:27:34 PM Country: Germany, Reading file or url: https://www.destatis.de/EN/Themes/Economy/Short-Term-Indicators/Foreign-Trade/ahl310a.html, sheet: Foreign trade - Value Index, frequency: M, Time: 2978s
-
-2022-06-17 03:27:34 PM Downloading file: Foreign trade - Value Index
-
-2022-06-17 03:27:36 PM Getting Data From Website
-
-2022-06-17 03:27:46 PM Total New Items Found: 0 Time: 2990 s
-
-2022-06-17 03:27:46 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0004&bypass=true&levelindex=0&levelid=1631092866532#abreadcrumb, sheet: Consumer price index months, frequency: M, Time: 2990s
-
-2022-06-17 03:27:46 PM Downloading file: Consumer price index months
-
-2022-06-17 03:27:47 PM Getting Data From Website
-
-2022-06-17 03:27:52 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:27:52 PM Downloading file: Consumer price index months - 1991
-
-2022-06-17 03:27:53 PM Getting Data From Website
-
-2022-06-17 03:28:29 PM Downloading file: Consumer price index months - 1996
-
-2022-06-17 03:28:30 PM Getting Data From Website
-
-2022-06-17 03:29:05 PM Downloading file: Consumer price index months - 2001
-
-2022-06-17 03:29:07 PM Getting Data From Website
-
-2022-06-17 03:29:41 PM Downloading file: Consumer price index months - 2006
-
-2022-06-17 03:29:42 PM Getting Data From Website
-
-2022-06-17 03:30:17 PM Downloading file: Consumer price index months - 2011
-
-2022-06-17 03:30:18 PM Getting Data From Website
-
-2022-06-17 03:30:54 PM Downloading file: Consumer price index months - 2016
-
-2022-06-17 03:30:55 PM Getting Data From Website
-
-2022-06-17 03:31:30 PM Downloading file: Consumer price index months - 2021
-
-2022-06-17 03:31:32 PM Getting Data From Website
-
-2022-06-17 03:32:07 PM Total New Items Found: 0 Time: 3251 s
-
-2022-06-17 03:32:07 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61121-0004&bypass=true&levelindex=1&levelid=1631156183961#abreadcrumb, sheet: Harmonised index of consumer prices, frequency: M, Time: 3251s
-
-2022-06-17 03:32:07 PM Downloading file: Harmonised index of consumer prices
-
-2022-06-17 03:32:08 PM Getting Data From Website
-
-2022-06-17 03:32:48 PM Total New Items Found: 0 Time: 3292 s
-
-2022-06-17 03:32:48 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61131-0002&bypass=true&levelindex=0&levelid=1631158750694#abreadcrumb, sheet: Retail price index, frequency: M, Time: 3292s
-
-2022-06-17 03:32:48 PM Downloading file: Retail price index
-
-2022-06-17 03:32:49 PM Getting Data From Website
-
-2022-06-17 03:33:24 PM Total New Items Found: 0 Time: 3328 s
-
-2022-06-17 03:33:24 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0002&bypass=true&levelindex=0&levelid=1631168815292#abreadcrumb, sheet: Producer price index for industrial products - total, frequency: M, Time: 3328s
-
-2022-06-17 03:33:24 PM Downloading file: Producer price index for industrial products - total
-
-2022-06-17 03:33:26 PM Getting Data From Website
-
-2022-06-17 03:33:58 PM Total New Items Found: 0 Time: 3362 s
-
-2022-06-17 03:33:58 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#1, sheet: Producer price index for industrial products - GP2 codes, frequency: M, Time: 3362s
-
-2022-06-17 03:33:58 PM Downloading file: Producer price index for industrial products - GP2 codes
-
-2022-06-17 03:34:01 PM Getting Data From Website
-
-2022-06-17 03:34:35 PM Total New Items Found: 0 Time: 3399 s
-
-2022-06-17 03:34:35 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#2, sheet: Producer price index for industrial products - GP3 codes, frequency: M, Time: 3399s
-
-2022-06-17 03:34:35 PM Downloading file: Producer price index for industrial products - GP3 codes
-
-2022-06-17 03:34:36 PM Getting Data From Website
-
-2022-06-17 03:34:44 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:34:44 PM Downloading file: Producer price index for industrial products - GP3 codes - 1976
-
-2022-06-17 03:34:45 PM Getting Data From Website
-
-2022-06-17 03:35:19 PM Downloading file: Producer price index for industrial products - GP3 codes - 1986
-
-2022-06-17 03:35:20 PM Getting Data From Website
-
-2022-06-17 03:35:54 PM Downloading file: Producer price index for industrial products - GP3 codes - 1996
-
-2022-06-17 03:35:56 PM Getting Data From Website
-
-2022-06-17 03:36:30 PM Downloading file: Producer price index for industrial products - GP3 codes - 2006
-
-2022-06-17 03:36:32 PM Getting Data From Website
-
-2022-06-17 03:37:06 PM Downloading file: Producer price index for industrial products - GP3 codes - 2016
-
-2022-06-17 03:37:07 PM Getting Data From Website
-
-2022-06-17 03:37:43 PM Total New Items Found: 0 Time: 3587 s
-
-2022-06-17 03:37:43 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#3, sheet: Producer price index for industrial products - GP4 codes, frequency: M, Time: 3587s
-
-2022-06-17 03:37:43 PM Downloading file: Producer price index for industrial products - GP4 codes
-
-2022-06-17 03:37:45 PM Getting Data From Website
-
-2022-06-17 03:37:53 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:37:53 PM Downloading file: Producer price index for industrial products - GP4 codes - 1976
-
-2022-06-17 03:37:54 PM Getting Data From Website
-
-2022-06-17 03:38:31 PM Downloading file: Producer price index for industrial products - GP4 codes - 1986
-
-2022-06-17 03:38:33 PM Getting Data From Website
-
-2022-06-17 03:39:09 PM Downloading file: Producer price index for industrial products - GP4 codes - 1996
-
-2022-06-17 03:39:12 PM Getting Data From Website
-
-2022-06-17 03:39:49 PM Downloading file: Producer price index for industrial products - GP4 codes - 2006
-
-2022-06-17 03:39:50 PM Getting Data From Website
-
-2022-06-17 03:40:28 PM Downloading file: Producer price index for industrial products - GP4 codes - 2016
-
-2022-06-17 03:40:30 PM Getting Data From Website
-
-2022-06-17 03:41:08 PM Total New Items Found: 0 Time: 3791 s
-
-2022-06-17 03:41:08 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#4, sheet: Producer price index for industrial products - GPS codes, frequency: M, Time: 3792s
-
-2022-06-17 03:41:08 PM Downloading file: Producer price index for industrial products - GPS codes
-
-2022-06-17 03:41:10 PM Getting Data From Website
-
-2022-06-17 03:41:16 PM Getting Data from Different Year Ranges.
-
-2022-06-17 03:41:16 PM Downloading file: Producer price index for industrial products - GPS codes - 1976
-
-2022-06-17 03:41:17 PM Getting Data From Website
-
-2022-06-17 03:41:49 PM Downloading file: Producer price index for industrial products - GPS codes - 1986
-
-2022-06-17 03:41:51 PM Getting Data From Website
-
-2022-06-17 03:42:23 PM Downloading file: Producer price index for industrial products - GPS codes - 1996
-
-2022-06-17 03:42:24 PM Getting Data From Website
-
-2022-06-17 03:42:56 PM Downloading file: Producer price index for industrial products - GPS codes - 2006
-
-2022-06-17 03:42:58 PM Getting Data From Website
-
-2022-06-17 03:43:29 PM Downloading file: Producer price index for industrial products - GPS codes - 2016
-
-2022-06-17 03:43:30 PM Getting Data From Website
-
-2022-06-17 03:44:04 PM Total New Items Found: 0 Time: 3968 s
-
-2022-06-17 03:44:04 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61241-0004&bypass=true&levelindex=0&levelid=1631160425174#abreadcrumb#5, sheet: Producer price index for industrial products - GP9 codes, frequency: M, Time: 3968s
-
-2022-06-17 03:44:04 PM Downloading file: Producer price index for industrial products - GP9 codes
-
-2022-06-17 03:44:06 PM Getting Data From Website
-
-2022-06-17 03:46:00 PM Total New Items Found: 0 Time: 4084 s
-
-2022-06-17 03:46:00 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61281-0002&bypass=true&levelindex=0&levelid=1631238676756#abreadcrumb, sheet: Index of wholesale prices - total, frequency: M, Time: 4084s
-
-2022-06-17 03:46:00 PM Downloading file: Index of wholesale prices - total
-
-2022-06-17 03:46:03 PM Getting Data From Website
-
-2022-06-17 03:46:45 PM Total New Items Found: 0 Time: 4129 s
-
-2022-06-17 03:46:45 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61281-0004&bypass=true&levelindex=1&levelid=1631182648032#abreadcrumb, sheet: Index of wholesale prices - WZ, frequency: M, Time: 4129s
-
-2022-06-17 03:46:45 PM Downloading file: Index of wholesale prices - WZ
-
-2022-06-17 03:46:46 PM Getting Data From Website
-
-2022-06-17 03:47:23 PM Total New Items Found: 0 Time: 4167 s
-
-2022-06-17 03:47:23 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61411-0002&bypass=true&levelindex=1&levelid=1631240384381#abreadcrumb, sheet: Import price index - total, frequency: M, Time: 4167s
-
-2022-06-17 03:47:23 PM Downloading file: Import price index - total
-
-2022-06-17 03:47:25 PM Getting Data From Website
-
-2022-06-17 03:48:01 PM Total New Items Found: 0 Time: 4205 s
-
-2022-06-17 03:48:01 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61411-0004&bypass=true&levelindex=1&levelid=1631240384381#abreadcrumb, sheet: Import price index - GP9 codes, frequency: M, Time: 4205s
-
-2022-06-17 03:48:01 PM Downloading file: Import price index - GP9 codes
-
-2022-06-17 03:48:04 PM Getting Data From Website
-
-2022-06-17 03:48:42 PM Total New Items Found: 0 Time: 4246 s
-
-2022-06-17 03:48:42 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=61421-0002&bypass=true&levelindex=1&levelid=1631243044396#abreadcrumb, sheet: Export price index - total, frequency: M, Time: 4246s
-
-2022-06-17 03:48:42 PM Downloading file: Export price index - total
-
-2022-06-17 03:48:45 PM Getting Data From Website
-
-2022-06-17 03:49:21 PM Total New Items Found: 0 Time: 4285 s
-
-2022-06-17 03:49:21 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=44111-0004&bypass=true&levelindex=1&levelid=1631252279715#abreadcrumb, sheet: Local units - construction, frequency: M, Time: 4285s
-
-2022-06-17 03:49:21 PM Downloading file: Local units - construction
-
-2022-06-17 03:49:23 PM Getting Data From Website
-
-2022-06-17 03:49:57 PM Total New Items Found: 0 Time: 4321 s
-
-2022-06-17 03:49:57 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=13211-0006&bypass=true&levelindex=0&levelid=1631247220437#abreadcrumb, sheet: Unemployment as a percentage of the civilian labour force, frequency: M, Time: 4321s
-
-2022-06-17 03:49:57 PM Downloading file: Unemployment as a percentage of the civilian labour force
-
-2022-06-17 03:49:59 PM Getting Data From Website
-
-2022-06-17 03:50:32 PM Total New Items Found: 0 Time: 4356 s
-
-2022-06-17 03:50:32 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=45412-0014&bypass=true&levelindex=1&levelid=1631261112324#abreadcrumb, sheet: Arrivals and overnight stays in accommodation establishments, frequency: M, Time: 4356s
-
-2022-06-17 03:50:32 PM Downloading file: Arrivals and overnight stays in accommodation establishments
-
-2022-06-17 03:50:33 PM Getting Data From Website
-
-2022-06-17 03:51:01 PM Total New Items Found: 0 Time: 4385 s
-
-2022-06-17 03:51:02 PM Country: Germany, Reading file or url: https://www-genesis.destatis.de/genesis//online?operation=table&code=46251-0005&bypass=true&levelindex=0&levelid=1631896740759#abreadcrumb, sheet: First registrations and changes in ownership of motor vehicles and trailers, frequency: M, Time: 4386s
-
-2022-06-17 03:51:02 PM Downloading file: First registrations and changes in ownership of motor vehicles and trailers
-
-2022-06-17 03:51:05 PM Getting Data From Website
-
-2022-06-17 03:51:38 PM Total New Items Found: 0 Time: 4422 s
-
-2022-06-17 03:51:39 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v27_web012_11a, sheet: Budgetary developments in Germany (national accounts), frequency: A, Time: 4423s
-
-2022-06-17 03:51:39 PM Downloading file: Budgetary developments in Germany (national accounts)
-
-2022-06-17 03:51:45 PM Getting Data From Website
-
-2022-06-17 03:52:09 PM Total New Items Found: 0 Time: 4453 s
-
-2022-06-17 03:52:10 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v27_web011_22a&treeAnchor=FINANZEN, sheet: General government debt as defined in the Maastricht Treaty, frequency: A, Time: 4453s
-
-2022-06-17 03:52:10 PM Downloading file: General government debt as defined in the Maastricht Treaty
-
-2022-06-17 03:52:11 PM Getting Data From Website
-
-2022-06-17 03:52:36 PM Total New Items Found: 0 Time: 4479 s
-
-2022-06-17 03:52:36 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR, sheet: Pay rates on a hourly basis years, frequency: A, Time: 4480s
-
-2022-06-17 03:52:36 PM Downloading file: Pay rates on a hourly basis years
-
-2022-06-17 03:52:37 PM Getting Data From Website
-
-2022-06-17 03:53:01 PM Total New Items Found: 0 Time: 4505 s
-
-2022-06-17 03:53:01 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR, sheet: Pay rates on a monthly basis years, frequency: A, Time: 4505s
-
-2022-06-17 03:53:01 PM Downloading file: Pay rates on a monthly basis years
-
-2022-06-17 03:53:02 PM Getting Data From Website
-
-2022-06-17 03:53:26 PM Total New Items Found: 0 Time: 4530 s
-
-2022-06-17 03:53:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: A, Time: 4530s
-
-2022-06-17 03:53:26 PM Downloading file: Yields on debt securities outstanding monthly average
-
-2022-06-17 03:53:28 PM Getting Data From Website
-
-2022-06-17 03:53:54 PM Total New Items Found: 0 Time: 4558 s
-
-2022-06-17 03:53:54 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_skms_it01&treeAnchor=GELD, sheet: Yields on debt securities outstanding monthly average, frequency: M, Time: 4558s
-
-2022-06-17 03:53:54 PM Total New Items Found: 0 Time: 4558 s
-
-2022-06-17 03:53:54 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: A, Time: 4558s
-
-2022-06-17 03:53:54 PM Downloading file: Term structure on listed Federal securities monthly end
-
-2022-06-17 03:53:57 PM Getting Data From Website
-
-2022-06-17 03:54:26 PM Total New Items Found: 0 Time: 4590 s
-
-2022-06-17 03:54:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: Q, Time: 4590s
-
-2022-06-17 03:54:26 PM Total New Items Found: 0 Time: 4590 s
-
-2022-06-17 03:54:26 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_skms_it03a, sheet: Term structure on listed Federal securities monthly end, frequency: M, Time: 4590s
-
-2022-06-17 03:54:27 PM Total New Items Found: 0 Time: 4590 s
-
-2022-06-17 03:54:27 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsstd&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a hourly basis quarters, frequency: Q, Time: 4591s
-
-2022-06-17 03:54:27 PM Downloading file: Pay rates on a hourly basis quarters
-
-2022-06-17 03:54:28 PM Getting Data From Website
-
-2022-06-17 03:54:52 PM Total New Items Found: 0 Time: 4616 s
-
-2022-06-17 03:54:52 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2011_tarifinsmon&treeAnchor=KONJUNKTUR#Q, sheet: Pay rates on a monthly basis quarters, frequency: Q, Time: 4616s
-
-2022-06-17 03:54:52 PM Downloading file: Pay rates on a monthly basis quarters
-
-2022-06-17 03:54:53 PM Getting Data From Website
-
-2022-06-17 03:55:17 PM Total New Items Found: 0 Time: 4641 s
-
-2022-06-17 03:55:18 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_v36_2014_effektmon&treeAnchor=KONJUNKTUR, sheet: Wages and salaries per employee, frequency: Q, Time: 4641s
-
-2022-06-17 03:55:18 PM Downloading file: Wages and salaries per employee
-
-2022-06-17 03:55:19 PM Getting Data From Website
-
-2022-06-17 03:55:42 PM Total New Items Found: 0 Time: 4666 s
-
-2022-06-17 03:55:43 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_prod_lohnkost, sheet: Productivity and labour costs in the economy as a whole, frequency: Q, Time: 4666s
-
-2022-06-17 03:55:43 PM Downloading file: Productivity and labour costs in the economy as a whole
-
-2022-06-17 03:55:44 PM Getting Data From Website
-
-2022-06-17 03:56:08 PM Total New Items Found: 0 Time: 4692 s
-
-2022-06-17 03:56:09 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_lohnstueckkst, sheet: Unit labour costs in selected economic sectors, frequency: Q, Time: 4692s
-
-2022-06-17 03:56:09 PM Downloading file: Unit labour costs in selected economic sectors
-
-2022-06-17 03:56:10 PM Getting Data From Website
-
-2022-06-17 03:56:21 PM Getting Data From Website
-
-2022-06-17 03:56:34 PM Getting Data From Website
-
-2022-06-17 03:56:47 PM Getting Data From Website
-
-2022-06-17 03:57:01 PM Getting Data From Website
-
-2022-06-17 03:57:13 PM Getting Data From Website
-
-2022-06-17 03:57:27 PM Getting Data From Website
-
-2022-06-17 03:57:40 PM Getting Data From Website
-
-2022-06-17 03:57:54 PM Getting Data From Website
-
-2022-06-17 03:58:08 PM Getting Data From Website
-
-2022-06-17 03:58:23 PM Getting Data From Website
-
-2022-06-17 03:58:35 PM Getting Data From Website
-
-2022-06-17 03:58:48 PM Getting Data From Website
-
-2022-06-17 03:59:02 PM Getting Data From Website
-
-2022-06-17 03:59:14 PM Getting Data From Website
-
-2022-06-17 03:59:27 PM Getting Data From Website
-
-2022-06-17 03:59:40 PM Getting Data From Website
-
-2022-06-17 03:59:54 PM Getting Data From Website
-
-2022-06-17 04:00:06 PM Getting Data From Website
-
-2022-06-17 04:00:19 PM Getting Data From Website
-
-2022-06-17 04:00:31 PM Getting Data From Website
-
-2022-06-17 04:00:44 PM Getting Data From Website
-
-2022-06-17 04:00:57 PM Getting Data From Website
-
-2022-06-17 04:01:11 PM Getting Data From Website
-
-2022-06-17 04:01:25 PM Getting Data From Website
-
-2022-06-17 04:01:38 PM Getting Data From Website
-
-2022-06-17 04:01:51 PM Getting Data From Website
-
-2022-06-17 04:02:04 PM Getting Data From Website
-
-2022-06-17 04:02:17 PM Getting Data From Website
-
-2022-06-17 04:02:41 PM Total New Items Found: 0 Time: 5085 s
-
-2022-06-17 04:02:41 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_ek_prhh, sheet: Households income - SA, frequency: Q, Time: 5085s
-
-2022-06-17 04:02:41 PM Downloading file: Households income - SA
-
-2022-06-17 04:02:43 PM Getting Data From Website
-
-2022-06-17 04:03:07 PM Total New Items Found: 0 Time: 5111 s
-
-2022-06-17 04:03:07 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_v36_2014_ph, sheet: Households income - NSA, frequency: Q, Time: 5111s
-
-2022-06-17 04:03:07 PM Downloading file: Households income - NSA
-
-2022-06-17 04:03:08 PM Getting Data From Website
-
-2022-06-17 04:03:31 PM Total New Items Found: 0 Time: 5135 s
-
-2022-06-17 04:03:32 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_bip, sheet: Gross domestic product, frequency: Q, Time: 5135s
-
-2022-06-17 04:03:32 PM Downloading file: Gross domestic product
-
-2022-06-17 04:03:33 PM Getting Data From Website
-
-2022-06-17 04:03:57 PM Total New Items Found: 0 Time: 5161 s
-
-2022-06-17 04:03:57 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_vgr_verwend_nom, sheet: GDP expenditure components, frequency: Q, Time: 5161s
-
-2022-06-17 04:03:57 PM Downloading file: GDP expenditure components
-
-2022-06-17 04:03:58 PM Getting Data From Website
-
-2022-06-17 04:04:28 PM Total New Items Found: 0 Time: 5192 s
-
-2022-06-17 04:04:28 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_ah_lb, sheet: Current account of the Federal Republic of Germany, frequency: Q, Time: 5192s
-
-2022-06-17 04:04:28 PM Downloading file: Current account of the Federal Republic of Germany
-
-2022-06-17 04:04:29 PM Getting Data From Website
-
-2022-06-17 04:04:53 PM Total New Items Found: 0 Time: 5217 s
-
-2022-06-17 04:04:53 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?statisticType=BBK_ITS&listId=www_siws_mb09_07c&treeAnchor=KONJUNKTUR, sheet: Price indicators for the construction sector, frequency: Q, Time: 5217s
-
-2022-06-17 04:04:53 PM Downloading file: Price indicators for the construction sector
-
-2022-06-17 04:04:54 PM Getting Data From Website
-
-2022-06-17 04:05:19 PM Total New Items Found: 0 Time: 5243 s
-
-2022-06-17 04:05:19 PM Country: Germany, Reading file or url: https://www.bundesbank.de/dynamic/action/en/statistics/time-series-databases/time-series-databases/759784/759784?listId=www_ssb_b4_pr_vpi, sheet: Consumer price index SA, frequency: M, Time: 5243s
-
-2022-06-17 04:05:19 PM Downloading file: Consumer price index SA
-
-2022-06-17 04:05:21 PM Getting Data From Website
+2022-06-17 04:44:35 PM Getting Data From Website
 

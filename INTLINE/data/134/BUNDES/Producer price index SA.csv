@@ -2,7 +2,7 @@
 "",Index of producer prices of industrial products sold on the domestic market / Germany / Calendar and seasonally adjusted / Total,,Index of producer prices of industrial products sold on the domestic market / Germany / Calendar and seasonally adjusted / Total excluding energy sources (energy excluding 36 natural water; water treatment and supply services),,Index of producer prices of agricultural products / Germany / Calendar and seasonally adjusted / Total,
 unit,2015=100,,2015=100,,2015=100,
 unit multiplier,one,,one,,one,
-last update,2022-03-21 08:05:42,,2022-03-21 08:05:42,,2022-03-11 14:07:00,
+last update,2022-05-20 08:07:20,,2022-05-20 08:07:21,,2022-06-14 13:17:18,
 1968-01,,,,,70.5,
 1968-02,,,,,69.9,
 1968-03,,,,,69.7,
@@ -639,18 +639,20 @@ last update,2022-03-21 08:05:42,,2022-03-21 08:05:42,,2022-03-11 14:07:00,
 2020-10,103.8,,105.1,,105.5,
 2020-11,104.1,,105.4,,104.8,
 2020-12,104.9,,105.7,,104.5,
-2021-01,106.2,,106.5,,107.0,Provisional value
-2021-02,106.9,,107.0,,108.7,Provisional value
-2021-03,107.8,,107.9,,112.6,Provisional value
-2021-04,108.7,,108.8,,113.9,Provisional value
-2021-05,110.3,,110.0,,117.0,Provisional value
-2021-06,111.6,,111.0,,116.6,Provisional value
-2021-07,113.8,,112.3,,117.1,Provisional value
-2021-08,115.5,,113.4,,119.6,Provisional value
+2021-01,106.2,,106.5,,107.1,
+2021-02,106.9,,107.0,,108.7,
+2021-03,107.8,,107.9,,112.6,
+2021-04,108.7,,108.8,,113.9,
+2021-05,110.3,,110.0,,117.0,
+2021-06,111.6,,111.0,,116.6,
+2021-07,113.8,,112.3,,117.0,
+2021-08,115.5,,113.4,,119.6,
 2021-09,118.3,,113.9,,119.6,Provisional value
 2021-10,122.9,,114.8,,122.8,Provisional value
 2021-11,124.0,,115.8,,126.8,Provisional value
 2021-12,130.3,,116.5,,127.7,Provisional value
 2022-01,132.8,,119.1,,129.5,Provisional value
-2022-02,134.6,,120.3,,,
+2022-02,134.6,,120.3,,132.9,Provisional value
+2022-03,141.1,,122.9,,151.5,Provisional value
+2022-04,145.0,,126.4,,159.2,Provisional value
 "",Source: Seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Seasonal adjustment based on data provided by the Federal Statistical Office,

@@ -2,7 +2,7 @@
 "",Consumer price index / Germany / Calendar and seasonally adjusted / Overall index,,Consumer price index / Germany / Calendar and seasonally adjusted / 01.1 Food,,Consumer price index / Germany / Calendar and seasonally adjusted / Manufactured goods excluding energy,,Consumer price index / Germany / Calendar and seasonally adjusted / Energy,,Consumer price index / Germany / Calendar and seasonally adjusted / Services,,Consumer price index / Germany / Calendar and seasonally adjusted / 04.1 Rentals for housing including rental value of owner-occupied housing,,Consumer price index / Germany / Calendar and seasonally adjusted / All-items excluding energy,,Consumer price index / Germany / Calendar and seasonally adjusted / All-items excluding energy and 01.1 food products,,Consumer price index / Germany / Calendar and seasonally adjusted / Services excluding housing rents (04.1),
 unit,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,,2015=100,
 unit multiplier,one,,one,,one,,one,,one,,one,,one,,one,,one,
-last update,2022-03-30 16:59:55,,2022-03-30 16:59:55,,2022-03-30 16:59:56,,2022-03-30 16:59:56,,2022-03-30 16:59:56,,2022-03-30 16:59:56,,2022-03-30 16:59:57,,2022-03-30 16:59:57,,2022-03-30 16:59:57,
+last update,2022-06-14 08:19:44,,2022-06-14 08:19:45,,2022-06-14 08:19:48,,2022-06-14 08:19:49,,2022-06-14 08:19:50,,2022-06-14 08:19:47,,2022-06-14 08:19:53,,2022-06-14 08:19:55,,2022-06-14 08:19:52,
 1991-01,64.0,,69.5,,,,46.0,,,,,,66.2,,,,,
 1991-02,64.1,,69.6,,,,45.7,,,,,,66.5,,,,,
 1991-03,64.1,,70.1,,,,44.0,,,,,,66.8,,,,,
@@ -377,5 +377,7 @@ last update,2022-03-30 16:59:55,,2022-03-30 16:59:55,,2022-03-30 16:59:56,,2022-
 2021-12,111.3,,116.3,,108.9,,114.3,,111.1,,109.1,,110.9,,110.4,,112.4,
 2022-01,112.5,,117.3,,109.3,,122.7,,111.4,,109.2,,111.3,,110.7,,112.8,
 2022-02,113.0,,118.0,,109.8,,126.5,,111.3,,109.4,,111.4,,110.8,,112.5,
-2022-03,115.7,Estimated value,119.4,Estimated value,110.7,Estimated value,147.2,Estimated value,111.6,Estimated value,109.6,Estimated value,112.1,Estimated value,111.3,Estimated value,112.9,Estimated value
+2022-03,115.7,,119.4,,110.7,,147.2,,111.6,,109.6,,112.1,,111.4,,112.9,
+2022-04,116.1,,123.3,,111.4,,142.6,,112.2,,109.7,,113.0,,111.9,,113.8,
+2022-05,117.1,,126.2,,112.2,,146.6,,112.5,,110.0,,113.7,,112.5,,114.1,
 "",Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,,Source: Calendar and seasonal adjustment based on data provided by the Federal Statistical Office,
