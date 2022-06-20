@@ -3893,6 +3893,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 for tab in re.split(r', ', str(file_name)):
                     while WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/div[@id="tree_2"]//li[contains(@id, "'+tab+'")]'))).get_attribute('aria-selected') == 'false':
                         WebDriverWait(chrome, 1).until(EC.element_to_be_clickable((By.XPATH, './/div[@id="tree_2"]//li[contains(@id, "'+tab+'")]'))).click()
+                        time.sleep(1)
                 ActionChains(chrome).click(WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'headerApp')))).perform()
                 for i in range(100):
                     ActionChains(chrome).send_keys(Keys.UP).perform()
@@ -3901,8 +3902,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'excel_ButtonToRadio'))).click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'alldateExport_ButtonToRadio'))).click()
                 #WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'expData'))).click()
-                # while WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).get_attribute('checked') != 'true':
-                #     WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'joinTimeseries'))).click()
+                target = WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/div[input[@id="joinTimeseries"]]')))
+                while str(target.get_attribute('class')).find('off') >= 0:
+                    target.click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'descrizioniExport_ButtonToRadio'))).click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.ID, 'applicaExport'))).click()
                 timeStart = time.time()
@@ -3926,7 +3928,30 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('SIDRA') >= 0:
                 WebDriverWait(chrome, 50).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Funções")]'))).click()
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='XLSX', text_match=True)
-                time.sleep(20)
+                max_count = 0
+                loaded = False
+                while True:
+                    time.sleep(10)
+                    chrome.execute_script("window.open()")
+                    chrome.switch_to.window(chrome.window_handles[-1])
+                    chrome.get('chrome://downloads')
+                    try:
+                        if chrome.execute_script("return document.querySelector('downloads-manager').shadowRoot.querySelector('#downloadsList downloads-item').shadowRoot.querySelector('div#content #tag')").text == '已刪除':
+                            max_count += 1
+                        else:
+                            loaded = True
+                    except JavascriptException:
+                        max_count += 1
+                    else:
+                        if loaded:
+                            link_found = True
+                            chrome.close()
+                            chrome.switch_to.window(chrome.window_handles[0])
+                            break
+                        elif max_count >= 6:
+                            ERROR('The file was not properly downloaded')
+                    chrome.close()
+                    chrome.switch_to.window(chrome.window_handles[0])
             elif address.find('BCB') >= 0:
                 if str(sname).find('general government debt') >= 0:
                     link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Divggni.xls')
@@ -3963,6 +3988,18 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 time.sleep(2)
                 Selections = {'Initial year':'1997', 'Final year': str(datetime.today().year), 'Initial Month':'January', 'Final month':'December'}
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Exports")]'))).click()
+                max_count = 0
+                for item in Selections:
+                    while True:
+                        try:
+                            WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/div[label[contains(., "'+item+'")]]//div[@class="item"]')))
+                        except TimeoutException:
+                            if max_count >= 3:
+                                ERROR('The web page was not properly loaded')
+                            chrome.refresh()
+                            max_count += 1
+                        else:
+                            break
                 for item in Selections:
                     if WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/div[label[contains(., "'+item+'")]]//div[@class="item"]'))).text != Selections[item]:
                         WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/div[label[contains(., "'+item+'")]]//div[@data-dropdown-direction="down"]'))).click()
@@ -3989,7 +4026,10 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 time.sleep(2)
                 link_found = True
             elif address.find('FGV') >= 0:
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='SÉRIES INSTITUCIONAIS', text_match=True)
+                try:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='SÉRIES INSTITUCIONAIS', text_match=True)
+                except:
+                    time.sleep(0)
                 # for item in re.split(r', ', str(file_name)):
                 #     listed = False
                 #     while True:
@@ -4004,7 +4044,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 # ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(item).send_keys(Keys.ENTER).perform()
                 ActionChains(chrome).key_down(Keys.CONTROL).send_keys('A').key_up(Keys.CONTROL).send_keys(Keys.BACKSPACE).send_keys(str(file_name)).send_keys(Keys.ENTER).perform()
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'btnSelecionarTodas'))).click()
-                time.sleep(3)
+                time.sleep(5)
                 WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.ID, 'butBuscarSeriesOK'))).click()
                 time.sleep(2)
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/table[@id="cphConsulta_dlsSerie"]')))
@@ -4024,12 +4064,22 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('CNI') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='recentseri')
             elif address.find('STANOR') >= 0:
-                ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                ActionChains(chrome).send_keys(Keys.DOWN).send_keys(Keys.DOWN).perform()
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
                 for r in range(12):
                     ActionChains(chrome).send_keys(Keys.DOWN).perform()
                 time.sleep(2)
-                WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel")]'))).click()
+                # WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Excel")]'))).click()
+                count = 0
+                while True:
+                    target = WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/label[text()="Excel (xlsx)"]')))
+                    if bool(re.search(r'^\s*Excel\s+\(xlsx\)\s*$', target.text)):
+                        target.click()
+                        break
+                    else:
+                        count += 1
+                        if count >= 3:
+                            ERROR('Option not found: Excel (xlsx)')
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.XPATH, './/input[@type="submit"][@value="Save"]'))).click()
                 link_found = True
             elif address.find('NORGES') >= 0:

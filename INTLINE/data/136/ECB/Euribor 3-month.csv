@@ -3,7 +3,10 @@ Data Source in SDW: https://sdw.ecb.europa.eu/browseSelection.do?node=qview&SERI
 ,"Euro area (changing composition) - Money Market - Euribor 3-month - Historical close, average of observations through period - Euro, provided by Reuters"
 Collection:,Average of observations through period (A)
 Period\Unit:,[Percent per annum ]
+2022May,-0.3857
+2022Apr,-0.4479
 2022Mar,-0.4950
+2022Feb,-0.5315
 2022Jan,-0.5601
 2021Dec,-0.5820
 2021Nov,-0.5674
