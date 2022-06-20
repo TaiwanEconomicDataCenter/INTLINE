@@ -1,44 +1,140 @@
-﻿2022-06-20 11:31:06 AM excel_suffix: test
+﻿2022-06-20 11:36:17 AM excel_suffix: test
 
-2022-06-20 11:31:06 AM data_processing: True
+2022-06-20 11:36:17 AM data_processing: True
 
-2022-06-20 11:31:06 AM find_unknown: False
+2022-06-20 11:36:17 AM find_unknown: False
 
-2022-06-20 11:31:06 AM dealing_start_year: 1901
+2022-06-20 11:36:17 AM dealing_start_year: 1901
 
-2022-06-20 11:31:09 AM Data Processing
+2022-06-20 11:36:20 AM Data Processing
 
-2022-06-20 11:31:09 AM Reading table: Country, Time: 2s
+2022-06-20 11:36:20 AM Reading table: Country, Time: 2s
 
-2022-06-20 11:31:09 AM Reading table: TABLES, Time: 2 s
+2022-06-20 11:36:20 AM Reading table: TABLES, Time: 2 s
 
-2022-06-20 11:31:16 AM Reading file: country_series, Time: 9 s
+2022-06-20 11:36:22 AM Reading file: country_series, Time: 4 s
 
-2022-06-20 11:31:16 AM Reading file: 578datasets, Time: 9 s
+2022-06-20 11:36:22 AM Reading file: 158datasets, Time: 4 s
 
-2022-06-20 11:31:16 AM 
+2022-06-20 11:36:22 AM Reading file: Datasets, Time: 5 s
 
-2022-06-20 11:31:16 AM ====== WebDriver manager ======
-2022-06-20 11:31:16 AM Current google-chrome version is 102.0.5005
-2022-06-20 11:31:16 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-20 11:31:17 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-20 11:31:20 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-20 11:31:22 AM Downloading file: Monthly Report Industrial Index
+2022-06-20 11:36:23 AM 
 
-2022-06-20 11:31:29 AM Getting Data From Website
+2022-06-20 11:36:23 AM ====== WebDriver manager ======
+2022-06-20 11:36:23 AM Current google-chrome version is 102.0.5005
+2022-06-20 11:36:23 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-20 11:36:23 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-20 11:36:26 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-20 11:36:28 AM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 10s
 
-2022-06-20 11:31:38 AM Country: Thailand, Reading file or url: Production Index (Value added Weight), sheet: 0, frequency: M, Time: 31s
+2022-06-20 11:36:28 AM Downloading file: WorldCrudeSteelProduction
 
-2022-06-20 11:31:38 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:36:31 AM Getting Data From Website
 
-2022-06-20 11:31:40 AM Total New Items Found: 0 Time: 33 s
+2022-06-20 11:36:39 AM Total New Items Found: 0 Time: 21 s
 
-2022-06-20 11:31:40 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:36:39 AM Reading file: country_series, Time: 21 s
 
-2022-06-20 11:31:40 AM Country: Thailand, Reading file or url: Capacity Utilization Rate, sheet: 0, frequency: M, Time: 33s
+2022-06-20 11:36:40 AM Reading file: 924datasets, Time: 22 s
 
-2022-06-20 11:31:40 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:36:40 AM Reading file: Datasets, Time: 22 s
 
-2022-06-20 11:31:40 AM Total New Items Found: 0 Time: 33 s
+2022-06-20 11:36:40 AM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 23s
 
-2022-06-20 11:31:50 AM = ! = No new items were found.
+2022-06-20 11:36:40 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:41 AM Total New Items Found: 0 Time: 23 s
+
+2022-06-20 11:36:42 AM Reading file: country_series, Time: 24 s
+
+2022-06-20 11:36:42 AM Reading file: 542datasets, Time: 24 s
+
+2022-06-20 11:36:42 AM Reading file: Datasets, Time: 24 s
+
+2022-06-20 11:36:42 AM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 25s
+
+2022-06-20 11:36:42 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:43 AM Total New Items Found: 0 Time: 25 s
+
+2022-06-20 11:36:43 AM Reading file: country_series, Time: 25 s
+
+2022-06-20 11:36:43 AM Reading file: 534datasets, Time: 26 s
+
+2022-06-20 11:36:44 AM Reading file: Datasets, Time: 26 s
+
+2022-06-20 11:36:44 AM Country: India, Reading file or url: WSA, sheet: 0, frequency: M, Time: 26s
+
+2022-06-20 11:36:44 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:44 AM Total New Items Found: 0 Time: 26 s
+
+2022-06-20 11:36:47 AM Reading file: Datasets, Time: 29 s
+
+2022-06-20 11:36:47 AM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 29s
+
+2022-06-20 11:36:47 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:47 AM Total New Items Found: 0 Time: 29 s
+
+2022-06-20 11:36:48 AM Reading file: country_series, Time: 30 s
+
+2022-06-20 11:36:48 AM Reading file: 112datasets, Time: 30 s
+
+2022-06-20 11:36:48 AM Reading file: Datasets, Time: 31 s
+
+2022-06-20 11:36:49 AM Reading file: country_series, Time: 32 s
+
+2022-06-20 11:36:50 AM Reading file: 193datasets, Time: 32 s
+
+2022-06-20 11:36:50 AM Reading file: Datasets, Time: 32 s
+
+2022-06-20 11:36:51 AM Reading file: country_series, Time: 33 s
+
+2022-06-20 11:36:51 AM Reading file: 144datasets, Time: 33 s
+
+2022-06-20 11:36:51 AM Reading file: Datasets, Time: 33 s
+
+2022-06-20 11:36:52 AM Reading file: country_series, Time: 34 s
+
+2022-06-20 11:36:52 AM Reading file: 156datasets, Time: 34 s
+
+2022-06-20 11:36:52 AM Reading file: Datasets, Time: 34 s
+
+2022-06-20 11:36:54 AM Reading file: country_series, Time: 36 s
+
+2022-06-20 11:36:54 AM Reading file: 134datasets, Time: 36 s
+
+2022-06-20 11:36:54 AM Reading file: Datasets, Time: 36 s
+
+2022-06-20 11:36:54 AM Country: Germany, Reading file or url: WSA, sheet: 0, frequency: M, Time: 37s
+
+2022-06-20 11:36:54 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:55 AM Total New Items Found: 0 Time: 37 s
+
+2022-06-20 11:36:56 AM Reading file: country_series, Time: 38 s
+
+2022-06-20 11:36:56 AM Reading file: 132datasets, Time: 38 s
+
+2022-06-20 11:36:56 AM Reading file: Datasets, Time: 38 s
+
+2022-06-20 11:36:57 AM Reading file: country_series, Time: 39 s
+
+2022-06-20 11:36:57 AM Reading file: 136datasets, Time: 40 s
+
+2022-06-20 11:36:57 AM Reading file: Datasets, Time: 40 s
+
+2022-06-20 11:36:59 AM Reading file: country_series, Time: 41 s
+
+2022-06-20 11:36:59 AM Reading file: 223datasets, Time: 41 s
+
+2022-06-20 11:36:59 AM Reading file: Datasets, Time: 41 s
+
+2022-06-20 11:36:59 AM Country: Brazil, Reading file or url: WSA, sheet: 0, frequency: M, Time: 41s
+
+2022-06-20 11:36:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-20 11:36:59 AM Total New Items Found: 0 Time: 41 s
+
+2022-06-20 11:37:02 AM = ! = No new items were found.
