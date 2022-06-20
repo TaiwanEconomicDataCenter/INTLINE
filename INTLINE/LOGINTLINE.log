@@ -1,392 +1,44 @@
-﻿2022-06-20 10:47:24 AM excel_suffix: test
+﻿2022-06-20 11:31:06 AM excel_suffix: test
 
-2022-06-20 10:47:24 AM data_processing: True
+2022-06-20 11:31:06 AM data_processing: True
 
-2022-06-20 10:47:24 AM find_unknown: False
+2022-06-20 11:31:06 AM find_unknown: False
 
-2022-06-20 10:47:24 AM dealing_start_year: 1901
+2022-06-20 11:31:06 AM dealing_start_year: 1901
 
-2022-06-20 10:47:28 AM Data Processing
+2022-06-20 11:31:09 AM Data Processing
 
-2022-06-20 10:47:28 AM Reading table: Country, Time: 3s
+2022-06-20 11:31:09 AM Reading table: Country, Time: 2s
 
-2022-06-20 10:47:28 AM Reading table: TABLES, Time: 4 s
+2022-06-20 11:31:09 AM Reading table: TABLES, Time: 2 s
 
-2022-06-20 10:47:41 AM Reading file: country_series, Time: 17 s
+2022-06-20 11:31:16 AM Reading file: country_series, Time: 9 s
 
-2022-06-20 10:47:41 AM Reading file: 142datasets, Time: 17 s
+2022-06-20 11:31:16 AM Reading file: 578datasets, Time: 9 s
 
-2022-06-20 10:47:42 AM 
+2022-06-20 11:31:16 AM 
 
-2022-06-20 10:47:42 AM ====== WebDriver manager ======
-2022-06-20 10:47:42 AM Current google-chrome version is 102.0.5005
-2022-06-20 10:47:42 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-20 10:47:42 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-20 10:47:45 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-20 10:47:47 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 22s
+2022-06-20 11:31:16 AM ====== WebDriver manager ======
+2022-06-20 11:31:16 AM Current google-chrome version is 102.0.5005
+2022-06-20 11:31:16 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-20 11:31:17 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
+2022-06-20 11:31:20 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
+2022-06-20 11:31:22 AM Downloading file: Monthly Report Industrial Index
 
-2022-06-20 10:47:47 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:31:29 AM Getting Data From Website
 
-2022-06-20 10:47:47 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:31:38 AM Country: Thailand, Reading file or url: Production Index (Value added Weight), sheet: 0, frequency: M, Time: 31s
 
-2022-06-20 10:47:47 AM Total New Items Found: 0 Time: 23 s
+2022-06-20 11:31:38 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-20 10:47:47 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 23s
+2022-06-20 11:31:40 AM Total New Items Found: 0 Time: 33 s
 
-2022-06-20 10:47:47 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:31:40 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-20 10:47:47 AM Present File Exists. Reading Data From Default Path.
+2022-06-20 11:31:40 AM Country: Thailand, Reading file or url: Capacity Utilization Rate, sheet: 0, frequency: M, Time: 33s
 
-2022-06-20 10:47:48 AM Total New Items Found: 0 Time: 23 s
+2022-06-20 11:31:40 AM Present File Exists. Reading Data From Default Path.
 
-2022-06-20 10:47:48 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 23s
+2022-06-20 11:31:40 AM Total New Items Found: 0 Time: 33 s
 
-2022-06-20 10:47:48 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:48 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:48 AM Total New Items Found: 0 Time: 24 s
-
-2022-06-20 10:47:49 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 24s
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:49 AM Total New Items Found: 0 Time: 24 s
-
-2022-06-20 10:47:49 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 24s
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:49 AM Total New Items Found: 0 Time: 25 s
-
-2022-06-20 10:47:49 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 25s
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:49 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Total New Items Found: 0 Time: 25 s
-
-2022-06-20 10:47:50 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 25s
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Total New Items Found: 0 Time: 25 s
-
-2022-06-20 10:47:50 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 26s
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:50 AM Total New Items Found: 0 Time: 26 s
-
-2022-06-20 10:47:51 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 26s
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:51 AM Total New Items Found: 0 Time: 26 s
-
-2022-06-20 10:47:51 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 26s
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:51 AM Total New Items Found: 0 Time: 27 s
-
-2022-06-20 10:47:51 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 27s
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:51 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:52 AM Total New Items Found: 0 Time: 27 s
-
-2022-06-20 10:47:52 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 27s
-
-2022-06-20 10:47:52 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:52 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:52 AM Total New Items Found: 0 Time: 27 s
-
-2022-06-20 10:47:52 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 27s
-
-2022-06-20 10:47:52 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:52 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:47:52 AM Total New Items Found: 0 Time: 28 s
-
-2022-06-20 10:47:52 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 28s
-
-2022-06-20 10:47:52 AM Downloading file: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter
-
-2022-06-20 10:47:58 AM Getting Data From Website
-
-2022-06-20 10:48:09 AM Total New Items Found: 0 Time: 44 s
-
-2022-06-20 10:48:09 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060823, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Main industries), frequency: Q, Time: 45s
-
-2022-06-20 10:48:09 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:09 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:09 AM Total New Items Found: 0 Time: 45 s
-
-2022-06-20 10:48:10 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060824, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Asset type), frequency: Q, Time: 45s
-
-2022-06-20 10:48:10 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:10 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:10 AM Total New Items Found: 0 Time: 45 s
-
-2022-06-20 10:48:10 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060826, sheet: 10740 Financial account, frequency: Q, Time: 45s
-
-2022-06-20 10:48:10 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:10 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:10 AM Total New Items Found: 0 Time: 46 s
-
-2022-06-20 10:48:11 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060827, sheet: 09672 Current and capital account (Exports), frequency: Q, Time: 46s
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:11 AM Total New Items Found: 0 Time: 46 s
-
-2022-06-20 10:48:11 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060828, sheet: 09672 Current and capital account (Imports), frequency: Q, Time: 46s
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:11 AM Total New Items Found: 0 Time: 47 s
-
-2022-06-20 10:48:11 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060830, sheet: 09672 Current and capital account (Balance From abroad), frequency: Q, Time: 47s
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:11 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:12 AM Total New Items Found: 0 Time: 47 s
-
-2022-06-20 10:48:12 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060831, sheet: 09672 Current and capital account (Balance To abroad), frequency: Q, Time: 47s
-
-2022-06-20 10:48:12 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:12 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:12 AM Total New Items Found: 0 Time: 47 s
-
-2022-06-20 10:48:12 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060832, sheet: 07221 Price for existing dwellings, frequency: Q, Time: 48s
-
-2022-06-20 10:48:12 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:12 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:12 AM Latest Base Year Received.
-
-2022-06-20 10:48:13 AM Total New Items Found: 0 Time: 48 s
-
-2022-06-20 10:48:13 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060946, sheet: 08792 External trade in goods main figures, frequency: M, Time: 48s
-
-2022-06-20 10:48:13 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:13 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:13 AM Total New Items Found: 0 Time: 48 s
-
-2022-06-20 10:48:13 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060947, sheet: 08864 External Trade in goods main figures seasonal adjusted, frequency: M, Time: 48s
-
-2022-06-20 10:48:13 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:13 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:13 AM Total New Items Found: 0 Time: 49 s
-
-2022-06-20 10:48:14 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060948, sheet: 03013 Consumer Price Index by Divisions, frequency: M, Time: 49s
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Latest Base Year Received.
-
-2022-06-20 10:48:14 AM Total New Items Found: 0 Time: 49 s
-
-2022-06-20 10:48:14 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060950, sheet: 08183 Consumer Price Index, frequency: M, Time: 49s
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Latest Base Year Received.
-
-2022-06-20 10:48:14 AM Total New Items Found: 0 Time: 50 s
-
-2022-06-20 10:48:14 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060951, sheet: 03700 Harmonized index of consumer prices, frequency: M, Time: 50s
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:14 AM Latest Base Year Received.
-
-2022-06-20 10:48:15 AM Total New Items Found: 0 Time: 50 s
-
-2022-06-20 10:48:15 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060952, sheet: 08651 Construction cost index for residential buildings, frequency: M, Time: 50s
-
-2022-06-20 10:48:15 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:15 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:48:15 AM Latest Base Year Received.
-
-2022-06-20 10:48:15 AM Total New Items Found: 0 Time: 50 s
-
-2022-06-20 10:48:15 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060953, sheet: 13332 Employment and unemployment for persons aged 15-74, frequency: M, Time: 51s
-
-2022-06-20 10:48:15 AM Downloading file: 13332 Employment and unemployment for persons aged 15-74
-
-2022-06-20 10:48:17 AM Getting Data From Website
-
-2022-06-20 10:48:27 AM Total New Items Found: 0 Time: 62 s
-
-2022-06-20 10:48:27 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060956, sheet: 07095 Index of production by Main Industrial Groupring, frequency: M, Time: 63s
-
-2022-06-20 10:48:27 AM Downloading file: 07095 Index of production by Main Industrial Groupring
-
-2022-06-20 10:48:29 AM Getting Data From Website
-
-2022-06-20 10:48:39 AM Latest Base Year Received.
-
-2022-06-20 10:48:39 AM Total New Items Found: 0 Time: 74 s
-
-2022-06-20 10:48:39 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060957, sheet: 07095 Index of production by Industry, frequency: M, Time: 74s
-
-2022-06-20 10:48:39 AM Downloading file: 07095 Index of production by Industry
-
-2022-06-20 10:48:40 AM Getting Data From Website
-
-2022-06-20 10:48:51 AM Latest Base Year Received.
-
-2022-06-20 10:48:51 AM Total New Items Found: 0 Time: 86 s
-
-2022-06-20 10:48:51 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060958, sheet: 07095 Index of production by contents Total, frequency: M, Time: 86s
-
-2022-06-20 10:48:51 AM Downloading file: 07095 Index of production by contents Total
-
-2022-06-20 10:48:52 AM Getting Data From Website
-
-2022-06-20 10:49:02 AM Latest Base Year Received.
-
-2022-06-20 10:49:03 AM Total New Items Found: 0 Time: 98 s
-
-2022-06-20 10:49:03 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060959, sheet: 12462 Producer price index, frequency: M, Time: 98s
-
-2022-06-20 10:49:03 AM Downloading file: 12462 Producer price index
-
-2022-06-20 10:49:04 AM Getting Data From Website
-
-2022-06-20 10:49:14 AM Latest Base Year Received.
-
-2022-06-20 10:49:15 AM Total New Items Found: 0 Time: 110 s
-
-2022-06-20 10:49:15 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060963, sheet: 12462 Producer price index Industry combined, frequency: M, Time: 110s
-
-2022-06-20 10:49:15 AM Downloading file: 12462 Producer price index Industry combined
-
-2022-06-20 10:49:16 AM Getting Data From Website
-
-2022-06-20 10:49:17 AM Getting Data From Website
-
-2022-06-20 10:49:27 AM Latest Base Year Received.
-
-2022-06-20 10:49:27 AM Total New Items Found: 0 Time: 123 s
-
-2022-06-20 10:49:28 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060960, sheet: 07129 The Index of wholesale and retail trade, frequency: M, Time: 123s
-
-2022-06-20 10:49:28 AM Downloading file: 07129 The Index of wholesale and retail trade
-
-2022-06-20 10:49:29 AM Getting Data From Website
-
-2022-06-20 10:49:39 AM Latest Base Year Received.
-
-2022-06-20 10:49:39 AM Total New Items Found: 0 Time: 134 s
-
-2022-06-20 10:49:39 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060962, sheet: 10947 Monetary aggregate M3 by financial instrument, frequency: M, Time: 134s
-
-2022-06-20 10:49:39 AM Downloading file: 10947 Monetary aggregate M3 by financial instrument
-
-2022-06-20 10:49:40 AM Getting Data From Website
-
-2022-06-20 10:49:50 AM Total New Items Found: 0 Time: 145 s
-
-2022-06-20 10:49:50 AM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060968, sheet: 10336 First time registered private cars, frequency: M, Time: 146s
-
-2022-06-20 10:49:50 AM Downloading file: 10336 First time registered private cars
-
-2022-06-20 10:49:52 AM Getting Data From Website
-
-2022-06-20 10:50:02 AM Total New Items Found: 0 Time: 157 s
-
-2022-06-20 10:50:03 AM Country: Norway, Reading file or url: https://www.nima.no/norsk-pmi/, sheet: Purchasing Managers Index, frequency: M, Time: 158s
-
-2022-06-20 10:50:03 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:03 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:03 AM Total New Items Found: 0 Time: 158 s
-
-2022-06-20 10:50:03 AM Country: Norway, Reading file or url: https://www.nav.no/en/home/work-and-stay-in-norway/relatert-informasjon/labour-market-information-in-english, sheet: Labour Market Statistics, frequency: M, Time: 159s
-
-2022-06-20 10:50:03 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:03 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:05 AM Total New Items Found: 0 Time: 160 s
-
-2022-06-20 10:50:05 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:05 AM Country: Norway, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 160s
-
-2022-06-20 10:50:08 AM Total New Items Found: 0 Time: 163 s
-
-2022-06-20 10:50:08 AM Reading file: Datasets, Time: 163 s
-
-2022-06-20 10:50:09 AM Country: Norway, Reading file or url: https://www.investing.com/indices/oslo-all-share-historical-data, sheet: Oslo All Share Index, frequency: W, Time: 164s
-
-2022-06-20 10:50:09 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:09 AM Total New Items Found: 0 Time: 164 s
-
-2022-06-20 10:50:09 AM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: W, Time: 164s
-
-2022-06-20 10:50:09 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:09 AM Total New Items Found: 0 Time: 164 s
-
-2022-06-20 10:50:09 AM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: D, Time: 164s
-
-2022-06-20 10:50:09 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 10:50:09 AM Total New Items Found: 0 Time: 165 s
-
-2022-06-20 10:50:11 AM = ! = No new items were found.
+2022-06-20 11:31:50 AM = ! = No new items were found.
