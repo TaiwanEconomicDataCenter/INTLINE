@@ -1,140 +1,35 @@
-﻿2022-06-20 11:36:17 AM excel_suffix: test
+﻿2022-06-22 01:32:07 PM excel_suffix: mysql
 
-2022-06-20 11:36:17 AM data_processing: True
+2022-06-22 01:32:07 PM data_processing: False
 
-2022-06-20 11:36:17 AM find_unknown: False
+2022-06-22 01:32:07 PM find_unknown: False
 
-2022-06-20 11:36:17 AM dealing_start_year: 1901
+2022-06-22 01:32:07 PM dealing_start_year: 1901
 
-2022-06-20 11:36:20 AM Data Processing
+2022-06-22 01:32:29 PM Process: File Updating
 
-2022-06-20 11:36:20 AM Reading table: Country, Time: 2s
+2022-06-22 01:32:29 PM Reading main key: INTLINE_keyUP.xlsx, Time: 21 s
 
-2022-06-20 11:36:20 AM Reading table: TABLES, Time: 2 s
+2022-06-22 01:32:31 PM Reading main database: INTLINE_databaseUP.xlsx, Time: 23 s
 
-2022-06-20 11:36:22 AM Reading file: country_series, Time: 4 s
+2022-06-22 01:33:15 PM Updating file: 0 s
 
-2022-06-20 11:36:22 AM Reading file: 158datasets, Time: 4 s
+2022-06-22 01:42:38 PM updated: 9484
 
-2022-06-20 11:36:22 AM Reading file: Datasets, Time: 5 s
+2022-06-22 01:42:38 PM Time: 563 s
 
-2022-06-20 11:36:23 AM 
+2022-06-22 01:43:32 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
+0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
+1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
+2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
+4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
+...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
+14419  INTLINE    W578SETI.W  DB_W_0001  data027  ...  14420   Stock Exchange of Thailand                             Thailand General Index  Not Seasonally Adjusted
+14420  INTLINE    W924SSEA.W  DB_W_0001  data028  ...  14421      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+14421  INTLINE    W924SSEB.W  DB_W_0001  data029  ...  14422      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
+14422  INTLINE   W924SZSEA.W  DB_W_0001  data030  ...  14423       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+14423  INTLINE   W924SZSEB.W  DB_W_0001  data031  ...  14424       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
 
-2022-06-20 11:36:23 AM ====== WebDriver manager ======
-2022-06-20 11:36:23 AM Current google-chrome version is 102.0.5005
-2022-06-20 11:36:23 AM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-20 11:36:23 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/102.0.5005.61/chromedriver_win32.zip
-2022-06-20 11:36:26 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61]
-2022-06-20 11:36:28 AM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 10s
-
-2022-06-20 11:36:28 AM Downloading file: WorldCrudeSteelProduction
-
-2022-06-20 11:36:31 AM Getting Data From Website
-
-2022-06-20 11:36:39 AM Total New Items Found: 0 Time: 21 s
-
-2022-06-20 11:36:39 AM Reading file: country_series, Time: 21 s
-
-2022-06-20 11:36:40 AM Reading file: 924datasets, Time: 22 s
-
-2022-06-20 11:36:40 AM Reading file: Datasets, Time: 22 s
-
-2022-06-20 11:36:40 AM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 23s
-
-2022-06-20 11:36:40 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:41 AM Total New Items Found: 0 Time: 23 s
-
-2022-06-20 11:36:42 AM Reading file: country_series, Time: 24 s
-
-2022-06-20 11:36:42 AM Reading file: 542datasets, Time: 24 s
-
-2022-06-20 11:36:42 AM Reading file: Datasets, Time: 24 s
-
-2022-06-20 11:36:42 AM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 25s
-
-2022-06-20 11:36:42 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:43 AM Total New Items Found: 0 Time: 25 s
-
-2022-06-20 11:36:43 AM Reading file: country_series, Time: 25 s
-
-2022-06-20 11:36:43 AM Reading file: 534datasets, Time: 26 s
-
-2022-06-20 11:36:44 AM Reading file: Datasets, Time: 26 s
-
-2022-06-20 11:36:44 AM Country: India, Reading file or url: WSA, sheet: 0, frequency: M, Time: 26s
-
-2022-06-20 11:36:44 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:44 AM Total New Items Found: 0 Time: 26 s
-
-2022-06-20 11:36:47 AM Reading file: Datasets, Time: 29 s
-
-2022-06-20 11:36:47 AM Country: United States, Reading file or url: WSA, sheet: 0, frequency: M, Time: 29s
-
-2022-06-20 11:36:47 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:47 AM Total New Items Found: 0 Time: 29 s
-
-2022-06-20 11:36:48 AM Reading file: country_series, Time: 30 s
-
-2022-06-20 11:36:48 AM Reading file: 112datasets, Time: 30 s
-
-2022-06-20 11:36:48 AM Reading file: Datasets, Time: 31 s
-
-2022-06-20 11:36:49 AM Reading file: country_series, Time: 32 s
-
-2022-06-20 11:36:50 AM Reading file: 193datasets, Time: 32 s
-
-2022-06-20 11:36:50 AM Reading file: Datasets, Time: 32 s
-
-2022-06-20 11:36:51 AM Reading file: country_series, Time: 33 s
-
-2022-06-20 11:36:51 AM Reading file: 144datasets, Time: 33 s
-
-2022-06-20 11:36:51 AM Reading file: Datasets, Time: 33 s
-
-2022-06-20 11:36:52 AM Reading file: country_series, Time: 34 s
-
-2022-06-20 11:36:52 AM Reading file: 156datasets, Time: 34 s
-
-2022-06-20 11:36:52 AM Reading file: Datasets, Time: 34 s
-
-2022-06-20 11:36:54 AM Reading file: country_series, Time: 36 s
-
-2022-06-20 11:36:54 AM Reading file: 134datasets, Time: 36 s
-
-2022-06-20 11:36:54 AM Reading file: Datasets, Time: 36 s
-
-2022-06-20 11:36:54 AM Country: Germany, Reading file or url: WSA, sheet: 0, frequency: M, Time: 37s
-
-2022-06-20 11:36:54 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:55 AM Total New Items Found: 0 Time: 37 s
-
-2022-06-20 11:36:56 AM Reading file: country_series, Time: 38 s
-
-2022-06-20 11:36:56 AM Reading file: 132datasets, Time: 38 s
-
-2022-06-20 11:36:56 AM Reading file: Datasets, Time: 38 s
-
-2022-06-20 11:36:57 AM Reading file: country_series, Time: 39 s
-
-2022-06-20 11:36:57 AM Reading file: 136datasets, Time: 40 s
-
-2022-06-20 11:36:57 AM Reading file: Datasets, Time: 40 s
-
-2022-06-20 11:36:59 AM Reading file: country_series, Time: 41 s
-
-2022-06-20 11:36:59 AM Reading file: 223datasets, Time: 41 s
-
-2022-06-20 11:36:59 AM Reading file: Datasets, Time: 41 s
-
-2022-06-20 11:36:59 AM Country: Brazil, Reading file or url: WSA, sheet: 0, frequency: M, Time: 41s
-
-2022-06-20 11:36:59 AM Present File Exists. Reading Data From Default Path.
-
-2022-06-20 11:36:59 AM Total New Items Found: 0 Time: 41 s
-
-2022-06-20 11:37:02 AM = ! = No new items were found.
+[14424 rows x 15 columns]
+2022-06-22 01:43:32 PM Total Items: 14424
