@@ -1,35 +1,2373 @@
-﻿2022-06-22 01:32:07 PM excel_suffix: mysql
+﻿2022-06-27 01:54:12 PM excel_suffix: test
 
-2022-06-22 01:32:07 PM data_processing: False
+2022-06-27 01:54:12 PM data_processing: True
 
-2022-06-22 01:32:07 PM find_unknown: False
+2022-06-27 01:54:12 PM find_unknown: False
 
-2022-06-22 01:32:07 PM dealing_start_year: 1901
+2022-06-27 01:54:12 PM dealing_start_year: 1901
 
-2022-06-22 01:32:29 PM Process: File Updating
+2022-06-27 01:54:13 PM Data Processing
 
-2022-06-22 01:32:29 PM Reading main key: INTLINE_keyUP.xlsx, Time: 21 s
+2022-06-27 01:54:13 PM Reading table: Country, Time: 1s
 
-2022-06-22 01:32:31 PM Reading main database: INTLINE_databaseUP.xlsx, Time: 23 s
+2022-06-27 01:54:13 PM Reading table: TABLES, Time: 1 s
 
-2022-06-22 01:33:15 PM Updating file: 0 s
+2022-06-27 01:54:14 PM Reading file: country_series, Time: 2 s
 
-2022-06-22 01:42:38 PM updated: 9484
+2022-06-27 01:54:14 PM Reading file: 158datasets, Time: 2 s
 
-2022-06-22 01:42:38 PM Time: 563 s
+2022-06-27 01:54:14 PM 
 
-2022-06-22 01:43:32 PM       databank          name   db_table  db_code  ...    snl                       source                                             form_e                   form_c
-0      INTLINE  A111A001RC.A  DB_A_0001  data001  ...      1  Bureau of Economic Analysis  Relation of Gross Domestic Product, Gross Nati...             Table 1.7.5.
-1      INTLINE  A111A001RX.A  DB_A_0001  data002  ...      2  Bureau of Economic Analysis  Relation of Real Gross Domestic Product, Real ...             Table 1.7.6.
-2      INTLINE  A111A006RC.A  DB_A_0001  data003  ...      3  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-3      INTLINE  A111A006RX.A  DB_A_0001  data004  ...      4  Bureau of Economic Analysis       Real Gross Domestic Product, Chained Dollars             Table 1.1.6.
-4      INTLINE  A111A007RC.A  DB_A_0001  data005  ...      5  Bureau of Economic Analysis                             Gross Domestic Product             Table 1.1.5.
-...        ...           ...        ...      ...  ...    ...                          ...                                                ...                      ...
-14419  INTLINE    W578SETI.W  DB_W_0001  data027  ...  14420   Stock Exchange of Thailand                             Thailand General Index  Not Seasonally Adjusted
-14420  INTLINE    W924SSEA.W  DB_W_0001  data028  ...  14421      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-14421  INTLINE    W924SSEB.W  DB_W_0001  data029  ...  14422      Shanghai Stock Exchange                 Shanghai Stock Exchange Main Board  Not Seasonally Adjusted
-14422  INTLINE   W924SZSEA.W  DB_W_0001  data030  ...  14423       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
-14423  INTLINE   W924SZSEB.W  DB_W_0001  data031  ...  14424       Shenzen Stock Exchange                 Shenzhen Stock Exchange Main Board  Not Seasonally Adjusted
+2022-06-27 01:54:14 PM ====== WebDriver manager ======
+2022-06-27 01:54:15 PM Current google-chrome version is 102.0.5005
+2022-06-27 01:54:15 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-27 01:54:15 PM Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-27 01:54:16 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#1, sheet: def-cy, frequency: A, Time: 4s
 
-[14424 rows x 15 columns]
-2022-06-22 01:43:32 PM Total Items: 14424
+2022-06-27 01:54:16 PM Downloading file: def-cy
+
+2022-06-27 01:54:17 PM Getting Data From Website
+
+2022-06-27 01:54:26 PM Total New Items Found: 0 Time: 14 s
+
+2022-06-27 01:54:26 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#2, sheet: gaku-jcy, frequency: A, Time: 14s
+
+2022-06-27 01:54:26 PM Downloading file: gaku-jcy
+
+2022-06-27 01:54:27 PM Getting Data From Website
+
+2022-06-27 01:54:35 PM Total New Items Found: 0 Time: 23 s
+
+2022-06-27 01:54:36 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#3, sheet: gaku-mcy, frequency: A, Time: 23s
+
+2022-06-27 01:54:36 PM Downloading file: gaku-mcy
+
+2022-06-27 01:54:36 PM Getting Data From Website
+
+2022-06-27 01:54:45 PM Total New Items Found: 0 Time: 33 s
+
+2022-06-27 01:54:45 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#4, sheet: kdef-cy, frequency: A, Time: 33s
+
+2022-06-27 01:54:45 PM Downloading file: kdef-cy
+
+2022-06-27 01:54:46 PM Getting Data From Website
+
+2022-06-27 01:54:54 PM Total New Items Found: 0 Time: 42 s
+
+2022-06-27 01:54:55 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#5, sheet: kgaku-jcy, frequency: A, Time: 42s
+
+2022-06-27 01:54:55 PM Downloading file: kgaku-jcy
+
+2022-06-27 01:54:55 PM Getting Data From Website
+
+2022-06-27 01:55:03 PM Total New Items Found: 0 Time: 51 s
+
+2022-06-27 01:55:03 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#6, sheet: kgaku-mcy, frequency: A, Time: 51s
+
+2022-06-27 01:55:03 PM Downloading file: kgaku-mcy
+
+2022-06-27 01:55:04 PM Getting Data From Website
+
+2022-06-27 01:55:12 PM Total New Items Found: 0 Time: 60 s
+
+2022-06-27 01:55:13 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#1, sheet: s11dn_en, frequency: A, Time: 60s
+
+2022-06-27 01:55:13 PM Downloading file: s11dn_en
+
+2022-06-27 01:55:13 PM Getting Data From Website
+
+2022-06-27 01:55:21 PM Total New Items Found: 0 Time: 69 s
+
+2022-06-27 01:55:21 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#2, sheet: s11n_en, frequency: A, Time: 69s
+
+2022-06-27 01:55:21 PM Downloading file: s11n_en
+
+2022-06-27 01:55:22 PM Getting Data From Website
+
+2022-06-27 01:55:30 PM Total New Items Found: 0 Time: 78 s
+
+2022-06-27 01:55:30 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#3, sheet: s11rn_en, frequency: A, Time: 78s
+
+2022-06-27 01:55:30 PM Downloading file: s11rn_en
+
+2022-06-27 01:55:30 PM Getting Data From Website
+
+2022-06-27 01:55:38 PM Total New Items Found: 0 Time: 86 s
+
+2022-06-27 01:55:38 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#4, sheet: s14n_en, frequency: A, Time: 86s
+
+2022-06-27 01:55:38 PM Downloading file: s14n_en
+
+2022-06-27 01:55:39 PM Getting Data From Website
+
+2022-06-27 01:55:47 PM Total New Items Found: 0 Time: 95 s
+
+2022-06-27 01:55:47 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#5, sheet: s14rn_en, frequency: A, Time: 95s
+
+2022-06-27 01:55:47 PM Downloading file: s14rn_en
+
+2022-06-27 01:55:47 PM Getting Data From Website
+
+2022-06-27 01:55:55 PM Total New Items Found: 0 Time: 103 s
+
+2022-06-27 01:55:56 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#7, sheet: def-qg, frequency: Q, Time: 103s
+
+2022-06-27 01:55:56 PM Downloading file: def-qg
+
+2022-06-27 01:55:56 PM Getting Data From Website
+
+2022-06-27 01:56:05 PM Total New Items Found: 0 Time: 113 s
+
+2022-06-27 01:56:06 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#8, sheet: gaku-jg, frequency: Q, Time: 113s
+
+2022-06-27 01:56:06 PM Downloading file: gaku-jg
+
+2022-06-27 01:56:06 PM Getting Data From Website
+
+2022-06-27 01:56:14 PM Total New Items Found: 0 Time: 122 s
+
+2022-06-27 01:56:14 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#9, sheet: gaku-jk, frequency: Q, Time: 122s
+
+2022-06-27 01:56:14 PM Downloading file: gaku-jk
+
+2022-06-27 01:56:15 PM Getting Data From Website
+
+2022-06-27 01:56:23 PM Total New Items Found: 0 Time: 131 s
+
+2022-06-27 01:56:23 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#10, sheet: gaku-mg, frequency: Q, Time: 131s
+
+2022-06-27 01:56:23 PM Downloading file: gaku-mg
+
+2022-06-27 01:56:24 PM Getting Data From Website
+
+2022-06-27 01:56:32 PM Total New Items Found: 0 Time: 140 s
+
+2022-06-27 01:56:32 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#11, sheet: gaku-mk, frequency: Q, Time: 140s
+
+2022-06-27 01:56:32 PM Downloading file: gaku-mk
+
+2022-06-27 01:56:33 PM Getting Data From Website
+
+2022-06-27 01:56:41 PM Total New Items Found: 0 Time: 149 s
+
+2022-06-27 01:56:41 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#12, sheet: kdef-q, frequency: Q, Time: 149s
+
+2022-06-27 01:56:41 PM Downloading file: kdef-q
+
+2022-06-27 01:56:41 PM Getting Data From Website
+
+2022-06-27 01:56:50 PM Total New Items Found: 0 Time: 158 s
+
+2022-06-27 01:56:50 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#13, sheet: kgaku-jg, frequency: Q, Time: 158s
+
+2022-06-27 01:56:50 PM Downloading file: kgaku-jg
+
+2022-06-27 01:56:51 PM Getting Data From Website
+
+2022-06-27 01:56:59 PM Total New Items Found: 0 Time: 167 s
+
+2022-06-27 01:56:59 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#14, sheet: kgaku-jk, frequency: Q, Time: 167s
+
+2022-06-27 01:56:59 PM Downloading file: kgaku-jk
+
+2022-06-27 01:57:00 PM Getting Data From Website
+
+2022-06-27 01:57:08 PM Total New Items Found: 0 Time: 176 s
+
+2022-06-27 01:57:08 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#15, sheet: kgaku-mg, frequency: Q, Time: 176s
+
+2022-06-27 01:57:08 PM Downloading file: kgaku-mg
+
+2022-06-27 01:57:09 PM Getting Data From Website
+
+2022-06-27 01:57:17 PM Total New Items Found: 0 Time: 185 s
+
+2022-06-27 01:57:17 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#16, sheet: kgaku-mk, frequency: Q, Time: 185s
+
+2022-06-27 01:57:17 PM Downloading file: kgaku-mk
+
+2022-06-27 01:57:18 PM Getting Data From Website
+
+2022-06-27 01:57:26 PM Total New Items Found: 0 Time: 194 s
+
+2022-06-27 01:57:26 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#17, sheet: kshotoku-cy, frequency: A, Time: 194s
+
+2022-06-27 01:57:26 PM Downloading file: kshotoku-cy
+
+2022-06-27 01:57:27 PM Getting Data From Website
+
+2022-06-27 01:57:35 PM Total New Items Found: 0 Time: 203 s
+
+2022-06-27 01:57:35 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#18, sheet: kshotoku-q, frequency: Q, Time: 203s
+
+2022-06-27 01:57:35 PM Downloading file: kshotoku-q
+
+2022-06-27 01:57:36 PM Getting Data From Website
+
+2022-06-27 01:57:44 PM Total New Items Found: 0 Time: 212 s
+
+2022-06-27 01:57:44 PM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/stat/di/di-e.html, sheet: Indexes of Business Conditions, frequency: M, Time: 212s
+
+2022-06-27 01:57:44 PM Downloading file: Indexes of Business Conditions
+
+2022-06-27 01:57:45 PM Getting Data From Website
+
+2022-06-27 01:57:52 PM Total New Items Found: 0 Time: 220 s
+
+2022-06-27 01:57:52 PM Country: Japan, Reading file or url: https://www5.cao.go.jp/keizai3/getsurei-e/index-e.html, sheet: shouhi, frequency: M, Time: 220s
+
+2022-06-27 01:57:52 PM Downloading file: shouhi
+
+2022-06-27 01:57:53 PM Getting Data From Website
+
+2022-06-27 01:58:01 PM Total New Items Found: 0 Time: 229 s
+
+2022-06-27 01:58:01 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#1, sheet: BOJA, frequency: A, Time: 229s
+
+2022-06-27 01:58:01 PM Downloading file: BOJA
+
+2022-06-27 01:58:03 PM Getting Data From Website
+
+2022-06-27 01:58:17 PM Total New Items Found: 0 Time: 245 s
+
+2022-06-27 01:58:17 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: M, Time: 245s
+
+2022-06-27 01:58:24 PM Downloading file: BOJQM
+
+2022-06-27 01:58:24 PM Getting Data From Website
+
+2022-06-27 01:58:39 PM Total New Items Found: 0 Time: 267 s
+
+2022-06-27 01:58:39 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: Q, Time: 267s
+
+2022-06-27 01:58:40 PM Total New Items Found: 0 Time: 267 s
+
+2022-06-27 01:58:40 PM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#3, sheet: BOJD, frequency: D, Time: 268s
+
+2022-06-27 01:58:40 PM Downloading file: BOJD
+
+2022-06-27 01:58:40 PM Getting Data From Website
+
+2022-06-27 01:58:57 PM Total New Items Found: 0 Time: 285 s
+
+2022-06-27 01:58:57 PM Country: Japan, Reading file or url: https://www.boj.or.jp/en/statistics/dl/loan/prime/index.htm, sheet: LTPLR, frequency: M, Time: 285s
+
+2022-06-27 01:59:06 PM Total New Items Found: 0 Time: 294 s
+
+2022-06-27 01:59:06 PM Country: Japan, Reading file or url: https://www.investing.com/economic-calendar/interest-rate-decision-165, sheet: PR, frequency: M, Time: 294s
+
+2022-06-27 02:00:11 PM Total New Items Found: 0 Time: 359 s
+
+2022-06-27 02:00:11 PM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: M, Time: 359s
+
+2022-06-27 02:00:11 PM Downloading file: jgbcme_all
+
+2022-06-27 02:00:16 PM Getting Data From Website
+
+2022-06-27 02:00:24 PM Total New Items Found: 0 Time: 372 s
+
+2022-06-27 02:00:24 PM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: A, Time: 372s
+
+2022-06-27 02:00:25 PM Total New Items Found: 0 Time: 373 s
+
+2022-06-27 02:00:25 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 373s
+
+2022-06-27 02:00:25 PM Downloading file: T-2022
+
+2022-06-27 02:00:28 PM Getting Data From Website
+
+2022-06-27 02:00:39 PM Downloading file: T-2021
+
+2022-06-27 02:00:41 PM Getting Data From Website
+
+2022-06-27 02:00:52 PM Downloading file: T-2020
+
+2022-06-27 02:00:53 PM Getting Data From Website
+
+2022-06-27 02:01:04 PM Downloading file: T-2019
+
+2022-06-27 02:01:04 PM Getting Data From Website
+
+2022-06-27 02:01:16 PM Downloading file: T-2018
+
+2022-06-27 02:01:16 PM Getting Data From Website
+
+2022-06-27 02:01:29 PM Downloading file: T-2017
+
+2022-06-27 02:01:32 PM Getting Data From Website
+
+2022-06-27 02:01:43 PM Downloading file: T-2016
+
+2022-06-27 02:01:43 PM Getting Data From Website
+
+2022-06-27 02:01:55 PM Downloading file: T-2015
+
+2022-06-27 02:01:55 PM Getting Data From Website
+
+2022-06-27 02:02:07 PM Downloading file: T-2014
+
+2022-06-27 02:02:07 PM Getting Data From Website
+
+2022-06-27 02:02:19 PM Downloading file: T-2013
+
+2022-06-27 02:02:19 PM Getting Data From Website
+
+2022-06-27 02:02:31 PM Downloading file: T-2012
+
+2022-06-27 02:02:31 PM Getting Data From Website
+
+2022-06-27 02:02:43 PM Downloading file: T-2011
+
+2022-06-27 02:02:45 PM Getting Data From Website
+
+2022-06-27 02:02:57 PM Downloading file: T-2010
+
+2022-06-27 02:02:57 PM Getting Data From Website
+
+2022-06-27 02:03:09 PM Downloading file: T-2009
+
+2022-06-27 02:03:09 PM Getting Data From Website
+
+2022-06-27 02:03:21 PM Downloading file: T-2008
+
+2022-06-27 02:03:21 PM Getting Data From Website
+
+2022-06-27 02:03:34 PM Downloading file: T-2007
+
+2022-06-27 02:03:34 PM Getting Data From Website
+
+2022-06-27 02:03:46 PM Downloading file: T-2006
+
+2022-06-27 02:03:47 PM Getting Data From Website
+
+2022-06-27 02:03:58 PM Downloading file: T-2005
+
+2022-06-27 02:03:59 PM Getting Data From Website
+
+2022-06-27 02:04:10 PM Downloading file: T-2004
+
+2022-06-27 02:04:10 PM Getting Data From Website
+
+2022-06-27 02:04:22 PM Downloading file: T-2003
+
+2022-06-27 02:04:23 PM Getting Data From Website
+
+2022-06-27 02:04:39 PM Total New Items Found: 0 Time: 627 s
+
+2022-06-27 02:04:39 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 627s
+
+2022-06-27 02:04:39 PM Downloading file: E-2022
+
+2022-06-27 02:04:41 PM Getting Data From Website
+
+2022-06-27 02:04:52 PM Downloading file: E-2021
+
+2022-06-27 02:04:53 PM Getting Data From Website
+
+2022-06-27 02:05:05 PM Total New Items Found: 0 Time: 653 s
+
+2022-06-27 02:05:05 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 653s
+
+2022-06-27 02:05:05 PM Downloading file: I-2022
+
+2022-06-27 02:05:07 PM Getting Data From Website
+
+2022-06-27 02:05:18 PM Downloading file: I-2021
+
+2022-06-27 02:05:21 PM Getting Data From Website
+
+2022-06-27 02:05:33 PM Total New Items Found: 0 Time: 681 s
+
+2022-06-27 02:05:33 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv, sheet: World, frequency: M, Time: 681s
+
+2022-06-27 02:05:33 PM Total New Items Found: 0 Time: 681 s
+
+2022-06-27 02:05:34 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma001.csv, sheet: Asia, frequency: M, Time: 681s
+
+2022-06-27 02:05:35 PM Total New Items Found: 0 Time: 682 s
+
+2022-06-27 02:05:35 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma002.csv, sheet: Oceania, frequency: M, Time: 682s
+
+2022-06-27 02:05:40 PM Total New Items Found: 0 Time: 687 s
+
+2022-06-27 02:05:40 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma003.csv, sheet: North America, frequency: M, Time: 687s
+
+2022-06-27 02:05:40 PM Total New Items Found: 0 Time: 688 s
+
+2022-06-27 02:05:40 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma004.csv, sheet: Middle and South America, frequency: M, Time: 688s
+
+2022-06-27 02:05:50 PM Total New Items Found: 0 Time: 698 s
+
+2022-06-27 02:05:50 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma005.csv, sheet: Western Europe, frequency: M, Time: 698s
+
+2022-06-27 02:05:59 PM Total New Items Found: 0 Time: 707 s
+
+2022-06-27 02:05:59 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma006.csv, sheet: Central and Eastern Europe, frequency: M, Time: 707s
+
+2022-06-27 02:06:03 PM Total New Items Found: 0 Time: 711 s
+
+2022-06-27 02:06:04 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma007.csv, sheet: Middle East, frequency: M, Time: 711s
+
+2022-06-27 02:06:08 PM Total New Items Found: 0 Time: 716 s
+
+2022-06-27 02:06:09 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma008.csv, sheet: Africa, frequency: M, Time: 716s
+
+2022-06-27 02:06:10 PM Total New Items Found: 0 Time: 718 s
+
+2022-06-27 02:06:11 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma010.csv, sheet: EU, frequency: M, Time: 718s
+
+2022-06-27 02:06:12 PM Total New Items Found: 0 Time: 720 s
+
+2022-06-27 02:06:12 PM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma012.csv, sheet: ASEAN, frequency: M, Time: 720s
+
+2022-06-27 02:06:13 PM Total New Items Found: 0 Time: 721 s
+
+2022-06-27 02:06:13 PM Downloading file: JP_xls
+
+2022-06-27 02:06:17 PM Getting Data From Website
+
+2022-06-27 02:06:37 PM Country: Japan, Reading file or url: JP, sheet: Monthly, frequency: M, Time: 745s
+
+2022-06-27 02:06:37 PM Total New Items Found: 0 Time: 745 s
+
+2022-06-27 02:06:38 PM Country: Japan, Reading file or url: TIBOR, sheet: 0, frequency: M, Time: 745s
+
+2022-06-27 02:06:38 PM Total New Items Found: 0 Time: 746 s
+
+2022-06-27 02:06:38 PM Country: Japan, Reading file or url: https://www.jpc-net.jp/research/rd/db/#anc-01, sheet: koukougyo_LP, frequency: M, Time: 746s
+
+2022-06-27 02:06:38 PM Downloading file: koukougyo_LP
+
+2022-06-27 02:06:40 PM Getting Data From Website
+
+2022-06-27 02:06:47 PM Latest Base Year Received.
+
+2022-06-27 02:06:48 PM Total New Items Found: 0 Time: 755 s
+
+2022-06-27 02:06:48 PM Country: Japan, Reading file or url: https://www.fsa.go.jp/en/regulated/npl/index.html, sheet: Table-6, frequency: A, Time: 756s
+
+2022-06-27 02:06:48 PM Downloading file: Table-6
+
+2022-06-27 02:06:49 PM Getting Data From Website
+
+2022-06-27 02:06:57 PM Total New Items Found: 0 Time: 765 s
+
+2022-06-27 02:06:57 PM Country: Japan, Reading file or url: Nationwide_historical, sheet: 0, frequency: S, Time: 765s
+
+2022-06-27 02:06:57 PM Total New Items Found: 0 Time: 765 s
+
+2022-06-27 02:06:58 PM Country: Japan, Reading file or url: Six Large City Areas_historical, sheet: 0, frequency: S, Time: 765s
+
+2022-06-27 02:06:58 PM Total New Items Found: 0 Time: 765 s
+
+2022-06-27 02:06:58 PM Country: Japan, Reading file or url: NESLCA_historical, sheet: 0, frequency: S, Time: 766s
+
+2022-06-27 02:06:58 PM Total New Items Found: 0 Time: 766 s
+
+2022-06-27 02:06:58 PM Reading file: 158datasets, Time: 766 s
+
+2022-06-27 02:06:58 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#1, sheet: gom1e, frequency: M, Time: 766s
+
+2022-06-27 02:06:58 PM Downloading file: sgo1e
+
+2022-06-27 02:07:01 PM Getting Data From Website
+
+2022-06-27 02:07:11 PM Downloading file: gom1e
+
+2022-06-27 02:07:11 PM Getting Data From Website
+
+2022-06-27 02:07:11 PM Getting Data From Website
+
+2022-06-27 02:07:21 PM Total New Items Found: 0 Time: 788 s
+
+2022-06-27 02:07:21 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#2, sheet: gsm1e, frequency: M, Time: 789s
+
+2022-06-27 02:07:21 PM Downloading file: sgs1e
+
+2022-06-27 02:07:21 PM Getting Data From Website
+
+2022-06-27 02:07:29 PM Downloading file: gsm1e
+
+2022-06-27 02:07:29 PM Getting Data From Website
+
+2022-06-27 02:07:38 PM Total New Items Found: 0 Time: 806 s
+
+2022-06-27 02:07:38 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#3, sheet: zom1e, frequency: M, Time: 806s
+
+2022-06-27 02:07:38 PM Downloading file: szo1e
+
+2022-06-27 02:07:38 PM Getting Data From Website
+
+2022-06-27 02:07:46 PM Downloading file: zom1e
+
+2022-06-27 02:07:47 PM Getting Data From Website
+
+2022-06-27 02:07:55 PM Total New Items Found: 0 Time: 823 s
+
+2022-06-27 02:07:55 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#4, sheet: zsm1e, frequency: M, Time: 823s
+
+2022-06-27 02:07:55 PM Downloading file: szs1e
+
+2022-06-27 02:07:55 PM Getting Data From Website
+
+2022-06-27 02:07:56 PM Getting Data From Website
+
+2022-06-27 02:08:04 PM Downloading file: zsm1e
+
+2022-06-27 02:08:04 PM Getting Data From Website
+
+2022-06-27 02:08:12 PM Total New Items Found: 0 Time: 840 s
+
+2022-06-27 02:08:12 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#5, sheet: ngsm1e, frequency: M, Time: 840s
+
+2022-06-27 02:08:12 PM Downloading file: nsgs1e
+
+2022-06-27 02:08:13 PM Getting Data From Website
+
+2022-06-27 02:08:13 PM Getting Data From Website
+
+2022-06-27 02:08:22 PM Downloading file: ngsm1e
+
+2022-06-27 02:08:22 PM Getting Data From Website
+
+2022-06-27 02:08:31 PM Total New Items Found: 0 Time: 858 s
+
+2022-06-27 02:08:31 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#1, sheet: kome, frequency: M, Time: 859s
+
+2022-06-27 02:08:31 PM Downloading file: ITA_linkj
+
+2022-06-27 02:08:33 PM Getting Data From Website
+
+2022-06-27 02:08:42 PM Downloading file: kome
+
+2022-06-27 02:08:42 PM Getting Data From Website
+
+2022-06-27 02:08:50 PM Total New Items Found: 0 Time: 877 s
+
+2022-06-27 02:08:50 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/sanzi/result-2.html#2, sheet: ksme, frequency: M, Time: 877s
+
+2022-06-27 02:08:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 02:08:50 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 02:08:50 PM Downloading file: ksme
+
+2022-06-27 02:08:50 PM Getting Data From Website
+
+2022-06-27 02:08:58 PM Total New Items Found: 0 Time: 886 s
+
+2022-06-27 02:08:58 PM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/syoudou_kakuho/index.html, sheet: h2slt51j, frequency: M, Time: 886s
+
+2022-06-27 02:08:58 PM Downloading file: h2slt51j
+
+2022-06-27 02:08:59 PM Getting Data From Website
+
+2022-06-27 02:09:08 PM Total New Items Found: 0 Time: 896 s
+
+2022-06-27 02:09:08 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913616&tclass3val=0, sheet: hon-maikin-k-jissu, frequency: M, Time: 896s
+
+2022-06-27 02:09:08 PM Downloading file: hon-maikin-k-jissu
+
+2022-06-27 02:09:10 PM Getting Data From Website
+
+2022-06-27 02:09:24 PM Total New Items Found: 0 Time: 912 s
+
+2022-06-27 02:09:24 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450071&tstat=000001011791&cycle=0&tclass1=000001035519&tclass2=000001144508&stat_infid=000031913617&tclass3val=0, sheet: hon-maikin-k-sisu, frequency: M, Time: 912s
+
+2022-06-27 02:09:24 PM Downloading file: hon-maikin-k-sisu
+
+2022-06-27 02:09:26 PM Getting Data From Website
+
+2022-06-27 02:09:44 PM Total New Items Found: 0 Time: 932 s
+
+2022-06-27 02:09:44 PM Reading file: 158datasets, Time: 932 s
+
+2022-06-27 02:09:45 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#1, sheet: zmis, frequency: M, Time: 932s
+
+2022-06-27 02:09:45 PM Downloading file: zmis
+
+2022-06-27 02:09:48 PM Getting Data From Website
+
+2022-06-27 02:10:02 PM Total New Items Found: 0 Time: 950 s
+
+2022-06-27 02:10:02 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#2, sheet: zmir, frequency: M, Time: 950s
+
+2022-06-27 02:10:02 PM Downloading file: zmir
+
+2022-06-27 02:10:02 PM Getting Data From Website
+
+2022-06-27 02:10:15 PM Total New Items Found: 0 Time: 963 s
+
+2022-06-27 02:10:15 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#3, sheet: zmic, frequency: M, Time: 963s
+
+2022-06-27 02:10:15 PM Downloading file: zmic
+
+2022-06-27 02:10:17 PM Getting Data From Website
+
+2022-06-27 02:10:29 PM Total New Items Found: 0 Time: 977 s
+
+2022-06-27 02:10:30 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#4, sheet: zmib, frequency: M, Time: 977s
+
+2022-06-27 02:10:30 PM Downloading file: zmib
+
+2022-06-27 02:10:32 PM Getting Data From Website
+
+2022-06-27 02:10:41 PM Total New Items Found: 0 Time: 989 s
+
+2022-06-27 02:10:41 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#5, sheet: tmis, frequency: M, Time: 989s
+
+2022-06-27 02:10:41 PM Downloading file: tmis
+
+2022-06-27 02:10:41 PM Getting Data From Website
+
+2022-06-27 02:10:52 PM Total New Items Found: 0 Time: 1000 s
+
+2022-06-27 02:10:52 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#6, sheet: tmir, frequency: M, Time: 1000s
+
+2022-06-27 02:10:52 PM Downloading file: tmir
+
+2022-06-27 02:10:54 PM Getting Data From Website
+
+2022-06-27 02:11:07 PM Total New Items Found: 0 Time: 1015 s
+
+2022-06-27 02:11:07 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#7, sheet: tmic, frequency: M, Time: 1015s
+
+2022-06-27 02:11:07 PM Downloading file: tmic
+
+2022-06-27 02:11:07 PM Getting Data From Website
+
+2022-06-27 02:11:19 PM Total New Items Found: 0 Time: 1027 s
+
+2022-06-27 02:11:19 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=normal&toukei=00200573&survey=Consumer%20Price&result_page=1#8, sheet: tmib, frequency: M, Time: 1027s
+
+2022-06-27 02:11:19 PM Downloading file: tmib
+
+2022-06-27 02:11:20 PM Getting Data From Website
+
+2022-06-27 02:11:29 PM Total New Items Found: 0 Time: 1037 s
+
+2022-06-27 02:11:29 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&query=Employed%20person%20by%20major%20industry&layout=dataset&stat_infid=000031831374, sheet: lt01-c30, frequency: M, Time: 1037s
+
+2022-06-27 02:11:29 PM Downloading file: lt01-c30
+
+2022-06-27 02:11:30 PM Getting Data From Website
+
+2022-06-27 02:11:39 PM Total New Items Found: 0 Time: 1047 s
+
+2022-06-27 02:11:39 PM Country: Japan, Reading file or url: https://www.stat.go.jp/english/data/kakei/156.html, sheet: season-k, frequency: M, Time: 1047s
+
+2022-06-27 02:11:39 PM Downloading file: season-k
+
+2022-06-27 02:11:40 PM Getting Data From Website
+
+2022-06-27 02:11:48 PM Total New Items Found: 0 Time: 1056 s
+
+2022-06-27 02:11:48 PM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00200571&bunya_l=07&tstat=000000680001&cycle=1&tclass1val=0, sheet: RPKT, frequency: M, Time: 1056s
+
+2022-06-27 02:11:48 PM Downloading file: RPKT
+
+2022-06-27 02:11:51 PM Getting Data From Website
+
+2022-06-27 02:12:00 PM Total New Items Found: 0 Time: 1068 s
+
+2022-06-27 02:12:00 PM Reading file: Datasets, Time: 1068 s
+
+2022-06-27 02:12:01 PM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: M, Time: 1069s
+
+2022-06-27 02:12:50 PM Total New Items Found: 0 Time: 1117 s
+
+2022-06-27 02:12:50 PM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: W, Time: 1117s
+
+2022-06-27 02:12:51 PM Total New Items Found: 0 Time: 1119 s
+
+2022-06-27 02:12:51 PM Country: Japan, Reading file or url: https://www.investing.com/indices/topix-historical-data, sheet: TOPIX Index, frequency: D, Time: 1119s
+
+2022-06-27 02:12:53 PM Total New Items Found: 0 Time: 1121 s
+
+2022-06-27 02:12:54 PM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: D, Time: 1121s
+
+2022-06-27 02:12:54 PM Downloading file: nikkei-225-index-historical-chart-data
+
+2022-06-27 02:12:57 PM Getting Data From Website
+
+2022-06-27 02:13:04 PM Total New Items Found: 0 Time: 1132 s
+
+2022-06-27 02:13:04 PM Country: Japan, Reading file or url: https://www.macrotrends.net/2593/nikkei-225-index-historical-chart-data, sheet: nikkei-225-index-historical-chart-data, frequency: W, Time: 1132s
+
+2022-06-27 02:13:04 PM Total New Items Found: 0 Time: 1132 s
+
+2022-06-27 02:13:04 PM Reading file: Datasets, Time: 1132 s
+
+2022-06-27 02:13:05 PM Country: Japan, Reading file or url: WSA, sheet: 0, frequency: M, Time: 1133s
+
+2022-06-27 02:13:05 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 02:13:05 PM Total New Items Found: 0 Time: 1133 s
+
+2022-06-27 02:13:05 PM Reading file: country_series, Time: 1133 s
+
+2022-06-27 02:13:05 PM Reading file: 924datasets, Time: 1133 s
+
+2022-06-27 02:13:06 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#1, sheet: Average Wage of Employed Persons in Urban Units and _Related Indices, frequency: A, Time: 1133s
+
+2022-06-27 02:13:06 PM Downloading file: Average Wage of Employed Persons in Urban Units and _Related Indices
+
+2022-06-27 02:13:09 PM Getting Data From Website
+
+2022-06-27 02:13:25 PM Total New Items Found: 0 Time: 1153 s
+
+2022-06-27 02:13:26 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#2, sheet: Average Wage of Employed Persons in Urban Units by _Sector, frequency: A, Time: 1153s
+
+2022-06-27 02:13:26 PM Downloading file: Average Wage of Employed Persons in Urban Units by _Sector
+
+2022-06-27 02:13:26 PM Getting Data From Website
+
+2022-06-27 02:13:43 PM Total New Items Found: 0 Time: 1171 s
+
+2022-06-27 02:13:43 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#3, sheet: Current Account Balance(Credit-Debit), frequency: A, Time: 1171s
+
+2022-06-27 02:13:43 PM Downloading file: Current Account Balance(Credit-Debit)
+
+2022-06-27 02:13:43 PM Getting Data From Website
+
+2022-06-27 02:14:06 PM Total New Items Found: 0 Time: 1194 s
+
+2022-06-27 02:14:06 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#4, sheet: Capital and Finance Account Balance(Credit-Debit), frequency: A, Time: 1194s
+
+2022-06-27 02:14:06 PM Downloading file: Capital and Finance Account Balance(Credit-Debit)
+
+2022-06-27 02:14:06 PM Getting Data From Website
+
+2022-06-27 02:14:31 PM Total New Items Found: 0 Time: 1219 s
+
+2022-06-27 02:14:32 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#5, sheet: Reserve Assets Balance(Credit-Debit), frequency: A, Time: 1219s
+
+2022-06-27 02:14:32 PM Downloading file: Reserve Assets Balance(Credit-Debit)
+
+2022-06-27 02:14:32 PM Getting Data From Website
+
+2022-06-27 02:14:53 PM Total New Items Found: 0 Time: 1240 s
+
+2022-06-27 02:14:53 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#6, sheet: Net Error and Omission Balance(Credit-Debit), frequency: A, Time: 1241s
+
+2022-06-27 02:14:53 PM Downloading file: Net Error and Omission Balance(Credit-Debit)
+
+2022-06-27 02:14:53 PM Getting Data From Website
+
+2022-06-27 02:15:11 PM Total New Items Found: 0 Time: 1259 s
+
+2022-06-27 02:15:11 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#7, sheet: Current Account Credit, frequency: A, Time: 1259s
+
+2022-06-27 02:15:11 PM Downloading file: Current Account Credit
+
+2022-06-27 02:15:11 PM Getting Data From Website
+
+2022-06-27 02:15:35 PM Total New Items Found: 0 Time: 1282 s
+
+2022-06-27 02:15:35 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#8, sheet: Capital and Finance Account Credit, frequency: A, Time: 1283s
+
+2022-06-27 02:15:35 PM Downloading file: Capital and Finance Account Credit
+
+2022-06-27 02:15:35 PM Getting Data From Website
+
+2022-06-27 02:16:22 PM Total New Items Found: 0 Time: 1330 s
+
+2022-06-27 02:16:22 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#9, sheet: Current Account Debit, frequency: A, Time: 1330s
+
+2022-06-27 02:16:22 PM Downloading file: Current Account Debit
+
+2022-06-27 02:16:22 PM Getting Data From Website
+
+2022-06-27 02:16:45 PM Total New Items Found: 0 Time: 1353 s
+
+2022-06-27 02:16:45 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#10, sheet: Capital and Finance Account Debit, frequency: A, Time: 1353s
+
+2022-06-27 02:16:45 PM Downloading file: Capital and Finance Account Debit
+
+2022-06-27 02:16:45 PM Getting Data From Website
+
+2022-06-27 02:17:09 PM Total New Items Found: 0 Time: 1377 s
+
+2022-06-27 02:17:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#11, sheet: Gross Domestic Product by Expenditure Approach, frequency: A, Time: 1377s
+
+2022-06-27 02:17:09 PM Downloading file: Gross Domestic Product by Expenditure Approach
+
+2022-06-27 02:17:09 PM Getting Data From Website
+
+2022-06-27 02:17:25 PM Total New Items Found: 0 Time: 1393 s
+
+2022-06-27 02:17:25 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#12, sheet: Economically Active Population, frequency: A, Time: 1393s
+
+2022-06-27 02:17:25 PM Downloading file: Economically Active Population
+
+2022-06-27 02:17:25 PM Getting Data From Website
+
+2022-06-27 02:17:39 PM Total New Items Found: 0 Time: 1407 s
+
+2022-06-27 02:17:39 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#13, sheet: Registered Unemployed Persons and Unemployment Rate in _Urban Area, frequency: A, Time: 1407s
+
+2022-06-27 02:17:39 PM Downloading file: Registered Unemployed Persons and Unemployment Rate in _Urban Area
+
+2022-06-27 02:17:39 PM Getting Data From Website
+
+2022-06-27 02:17:54 PM Total New Items Found: 0 Time: 1422 s
+
+2022-06-27 02:17:54 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#14, sheet: Number of Employed Persons at Year-end in Urban and _Rural Areas, frequency: A, Time: 1422s
+
+2022-06-27 02:17:54 PM Downloading file: Number of Employed Persons at Year-end in Urban and _Rural Areas
+
+2022-06-27 02:17:54 PM Getting Data From Website
+
+2022-06-27 02:18:09 PM Total New Items Found: 0 Time: 1437 s
+
+2022-06-27 02:18:09 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#15, sheet: Gross Domestic Product - A, frequency: A, Time: 1437s
+
+2022-06-27 02:18:09 PM Downloading file: Gross Domestic Product - A
+
+2022-06-27 02:18:09 PM Getting Data From Website
+
+2022-06-27 02:18:25 PM Total New Items Found: 0 Time: 1453 s
+
+2022-06-27 02:18:25 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#16, sheet: Value-added by industries, frequency: A, Time: 1453s
+
+2022-06-27 02:18:25 PM Downloading file: Value-added by industries
+
+2022-06-27 02:18:25 PM Getting Data From Website
+
+2022-06-27 02:18:41 PM Total New Items Found: 0 Time: 1469 s
+
+2022-06-27 02:18:41 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#17, sheet: Total Population, frequency: A, Time: 1469s
+
+2022-06-27 02:18:41 PM Downloading file: Total Population
+
+2022-06-27 02:18:41 PM Getting Data From Website
+
+2022-06-27 02:18:57 PM Total New Items Found: 0 Time: 1485 s
+
+2022-06-27 02:18:57 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#18, sheet: Producer Price Indices for Industrial Products by _Category, frequency: A, Time: 1485s
+
+2022-06-27 02:18:57 PM Downloading file: Producer Price Indices for Industrial Products by _Category
+
+2022-06-27 02:18:57 PM Getting Data From Website
+
+2022-06-27 02:19:13 PM Total New Items Found: 0 Time: 1501 s
+
+2022-06-27 02:19:13 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=C01#19, sheet: Total Value of Imports and Exports, frequency: A, Time: 1501s
+
+2022-06-27 02:19:13 PM Downloading file: Total Value of Imports and Exports
+
+2022-06-27 02:19:13 PM Getting Data From Website
+
+2022-06-27 02:19:29 PM Total New Items Found: 0 Time: 1517 s
+
+2022-06-27 02:19:29 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#0, sheet: Money Supply, frequency: Q, Time: 1517s
+
+2022-06-27 02:19:29 PM Downloading file: Money Supply
+
+2022-06-27 02:19:31 PM Getting Data From Website
+
+2022-06-27 02:19:50 PM Total New Items Found: 0 Time: 1537 s
+
+2022-06-27 02:19:50 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#1, sheet: Gross Domestic Product - Q, frequency: Q, Time: 1538s
+
+2022-06-27 02:19:50 PM Downloading file: Gross Domestic Product - Q
+
+2022-06-27 02:19:51 PM Getting Data From Website
+
+2022-06-27 02:20:15 PM Total New Items Found: 0 Time: 1563 s
+
+2022-06-27 02:20:15 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=B01#2, sheet: Indices of Gross Domestic Product, frequency: Q, Time: 1563s
+
+2022-06-27 02:20:15 PM Downloading file: Indices of Gross Domestic Product
+
+2022-06-27 02:20:15 PM Getting Data From Website
+
+2022-06-27 02:20:42 PM Total New Items Found: 0 Time: 1590 s
+
+2022-06-27 02:20:42 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#1, sheet: Consumer Price Indices by Category(The same month _last year=100)(2016-), frequency: M, Time: 1590s
+
+2022-06-27 02:20:42 PM Downloading file: Consumer Price Indices by Category(The same month last _year=100)(-2015)
+
+2022-06-27 02:20:45 PM Getting Data From Website
+
+2022-06-27 02:29:46 PM Downloading file: Consumer Price Indices by Category(The same month _last year=100)(2016-)
+
+2022-06-27 02:29:46 PM Getting Data From Website
+
+2022-06-27 02:30:01 PM Total New Items Found: 0 Time: 2149 s
+
+2022-06-27 02:30:02 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#2, sheet: Consumer Price Indices (The same month last year=100) _Food, frequency: M, Time: 2149s
+
+2022-06-27 02:30:02 PM Downloading file: Consumer Price Indices (The same month last year=100) _Food
+
+2022-06-27 02:30:03 PM Getting Data From Website
+
+2022-06-27 02:30:33 PM Total New Items Found: 0 Time: 2180 s
+
+2022-06-27 02:30:33 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#3, sheet: Producer Price Index for Industrial Products (The same _month last year=100), frequency: M, Time: 2180s
+
+2022-06-27 02:30:33 PM Downloading file: Producer Price Index for Industrial Products (The same _month last year=100)
+
+2022-06-27 02:30:33 PM Getting Data From Website
+
+2022-06-27 02:30:53 PM Total New Items Found: 0 Time: 2201 s
+
+2022-06-27 02:30:53 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#4, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Means of Production, frequency: M, Time: 2201s
+
+2022-06-27 02:30:53 PM Downloading file: Producer Price Indices for Industrial Products (The _same month last year=100) Means of Production
+
+2022-06-27 02:30:53 PM Getting Data From Website
+
+2022-06-27 02:31:14 PM Total New Items Found: 0 Time: 2222 s
+
+2022-06-27 02:31:14 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#5, sheet: Producer Price Indices for Industrial Products (The _same month last year=100) Consumer Goods, frequency: M, Time: 2222s
+
+2022-06-27 02:31:14 PM Downloading file: Producer Price Indices for Industrial Products (The _same month last year=100) Consumer Goods
+
+2022-06-27 02:31:14 PM Getting Data From Website
+
+2022-06-27 02:31:37 PM Total New Items Found: 0 Time: 2245 s
+
+2022-06-27 02:31:37 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#6, sheet: Purchasing Price Index for Industrial Producers (The _same month last year=100), frequency: M, Time: 2245s
+
+2022-06-27 02:31:37 PM Downloading file: Purchasing Price Index for Industrial Producers (The _same month last year=100)
+
+2022-06-27 02:31:37 PM Getting Data From Website
+
+2022-06-27 02:32:05 PM Total New Items Found: 0 Time: 2273 s
+
+2022-06-27 02:32:05 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#7, sheet: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100) (2018 to present), frequency: M, Time: 2273s
+
+2022-06-27 02:32:05 PM Downloading file: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100)
+
+2022-06-27 02:32:05 PM Getting Data From Website
+
+2022-06-27 02:33:07 PM Downloading file: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100) (2014-2017)
+
+2022-06-27 02:33:07 PM Getting Data From Website
+
+2022-06-27 02:34:05 PM Downloading file: Producer Price Indices for Manufactured Goods by _Sector (The same month last year=100) (2018 to present)
+
+2022-06-27 02:34:05 PM Getting Data From Website
+
+2022-06-27 02:35:05 PM Total New Items Found: 0 Time: 2453 s
+
+2022-06-27 02:35:05 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#8, sheet: Retail Price Index (The same month last year=100), frequency: M, Time: 2453s
+
+2022-06-27 02:35:05 PM Downloading file: Retail Price Index (The same month last year=100)
+
+2022-06-27 02:35:05 PM Getting Data From Website
+
+2022-06-27 02:36:15 PM Total New Items Found: 0 Time: 2523 s
+
+2022-06-27 02:36:15 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#9, sheet: Growth Rate of Industrial Value-added, frequency: M, Time: 2523s
+
+2022-06-27 02:36:15 PM Downloading file: Growth Rate of Industrial Value-added
+
+2022-06-27 02:36:15 PM Getting Data From Website
+
+2022-06-27 02:36:33 PM Total New Items Found: 0 Time: 2541 s
+
+2022-06-27 02:36:33 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#10, sheet: Growth Rate of Industrial Value-added by Category, frequency: M, Time: 2541s
+
+2022-06-27 02:36:33 PM Downloading file: Growth Rate of Industrial Value-added by Category
+
+2022-06-27 02:36:33 PM Getting Data From Website
+
+2022-06-27 02:37:00 PM Total New Items Found: 0 Time: 2567 s
+
+2022-06-27 02:37:00 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#11, sheet: Cars, frequency: M, Time: 2568s
+
+2022-06-27 02:37:00 PM Downloading file: Cars
+
+2022-06-27 02:37:00 PM Getting Data From Website
+
+2022-06-27 02:37:23 PM Total New Items Found: 0 Time: 2591 s
+
+2022-06-27 02:37:23 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#12, sheet: Motor Vehicles, frequency: M, Time: 2591s
+
+2022-06-27 02:37:23 PM Downloading file: Motor Vehicles
+
+2022-06-27 02:37:23 PM Getting Data From Website
+
+2022-06-27 02:37:45 PM Total New Items Found: 0 Time: 2612 s
+
+2022-06-27 02:37:45 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#13, sheet: Electricity, frequency: M, Time: 2613s
+
+2022-06-27 02:37:45 PM Downloading file: Electricity
+
+2022-06-27 02:37:45 PM Getting Data From Website
+
+2022-06-27 02:38:07 PM Total New Items Found: 0 Time: 2635 s
+
+2022-06-27 02:38:07 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#14, sheet: Investment in Fixed Assets[0], frequency: M, Time: 2635s
+
+2022-06-27 02:38:07 PM Downloading file: Investment in Fixed Assets[0]
+
+2022-06-27 02:38:07 PM Getting Data From Website
+
+2022-06-27 02:38:24 PM Total New Items Found: 0 Time: 2652 s
+
+2022-06-27 02:38:25 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#15, sheet: Investment in Fixed Assets Growth, frequency: M, Time: 2652s
+
+2022-06-27 02:38:25 PM Downloading file: Investment in Fixed Assets Growth
+
+2022-06-27 02:38:25 PM Getting Data From Website
+
+2022-06-27 02:39:57 PM Total New Items Found: 0 Time: 2745 s
+
+2022-06-27 02:39:57 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#17, sheet: Total Retail Sales of Consumer Goods, frequency: M, Time: 2745s
+
+2022-06-27 02:39:57 PM Downloading file: Total Retail Sales of Consumer Goods
+
+2022-06-27 02:39:57 PM Getting Data From Website
+
+2022-06-27 02:40:19 PM Total New Items Found: 0 Time: 2767 s
+
+2022-06-27 02:40:19 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#18, sheet: Total Retail Sales of Consumer Goods by Operates, frequency: M, Time: 2767s
+
+2022-06-27 02:40:19 PM Downloading file: Total Retail Sales of Consumer Goods by Operates
+
+2022-06-27 02:40:19 PM Getting Data From Website
+
+2022-06-27 02:40:42 PM Total New Items Found: 0 Time: 2790 s
+
+2022-06-27 02:40:42 PM Country: China, Reading file or url: https://data.stats.gov.cn/english/easyquery.htm?cn=A01#19, sheet: Total Retail Sales of Consumer Goods by Consumption _patterns, frequency: M, Time: 2790s
+
+2022-06-27 02:40:42 PM Downloading file: Total Retail Sales of Consumer Goods by Consumption _patterns
+
+2022-06-27 02:40:42 PM Getting Data From Website
+
+2022-06-27 02:41:14 PM Total New Items Found: 0 Time: 2821 s
+
+2022-06-27 02:41:14 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E6%99%AF%E6%B0%94%E6%8C%87%E6%95%B0-112B.html, sheet: Business Climate Index, frequency: Q, Time: 2822s
+
+2022-06-27 02:41:14 PM Downloading file: Business Climate Index
+
+2022-06-27 02:41:17 PM Getting Data From Website
+
+2022-06-27 02:41:25 PM Total New Items Found: 0 Time: 2833 s
+
+2022-06-27 02:41:25 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data--%E4%BC%81%E4%B8%9A%E5%AE%B6%E4%BF%A1%E5%BF%83%E6%8C%87%E6%95%B0-112B.html, sheet: Entrepreneur Confidence Index, frequency: Q, Time: 2833s
+
+2022-06-27 02:41:25 PM Downloading file: Entrepreneur Confidence Index
+
+2022-06-27 02:41:27 PM Getting Data From Website
+
+2022-06-27 02:41:34 PM Total New Items Found: 0 Time: 2842 s
+
+2022-06-27 02:41:35 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112E.html, sheet: Consumer Index, frequency: M, Time: 2842s
+
+2022-06-27 02:41:35 PM Downloading file: Consumer Index
+
+2022-06-27 02:41:36 PM Getting Data From Website
+
+2022-06-27 02:41:49 PM Total New Items Found: 0 Time: 2857 s
+
+2022-06-27 02:41:49 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---112P.html, sheet: Money Supply - PPI, frequency: M, Time: 2857s
+
+2022-06-27 02:41:49 PM Downloading file: Money Supply - PPI
+
+2022-06-27 02:42:06 PM Getting Data From Website
+
+2022-06-27 02:42:37 PM Total New Items Found: 0 Time: 2905 s
+
+2022-06-27 02:42:37 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: M, Time: 2905s
+
+2022-06-27 02:42:37 PM Downloading file: Deposit Rate
+
+2022-06-27 02:42:38 PM Getting Data From Website
+
+2022-06-27 02:42:43 PM Total New Items Found: 0 Time: 2911 s
+
+2022-06-27 02:42:43 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113V.html, sheet: Deposit Rate, frequency: A, Time: 2911s
+
+2022-06-27 02:42:44 PM Total New Items Found: 0 Time: 2911 s
+
+2022-06-27 02:42:44 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: M, Time: 2912s
+
+2022-06-27 02:42:44 PM Downloading file: Loan Rate
+
+2022-06-27 02:42:47 PM Getting Data From Website
+
+2022-06-27 02:42:54 PM Total New Items Found: 0 Time: 2921 s
+
+2022-06-27 02:42:54 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---113W.html, sheet: Loan Rate, frequency: Q, Time: 2921s
+
+2022-06-27 02:42:55 PM Total New Items Found: 0 Time: 2923 s
+
+2022-06-27 02:42:55 PM Country: China, Reading file or url: http://www.100ppi.com/mac/data---111O.html, sheet: Corporate Goods Price Indices, frequency: M, Time: 2923s
+
+2022-06-27 02:42:55 PM Downloading file: Corporate Goods Price Indices
+
+2022-06-27 02:42:58 PM Getting Data From Website
+
+2022-06-27 02:43:15 PM Total New Items Found: 0 Time: 2943 s
+
+2022-06-27 02:43:15 PM Reading file: Datasets, Time: 2943 s
+
+2022-06-27 02:43:15 PM Country: China, Reading file or url: http://www.pbc.gov.cn/diaochatongjisi/116219/116319/index.html, sheet: Statistics of Interbank Pledged Repo, frequency: M, Time: 2943s
+
+2022-06-27 02:43:15 PM Downloading file: Statistics of Interbank Pledged Repo
+
+2022-06-27 02:43:17 PM Getting Data From Website
+
+2022-06-27 02:43:24 PM Total New Items Found: 0 Time: 2952 s
+
+2022-06-27 02:43:25 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#1, sheet: Summary of Imports and Exports (In USD) B：Monthly, frequency: M, Time: 2952s
+
+2022-06-27 02:43:25 PM Downloading file: Summary of Imports and Exports (In USD) B：Monthly
+
+2022-06-27 02:43:42 PM Getting Data From Website
+
+2022-06-27 02:43:52 PM Total New Items Found: 0 Time: 2979 s
+
+2022-06-27 02:43:52 PM Reading file: Datasets, Time: 2979 s
+
+2022-06-27 02:43:52 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#2, sheet: Major Import Commodities in Quantity and Value, frequency: M, Time: 2980s
+
+2022-06-27 02:43:52 PM Downloading file: Major Import Commodities in Quantity and Value - 202101
+
+2022-06-27 02:43:52 PM Getting Data From Website
+
+2022-06-27 02:44:09 PM Downloading file: Major Import Commodities in Quantity and Value - 202102
+
+2022-06-27 02:44:09 PM Getting Data From Website
+
+2022-06-27 02:44:24 PM Downloading file: Major Import Commodities in Quantity and Value - 202103
+
+2022-06-27 02:44:24 PM Getting Data From Website
+
+2022-06-27 02:44:39 PM Downloading file: Major Import Commodities in Quantity and Value - 202104
+
+2022-06-27 02:44:39 PM Getting Data From Website
+
+2022-06-27 02:45:35 PM Downloading file: Major Import Commodities in Quantity and Value - 202105
+
+2022-06-27 02:45:35 PM Getting Data From Website
+
+2022-06-27 02:46:01 PM Downloading file: Major Import Commodities in Quantity and Value - 202106
+
+2022-06-27 02:46:01 PM Getting Data From Website
+
+2022-06-27 02:46:24 PM Downloading file: Major Import Commodities in Quantity and Value - 202107
+
+2022-06-27 02:46:24 PM Getting Data From Website
+
+2022-06-27 02:46:40 PM Downloading file: Major Import Commodities in Quantity and Value - 202108
+
+2022-06-27 02:46:40 PM Getting Data From Website
+
+2022-06-27 02:47:10 PM Downloading file: Major Import Commodities in Quantity and Value - 202109
+
+2022-06-27 02:47:10 PM Getting Data From Website
+
+2022-06-27 02:48:47 PM Downloading file: Major Import Commodities in Quantity and Value - 202110
+
+2022-06-27 02:48:47 PM Getting Data From Website
+
+2022-06-27 02:49:02 PM Downloading file: Major Import Commodities in Quantity and Value - 202111
+
+2022-06-27 02:49:02 PM Getting Data From Website
+
+2022-06-27 02:49:22 PM Downloading file: Major Import Commodities in Quantity and Value - 202112
+
+2022-06-27 02:49:22 PM Getting Data From Website
+
+2022-06-27 02:49:40 PM Downloading file: Major Import Commodities in Quantity and Value - 202201
+
+2022-06-27 02:49:40 PM Getting Data From Website
+
+2022-06-27 02:49:57 PM Downloading file: Major Import Commodities in Quantity and Value - 202202
+
+2022-06-27 02:49:57 PM Getting Data From Website
+
+2022-06-27 02:50:15 PM Downloading file: Major Import Commodities in Quantity and Value - 202203
+
+2022-06-27 02:50:15 PM Getting Data From Website
+
+2022-06-27 02:50:32 PM Downloading file: Major Import Commodities in Quantity and Value - 202204
+
+2022-06-27 02:50:32 PM Getting Data From Website
+
+2022-06-27 02:51:01 PM Downloading file: Major Import Commodities in Quantity and Value - 202205
+
+2022-06-27 02:51:01 PM Getting Data From Website
+
+2022-06-27 02:51:06 PM Total New Items Found: 0 Time: 3414 s
+
+2022-06-27 02:51:06 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#3, sheet: Imports and Exports by Country, frequency: M, Time: 3414s
+
+2022-06-27 02:51:06 PM Downloading file: Imports and Exports by Country - 202101
+
+2022-06-27 02:51:06 PM Getting Data From Website
+
+2022-06-27 02:51:24 PM Downloading file: Imports and Exports by Country - 202102
+
+2022-06-27 02:51:24 PM Getting Data From Website
+
+2022-06-27 02:51:54 PM Downloading file: Imports and Exports by Country - 202103
+
+2022-06-27 02:51:54 PM Getting Data From Website
+
+2022-06-27 02:52:13 PM Downloading file: Imports and Exports by Country - 202104
+
+2022-06-27 02:52:13 PM Getting Data From Website
+
+2022-06-27 02:52:45 PM Downloading file: Imports and Exports by Country - 202105
+
+2022-06-27 02:52:45 PM Getting Data From Website
+
+2022-06-27 02:53:25 PM Downloading file: Imports and Exports by Country - 202106
+
+2022-06-27 02:53:25 PM Getting Data From Website
+
+2022-06-27 02:53:47 PM Downloading file: Imports and Exports by Country - 202107
+
+2022-06-27 02:53:47 PM Getting Data From Website
+
+2022-06-27 02:54:09 PM Downloading file: Imports and Exports by Country - 202108
+
+2022-06-27 02:54:09 PM Getting Data From Website
+
+2022-06-27 02:54:29 PM Downloading file: Imports and Exports by Country - 202109
+
+2022-06-27 02:54:29 PM Getting Data From Website
+
+2022-06-27 02:55:28 PM Downloading file: Imports and Exports by Country - 202110
+
+2022-06-27 02:55:28 PM Getting Data From Website
+
+2022-06-27 02:55:50 PM Downloading file: Imports and Exports by Country - 202111
+
+2022-06-27 02:55:50 PM Getting Data From Website
+
+2022-06-27 02:56:14 PM Downloading file: Imports and Exports by Country - 202112
+
+2022-06-27 02:56:15 PM Getting Data From Website
+
+2022-06-27 02:56:38 PM Downloading file: Imports and Exports by Country - 202201
+
+2022-06-27 02:56:38 PM Getting Data From Website
+
+2022-06-27 02:57:07 PM Downloading file: Imports and Exports by Country - 202202
+
+2022-06-27 02:57:07 PM Getting Data From Website
+
+2022-06-27 02:57:33 PM Downloading file: Imports and Exports by Country - 202203
+
+2022-06-27 02:57:33 PM Getting Data From Website
+
+2022-06-27 02:57:54 PM Downloading file: Imports and Exports by Country - 202204
+
+2022-06-27 02:57:54 PM Getting Data From Website
+
+2022-06-27 02:58:34 PM Downloading file: Imports and Exports by Country - 202205
+
+2022-06-27 02:58:34 PM Getting Data From Website
+
+2022-06-27 02:58:40 PM Total New Items Found: 0 Time: 3868 s
+
+2022-06-27 02:58:40 PM Country: China, Reading file or url: http://english.customs.gov.cn/statics/report/monthly.html#4, sheet: Composition of Imports and Exports by Section and Division, frequency: M, Time: 3868s
+
+2022-06-27 02:58:40 PM Downloading file: Composition of Imports and Exports by Section and Division - 202101
+
+2022-06-27 02:58:40 PM Getting Data From Website
+
+2022-06-27 02:58:54 PM Downloading file: Composition of Imports and Exports by Section and Division - 202102
+
+2022-06-27 02:58:54 PM Getting Data From Website
+
+2022-06-27 02:59:08 PM Downloading file: Composition of Imports and Exports by Section and Division - 202103
+
+2022-06-27 02:59:08 PM Getting Data From Website
+
+2022-06-27 02:59:42 PM Downloading file: Composition of Imports and Exports by Section and Division - 202104
+
+2022-06-27 02:59:42 PM Getting Data From Website
+
+2022-06-27 03:00:43 PM Downloading file: Composition of Imports and Exports by Section and Division - 202105
+
+2022-06-27 03:00:43 PM Getting Data From Website
+
+2022-06-27 03:00:58 PM Downloading file: Composition of Imports and Exports by Section and Division - 202106
+
+2022-06-27 03:00:58 PM Getting Data From Website
+
+2022-06-27 03:01:12 PM Downloading file: Composition of Imports and Exports by Section and Division - 202107
+
+2022-06-27 03:01:12 PM Getting Data From Website
+
+2022-06-27 03:01:27 PM Downloading file: Composition of Imports and Exports by Section and Division - 202108
+
+2022-06-27 03:01:27 PM Getting Data From Website
+
+2022-06-27 03:01:42 PM Downloading file: Composition of Imports and Exports by Section and Division - 202109
+
+2022-06-27 03:01:42 PM Getting Data From Website
+
+2022-06-27 03:01:56 PM Downloading file: Composition of Imports and Exports by Section and Division - 202110
+
+2022-06-27 03:01:56 PM Getting Data From Website
+
+2022-06-27 03:02:21 PM Downloading file: Composition of Imports and Exports by Section and Division - 202111
+
+2022-06-27 03:02:21 PM Getting Data From Website
+
+2022-06-27 03:02:35 PM Downloading file: Composition of Imports and Exports by Section and Division - 202112
+
+2022-06-27 03:02:35 PM Getting Data From Website
+
+2022-06-27 03:02:50 PM Downloading file: Composition of Imports and Exports by Section and Division - 202201
+
+2022-06-27 03:02:50 PM Getting Data From Website
+
+2022-06-27 03:03:05 PM Downloading file: Composition of Imports and Exports by Section and Division - 202202
+
+2022-06-27 03:03:05 PM Getting Data From Website
+
+2022-06-27 03:03:29 PM Downloading file: Composition of Imports and Exports by Section and Division - 202203
+
+2022-06-27 03:03:29 PM Getting Data From Website
+
+2022-06-27 03:03:43 PM Downloading file: Composition of Imports and Exports by Section and Division - 202204
+
+2022-06-27 03:03:43 PM Getting Data From Website
+
+2022-06-27 03:04:04 PM Downloading file: Composition of Imports and Exports by Section and Division - 202205
+
+2022-06-27 03:04:04 PM Getting Data From Website
+
+2022-06-27 03:04:10 PM Total New Items Found: 0 Time: 4197 s
+
+2022-06-27 03:04:10 PM Reading file: Datasets, Time: 4197 s
+
+2022-06-27 03:04:10 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 4198s
+
+2022-06-27 03:04:14 PM Total New Items Found: 0 Time: 4201 s
+
+2022-06-27 03:04:14 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-a-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 4201s
+
+2022-06-27 03:04:16 PM Total New Items Found: 0 Time: 4204 s
+
+2022-06-27 03:04:16 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: W, Time: 4204s
+
+2022-06-27 03:04:18 PM Total New Items Found: 0 Time: 4206 s
+
+2022-06-27 03:04:18 PM Country: China, Reading file or url: https://www.investing.com/indices/shanghai-se-b-share-historical-data, sheet: SSE Main Board, frequency: D, Time: 4206s
+
+2022-06-27 03:04:20 PM Total New Items Found: 0 Time: 4208 s
+
+2022-06-27 03:04:20 PM Reading file: Datasets, Time: 4208 s
+
+2022-06-27 03:04:20 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 4208s
+
+2022-06-27 03:04:22 PM Total New Items Found: 0 Time: 4210 s
+
+2022-06-27 03:04:22 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-a-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 4210s
+
+2022-06-27 03:04:25 PM Total New Items Found: 0 Time: 4213 s
+
+2022-06-27 03:04:25 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: W, Time: 4213s
+
+2022-06-27 03:04:27 PM Total New Items Found: 0 Time: 4215 s
+
+2022-06-27 03:04:27 PM Country: China, Reading file or url: https://www.investing.com/indices/szse-b-share-historical-data, sheet: SZSE Main Board, frequency: D, Time: 4215s
+
+2022-06-27 03:04:30 PM Total New Items Found: 0 Time: 4218 s
+
+2022-06-27 03:04:30 PM Reading file: Datasets, Time: 4218 s
+
+2022-06-27 03:04:30 PM Country: China, Reading file or url: WSA, sheet: 0, frequency: M, Time: 4218s
+
+2022-06-27 03:04:30 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:04:30 PM Total New Items Found: 0 Time: 4218 s
+
+2022-06-27 03:04:30 PM Reading file: country_series, Time: 4218 s
+
+2022-06-27 03:04:30 PM Reading file: 532datasets, Time: 4218 s
+
+2022-06-27 03:04:31 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=31, sheet: Gross Domestic Product, frequency: A, Time: 4219s
+
+2022-06-27 03:04:31 PM Downloading file: Gross Domestic Product
+
+2022-06-27 03:04:32 PM Getting Data From Website
+
+2022-06-27 03:04:40 PM Total New Items Found: 0 Time: 4228 s
+
+2022-06-27 03:04:41 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: A, Time: 4228s
+
+2022-06-27 03:04:41 PM Downloading file: Nominal Gross Domestic Product
+
+2022-06-27 03:04:41 PM Getting Data From Website
+
+2022-06-27 03:04:49 PM Total New Items Found: 0 Time: 4237 s
+
+2022-06-27 03:04:49 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=32, sheet: Nominal Gross Domestic Product, frequency: Q, Time: 4237s
+
+2022-06-27 03:04:49 PM Total New Items Found: 0 Time: 4237 s
+
+2022-06-27 03:04:50 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: A, Time: 4237s
+
+2022-06-27 03:04:50 PM Downloading file: Real Gross Domestic Product
+
+2022-06-27 03:04:50 PM Getting Data From Website
+
+2022-06-27 03:04:59 PM Total New Items Found: 0 Time: 4247 s
+
+2022-06-27 03:04:59 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=33, sheet: Real Gross Domestic Product, frequency: Q, Time: 4247s
+
+2022-06-27 03:04:59 PM Total New Items Found: 0 Time: 4247 s
+
+2022-06-27 03:04:59 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=35, sheet: Nominal Gross Value Added, frequency: A, Time: 4247s
+
+2022-06-27 03:04:59 PM Downloading file: Nominal Gross Value Added
+
+2022-06-27 03:05:00 PM Getting Data From Website
+
+2022-06-27 03:05:07 PM Total New Items Found: 0 Time: 4255 s
+
+2022-06-27 03:05:07 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: A, Time: 4255s
+
+2022-06-27 03:05:07 PM Downloading file: Gross National Income Per Capita
+
+2022-06-27 03:05:07 PM Getting Data From Website
+
+2022-06-27 03:05:15 PM Total New Items Found: 0 Time: 4263 s
+
+2022-06-27 03:05:15 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=39, sheet: Gross National Income Per Capita, frequency: Q, Time: 4263s
+
+2022-06-27 03:05:15 PM Total New Items Found: 0 Time: 4263 s
+
+2022-06-27 03:05:15 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: A, Time: 4263s
+
+2022-06-27 03:05:15 PM Downloading file: Nominal Gross Domestic Fixed Capital Formation
+
+2022-06-27 03:05:15 PM Getting Data From Website
+
+2022-06-27 03:05:25 PM Total New Items Found: 0 Time: 4273 s
+
+2022-06-27 03:05:25 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/EIndexbySubject.html?scode=250&pcode=D5240203, sheet: Nominal Gross Domestic Fixed Capital Formation, frequency: Q, Time: 4273s
+
+2022-06-27 03:05:25 PM Total New Items Found: 0 Time: 4273 s
+
+2022-06-27 03:05:25 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=37, sheet: Real Gross Value Added, frequency: Q, Time: 4273s
+
+2022-06-27 03:05:25 PM Downloading file: Real Gross Value Added
+
+2022-06-27 03:05:26 PM Getting Data From Website
+
+2022-06-27 03:05:33 PM Total New Items Found: 0 Time: 4281 s
+
+2022-06-27 03:05:33 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=96, sheet: Industrial Production Index, frequency: Q, Time: 4281s
+
+2022-06-27 03:05:33 PM Downloading file: Industrial Production Index
+
+2022-06-27 03:05:34 PM Getting Data From Website
+
+2022-06-27 03:05:41 PM Latest Base Year Received.
+
+2022-06-27 03:05:41 PM Total New Items Found: 0 Time: 4289 s
+
+2022-06-27 03:05:41 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=97, sheet: Producer Price Index, frequency: Q, Time: 4289s
+
+2022-06-27 03:05:41 PM Downloading file: Producer Price Index
+
+2022-06-27 03:05:41 PM Getting Data From Website
+
+2022-06-27 03:05:49 PM Latest Base Year Received.
+
+2022-06-27 03:05:49 PM Total New Items Found: 0 Time: 4297 s
+
+2022-06-27 03:05:49 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=71, sheet: Merchandise Trade Index Numbers - Imports, frequency: M, Time: 4297s
+
+2022-06-27 03:05:49 PM Downloading file: Merchandise Trade Index Numbers - Imports
+
+2022-06-27 03:05:49 PM Getting Data From Website
+
+2022-06-27 03:05:57 PM Latest Base Year Received.
+
+2022-06-27 03:05:57 PM Total New Items Found: 0 Time: 4305 s
+
+2022-06-27 03:05:57 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=74, sheet: Merchandise Trade Index Numbers - Exports, frequency: M, Time: 4305s
+
+2022-06-27 03:05:57 PM Downloading file: Merchandise Trade Index Numbers - Exports
+
+2022-06-27 03:05:57 PM Getting Data From Website
+
+2022-06-27 03:06:05 PM Latest Base Year Received.
+
+2022-06-27 03:06:05 PM Total New Items Found: 0 Time: 4313 s
+
+2022-06-27 03:06:05 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=75, sheet: Merchandise Trade Index Numbers - Terms of Trade, frequency: M, Time: 4313s
+
+2022-06-27 03:06:05 PM Downloading file: Merchandise Trade Index Numbers - Terms of Trade
+
+2022-06-27 03:06:05 PM Getting Data From Website
+
+2022-06-27 03:06:13 PM Latest Base Year Received.
+
+2022-06-27 03:06:13 PM Total New Items Found: 0 Time: 4321 s
+
+2022-06-27 03:06:13 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=89, sheet: Index of Retail Sales, frequency: M, Time: 4321s
+
+2022-06-27 03:06:13 PM Downloading file: Index of Retail Sales
+
+2022-06-27 03:06:13 PM Getting Data From Website
+
+2022-06-27 03:06:21 PM Latest Base Year Received.
+
+2022-06-27 03:06:21 PM Total New Items Found: 0 Time: 4328 s
+
+2022-06-27 03:06:21 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=122, sheet: Hong Kong Dollar interest rates, frequency: M, Time: 4329s
+
+2022-06-27 03:06:21 PM Downloading file: Hong Kong Dollar interest rates
+
+2022-06-27 03:06:21 PM Getting Data From Website
+
+2022-06-27 03:06:29 PM Total New Items Found: 0 Time: 4337 s
+
+2022-06-27 03:06:29 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/web_table.html?id=123, sheet: Hong Kong Dollar Interest Settlement Rates, frequency: A, Time: 4337s
+
+2022-06-27 03:06:29 PM Downloading file: Hong Kong Dollar Interest Settlement Rates
+
+2022-06-27 03:06:29 PM Getting Data From Website
+
+2022-06-27 03:06:36 PM Total New Items Found: 0 Time: 4344 s
+
+2022-06-27 03:06:36 PM Country: Hong Kong, Reading file or url: https://www.censtatd.gov.hk/en/scode270.html#section3, sheet: Consumer Price Index, frequency: M, Time: 4344s
+
+2022-06-27 03:06:36 PM Downloading file: Consumer Price Index
+
+2022-06-27 03:06:37 PM Getting Data From Website
+
+2022-06-27 03:06:51 PM Total New Items Found: 0 Time: 4358 s
+
+2022-06-27 03:06:51 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/currency?pagesize=1000, sheet: Currency in circulation, frequency: M, Time: 4359s
+
+2022-06-27 03:06:51 PM Downloading file: Currency in circulation
+
+2022-06-27 03:06:54 PM Total New Items Found: 0 Time: 4362 s
+
+2022-06-27 03:06:54 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/money/supply-adjusted?pagesize=1000, sheet: Money supply Adjusted for currency swap deposits, frequency: M, Time: 4362s
+
+2022-06-27 03:06:54 PM Downloading file: Money supply Adjusted for currency swap deposits
+
+2022-06-27 03:06:58 PM Total New Items Found: 0 Time: 4366 s
+
+2022-06-27 03:06:58 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/banking/residential-mortgage-survey?pagesize=1000, sheet: Residential mortgage survey results, frequency: M, Time: 4366s
+
+2022-06-27 03:06:58 PM Downloading file: Residential mortgage survey results
+
+2022-06-27 03:07:01 PM Total New Items Found: 0 Time: 4369 s
+
+2022-06-27 03:07:02 PM Country: Hong Kong, Reading file or url: https://api.hkma.gov.hk/public/market-data-and-statistics/monthly-statistical-bulletin/gov-bond/instit-bond-price-yield-endperiod?pagesize=1000&segment=Benchmark, sheet: Prices and yields of Government Bonds, frequency: M, Time: 4369s
+
+2022-06-27 03:07:02 PM Downloading file: Prices and yields of Government Bonds
+
+2022-06-27 03:07:05 PM Total New Items Found: 0 Time: 4373 s
+
+2022-06-27 03:07:05 PM Reading file: Datasets, Time: 4373 s
+
+2022-06-27 03:07:05 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: M, Time: 4373s
+
+2022-06-27 03:07:54 PM Total New Items Found: 0 Time: 4422 s
+
+2022-06-27 03:07:54 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: Q, Time: 4422s
+
+2022-06-27 03:07:54 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:07:54 PM Total New Items Found: 0 Time: 4422 s
+
+2022-06-27 03:07:54 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: A, Time: 4422s
+
+2022-06-27 03:07:54 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:07:54 PM Total New Items Found: 0 Time: 4422 s
+
+2022-06-27 03:07:54 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: W, Time: 4422s
+
+2022-06-27 03:07:56 PM Total New Items Found: 0 Time: 4424 s
+
+2022-06-27 03:07:56 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-sen-40-historical-data, sheet: Hang Seng Index, frequency: D, Time: 4424s
+
+2022-06-27 03:08:00 PM Total New Items Found: 0 Time: 4428 s
+
+2022-06-27 03:08:00 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: W, Time: 4428s
+
+2022-06-27 03:09:01 PM Total New Items Found: 0 Time: 4489 s
+
+2022-06-27 03:09:01 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-affiliated-historical-data, sheet: Hang Seng Index, frequency: D, Time: 4489s
+
+2022-06-27 03:09:05 PM Total New Items Found: 0 Time: 4493 s
+
+2022-06-27 03:09:05 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: W, Time: 4493s
+
+2022-06-27 03:09:58 PM Total New Items Found: 0 Time: 4546 s
+
+2022-06-27 03:09:58 PM Country: Hong Kong, Reading file or url: https://www.investing.com/indices/hang-seng-china-enterprises-historical-data, sheet: Hang Seng Index, frequency: D, Time: 4546s
+
+2022-06-27 03:10:02 PM Total New Items Found: 0 Time: 4550 s
+
+2022-06-27 03:10:02 PM Reading file: country_series, Time: 4550 s
+
+2022-06-27 03:10:02 PM Reading file: 576datasets, Time: 4550 s
+
+2022-06-27 03:10:03 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014811, sheet: M014811 - Expenditure On Gross Domestic Product In Chained Dollars Quarterly, frequency: Q, Time: 4550s
+
+2022-06-27 03:10:03 PM Downloading file: M014811 - Expenditure On Gross Domestic Product In Chained Dollars Quarterly
+
+2022-06-27 03:10:07 PM Getting Data From Website
+
+2022-06-27 03:10:25 PM Total New Items Found: 0 Time: 4573 s
+
+2022-06-27 03:10:25 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014911, sheet: M014911 - Expenditure On Gross Domestic Product In Chained Dollars Annual, frequency: A, Time: 4573s
+
+2022-06-27 03:10:25 PM Downloading file: M014911 - Expenditure On Gross Domestic Product In Chained Dollars Annual
+
+2022-06-27 03:10:26 PM Getting Data From Website
+
+2022-06-27 03:10:48 PM Total New Items Found: 0 Time: 4596 s
+
+2022-06-27 03:10:48 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M014921, sheet: M014921 - Expenditure On Gross Domestic Product Deflators Annual, frequency: A, Time: 4596s
+
+2022-06-27 03:10:48 PM Downloading file: M014921 - Expenditure On Gross Domestic Product Deflators Annual
+
+2022-06-27 03:10:50 PM Getting Data From Website
+
+2022-06-27 03:11:11 PM Total New Items Found: 0 Time: 4619 s
+
+2022-06-27 03:11:12 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015021, sheet: M015021 - Expenditure On Gross Domestic Product At Current Prices Annual, frequency: A, Time: 4619s
+
+2022-06-27 03:11:12 PM Downloading file: M015021 - Expenditure On Gross Domestic Product At Current Prices Annual
+
+2022-06-27 03:11:14 PM Getting Data From Website
+
+2022-06-27 03:11:35 PM Total New Items Found: 0 Time: 4643 s
+
+2022-06-27 03:11:35 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015651, sheet: M015651 - Gross Domestic Product At Current Prices By Industry Quarterly, frequency: Q, Time: 4643s
+
+2022-06-27 03:11:35 PM Downloading file: M015651 - Gross Domestic Product At Current Prices By Industry Quarterly
+
+2022-06-27 03:11:36 PM Getting Data From Website
+
+2022-06-27 03:11:59 PM Total New Items Found: 0 Time: 4666 s
+
+2022-06-27 03:11:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015661, sheet: M015661 - Gross Domestic Product In Chained Dollars By Industry Quarterly, frequency: Q, Time: 4667s
+
+2022-06-27 03:11:59 PM Downloading file: M015661 - Gross Domestic Product In Chained Dollars By Industry Quarterly
+
+2022-06-27 03:12:00 PM Getting Data From Website
+
+2022-06-27 03:12:23 PM Total New Items Found: 0 Time: 4690 s
+
+2022-06-27 03:12:23 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015721, sheet: M015721 - Gross Domestic Product In Chained Dollars By Industry Annual, frequency: A, Time: 4691s
+
+2022-06-27 03:12:23 PM Downloading file: M015721 - Gross Domestic Product In Chained Dollars By Industry Annual
+
+2022-06-27 03:12:25 PM Getting Data From Website
+
+2022-06-27 03:12:47 PM Total New Items Found: 0 Time: 4714 s
+
+2022-06-27 03:12:47 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M015731, sheet: M015731 - Gross Domestic Product At Current Prices By Industry Annual, frequency: A, Time: 4715s
+
+2022-06-27 03:12:47 PM Downloading file: M015731 - Gross Domestic Product At Current Prices By Industry Annual
+
+2022-06-27 03:12:48 PM Getting Data From Website
+
+2022-06-27 03:13:10 PM Total New Items Found: 0 Time: 4738 s
+
+2022-06-27 03:13:10 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M060171, sheet: M060171 - Balance Of Payments BPM6 Format Quarterly, frequency: Q, Time: 4738s
+
+2022-06-27 03:13:10 PM Downloading file: M060171 - Balance Of Payments BPM6 Format Quarterly
+
+2022-06-27 03:13:11 PM Getting Data From Website
+
+2022-06-27 03:13:36 PM Total New Items Found: 0 Time: 4763 s
+
+2022-06-27 03:13:36 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182331, sheet: M182331 - Labour Force Aged 15 Years And Over End June Annual, frequency: A, Time: 4764s
+
+2022-06-27 03:13:36 PM Downloading file: M182331 - Labour Force Aged 15 Years And Over End June Annual
+
+2022-06-27 03:13:37 PM Getting Data From Website
+
+2022-06-27 03:13:59 PM Total New Items Found: 0 Time: 4787 s
+
+2022-06-27 03:13:59 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M182941, sheet: M182941 - Average Monthly Nominal Earnings Per Employee Annual, frequency: A, Time: 4787s
+
+2022-06-27 03:13:59 PM Downloading file: M182941 - Average Monthly Nominal Earnings Per Employee Annual
+
+2022-06-27 03:14:00 PM Getting Data From Website
+
+2022-06-27 03:14:22 PM Total New Items Found: 0 Time: 4809 s
+
+2022-06-27 03:14:22 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M183741, sheet: M183591 - Unit Labour Cost Index Quarterly, frequency: Q, Time: 4809s
+
+2022-06-27 03:14:22 PM Downloading file: M183591 - Unit Labour Cost Index Quarterly
+
+2022-06-27 03:14:25 PM Getting Data From Website
+
+2022-06-27 03:14:46 PM Total New Items Found: 0 Time: 4834 s
+
+2022-06-27 03:14:47 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212261, sheet: M212261 - Private Residential Property Price Index By Type Of Property Quarterly, frequency: Q, Time: 4834s
+
+2022-06-27 03:14:47 PM Downloading file: M212261 - Private Residential Property Price Index By Type Of Property Quarterly
+
+2022-06-27 03:14:48 PM Getting Data From Website
+
+2022-06-27 03:15:10 PM Total New Items Found: 0 Time: 4858 s
+
+2022-06-27 03:15:10 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212701, sheet: M212701 - Domestic Supply Price Index By Commodity Section 1-Digit Level Monthly, frequency: M, Time: 4858s
+
+2022-06-27 03:15:10 PM Downloading file: M212701 - Domestic Supply Price Index By Commodity Section 1-Digit Level Monthly
+
+2022-06-27 03:15:12 PM Getting Data From Website
+
+2022-06-27 03:15:36 PM Total New Items Found: 0 Time: 4884 s
+
+2022-06-27 03:15:36 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212881, sheet: M212881 - Consumer Price Index Monthly, frequency: M, Time: 4884s
+
+2022-06-27 03:15:36 PM Downloading file: M212881 - Consumer Price Index Monthly
+
+2022-06-27 03:15:37 PM Getting Data From Website
+
+2022-06-27 03:16:21 PM Total New Items Found: 0 Time: 4929 s
+
+2022-06-27 03:16:21 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212882, sheet: M212882 - Consumer Price Index Monthly Seasonally Adjusted, frequency: M, Time: 4929s
+
+2022-06-27 03:16:21 PM Downloading file: M212882 - Consumer Price Index Monthly Seasonally Adjusted
+
+2022-06-27 03:16:23 PM Getting Data From Website
+
+2022-06-27 03:16:56 PM Total New Items Found: 0 Time: 4963 s
+
+2022-06-27 03:16:56 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M212931, sheet: M212931 - Consumer Price Index Annual, frequency: A, Time: 4963s
+
+2022-06-27 03:16:56 PM Downloading file: M212931 - Consumer Price Index Annual
+
+2022-06-27 03:16:57 PM Getting Data From Website
+
+2022-06-27 03:17:22 PM Total New Items Found: 0 Time: 4990 s
+
+2022-06-27 03:17:22 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355271, sheet: M355271 - Index Of Industrial Production Monthly, frequency: M, Time: 4990s
+
+2022-06-27 03:17:22 PM Downloading file: M355271 - Index Of Industrial Production Monthly
+
+2022-06-27 03:17:23 PM Getting Data From Website
+
+2022-06-27 03:17:49 PM Total New Items Found: 0 Time: 5016 s
+
+2022-06-27 03:17:49 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355301, sheet: M355301 - Index Of Industrial Production By Industry Cluster Monthly, frequency: M, Time: 5017s
+
+2022-06-27 03:17:49 PM Downloading file: M355301 - Index Of Industrial Production By Industry Cluster Monthly
+
+2022-06-27 03:17:50 PM Getting Data From Website
+
+2022-06-27 03:18:17 PM Total New Items Found: 0 Time: 5045 s
+
+2022-06-27 03:18:17 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M355302, sheet: M355302 - Index Of Industrial Production By Industry Cluster Monthly Seasonally Adjusted, frequency: M, Time: 5045s
+
+2022-06-27 03:18:17 PM Downloading file: M355302 - Index Of Industrial Production By Industry Cluster Monthly Seasonally Adjusted
+
+2022-06-27 03:18:18 PM Getting Data From Website
+
+2022-06-27 03:18:44 PM Total New Items Found: 0 Time: 5072 s
+
+2022-06-27 03:18:44 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450081, sheet: M450081 - Merchandise Imports By Region Market Monthly, frequency: M, Time: 5072s
+
+2022-06-27 03:18:44 PM Downloading file: M450081 - Merchandise Imports By Region Market Monthly
+
+2022-06-27 03:18:45 PM Getting Data From Website
+
+2022-06-27 03:19:23 PM Total New Items Found: 0 Time: 5111 s
+
+2022-06-27 03:19:23 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M450091, sheet: M450091 - Merchandise Exports By Region Market Monthly, frequency: M, Time: 5111s
+
+2022-06-27 03:19:23 PM Downloading file: M450091 - Merchandise Exports By Region Market Monthly
+
+2022-06-27 03:19:25 PM Getting Data From Website
+
+2022-06-27 03:20:00 PM Total New Items Found: 0 Time: 5148 s
+
+2022-06-27 03:20:00 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451001, sheet: M451001 - Merchandise Trade By Commodity Section At Current Prices Monthly, frequency: M, Time: 5148s
+
+2022-06-27 03:20:00 PM Downloading file: M451001 - Merchandise Trade By Commodity Section At Current Prices Monthly
+
+2022-06-27 03:20:02 PM Getting Data From Website
+
+2022-06-27 03:20:39 PM Total New Items Found: 0 Time: 5186 s
+
+2022-06-27 03:20:39 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451002, sheet: M451002 - Merchandise Trade By Commodity Section At Current Prices Monthly Seasonally Adjusted, frequency: M, Time: 5187s
+
+2022-06-27 03:20:39 PM Downloading file: M451002 - Merchandise Trade By Commodity Section At Current Prices Monthly Seasonally Adjusted
+
+2022-06-27 03:20:40 PM Getting Data From Website
+
+2022-06-27 03:21:06 PM Total New Items Found: 0 Time: 5214 s
+
+2022-06-27 03:21:06 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451031, sheet: M451031 - Merchandise Exports By Commodity Division Monthly, frequency: M, Time: 5214s
+
+2022-06-27 03:21:06 PM Downloading file: M451031 - Merchandise Exports By Commodity Division Monthly
+
+2022-06-27 03:21:08 PM Getting Data From Website
+
+2022-06-27 03:21:37 PM Total New Items Found: 0 Time: 5245 s
+
+2022-06-27 03:21:37 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451082, sheet: M451082 - Selected Merchandise Trade At Current Market Prices Monthly Seasonally Adjusted, frequency: M, Time: 5245s
+
+2022-06-27 03:21:37 PM Downloading file: M451082 - Selected Merchandise Trade At Current Market Prices Monthly Seasonally Adjusted
+
+2022-06-27 03:21:39 PM Getting Data From Website
+
+2022-06-27 03:22:01 PM Total New Items Found: 0 Time: 5269 s
+
+2022-06-27 03:22:01 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451111, sheet: M451111 - Merchandise Imports Of Machinery And Equipment Monthly, frequency: M, Time: 5269s
+
+2022-06-27 03:22:01 PM Downloading file: M451111 - Merchandise Imports Of Machinery And Equipment Monthly
+
+2022-06-27 03:22:02 PM Getting Data From Website
+
+2022-06-27 03:22:25 PM Total New Items Found: 0 Time: 5292 s
+
+2022-06-27 03:22:25 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451121, sheet: M451121 - Merchandise Exports Of Machinery And Equipment Monthly, frequency: M, Time: 5293s
+
+2022-06-27 03:22:25 PM Downloading file: M451121 - Merchandise Exports Of Machinery And Equipment Monthly
+
+2022-06-27 03:22:26 PM Getting Data From Website
+
+2022-06-27 03:22:48 PM Total New Items Found: 0 Time: 5316 s
+
+2022-06-27 03:22:49 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M451391, sheet: M451391 - Merchandise Trade By Commodity Section Monthly, frequency: M, Time: 5316s
+
+2022-06-27 03:22:49 PM Downloading file: M451391 - Merchandise Trade By Commodity Section Monthly
+
+2022-06-27 03:22:50 PM Getting Data From Website
+
+2022-06-27 03:23:23 PM Total New Items Found: 0 Time: 5351 s
+
+2022-06-27 03:23:23 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M700001, sheet: M700001 - Currency In Circulation End Of Period Monthly, frequency: M, Time: 5351s
+
+2022-06-27 03:23:23 PM Downloading file: M700001 - Currency In Circulation End Of Period Monthly
+
+2022-06-27 03:23:26 PM Getting Data From Website
+
+2022-06-27 03:23:48 PM Total New Items Found: 0 Time: 5376 s
+
+2022-06-27 03:23:48 PM Country: Singapore, Reading file or url: https://tablebuilder.singstat.gov.sg/table/TS/M701111, sheet: M700011 - Money Supply End Of Period Monthly, frequency: M, Time: 5376s
+
+2022-06-27 03:23:48 PM Downloading file: M700011 - Money Supply End Of Period Monthly
+
+2022-06-27 03:23:50 PM Getting Data From Website
+
+2022-06-27 03:24:12 PM Total New Items Found: 0 Time: 5400 s
+
+2022-06-27 03:24:12 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=5f2b18a8-0883-4769-a635-879c63d3caac, sheet: Interest Rates of Banks and Finance Companies, frequency: M, Time: 5400s
+
+2022-06-27 03:24:12 PM Downloading file: Interest Rates of Banks and Finance Companies
+
+2022-06-27 03:24:16 PM Total New Items Found: 0 Time: 5404 s
+
+2022-06-27 03:24:16 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/api/action/datastore/search.json?resource_id=a8fab653-feeb-4c7a-a036-b544dca9bf1a, sheet: Official Foreign Reserves, frequency: M, Time: 5404s
+
+2022-06-27 03:24:16 PM Downloading file: Official Foreign Reserves
+
+2022-06-27 03:24:19 PM Total New Items Found: 0 Time: 5407 s
+
+2022-06-27 03:24:20 PM Country: Singapore, Reading file or url: https://eservices.mas.gov.sg/statistics/fdanet/BenchmarkPricesAndYields.aspx, sheet: SGSY, frequency: M, Time: 5407s
+
+2022-06-27 03:24:20 PM Downloading file: SGSY
+
+2022-06-27 03:24:21 PM Getting Data From Website
+
+2022-06-27 03:24:30 PM Total New Items Found: 0 Time: 5417 s
+
+2022-06-27 03:24:30 PM Country: Singapore, Reading file or url: https://www.cpf.gov.sg/Members/AboutUs/about-us-info/cpf-interest-rates, sheet: CPF, frequency: M, Time: 5418s
+
+2022-06-27 03:24:30 PM Total New Items Found: 0 Time: 5418 s
+
+2022-06-27 03:24:30 PM Reading file: Datasets, Time: 5418 s
+
+2022-06-27 03:24:30 PM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0, sheet: Straits Times Index, frequency: D, Time: 5418s
+
+2022-06-27 03:24:41 PM Total New Items Found: 0 Time: 5429 s
+
+2022-06-27 03:24:41 PM Country: Singapore, Reading file or url: https://stooq.com/q/d/?s=%5Esti&c=0&i=w, sheet: Straits Times Index, frequency: W, Time: 5429s
+
+2022-06-27 03:24:47 PM Total New Items Found: 0 Time: 5435 s
+
+2022-06-27 03:24:47 PM Reading file: country_series, Time: 5435 s
+
+2022-06-27 03:24:47 PM Reading file: 542datasets, Time: 5435 s
+
+2022-06-27 03:24:47 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/4db399, sheet: Annual, frequency: A, Time: 5435s
+
+2022-06-27 03:24:47 PM Downloading file: Annual
+
+2022-06-27 03:24:50 PM Getting Data From Website
+
+2022-06-27 03:25:03 PM Total New Items Found: 0 Time: 5451 s
+
+2022-06-27 03:25:03 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/e6aab3, sheet: Quarterly_Nominal_SA, frequency: Q, Time: 5451s
+
+2022-06-27 03:25:03 PM Downloading file: Quarterly_Nominal_SA
+
+2022-06-27 03:25:03 PM Getting Data From Website
+
+2022-06-27 03:25:15 PM Total New Items Found: 0 Time: 5463 s
+
+2022-06-27 03:25:15 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/4ec090, sheet: Quarterly_Real_SA, frequency: Q, Time: 5463s
+
+2022-06-27 03:25:15 PM Downloading file: Quarterly_Real_SA
+
+2022-06-27 03:25:15 PM Getting Data From Website
+
+2022-06-27 03:25:26 PM Total New Items Found: 0 Time: 5474 s
+
+2022-06-27 03:25:26 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/a333f5, sheet: Quarterly_Nominal_NSA, frequency: Q, Time: 5474s
+
+2022-06-27 03:25:26 PM Downloading file: Quarterly_Nominal_NSA
+
+2022-06-27 03:25:26 PM Getting Data From Website
+
+2022-06-27 03:25:37 PM Total New Items Found: 0 Time: 5485 s
+
+2022-06-27 03:25:38 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/8a2a4d, sheet: Quarterly_Real_NSA, frequency: Q, Time: 5485s
+
+2022-06-27 03:25:38 PM Downloading file: Quarterly_Real_NSA
+
+2022-06-27 03:25:38 PM Getting Data From Website
+
+2022-06-27 03:25:49 PM Total New Items Found: 0 Time: 5497 s
+
+2022-06-27 03:25:49 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/3dc248, sheet: Monthly_NA1, frequency: M, Time: 5497s
+
+2022-06-27 03:25:49 PM Downloading file: Monthly_NA1
+
+2022-06-27 03:25:49 PM Getting Data From Website
+
+2022-06-27 03:26:02 PM Total New Items Found: 0 Time: 5510 s
+
+2022-06-27 03:26:02 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/257cbf, sheet: Monthly_NA2, frequency: M, Time: 5510s
+
+2022-06-27 03:26:02 PM Downloading file: Monthly_NA2
+
+2022-06-27 03:26:02 PM Getting Data From Website
+
+2022-06-27 03:26:14 PM Total New Items Found: 0 Time: 5522 s
+
+2022-06-27 03:26:15 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/175d2d, sheet: Credit to Households, frequency: Q, Time: 5523s
+
+2022-06-27 03:26:15 PM Downloading file: Credit to Households
+
+2022-06-27 03:26:15 PM Getting Data From Website
+
+2022-06-27 03:26:25 PM Total New Items Found: 0 Time: 5533 s
+
+2022-06-27 03:26:25 PM Country: South Korea, Reading file or url: https://ecos.bok.or.kr/#/Short/079a5f, sheet: Monthly_FS, frequency: M, Time: 5533s
+
+2022-06-27 03:26:25 PM Downloading file: Monthly_FS
+
+2022-06-27 03:26:25 PM Getting Data From Website
+
+2022-06-27 03:26:39 PM Total New Items Found: 0 Time: 5547 s
+
+2022-06-27 03:26:39 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#1, sheet: Quarterly_KOS, frequency: Q, Time: 5547s
+
+2022-06-27 03:26:39 PM Downloading file: Quarterly_previous
+
+2022-06-27 03:26:42 PM Getting Data From Website
+
+2022-06-27 03:27:30 PM Downloading file: Quarterly_KOS
+
+2022-06-27 03:27:31 PM Getting Data From Website
+
+2022-06-27 03:28:07 PM Total New Items Found: 0 Time: 5635 s
+
+2022-06-27 03:28:08 PM Country: South Korea, Reading file or url: https://kosis.kr/eng/statisticsList/statisticsListIndex.do?vwcd=MT_ETITLE#2, sheet: Monthly_KOS, frequency: M, Time: 5635s
+
+2022-06-27 03:28:08 PM Downloading file: Monthly_KOS
+
+2022-06-27 03:28:08 PM Getting Data From Website
+
+2022-06-27 03:28:50 PM Total New Items Found: 0 Time: 5677 s
+
+2022-06-27 03:28:50 PM Reading file: Datasets, Time: 5677 s
+
+2022-06-27 03:28:50 PM Country: South Korea, Reading file or url: https://www.fki.or.kr/fkiact/promotion/report/List.aspx?search_type=1&search_keyword=%B1%E2%BE%F7%B0%E6%B1%E2, sheet: BSI, frequency: M, Time: 5678s
+
+2022-06-27 03:28:50 PM Reading file: BSI_2108
+
+2022-06-27 03:28:50 PM Downloading file: BSI_2108
+
+2022-06-27 03:28:54 PM Getting Data From Website
+
+2022-06-27 03:29:04 PM Reading file: BSI_2109
+
+2022-06-27 03:29:04 PM Downloading file: BSI_2109
+
+2022-06-27 03:29:04 PM Getting Data From Website
+
+2022-06-27 03:29:05 PM Getting Data From Website
+
+2022-06-27 03:29:07 PM Date of data file 2021-09 Not Found.
+2022-06-27 03:29:07 PM Reading file: BSI_2110
+
+2022-06-27 03:29:07 PM Downloading file: BSI_2110
+
+2022-06-27 03:29:07 PM Getting Data From Website
+
+2022-06-27 03:29:16 PM Reading file: BSI_2111
+
+2022-06-27 03:29:16 PM Downloading file: BSI_2111
+
+2022-06-27 03:29:16 PM Getting Data From Website
+
+2022-06-27 03:29:25 PM Reading file: BSI_2112
+
+2022-06-27 03:29:25 PM Downloading file: BSI_2112
+
+2022-06-27 03:29:25 PM Getting Data From Website
+
+2022-06-27 03:29:34 PM Reading file: BSI_2201
+
+2022-06-27 03:29:34 PM Downloading file: BSI_2201
+
+2022-06-27 03:29:34 PM Getting Data From Website
+
+2022-06-27 03:29:44 PM Reading file: BSI_2202
+
+2022-06-27 03:29:44 PM Downloading file: BSI_2202
+
+2022-06-27 03:29:45 PM Getting Data From Website
+
+2022-06-27 03:29:53 PM Reading file: BSI_2203
+
+2022-06-27 03:29:53 PM Downloading file: BSI_2203
+
+2022-06-27 03:29:54 PM Getting Data From Website
+
+2022-06-27 03:30:02 PM Reading file: BSI_2204
+
+2022-06-27 03:30:02 PM Downloading file: BSI_2204
+
+2022-06-27 03:30:03 PM Getting Data From Website
+
+2022-06-27 03:30:11 PM Reading file: BSI_2205
+
+2022-06-27 03:30:11 PM Downloading file: BSI_2205
+
+2022-06-27 03:30:11 PM Getting Data From Website
+
+2022-06-27 03:30:20 PM Reading file: BSI_2206
+
+2022-06-27 03:30:20 PM Downloading file: BSI_2206
+
+2022-06-27 03:30:20 PM Getting Data From Website
+
+2022-06-27 03:30:28 PM Reading file: BSI_2207
+
+2022-06-27 03:30:28 PM Downloading file: BSI_2207
+
+2022-06-27 03:30:29 PM Getting Data From Website
+
+2022-06-27 03:30:39 PM Total New Items Found: 0 Time: 5787 s
+
+2022-06-27 03:30:39 PM Reading file: Datasets, Time: 5787 s
+
+2022-06-27 03:30:39 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: M, Time: 5787s
+
+2022-06-27 03:30:42 PM Total New Items Found: 0 Time: 5790 s
+
+2022-06-27 03:30:42 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: Q, Time: 5790s
+
+2022-06-27 03:30:42 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:30:42 PM Total New Items Found: 0 Time: 5790 s
+
+2022-06-27 03:30:42 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: A, Time: 5790s
+
+2022-06-27 03:30:43 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:30:43 PM Total New Items Found: 0 Time: 5790 s
+
+2022-06-27 03:30:43 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: W, Time: 5790s
+
+2022-06-27 03:30:44 PM Total New Items Found: 0 Time: 5792 s
+
+2022-06-27 03:30:44 PM Country: South Korea, Reading file or url: https://www.investing.com/indices/kospi-historical-data, sheet: KOSPI Index, frequency: D, Time: 5792s
+
+2022-06-27 03:30:46 PM Total New Items Found: 0 Time: 5794 s
+
+2022-06-27 03:30:46 PM Reading file: Datasets, Time: 5794 s
+
+2022-06-27 03:30:47 PM Country: South Korea, Reading file or url: WSA, sheet: 0, frequency: M, Time: 5794s
+
+2022-06-27 03:30:47 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:30:47 PM Total New Items Found: 0 Time: 5795 s
+
+2022-06-27 03:30:47 PM Reading file: country_series, Time: 5795 s
+
+2022-06-27 03:30:47 PM Reading file: 534datasets, Time: 5795 s
+
+2022-06-27 03:30:47 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Trends+in+Production+of+Primary+Sources+of+Conventional+Energy, sheet: TPPSCE, frequency: A, Time: 5795s
+
+2022-06-27 03:30:47 PM Downloading file: TPPSCE
+
+2022-06-27 03:30:52 PM Getting Data From Website
+
+2022-06-27 03:31:02 PM Total New Items Found: 0 Time: 5810 s
+
+2022-06-27 03:31:02 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Availability+of+Primary+Sources+of+Energy, sheet: TAPSCE, frequency: A, Time: 5810s
+
+2022-06-27 03:31:02 PM Downloading file: TAPSCE
+
+2022-06-27 03:31:03 PM Getting Data From Website
+
+2022-06-27 03:31:13 PM Total New Items Found: 0 Time: 5821 s
+
+2022-06-27 03:31:13 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=Trends+in+Availability+of+Electricity+Net+Electricity+Available+for+Supply, sheet: TAE, frequency: A, Time: 5821s
+
+2022-06-27 03:31:13 PM Downloading file: TAE
+
+2022-06-27 03:31:14 PM Getting Data From Website
+
+2022-06-27 03:31:24 PM Total New Items Found: 0 Time: 5832 s
+
+2022-06-27 03:31:24 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=6.1+Trends+in+Consumption+of+Conventional+Sources+of+Energy, sheet: TCCSE, frequency: A, Time: 5832s
+
+2022-06-27 03:31:24 PM Downloading file: TCCSE
+
+2022-06-27 03:31:26 PM Getting Data From Website
+
+2022-06-27 03:31:36 PM Total New Items Found: 0 Time: 5844 s
+
+2022-06-27 03:31:36 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/energy-statistics-in-india-by-stateut-2014/export/?disjunctive.region&refine.region=India&q=6.6+Trends+in+Consumption+of+Petroleum+Products, sheet: TCPP, frequency: A, Time: 5844s
+
+2022-06-27 03:31:36 PM Downloading file: TCPP
+
+2022-06-27 03:31:37 PM Getting Data From Website
+
+2022-06-27 03:31:47 PM Total New Items Found: 0 Time: 5855 s
+
+2022-06-27 03:31:47 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/india-population-projection-2001-20261/export/?disjunctive.region_name&disjunctive.age_group_name&sort=date&refine.age_group_name=All+Age&q=Both+Sex, sheet: India Population Projection, frequency: A, Time: 5855s
+
+2022-06-27 03:31:47 PM Downloading file: Census Data
+
+2022-06-27 03:31:48 PM Getting Data From Website
+
+2022-06-27 03:31:58 PM Downloading file: India Population Projection
+
+2022-06-27 03:31:59 PM Getting Data From Website
+
+2022-06-27 03:32:10 PM Total New Items Found: 0 Time: 5878 s
+
+2022-06-27 03:32:10 PM Country: India, Reading file or url: https://datasource.kapsarc.org/explore/dataset/india-mortality-database-2001-2008/export/?disjunctive.region_name&disjunctive.variable_name&sort=date&refine.region_name=India, sheet: Mortality, frequency: A, Time: 5878s
+
+2022-06-27 03:32:10 PM Downloading file: Mortality
+
+2022-06-27 03:32:11 PM Getting Data From Website
+
+2022-06-27 03:32:21 PM Total New Items Found: 0 Time: 5889 s
+
+2022-06-27 03:32:21 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#1, sheet: AQEGConstant_A, frequency: A, Time: 5889s
+
+2022-06-27 03:32:21 PM Downloading file: AQEGConstant_A
+
+2022-06-27 03:32:26 PM Getting Data From Website
+
+2022-06-27 03:32:34 PM Total New Items Found: 0 Time: 5902 s
+
+2022-06-27 03:32:34 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#2, sheet: AQEGConstant_Q, frequency: Q, Time: 5902s
+
+2022-06-27 03:32:34 PM Downloading file: AQEGConstant_Q
+
+2022-06-27 03:32:34 PM Getting Data From Website
+
+2022-06-27 03:32:42 PM Total New Items Found: 0 Time: 5910 s
+
+2022-06-27 03:32:42 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#3, sheet: AQEGCurrent_A, frequency: A, Time: 5910s
+
+2022-06-27 03:32:42 PM Downloading file: AQEGCurrent_A
+
+2022-06-27 03:32:42 PM Getting Data From Website
+
+2022-06-27 03:32:50 PM Total New Items Found: 0 Time: 5918 s
+
+2022-06-27 03:32:50 PM Country: India, Reading file or url: https://mospi.gov.in/web/mospi/download-tables-data/-/reports/view/templateOne/16701?q=TBDCAT#4, sheet: AQEGCurrent_Q, frequency: Q, Time: 5918s
+
+2022-06-27 03:32:50 PM Downloading file: AQEGCurrent_Q
+
+2022-06-27 03:32:50 PM Getting Data From Website
+
+2022-06-27 03:32:58 PM Total New Items Found: 0 Time: 5926 s
+
+2022-06-27 03:32:58 PM Country: India, Reading file or url: http://164.100.161.63/download-reports?main_cat=NzI2&cat=All&sub_category=All#1, sheet: PCIPFC, frequency: A, Time: 5926s
+
+2022-06-27 03:32:58 PM Downloading file: PCIPFC
+
+2022-06-27 03:33:08 PM Getting Data From Website
+
+2022-06-27 03:33:24 PM Total New Items Found: 0 Time: 5952 s
+
+2022-06-27 03:33:24 PM Country: India, Reading file or url: http://164.100.161.63/download-reports?main_cat=NzI2&cat=All&sub_category=All#2, sheet: KEYAGG, frequency: A, Time: 5952s
+
+2022-06-27 03:33:24 PM Downloading file: KEYAGG
+
+2022-06-27 03:33:24 PM Getting Data From Website
+
+2022-06-27 03:33:40 PM Total New Items Found: 0 Time: 5968 s
+
+2022-06-27 03:33:40 PM Country: India, Reading file or url: http://164.100.161.63/publication/statistical-year-book-india, sheet: TOURISM, frequency: A, Time: 5968s
+
+2022-06-27 03:33:40 PM Downloading file: TOURISM
+
+2022-06-27 03:33:43 PM Getting Data From Website
+
+2022-06-27 03:34:05 PM Total New Items Found: 0 Time: 5993 s
+
+2022-06-27 03:34:05 PM Country: India, Reading file or url: http://164.100.161.63/iip#1, sheet: IIPNIC, frequency: M, Time: 5993s
+
+2022-06-27 03:34:05 PM Downloading file: IIPNIC
+
+2022-06-27 03:34:10 PM Getting Data From Website
+
+2022-06-27 03:34:18 PM Total New Items Found: 0 Time: 6006 s
+
+2022-06-27 03:34:18 PM Country: India, Reading file or url: http://164.100.161.63/iip#2, sheet: IIPUBC, frequency: M, Time: 6006s
+
+2022-06-27 03:34:18 PM Downloading file: IIPUBC
+
+2022-06-27 03:34:18 PM Getting Data From Website
+
+2022-06-27 03:34:27 PM Total New Items Found: 0 Time: 6014 s
+
+2022-06-27 03:34:27 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1004, sheet: Indian Production of Jowar, frequency: A, Time: 6015s
+
+2022-06-27 03:34:27 PM Downloading file: Indian Production of Jowar
+
+2022-06-27 03:34:31 PM Getting Data From Website
+
+2022-06-27 03:34:34 PM Total New Items Found: 0 Time: 6022 s
+
+2022-06-27 03:34:34 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1002, sheet: Indian Production of Bajra, frequency: A, Time: 6022s
+
+2022-06-27 03:34:34 PM Downloading file: Indian Production of Bajra
+
+2022-06-27 03:34:37 PM Getting Data From Website
+
+2022-06-27 03:34:40 PM Total New Items Found: 0 Time: 6028 s
+
+2022-06-27 03:34:40 PM Country: India, Reading file or url: http://apeda.in/agriexchange/India%20Production/India_Productions.aspx?cat=Agri&hscode=1009, sheet: Indian Production of Maize, frequency: A, Time: 6028s
+
+2022-06-27 03:34:40 PM Downloading file: Indian Production of Maize
+
+2022-06-27 03:34:43 PM Getting Data From Website
+
+2022-06-27 03:34:46 PM Total New Items Found: 0 Time: 6034 s
+
+2022-06-27 03:34:48 PM Country: India, Reading file or url: https://tradestat.commerce.gov.in/eidb/ergnq.asp, sheet: Merchandise_Trade_Exports, frequency: A, Time: 6036s
+
+2022-06-27 03:34:48 PM Downloading file: Merchandise_Trade_Exports
+
+2022-06-27 03:34:50 PM Getting Data From Website
+
+2022-06-27 03:34:54 PM Total New Items Found: 0 Time: 6042 s
+
+2022-06-27 03:34:54 PM Country: India, Reading file or url: https://tradestat.commerce.gov.in/eidb/irgnq.asp, sheet: Merchandise_Trade_Imports, frequency: A, Time: 6042s
+
+2022-06-27 03:34:54 PM Downloading file: Merchandise_Trade_Imports
+
+2022-06-27 03:34:55 PM Getting Data From Website
+
+2022-06-27 03:34:58 PM Total New Items Found: 0 Time: 6046 s
+
+2022-06-27 03:34:59 PM Country: India, Reading file or url: Central Government Borrowings, sheet: 0, frequency: Q, Time: 6047s
+
+2022-06-27 03:34:59 PM Total New Items Found: 0 Time: 6047 s
+
+2022-06-27 03:34:59 PM Reading file: Datasets, Time: 6047 s
+
+2022-06-27 03:34:59 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: M, Time: 6047s
+
+2022-06-27 03:35:01 PM Total New Items Found: 0 Time: 6049 s
+
+2022-06-27 03:35:01 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: Q, Time: 6049s
+
+2022-06-27 03:35:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:35:01 PM Total New Items Found: 0 Time: 6049 s
+
+2022-06-27 03:35:01 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: A, Time: 6049s
+
+2022-06-27 03:35:01 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:35:01 PM Total New Items Found: 0 Time: 6049 s
+
+2022-06-27 03:35:01 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: W, Time: 6049s
+
+2022-06-27 03:35:03 PM Total New Items Found: 0 Time: 6050 s
+
+2022-06-27 03:35:03 PM Country: India, Reading file or url: https://www.investing.com/indices/s-p-bse-100-historical-data, sheet: BSE Index, frequency: D, Time: 6050s
+
+2022-06-27 03:35:05 PM Total New Items Found: 0 Time: 6053 s
+
+2022-06-27 03:35:05 PM Country: India, Reading file or url: https://www.investing.com/indices/sensex-historical-data, sheet: BSE Index, frequency: W, Time: 6053s
+
+2022-06-27 03:35:09 PM Total New Items Found: 0 Time: 6056 s
+
+2022-06-27 03:35:09 PM Country: India, Reading file or url: https://www.investing.com/indices/sensex-historical-data, sheet: BSE Index, frequency: D, Time: 6056s
+
+2022-06-27 03:35:12 PM Total New Items Found: 0 Time: 6060 s
+
+2022-06-27 03:35:12 PM Reading file: Datasets, Time: 6060 s
+
+2022-06-27 03:35:12 PM Country: India, Reading file or url: WSA, sheet: 0, frequency: M, Time: 6060s
+
+2022-06-27 03:35:12 PM Present File Exists. Reading Data From Default Path.
+
+2022-06-27 03:35:12 PM Total New Items Found: 0 Time: 6060 s
+
+2022-06-27 03:35:12 PM Reading file: country_series, Time: 6060 s
+
+2022-06-27 03:35:12 PM Reading file: 536datasets, Time: 6060 s
+
+2022-06-27 03:35:13 PM Country: Indonesia, Reading file or url: https://www.bps.go.id/subject/8/ekspor-impor.html#subjekViewTab5#1, sheet: GOODS, frequency: A, Time: 6061s
+
+2022-06-27 03:35:13 PM Downloading file: GOODS
+
+2022-06-27 03:53:32 PM Getting Data From Website
+
+2022-06-27 03:55:05 PM Total New Items Found: 0 Time: 7253 s
+
+2022-06-27 03:55:05 PM Country: Indonesia, Reading file or url: https://www.bps.go.id/subject/6/tenaga-kerja.html#subjekViewTab5, sheet: LABOR, frequency: S, Time: 7253s
+
+2022-06-27 03:55:05 PM Downloading file: LABOR
+
+2022-06-27 03:55:07 PM Getting Data From Website
+
+2022-06-27 03:55:57 PM Total New Items Found: 0 Time: 7305 s
+
+2022-06-27 03:55:58 PM Country: Indonesia, Reading file or url: https://www.bps.go.id/subject/9/large-and-medium-manufacturing.html#subjekViewTab5#1, sheet: LMMQ, frequency: Q, Time: 7305s
+
+2022-06-27 03:55:58 PM Downloading file: LMMQ
+
+2022-06-27 03:55:59 PM Getting Data From Website
+
+2022-06-27 03:57:07 PM Total New Items Found: 0 Time: 7375 s
+
+2022-06-27 03:57:07 PM Country: Indonesia, Reading file or url: https://www.bps.go.id/subject/9/large-and-medium-manufacturing.html#subjekViewTab5#2, sheet: LMMM, frequency: M, Time: 7375s
+
+2022-06-27 03:57:07 PM Downloading file: LMMM
+
+2022-06-27 03:57:07 PM Getting Data From Website
+
+2022-06-27 03:58:49 PM Total New Items Found: 0 Time: 7477 s
+
+2022-06-27 03:58:49 PM Country: Indonesia, Reading file or url: https://www.bps.go.id/subject/3/inflasi.html#subjekViewTab5, sheet: CPIM, frequency: M, Time: 7477s
+
+2022-06-27 03:58:49 PM Downloading file: CPIM
+
+2022-06-27 03:58:51 PM Getting Data From Website
+

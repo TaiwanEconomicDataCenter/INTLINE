@@ -7,7 +7,7 @@ Unit,"100 million yen","100 million yen","100 million yen","100 million yen","10
 Statistical category,"Flow of Funds (2008 SNA)","Flow of Funds (2008 SNA)","Flow of Funds (2008 SNA)","Flow of Funds (2008 SNA)","Flow of Funds (2008 SNA)","TANKAN/Annual Projections/Software, R&D, and Fixed Investment (Compiled under the New Lease Accounting Standard)"
 Observation,"END","END","END","END","END","AVERAGED"
 start of time-series,"1979","1979","1979","1979","1979","2016"
-End of time-series,"2020","2020","2020","2020","2020","2020"
+End of time-series,"2021","2021","2021","2021","2021","2020"
 Frequency,ANNUAL(MAR),ANNUAL(MAR),ANNUAL(MAR),ANNUAL(MAR),ANNUAL(MAR),ANNUAL(MAR)
 
 Notes,"Data up until fiscal year 2003 are based on the 1993SNA. Data from fiscal year 2004 onward are based on the 2008SNA.","Data up until fiscal year 2003 are based on the 1993SNA and calculated by the formula; Securities other than shares - Investment trust beneficiary certificates. Data from fiscal year 2004 onward are based on the 2008SNA.","Data up until fiscal year 2003 are based on the 1993SNA. Data from fiscal year 2004 onward are based on the 2008SNA. There is a discontinuity in the data series between fiscal year 2003 and fiscal year 2004.","Data up until fiscal year 2003 are those of Insurance and pension reserves based on the 1993SNA. Data from fiscal year 2004 onward are based on the 2008SNA. There is a discontinuity in the data series between fiscal year 2003 and fiscal year 2004 due to changes in the compilation methods of pension entitlements, insurance, etc.","Data up until fiscal year 2003 are based on the 1993SNA. Data from fiscal year 2004 onward are based on the 2008SNA. There is a discontinuity in the data series between fiscal year 2003 and fiscal year 2004 due to changes in the compilation methods of pension entitlements, etc.",""
@@ -115,20 +115,21 @@ Notes,"Data up until fiscal year 2003 are based on the 1993SNA. Data from fiscal
 2001,7654295,418026,925699,4186319,50049,
 2002,7656957,341711,779970,4232745,67505,
 2003,7723379,322299,1237440,4130719,103789,
-2004,7890276,377794,1428533,4819288,11463,
-2005,7855911,410697,2082480,4828674,21619,
-2006,7863901,436939,2064633,4841425,32770,
-2007,7942480,444843,1227853,4752336,27525,
-2008,8056032,431331,894888,4671153,23120,
-2009,8182802,419838,1065043,4713634,24126,
-2010,8317855,382812,1095930,4742285,16281,
-2011,8511722,348363,1114699,4780272,14195,
-2012,8667296,316623,1367069,4943478,14932,
-2013,8848377,291054,1524984,4973141,10050,
-2014,9037516,269328,1748474,5162971,10460,
-2015,9189207,254838,1714788,5186645,11347,
-2016,9401013,254938,1826048,5196081,17952,0.3
-2017,9604305,240786,2198018,5234636,27678,4.6
-2018,9794096,251049,1897943,5280191,32300,5.1
-2019,10004155,264608,1472967,5265292,29465,1.6
-2020,10573653,264987,2100914,5382593,38225,-8.5
+2004,7890276,377794,1439249,4813061,11511,
+2005,7855911,410697,2094888,4819817,18354,
+2006,7863901,436939,2075310,4831853,32582,
+2007,7942480,444843,1238056,4747189,27288,
+2008,8056032,431331,903957,4675439,19222,
+2009,8182802,419838,1075377,4713551,22493,
+2010,8317855,382812,1105493,4744621,15457,
+2011,8511722,348363,1124803,4783188,13266,
+2012,8667296,316623,1380180,4941297,13890,
+2013,8848377,291054,1534001,4965799,10250,
+2014,9037516,269328,1759274,5148900,12237,
+2015,9189207,255216,1717415,5177941,11697,
+2016,9401013,255565,1829291,5185077,18382,0.3
+2017,9604305,241821,2203058,5204663,28226,4.6
+2018,9794096,252820,1904083,5253259,32965,5.1
+2019,10004137,269279,1478076,5242117,27869,1.6
+2020,10574869,268074,2051755,5353523,29180,-8.5
+2021,10884086,256795,2039293,5396626,41167,

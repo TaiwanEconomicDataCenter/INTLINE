@@ -1,4 +1,23 @@
 Value;Year;Region;Chapter;Table;Indicator;Energy Source
+836.727;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+501977.0;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+837.22;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+;2020-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+874208.5665;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+232.864798;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+713.389;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+43.155;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+52.5128551574423;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+;2005-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+46.313;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+32.989;2008-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+60.7943879625495;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+1061182.63826993;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+219.211779;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+549.567;2008-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+593.004;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+;2020-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+59.1701564660069;2017-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
 64.4503336248702;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
 ;2005-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
 824300.99;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
@@ -13,20 +32,18 @@ Value;Year;Region;Chapter;Table;Indicator;Energy Source
 ;2005-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
 146.55;2006-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
 196.989166;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-502.82;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-638.734;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-43.897;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-55.6979176189682;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-42.211;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-64.1432120090671;2019-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-822.131;2014-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-186.55;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-222.496782;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-254.385938655425;2019-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-41.883;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-52.3715768022769;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-455749.0;2006-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-204.121392;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+37.685;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+39.8;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+57.3642365398185;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+694392.0;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+587.81;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+1123426.8571124;2017-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+1209971.63286042;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+45.81;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+612644.99;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+1001190.68430858;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+30.81;2006-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+34.65;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
 739.342;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
 34.41;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
 46.317;2017-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
@@ -48,34 +65,17 @@ Value;Year;Region;Chapter;Table;Indicator;Energy Source
 46.954;2014-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
 245.362119;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
 ;2005-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-37.685;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-39.8;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-57.3642365398185;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-694392.0;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-587.81;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-1123426.8571124;2017-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-1209971.63286042;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-45.81;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-612644.99;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-1001190.68430858;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-30.81;2006-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-34.65;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-836.727;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-501977.0;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-837.22;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-;2020-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-874208.5665;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-232.864798;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-713.389;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-43.155;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-52.5128551574423;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-;2005-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-46.313;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-32.989;2008-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-60.7943879625495;2018-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
-1061182.63826993;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
-219.211779;2012-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
-549.567;2008-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-593.004;2010-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
-;2020-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
-59.1701564660069;2017-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+502.82;2007-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+638.734;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+43.897;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+55.6979176189682;2016-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+42.211;2015-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+64.1432120090671;2019-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+822.131;2014-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Coal
+186.55;2009-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+222.496782;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+254.385938655425;2019-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil
+41.883;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Lignite
+52.3715768022769;2013-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Natural Gas
+455749.0;2006-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Electricity
+204.121392;2011-01-01;India;Consumption Of Energy Resources;6.1: Trends in Consumption of Conventional Sources of Energy;Trends in Consumption of Energy Sources;Crude Oil

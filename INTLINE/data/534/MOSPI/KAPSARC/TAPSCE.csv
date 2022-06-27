@@ -1,4 +1,14 @@
 Value;Year;Region;Chapter;Table;Indicator;Energy Source
+482.37;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+45.47554;2015-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+;2005-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+33.31;2007-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+166.281;2008-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+550.643;2008-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+42.773;2011-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+46.82659;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+827.516;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
 507.68;2007-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
 47.31774;2016-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
 227.026642783375;2013-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
@@ -11,32 +21,6 @@ Value;Year;Region;Chapter;Table;Indicator;Energy Source
 ;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
 ;2005-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
 145.49;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-620.39;2009-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-688.753;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-49.58379;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-41.88759;2019-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-52.3715768022769;2013-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-51.2957258153303;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-222.65723388938;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-;2005-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-52.5128551574423;2015-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-59.1701564660069;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-256.117125030831;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-958.249;2018-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-37.6;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-44.63733;2013-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-46.977;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-64.1432120090671;2019-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-155.79;2007-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-858.576;2016-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-896.086;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-31.76;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-59.41;2009-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-201.27868;2010-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-260.700860028923;2018-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-607.060598;2010-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
 32.996;2008-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
 33.73;2009-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
 55.6979176189682;2016-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
@@ -53,13 +37,29 @@ Value;Year;Region;Chapter;Table;Indicator;Energy Source
 847.576;2015-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
 1002.15328;2019-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
 42.68543;2018-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-482.37;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-45.47554;2015-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-;2005-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
-33.31;2007-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-166.281;2008-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
-550.643;2008-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
-42.773;2011-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-46.82659;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
-827.516;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+958.249;2018-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+37.6;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+44.63733;2013-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+46.977;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+64.1432120090671;2019-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+155.79;2007-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+858.576;2016-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+896.086;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+31.76;2006-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+59.41;2009-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+201.27868;2010-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+260.700860028923;2018-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+607.060598;2010-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+;2020-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+620.39;2009-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+688.753;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+49.58379;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+41.88759;2019-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Lignite
+52.3715768022769;2013-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+51.2957258153303;2014-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+222.65723388938;2012-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
+;2005-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Coal
+52.5128551574423;2015-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+59.1701564660069;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Natural Gas
+256.117125030831;2017-01-01;India;Availability of Energy Sources;5.1: Trends in Availability of Primary Sources of Conventional Energy;Availability of Primary Energy;Crude Oil
