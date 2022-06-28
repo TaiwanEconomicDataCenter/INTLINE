@@ -1,1685 +1,1293 @@
-﻿2022-06-28 03:20:13 PM excel_suffix: test
+﻿2022-06-28 03:48:36 PM excel_suffix: test
 
-2022-06-28 03:20:13 PM data_processing: True
+2022-06-28 03:48:36 PM data_processing: True
 
-2022-06-28 03:20:13 PM find_unknown: False
+2022-06-28 03:48:36 PM find_unknown: False
 
-2022-06-28 03:20:13 PM dealing_start_year: 1901
+2022-06-28 03:48:36 PM dealing_start_year: 1901
 
-2022-06-28 03:20:19 PM Data Processing
+2022-06-28 03:48:41 PM Data Processing
 
-2022-06-28 03:20:19 PM Reading table: Country, Time: 5s
+2022-06-28 03:48:41 PM Reading table: Country, Time: 4s
 
-2022-06-28 03:20:19 PM Reading table: TABLES, Time: 6 s
+2022-06-28 03:48:41 PM Reading table: TABLES, Time: 5 s
 
-2022-06-28 03:20:25 PM Reading file: country_series, Time: 12 s
+2022-06-28 03:48:47 PM Reading file: country_series, Time: 11 s
 
-2022-06-28 03:20:25 PM Reading file: 136datasets, Time: 12 s
+2022-06-28 03:48:47 PM Reading file: 136datasets, Time: 11 s
 
-2022-06-28 03:20:25 PM 
+2022-06-28 03:48:48 PM 
 
-2022-06-28 03:20:25 PM ====== WebDriver manager ======
-2022-06-28 03:20:26 PM Current google-chrome version is 102.0.5005
-2022-06-28 03:20:26 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-28 03:20:26 PM Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
-2022-06-28 03:20:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 14s
+2022-06-28 03:48:48 PM ====== WebDriver manager ======
+2022-06-28 03:48:48 PM Current google-chrome version is 102.0.5005
+2022-06-28 03:48:48 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
+2022-06-28 03:48:48 PM Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
+2022-06-28 03:48:49 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54757, sheet: Sequence of accounts current prices, frequency: A, Time: 13s
 
-2022-06-28 03:20:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:49 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:49 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:27 PM Total New Items Found: 0 Time: 14 s
+2022-06-28 03:48:49 PM Total New Items Found: 0 Time: 13 s
 
-2022-06-28 03:20:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 14s
+2022-06-28 03:48:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54758, sheet: Sequence of accounts chain linked, frequency: A, Time: 13s
 
-2022-06-28 03:20:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:27 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Total New Items Found: 0 Time: 14 s
+2022-06-28 03:48:50 PM Total New Items Found: 0 Time: 13 s
 
-2022-06-28 03:20:28 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 14s
+2022-06-28 03:48:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54759, sheet: Output and value added by industry basic prices current prices, frequency: A, Time: 13s
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Total New Items Found: 0 Time: 14 s
+2022-06-28 03:48:50 PM Total New Items Found: 0 Time: 14 s
 
-2022-06-28 03:20:28 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54760, sheet: Output and value added by industry basic prices chain linked, frequency: A, Time: 15s
+2022-06-28 03:48:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54760, sheet: Output and value added by industry basic prices chain linked, frequency: A, Time: 14s
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Total New Items Found: 0 Time: 15 s
+2022-06-28 03:48:50 PM Total New Items Found: 0 Time: 14 s
 
-2022-06-28 03:20:28 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54761, sheet: Output and value added by industry factor cost current prices, frequency: A, Time: 15s
+2022-06-28 03:48:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54761, sheet: Output and value added by industry factor cost current prices, frequency: A, Time: 14s
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:50 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Total New Items Found: 0 Time: 15 s
+2022-06-28 03:48:50 PM Total New Items Found: 0 Time: 14 s
 
-2022-06-28 03:20:28 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54762, sheet: Output and value added by industry factor cost chain linked, frequency: A, Time: 15s
+2022-06-28 03:48:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54762, sheet: Output and value added by industry factor cost chain linked, frequency: A, Time: 14s
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:28 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Total New Items Found: 0 Time: 15 s
+2022-06-28 03:48:51 PM Total New Items Found: 0 Time: 14 s
 
-2022-06-28 03:20:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54763, sheet: Output and value added by industry basic prices in previous year prices, frequency: A, Time: 15s
+2022-06-28 03:48:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54763, sheet: Output and value added by industry basic prices in previous year prices, frequency: A, Time: 14s
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:51 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Total New Items Found: 0 Time: 15 s
+2022-06-28 03:48:52 PM Total New Items Found: 0 Time: 15 s
 
-2022-06-28 03:20:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54764, sheet: Output and value added by industry factor cost in previous year prices, frequency: A, Time: 16s
+2022-06-28 03:48:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54764, sheet: Output and value added by industry factor cost in previous year prices, frequency: A, Time: 15s
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Total New Items Found: 0 Time: 16 s
+2022-06-28 03:48:52 PM Total New Items Found: 0 Time: 16 s
 
-2022-06-28 03:20:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54765, sheet: Compensation of employees, frequency: A, Time: 16s
+2022-06-28 03:48:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54765, sheet: Compensation of employees, frequency: A, Time: 16s
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Total New Items Found: 0 Time: 16 s
+2022-06-28 03:48:52 PM Total New Items Found: 0 Time: 16 s
 
-2022-06-28 03:20:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54766, sheet: Wages and Salaries, frequency: A, Time: 16s
+2022-06-28 03:48:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54766, sheet: Wages and Salaries, frequency: A, Time: 16s
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:52 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Total New Items Found: 0 Time: 16 s
+2022-06-28 03:48:52 PM Total New Items Found: 0 Time: 16 s
 
-2022-06-28 03:20:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54767, sheet: Employers' Social Contributions, frequency: A, Time: 16s
+2022-06-28 03:48:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54767, sheet: Employers' Social Contributions, frequency: A, Time: 16s
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Total New Items Found: 0 Time: 17 s
+2022-06-28 03:48:53 PM Total New Items Found: 0 Time: 16 s
 
-2022-06-28 03:20:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54768, sheet: Gross fixed capital formation total current prices, frequency: A, Time: 17s
+2022-06-28 03:48:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54768, sheet: Gross fixed capital formation total current prices, frequency: A, Time: 16s
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Total New Items Found: 0 Time: 17 s
+2022-06-28 03:48:53 PM Total New Items Found: 0 Time: 17 s
 
-2022-06-28 03:20:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54769, sheet: Gross fixed capital formation total chain linked, frequency: A, Time: 17s
+2022-06-28 03:48:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54769, sheet: Gross fixed capital formation total chain linked, frequency: A, Time: 17s
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:30 PM Total New Items Found: 0 Time: 17 s
+2022-06-28 03:48:53 PM Total New Items Found: 0 Time: 17 s
 
-2022-06-28 03:20:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54770, sheet: Gross fixed capital formation agriculture current prices, frequency: A, Time: 17s
+2022-06-28 03:48:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54770, sheet: Gross fixed capital formation agriculture current prices, frequency: A, Time: 17s
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Total New Items Found: 0 Time: 17 s
+2022-06-28 03:48:53 PM Total New Items Found: 0 Time: 17 s
 
-2022-06-28 03:20:31 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54771, sheet: Gross fixed capital formation agriculture chain linked, frequency: A, Time: 17s
+2022-06-28 03:48:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54771, sheet: Gross fixed capital formation agriculture chain linked, frequency: A, Time: 17s
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Total New Items Found: 0 Time: 17 s
+2022-06-28 03:48:54 PM Total New Items Found: 0 Time: 17 s
 
-2022-06-28 03:20:31 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54772, sheet: Gross fixed capital formation industry current prices, frequency: A, Time: 18s
+2022-06-28 03:48:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54772, sheet: Gross fixed capital formation industry current prices, frequency: A, Time: 17s
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Total New Items Found: 0 Time: 18 s
+2022-06-28 03:48:54 PM Total New Items Found: 0 Time: 18 s
 
-2022-06-28 03:20:31 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54773, sheet: Gross fixed capital formation industry chain linked, frequency: A, Time: 18s
+2022-06-28 03:48:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54773, sheet: Gross fixed capital formation industry chain linked, frequency: A, Time: 18s
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Total New Items Found: 0 Time: 18 s
+2022-06-28 03:48:54 PM Total New Items Found: 0 Time: 18 s
 
-2022-06-28 03:20:31 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54774, sheet: Gross fixed capital formation construction current prices, frequency: A, Time: 18s
+2022-06-28 03:48:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54774, sheet: Gross fixed capital formation construction current prices, frequency: A, Time: 18s
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:31 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:32 PM Total New Items Found: 0 Time: 18 s
+2022-06-28 03:48:54 PM Total New Items Found: 0 Time: 18 s
 
-2022-06-28 03:20:32 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54775, sheet: Gross fixed capital formation construction chain linked, frequency: A, Time: 18s
+2022-06-28 03:48:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54775, sheet: Gross fixed capital formation construction chain linked, frequency: A, Time: 18s
 
-2022-06-28 03:20:32 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:32 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:32 PM Total New Items Found: 0 Time: 18 s
+2022-06-28 03:48:55 PM Total New Items Found: 0 Time: 18 s
 
-2022-06-28 03:20:32 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54776, sheet: Gross fixed capital formation wholesale current prices, frequency: A, Time: 18s
+2022-06-28 03:48:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54776, sheet: Gross fixed capital formation wholesale current prices, frequency: A, Time: 18s
 
-2022-06-28 03:20:32 PM Downloading file: Gross fixed capital formation wholesale current prices
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:20:52 PM Getting Data From Website
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:07 PM Total New Items Found: 0 Time: 53 s
+2022-06-28 03:48:55 PM Total New Items Found: 0 Time: 18 s
 
-2022-06-28 03:21:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54777, sheet: Gross fixed capital formation wholesale chain linked, frequency: A, Time: 53s
+2022-06-28 03:48:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54777, sheet: Gross fixed capital formation wholesale chain linked, frequency: A, Time: 19s
 
-2022-06-28 03:21:07 PM Downloading file: Gross fixed capital formation wholesale chain linked
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:15 PM Getting Data From Website
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:29 PM Total New Items Found: 0 Time: 75 s
+2022-06-28 03:48:55 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-28 03:21:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54778, sheet: Gross fixed capital formation financial current prices, frequency: A, Time: 76s
+2022-06-28 03:48:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54778, sheet: Gross fixed capital formation financial current prices, frequency: A, Time: 19s
 
-2022-06-28 03:21:29 PM Downloading file: Gross fixed capital formation financial current prices
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:37 PM Getting Data From Website
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:51 PM Total New Items Found: 0 Time: 97 s
+2022-06-28 03:48:55 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-28 03:21:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54779, sheet: Gross fixed capital formation financial chain linked, frequency: A, Time: 97s
+2022-06-28 03:48:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54779, sheet: Gross fixed capital formation financial chain linked, frequency: A, Time: 19s
 
-2022-06-28 03:21:51 PM Downloading file: Gross fixed capital formation financial chain linked
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:21:59 PM Getting Data From Website
+2022-06-28 03:48:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:22:13 PM Total New Items Found: 0 Time: 120 s
+2022-06-28 03:48:56 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-28 03:22:14 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54780, sheet: Gross fixed capital formation other current prices, frequency: A, Time: 120s
+2022-06-28 03:48:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54780, sheet: Gross fixed capital formation other current prices, frequency: A, Time: 19s
 
-2022-06-28 03:22:14 PM Downloading file: Gross fixed capital formation other current prices
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:22:23 PM Getting Data From Website
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:22:37 PM Total New Items Found: 0 Time: 143 s
+2022-06-28 03:48:56 PM Total New Items Found: 0 Time: 19 s
 
-2022-06-28 03:22:37 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54781, sheet: Gross fixed capital formation other chain linked, frequency: A, Time: 143s
+2022-06-28 03:48:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54781, sheet: Gross fixed capital formation other chain linked, frequency: A, Time: 19s
 
-2022-06-28 03:22:37 PM Downloading file: Gross fixed capital formation other chain linked
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:22:44 PM Getting Data From Website
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:22:59 PM Total New Items Found: 0 Time: 166 s
+2022-06-28 03:48:56 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-28 03:22:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54782, sheet: Stocks of fixed assets total chain linked, frequency: A, Time: 166s
+2022-06-28 03:48:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54782, sheet: Stocks of fixed assets total chain linked, frequency: A, Time: 20s
 
-2022-06-28 03:22:59 PM Downloading file: Stocks of fixed assets total chain linked
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:23:19 PM Getting Data From Website
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:23:33 PM Total New Items Found: 0 Time: 200 s
+2022-06-28 03:48:56 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-28 03:23:34 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54783, sheet: Stocks of fixed assets construction chain linked, frequency: A, Time: 200s
+2022-06-28 03:48:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54783, sheet: Stocks of fixed assets construction chain linked, frequency: A, Time: 20s
 
-2022-06-28 03:23:34 PM Downloading file: Stocks of fixed assets construction chain linked
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:23:40 PM Getting Data From Website
+2022-06-28 03:48:56 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:23:54 PM Total New Items Found: 0 Time: 221 s
+2022-06-28 03:48:56 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-28 03:23:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54784, sheet: Stocks of fixed assets transport chain linked, frequency: A, Time: 221s
+2022-06-28 03:48:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54784, sheet: Stocks of fixed assets transport chain linked, frequency: A, Time: 20s
 
-2022-06-28 03:23:55 PM Downloading file: Stocks of fixed assets transport chain linked
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:24:15 PM Getting Data From Website
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:24:29 PM Total New Items Found: 0 Time: 256 s
+2022-06-28 03:48:57 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-28 03:24:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54785, sheet: Stocks of fixed assets other machinery chain linked, frequency: A, Time: 256s
+2022-06-28 03:48:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54785, sheet: Stocks of fixed assets other machinery chain linked, frequency: A, Time: 20s
 
-2022-06-28 03:24:30 PM Downloading file: Stocks of fixed assets other machinery chain linked
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:24:50 PM Getting Data From Website
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:25:04 PM Total New Items Found: 0 Time: 290 s
+2022-06-28 03:48:57 PM Total New Items Found: 0 Time: 20 s
 
-2022-06-28 03:25:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54786, sheet: Employment in full time equivalent employed, frequency: A, Time: 290s
+2022-06-28 03:48:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54786, sheet: Employment in full time equivalent employed, frequency: A, Time: 21s
 
-2022-06-28 03:25:04 PM Downloading file: Employment in full time equivalent employed
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:25:24 PM Getting Data From Website
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:25:39 PM Total New Items Found: 0 Time: 326 s
+2022-06-28 03:48:57 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-28 03:25:39 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54787, sheet: Employment in full time equivalent employees, frequency: A, Time: 326s
+2022-06-28 03:48:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54787, sheet: Employment in full time equivalent employees, frequency: A, Time: 21s
 
-2022-06-28 03:25:40 PM Downloading file: Employment in full time equivalent employees
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:26:00 PM Getting Data From Website
+2022-06-28 03:48:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:26:14 PM Total New Items Found: 0 Time: 361 s
+2022-06-28 03:48:57 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-28 03:26:14 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54788, sheet: Population, frequency: A, Time: 361s
+2022-06-28 03:48:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54788, sheet: Population, frequency: A, Time: 21s
 
-2022-06-28 03:26:14 PM Downloading file: Population
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:26:22 PM Getting Data From Website
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:26:40 PM Total New Items Found: 0 Time: 386 s
+2022-06-28 03:48:58 PM Total New Items Found: 0 Time: 21 s
 
-2022-06-28 03:26:40 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54789, sheet: Economic account general government, frequency: A, Time: 387s
+2022-06-28 03:48:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54789, sheet: Economic account general government, frequency: A, Time: 21s
 
-2022-06-28 03:26:40 PM Downloading file: Economic account general government
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:27:00 PM Getting Data From Website
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:27:17 PM Total New Items Found: 0 Time: 423 s
+2022-06-28 03:48:58 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-28 03:27:17 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54815, sheet: Economic account central government, frequency: A, Time: 423s
+2022-06-28 03:48:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54815, sheet: Economic account central government, frequency: A, Time: 22s
 
-2022-06-28 03:27:17 PM Downloading file: Economic account central government
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:27:26 PM Getting Data From Website
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:27:47 PM Total New Items Found: 0 Time: 453 s
+2022-06-28 03:48:58 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-28 03:27:47 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54816, sheet: Economic account local government, frequency: A, Time: 453s
+2022-06-28 03:48:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54816, sheet: Economic account local government, frequency: A, Time: 22s
 
-2022-06-28 03:27:47 PM Downloading file: Economic account local government
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:27:55 PM Getting Data From Website
+2022-06-28 03:48:58 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:28:14 PM Total New Items Found: 0 Time: 481 s
+2022-06-28 03:48:58 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-28 03:28:14 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54817, sheet: Economic account social security funds, frequency: A, Time: 481s
+2022-06-28 03:48:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54817, sheet: Economic account social security funds, frequency: A, Time: 22s
 
-2022-06-28 03:28:14 PM Downloading file: Economic account social security funds
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:28:35 PM Getting Data From Website
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:28:54 PM Total New Items Found: 0 Time: 521 s
+2022-06-28 03:48:59 PM Total New Items Found: 0 Time: 22 s
 
-2022-06-28 03:28:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54818, sheet: Sequence of accounts and stock of non-financial assets by institutional sector, frequency: A, Time: 521s
+2022-06-28 03:48:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54818, sheet: Sequence of accounts and stock of non-financial assets by institutional sector, frequency: A, Time: 22s
 
-2022-06-28 03:28:55 PM Downloading file: Sequence of accounts and stock of non-financial assets by institutional sector
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:29:15 PM Getting Data From Website
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:29:45 PM Total New Items Found: 0 Time: 572 s
+2022-06-28 03:48:59 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-28 03:29:46 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54819, sheet: Social protection accounts health, frequency: A, Time: 572s
+2022-06-28 03:48:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54819, sheet: Social protection accounts health, frequency: A, Time: 23s
 
-2022-06-28 03:29:46 PM Downloading file: Social protection accounts health
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:30:06 PM Getting Data From Website
+2022-06-28 03:48:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:30:23 PM Total New Items Found: 0 Time: 609 s
+2022-06-28 03:49:00 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-28 03:30:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54820, sheet: Social protection accounts social security, frequency: A, Time: 610s
+2022-06-28 03:49:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54820, sheet: Social protection accounts social security, frequency: A, Time: 23s
 
-2022-06-28 03:30:23 PM Downloading file: Social protection accounts social security
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:30:29 PM Getting Data From Website
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:30:43 PM Total New Items Found: 0 Time: 629 s
+2022-06-28 03:49:00 PM Total New Items Found: 0 Time: 23 s
 
-2022-06-28 03:30:43 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54821, sheet: Social protection accounts social assistance, frequency: A, Time: 629s
+2022-06-28 03:49:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54821, sheet: Social protection accounts social assistance, frequency: A, Time: 23s
 
-2022-06-28 03:30:43 PM Downloading file: Social protection accounts social assistance
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:30:50 PM Getting Data From Website
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:05 PM Total New Items Found: 0 Time: 652 s
+2022-06-28 03:49:00 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-28 03:31:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54822, sheet: Gross domestic product and expenditure components chain linked, frequency: Q, Time: 652s
+2022-06-28 03:49:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54822, sheet: Gross domestic product and expenditure components chain linked, frequency: Q, Time: 24s
 
-2022-06-28 03:31:05 PM Downloading file: Gross domestic product and expenditure components current prices
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:18 PM Getting Data From Website
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:32 PM Downloading file: Gross domestic product and expenditure components chain linked
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:41 PM Getting Data From Website
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:55 PM Latest Base Year Received.
+2022-06-28 03:49:00 PM Latest Base Year Received.
 
-2022-06-28 03:31:56 PM Total New Items Found: 0 Time: 703 s
+2022-06-28 03:49:00 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-28 03:31:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54823, sheet: Gross domestic product and expenditure components current prices, frequency: Q, Time: 703s
+2022-06-28 03:49:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54823, sheet: Gross domestic product and expenditure components current prices, frequency: Q, Time: 24s
 
-2022-06-28 03:31:56 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:56 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:00 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:31:57 PM Total New Items Found: 0 Time: 703 s
+2022-06-28 03:49:01 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-28 03:31:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54824, sheet: National Accounts quarterly main aggregates Value added by industry current prices, frequency: Q, Time: 703s
+2022-06-28 03:49:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54824, sheet: National Accounts quarterly main aggregates Value added by industry current prices, frequency: Q, Time: 24s
 
-2022-06-28 03:31:57 PM Downloading file: National Accounts quarterly main aggregates Value added by industry current prices
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:07 PM Getting Data From Website
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:23 PM Total New Items Found: 0 Time: 729 s
+2022-06-28 03:49:01 PM Total New Items Found: 0 Time: 24 s
 
-2022-06-28 03:32:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54825, sheet: National Accounts quarterly main aggregates Value added by industry chain linked, frequency: Q, Time: 730s
+2022-06-28 03:49:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54825, sheet: National Accounts quarterly main aggregates Value added by industry chain linked, frequency: Q, Time: 25s
 
-2022-06-28 03:32:23 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:23 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:23 PM Downloading file: National Accounts quarterly main aggregates Value added by industry chain linked
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:31 PM Getting Data From Website
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:46 PM Latest Base Year Received.
+2022-06-28 03:49:01 PM Latest Base Year Received.
 
-2022-06-28 03:32:47 PM Total New Items Found: 0 Time: 753 s
+2022-06-28 03:49:01 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-28 03:32:47 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54826, sheet: Gross Domestic Product and main components current prices, frequency: Q, Time: 753s
+2022-06-28 03:49:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54826, sheet: Gross Domestic Product and main components current prices, frequency: Q, Time: 25s
 
-2022-06-28 03:32:47 PM Downloading file: Gross Domestic Product and main components current prices
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:32:55 PM Getting Data From Website
+2022-06-28 03:49:01 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:09 PM Total New Items Found: 0 Time: 776 s
+2022-06-28 03:49:01 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-28 03:33:09 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54827, sheet: Gross Domestic Product and main components chain linked, frequency: Q, Time: 776s
+2022-06-28 03:49:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54827, sheet: Gross Domestic Product and main components chain linked, frequency: Q, Time: 25s
 
-2022-06-28 03:33:09 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:09 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:10 PM Downloading file: Gross Domestic Product and main components chain linked
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:16 PM Getting Data From Website
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:29 PM Latest Base Year Received.
+2022-06-28 03:49:02 PM Latest Base Year Received.
 
-2022-06-28 03:33:30 PM Total New Items Found: 0 Time: 796 s
+2022-06-28 03:49:02 PM Total New Items Found: 0 Time: 25 s
 
-2022-06-28 03:33:30 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54828, sheet: Gross fixed capital formation by asset chain linked, frequency: Q, Time: 796s
+2022-06-28 03:49:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54828, sheet: Gross fixed capital formation by asset chain linked, frequency: Q, Time: 25s
 
-2022-06-28 03:33:30 PM Downloading file: Gross fixed capital formation by asset current prices
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:39 PM Getting Data From Website
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:52 PM Downloading file: Gross fixed capital formation by asset chain linked
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:33:59 PM Getting Data From Website
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:14 PM Latest Base Year Received.
+2022-06-28 03:49:02 PM Latest Base Year Received.
 
-2022-06-28 03:34:15 PM Total New Items Found: 0 Time: 841 s
+2022-06-28 03:49:02 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-28 03:34:15 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54829, sheet: Gross fixed capital formation by asset current prices, frequency: Q, Time: 841s
+2022-06-28 03:49:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54829, sheet: Gross fixed capital formation by asset current prices, frequency: Q, Time: 26s
 
-2022-06-28 03:34:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:15 PM Total New Items Found: 0 Time: 842 s
+2022-06-28 03:49:02 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-28 03:34:15 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54830, sheet: National Accounts quarterly main aggregates domestic compensation of employees, frequency: Q, Time: 842s
+2022-06-28 03:49:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54830, sheet: National Accounts quarterly main aggregates domestic compensation of employees, frequency: Q, Time: 26s
 
-2022-06-28 03:34:15 PM Downloading file: National Accounts quarterly main aggregates domestic compensation of employees
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:24 PM Getting Data From Website
+2022-06-28 03:49:02 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:39 PM Total New Items Found: 0 Time: 866 s
+2022-06-28 03:49:02 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-28 03:34:39 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54831, sheet: National Accounts quarterly main aggregates domestic wages and salaries, frequency: Q, Time: 866s
+2022-06-28 03:49:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54831, sheet: National Accounts quarterly main aggregates domestic wages and salaries, frequency: Q, Time: 26s
 
-2022-06-28 03:34:39 PM Downloading file: National Accounts quarterly main aggregates domestic wages and salaries
+2022-06-28 03:49:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:34:48 PM Getting Data From Website
+2022-06-28 03:49:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:03 PM Total New Items Found: 0 Time: 889 s
+2022-06-28 03:49:03 PM Total New Items Found: 0 Time: 26 s
 
-2022-06-28 03:35:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54847, sheet: Economic account quarterly general government, frequency: Q, Time: 889s
+2022-06-28 03:49:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54847, sheet: Economic account quarterly general government, frequency: Q, Time: 26s
 
-2022-06-28 03:35:03 PM Downloading file: Economic account quarterly general government
+2022-06-28 03:49:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:11 PM Getting Data From Website
+2022-06-28 03:49:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:26 PM Total New Items Found: 0 Time: 912 s
+2022-06-28 03:49:03 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-28 03:35:26 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56680, sheet: Employed SA, frequency: Q, Time: 913s
+2022-06-28 03:49:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56680, sheet: Employed SA, frequency: Q, Time: 27s
 
-2022-06-28 03:35:26 PM Downloading file: Employed SA
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:35 PM Getting Data From Website
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:51 PM Total New Items Found: 0 Time: 937 s
+2022-06-28 03:49:04 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-28 03:35:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56681, sheet: Unemployed SA, frequency: Q, Time: 937s
+2022-06-28 03:49:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56681, sheet: Unemployed SA, frequency: Q, Time: 27s
 
-2022-06-28 03:35:51 PM Downloading file: Unemployed SA
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:35:59 PM Getting Data From Website
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:36:15 PM Total New Items Found: 0 Time: 961 s
+2022-06-28 03:49:04 PM Total New Items Found: 0 Time: 27 s
 
-2022-06-28 03:36:15 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56682, sheet: Unemployment rate SA, frequency: Q, Time: 961s
+2022-06-28 03:49:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56682, sheet: Unemployment rate SA, frequency: Q, Time: 28s
 
-2022-06-28 03:36:15 PM Downloading file: Unemployment rate SA
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:36:23 PM Getting Data From Website
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:36:38 PM Total New Items Found: 0 Time: 985 s
+2022-06-28 03:49:04 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-28 03:36:39 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54871, sheet: Employment in full time equivalent employed quarterly, frequency: Q, Time: 985s
+2022-06-28 03:49:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54871, sheet: Employment in full time equivalent employed quarterly, frequency: Q, Time: 28s
 
-2022-06-28 03:36:39 PM Downloading file: Employment in full time equivalent employed quarterly
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:36:51 PM Getting Data From Website
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:37:06 PM Total New Items Found: 0 Time: 1012 s
+2022-06-28 03:49:04 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-28 03:37:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54872, sheet: Employment in full time equivalent employees quarterly, frequency: Q, Time: 1012s
+2022-06-28 03:49:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54872, sheet: Employment in full time equivalent employees quarterly, frequency: Q, Time: 28s
 
-2022-06-28 03:37:06 PM Downloading file: Employment in full time equivalent employees quarterly
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:37:17 PM Getting Data From Website
+2022-06-28 03:49:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:37:32 PM Total New Items Found: 0 Time: 1038 s
+2022-06-28 03:49:05 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-28 03:37:32 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56683, sheet: Labour force SA, frequency: Q, Time: 1038s
+2022-06-28 03:49:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56683, sheet: Labour force SA, frequency: Q, Time: 28s
 
-2022-06-28 03:37:32 PM Downloading file: Labour force SA
+2022-06-28 03:49:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:37:43 PM Getting Data From Website
+2022-06-28 03:49:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:37:58 PM Total New Items Found: 0 Time: 1065 s
+2022-06-28 03:49:05 PM Total New Items Found: 0 Time: 28 s
 
-2022-06-28 03:37:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54875, sheet: Index of production in construction, frequency: Q, Time: 1065s
+2022-06-28 03:49:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54875, sheet: Index of production in construction, frequency: Q, Time: 29s
 
-2022-06-28 03:37:58 PM Downloading file: Index of production in construction
+2022-06-28 03:49:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:38:07 PM Getting Data From Website
+2022-06-28 03:49:05 PM Latest Base Year Received.
 
-2022-06-28 03:38:21 PM Latest Base Year Received.
+2022-06-28 03:49:05 PM Total New Items Found: 0 Time: 29 s
 
-2022-06-28 03:38:21 PM Total New Items Found: 0 Time: 1088 s
+2022-06-28 03:49:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54878, sheet: Consumer Price Index, frequency: M, Time: 29s
 
-2022-06-28 03:38:21 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54878, sheet: Consumer Price Index, frequency: M, Time: 1088s
+2022-06-28 03:49:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:38:21 PM Downloading file: Consumer Price Index
+2022-06-28 03:49:05 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:38:29 PM Getting Data From Website
+2022-06-28 03:49:06 PM Latest Base Year Received.
 
-2022-06-28 03:38:59 PM Latest Base Year Received.
+2022-06-28 03:49:07 PM Total New Items Found: 0 Time: 30 s
 
-2022-06-28 03:39:02 PM Total New Items Found: 0 Time: 1129 s
+2022-06-28 03:49:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54879, sheet: Consumer Price Index of Blue- and White-Collar Families, frequency: M, Time: 30s
 
-2022-06-28 03:39:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54879, sheet: Consumer Price Index of Blue- and White-Collar Families, frequency: M, Time: 1129s
+2022-06-28 03:49:07 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:39:02 PM Downloading file: Consumer Price Index of Blue- and White-Collar Families
+2022-06-28 03:49:07 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:39:09 PM Getting Data From Website
+2022-06-28 03:49:07 PM Latest Base Year Received.
 
-2022-06-28 03:39:27 PM Latest Base Year Received.
+2022-06-28 03:49:07 PM Total New Items Found: 0 Time: 31 s
 
-2022-06-28 03:39:29 PM Total New Items Found: 0 Time: 1156 s
+2022-06-28 03:49:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54880, sheet: Harmonized CPI, frequency: M, Time: 31s
 
-2022-06-28 03:39:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54880, sheet: Harmonized CPI, frequency: M, Time: 1156s
+2022-06-28 03:49:07 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:39:29 PM Downloading file: Harmonized CPI
+2022-06-28 03:49:08 PM Latest Base Year Received.
 
-2022-06-28 03:39:37 PM Getting Data From Website
+2022-06-28 03:49:08 PM Total New Items Found: 0 Time: 31 s
 
-2022-06-28 03:39:54 PM Latest Base Year Received.
+2022-06-28 03:49:08 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54881, sheet: Industrial Producer Price Index, frequency: M, Time: 31s
 
-2022-06-28 03:39:55 PM Total New Items Found: 0 Time: 1181 s
+2022-06-28 03:49:08 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:39:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54881, sheet: Industrial Producer Price Index, frequency: M, Time: 1181s
+2022-06-28 03:49:09 PM Latest Base Year Received.
 
-2022-06-28 03:39:55 PM Downloading file: Industrial Producer Price Index
+2022-06-28 03:49:11 PM Total New Items Found: 0 Time: 35 s
 
-2022-06-28 03:40:02 PM Getting Data From Website
+2022-06-28 03:49:11 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54896, sheet: Industrial Production Index SA, frequency: M, Time: 35s
 
-2022-06-28 03:42:44 PM Latest Base Year Received.
+2022-06-28 03:49:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:42:46 PM Total New Items Found: 0 Time: 1353 s
+2022-06-28 03:49:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:42:46 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54896, sheet: Industrial Production Index SA, frequency: M, Time: 1353s
+2022-06-28 03:49:11 PM Latest Base Year Received.
 
-2022-06-28 03:42:46 PM Downloading file: Industrial Production Index SA
+2022-06-28 03:49:12 PM Total New Items Found: 0 Time: 36 s
 
-2022-06-28 03:42:53 PM Getting Data From Website
+2022-06-28 03:49:12 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54897, sheet: Industrial Production Index CA, frequency: M, Time: 36s
 
-2022-06-28 03:43:13 PM Latest Base Year Received.
+2022-06-28 03:49:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:43:15 PM Total New Items Found: 0 Time: 1381 s
+2022-06-28 03:49:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:43:15 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54897, sheet: Industrial Production Index CA, frequency: M, Time: 1382s
+2022-06-28 03:49:12 PM Latest Base Year Received.
 
-2022-06-28 03:43:15 PM Downloading file: Industrial Production Index CA
+2022-06-28 03:49:12 PM Total New Items Found: 0 Time: 36 s
 
-2022-06-28 03:43:24 PM Getting Data From Website
+2022-06-28 03:49:13 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54898, sheet: Industrial Production Index NSA1, frequency: M, Time: 36s
 
-2022-06-28 03:43:42 PM Latest Base Year Received.
+2022-06-28 03:49:13 PM Downloading file: Industrial Production Index NSA1
 
-2022-06-28 03:43:43 PM Total New Items Found: 0 Time: 1410 s
+2022-06-28 03:49:33 PM Getting Data From Website
 
-2022-06-28 03:43:43 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54898, sheet: Industrial Production Index NSA1, frequency: M, Time: 1410s
+2022-06-28 03:49:50 PM Latest Base Year Received.
 
-2022-06-28 03:43:43 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:52 PM Total New Items Found: 0 Time: 75 s
 
-2022-06-28 03:43:43 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:49:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54899, sheet: Industrial Production Index NSA2, frequency: M, Time: 75s
 
-2022-06-28 03:43:43 PM Latest Base Year Received.
+2022-06-28 03:49:52 PM Downloading file: Industrial Production Index NSA2
 
-2022-06-28 03:43:44 PM Total New Items Found: 0 Time: 1410 s
+2022-06-28 03:50:22 PM Getting Data From Website
 
-2022-06-28 03:43:44 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54899, sheet: Industrial Production Index NSA2, frequency: M, Time: 1410s
+2022-06-28 03:50:42 PM Latest Base Year Received.
 
-2022-06-28 03:43:44 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:50:44 PM Total New Items Found: 0 Time: 127 s
 
-2022-06-28 03:43:44 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:50:44 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54900, sheet: Industrial Production Index NSA3, frequency: M, Time: 127s
 
-2022-06-28 03:43:44 PM Latest Base Year Received.
+2022-06-28 03:50:44 PM Downloading file: Industrial Production Index NSA3
 
-2022-06-28 03:43:44 PM Total New Items Found: 0 Time: 1411 s
+2022-06-28 03:50:53 PM Getting Data From Website
 
-2022-06-28 03:43:45 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54900, sheet: Industrial Production Index NSA3, frequency: M, Time: 1411s
+2022-06-28 03:51:17 PM Latest Base Year Received.
 
-2022-06-28 03:43:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:51:19 PM Total New Items Found: 0 Time: 163 s
 
-2022-06-28 03:43:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:51:19 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54901, sheet: Industrial Production Index NSA4, frequency: M, Time: 163s
 
-2022-06-28 03:43:45 PM Latest Base Year Received.
+2022-06-28 03:51:19 PM Downloading file: Industrial Production Index NSA4
 
-2022-06-28 03:43:46 PM Total New Items Found: 0 Time: 1412 s
+2022-06-28 03:51:29 PM Getting Data From Website
 
-2022-06-28 03:43:46 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54901, sheet: Industrial Production Index NSA4, frequency: M, Time: 1412s
+2022-06-28 03:52:17 PM Latest Base Year Received.
 
-2022-06-28 03:43:46 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:52:20 PM Total New Items Found: 0 Time: 223 s
 
-2022-06-28 03:43:46 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:52:20 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54902, sheet: Industrial Turnover Index total market, frequency: M, Time: 223s
 
-2022-06-28 03:43:46 PM Latest Base Year Received.
+2022-06-28 03:52:20 PM Downloading file: Industrial Turnover Index total market
 
-2022-06-28 03:43:47 PM Total New Items Found: 0 Time: 1414 s
+2022-06-28 03:52:50 PM Getting Data From Website
 
-2022-06-28 03:43:47 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54902, sheet: Industrial Turnover Index total market, frequency: M, Time: 1414s
+2022-06-28 03:53:16 PM Latest Base Year Received.
 
-2022-06-28 03:43:47 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:53:18 PM Total New Items Found: 0 Time: 281 s
 
-2022-06-28 03:43:47 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:53:18 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54903, sheet: Industrial Turnover Index domestic market, frequency: M, Time: 282s
 
-2022-06-28 03:43:48 PM Latest Base Year Received.
+2022-06-28 03:53:18 PM Downloading file: Industrial Turnover Index domestic market
 
-2022-06-28 03:43:49 PM Total New Items Found: 0 Time: 1415 s
+2022-06-28 03:53:26 PM Getting Data From Website
 
-2022-06-28 03:43:49 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54903, sheet: Industrial Turnover Index domestic market, frequency: M, Time: 1415s
+2022-06-28 03:53:52 PM Latest Base Year Received.
 
-2022-06-28 03:43:49 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:53:55 PM Total New Items Found: 0 Time: 319 s
 
-2022-06-28 03:43:49 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:53:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54904, sheet: Industrial Turnover Index foreign market, frequency: M, Time: 319s
 
-2022-06-28 03:43:49 PM Latest Base Year Received.
+2022-06-28 03:53:55 PM Downloading file: Industrial Turnover Index foreign market
 
-2022-06-28 03:43:50 PM Total New Items Found: 0 Time: 1417 s
+2022-06-28 03:54:25 PM Getting Data From Website
 
-2022-06-28 03:43:50 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54904, sheet: Industrial Turnover Index foreign market, frequency: M, Time: 1417s
+2022-06-28 03:54:51 PM Latest Base Year Received.
 
-2022-06-28 03:43:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:54:53 PM Total New Items Found: 0 Time: 377 s
 
-2022-06-28 03:43:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:54:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54905, sheet: Industrial Turnover Index SA, frequency: M, Time: 377s
 
-2022-06-28 03:43:50 PM Latest Base Year Received.
+2022-06-28 03:54:54 PM Downloading file: Industrial Turnover Index SA
 
-2022-06-28 03:43:52 PM Total New Items Found: 0 Time: 1418 s
+2022-06-28 03:55:03 PM Getting Data From Website
 
-2022-06-28 03:43:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54905, sheet: Industrial Turnover Index SA, frequency: M, Time: 1418s
+2022-06-28 03:55:22 PM Latest Base Year Received.
 
-2022-06-28 03:43:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:55:24 PM Total New Items Found: 0 Time: 407 s
 
-2022-06-28 03:43:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:55:24 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54908, sheet: Hourly Gross Earnings Index, frequency: M, Time: 407s
 
-2022-06-28 03:43:52 PM Latest Base Year Received.
+2022-06-28 03:55:24 PM Downloading file: Hourly Gross Earnings Index
 
-2022-06-28 03:43:52 PM Total New Items Found: 0 Time: 1419 s
+2022-06-28 03:55:33 PM Getting Data From Website
 
-2022-06-28 03:43:52 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54908, sheet: Hourly Gross Earnings Index, frequency: M, Time: 1419s
+2022-06-28 03:56:02 PM Latest Base Year Received.
 
-2022-06-28 03:43:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:56:04 PM Total New Items Found: 0 Time: 447 s
 
-2022-06-28 03:43:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:56:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54909, sheet: Index of Gross Earning per Employee, frequency: M, Time: 448s
 
-2022-06-28 03:43:52 PM Latest Base Year Received.
+2022-06-28 03:56:04 PM Downloading file: Index of Gross Earning per Employee
 
-2022-06-28 03:43:53 PM Total New Items Found: 0 Time: 1420 s
+2022-06-28 03:56:18 PM Getting Data From Website
 
-2022-06-28 03:43:54 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54909, sheet: Index of Gross Earning per Employee, frequency: M, Time: 1420s
+2022-06-28 03:56:46 PM Latest Base Year Received.
 
-2022-06-28 03:43:54 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:56:48 PM Total New Items Found: 0 Time: 492 s
 
-2022-06-28 03:43:54 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:56:48 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54910, sheet: Index of Labour Cost per Employee, frequency: M, Time: 492s
 
-2022-06-28 03:43:54 PM Latest Base Year Received.
+2022-06-28 03:56:48 PM Downloading file: Index of Labour Cost per Employee
 
-2022-06-28 03:43:55 PM Total New Items Found: 0 Time: 1421 s
+2022-06-28 03:56:57 PM Getting Data From Website
 
-2022-06-28 03:43:55 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54910, sheet: Index of Labour Cost per Employee, frequency: M, Time: 1422s
+2022-06-28 03:57:24 PM Latest Base Year Received.
 
-2022-06-28 03:43:55 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:57:27 PM Total New Items Found: 0 Time: 530 s
 
-2022-06-28 03:43:55 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:57:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54911, sheet: Index of Hours worked per employee, frequency: M, Time: 530s
 
-2022-06-28 03:43:55 PM Latest Base Year Received.
+2022-06-28 03:57:27 PM Downloading file: Index of Hours worked per employee
 
-2022-06-28 03:43:56 PM Total New Items Found: 0 Time: 1423 s
+2022-06-28 03:57:35 PM Getting Data From Website
 
-2022-06-28 03:43:56 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54911, sheet: Index of Hours worked per employee, frequency: M, Time: 1423s
+2022-06-28 03:59:28 PM Latest Base Year Received.
 
-2022-06-28 03:43:56 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:59:29 PM Total New Items Found: 0 Time: 653 s
 
-2022-06-28 03:43:56 PM Latest Base Year Received.
+2022-06-28 03:59:29 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54912, sheet: Hourly Labour Cost Indice, frequency: M, Time: 653s
 
-2022-06-28 03:43:58 PM Total New Items Found: 0 Time: 1424 s
+2022-06-28 03:59:29 PM Downloading file: Hourly Labour Cost Indice
 
-2022-06-28 03:43:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54912, sheet: Hourly Labour Cost Indice, frequency: M, Time: 1424s
+2022-06-28 03:59:37 PM Getting Data From Website
 
-2022-06-28 03:43:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:59:53 PM Latest Base Year Received.
 
-2022-06-28 03:43:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 03:59:53 PM Total New Items Found: 0 Time: 677 s
 
-2022-06-28 03:43:58 PM Latest Base Year Received.
+2022-06-28 03:59:53 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54913, sheet: Indice of Salary per Employee, frequency: M, Time: 677s
 
-2022-06-28 03:43:58 PM Total New Items Found: 0 Time: 1424 s
+2022-06-28 03:59:53 PM Downloading file: Indice of Salary per Employee
 
-2022-06-28 03:43:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54913, sheet: Indice of Salary per Employee, frequency: M, Time: 1425s
+2022-06-28 04:00:01 PM Getting Data From Website
 
-2022-06-28 03:43:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:00:17 PM Latest Base Year Received.
 
-2022-06-28 03:43:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:00:18 PM Total New Items Found: 0 Time: 701 s
 
-2022-06-28 03:43:58 PM Latest Base Year Received.
+2022-06-28 04:00:18 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54914, sheet: Labour positions, frequency: M, Time: 701s
 
-2022-06-28 03:43:58 PM Total New Items Found: 0 Time: 1425 s
+2022-06-28 04:00:18 PM Downloading file: Labour positions
 
-2022-06-28 03:43:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54914, sheet: Labour positions, frequency: M, Time: 1425s
+2022-06-28 04:00:25 PM Getting Data From Website
 
-2022-06-28 03:43:58 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:00:40 PM Latest Base Year Received.
 
-2022-06-28 03:43:58 PM Latest Base Year Received.
+2022-06-28 04:00:40 PM Total New Items Found: 0 Time: 724 s
 
-2022-06-28 03:43:59 PM Total New Items Found: 0 Time: 1425 s
+2022-06-28 04:00:40 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56684, sheet: Employment monthly, frequency: M, Time: 724s
 
-2022-06-28 03:43:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56684, sheet: Employment monthly, frequency: M, Time: 1425s
+2022-06-28 04:00:40 PM Downloading file: Employment monthly
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:00:51 PM Getting Data From Website
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:01:05 PM Total New Items Found: 0 Time: 748 s
 
-2022-06-28 03:43:59 PM Total New Items Found: 0 Time: 1426 s
+2022-06-28 04:01:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56685, sheet: Employment rate monthly, frequency: M, Time: 749s
 
-2022-06-28 03:43:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56685, sheet: Employment rate monthly, frequency: M, Time: 1426s
+2022-06-28 04:01:05 PM Downloading file: Employment rate monthly
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:01:22 PM Getting Data From Website
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:01:38 PM Total New Items Found: 0 Time: 782 s
 
-2022-06-28 03:43:59 PM Total New Items Found: 0 Time: 1426 s
+2022-06-28 04:01:38 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56686, sheet: Labour force monthly, frequency: M, Time: 782s
 
-2022-06-28 03:43:59 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56686, sheet: Labour force monthly, frequency: M, Time: 1426s
+2022-06-28 04:01:38 PM Downloading file: Labour force monthly
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:01:46 PM Getting Data From Website
 
-2022-06-28 03:43:59 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:01 PM Total New Items Found: 0 Time: 804 s
 
-2022-06-28 03:44:00 PM Total New Items Found: 0 Time: 1426 s
+2022-06-28 04:02:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56668, sheet: Activity rate monthly, frequency: M, Time: 804s
 
-2022-06-28 03:44:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56668, sheet: Activity rate monthly, frequency: M, Time: 1426s
+2022-06-28 04:02:01 PM Downloading file: Activity rate monthly
 
-2022-06-28 03:44:00 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:08 PM Getting Data From Website
 
-2022-06-28 03:44:00 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:22 PM Total New Items Found: 0 Time: 826 s
 
-2022-06-28 03:44:00 PM Total New Items Found: 0 Time: 1427 s
+2022-06-28 04:02:23 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56695, sheet: Unemployment monthly, frequency: M, Time: 826s
 
-2022-06-28 03:44:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56695, sheet: Unemployment monthly, frequency: M, Time: 1427s
+2022-06-28 04:02:23 PM Downloading file: Unemployment monthly
 
-2022-06-28 03:44:00 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:30 PM Getting Data From Website
 
-2022-06-28 03:44:00 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:44 PM Total New Items Found: 0 Time: 848 s
 
-2022-06-28 03:44:00 PM Total New Items Found: 0 Time: 1427 s
+2022-06-28 04:02:44 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56696, sheet: Unemployment rate monthly, frequency: M, Time: 848s
 
-2022-06-28 03:44:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56696, sheet: Unemployment rate monthly, frequency: M, Time: 1427s
+2022-06-28 04:02:44 PM Downloading file: Unemployment rate monthly
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:02:54 PM Getting Data From Website
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:03:09 PM Total New Items Found: 0 Time: 873 s
 
-2022-06-28 03:44:01 PM Total New Items Found: 0 Time: 1427 s
+2022-06-28 04:03:10 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56697, sheet: Inactive population monthly, frequency: M, Time: 873s
 
-2022-06-28 03:44:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56697, sheet: Inactive population monthly, frequency: M, Time: 1427s
+2022-06-28 04:03:10 PM Downloading file: Inactive population monthly
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:03:18 PM Getting Data From Website
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:03:33 PM Total New Items Found: 0 Time: 897 s
 
-2022-06-28 03:44:01 PM Total New Items Found: 0 Time: 1428 s
+2022-06-28 04:03:34 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56698, sheet: Inactivity rate monthly, frequency: M, Time: 897s
 
-2022-06-28 03:44:01 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=56698, sheet: Inactivity rate monthly, frequency: M, Time: 1428s
+2022-06-28 04:03:34 PM Downloading file: Inactivity rate monthly
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:03:42 PM Getting Data From Website
 
-2022-06-28 03:44:01 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:03:57 PM Total New Items Found: 0 Time: 920 s
 
-2022-06-28 03:44:01 PM Total New Items Found: 0 Time: 1428 s
+2022-06-28 04:03:57 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54934, sheet: Business confidence Index in the manufacturing sector, frequency: M, Time: 920s
 
-2022-06-28 03:44:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54934, sheet: Business confidence Index in the manufacturing sector, frequency: M, Time: 1428s
+2022-06-28 04:03:57 PM Downloading file: Business confidence Index in the manufacturing sector
 
-2022-06-28 03:44:02 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:04:04 PM Getting Data From Website
 
-2022-06-28 03:44:02 PM Latest Base Year Received.
+2022-06-28 04:04:18 PM Latest Base Year Received.
 
-2022-06-28 03:44:02 PM Total New Items Found: 0 Time: 1428 s
+2022-06-28 04:04:19 PM Total New Items Found: 0 Time: 942 s
 
-2022-06-28 03:44:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54935, sheet: Business confidence Index in the construction sector, frequency: M, Time: 1429s
+2022-06-28 04:04:19 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54935, sheet: Business confidence Index in the construction sector, frequency: M, Time: 942s
 
-2022-06-28 03:44:02 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:04:19 PM Downloading file: Business confidence Index in the construction sector
 
-2022-06-28 03:44:02 PM Latest Base Year Received.
+2022-06-28 04:04:26 PM Getting Data From Website
 
-2022-06-28 03:44:02 PM Total New Items Found: 0 Time: 1429 s
+2022-06-28 04:04:41 PM Latest Base Year Received.
 
-2022-06-28 03:44:02 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54937, sheet: Consumer confidence Index NSA, frequency: M, Time: 1429s
+2022-06-28 04:04:41 PM Total New Items Found: 0 Time: 964 s
 
-2022-06-28 03:44:02 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:04:41 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54937, sheet: Consumer confidence Index NSA, frequency: M, Time: 964s
 
-2022-06-28 03:44:02 PM Latest Base Year Received.
+2022-06-28 04:04:41 PM Downloading file: Consumer confidence Index NSA
 
-2022-06-28 03:44:03 PM Total New Items Found: 0 Time: 1429 s
+2022-06-28 04:04:51 PM Getting Data From Website
 
-2022-06-28 03:44:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54938, sheet: Consumer confidence Index SA, frequency: M, Time: 1429s
+2022-06-28 04:05:05 PM Latest Base Year Received.
 
-2022-06-28 03:44:03 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:05:05 PM Total New Items Found: 0 Time: 989 s
 
-2022-06-28 03:44:03 PM Latest Base Year Received.
+2022-06-28 04:05:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54938, sheet: Consumer confidence Index SA, frequency: M, Time: 989s
 
-2022-06-28 03:44:03 PM Total New Items Found: 0 Time: 1430 s
+2022-06-28 04:05:05 PM Downloading file: Consumer confidence Index SA
 
-2022-06-28 03:44:03 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54940, sheet: Business confidence Index in the retail trade sector, frequency: M, Time: 1430s
+2022-06-28 04:05:14 PM Getting Data From Website
 
-2022-06-28 03:44:03 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:05:37 PM Latest Base Year Received.
 
-2022-06-28 03:44:03 PM Latest Base Year Received.
+2022-06-28 04:05:37 PM Total New Items Found: 0 Time: 1021 s
 
-2022-06-28 03:44:04 PM Total New Items Found: 0 Time: 1430 s
+2022-06-28 04:05:37 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54940, sheet: Business confidence Index in the retail trade sector, frequency: M, Time: 1021s
 
-2022-06-28 03:44:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54941, sheet: Business confidence Index in the market services sector total, frequency: M, Time: 1430s
+2022-06-28 04:05:37 PM Downloading file: Business confidence Index in the retail trade sector
 
-2022-06-28 03:44:04 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:05:46 PM Getting Data From Website
 
-2022-06-28 03:44:04 PM Latest Base Year Received.
+2022-06-28 04:06:00 PM Latest Base Year Received.
 
-2022-06-28 03:44:04 PM Total New Items Found: 0 Time: 1431 s
+2022-06-28 04:06:00 PM Total New Items Found: 0 Time: 1044 s
 
-2022-06-28 03:44:04 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54942, sheet: Business confidence Index in the market services sector local, frequency: M, Time: 1431s
+2022-06-28 04:06:00 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54941, sheet: Business confidence Index in the market services sector total, frequency: M, Time: 1044s
 
-2022-06-28 03:44:04 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:06:00 PM Downloading file: Business confidence Index in the market services sector total
 
-2022-06-28 03:44:05 PM Latest Base Year Received.
+2022-06-28 04:06:08 PM Getting Data From Website
 
-2022-06-28 03:44:05 PM Total New Items Found: 0 Time: 1431 s
+2022-06-28 04:06:31 PM Latest Base Year Received.
 
-2022-06-28 03:44:05 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54944, sheet: Index of Wages according to collective labour agreements by economic sector, frequency: M, Time: 1432s
+2022-06-28 04:06:31 PM Total New Items Found: 0 Time: 1075 s
 
-2022-06-28 03:44:05 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:06:31 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54942, sheet: Business confidence Index in the market services sector local, frequency: M, Time: 1075s
 
-2022-06-28 03:44:05 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:06:31 PM Downloading file: Business confidence Index in the market services sector local
 
-2022-06-28 03:44:05 PM Latest Base Year Received.
+2022-06-28 04:06:40 PM Getting Data From Website
 
-2022-06-28 03:44:06 PM Total New Items Found: 0 Time: 1432 s
+2022-06-28 04:06:58 PM Latest Base Year Received.
 
-2022-06-28 03:44:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54945, sheet: Hourly Wages by Contract public administration, frequency: M, Time: 1432s
+2022-06-28 04:06:58 PM Total New Items Found: 0 Time: 1102 s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:06:58 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54944, sheet: Index of Wages according to collective labour agreements by economic sector, frequency: M, Time: 1102s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:06:59 PM Downloading file: Index of Wages according to collective labour agreements by economic sector
 
-2022-06-28 03:44:06 PM Latest Base Year Received.
+2022-06-28 04:07:07 PM Getting Data From Website
 
-2022-06-28 03:44:06 PM Total New Items Found: 0 Time: 1432 s
+2022-06-28 04:07:25 PM Latest Base Year Received.
 
-2022-06-28 03:44:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54947, sheet: Construction costs Index, frequency: M, Time: 1433s
+2022-06-28 04:07:27 PM Total New Items Found: 0 Time: 1131 s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:07:27 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54945, sheet: Hourly Wages by Contract public administration, frequency: M, Time: 1131s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:07:27 PM Downloading file: Hourly Wages by Contract public administration
 
-2022-06-28 03:44:06 PM Latest Base Year Received.
+2022-06-28 04:07:34 PM Getting Data From Website
 
-2022-06-28 03:44:06 PM Total New Items Found: 0 Time: 1433 s
+2022-06-28 04:07:50 PM Latest Base Year Received.
 
-2022-06-28 03:44:06 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54953, sheet: Index of retail trade sales by type of product and type of sales, frequency: M, Time: 1433s
+2022-06-28 04:07:51 PM Total New Items Found: 0 Time: 1154 s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:07:51 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54947, sheet: Construction costs Index, frequency: M, Time: 1154s
 
-2022-06-28 03:44:06 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:07:51 PM Downloading file: Construction costs Index
 
-2022-06-28 03:44:06 PM Latest Base Year Received.
+2022-06-28 04:07:57 PM Getting Data From Website
 
-2022-06-28 03:44:07 PM Total New Items Found: 0 Time: 1433 s
+2022-06-28 04:08:13 PM Latest Base Year Received.
 
-2022-06-28 03:44:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54954, sheet: Index of retail trade sales by type of product and enterprises size class, frequency: M, Time: 1433s
+2022-06-28 04:08:15 PM Total New Items Found: 0 Time: 1178 s
 
-2022-06-28 03:44:07 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:08:15 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54953, sheet: Index of retail trade sales by type of product and type of sales, frequency: M, Time: 1178s
 
-2022-06-28 03:44:07 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:08:15 PM Downloading file: Index of retail trade sales by type of product and type of sales
 
-2022-06-28 03:44:07 PM Latest Base Year Received.
+2022-06-28 04:08:24 PM Getting Data From Website
 
-2022-06-28 03:44:07 PM Total New Items Found: 0 Time: 1434 s
+2022-06-28 04:08:40 PM Latest Base Year Received.
 
-2022-06-28 03:44:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54968, sheet: Import and export by country, frequency: M, Time: 1434s
+2022-06-28 04:08:42 PM Total New Items Found: 0 Time: 1205 s
 
-2022-06-28 03:44:07 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:08:42 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54954, sheet: Index of retail trade sales by type of product and enterprises size class, frequency: M, Time: 1205s
 
-2022-06-28 03:44:08 PM Total New Items Found: 0 Time: 1434 s
+2022-06-28 04:08:42 PM Downloading file: Index of retail trade sales by type of product and enterprises size class
 
-2022-06-28 03:44:08 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60060:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Other primary income and secondary income and capital account, frequency: Q, Time: 1434s
+2022-06-28 04:08:49 PM Getting Data From Website
 
-2022-06-28 03:44:08 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:09:05 PM Latest Base Year Received.
 
-2022-06-28 03:44:08 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:09:07 PM Total New Items Found: 0 Time: 1230 s
 
-2022-06-28 03:44:08 PM Total New Items Found: 0 Time: 1435 s
+2022-06-28 04:09:07 PM Country: Italy, Reading file or url: http://dati.istat.it//Index.aspx?lang=en&QueryId=54968, sheet: Import and export by country, frequency: M, Time: 1230s
 
-2022-06-28 03:44:08 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60125:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Current Account Services, frequency: Q, Time: 1435s
+2022-06-28 04:09:07 PM Downloading file: Import and export by country
 
-2022-06-28 03:44:08 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:09:18 PM Getting Data From Website
 
-2022-06-28 03:44:08 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:09:35 PM Total New Items Found: 0 Time: 1259 s
 
-2022-06-28 03:44:09 PM Total New Items Found: 0 Time: 1436 s
+2022-06-28 04:09:36 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60060:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Other primary income and secondary income and capital account, frequency: Q, Time: 1259s
 
-2022-06-28 03:44:10 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TED60500:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: External Debt, frequency: Q, Time: 1436s
+2022-06-28 04:09:36 PM Downloading file: Other primary income and secondary income and capital account
 
-2022-06-28 03:44:10 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:09:45 PM Getting Data From Website
 
-2022-06-28 03:44:10 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:10:16 PM Total New Items Found: 0 Time: 1300 s
 
-2022-06-28 03:44:10 PM Total New Items Found: 0 Time: 1436 s
+2022-06-28 04:10:16 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60125:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Current Account Services, frequency: Q, Time: 1300s
 
-2022-06-28 03:44:10 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_06&ITEMSELEZ=TFAT0012:true&OPEN=true/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Stocks for non-government, frequency: Q, Time: 1436s
+2022-06-28 04:10:16 PM Downloading file: Current Account Services
 
-2022-06-28 03:44:10 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:10:17 PM Getting Data From Website
 
-2022-06-28 03:44:10 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:10:39 PM Total New Items Found: 0 Time: 1323 s
 
-2022-06-28 03:44:11 PM Total New Items Found: 0 Time: 1437 s
+2022-06-28 04:10:39 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TED60500:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: External Debt, frequency: Q, Time: 1323s
 
-2022-06-28 03:44:11 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_06&ITEMSELEZ=TFAT0009:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Stocks for government, frequency: Q, Time: 1437s
+2022-06-28 04:10:39 PM Downloading file: External Debt
 
-2022-06-28 03:44:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:10:40 PM Getting Data From Website
 
-2022-06-28 03:44:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:11:00 PM Total New Items Found: 0 Time: 1344 s
 
-2022-06-28 03:44:11 PM Total New Items Found: 0 Time: 1438 s
+2022-06-28 04:11:00 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_06&ITEMSELEZ=TFAT0012:true&OPEN=true/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Stocks for non-government, frequency: Q, Time: 1344s
 
-2022-06-28 03:44:11 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60230:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Balance of payments and Current Account monthly, frequency: M, Time: 1438s
+2022-06-28 04:11:00 PM Downloading file: Stocks for non-government
 
-2022-06-28 03:44:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:11:01 PM Getting Data From Website
 
-2022-06-28 03:44:11 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:12:14 PM Total New Items Found: 0 Time: 1418 s
 
-2022-06-28 03:44:12 PM Total New Items Found: 0 Time: 1439 s
+2022-06-28 04:12:14 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_06&ITEMSELEZ=TFAT0009:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Stocks for government, frequency: Q, Time: 1418s
 
-2022-06-28 03:44:12 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60250:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Primary Income and Financial Account monthly, frequency: M, Time: 1439s
+2022-06-28 04:12:14 PM Downloading file: Stocks for government
 
-2022-06-28 03:44:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:12:15 PM Getting Data From Website
 
-2022-06-28 03:44:12 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:13:11 PM Total New Items Found: 0 Time: 1474 s
 
-2022-06-28 03:44:17 PM Total New Items Found: 0 Time: 1444 s
+2022-06-28 04:13:11 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60230:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Balance of payments and Current Account monthly, frequency: M, Time: 1474s
 
-2022-06-28 03:44:17 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_04/PUBBL_00_02_01_04_02&ITEMSELEZ=MIR0200:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Bank Interest Rates on Euro Loans and Deposits, frequency: M, Time: 1444s
+2022-06-28 04:13:11 PM Downloading file: Balance of payments and Current Account monthly
 
-2022-06-28 03:44:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:13:11 PM Getting Data From Website
 
-2022-06-28 03:44:17 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:13:37 PM Total New Items Found: 0 Time: 1500 s
 
-2022-06-28 03:44:17 PM Total New Items Found: 0 Time: 1444 s
+2022-06-28 04:13:37 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07&ITEMSELEZ=TBP60250:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Primary Income and Financial Account monthly, frequency: M, Time: 1500s
 
-2022-06-28 03:44:18 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07/TICOM250&ITEMSELEZ=BOP_ICOM.M.1033.ITL.967.916:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Price-competitiveness indicator, frequency: M, Time: 1444s
+2022-06-28 04:13:37 PM Downloading file: Primary Income and Financial Account monthly
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:13:37 PM Getting Data From Website
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:10 PM Total New Items Found: 0 Time: 1534 s
 
-2022-06-28 03:44:18 PM Total New Items Found: 0 Time: 1444 s
+2022-06-28 04:14:10 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_04/PUBBL_00_02_01_04_02&ITEMSELEZ=MIR0200:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Bank Interest Rates on Euro Loans and Deposits, frequency: M, Time: 1534s
 
-2022-06-28 03:44:18 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_10/PUBBL_00_10_01/TAV00100&ITEMSELEZ=SDDS_SPBI.M.1000.2500005.9.101.WRDBI3.S2BI74.1001.1101026:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Claims on non-euro area residents denominated in foreign currency, frequency: M, Time: 1445s
+2022-06-28 04:14:10 PM Downloading file: Bank Interest Rates on Euro Loans and Deposits
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:10 PM Getting Data From Website
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:36 PM Total New Items Found: 0 Time: 1560 s
 
-2022-06-28 03:44:18 PM Total New Items Found: 0 Time: 1445 s
+2022-06-28 04:14:36 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_07/TICOM250&ITEMSELEZ=BOP_ICOM.M.1033.ITL.967.916:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Price-competitiveness indicator, frequency: M, Time: 1560s
 
-2022-06-28 03:44:18 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_05/BMK0100&ITEMSELEZ=MFN_BMK.M.020.922.0.EUR.210:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Gross yield of benchmark 10-year BTP, frequency: M, Time: 1445s
+2022-06-28 04:14:36 PM Downloading file: Price-competitiveness indicator
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:37 PM Getting Data From Website
 
-2022-06-28 03:44:18 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:52 PM Total New Items Found: 0 Time: 1576 s
 
-2022-06-28 03:44:19 PM Total New Items Found: 0 Time: 1445 s
+2022-06-28 04:14:52 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_10/PUBBL_00_10_01/TAV00100&ITEMSELEZ=SDDS_SPBI.M.1000.2500005.9.101.WRDBI3.S2BI74.1001.1101026:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Claims on non-euro area residents denominated in foreign currency, frequency: M, Time: 1576s
 
-2022-06-28 03:44:19 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:14:52 PM Downloading file: Claims on non-euro area residents denominated in foreign currency
 
-2022-06-28 03:44:19 PM Country: Italy, Reading file or url: ITA, sheet: Annual, frequency: A, Time: 1445s
+2022-06-28 04:14:53 PM Getting Data From Website
 
-2022-06-28 03:44:19 PM Total New Items Found: 0 Time: 1445 s
+2022-06-28 04:15:09 PM Total New Items Found: 0 Time: 1593 s
 
-2022-06-28 03:44:19 PM Country: Italy, Reading file or url: ITA, sheet: Monthly, frequency: M, Time: 1445s
+2022-06-28 04:15:10 PM Country: Italy, Reading file or url: https://infostat.bancaditalia.it/inquiry/home?spyglass/taxo:CUBESET=/PUBBL_00/PUBBL_00_02_01_05/BMK0100&ITEMSELEZ=MFN_BMK.M.020.922.0.EUR.210:true&OPEN=false/&ep:LC=EN&COMM=BANKITALIA&ENV=LIVE&CTX=DIFF&IDX=2&/view:CUBEIDS=/, sheet: Gross yield of benchmark 10-year BTP, frequency: M, Time: 1593s
 
-2022-06-28 03:44:19 PM Total New Items Found: 0 Time: 1446 s
+2022-06-28 04:15:10 PM Downloading file: Gross yield of benchmark 10-year BTP
 
-2022-06-28 03:44:19 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:10 PM Getting Data From Website
 
-2022-06-28 03:44:19 PM Country: Italy, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1446s
+2022-06-28 04:15:25 PM Total New Items Found: 0 Time: 1609 s
 
-2022-06-28 03:44:19 PM Total New Items Found: 0 Time: 1446 s
+2022-06-28 04:15:25 PM Downloading file: ITA_xls
 
-2022-06-28 03:44:20 PM Country: Italy, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1446s
+2022-06-28 04:15:28 PM Getting Data From Website
 
-2022-06-28 03:44:24 PM Total New Items Found: 0 Time: 1450 s
+2022-06-28 04:15:49 PM Country: Italy, Reading file or url: ITA, sheet: Annual, frequency: A, Time: 1632s
 
-2022-06-28 03:44:24 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:49 PM Total New Items Found: 0 Time: 1632 s
 
-2022-06-28 03:44:24 PM Country: Italy, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1450s
+2022-06-28 04:15:49 PM Country: Italy, Reading file or url: ITA, sheet: Monthly, frequency: M, Time: 1632s
 
-2022-06-28 03:44:24 PM Total New Items Found: 0 Time: 1450 s
+2022-06-28 04:15:49 PM Total New Items Found: 0 Time: 1632 s
 
-2022-06-28 03:44:24 PM Country: Italy, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1451s
+2022-06-28 04:15:49 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:25 PM Total New Items Found: 0 Time: 1452 s
+2022-06-28 04:15:49 PM Country: Italy, Reading file or url: building_total_nsa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1633s
 
-2022-06-28 03:44:25 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:49 PM Total New Items Found: 0 Time: 1633 s
 
-2022-06-28 03:44:25 PM Country: Italy, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1452s
+2022-06-28 04:15:50 PM Country: Italy, Reading file or url: building_total_nsa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1633s
 
-2022-06-28 03:44:25 PM Total New Items Found: 0 Time: 1452 s
+2022-06-28 04:15:54 PM Total New Items Found: 0 Time: 1637 s
 
-2022-06-28 03:44:25 PM Country: Italy, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1452s
+2022-06-28 04:15:54 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:26 PM Total New Items Found: 0 Time: 1453 s
+2022-06-28 04:15:54 PM Country: Italy, Reading file or url: building_total_sa_nace2, sheet: BUILDING QUARTERLY, frequency: Q, Time: 1637s
 
-2022-06-28 03:44:26 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:54 PM Total New Items Found: 0 Time: 1637 s
 
-2022-06-28 03:44:27 PM Country: Italy, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1453s
+2022-06-28 04:15:54 PM Country: Italy, Reading file or url: building_total_sa_nace2, sheet: BUILDING MONTHLY, frequency: M, Time: 1638s
 
-2022-06-28 03:44:27 PM Total New Items Found: 0 Time: 1454 s
+2022-06-28 04:15:55 PM Total New Items Found: 0 Time: 1639 s
 
-2022-06-28 03:44:27 PM Country: Italy, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1454s
+2022-06-28 04:15:55 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:29 PM Total New Items Found: 0 Time: 1456 s
+2022-06-28 04:15:55 PM Country: Italy, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1639s
 
-2022-06-28 03:44:29 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:55 PM Total New Items Found: 0 Time: 1639 s
 
-2022-06-28 03:44:30 PM Country: Italy, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1456s
+2022-06-28 04:15:55 PM Country: Italy, Reading file or url: consumer_total_nsa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1639s
 
-2022-06-28 03:44:32 PM Total New Items Found: 0 Time: 1458 s
+2022-06-28 04:15:57 PM Total New Items Found: 0 Time: 1640 s
 
-2022-06-28 03:44:32 PM Country: Italy, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1459s
+2022-06-28 04:15:57 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:33 PM Total New Items Found: 0 Time: 1459 s
+2022-06-28 04:15:57 PM Country: Italy, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER QUARTERLY, frequency: Q, Time: 1640s
 
-2022-06-28 03:44:33 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:15:57 PM Total New Items Found: 0 Time: 1641 s
 
-2022-06-28 03:44:33 PM Country: Italy, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1460s
+2022-06-28 04:15:57 PM Country: Italy, Reading file or url: consumer_total_sa_nace2, sheet: CONSUMER MONTHLY, frequency: M, Time: 1641s
 
-2022-06-28 03:44:35 PM Total New Items Found: 0 Time: 1462 s
+2022-06-28 04:15:59 PM Total New Items Found: 0 Time: 1643 s
 
-2022-06-28 03:44:35 PM Country: Italy, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1462s
+2022-06-28 04:15:59 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:36 PM Total New Items Found: 0 Time: 1463 s
+2022-06-28 04:16:00 PM Country: Italy, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1643s
 
-2022-06-28 03:44:36 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:02 PM Total New Items Found: 0 Time: 1645 s
 
-2022-06-28 03:44:39 PM Country: Italy, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 1465s
+2022-06-28 04:16:02 PM Country: Italy, Reading file or url: industry_total_nsa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1645s
 
-2022-06-28 03:44:40 PM Total New Items Found: 0 Time: 1467 s
+2022-06-28 04:16:03 PM Total New Items Found: 0 Time: 1646 s
 
-2022-06-28 03:44:40 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:03 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:40 PM Country: Italy, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1467s
+2022-06-28 04:16:03 PM Country: Italy, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY QUARTERLY, frequency: Q, Time: 1646s
 
-2022-06-28 03:44:41 PM Total New Items Found: 0 Time: 1468 s
+2022-06-28 04:16:05 PM Total New Items Found: 0 Time: 1649 s
 
-2022-06-28 03:44:41 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:05 PM Country: Italy, Reading file or url: industry_total_sa_nace2, sheet: INDUSTRY MONTHLY, frequency: M, Time: 1649s
 
-2022-06-28 03:44:41 PM Country: Italy, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1468s
+2022-06-28 04:16:06 PM Total New Items Found: 0 Time: 1650 s
 
-2022-06-28 03:44:42 PM Total New Items Found: 0 Time: 1469 s
+2022-06-28 04:16:06 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:42 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:09 PM Country: Italy, Reading file or url: main_indicators_nace2, sheet: MONTHLY, frequency: M, Time: 1652s
 
-2022-06-28 03:44:42 PM Country: Italy, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1469s
+2022-06-28 04:16:10 PM Total New Items Found: 0 Time: 1654 s
 
-2022-06-28 03:44:43 PM Total New Items Found: 0 Time: 1469 s
+2022-06-28 04:16:10 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:43 PM Country: Italy, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1469s
+2022-06-28 04:16:10 PM Country: Italy, Reading file or url: retail_total_nsa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1654s
 
-2022-06-28 03:44:43 PM Total New Items Found: 0 Time: 1470 s
+2022-06-28 04:16:11 PM Total New Items Found: 0 Time: 1655 s
 
-2022-06-28 03:44:43 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:11 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:44 PM Country: Italy, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1470s
+2022-06-28 04:16:11 PM Country: Italy, Reading file or url: retail_total_sa_nace2, sheet: RETAIL TRADE MONTHLY, frequency: M, Time: 1655s
 
-2022-06-28 03:44:44 PM Total New Items Found: 0 Time: 1470 s
+2022-06-28 04:16:12 PM Total New Items Found: 0 Time: 1656 s
 
-2022-06-28 03:44:44 PM Country: Italy, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1471s
+2022-06-28 04:16:12 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:45 PM Total New Items Found: 0 Time: 1471 s
+2022-06-28 04:16:12 PM Country: Italy, Reading file or url: services_total_nsa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1656s
 
-2022-06-28 03:44:45 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:13 PM Total New Items Found: 0 Time: 1656 s
 
-2022-06-28 03:44:45 PM Country: Italy, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 1471s
+2022-06-28 04:16:13 PM Country: Italy, Reading file or url: services_total_nsa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1656s
 
-2022-06-28 03:44:46 PM Total New Items Found: 0 Time: 1473 s
+2022-06-28 04:16:13 PM Total New Items Found: 0 Time: 1657 s
 
-2022-06-28 03:44:46 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:13 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:47 PM Country: Italy, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 1473s
+2022-06-28 04:16:14 PM Country: Italy, Reading file or url: services_total_sa_nace2, sheet: SERVICES QUARTERLY, frequency: Q, Time: 1657s
 
-2022-06-28 03:44:47 PM Total New Items Found: 0 Time: 1474 s
+2022-06-28 04:16:14 PM Total New Items Found: 0 Time: 1657 s
 
-2022-06-28 03:44:47 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:14 PM Country: Italy, Reading file or url: services_total_sa_nace2, sheet: SERVICES MONTHLY, frequency: M, Time: 1657s
 
-2022-06-28 03:44:47 PM Country: Italy, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 1474s
+2022-06-28 04:16:15 PM Total New Items Found: 0 Time: 1658 s
 
-2022-06-28 03:44:49 PM Total New Items Found: 0 Time: 1475 s
+2022-06-28 04:16:15 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:49 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:15 PM Country: Italy, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 1658s
 
-2022-06-28 03:44:49 PM Country: Italy, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 1475s
+2022-06-28 04:16:16 PM Total New Items Found: 0 Time: 1660 s
 
-2022-06-28 03:44:50 PM Total New Items Found: 0 Time: 1477 s
+2022-06-28 04:16:16 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:50 PM Country: Italy, Reading file or url: https://sdw.ecb.europa.eu/browseSelection.do?node=qview&SERIES_KEY=143.FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA, sheet: Euribor 3-month, frequency: M, Time: 1477s
+2022-06-28 04:16:16 PM Country: Italy, Reading file or url: sts_inppd_m_1_Data, sheet: 0, frequency: M, Time: 1660s
 
-2022-06-28 03:44:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:17 PM Total New Items Found: 0 Time: 1661 s
 
-2022-06-28 03:44:51 PM Total New Items Found: 0 Time: 1477 s
+2022-06-28 04:16:17 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:51 PM Country: Italy, Reading file or url: https://www.anfia.it/en/statistical-data/italy-new-registrations, sheet: Italy New registrations, frequency: M, Time: 1478s
+2022-06-28 04:16:17 PM Country: Italy, Reading file or url: sts_inpr_m_1_Data, sheet: 0, frequency: M, Time: 1661s
 
-2022-06-28 03:44:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:19 PM Total New Items Found: 0 Time: 1662 s
 
-2022-06-28 03:44:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:19 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:19 PM Country: Italy, Reading file or url: sts_trtu_m_1_Data, sheet: 0, frequency: M, Time: 1662s
 
-2022-06-28 03:44:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:20 PM Total New Items Found: 0 Time: 1664 s
 
-2022-06-28 03:44:52 PM Total New Items Found: 0 Time: 1478 s
+2022-06-28 04:16:20 PM Country: Italy, Reading file or url: https://sdw.ecb.europa.eu/browseSelection.do?node=qview&SERIES_KEY=143.FM.M.U2.EUR.RT.MM.EURIBOR3MD_.HSTA, sheet: Euribor 3-month, frequency: M, Time: 1664s
 
-2022-06-28 03:44:52 PM Reading file: Datasets, Time: 1478 s
+2022-06-28 04:16:20 PM Downloading file: Euribor 3-month
 
-2022-06-28 03:44:52 PM Reading file: country_series, Time: 1479 s
+2022-06-28 04:16:30 PM Getting Data From Website
 
-2022-06-28 03:44:52 PM Reading file: 223datasets, Time: 1479 s
+2022-06-28 04:16:39 PM Total New Items Found: 0 Time: 1683 s
 
-2022-06-28 03:44:52 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/2681#/n1/all/v/allxp/p/all/c244/0/c1836/0/c2/all/c260/0/c257/107166/l/v,p+c244+c1836,t+c260+c257+c2/resultado, sheet: Number of deaths in the year, frequency: A, Time: 1479s
+2022-06-28 04:16:39 PM Country: Italy, Reading file or url: https://www.anfia.it/en/statistical-data/italy-new-registrations, sheet: Italy New registrations, frequency: M, Time: 1683s
 
-2022-06-28 03:44:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:39 PM Downloading file: Italy New registrations
 
-2022-06-28 03:44:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:44 PM Getting Data From Website
 
-2022-06-28 03:44:52 PM Total New Items Found: 0 Time: 1479 s
+2022-06-28 04:16:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:53 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#1, sheet: Balance on goods - Balance of Payments - annual - net, frequency: A, Time: 1479s
+2022-06-28 04:16:53 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:44:53 PM Downloading file: Balance on goods - Balance of Payments - annual - net
+2022-06-28 04:16:53 PM Total New Items Found: 0 Time: 1697 s
 
-2022-06-28 03:44:59 PM Getting Data From Website
+2022-06-28 04:16:53 PM Reading file: Datasets, Time: 1697 s
 
-2022-06-28 03:45:14 PM Total New Items Found: 0 Time: 1501 s
+2022-06-28 04:16:53 PM Reading file: country_series, Time: 1697 s
 
-2022-06-28 03:45:14 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: A, Time: 1501s
+2022-06-28 04:16:53 PM Reading file: 223datasets, Time: 1697 s
 
-2022-06-28 03:45:14 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:16:54 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/2681#/n1/all/v/allxp/p/all/c244/0/c1836/0/c2/all/c260/0/c257/107166/l/v,p+c244+c1836,t+c260+c257+c2/resultado, sheet: Number of deaths in the year, frequency: A, Time: 1697s
 
-2022-06-28 03:45:14 PM Total New Items Found: 0 Time: 1501 s
+2022-06-28 04:16:54 PM Downloading file: Number of deaths in the year
 
-2022-06-28 03:45:14 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: Q, Time: 1501s
+2022-06-28 04:17:12 PM Getting Data From Website
 
-2022-06-28 03:45:15 PM Total New Items Found: 0 Time: 1501 s
+2022-06-28 04:17:35 PM Total New Items Found: 0 Time: 1739 s
 
-2022-06-28 03:45:15 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: M, Time: 1501s
+2022-06-28 04:17:35 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#1, sheet: Balance on goods - Balance of Payments - annual - net, frequency: A, Time: 1739s
 
-2022-06-28 03:45:15 PM Total New Items Found: 0 Time: 1501 s
+2022-06-28 04:17:35 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:45:15 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: A, Time: 1501s
+2022-06-28 04:17:35 PM Total New Items Found: 0 Time: 1739 s
 
-2022-06-28 03:45:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:17:35 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: A, Time: 1739s
 
-2022-06-28 03:45:15 PM Total New Items Found: 0 Time: 1502 s
+2022-06-28 04:17:35 PM Downloading file: Interest rate - monthly
 
-2022-06-28 03:45:15 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: M, Time: 1502s
+2022-06-28 04:17:43 PM Getting Data From Website
 
-2022-06-28 03:45:15 PM Total New Items Found: 0 Time: 1502 s
+2022-06-28 04:17:58 PM Total New Items Found: 0 Time: 1762 s
 
-2022-06-28 03:45:15 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#4, sheet: Broad National Consumer Price Index, frequency: M, Time: 1502s
+2022-06-28 04:17:58 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: Q, Time: 1762s
 
-2022-06-28 03:45:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:17:58 PM Total New Items Found: 0 Time: 1762 s
 
-2022-06-28 03:45:15 PM Total New Items Found: 0 Time: 1502 s
+2022-06-28 04:17:58 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#2, sheet: Interest rate - monthly, frequency: M, Time: 1762s
 
-2022-06-28 03:45:15 PM Country: Brazil, Reading file or url: https://www.bcb.gov.br/en/statistics/specialseries, sheet: Gross and net general government debt historical series, frequency: M, Time: 1502s
+2022-06-28 04:17:58 PM Total New Items Found: 0 Time: 1762 s
 
-2022-06-28 03:45:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:17:58 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: A, Time: 1762s
 
-2022-06-28 03:45:15 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:17:58 PM Downloading file: Interest rate - daily
 
-2022-06-28 03:45:16 PM Total New Items Found: 0 Time: 1502 s
+2022-06-28 04:18:00 PM Getting Data From Website
 
-2022-06-28 03:45:16 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#5, sheet: External sector, frequency: M, Time: 1502s
+2022-06-28 04:18:14 PM Total New Items Found: 0 Time: 1778 s
 
-2022-06-28 03:45:16 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:18:14 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#3, sheet: Interest rate - daily, frequency: M, Time: 1778s
 
-2022-06-28 03:45:16 PM Total New Items Found: 0 Time: 1502 s
+2022-06-28 04:18:14 PM Total New Items Found: 0 Time: 1778 s
 
-2022-06-28 03:45:16 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#6, sheet: Money supply, frequency: M, Time: 1503s
+2022-06-28 04:18:14 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#4, sheet: Broad National Consumer Price Index, frequency: M, Time: 1778s
 
-2022-06-28 03:45:16 PM Downloading file: Money supply
+2022-06-28 04:18:14 PM Downloading file: Broad National Consumer Price Index
 
-2022-06-28 03:45:17 PM Getting Data From Website
+2022-06-28 04:18:16 PM Getting Data From Website
 
-2022-06-28 03:45:32 PM Total New Items Found: 0 Time: 1518 s
+2022-06-28 04:18:30 PM Total New Items Found: 0 Time: 1794 s
 
-2022-06-28 03:45:32 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#7, sheet: Production of petroleum derivatives, frequency: M, Time: 1518s
+2022-06-28 04:18:30 PM Country: Brazil, Reading file or url: https://www.bcb.gov.br/en/statistics/specialseries, sheet: Gross and net general government debt historical series, frequency: M, Time: 1794s
 
-2022-06-28 03:45:32 PM Downloading file: Production of petroleum derivatives
+2022-06-28 04:18:30 PM Downloading file: Gross and net general government debt historical series
 
-2022-06-28 03:45:33 PM Getting Data From Website
+2022-06-28 04:18:35 PM Getting Data From Website
 
-2022-06-28 03:45:47 PM Total New Items Found: 0 Time: 1533 s
+2022-06-28 04:18:48 PM Total New Items Found: 0 Time: 1811 s
 
-2022-06-28 03:45:47 PM Country: Brazil, Reading file or url: http://comexstat.mdic.gov.br/en/geral/47028, sheet: General Exports and Imports, frequency: M, Time: 1534s
+2022-06-28 04:18:48 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#5, sheet: External sector, frequency: M, Time: 1812s
 
-2022-06-28 03:45:47 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:18:48 PM Downloading file: External sector
 
-2022-06-28 03:45:47 PM Total New Items Found: 0 Time: 1534 s
+2022-06-28 04:18:49 PM Getting Data From Website
 
-2022-06-28 03:45:48 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/3416#/n1/all/n3/33,35/v/564/p/all/c11046/40311,40312/d/v564%201/l/v,p,c11046+t/resultado, sheet: Volume and nominal revenue indices from sales in retail trade by types of index, frequency: M, Time: 1534s
+2022-06-28 04:19:04 PM Total New Items Found: 0 Time: 1827 s
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:04 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#6, sheet: Money supply, frequency: M, Time: 1828s
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:45:48 PM Total New Items Found: 0 Time: 1534 s
+2022-06-28 04:19:04 PM Total New Items Found: 0 Time: 1828 s
 
-2022-06-28 03:45:48 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/3418#/n1/all/n3/33,35/v/564/p/all/c11046/40311/c85/2759,90671,90672,90673,103154,103155,103156,103157,103158/d/v564%201/l/v,p+c11046,t+c85/resultado, sheet: Volume and nominal revenue indices from sales in retail trade by types of index and activities, frequency: M, Time: 1534s
+2022-06-28 04:19:04 PM Country: Brazil, Reading file or url: https://www3.bcb.gov.br/sgspub/#7, sheet: Production of petroleum derivatives, frequency: M, Time: 1828s
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:04 PM Present File Exists. Reading Data From Default Path.
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:04 PM Total New Items Found: 0 Time: 1828 s
 
-2022-06-28 03:45:48 PM Total New Items Found: 0 Time: 1535 s
+2022-06-28 04:19:05 PM Country: Brazil, Reading file or url: http://comexstat.mdic.gov.br/en/geral/47028, sheet: General Exports and Imports, frequency: M, Time: 1828s
 
-2022-06-28 03:45:48 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/1736#/n1/all/v/2289,2292/p/all/d/v2289%2013,v2292%202/l/,p,t+v/resultado, sheet: Table 1736 indice, frequency: M, Time: 1535s
+2022-06-28 04:19:05 PM Downloading file: General Exports and Imports
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:23 PM Getting Data From Website
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:37 PM Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4029, in INTLINE_WEB
+    WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/label[contains(., "Export data ")]')))
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
 
-2022-06-28 03:45:48 PM Total New Items Found: 0 Time: 1535 s
 
-2022-06-28 03:45:48 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/1737#/n1/all/v/2265,2266/p/all/d/v2265%202,v2266%2013/l/,p,t+v/resultado, sheet: Table 1737 indice, frequency: M, Time: 1535s
+2022-06-28 04:19:37 PM Getting Data From Website
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
+2022-06-28 04:19:41 PM Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 3998, in INTLINE_WEB
+    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Exports")]'))).click()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class="ui-radiobutton-label ui-label-active">...</label> is not clickable at point (175, 10). Other element would receive the click: <div _ngcontent-c1="" class="container relative-position">...</div>
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x010FD953+2414931]
+	Ordinal0 [0x0108F5E1+1963489]
+	Ordinal0 [0x00F7C6B8+837304]
+	Ordinal0
+2022-06-28 04:19:41 PM Getting Data From Website
 
-2022-06-28 03:45:48 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:48 PM Total New Items Found: 0 Time: 1535 s
-
-2022-06-28 03:45:48 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/7060#/n1/all/v/2265/p/all/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v2265%202/l/,p+t+v,c315/resultado, sheet: Table 7060, frequency: M, Time: 1535s
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Total New Items Found: 0 Time: 1535 s
-
-2022-06-28 03:45:49 PM Country: Brazil, Reading file or url: https://sidra.ibge.gov.br/tabela/7063#/n1/all/v/2292/p/all/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v2292%202/l/,t+p+v,c315/resultado, sheet: Table 7063, frequency: M, Time: 1535s
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Total New Items Found: 0 Time: 1536 s
-
-2022-06-28 03:45:49 PM Country: Brazil, Reading file or url: https://extra-ibre.fgv.br/autenticacao_produtos_licenciados/?ReturnUrl=%2fautenticacao_produtos_licenciados%2flista-produtos.aspx, sheet: Wholesale Price Index, frequency: M, Time: 1536s
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:49 PM Total New Items Found: 0 Time: 1536 s
-
-2022-06-28 03:45:50 PM Country: Brazil, Reading file or url: https://www.portaldaindustria.com.br/estatisticas/icei-industrial-sectors/, sheet: Business Confidence Index, frequency: M, Time: 1536s
-
-2022-06-28 03:45:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:50 PM Total New Items Found: 0 Time: 1536 s
-
-2022-06-28 03:45:50 PM Reading file: Datasets, Time: 1536 s
-
-2022-06-28 03:45:50 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: M, Time: 1537s
-
-2022-06-28 03:45:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:50 PM Total New Items Found: 0 Time: 1537 s
-
-2022-06-28 03:45:50 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: Q, Time: 1537s
-
-2022-06-28 03:45:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:50 PM Total New Items Found: 0 Time: 1537 s
-
-2022-06-28 03:45:50 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: A, Time: 1537s
-
-2022-06-28 03:45:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:50 PM Total New Items Found: 0 Time: 1537 s
-
-2022-06-28 03:45:50 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: W, Time: 1537s
-
-2022-06-28 03:45:55 PM Total New Items Found: 0 Time: 1541 s
-
-2022-06-28 03:45:55 PM Country: Brazil, Reading file or url: https://www.investing.com/indices/bovespa-historical-data, sheet: BVSP Index, frequency: D, Time: 1541s
-
-2022-06-28 03:45:58 PM Total New Items Found: 0 Time: 1545 s
-
-2022-06-28 03:45:58 PM Reading file: Datasets, Time: 1545 s
-
-2022-06-28 03:45:59 PM Country: Brazil, Reading file or url: WSA, sheet: 0, frequency: M, Time: 1545s
-
-2022-06-28 03:45:59 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:59 PM Total New Items Found: 0 Time: 1545 s
-
-2022-06-28 03:45:59 PM Reading file: country_series, Time: 1545 s
-
-2022-06-28 03:45:59 PM Reading file: 142datasets, Time: 1546 s
-
-2022-06-28 03:45:59 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 1546s
-
-2022-06-28 03:45:59 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:45:59 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Total New Items Found: 0 Time: 1546 s
-
-2022-06-28 03:46:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 1546s
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Total New Items Found: 0 Time: 1546 s
-
-2022-06-28 03:46:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 1547s
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Total New Items Found: 0 Time: 1547 s
-
-2022-06-28 03:46:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 1547s
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:00 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Total New Items Found: 0 Time: 1547 s
-
-2022-06-28 03:46:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 1547s
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Total New Items Found: 0 Time: 1547 s
-
-2022-06-28 03:46:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 1547s
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Total New Items Found: 0 Time: 1548 s
-
-2022-06-28 03:46:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 1548s
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:01 PM Total New Items Found: 0 Time: 1548 s
-
-2022-06-28 03:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 1548s
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Total New Items Found: 0 Time: 1548 s
-
-2022-06-28 03:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 1548s
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Total New Items Found: 0 Time: 1549 s
-
-2022-06-28 03:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 1549s
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Total New Items Found: 0 Time: 1549 s
-
-2022-06-28 03:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 1549s
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Total New Items Found: 0 Time: 1549 s
-
-2022-06-28 03:46:02 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 1549s
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:02 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:03 PM Total New Items Found: 0 Time: 1549 s
-
-2022-06-28 03:46:03 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 1549s
-
-2022-06-28 03:46:03 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:03 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:03 PM Total New Items Found: 0 Time: 1549 s
-
-2022-06-28 03:46:03 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 1549s
-
-2022-06-28 03:46:03 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:03 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:03 PM Total New Items Found: 0 Time: 1550 s
-
-2022-06-28 03:46:04 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060823, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Main industries), frequency: Q, Time: 1550s
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Total New Items Found: 0 Time: 1550 s
-
-2022-06-28 03:46:04 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060824, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Asset type), frequency: Q, Time: 1550s
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Total New Items Found: 0 Time: 1551 s
-
-2022-06-28 03:46:04 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060826, sheet: 10740 Financial account, frequency: Q, Time: 1551s
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Total New Items Found: 0 Time: 1551 s
-
-2022-06-28 03:46:04 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060827, sheet: 09672 Current and capital account (Exports), frequency: Q, Time: 1551s
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:04 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Total New Items Found: 0 Time: 1551 s
-
-2022-06-28 03:46:05 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060828, sheet: 09672 Current and capital account (Imports), frequency: Q, Time: 1551s
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Total New Items Found: 0 Time: 1551 s
-
-2022-06-28 03:46:05 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060830, sheet: 09672 Current and capital account (Balance From abroad), frequency: Q, Time: 1551s
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Total New Items Found: 0 Time: 1552 s
-
-2022-06-28 03:46:05 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060831, sheet: 09672 Current and capital account (Balance To abroad), frequency: Q, Time: 1552s
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Total New Items Found: 0 Time: 1552 s
-
-2022-06-28 03:46:05 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060832, sheet: 07221 Price for existing dwellings, frequency: Q, Time: 1552s
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:05 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Latest Base Year Received.
-
-2022-06-28 03:46:06 PM Total New Items Found: 0 Time: 1552 s
-
-2022-06-28 03:46:06 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060946, sheet: 08792 External trade in goods main figures, frequency: M, Time: 1552s
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Total New Items Found: 0 Time: 1553 s
-
-2022-06-28 03:46:06 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060947, sheet: 08864 External Trade in goods main figures seasonal adjusted, frequency: M, Time: 1553s
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Total New Items Found: 0 Time: 1553 s
-
-2022-06-28 03:46:06 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060948, sheet: 03013 Consumer Price Index by Divisions, frequency: M, Time: 1553s
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:06 PM Latest Base Year Received.
-
-2022-06-28 03:46:07 PM Total New Items Found: 0 Time: 1553 s
-
-2022-06-28 03:46:07 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060950, sheet: 08183 Consumer Price Index, frequency: M, Time: 1553s
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Latest Base Year Received.
-
-2022-06-28 03:46:07 PM Total New Items Found: 0 Time: 1553 s
-
-2022-06-28 03:46:07 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060951, sheet: 03700 Harmonized index of consumer prices, frequency: M, Time: 1554s
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Latest Base Year Received.
-
-2022-06-28 03:46:07 PM Total New Items Found: 0 Time: 1554 s
-
-2022-06-28 03:46:07 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060952, sheet: 08651 Construction cost index for residential buildings, frequency: M, Time: 1554s
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Latest Base Year Received.
-
-2022-06-28 03:46:07 PM Total New Items Found: 0 Time: 1554 s
-
-2022-06-28 03:46:07 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060953, sheet: 13332 Employment and unemployment for persons aged 15-74, frequency: M, Time: 1554s
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:07 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Total New Items Found: 0 Time: 1554 s
-
-2022-06-28 03:46:08 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060956, sheet: 07095 Index of production by Main Industrial Groupring, frequency: M, Time: 1554s
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Latest Base Year Received.
-
-2022-06-28 03:46:08 PM Total New Items Found: 0 Time: 1554 s
-
-2022-06-28 03:46:08 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060957, sheet: 07095 Index of production by Industry, frequency: M, Time: 1555s
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Latest Base Year Received.
-
-2022-06-28 03:46:08 PM Total New Items Found: 0 Time: 1555 s
-
-2022-06-28 03:46:08 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060958, sheet: 07095 Index of production by contents Total, frequency: M, Time: 1555s
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:08 PM Latest Base Year Received.
-
-2022-06-28 03:46:08 PM Total New Items Found: 0 Time: 1555 s
-
-2022-06-28 03:46:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060959, sheet: 12462 Producer price index, frequency: M, Time: 1555s
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Latest Base Year Received.
-
-2022-06-28 03:46:09 PM Total New Items Found: 0 Time: 1555 s
-
-2022-06-28 03:46:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060963, sheet: 12462 Producer price index Industry combined, frequency: M, Time: 1555s
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Latest Base Year Received.
-
-2022-06-28 03:46:09 PM Total New Items Found: 0 Time: 1556 s
-
-2022-06-28 03:46:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060960, sheet: 07129 The Index of wholesale and retail trade, frequency: M, Time: 1556s
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Latest Base Year Received.
-
-2022-06-28 03:46:09 PM Total New Items Found: 0 Time: 1556 s
-
-2022-06-28 03:46:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060962, sheet: 10947 Monetary aggregate M3 by financial instrument, frequency: M, Time: 1556s
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:09 PM Total New Items Found: 0 Time: 1556 s
-
-2022-06-28 03:46:10 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060968, sheet: 10336 First time registered private cars, frequency: M, Time: 1556s
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:10 PM Total New Items Found: 0 Time: 1556 s
-
-2022-06-28 03:46:10 PM Country: Norway, Reading file or url: https://www.nima.no/norsk-pmi/, sheet: Purchasing Managers Index, frequency: M, Time: 1557s
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:10 PM Total New Items Found: 0 Time: 1557 s
-
-2022-06-28 03:46:10 PM Country: Norway, Reading file or url: https://www.nav.no/en/home/work-and-stay-in-norway/relatert-informasjon/labour-market-information-in-english, sheet: Labour Market Statistics, frequency: M, Time: 1557s
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:10 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:11 PM Total New Items Found: 0 Time: 1558 s
-
-2022-06-28 03:46:11 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 03:46:11 PM Country: Norway, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 1558s
-
-2022-06-28 03:46:13 PM Total New Items Found: 0 Time: 1560 s
-
-2022-06-28 03:46:13 PM Reading file: Datasets, Time: 1560 s
-
-2022-06-28 03:46:13 PM Country: Norway, Reading file or url: https://www.investing.com/indices/oslo-all-share-historical-data, sheet: Oslo All Share Index, frequency: W, Time: 1560s
-
-2022-06-28 03:46:16 PM Total New Items Found: 0 Time: 1562 s
-
-2022-06-28 03:46:16 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: W, Time: 1562s
-
-2022-06-28 03:46:18 PM Total New Items Found: 0 Time: 1565 s
-
-2022-06-28 03:46:18 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: D, Time: 1565s
-
-2022-06-28 03:46:20 PM Total New Items Found: 0 Time: 1566 s
-
-2022-06-28 03:46:22 PM = ! = No new items were found.
+2022-06-28 04:19:45 PM Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 3998, in INTLINE_WEB
+    WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Exports")]'))).click()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <label class="ui-radiobutton-label ui-label-active">...</label> is not clickable at point (175, 10). Other element would receive the click: <div _ngcontent-c1="" class="container relative-position">...</div>
+  (Session info: chrome=102.0.5005.115)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x010FD953+2414931]
+	Ordinal0 [0x0108F5E1+1963489]
+	Ordinal0 [0x00F7C6B8+837304]
+	Ordinal0
+2022-06-28 04:19:46 PM = ! = Download File Not Found.

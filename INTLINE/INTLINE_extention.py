@@ -195,7 +195,7 @@ def Reading_Excel(file_path, tables, header, index_col, skiprows, usecols=None, 
     return INTLINE_t
 
 def INTLINE_PRESENT(file_path, check_latest_update=False, latest_update=None, forcing_download=False, freq='A', discontinued=False):
-    if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V') or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
+    if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V')):# or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
         if check_latest_update == True:
             if str(latest_update).find('discontinued') >= 0:
                 return True
@@ -4026,7 +4026,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                     WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Net Weight")]'))).click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Values")]'))).click()
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/button[contains(., "Query")]'))).click()
-                WebDriverWait(chrome, 10).until(EC.visibility_of_element_located((By.XPATH, './/label[contains(., "Export data ")]')))
+                WebDriverWait(chrome, 20).until(EC.visibility_of_element_located((By.XPATH, './/label[contains(., "Export data ")]')))
                 time.sleep(2)
                 WebDriverWait(chrome, 3).until(EC.element_to_be_clickable((By.XPATH, './/label[contains(., "Vertical")]'))).click()
                 time.sleep(2)
