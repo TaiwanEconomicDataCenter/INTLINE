@@ -1991,7 +1991,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
         while True:
             try:
                 chrome.get(fname)
-            except TimeoutException:
+            except (TimeoutException, WebDriverException):
                 if count > 3:
                     input('加載時間過長，請手動重新整理後按Enter鍵繼續:')
                 count +=1
@@ -3422,6 +3422,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 try:
                     WebDriverWait(chrome, 1).until(EC.visibility_of_element_located((By.XPATH, './/a[@title="Close"]'))).click()
                 except TimeoutException:
+                    ActionChains(chrome).send_keys(Keys.ESCAPE).perform()
                     time.sleep(0)
                 WebDriverWait(chrome, 1).until(EC.visibility_of_element_located((By.XPATH, './/a[text()="English"]'))).click()
                 time.sleep(3)
@@ -3588,8 +3589,14 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('BIDN') >= 0:
                 if str(fname).find('headingFour') >= 0:
                     if WebDriverWait(chrome, 1).until(EC.visibility_of_element_located((By.XPATH, './/a[@href="#headingFour"]'))).get_attribute('aria-expanded') != 'true':
-                        link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='headingFour')
-                link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name))
+                        try:
+                            WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(@href, "headingFour")]'))).click()
+                        except ElementClickInterceptedException:
+                            link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='headingFour')
+                try:
+                    WebDriverWait(chrome, 5).until(EC.element_to_be_clickable((By.XPATH, './/a[contains(@href, "' + str(file_name) + '")]'))).click()
+                except ElementClickInterceptedException:
+                    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword=str(file_name))
                 chrome.refresh()
             elif address.find('BKPM') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Investment Growth', text_match=True)
