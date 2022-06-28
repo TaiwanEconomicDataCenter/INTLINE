@@ -195,7 +195,7 @@ def Reading_Excel(file_path, tables, header, index_col, skiprows, usecols=None, 
     return INTLINE_t
 
 def INTLINE_PRESENT(file_path, check_latest_update=False, latest_update=None, forcing_download=False, freq='A', discontinued=False):
-    if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V')):# or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
+    if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V') or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
         if check_latest_update == True:
             if str(latest_update).find('discontinued') >= 0:
                 return True
@@ -4072,7 +4072,9 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             elif address.find('CNI') >= 0:
                 link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='recentseri')
             elif address.find('STANOR') >= 0:
-                ActionChains(chrome).send_keys(Keys.DOWN).send_keys(Keys.DOWN).perform()
+                # for r in range(5):
+                #     ActionChains(chrome).send_keys(Keys.DOWN).perform()
+                target = WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).location_once_scrolled_into_view
                 WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
                 for r in range(12):
                     ActionChains(chrome).send_keys(Keys.DOWN).perform()
