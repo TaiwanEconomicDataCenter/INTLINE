@@ -3322,6 +3322,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 link_found = True
             elif address.find('BUNDES') >= 0:
                 try:
+                    chrome.get(fname)
                     WebDriverWait(chrome, 2).until(EC.element_to_be_clickable((By.XPATH, './/div[contains(@class, "listTable")]')))
                 except:
                     fname = input('網址改版，請輸入正確的網址後繼續:')
@@ -4221,7 +4222,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
             sys.stdout.write('\n')
             #if str(e.__class__.__name__) != 'ElementClickInterceptedException':
             #   print(traceback.format_exc())
-            print(str(traceback.format_exc())[:1500])
+            logging.info(str(traceback.format_exc())[:1500])
             y+=500
             if y > height and link_found == False:
                 print(traceback.format_exc())
@@ -4231,7 +4232,7 @@ def INTLINE_WEB(chrome, country, address, fname, sname, freq=None, tables=None, 
                 else:
                     ERROR('Download File Not Found.')
         except Exception as e:
-            print(traceback.format_exc())
+            logging.info(traceback.format_exc())
             error_class = e.__class__.__name__ #取得錯誤類型
             cl, exc, tb = sys.exc_info() #取得Call Stack
             lastCallStack = traceback.extract_tb(tb)[-1] #取得Call Stack的最後一筆資料
