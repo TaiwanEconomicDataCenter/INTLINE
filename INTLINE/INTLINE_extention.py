@@ -8625,7 +8625,9 @@ def INTLINE_DEUSTATIS(INTLINE_tem, data_path, country, address, fname, sname, Se
         INTLINE_tem.index = [str(dex).replace('=','').replace('- ','').replace('+ ','').strip() if str(dex) != 'nan' else None for dex in INTLINE_tem.index]
     INTLINE_tem = INTLINE_tem.loc[INTLINE_tem.index.dropna(), INTLINE_tem.columns.dropna()]
     INTLINE_tem = INTLINE_tem.loc[~INTLINE_tem.index.duplicated()]
-
+    if str(fname).find('Population by area') >= 0:
+        INTLINE_tem = INTLINE_tem.applymap(lambda x: str(x).encode('ascii','ignore').decode().replace(',',''))
+    
     return INTLINE_tem
 
 def INTLINE_MISSI(INTLINE_temp):
