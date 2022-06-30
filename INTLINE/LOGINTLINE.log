@@ -1,551 +1,542 @@
-﻿2022-06-28 05:13:37 PM excel_suffix: test
+﻿2022-06-30 10:52:13 AM excel_suffix: UP
 
-2022-06-28 05:13:37 PM data_processing: True
+2022-06-30 10:52:13 AM data_processing: True
 
-2022-06-28 05:13:37 PM find_unknown: False
+2022-06-30 10:52:13 AM find_unknown: False
 
-2022-06-28 05:13:37 PM dealing_start_year: 1901
+2022-06-30 10:52:13 AM dealing_start_year: 1901
 
-2022-06-28 05:13:41 PM Data Processing
+2022-06-30 10:52:17 AM Data Processing
 
-2022-06-28 05:13:41 PM Reading table: Country, Time: 4s
+2022-06-30 10:52:17 AM Reading table: Country, Time: 4s
 
-2022-06-28 05:13:41 PM Reading table: TABLES, Time: 4 s
+2022-06-30 10:52:28 AM Reading table: TABLES, Time: 14 s
 
-2022-06-28 05:13:48 PM Reading file: country_series, Time: 11 s
+2022-06-30 10:52:31 AM Reading file: country_series, Time: 18 s
 
-2022-06-28 05:13:48 PM Reading file: 142datasets, Time: 11 s
+2022-06-30 10:52:31 AM Reading file: 158datasets, Time: 18 s
 
-2022-06-28 05:13:48 PM 
+2022-06-30 10:52:32 AM 
 
-2022-06-28 05:13:48 PM ====== WebDriver manager ======
-2022-06-28 05:13:48 PM Current google-chrome version is 102.0.5005
-2022-06-28 05:13:48 PM Get LATEST chromedriver version for 102.0.5005 google-chrome
-2022-06-28 05:13:48 PM Driver [C:\Users\user\.wdm\drivers\chromedriver\win32\102.0.5005.61\chromedriver.exe] found in cache
-2022-06-28 05:13:50 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060623, sheet: 10721 General government. Revenue and expenditure, frequency: A, Time: 12s
+2022-06-30 10:52:32 AM ====== WebDriver manager ======
+2022-06-30 10:52:39 AM Current google-chrome version is 103.0.5060
+2022-06-30 10:52:39 AM Get LATEST chromedriver version for 103.0.5060 google-chrome
+2022-06-30 10:52:39 AM There is no [win32] chromedriver for browser  in cache
+2022-06-30 10:52:39 AM Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_win32.zip
+2022-06-30 10:52:42 AM Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win32\103.0.5060.53]
+2022-06-30 10:52:46 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#1, sheet: def-cy, frequency: A, Time: 32s
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:52:46 AM Downloading file: def-cy
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:52:49 AM Getting Data From Website
 
-2022-06-28 05:13:50 PM Total New Items Found: 0 Time: 13 s
+2022-06-30 10:52:59 AM Total Items: 19 Time: 45s
 
-2022-06-28 05:13:50 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060624, sheet: 10722 General government. Taxes and social security contributions, frequency: A, Time: 13s
+2022-06-30 10:52:59 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#2, sheet: gaku-jcy, frequency: A, Time: 46s
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:52:59 AM Downloading file: gaku-jcy
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:52:59 AM Getting Data From Website
 
-2022-06-28 05:13:50 PM Total New Items Found: 0 Time: 13 s
+2022-06-30 10:53:08 AM Total Items: 24 Time: 55s
 
-2022-06-28 05:13:50 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060639, sheet: 09170 Production account and income generation by industry contents and year, frequency: A, Time: 13s
+2022-06-30 10:53:08 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#3, sheet: gaku-mcy, frequency: A, Time: 55s
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:08 AM Downloading file: gaku-mcy
 
-2022-06-28 05:13:50 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:09 AM Getting Data From Website
 
-2022-06-28 05:13:51 PM Total New Items Found: 0 Time: 13 s
+2022-06-30 10:53:19 AM Total Items: 21 Time: 66s
 
-2022-06-28 05:13:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060640, sheet: 09174 Wages and salaries employment and productivity by industry contents and year, frequency: A, Time: 13s
+2022-06-30 10:53:20 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#4, sheet: kdef-cy, frequency: A, Time: 66s
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:20 AM Downloading file: kdef-cy
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:20 AM Getting Data From Website
 
-2022-06-28 05:13:51 PM Total New Items Found: 0 Time: 14 s
+2022-06-30 10:53:29 AM Total Items: 14 Time: 76s
 
-2022-06-28 05:13:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060642, sheet: 09181 Gross fixed capital formation and capital stocks by industry contents and year, frequency: A, Time: 14s
+2022-06-30 10:53:29 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#5, sheet: kgaku-jcy, frequency: A, Time: 76s
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:29 AM Downloading file: kgaku-jcy
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:30 AM Getting Data From Website
 
-2022-06-28 05:13:51 PM Total New Items Found: 0 Time: 14 s
+2022-06-30 10:53:39 AM Total Items: 7 Time: 85s
 
-2022-06-28 05:13:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060643, sheet: 09189 Final expenditure and gross domestic product by macroeconomic indicator contents and year, frequency: A, Time: 14s
+2022-06-30 10:53:39 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#6, sheet: kgaku-mcy, frequency: A, Time: 85s
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:39 AM Downloading file: kgaku-mcy
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:39 AM Getting Data From Website
 
-2022-06-28 05:13:51 PM Total New Items Found: 0 Time: 14 s
+2022-06-30 10:53:48 AM Total Items: 9 Time: 95s
 
-2022-06-28 05:13:51 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060684, sheet: 10799 Annual non-financial sector accounts. Income expenditure and saving, frequency: A, Time: 14s
+2022-06-30 10:53:49 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#1, sheet: s11dn_en, frequency: A, Time: 95s
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:49 AM Downloading file: s11dn_en
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:53:49 AM Getting Data From Website
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:54:45 AM Total Items: 4 Time: 152s
 
-2022-06-28 05:13:51 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:54:45 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#2, sheet: s11n_en, frequency: A, Time: 152s
 
-2022-06-28 05:13:52 PM Total New Items Found: 0 Time: 14 s
+2022-06-30 10:54:46 AM Downloading file: s11n_en
 
-2022-06-28 05:13:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060686, sheet: 05803 Population 1 January and population changes during the calendar year, frequency: A, Time: 14s
+2022-06-30 10:54:46 AM Getting Data From Website
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:54:58 AM Total Items: 4 Time: 165s
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:54:59 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#3, sheet: s11rn_en, frequency: A, Time: 165s
 
-2022-06-28 05:13:52 PM Total New Items Found: 0 Time: 15 s
+2022-06-30 10:54:59 AM Downloading file: s11rn_en
 
-2022-06-28 05:13:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060812, sheet: 01222 Population and changes during the quarter, frequency: Q, Time: 15s
+2022-06-30 10:54:59 AM Getting Data From Website
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:07 AM Total Items: 4 Time: 174s
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:08 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#4, sheet: s14n_en, frequency: A, Time: 174s
 
-2022-06-28 05:13:52 PM Total New Items Found: 0 Time: 15 s
+2022-06-30 10:55:08 AM Downloading file: s14n_en
 
-2022-06-28 05:13:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060813, sheet: 04542 Employed persons total, frequency: Q, Time: 15s
+2022-06-30 10:55:08 AM Getting Data From Website
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:17 AM Total Items: 5 Time: 183s
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:17 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/kakuhou/files/kako_top.html#5, sheet: s14rn_en, frequency: A, Time: 183s
 
-2022-06-28 05:13:52 PM Total New Items Found: 0 Time: 15 s
+2022-06-30 10:55:17 AM Downloading file: s14rn_en
 
-2022-06-28 05:13:52 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060814, sheet: 08518 Unemployed persons, frequency: Q, Time: 15s
+2022-06-30 10:55:17 AM Getting Data From Website
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:26 AM Total Items: 5 Time: 192s
 
-2022-06-28 05:13:52 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:26 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#7, sheet: def-qg, frequency: Q, Time: 192s
 
-2022-06-28 05:13:52 PM Total New Items Found: 0 Time: 15 s
+2022-06-30 10:55:26 AM Downloading file: def-qg
 
-2022-06-28 05:13:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060815, sheet: 03777 Persons in the labour force, frequency: Q, Time: 15s
+2022-06-30 10:55:26 AM Getting Data From Website
 
-2022-06-28 05:13:53 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:35 AM Total Items: 17 Time: 202s
 
-2022-06-28 05:13:53 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:36 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#8, sheet: gaku-jg, frequency: Q, Time: 202s
 
-2022-06-28 05:13:53 PM Total New Items Found: 0 Time: 15 s
+2022-06-30 10:55:36 AM Downloading file: gaku-jg
 
-2022-06-28 05:13:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060816, sheet: 07972 Employed persons by industry, frequency: Q, Time: 15s
+2022-06-30 10:55:36 AM Getting Data From Website
 
-2022-06-28 05:13:53 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:45 AM Total Items: 24 Time: 211s
 
-2022-06-28 05:13:53 PM Present File Exists. Reading Data From Default Path.
+2022-06-30 10:55:45 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#9, sheet: gaku-jk, frequency: Q, Time: 212s
 
-2022-06-28 05:13:53 PM Total New Items Found: 0 Time: 16 s
+2022-06-30 10:55:45 AM Downloading file: gaku-jk
 
-2022-06-28 05:13:53 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060822, sheet: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter, frequency: Q, Time: 16s
+2022-06-30 10:55:46 AM Getting Data From Website
 
-2022-06-28 05:13:53 PM Downloading file: 09190 Final expenditure and gross domestic product by contents macroeconomic indicator and quarter
+2022-06-30 10:55:55 AM Total Items: 25 Time: 221s
 
-2022-06-28 05:13:59 PM Getting Data From Website
+2022-06-30 10:55:55 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#10, sheet: gaku-mg, frequency: Q, Time: 222s
 
-2022-06-28 05:14:10 PM Total New Items Found: 0 Time: 33 s
+2022-06-30 10:55:55 AM Downloading file: gaku-mg
 
-2022-06-28 05:14:11 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060823, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Main industries), frequency: Q, Time: 33s
+2022-06-30 10:55:56 AM Getting Data From Website
 
-2022-06-28 05:14:11 PM Downloading file: 09183 Gross fixed capital formation by quarter industry and contents(Main industries)
+2022-06-30 10:56:05 AM Total Items: 21 Time: 231s
 
-2022-06-28 05:14:12 PM Getting Data From Website
+2022-06-30 10:56:05 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#11, sheet: gaku-mk, frequency: Q, Time: 232s
 
-2022-06-28 05:14:22 PM Total New Items Found: 0 Time: 44 s
+2022-06-30 10:56:05 AM Downloading file: gaku-mk
 
-2022-06-28 05:14:22 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060824, sheet: 09183 Gross fixed capital formation by quarter industry and contents(Asset type), frequency: Q, Time: 44s
+2022-06-30 10:56:06 AM Getting Data From Website
 
-2022-06-28 05:14:22 PM Downloading file: 09183 Gross fixed capital formation by quarter industry and contents(Asset type)
+2022-06-30 10:56:14 AM Total Items: 21 Time: 241s
 
-2022-06-28 05:14:23 PM Getting Data From Website
+2022-06-30 10:56:15 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#12, sheet: kdef-q, frequency: Q, Time: 242s
 
-2022-06-28 05:14:33 PM Total New Items Found: 0 Time: 56 s
+2022-06-30 10:56:15 AM Downloading file: kdef-q
 
-2022-06-28 05:14:33 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060826, sheet: 10740 Financial account, frequency: Q, Time: 56s
+2022-06-30 10:56:16 AM Getting Data From Website
 
-2022-06-28 05:14:33 PM Downloading file: 10740 Financial account
+2022-06-30 10:56:26 AM Total Items: 17 Time: 252s
 
-2022-06-28 05:14:36 PM Getting Data From Website
+2022-06-30 10:56:27 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#13, sheet: kgaku-jg, frequency: Q, Time: 253s
 
-2022-06-28 05:14:37 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
+2022-06-30 10:56:27 AM Downloading file: kgaku-jg
+
+2022-06-30 10:56:27 AM Getting Data From Website
+
+2022-06-30 10:56:36 AM Total Items: 18 Time: 262s
+
+2022-06-30 10:56:37 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#14, sheet: kgaku-jk, frequency: Q, Time: 263s
+
+2022-06-30 10:56:37 AM Downloading file: kgaku-jk
+
+2022-06-30 10:56:37 AM Getting Data From Website
+
+2022-06-30 10:56:46 AM Total Items: 18 Time: 273s
+
+2022-06-30 10:56:47 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#15, sheet: kgaku-mg, frequency: Q, Time: 274s
+
+2022-06-30 10:56:47 AM Downloading file: kgaku-mg
+
+2022-06-30 10:56:48 AM Getting Data From Website
+
+2022-06-30 10:56:57 AM Total Items: 18 Time: 283s
+
+2022-06-30 10:56:57 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#16, sheet: kgaku-mk, frequency: Q, Time: 284s
+
+2022-06-30 10:56:57 AM Downloading file: kgaku-mk
+
+2022-06-30 10:56:58 AM Getting Data From Website
+
+2022-06-30 10:57:07 AM Total Items: 18 Time: 293s
+
+2022-06-30 10:57:08 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#17, sheet: kshotoku-cy, frequency: A, Time: 294s
+
+2022-06-30 10:57:08 AM Downloading file: kshotoku-cy
+
+2022-06-30 10:57:08 AM Getting Data From Website
+
+2022-06-30 10:57:17 AM Total Items: 2 Time: 304s
+
+2022-06-30 10:57:17 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/toukei_top.html#18, sheet: kshotoku-q, frequency: Q, Time: 304s
+
+2022-06-30 10:57:17 AM Downloading file: kshotoku-q
+
+2022-06-30 10:57:18 AM Getting Data From Website
+
+2022-06-30 10:57:27 AM Total Items: 4 Time: 313s
+
+2022-06-30 10:57:27 AM Country: Japan, Reading file or url: https://www.esri.cao.go.jp/en/stat/di/di-e.html, sheet: Indexes of Business Conditions, frequency: M, Time: 314s
+
+2022-06-30 10:57:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:27 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:28 AM Total Items: 3 Time: 314s
+
+2022-06-30 10:57:28 AM Country: Japan, Reading file or url: https://www5.cao.go.jp/keizai3/getsurei-e/index-e.html, sheet: shouhi, frequency: M, Time: 315s
+
+2022-06-30 10:57:28 AM Downloading file: shouhi
+
+2022-06-30 10:57:32 AM Getting Data From Website
+
+2022-06-30 10:57:41 AM Total Items: 1 Time: 327s
+
+2022-06-30 10:57:41 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#1, sheet: BOJA, frequency: A, Time: 328s
+
+2022-06-30 10:57:41 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:41 AM Total Items: 6 Time: 328s
+
+2022-06-30 10:57:42 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: M, Time: 328s
+
+2022-06-30 10:57:45 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:46 AM Total Items: 12 Time: 332s
+
+2022-06-30 10:57:48 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#2, sheet: BOJQM, frequency: Q, Time: 335s
+
+2022-06-30 10:57:49 AM Total Items: 1 Time: 335s
+
+2022-06-30 10:57:49 AM Country: Japan, Reading file or url: https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en#3, sheet: BOJD, frequency: D, Time: 335s
+
+2022-06-30 10:57:49 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:50 AM Total Items: 1 Time: 336s
+
+2022-06-30 10:57:52 AM Country: Japan, Reading file or url: https://www.boj.or.jp/en/statistics/dl/loan/prime/index.htm, sheet: LTPLR, frequency: M, Time: 338s
+
+2022-06-30 10:57:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:52 AM Total Items: 1 Time: 338s
+
+2022-06-30 10:57:52 AM Country: Japan, Reading file or url: https://www.investing.com/economic-calendar/interest-rate-decision-165, sheet: PR, frequency: M, Time: 339s
+
+2022-06-30 10:57:52 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 10:57:52 AM Total Items: 1 Time: 339s
+
+2022-06-30 10:57:53 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: M, Time: 339s
+
+2022-06-30 10:57:53 AM Downloading file: jgbcme_all
+
+2022-06-30 10:57:56 AM Getting Data From Website
+
+2022-06-30 10:58:08 AM Total Items: 2 Time: 354s
+
+2022-06-30 10:58:08 AM Country: Japan, Reading file or url: https://www.mof.go.jp/english/jgbs/reference/interest_rate/index.htm, sheet: jgbcme_all, frequency: A, Time: 354s
+
+2022-06-30 10:58:09 AM Total Items: 2 Time: 355s
+
+2022-06-30 10:58:09 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013141&cycle=1&tclass1=000001013204&tclass2val=0, sheet: Trade Index, frequency: M, Time: 356s
+
+2022-06-30 10:58:10 AM Downloading file: T-2022
+
+2022-06-30 10:58:16 AM Getting Data From Website
+
+2022-06-30 10:58:28 AM Downloading file: T-2021
+
+2022-06-30 10:58:30 AM Getting Data From Website
+
+2022-06-30 10:58:42 AM Downloading file: T-2020
+
+2022-06-30 10:58:45 AM Getting Data From Website
+
+2022-06-30 10:58:57 AM Downloading file: T-2019
+
+2022-06-30 10:58:58 AM Getting Data From Website
+
+2022-06-30 10:59:11 AM Downloading file: T-2018
+
+2022-06-30 10:59:13 AM Getting Data From Website
+
+2022-06-30 10:59:26 AM Downloading file: T-2017
+
+2022-06-30 10:59:26 AM Getting Data From Website
+
+2022-06-30 10:59:40 AM Downloading file: T-2016
+
+2022-06-30 10:59:42 AM Getting Data From Website
+
+2022-06-30 10:59:55 AM Downloading file: T-2015
+
+2022-06-30 10:59:58 AM Getting Data From Website
+
+2022-06-30 11:00:10 AM Downloading file: T-2014
+
+2022-06-30 11:00:10 AM Getting Data From Website
+
+2022-06-30 11:00:24 AM Downloading file: T-2013
+
+2022-06-30 11:00:26 AM Getting Data From Website
+
+2022-06-30 11:00:39 AM Downloading file: T-2012
+
+2022-06-30 11:00:41 AM Getting Data From Website
+
+2022-06-30 11:00:54 AM Downloading file: T-2011
+
+2022-06-30 11:00:57 AM Getting Data From Website
+
+2022-06-30 11:01:10 AM Downloading file: T-2010
+
+2022-06-30 11:01:10 AM Getting Data From Website
+
+2022-06-30 11:01:23 AM Downloading file: T-2009
+
+2022-06-30 11:01:26 AM Getting Data From Website
+
+2022-06-30 11:01:38 AM Downloading file: T-2008
+
+2022-06-30 11:01:40 AM Getting Data From Website
+
+2022-06-30 11:01:53 AM Downloading file: T-2007
+
+2022-06-30 11:01:55 AM Getting Data From Website
+
+2022-06-30 11:02:08 AM Downloading file: T-2006
+
+2022-06-30 11:02:08 AM Getting Data From Website
+
+2022-06-30 11:02:21 AM Downloading file: T-2005
+
+2022-06-30 11:02:23 AM Getting Data From Website
+
+2022-06-30 11:02:37 AM Downloading file: T-2004
+
+2022-06-30 11:02:39 AM Getting Data From Website
+
+2022-06-30 11:02:52 AM Downloading file: T-2003
+
+2022-06-30 11:02:52 AM Getting Data From Website
+
+2022-06-30 11:03:09 AM Total Items: 21 Time: 656s
+
+2022-06-30 11:03:10 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013257&tclass3val=0, sheet: Export Values by Principal Commodity, frequency: M, Time: 657s
+
+2022-06-30 11:03:10 AM Downloading file: E-2022
+
+2022-06-30 11:03:13 AM Getting Data From Website
+
+2022-06-30 11:03:25 AM Downloading file: E-2021
+
+2022-06-30 11:03:27 AM Getting Data From Website
+
+2022-06-30 11:03:41 AM Total Items: 50 Time: 688s
+
+2022-06-30 11:03:43 AM Country: Japan, Reading file or url: https://www.e-stat.go.jp/en/stat-search/files?page=1&layout=datalist&toukei=00350300&tstat=000001013137&cycle=1&tclass1=000001013256&tclass2=000001013258&tclass3val=0, sheet: Import Values by Principal Commodity, frequency: M, Time: 690s
+
+2022-06-30 11:03:44 AM Downloading file: I-2022
+
+2022-06-30 11:03:46 AM Getting Data From Website
+
+2022-06-30 11:03:59 AM Downloading file: I-2021
+
+2022-06-30 11:04:01 AM Getting Data From Website
+
+2022-06-30 11:04:15 AM Total Items: 49 Time: 722s
+
+2022-06-30 11:04:18 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d41ma.csv, sheet: World, frequency: M, Time: 724s
+
+2022-06-30 11:04:21 AM Total Items: 2 Time: 728s
+
+2022-06-30 11:04:22 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma001.csv, sheet: Asia, frequency: M, Time: 728s
+
+2022-06-30 11:04:26 AM Total Items: 25 Time: 733s
+
+2022-06-30 11:04:31 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma002.csv, sheet: Oceania, frequency: M, Time: 737s
+
+2022-06-30 11:04:35 AM Total Items: 8 Time: 742s
+
+2022-06-30 11:04:37 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma003.csv, sheet: North America, frequency: M, Time: 743s
+
+2022-06-30 11:04:38 AM Total Items: 6 Time: 744s
+
+2022-06-30 11:04:39 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma004.csv, sheet: Middle and South America, frequency: M, Time: 746s
+
+2022-06-30 11:04:41 AM Total Items: 8 Time: 747s
+
+2022-06-30 11:04:42 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma005.csv, sheet: Western Europe, frequency: M, Time: 749s
+
+2022-06-30 11:04:44 AM Total Items: 22 Time: 751s
+
+2022-06-30 11:04:47 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma006.csv, sheet: Central and Eastern Europe, frequency: M, Time: 754s
+
+2022-06-30 11:04:49 AM Total Items: 4 Time: 755s
+
+2022-06-30 11:04:49 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma007.csv, sheet: Middle East, frequency: M, Time: 756s
+
+2022-06-30 11:04:50 AM Total Items: 10 Time: 757s
+
+2022-06-30 11:04:51 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma008.csv, sheet: Africa, frequency: M, Time: 758s
+
+2022-06-30 11:04:55 AM Total Items: 4 Time: 761s
+
+2022-06-30 11:04:55 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma010.csv, sheet: EU, frequency: M, Time: 762s
+
+2022-06-30 11:04:56 AM Total Items: 2 Time: 763s
+
+2022-06-30 11:04:57 AM Country: Japan, Reading file or url: https://www.customs.go.jp/toukei/suii/html/data/d42ma012.csv, sheet: ASEAN, frequency: M, Time: 763s
+
+2022-06-30 11:04:59 AM Total Items: 2 Time: 765s
+
+2022-06-30 11:04:59 AM Present File Exists. Reading Data From Default Path.
+
+2022-06-30 11:04:59 AM Country: Japan, Reading file or url: JP, sheet: Monthly, frequency: M, Time: 766s
+
+2022-06-30 11:05:00 AM Total Items: 3 Time: 766s
+
+2022-06-30 11:05:00 AM Country: Japan, Reading file or url: TIBOR, sheet: 0, frequency: M, Time: 767s
+
+2022-06-30 11:05:01 AM Total Items: 1 Time: 768s
+
+2022-06-30 11:05:02 AM Country: Japan, Reading file or url: https://www.jpc-net.jp/research/rd/db/#anc-01, sheet: koukougyo_LP, frequency: M, Time: 769s
+
+2022-06-30 11:05:02 AM Downloading file: koukougyo_LP
+
+2022-06-30 11:05:10 AM Getting Data From Website
+
+2022-06-30 11:05:18 AM Latest Base Year Received.
+
+2022-06-30 11:05:18 AM Total Items: 1 Time: 785s
+
+2022-06-30 11:05:19 AM Country: Japan, Reading file or url: https://www.fsa.go.jp/en/regulated/npl/index.html, sheet: Table-6, frequency: A, Time: 786s
+
+2022-06-30 11:05:19 AM Downloading file: Table-6
+
+2022-06-30 11:05:24 AM Getting Data From Website
+
+2022-06-30 11:05:36 AM Total Items: 4 Time: 802s
+
+2022-06-30 11:05:36 AM Country: Japan, Reading file or url: Nationwide_historical, sheet: 0, frequency: S, Time: 803s
+
+2022-06-30 11:05:36 AM Total Items: 5 Time: 803s
+
+2022-06-30 11:05:37 AM Country: Japan, Reading file or url: Six Large City Areas_historical, sheet: 0, frequency: S, Time: 803s
+
+2022-06-30 11:05:37 AM Total Items: 5 Time: 803s
+
+2022-06-30 11:05:37 AM Country: Japan, Reading file or url: NESLCA_historical, sheet: 0, frequency: S, Time: 804s
+
+2022-06-30 11:05:37 AM Total Items: 5 Time: 804s
+
+2022-06-30 11:05:38 AM Reading file: 158datasets, Time: 804 s
+
+2022-06-30 11:05:38 AM Country: Japan, Reading file or url: https://www.meti.go.jp/english/statistics/tyo/iip/index.html#1, sheet: gom1e, frequency: M, Time: 804s
+
+2022-06-30 11:05:38 AM Downloading file: sgo1e
+
+2022-06-30 11:05:49 AM Getting Data From Website
+
+2022-06-30 11:05:50 AM Traceback (most recent call last):
+  File "C:\Users\user\Desktop\INTLINE\INTLINE\INTLINE_extention.py", line 2186, in INTLINE_WEB
+    link_found, link_meassage = INTLINE_WEB_LINK(chrome, fname, keyword='Historical Data', text_match=True)
+  File "C:\Users\user\Desktop\INTLINE\INTLINE\INTLINE_extention.py", line 1896, in INTLINE_WEB_LINK
+    link.click()
   File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
     self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 710, in _execute
     return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
+  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
     self.error_handler.check_response(response)
   File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
     raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 850)
-  (Session info: chrome=102.0.5005.115)
+selenium.common.exceptions.WebDriverException: Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
 Stacktrace:
 Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:14:37 PM Getting Data From Website
+	Ordinal0 [0x01146463+2188387]
+	Ordinal0 [0x010DE461+1762401]
+	Ordinal0 [0x00FF3D78+802168]
+	Ordinal0 [0x00FE7210+750096]
+	Ordinal0 [0x00FE675A+747354]
+	Ordinal0 [0x00FE5D3F+744767]
+	Ordinal0 [0x00FE557C+742780]
+	Ordinal0 [0x00FF9BF3+826355]
+	Ordinal0 [0x0104CF6D+1167213]
+	Ordinal0 [0x0103C5F6+1099254]
+	Ordinal0 [0x01016BE0+945120]
+	Ordinal0 [0x01017AD6+948950]
+	GetHandleVerifier [0x013E71F2+2712546]
+	GetHandleVerifier [0x013D886D+2652765]
+	GetHandleVerifier [0x011D002A+520730]
+	GetHandleVerifier [0x011CEE06+516086]
+	Ordinal0 [0x010E468B+1787531]
+	Ordinal0 [0x010E8E88+1805960]
+	Ordinal0 [0x010E8F75+1806197]
+	Ordinal0 [0x010F1DF1+1842673]
+	BaseThreadInitThunk [0x7667FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
 
-2022-06-28 05:14:48 PM Total New Items Found: 0 Time: 71 s
 
-2022-06-28 05:14:48 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060827, sheet: 09672 Current and capital account (Exports), frequency: Q, Time: 71s
-
-2022-06-28 05:14:48 PM Downloading file: 09672 Current and capital account (Exports)
-
-2022-06-28 05:14:49 PM Getting Data From Website
-
-2022-06-28 05:14:59 PM Total New Items Found: 0 Time: 82 s
-
-2022-06-28 05:15:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060828, sheet: 09672 Current and capital account (Imports), frequency: Q, Time: 82s
-
-2022-06-28 05:15:00 PM Downloading file: 09672 Current and capital account (Imports)
-
-2022-06-28 05:15:01 PM Getting Data From Website
-
-2022-06-28 05:15:11 PM Total New Items Found: 0 Time: 94 s
-
-2022-06-28 05:15:11 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060830, sheet: 09672 Current and capital account (Balance From abroad), frequency: Q, Time: 94s
-
-2022-06-28 05:15:11 PM Downloading file: 09672 Current and capital account (Balance From abroad)
-
-2022-06-28 05:15:13 PM Getting Data From Website
-
-2022-06-28 05:15:23 PM Total New Items Found: 0 Time: 105 s
-
-2022-06-28 05:15:23 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060831, sheet: 09672 Current and capital account (Balance To abroad), frequency: Q, Time: 106s
-
-2022-06-28 05:15:23 PM Downloading file: 09672 Current and capital account (Balance To abroad)
-
-2022-06-28 05:15:25 PM Getting Data From Website
-
-2022-06-28 05:15:34 PM Total New Items Found: 0 Time: 117 s
-
-2022-06-28 05:15:35 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060832, sheet: 07221 Price for existing dwellings, frequency: Q, Time: 117s
-
-2022-06-28 05:15:35 PM Downloading file: 07221 Price for existing dwellings
-
-2022-06-28 05:15:36 PM Getting Data From Website
-
-2022-06-28 05:15:46 PM Latest Base Year Received.
-
-2022-06-28 05:15:46 PM Total New Items Found: 0 Time: 129 s
-
-2022-06-28 05:15:46 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060946, sheet: 08792 External trade in goods main figures, frequency: M, Time: 129s
-
-2022-06-28 05:15:46 PM Downloading file: 08792 External trade in goods main figures
-
-2022-06-28 05:15:47 PM Getting Data From Website
-
-2022-06-28 05:15:57 PM Total New Items Found: 0 Time: 140 s
-
-2022-06-28 05:15:58 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060947, sheet: 08864 External Trade in goods main figures seasonal adjusted, frequency: M, Time: 140s
-
-2022-06-28 05:15:58 PM Downloading file: 08864 External Trade in goods main figures seasonal adjusted
-
-2022-06-28 05:15:59 PM Getting Data From Website
-
-2022-06-28 05:16:09 PM Total New Items Found: 0 Time: 152 s
-
-2022-06-28 05:16:09 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060948, sheet: 03013 Consumer Price Index by Divisions, frequency: M, Time: 152s
-
-2022-06-28 05:16:09 PM Downloading file: 03013 Consumer Price Index by Divisions
-
-2022-06-28 05:16:12 PM Getting Data From Website
-
-2022-06-28 05:16:22 PM Latest Base Year Received.
-
-2022-06-28 05:16:22 PM Total New Items Found: 0 Time: 165 s
-
-2022-06-28 05:16:22 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060950, sheet: 08183 Consumer Price Index, frequency: M, Time: 165s
-
-2022-06-28 05:16:22 PM Downloading file: 08183 Consumer Price Index
-
-2022-06-28 05:16:24 PM Getting Data From Website
-
-2022-06-28 05:16:33 PM Latest Base Year Received.
-
-2022-06-28 05:16:34 PM Total New Items Found: 0 Time: 176 s
-
-2022-06-28 05:16:34 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060951, sheet: 03700 Harmonized index of consumer prices, frequency: M, Time: 176s
-
-2022-06-28 05:16:34 PM Downloading file: 03700 Harmonized index of consumer prices
-
-2022-06-28 05:16:36 PM Getting Data From Website
-
-2022-06-28 05:16:37 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
-    return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 902)
-  (Session info: chrome=102.0.5005.115)
+2022-06-30 11:05:50 AM = ! = Error in line 247 inside check_response: [WebDriverException] Message: unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
 Stacktrace:
 Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:16:37 PM Getting Data From Website
+	Ordinal0 [0x01146463+2188387]
+	Ordinal0 [0x010DE461+1762401]
+	Ordinal0 [0x00FF3D78+802168]
+	Ordinal0 [0x00FE7210+750096]
+	Ordinal0 [0x00FE675A+747354]
+	Ordinal0 [0x00FE5D3F+744767]
+	Ordinal0 [0x00FE557C+742780]
+	Ordinal0 [0x00FF9BF3+826355]
+	Ordinal0 [0x0104CF6D+1167213]
+	Ordinal0 [0x0103C5F6+1099254]
+	Ordinal0 [0x01016BE0+945120]
+	Ordinal0 [0x01017AD6+948950]
+	GetHandleVerifier [0x013E71F2+2712546]
+	GetHandleVerifier [0x013D886D+2652765]
+	GetHandleVerifier [0x011D002A+520730]
+	GetHandleVerifier [0x011CEE06+516086]
+	Ordinal0 [0x010E468B+1787531]
+	Ordinal0 [0x010E8E88+1805960]
+	Ordinal0 [0x010E8F75+1806197]
+	Ordinal0 [0x010F1DF1+1842673]
+	BaseThreadInitThunk [0x7667FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x76FD7A6E+238]
 
-2022-06-28 05:16:46 PM Latest Base Year Received.
-
-2022-06-28 05:16:47 PM Total New Items Found: 0 Time: 189 s
-
-2022-06-28 05:16:47 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060952, sheet: 08651 Construction cost index for residential buildings, frequency: M, Time: 189s
-
-2022-06-28 05:16:47 PM Downloading file: 08651 Construction cost index for residential buildings
-
-2022-06-28 05:16:49 PM Getting Data From Website
-
-2022-06-28 05:16:50 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
-    return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 922)
-  (Session info: chrome=102.0.5005.115)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:16:50 PM Getting Data From Website
-
-2022-06-28 05:17:00 PM Latest Base Year Received.
-
-2022-06-28 05:17:00 PM Total New Items Found: 0 Time: 203 s
-
-2022-06-28 05:17:00 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060953, sheet: 13332 Employment and unemployment for persons aged 15-74, frequency: M, Time: 203s
-
-2022-06-28 05:17:00 PM Downloading file: 13332 Employment and unemployment for persons aged 15-74
-
-2022-06-28 05:17:02 PM Getting Data From Website
-
-2022-06-28 05:17:04 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
-    return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 850)
-  (Session info: chrome=102.0.5005.115)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:17:04 PM Getting Data From Website
-
-2022-06-28 05:17:13 PM Total New Items Found: 0 Time: 216 s
-
-2022-06-28 05:17:13 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060956, sheet: 07095 Index of production by Main Industrial Groupring, frequency: M, Time: 216s
-
-2022-06-28 05:17:13 PM Downloading file: 07095 Index of production by Main Industrial Groupring
-
-2022-06-28 05:17:15 PM Getting Data From Website
-
-2022-06-28 05:17:25 PM Latest Base Year Received.
-
-2022-06-28 05:17:25 PM Total New Items Found: 0 Time: 228 s
-
-2022-06-28 05:17:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060957, sheet: 07095 Index of production by Industry, frequency: M, Time: 228s
-
-2022-06-28 05:17:25 PM Downloading file: 07095 Index of production by Industry
-
-2022-06-28 05:17:26 PM Getting Data From Website
-
-2022-06-28 05:17:37 PM Latest Base Year Received.
-
-2022-06-28 05:17:37 PM Total New Items Found: 0 Time: 239 s
-
-2022-06-28 05:17:37 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060958, sheet: 07095 Index of production by contents Total, frequency: M, Time: 240s
-
-2022-06-28 05:17:37 PM Downloading file: 07095 Index of production by contents Total
-
-2022-06-28 05:17:38 PM Getting Data From Website
-
-2022-06-28 05:17:48 PM Latest Base Year Received.
-
-2022-06-28 05:17:48 PM Total New Items Found: 0 Time: 251 s
-
-2022-06-28 05:17:48 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060959, sheet: 12462 Producer price index, frequency: M, Time: 251s
-
-2022-06-28 05:17:48 PM Downloading file: 12462 Producer price index
-
-2022-06-28 05:17:50 PM Getting Data From Website
-
-2022-06-28 05:17:51 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
-    return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 850)
-  (Session info: chrome=102.0.5005.115)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:17:51 PM Getting Data From Website
-
-2022-06-28 05:18:01 PM Latest Base Year Received.
-
-2022-06-28 05:18:01 PM Total New Items Found: 0 Time: 264 s
-
-2022-06-28 05:18:01 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060963, sheet: 12462 Producer price index Industry combined, frequency: M, Time: 264s
-
-2022-06-28 05:18:01 PM Downloading file: 12462 Producer price index Industry combined
-
-2022-06-28 05:18:03 PM Getting Data From Website
-
-2022-06-28 05:18:04 PM Traceback (most recent call last):
-  File "C:\Users\user\Desktop\Github\INTLINE\INTLINE\INTLINE_extention.py", line 4078, in INTLINE_WEB
-    WebDriverWait(chrome, 10).until(EC.element_to_be_clickable((By.ID, 'SaveAsHeaderButton'))).click()
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webelement.py", line 740, in _execute
-    return self._parent.execute(command, params)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 430, in execute
-    self.error_handler.check_response(response)
-  File "C:\Users\user\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (198, 850)
-  (Session info: chrome=102.0.5005.115)
-Stacktrace:
-Backtrace:
-	Ordinal0 [0x010FD953+2414931]
-	Ordinal0 [0x0108F5E1+1963489]
-	Ordinal0 [0x00F7C6B8+837304]
-	Ordinal0 [0x00FAFC27+1047591]
-	Ordinal0 [0x00FADC08+1039368]
-	Ordinal0 [0x00FAB90B+1030411]
-	Ordinal0 [0x00FAA659+1025625]
-	Ordinal0 [0x00FA0293+983699]
-	Ordinal0 [0x00FC449C+1131676]
-	Ordinal0 [
-2022-06-28 05:18:04 PM Getting Data From Website
-
-2022-06-28 05:18:14 PM Latest Base Year Received.
-
-2022-06-28 05:18:14 PM Total New Items Found: 0 Time: 277 s
-
-2022-06-28 05:18:14 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060960, sheet: 07129 The Index of wholesale and retail trade, frequency: M, Time: 277s
-
-2022-06-28 05:18:14 PM Downloading file: 07129 The Index of wholesale and retail trade
-
-2022-06-28 05:18:15 PM Getting Data From Website
-
-2022-06-28 05:18:25 PM Latest Base Year Received.
-
-2022-06-28 05:18:25 PM Total New Items Found: 0 Time: 288 s
-
-2022-06-28 05:18:25 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060962, sheet: 10947 Monetary aggregate M3 by financial instrument, frequency: M, Time: 288s
-
-2022-06-28 05:18:25 PM Downloading file: 10947 Monetary aggregate M3 by financial instrument
-
-2022-06-28 05:18:27 PM Getting Data From Website
-
-2022-06-28 05:18:37 PM Total New Items Found: 0 Time: 299 s
-
-2022-06-28 05:18:37 PM Country: Norway, Reading file or url: https://www.ssb.no/en/statbank/sq/10060968, sheet: 10336 First time registered private cars, frequency: M, Time: 299s
-
-2022-06-28 05:18:37 PM Downloading file: 10336 First time registered private cars
-
-2022-06-28 05:18:38 PM Getting Data From Website
-
-2022-06-28 05:18:48 PM Total New Items Found: 0 Time: 311 s
-
-2022-06-28 05:18:48 PM Country: Norway, Reading file or url: https://www.nima.no/norsk-pmi/, sheet: Purchasing Managers Index, frequency: M, Time: 311s
-
-2022-06-28 05:18:48 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:48 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:48 PM Total New Items Found: 0 Time: 311 s
-
-2022-06-28 05:18:49 PM Country: Norway, Reading file or url: https://www.nav.no/en/home/work-and-stay-in-norway/relatert-informasjon/labour-market-information-in-english, sheet: Labour Market Statistics, frequency: M, Time: 311s
-
-2022-06-28 05:18:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:49 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:49 PM Total New Items Found: 0 Time: 312 s
-
-2022-06-28 05:18:50 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:50 PM Country: Norway, Reading file or url: ei_cphi_m_1_Data, sheet: 0, frequency: M, Time: 312s
-
-2022-06-28 05:18:51 PM Total New Items Found: 0 Time: 314 s
-
-2022-06-28 05:18:51 PM Reading file: Datasets, Time: 314 s
-
-2022-06-28 05:18:52 PM Country: Norway, Reading file or url: https://www.investing.com/indices/oslo-all-share-historical-data, sheet: Oslo All Share Index, frequency: W, Time: 314s
-
-2022-06-28 05:18:52 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:52 PM Total New Items Found: 0 Time: 314 s
-
-2022-06-28 05:18:52 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: W, Time: 314s
-
-2022-06-28 05:18:52 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:52 PM Total New Items Found: 0 Time: 315 s
-
-2022-06-28 05:18:52 PM Country: Norway, Reading file or url: https://www.investing.com/indices/ose-benchamrk-historical-data, sheet: Oslo Benchmark Index, frequency: D, Time: 315s
-
-2022-06-28 05:18:52 PM Present File Exists. Reading Data From Default Path.
-
-2022-06-28 05:18:52 PM Total New Items Found: 0 Time: 315 s
-
-2022-06-28 05:18:54 PM = ! = No new items were found.
