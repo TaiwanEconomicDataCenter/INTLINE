@@ -907,7 +907,7 @@ for country in COUNTRY(TABLES):
                     options.add_argument("--disable-popup-blocking")
                     options.add_argument("ignore-certificate-errors")
                     options.add_experimental_option("excludeSwitches", ["enable-logging"])
-                    chrome = webdriver.Chrome(ChromeDriverManager().install(), options=options)
+                    chrome = webdriver.Chrome("C:\Program Files\Google\Chrome\Application\chromedriver.exe", options=options)
                     chrome.set_window_position(980,0)
                 if fname in Zip_table.index and address.find('INSEE') < 0 and address.find('DOUANES') < 0: 
                     Zip = True
