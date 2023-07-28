@@ -195,33 +195,34 @@ def Reading_Excel(file_path, tables, header, index_col, skiprows, usecols=None, 
     return INTLINE_t
 
 def INTLINE_PRESENT(file_path, check_latest_update=False, latest_update=None, forcing_download=False, freq='A', discontinued=False):
-    if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V') or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
-        if check_latest_update == True:
-            if str(latest_update).find('discontinued') >= 0:
-                return True
-            try:
-                datetime.strptime(str(latest_update),'%Y-%m-%d')
-            except ValueError:
-                try:
-                    latest_update = datetime.strptime(str(latest_update),'%Y/%m/%d').strftime('%Y-%m-%d')
-                except ValueError:
-                    return False
-        if check_latest_update == True and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != datetime.today().strftime('%Y-%V') and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != (datetime.today()-timedelta(days=7)).strftime('%Y-%V'):
-            return False
-        elif forcing_download == True:
-            return False
-        elif freq in ['W','D'] and datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') != datetime.today().strftime('%Y-%V'):
-            return False
-        else:
-            if check_latest_update == True:
-                logging.info('Latest Base Year Received.\n')
-            else:
-                logging.info('Present File Exists. Reading Data From Default Path.\n')
-            return True
-    elif file_path.find('discontinued') >= 0 or discontinued == True:
-        return True
-    else:
-        return False
+    # if os.path.isfile(file_path) and (datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == datetime.today().strftime('%Y-%V') or datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') == (datetime.today()-timedelta(days=7)).strftime('%Y-%V')):
+    #     if check_latest_update == True:
+    #         if str(latest_update).find('discontinued') >= 0:
+    #             return True
+    #         try:
+    #             datetime.strptime(str(latest_update),'%Y-%m-%d')
+    #         except ValueError:
+    #             try:
+    #                 latest_update = datetime.strptime(str(latest_update),'%Y/%m/%d').strftime('%Y-%m-%d')
+    #             except ValueError:
+    #                 return False
+    #     if check_latest_update == True and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != datetime.today().strftime('%Y-%V') and datetime.strptime(str(latest_update),'%Y-%m-%d').strftime('%Y-%V') != (datetime.today()-timedelta(days=7)).strftime('%Y-%V'):
+    #         return False
+    #     elif forcing_download == True:
+    #         return False
+    #     elif freq in ['W','D'] and datetime.fromtimestamp(os.path.getmtime(file_path)).strftime('%Y-%V') != datetime.today().strftime('%Y-%V'):
+    #         return False
+    #     else:
+    #         if check_latest_update == True:
+    #             logging.info('Latest Base Year Received.\n')
+    #         else:
+    #             logging.info('Present File Exists. Reading Data From Default Path.\n')
+    #         return True
+    # elif file_path.find('discontinued') >= 0 or discontinued == True:
+    #     return True
+    # else:
+    #     return False
+    return True
 
 def GET_NAME(address, freq, country, code, check_exist=False, DF_KEY=None):
     suffix = '.'+freq

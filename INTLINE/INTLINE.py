@@ -903,12 +903,12 @@ for country in COUNTRY(TABLES):
                     continue
                 if chrome == None:# and ((str(fname).find('http') >= 0 and address.find('COUN') < 0) or (address.find('WSA') >= 0 and steel_read == False) or Zip == True or address.find('FTD') >= 0):
                     options = Options()
-                    options.add_argument("--disable-notifications")
-                    options.add_argument("--disable-popup-blocking")
-                    options.add_argument("ignore-certificate-errors")
-                    options.add_experimental_option("excludeSwitches", ["enable-logging"])
-                    chrome = webdriver.Chrome("C:\Program Files\Google\Chrome\Application\chromedriver.exe", options=options)
-                    chrome.set_window_position(980,0)
+                    # options.add_argument("--disable-notifications")
+                    # options.add_argument("--disable-popup-blocking")
+                    # options.add_argument("ignore-certificate-errors")
+                    # options.add_experimental_option("excludeSwitches", ["enable-logging"])
+                    # chrome = webdriver.Chrome("C:\Program Files\Google\Chrome\Application\chromedriver.exe", options=options)
+                    # chrome.set_window_position(980,0)
                 if fname in Zip_table.index and address.find('INSEE') < 0 and address.find('DOUANES') < 0: 
                     Zip = True
                 else:
